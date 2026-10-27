@@ -13,7 +13,7 @@
 - Resuming predictions and genetic search without recomputing committed records.
 - Failure/interruption ledgers and explicit incomplete final aggregation refusal.
 - Configuration fingerprint refusal on resume.
-- Tagged proposer validation, recorded rejections, bounded attempts, and cached proposals.
+- Plain-text proposer validation, recorded rejections, bounded attempts, and cached proposals.
 - Whole-question bootstrap and correct-to-wrong/wrong-to-correct transitions.
 
 Command: `/home/hli/anaconda3/envs/dsai/bin/python -m pytest -q` from `/home/hli/dsai`.

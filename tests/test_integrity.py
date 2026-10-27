@@ -144,12 +144,12 @@ def test_end_to_end_synthetic_search_and_selection(tmp_path):
         assert run_search(c,11,cfg,[Q],ev,FakeProposer(),store)==chosen
         assert len(store.all('target'))==before
 
-def test_proposer_strict_output_and_rejections(tmp_path):
+def test_proposer_plain_instruction_and_rejections(tmp_path):
     class Tagged:
         def __init__(self): self.count=0
         def generate(self,messages,*args):
             self.count+=1
-            text=('bad formatting' if self.count==1 else '<instruction>Read the science question carefully and compare all four answer choices by meaning. Identify the best supported answer and return only its displayed uppercase option letter without explanation.</instruction>')
+            text=('bad formatting' if self.count==1 else 'Read the science question carefully and compare all four answer choices by meaning. Identify the best supported answer and return only its displayed uppercase option letter without explanation.')
             return [{'raw':text,'input_tokens':30,'output_tokens':10,'seconds':.1,'padded_input_tokens':30}]
     store=Store(tmp_path/'p.sqlite'); model=Tagged(); proposer=Proposer(model,store,2)
     instruction=proposer.propose([MANUAL],'mutation',42,'p1','smoke',[])

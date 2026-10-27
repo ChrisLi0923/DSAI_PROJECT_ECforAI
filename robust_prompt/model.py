@@ -116,20 +116,20 @@ class Proposer:
         request=(goal+'\nWrite a reusable instruction for science multiple-choice questions. '
                  'It must work across layouts and option orders, contain no question-specific facts or examples, '
                  'and ask for one displayed uppercase answer letter only. Use 20 to 100 words. '
-                 'Output only <instruction>YOUR INSTRUCTION</instruction>.\nParents/examples:\n'+'\n'.join(parents))
+                 'Output only the new instruction as one plain-text paragraph: no tags, headings, labels, quotes, or Markdown.\nParents/examples:\n'+'\n'.join(parents))
         for attempt_n in range(self.max_attempts):
             attempt_key=key+f'/attempt/{attempt_n}'
             saved=self.store.get(attempt_key)
             if saved is None:
                 attempt=self.store.begin('proposer',scope,1)
                 try:
-                    output=self.model.generate([[{'role':'system','content':'You edit concise, general instructions. Follow the requested output tags exactly.'},
+                    output=self.model.generate([[{'role':'system','content':'You write concise, general instruction text for a separate model. Return only that instruction paragraph.'},
                                                   {'role':'user','content':request}]],True,seed+attempt_n)[0]
-                    match=re.fullmatch(r'\s*<instruction>\s*(.*?)\s*</instruction>\s*',output['raw'],re.S)
-                    instruction=match.group(1).strip() if match else ''
+                    instruction=output['raw'].strip()
                     valid=(20<=len(instruction.split())<=100 and len(instruction)<=850 and
                            normalize(instruction) not in {normalize(x) for x in existing} and
-                           not re.search(r'<instruction>|</instruction>|\b(?:parent|crossover|mutation)\b',instruction,re.I))
+                           '\n' not in instruction and
+                           not re.search(r'[<>`]|^\s*[\"\']|\b(?:parent|crossover|mutation|YOUR INSTRUCTION)\b',instruction,re.I))
                     saved={**output,'instruction':instruction,'accepted':valid,'operation':operation,
                            'seed':seed+attempt_n,'parents':parents,'scope':scope,'attempt':attempt_n}
                     self.store.put(attempt_key,'proposer',scope,saved); self.store.finish(attempt)
