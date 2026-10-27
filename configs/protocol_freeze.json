@@ -1,6 +1,6 @@
 {
   "config_sha256": "ab2239fa0c6df32f7bb5518fa8f9cefa553581389f65ef47d022e6d952284e1e",
-  "source_sha256": "432577d423d6d07751b92b04680a1b2ff015584c013cc355423854a8cde2512a",
+  "source_sha256": "e5f6df6a28cdbd1fff9517065f8ffbfcef29f3d53603df4e792334886f85a004",
   "data_manifest": {
     "data_config": {
       "dataset": "allenai/ai2_arc",

@@ -12,7 +12,7 @@ source /home/hli/anaconda3/etc/profile.d/conda.sh
 conda activate dsai
 ```
 
-`bash scripts/setup.sh` prepares the environment/assets on this host; it does not run an experiment. CUDA wheels use the PyTorch CUDA 12.4 index. Exact resolved packages are saved in requirements-lock.txt. The pinned Hugging Face model and dataset commit IDs live in configs/main.json. All target weights stay fixed; the same local model acts as proposer. GPU UUID `GPU-d33b074a-05c8-31c7-8080-8c9dea9275ed` is physical GPU **2** at preparation time. Other jobs share the machine. The launcher exposes only this UUID, checks availability, and the model caps its process allocator to half the 24 GB device. The launcher refuses an existing compute process on GPU 2. It also stops if less than 14 GiB is free; it never stops another job or silently selects another GPU.
+`bash scripts/setup.sh` prepares the environment/assets on this host; it does not run an experiment. CUDA wheels use the PyTorch CUDA 12.4 index. Exact resolved packages are saved in requirements-lock.txt. The pinned Hugging Face model and dataset commit IDs live in configs/main.json. All target weights stay fixed; the same local model acts as proposer. GPU UUID `GPU-d33b074a-05c8-31c7-8080-8c9dea9275ed` is physical GPU **2** at preparation time. Other jobs share the machine. The launcher exposes only this UUID, checks availability, and the model caps its process allocator to half the 24 GB device. The launcher waits, polling every 30 seconds, while a compute process is present on GPU 2 or less than 14 GiB is free; it never stops another job or silently selects another GPU.
 
 ## Launch in tmux — user runs this after preparation
 

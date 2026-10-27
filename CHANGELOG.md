@@ -35,3 +35,8 @@
 - The two-question smoke pilot hit the robust-floor flag (0/2), with no invalid responses or repeat disagreements. This is explicitly not the full pilot. Full 100-question gate and task remain unchanged and can stop the long workflow.
 - Froze configs/main.json and protocol_freeze.json using measured 38.57 target requests/s and 2.806 s/proposer call. Common search budget 12,800/method/seed permits B/D/E 20 candidates, C 100. Maximum nominal total target calls 301,953. Inference projection 2.52–3.55 h; planning allowance 3–5 h with documented exclusions. Frozen preflight passed.
 - No full pilot/search/test workflow or tmux job launched. runs/main does not exist at preparation completion. Final empirical report sections remain pending user-run outputs.
+
+## 2026-10-28 — final handoff availability check
+- Confirmed final smoke process exited successfully. A new unrelated user's job subsequently occupied GPU 2; all four GPUs became busy. No other job was terminated or altered.
+- Changed only the user-run launcher to poll every 30 seconds until GPU 2 has no compute process and >=14 GiB free, then start the frozen workflow. It logs waiting rather than requiring repeated manual retries. Runtime estimates exclude this unbounded availability wait.
+- Preserved the previous freeze in configs/protocol_freeze_pre_wait.json and re-froze the launcher source before any main run. Scientific configuration and Python pipeline unchanged. Frozen preflight, shell syntax and diff checks passed. No tmux session or main workflow launched by the agent.

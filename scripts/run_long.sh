@@ -26,9 +26,13 @@ if [ -f runs/main/COMPLETE.json ]; then
   exit 0
 fi
 nvidia-smi --id="$CUDA_VISIBLE_DEVICES" --query-gpu=index,uuid,name,memory.free,utilization.gpu --format=csv
-dsai_gpu_pids="$(nvidia-smi --id="$CUDA_VISIBLE_DEVICES" --query-compute-apps=pid --format=csv,noheader)"
-if [ -n "$dsai_gpu_pids" ]; then
-  echo "Selected GPU has an existing compute process; no experiment started. Retry when GPU 2 is available." >&2
-  exit 2
-fi
+while true; do
+  dsai_gpu_pids="$(nvidia-smi --id="$CUDA_VISIBLE_DEVICES" --query-compute-apps=pid --format=csv,noheader)"
+  dsai_gpu_free="$(nvidia-smi --id="$CUDA_VISIBLE_DEVICES" --query-gpu=memory.free --format=csv,noheader,nounits)"
+  if [ -z "$dsai_gpu_pids" ] && [ "$dsai_gpu_free" -ge 14336 ]; then
+    break
+  fi
+  printf '%s Waiting for GPU 2 to be free; currently %s MiB free. No inference started.\n' "$(date --iso-8601=seconds)" "$dsai_gpu_free"
+  sleep 30
+done
 python -m robust_prompt.workflow --config configs/main.json --run-dir runs/main --data-dir data --allow-long-run

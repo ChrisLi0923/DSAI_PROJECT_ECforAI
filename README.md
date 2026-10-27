@@ -20,7 +20,7 @@ Isolated environment: `/home/hli/anaconda3/envs/dsai`. Recreate with `bash scrip
 tmux new-session -s dsai 'bash /home/hli/dsai/scripts/run_long.sh'
 ```
 
-The script selects **physical GPU 2**, UUID `GPU-d33b074a-05c8-31c7-8080-8c9dea9275ed`, exposes only it, refuses existing GPU compute jobs, checks free memory, caps this process's allocator, and verifies frozen code/config/data/packages. It preserves other jobs. No background job or tmux session is created by the agent.
+The script selects **physical GPU 2**, UUID `GPU-d33b074a-05c8-31c7-8080-8c9dea9275ed`, exposes only it, waits while existing GPU compute jobs are present, checks free memory, caps this process's allocator, and verifies frozen code/config/data/packages. It preserves other jobs. No background job or tmux session is created by the agent.
 
 Detach: **Ctrl-b**, then **d**. Reattach:
 
@@ -56,6 +56,8 @@ Completed records are reused. Concurrent launch is refused. Code/config/data/pac
 Five seen formats: vertical baseline, inline, bullets, two cyclic option rotations. Canonical option indices preserve answer identity when letters change. Identical-input repeats run separately and never enter robustness scores. Three predeclared formats are withheld from search/selection and inferred only after every final prompt is frozen. Invalid outputs count incorrect; raw responses and tokens are retained.
 
 Disjoint pools: **100 pilot / 128 search / 100 selection-validation / 1,109 screened official-test questions**. Test data receive duplicate-removal priority. The local proposer and initial populations are shared consistently; three search seeds and equal target-call budgets are used. C may evaluate more candidates. Matching calls does not match tokens, proposer effort, or runtime. See [full protocol](docs/protocol.md), [budget and runtime](docs/feasibility.md), and configs/main.json.
+
+**GPU availability:** all devices became busy with unrelated jobs after the smoke. The script logs a 30-second polling wait for GPU 2 and starts only when it has no compute process and at least 14 GiB free. GPU waiting time is additional and unbounded.
 
 Measured inference estimate: **2.5–3.6 hours**; allow roughly **3–5 hours** for overhead and variability. See [exclusions and limits](docs/feasibility.md). The two-question smoke pilot hit the robust-score floor; the full 100-question pilot remains mandatory and may stop the run.
 
