@@ -115,7 +115,9 @@ class Proposer:
               'random':'Independently invent a fresh instruction. The supplied examples illustrate the task only; do not optimize against scores.'}[operation]
         request=(goal+'\nWrite a reusable instruction for science multiple-choice questions. '
                  'It must work across layouts and option orders, contain no question-specific facts or examples, '
-                 'and ask for one displayed uppercase answer letter only. Use 20 to 100 words. '
+                 'and ask for one displayed uppercase answer letter only. Use 20 to 100 words for YOUR edit. '
+                 'Your output will be a system message to the question-answering model: address that model directly. '
+                 'Tell it to solve the question, never to write or edit instructions. Never mention prompts, instructions, editing, or word counts in the output. '
                  'Output only the new instruction as one plain-text paragraph: no tags, headings, labels, quotes, or Markdown.\nParents/examples:\n'+'\n'.join(parents))
         for attempt_n in range(self.max_attempts):
             attempt_key=key+f'/attempt/{attempt_n}'
@@ -129,7 +131,8 @@ class Proposer:
                     valid=(20<=len(instruction.split())<=100 and len(instruction)<=850 and
                            normalize(instruction) not in {normalize(x) for x in existing} and
                            '\n' not in instruction and
-                           not re.search(r'[<>`]|^\s*[\"\']|\b(?:parent|crossover|mutation|YOUR INSTRUCTION)\b',instruction,re.I))
+                           not re.search(r'[<>`]|^\s*[\"\']|\b(?:parents?|crossover|mutation|instructions?|prompts?|rewrite|craft|paragraph|word count|YOUR INSTRUCTION)\b',instruction,re.I) and
+                           not re.search(r'\b\d+\s*(?:to|-)\s*\d+\s*words\b',instruction,re.I))
                     saved={**output,'instruction':instruction,'accepted':valid,'operation':operation,
                            'seed':seed+attempt_n,'parents':parents,'scope':scope,'attempt':attempt_n}
                     self.store.put(attempt_key,'proposer',scope,saved); self.store.finish(attempt)

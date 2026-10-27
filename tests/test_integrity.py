@@ -149,7 +149,7 @@ def test_proposer_plain_instruction_and_rejections(tmp_path):
         def __init__(self): self.count=0
         def generate(self,messages,*args):
             self.count+=1
-            text=('bad formatting' if self.count==1 else 'Read the science question carefully and compare all four answer choices by meaning. Identify the best supported answer and return only its displayed uppercase option letter without explanation.')
+            text=('Write a reusable instruction for a separate science question model. Tell it how to compare options and return a letter. Keep your prompt between twenty and one hundred words.' if self.count==1 else 'Read the science question carefully and compare all four answer choices by meaning. Identify the best supported answer and return only its displayed uppercase option letter without explanation.')
             return [{'raw':text,'input_tokens':30,'output_tokens':10,'seconds':.1,'padded_input_tokens':30}]
     store=Store(tmp_path/'p.sqlite'); model=Tagged(); proposer=Proposer(model,store,2)
     instruction=proposer.propose([MANUAL],'mutation',42,'p1','smoke',[])
