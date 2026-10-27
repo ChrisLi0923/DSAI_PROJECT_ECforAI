@@ -1,0 +1,24 @@
+{
+  "evidence": "real model preparation checks only",
+  "attempts": [
+    {
+      "attempt": "smoke-proposer-tags-failed",
+      "target_calls": 12,
+      "proposer_calls": 4,
+      "inference_seconds": 12.025068908929825
+    },
+    {
+      "attempt": "smoke-plain-unfiltered",
+      "target_calls": 312,
+      "proposer_calls": 25,
+      "inference_seconds": 86.1886933967471
+    },
+    {
+      "attempt": "smoke",
+      "target_calls": 312,
+      "proposer_calls": 27,
+      "inference_seconds": 83.83790960162878
+    }
+  ],
+  "total_inference_seconds": 182.05167190730572
+}

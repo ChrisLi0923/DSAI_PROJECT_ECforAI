@@ -2,7 +2,7 @@
 
 Course project due **Friday, 30 October 2026**; target completion **Thursday night, 29 October, Asia/Shanghai**. Frozen Qwen2.5-3B-Instruct on screened ARC-Challenge. This is an incremental, controlled **EvoPrompt-style** study; no positive outcome is assumed.
 
-The implementation covers the full pilot → checkpoint → searches → validation selection → prompt freeze → final test → analysis workflow. **The main experiment is not launched during preparation.** Software checks and the tiny real-model smoke are distinct from pilot/final evidence. See [verification](docs/verification.md).
+The implementation covers the full pilot → checkpoint → searches → validation selection → prompt freeze → final test → analysis workflow. **The main experiment is not launched during preparation.** Software checks and the tiny real-model smoke are distinct from pilot/final evidence. Verified: 24 software checks and a 97-second real-model pipeline smoke. See [verification](docs/verification.md).
 
 ## Activate
 
@@ -56,6 +56,8 @@ Completed records are reused. Concurrent launch is refused. Code/config/data/pac
 Five seen formats: vertical baseline, inline, bullets, two cyclic option rotations. Canonical option indices preserve answer identity when letters change. Identical-input repeats run separately and never enter robustness scores. Three predeclared formats are withheld from search/selection and inferred only after every final prompt is frozen. Invalid outputs count incorrect; raw responses and tokens are retained.
 
 Disjoint pools: **100 pilot / 128 search / 100 selection-validation / 1,109 screened official-test questions**. Test data receive duplicate-removal priority. The local proposer and initial populations are shared consistently; three search seeds and equal target-call budgets are used. C may evaluate more candidates. Matching calls does not match tokens, proposer effort, or runtime. See [full protocol](docs/protocol.md), [budget and runtime](docs/feasibility.md), and configs/main.json.
+
+Measured inference estimate: **2.5–3.6 hours**; allow roughly **3–5 hours** for overhead and variability. See [exclusions and limits](docs/feasibility.md). The two-question smoke pilot hit the robust-score floor; the full 100-question pilot remains mandatory and may stop the run.
 
 ## Outputs and writing
 
