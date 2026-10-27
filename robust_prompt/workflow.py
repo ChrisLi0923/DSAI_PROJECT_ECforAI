@@ -17,12 +17,14 @@ from .storage import Store
 OBJECTIVES={'B':'robust','C':'original','D':'average','E':'robust'}
 
 def source_hash():
-    root=Path(__file__).parent
-    return digest({p.name:p.read_text() for p in sorted(root.glob('*.py'))})
+    root=Path(__file__).resolve().parents[1]
+    files=list((root/'robust_prompt').glob('*.py'))+list((root/'scripts').glob('*.py'))+list((root/'scripts').glob('*.sh'))
+    return digest({str(p.relative_to(root)):p.read_text() for p in sorted(files)})
 
 def environment():
     packages={d.metadata['Name']:d.version for d in importlib.metadata.distributions()}
     return {'python':platform.python_version(),'platform':platform.platform(),'packages':packages,
+            'working_directory':str(Path.cwd()),'declared_timezone':'Asia/Shanghai',
             'git_commit':subprocess.check_output(['git','rev-parse','HEAD'],text=True).strip()}
 
 def open_run(config,path,data_manifest):
@@ -31,7 +33,7 @@ def open_run(config,path,data_manifest):
     try: fcntl.flock(lock,fcntl.LOCK_EX|fcntl.LOCK_NB)
     except BlockingIOError: raise RuntimeError('Another process already owns this run')
     fingerprint={'config':config,'source_sha256':source_hash(),'data_manifest':data_manifest,
-                 'packages':environment()['packages']}
+                 'packages':environment()['packages'],'python':platform.python_version()}
     frozen=path/'reproducibility.json'
     if frozen.exists():
         old=read_json(frozen)
@@ -132,7 +134,8 @@ def run(config,run_dir,data_dir,allow_long=False):
         proposer=Proposer(model,store,config['search']['max_proposal_attempts'])
         splits=smoke_splits(data_dir) if smoke else {name:read_json(Path(data_dir)/f'{name}.json') for name in ('pilot','search','validation')}
         status('pilot')
-        rows=evaluator.evaluate(MANUAL,splits['pilot'],SEEN+(REPEAT,),'pilot')
+        rows=evaluator.evaluate(MANUAL,splits['pilot'],SEEN,'pilot')
+        rows+=evaluator.evaluate(MANUAL,splits['pilot'],(REPEAT,),'pilot')
         diagnostic=diagnostics(rows,config['pilot_thresholds'])
         atomic_json(root/'pilot_diagnostic.json',{'evidence':'real-model smoke' if smoke else 'full pilot',**diagnostic})
         if smoke:
@@ -170,9 +173,10 @@ def run(config,run_dir,data_dir,allow_long=False):
         else: atomic_json(frozen_file,freeze)
         status('final_evaluation')
         tests=splits['test'] if smoke else read_json(Path(data_dir)/'test.json')
-        templates=SEEN+(REPEAT,) if smoke else SEEN+WITHHELD+(REPEAT,)
+        templates=SEEN if smoke else SEEN+WITHHELD
         for label,pick in selected.items():
             evaluator.evaluate(pick['prompt'],tests,templates,'final/'+label)
+            evaluator.evaluate(pick['prompt'],tests,(REPEAT,),'final/'+label)
             logging.info('Final evaluation complete: %s',label)
         # Release GPU before CPU bootstrap/plots.
         del proposer,evaluator,model

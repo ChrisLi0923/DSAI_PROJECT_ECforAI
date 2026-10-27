@@ -11,6 +11,7 @@ def check(root):
     assert source_hash()==frozen['source_sha256'],'Frozen implementation changed'
     assert verify_data(root/'data')==frozen['data_manifest'],'Frozen data changed'
     assert environment()['packages']==frozen['packages'],'Frozen environment changed'
+    assert environment()['python']==frozen['python'],'Frozen Python version changed'
     assert config['mode']=='main'
     assert config['data']['pilot_n']==100
     assert len(config['search']['seeds'])==3

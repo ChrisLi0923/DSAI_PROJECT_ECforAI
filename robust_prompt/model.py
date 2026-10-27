@@ -31,7 +31,7 @@ class LocalModel:
         self.hardware={'gpu':torch.cuda.get_device_name(0),'visible_devices':os.getenv('CUDA_VISIBLE_DEVICES'),
             'free_gib_before_load':free/2**30,'total_gib':total/2**30,'torch':torch.__version__,
             'cuda':torch.version.cuda,'load_seconds':self.load_seconds,'dtype':'bfloat16',
-            'deterministic_algorithms':True,'attention':'sdpa','memory_fraction':config['memory_fraction']}
+            'deterministic_algorithms':True,'cpu_threads':4,'tf32':False,'attention':'sdpa','memory_fraction':config['memory_fraction']}
 
     def generate(self, messages, proposer=False, seed=0):
         torch=self.torch
@@ -54,14 +54,18 @@ class LocalModel:
         self.inference_seconds+=elapsed
         generated=outputs[:,inputs['input_ids'].shape[1]:].tolist()
         results=[]
-        eos=self.tokenizer.eos_token_id
+        eos_ids=self.model.generation_config.eos_token_id
+        eos_set=set(eos_ids if isinstance(eos_ids,list) else [eos_ids]) | {self.tokenizer.eos_token_id}
         for toks, n in zip(generated,input_lengths):
-            # Include the generated EOS in token costs, exclude batch padding after EOS.
-            if eos in toks: toks=toks[:toks.index(eos)+1]
-            results.append({'raw':self.tokenizer.decode(toks,skip_special_tokens=True),
+            # Count any configured EOS exactly once, excluding subsequent batch padding.
+            stop=next((i for i,t in enumerate(toks) if t in eos_set),None)
+            if stop is not None: toks=toks[:stop+1]
+            results.append({'raw':self.tokenizer.decode(toks,skip_special_tokens=True,clean_up_tokenization_spaces=False),
+                            'raw_with_special_tokens':self.tokenizer.decode(toks,skip_special_tokens=False,clean_up_tokenization_spaces=False),
+                            'output_token_ids':toks,
                             'input_tokens':n,'output_tokens':len(toks),'seconds':elapsed/len(messages),
                             'padded_input_tokens':inputs['input_ids'].shape[1],
-                            'finish_reason':'eos' if eos in toks else 'length'})
+                            'finish_reason':'eos' if stop is not None else 'length'})
         return results
 
 class Evaluator:

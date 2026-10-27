@@ -174,3 +174,13 @@ def test_transitions_valid_pairs_and_content_flip():
     # q2 is wrong original, becomes correct under both unchanged-order layouts.
     assert v['q2']['seen_layout_wrong_to_correct']==(2,2)
     assert v['q2']['seen_layout_semantic_flip_rate']==(2,2)
+
+def test_repeat_is_an_independent_request(tmp_path):
+    s=Store(tmp_path/'repeat.sqlite'); m=FakeModel(); ev=Evaluator(m,s,16)
+    original=ev.evaluate(MANUAL,[Q],('original',),'pilot')
+    repeat=ev.evaluate(MANUAL,[Q],(REPEAT,),'pilot')
+    assert m.calls==2 and len(s.attempts())==2
+    assert original[0]['input_text']==repeat[0]['input_text']
+    assert original[0]['mapping']==repeat[0]['mapping']
+    ev.evaluate(MANUAL,[Q],(REPEAT,),'pilot')
+    assert m.calls==2  # Resuming does not create an additional repeat.

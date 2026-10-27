@@ -2,7 +2,7 @@
 set -euo pipefail
 source /home/hli/anaconda3/etc/profile.d/conda.sh
 if ! conda env list | awk '{print $1}' | grep -qx dsai; then
-  conda create -y -n dsai python=3.11 pip
+  conda create -y -n dsai python=3.11.18 pip
 fi
 conda activate dsai
 cd /home/hli/dsai
@@ -12,6 +12,6 @@ if [ -f requirements-lock.txt ]; then
 else
   python -m pip install --no-cache-dir -r requirements.txt
 fi
-python -m pip install --no-deps -e .
-HF_HUB_DISABLE_XET=1 python scripts/prepare_assets.py
+python -m pip install --no-deps --no-build-isolation -e .
+HF_HUB_DISABLE_XET=0 python scripts/prepare_assets.py
 python -m pip freeze --exclude-editable > requirements-lock.txt

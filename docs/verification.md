@@ -31,3 +31,5 @@ Command: `/home/hli/anaconda3/envs/dsai/bin/python -m pytest -q` from `/home/hli
 **Not launched during preparation.** Final empirical results require `runs/main/COMPLETE.json`. No conclusions have been populated in advance.
 
 Development preview spot-check: inspected the eight designated smoke questions and mappings in the pilot preview; their question/option strings are preserved under the listed transformations. All prepared splits pass automated identity/content preservation checks. Numeric source labels occur in four search and one validation question and are covered by the numeric-label test. This is a limited spot-check, not a completed independent human audit of the entire dataset.
+
+Tokenization-only development check: 1,640 question/presentation inputs, maximum 249 tokens with the fixed manual instruction, versus a 1,536-token cap. Adding the 160-token proposer generation cap leaves substantial headroom. This check performed no inference and inspected no final-test model responses. Runtime still refuses truncation for every actual input.

@@ -43,6 +43,9 @@ report={'evidence':'tiny real-model smoke; not pilot or final results','target_c
         'selection_count':len(store.all('selection'))}
 atomic_json(root/'runs/smoke/benchmark.json',report)
 assert report['completed'] and report['selection_count']==4
+for artifact in ('metrics.csv','paired_comparisons.csv','seed_variation.csv','costs.csv',
+                 'changed_examples.csv','predictions.jsonl','performance.png','performance.pdf','results_summary.md'):
+    assert (root/'runs/smoke/analysis'/artifact).is_file(),artifact
 assert all(report['accepted_operations'][op]>0 for op in ('mutation','crossover'))
 assert all(r['template'] not in WITHHELD for r in targets)
 assert len(targets)==312, f'Unexpected smoke accounting: {len(targets)}'

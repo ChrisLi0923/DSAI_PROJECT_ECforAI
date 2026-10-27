@@ -21,5 +21,14 @@ fi
 exec > >(tee -a runs/main/logs/workflow.log) 2>&1
 printf '\nLaunch/resume: %s\n' "$(date --iso-8601=seconds)"
 python -m robust_prompt.preflight
+if [ -f runs/main/COMPLETE.json ]; then
+  echo 'This frozen run is already complete. See runs/main/analysis/results_summary.md.'
+  exit 0
+fi
 nvidia-smi --id="$CUDA_VISIBLE_DEVICES" --query-gpu=index,uuid,name,memory.free,utilization.gpu --format=csv
+dsai_gpu_pids="$(nvidia-smi --id="$CUDA_VISIBLE_DEVICES" --query-compute-apps=pid --format=csv,noheader)"
+if [ -n "$dsai_gpu_pids" ]; then
+  echo "Selected GPU has an existing compute process; no experiment started. Retry when GPU 2 is available." >&2
+  exit 2
+fi
 python -m robust_prompt.workflow --config configs/main.json --run-dir runs/main --data-dir data --allow-long-run

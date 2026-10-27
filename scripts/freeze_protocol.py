@@ -33,7 +33,7 @@ if base_seconds>12*3600:
 atomic_json(root/'configs/main.json',config)
 atomic_json(root/'configs/runtime_estimate.json',estimate)
 freeze={'config_sha256':digest(config),'source_sha256':source_hash(),'data_manifest':manifest,
-        'packages':environment()['packages'],'benchmark':benchmark,'runtime_estimate':estimate,
+        'packages':environment()['packages'],'python':environment()['python'],'benchmark':benchmark,'runtime_estimate':estimate,
         'evidence_policy':'Full pilot/search/final not yet launched; no final-test or withheld-template inference during preparation.'}
 path=root/'configs/protocol_freeze.json'
 if path.exists():

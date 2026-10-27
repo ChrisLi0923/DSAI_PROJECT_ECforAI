@@ -32,6 +32,7 @@ Top three search candidates per condition/seed are selected on the disjoint vali
 
 Import runs/main/analysis/tables.md, paired_comparisons.csv, seed_variation.csv, costs.csv, performance.pdf, and the factual results_summary.md only after COMPLETE.json exists. These are generated automatically from actual predictions. No synthetic tables belong in this section.
 
+### E−A: comparison with the fixed manual baseline — PENDING
 ### E−B: evolutionary search value — PENDING
 ### D−C: augmented exposure — PENDING
 ### E−D: robust fitness versus augmented mean — PENDING

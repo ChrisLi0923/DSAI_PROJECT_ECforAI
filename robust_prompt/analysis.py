@@ -62,10 +62,10 @@ def bootstrap_ratio(pairs,reps,seed):
     return {'estimate':point,'ci_low':ci[0],'ci_high':ci[1],'numerator':float(num),'denominator':float(den),
             'question_groups':n,'bootstrap_valid_replicates':len(valid)}
 
-def write_csv(path,rows):
-    if not rows: return
+def write_csv(path,rows,fieldnames=None):
+    fields=fieldnames or (list(rows[0]) if rows else [])
     with Path(path).open('w',newline='') as f:
-        writer=csv.DictWriter(f,fieldnames=list(rows[0])); writer.writeheader(); writer.writerows(rows)
+        writer=csv.DictWriter(f,fieldnames=fields); writer.writeheader(); writer.writerows(rows)
 
 def aggregate(root,config,store):
     root=Path(root); output=root/'analysis'; output.mkdir(exist_ok=True)
@@ -106,19 +106,19 @@ def aggregate(root,config,store):
                 'input_tokens':sum(r['input_tokens'] for r in rs),'output_tokens':sum(r['output_tokens'] for r in rs),
                 'padded_input_token_slots':sum(r.get('padded_input_tokens',0) for r in rs),
                 'inference_seconds':sum(r['seconds'] for r in rs),
-                'candidate_count':store.count('candidate',scope) if kind=='target' else None,
+                'candidate_count':len({r['prompt'] for r in rs}) if kind=='target' else None,
                 'question_groups':len({r.get('qid') for r in rs}) if kind=='target' else None,
                 'candidate_question_groups':len({(r.get('prompt'),r.get('qid')) for r in rs}) if kind=='target' else None})
     # Paired group bootstrap of seed-averaged right minus left. This interval is conditional on 3 searched seeds.
     comparisons=[]
-    for left,right in [('B','E'),('C','D'),('D','E')]:
+    for left,right in [('B','E'),('C','D'),('D','E'),('A','E')]:
         for metric in ('original_accuracy','seen_average_accuracy','seen_all_correct')+(() if smoke else ('withheld_average_accuracy','withheld_all_correct')):
-            seeds=config['search']['seeds']; qids=sorted(vectors[f'{left}/{seeds[0]}'])
+            seeds=config['search']['seeds']; qids=sorted(vectors['A/manual' if left=='A' else f'{left}/{seeds[0]}'])
             differences=[]
             for qid in qids:
                 values=[]
                 for seed in seeds:
-                    x=vectors[f'{left}/{seed}'][qid][metric]; y=vectors[f'{right}/{seed}'][qid][metric]
+                    x=vectors['A/manual' if left=='A' else f'{left}/{seed}'][qid][metric]; y=vectors[f'{right}/{seed}'][qid][metric]
                     values.append(y[0]/y[1]-x[0]/x[1])
                 differences.append((float(np.mean(values)),1))
             comparisons.append({'comparison':f'{right} minus {left}','metric':metric,
@@ -132,13 +132,21 @@ def aggregate(root,config,store):
                                  'min':min(vals),'max':max(vals)})
     write_csv(output/'metrics.csv',metric_rows); write_csv(output/'paired_comparisons.csv',comparisons)
     write_csv(output/'seed_variation.csv',seed_summary); write_csv(output/'costs.csv',cost)
-    write_csv(output/'changed_examples.csv',changed)
+    write_csv(output/'changed_examples.csv',changed,fieldnames=['label','qid','template','gold_identity',
+        'original_letter','variant_letter','original_identity','variant_identity','original_valid','variant_valid',
+        'original_correct','variant_correct','original_raw','variant_raw','original_input','variant_input'])
     atomic_json(output/'candidates.json',store.all('candidate'))
     atomic_json(output/'proposer_responses.json',proposals)
     atomic_json(output/'attempts.json',store.attempts())
     atomic_json(output/'stage_timing.json',store.all('stage'))
     with (output/'predictions.jsonl').open('w') as f:
         for r in targets: f.write(json.dumps(r,ensure_ascii=False)+'\n')
+    atomic_json(output/'metric_definitions.json',{'seen_formats':SEEN,'withheld_formats':[] if smoke else WITHHELD,
+        'seen_layout':['inline','bullets'],'seen_order':['rotate1','rotate2'],
+        'withheld_layout':[] if smoke else ['table','choices_first'],'withheld_order':[] if smoke else ['reverse'],
+        'repeat_excluded_from_fitness':True,'accuracy_denominator':'all requested responses; invalid counts incorrect',
+        'semantic_flip_and_transition_denominator':'original-variant pairs where both outputs are valid',
+        'robustness_denominator':'all whole question groups; any invalid presentation fails its group'})
     atomic_json(output/'statistics.json',{'metrics':metric_rows,'comparisons':comparisons,'seed_variation':seed_summary,'costs':cost})
     import matplotlib
     matplotlib.use('Agg')

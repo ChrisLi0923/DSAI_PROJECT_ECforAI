@@ -1,0 +1,12 @@
+{
+  "evidence": "tokenization only; no model predictions",
+  "development_requests_scanned": 1640,
+  "max_tokens_manual_prompt": 249,
+  "max_location": [
+    "pilot",
+    "MSA_2013_8_4",
+    "bullets"
+  ],
+  "predeclared_input_cap": 1536,
+  "proposer_generated_token_cap": 160
+}
