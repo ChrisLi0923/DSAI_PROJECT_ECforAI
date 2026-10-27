@@ -20,7 +20,21 @@ Isolated environment: `/home/hli/anaconda3/envs/dsai`. Recreate with `bash scrip
 tmux new-session -s dsai 'bash /home/hli/dsai/scripts/run_long.sh'
 ```
 
-The script selects **physical GPU 2**, UUID `GPU-d33b074a-05c8-31c7-8080-8c9dea9275ed`, exposes only it, waits while existing GPU compute jobs are present, checks free memory, caps this process's allocator, and verifies frozen code/config/data/packages. It preserves other jobs. No background job or tmux session is created by the agent.
+By default the script polls **all GPUs** and selects one with no compute processes, utilization at most 10%, and at least 14 GiB free. It exposes only that GPU to the model, retains the 50% PyTorch allocator limit, and verifies frozen code/config/data/packages. It preserves other jobs. No background job or tmux session is created by the agent.
+
+To permit sharing an already-used GPU, run inside tmux:
+
+```bash
+bash /home/hli/dsai/scripts/run_long.sh --share
+```
+
+Shared mode requires at least **16 GiB free**, prefers a GPU without compute processes, then lower utilization and more free memory. To explicitly share physical GPU 2:
+
+```bash
+bash /home/hli/dsai/scripts/run_long.sh --share --gpu 2
+```
+
+A selection is a snapshot, not a reservation. Sharing can slow both workloads and free memory can change. The allocator limit does not reserve memory or isolate jobs. The launcher revalidates the frozen files before inference; the model rechecks free memory before loading. Each launch stays on one device, with no migration during inference. Selection history is saved in runs/main/gpu_selection.json.
 
 Detach: **Ctrl-b**, then **d**. Reattach:
 
@@ -57,7 +71,7 @@ Five seen formats: vertical baseline, inline, bullets, two cyclic option rotatio
 
 Disjoint pools: **100 pilot / 128 search / 100 selection-validation / 1,109 screened official-test questions**. Test data receive duplicate-removal priority. The local proposer and initial populations are shared consistently; three search seeds and equal target-call budgets are used. C may evaluate more candidates. Matching calls does not match tokens, proposer effort, or runtime. See [full protocol](docs/protocol.md), [budget and runtime](docs/feasibility.md), and configs/main.json.
 
-**GPU availability:** all devices became busy with unrelated jobs after the smoke. The script logs a 30-second polling wait for GPU 2 and starts only when it has no compute process and at least 14 GiB free. GPU waiting time is additional and unbounded.
+**GPU availability:** default mode polls all devices every 30 seconds. `--share` permits existing workloads when the 16 GiB free-memory threshold is met. An existing waiting launcher must be cancelled with Ctrl+C before restarting in a different mode. GPU waiting time is additional and unbounded; shared-GPU contention can also increase runtime.
 
 Measured inference estimate: **2.5–3.6 hours**; allow roughly **3–5 hours** for overhead and variability. See [exclusions and limits](docs/feasibility.md). The two-question smoke pilot hit the robust-score floor; the full 100-question pilot remains mandatory and may stop the run.
 
