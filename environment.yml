@@ -1,0 +1,7 @@
+name: dsai
+channels:
+  - defaults
+dependencies:
+  - python=3.11.18
+  - pip
+# Install CUDA PyTorch and the pip lock with scripts/setup.sh after creation.

@@ -1,0 +1,10 @@
+# Install torch first from the CUDA 12.4 wheel index (see scripts/setup.sh).
+torch==2.6.0
+transformers==4.51.3
+huggingface-hub==0.30.2
+datasets==3.5.0
+numpy==2.2.5
+matplotlib==3.10.1
+pytest==8.3.5
+accelerate==1.6.0
+hf_xet==1.1.10

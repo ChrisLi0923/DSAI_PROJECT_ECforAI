@@ -1,0 +1,14 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "format-robust-prompt"
+version = "0.1.0"
+requires-python = ">=3.11"
+
+[tool.setuptools.packages.find]
+include = ["robust_prompt*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
