@@ -116,3 +116,9 @@ Rebuild analysis from a **completed** saved run with:
 ```
 
 The one-page proposal is docs/proposal.pdf (source: docs/proposal.md); primary-source overlap/version notes are docs/literature.md; the report scaffold is docs/report.md. Actual results sections remain explicitly pending. Return with the saved main outputs to interpret findings and finish the report by Thursday night. No prewritten conclusion assumes a positive outcome.
+
+## Protocol v2 proposer recovery
+
+The local proposer receives a deterministic seed-derived reasoning emphasis. After a rejected attempt, the next request includes the actual rejection reasons and previous rejected text, and uses another seeded emphasis. All operations and initialization share this mechanism. Four attempts and strict whole-output validity/uniqueness checks remain unchanged; no manual prompt fallback or unbounded retry is introduced. These conventional edit guides are not a novelty claim. Full requests, focuses, seeds, policies and rejection reasons are retained.
+
+The v1 run stopped on four exact duplicate outputs after 12 B/11 candidates. It is archived intact, including its passing full pilot, and excluded from final comparisons. V2 restarts all conditions/seeds and reruns the pilot under a new frozen fingerprint. The target model, parser, transformations, source splits, budgets, validation rule and final-test isolation remain unchanged.

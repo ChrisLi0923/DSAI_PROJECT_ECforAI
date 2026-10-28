@@ -16,7 +16,7 @@ Describe immutable dataset revision, screening, canonical option identities, exa
 
 ## 3. Search methods and fairness
 
-A fixed manual; B random with robust selection; C–E shared EvoPrompt-style GA with original, average, robust fitness. Formula: robust(p) = mean over questions of product over five presentations of indicator(valid and correct). Original/average objectives use the corresponding finite pool. Invalid responses always fail correctness. Explain initialization, bounded local proposer retries and failures, alternating mutation/crossover, tournament parents, elitist population, fixed output contract, uniform full-pool candidate evaluation, recorded seeds, and tie-breaking by earlier candidate. The same initial population is reused per seed across B–E.
+A fixed manual; B random with robust selection; C–E shared EvoPrompt-style GA with original, average, robust fitness. Formula: robust(p) = mean over questions of product over five presentations of indicator(valid and correct). Original/average objectives use the corresponding finite pool. Invalid responses always fail correctness. Explain initialization, deterministic seeded reasoning emphasis, rejection feedback with the prior rejected text, bounded local proposer retries and failures, alternating mutation/crossover, tournament parents, elitist population, fixed output contract, uniform full-pool candidate evaluation, recorded seeds, and tie-breaking by earlier candidate. The same initial population is reused per seed across B–E.
 
 Provide the frozen call budget and resulting candidate counts. Original-only C can search more prompts and incurs more proposer work, a deliberate consequence of target-call matching. Proposer calls/tokens and total runtime are not matched. Shared initialization proposer cost is reported once. This is not full EvoPrompt, GEPA, or MO-CAPO reproduction.
 
@@ -27,6 +27,8 @@ State predeclared diagnostic thresholds and whether the full 100-question pilot 
 ## 5. Selection and final evaluation
 
 Top three search candidates per condition/seed are selected on the disjoint validation pool using robust fitness; no final-test candidate sweep. Freeze all 13 prompts before the first test prediction. Report original, seen-average, seen-all-correct, withheld-average, withheld-all-correct, and combined eight-format robustness. The three-format withheld and five-format seen all-correct rates have different difficulty from group size alone. Separate layout/order flips and valid-pair transition rates. Identical repeats are excluded from robustness.
+
+A v1 development run stopped on duplicate-collapse after 12 B/11 candidates. The preserved pilot passed, but partial search outputs are excluded from final comparisons. V2 restarts all conditions/seeds with the revised common proposer policy before any final-test inference. Document this implementation revision and avoid treating it as an optimization result.
 
 ## 6. Actual results — PENDING
 

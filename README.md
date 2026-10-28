@@ -2,7 +2,7 @@
 
 Course project due **Friday, 30 October 2026**; target completion **Thursday night, 29 October, Asia/Shanghai**. Frozen Qwen2.5-3B-Instruct on screened ARC-Challenge. This is an incremental, controlled **EvoPrompt-style** study; no positive outcome is assumed.
 
-The implementation covers the full pilot → checkpoint → searches → validation selection → prompt freeze → final test → analysis workflow. **The main experiment is not launched during preparation.** Software checks and the tiny real-model smoke are distinct from pilot/final evidence. Verified: 24 software checks and a 97-second real-model pipeline smoke. See [verification](docs/verification.md).
+The implementation covers the full pilot → checkpoint → searches → validation selection → prompt freeze → final test → analysis workflow. **The main experiment is not launched during preparation.** Software checks and the tiny real-model smoke are distinct from pilot/final evidence. Verified protocol v2: 33 software checks, a 30-instruction proposer regression, and a 102-second real-model pipeline smoke. See [verification](docs/verification.md).
 
 ## Activate
 
@@ -57,6 +57,10 @@ bash /home/hli/dsai/scripts/run_long.sh
 
 Completed records are reused. Concurrent launch is refused. Code/config/data/package changes are refused. A changed protocol needs a new run directory. Retry attempts are retained separately from nominal completed-request budgets. **Only `runs/main/COMPLETE.json` marks final completion.** A pilot diagnostic stop exits before search/test; an incomplete run has no final empirical result.
 
+## Recovery protocol v2
+
+The original main run stopped after 12 candidates when four proposer retries copied an existing prompt. All records are preserved at runs/main_proposer_v1_failed_20261028. Protocol v2 adds seeded reasoning emphasis and explicit rejection feedback, retaining validity checks and four attempts. All conditions/seeds restart under the same revised proposer. Start with the command above; do not copy old predictions into the fresh main run. No final-test data informed the change. See [recovery verification](docs/verification.md).
+
 ## Frozen study
 
 | Condition | Search fitness / process |
@@ -73,7 +77,7 @@ Disjoint pools: **100 pilot / 128 search / 100 selection-validation / 1,109 scre
 
 **GPU availability:** default mode polls all devices every 30 seconds. `--share` permits existing workloads when the 16 GiB free-memory threshold is met. An existing waiting launcher must be cancelled with Ctrl+C before restarting in a different mode. GPU waiting time is additional and unbounded; shared-GPU contention can also increase runtime.
 
-Measured inference estimate: **2.5–3.6 hours**; allow roughly **3–5 hours** for overhead and variability. See [exclusions and limits](docs/feasibility.md). The two-question smoke pilot hit the robust-score floor; the full 100-question pilot remains mandatory and may stop the run.
+Measured inference estimate: **2.8–4.0 hours**; allow roughly **3–5 hours** for overhead and variability. See [exclusions and limits](docs/feasibility.md). The archived v1 full pilot passed, but v2 repeats the mandatory 100-question gate before searching.
 
 ## Outputs and writing
 

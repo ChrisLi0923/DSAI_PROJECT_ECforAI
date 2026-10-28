@@ -1,15 +1,15 @@
 {
-  "check": "completed real-model smoke resume",
+  "check": "protocol v2 completed-run resume",
   "before": [
     312,
-    27,
-    79
+    25,
+    77
   ],
   "after": [
     312,
-    27,
-    79
+    25,
+    77
   ],
   "new_inference_attempts": 0,
-  "seconds": 0.19194917380809784
+  "seconds": 0.18779533356428146
 }

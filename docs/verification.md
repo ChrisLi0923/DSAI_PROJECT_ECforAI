@@ -1,53 +1,36 @@
 # Verification evidence
 
-## Synthetic integrity checks (software evidence only)
+## Latest software checks — protocol v2
 
-24 tests passed; latest run after proposer filtering: 2.92 seconds. Covered:
+**33 tests passed in 3.05 seconds.** Covered option identities (including numeric labels), changed-letter/same-content and same-letter/changed-content cases, strict parsing and invalid denominators, split and withheld-format isolation, fitness, budgets, partial-batch recovery, incomplete-run detection, frozen-config rejection, proposer rejection/cache, whole-group bootstrap, independent repeats, and idle/shared GPU selection. New regression tests verify explicit duplicate feedback and saved seeded edit focus. Synthetic fixtures are software evidence only.
 
-- Canonical remapping, including numeric source answer labels.
-- Different letters selecting the same content, and identical letters selecting different content.
-- Five distinct presentations, exact identical-input repeat, strict parsing, invalid penalties and valid-pair denominators.
-- Each pilot stop criterion.
-- Uniform full-candidate budgets and fivefold candidate advantage for original-only evaluation.
-- Split and held-out-template isolation.
-- Resuming predictions and genetic search without recomputing committed records.
-- Failure/interruption ledgers and explicit incomplete final aggregation refusal.
-- Configuration fingerprint refusal on resume.
-- Plain-text proposer validation, recorded rejections, bounded attempts, and cached proposals.
-- Whole-question bootstrap and correct-to-wrong/wrong-to-correct transitions.
+## User-run protocol v1: actual pilot and incomplete search
 
-Command: `/home/hli/anaconda3/envs/dsai/bin/python -m pytest -q` from `/home/hli/dsai`.
+The user-run 100-question pilot passed: **69% all-five-correct**, **0% invalid**, **31% semantic-flip groups**, **1% identical-repeat disagreement**. The repeat rate was at the predeclared allowed threshold. This is pilot evidence, not a final result.
 
-## Real-model smoke
+B/11 stopped after 12 candidates because all four attempts for candidate index 12 copied an existing prompt exactly. The full run is preserved at runs/main_proposer_v1_failed_20261028, with a verified all-records hash, diagnosis, 600 pilot plus 7,680 search predictions, and all rejected proposer outputs. No final-test or selection-validation predictions existed. These partial searches will not be mixed into protocol v2.
 
-Completed the final bounded real-model smoke in **97.14 seconds wall time**. It used eight questions drawn only from the pilot pool, in four disjoint two-question pools. No official-test or withheld-format prediction was generated.
+## Real-model proposer regression — protocol v2
 
-- 312 target requests; all 312 produced valid uppercase single-letter responses.
-- 32 candidates: B/D/E four each, C twenty; each method used exactly 40 target calls.
-- 27 proposer attempts, 25 accepted, 22 distinct accepted instruction texts across conditions; 11 accepted mutation and 11 crossover operations. Duplicate texts across conditions are compatible with identical seeds/parents; duplicates within one search are rejected.
-- Accepted instruction texts were manually inspected for reusable QA directives and absence of instruction-writing/word-count leakage. Diversity was primarily wording/paraphrase diversity; broad strategy diversity is **not established**. Some edits have poor wording, which remains subject to fitness selection.
-- Four validation selections, five frozen prompts (including fixed manual), tiny seen-format evaluation, CSV/JSON/JSONL tables, whole-group intervals, PDF/PNG figures, and factual smoke summary all completed. Figure inspected visually.
-- Real completed-run resume preserved (312 target, 27 proposer, 79 inference attempts) and added **zero** inference attempts in 0.19 seconds. Synthetic interruption tests separately verify partial-batch recovery.
-- Target inference throughput: **38.57 requests/s**. Proposer generation: **2.806 s/call**. Detailed counters are in docs/smoke_benchmark.json and the raw runs/smoke records.
+Reused the exact failed parents and starting seed, retaining all 12 old candidate texts as exclusions. Generated **30 fresh accepted instructions from 31 calls**, with 1 rejection, in **105.27 seconds inference**. No target questions or withheld templates were evaluated. Raw records: runs/proposer_recovery_v2.
 
-Earlier smoke attempts are preserved: XML-envelope validation failed; a plain-text version completed but manual inspection found meta-instruction leakage. Both issues were addressed before the main freeze. Combined measured model inference over all preparation attempts was approximately **182.1 seconds**, below five minutes. Setup/download time is separate.
+## Complete real-model smoke — protocol v2
 
-The two-question smoke pilot had zero all-five-correct groups, no invalid outputs, and no repeat disagreement. Its diagnostic records the robust-floor flag and bypasses the gate **only in smoke mode**. Two questions cannot establish full-pilot feasibility. No question or target transformation was changed in response. The user-run 100-question pilot retains the original mandatory thresholds and may stop before search.
+Completed in **102.37 seconds wall time** using eight pilot questions in four disjoint two-question pools. **No official-test or withheld-template prediction** was generated.
 
-The model emitted a Transformers sliding-window/SDPA warning. The pinned config explicitly has `use_sliding_window=false`, and the 1,536-token input cap is below its 32,768-token window. The exact warning is retained in the log.
+- 312 target requests; all parsed as valid uppercase single letters.
+- 32 candidates (B/D/E four each; C twenty), exactly 40 target calls per method.
+- 25 proposer calls and 25 accepted edits, 21 distinct texts across conditions; 11 mutation and 11 crossover edits. Shared seeds/parents can yield duplicate texts across methods; each individual search rejects repeats.
+- Four validation selections, five frozen prompts including manual, tiny seen-format final stage, bootstrap tables, costs, changed-example export, figures and factual smoke summary all completed. Accepted texts and PNG were inspected.
+- Completed-run resume preserved (312 target, 25 proposer, 77 attempts), adding **zero inference attempts** in 0.19 seconds.
+- Measured throughput: **34.58 target requests/s**; proposer **3.197 s/call**.
 
-## Full 100-question pilot
+Combined new recovery regression + smoke inference: **194.22 seconds**, under five minutes. Earlier preparation attempts and the user's incomplete main run are accounted separately. No claim of optimization effectiveness follows from the smoke or lexical diversity checks; local proposer strategy diversity remains limited.
 
-**Not launched during preparation.** The user-launched main script runs it first. Its saved diagnostic decides whether search proceeds.
+## Integrity and remaining work
 
-## Main searches and final results
+The two-question smoke pilot still cannot establish full-pilot feasibility. Protocol v2 retains the original 100-question pilot and thresholds and reruns that gate from scratch. No source questions or target transformations were changed based on scores. Final testing and actual conclusions remain pending.
 
-**Not launched during preparation.** Final empirical results require `runs/main/COMPLETE.json`. No conclusions have been populated in advance.
+Development tokenization-only check: 1,640 inputs, maximum 249 tokens with the manual prompt against a 1,536-token cap. Automated remapping/split checks pass; human semantic review is a limited spot-check. The retained Transformers sliding-window warning was checked against the pinned config: use_sliding_window=false and input cap below the 32,768-token window.
 
-Development preview spot-check: inspected the eight designated smoke questions and mappings in the pilot preview; their question/option strings are preserved under the listed transformations. All prepared splits pass automated identity/content preservation checks. Numeric source labels occur in four search and one validation question and are covered by the numeric-label test. This is a limited spot-check, not a completed independent human audit of the entire dataset.
-
-Tokenization-only development check: 1,640 question/presentation inputs, maximum 249 tokens with the fixed manual instruction, versus a 1,536-token cap. Adding the 160-token proposer generation cap leaves substantial headroom. This check performed no inference and inspected no final-test model responses. Runtime still refuses truncation for every actual input.
-
-## GPU launcher update — 28 October
-
-31 software tests pass in 2.86 seconds after adding seven GPU-selection checks. They cover selection across all devices, exclusion of busy compute/graphics devices in idle mode, shared-mode headroom, utilization ranking, explicit index/UUID restriction, and absence of suitable devices. Real **selection-only** checks confirmed idle mode waits and shared mode finds a qualifying device; these performed no model loading or inference. Shell syntax and help were checked. The earlier real-model pipeline smoke remains the inference evidence; search/evaluation code and scientific parameters were unchanged by this launcher update.
+Frozen v2 preflight passed. The launcher and GPU policy remain unchanged. A revised full pilot/search/test run has **not** been started by the agent.

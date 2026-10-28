@@ -26,7 +26,8 @@
     "population": 2,
     "target_calls_per_method_seed": 40,
     "validation_shortlist": 2,
-    "max_proposal_attempts": 4
+    "max_proposal_attempts": 4,
+    "proposer_policy": "seeded_focus_rejection_feedback_v2"
   },
   "pilot_thresholds": {
     "max_invalid_rate": 0.05,
@@ -37,5 +38,6 @@
   "analysis": {
     "bootstrap_replicates": 100,
     "seed": 9182
-  }
+  },
+  "protocol_version": 2
 }

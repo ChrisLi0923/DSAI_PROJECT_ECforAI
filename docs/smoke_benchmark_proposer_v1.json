@@ -1,0 +1,26 @@
+{
+  "evidence": "tiny real-model smoke; not pilot or final results",
+  "target_calls": 312,
+  "target_seconds": 8.088497385382658,
+  "target_calls_per_second": 38.57329552505501,
+  "target_input_tokens": 38929,
+  "target_output_tokens": 624,
+  "proposer_calls": 27,
+  "proposer_seconds": 75.74941221624613,
+  "proposer_input_tokens": 6108,
+  "proposer_output_tokens": 1058,
+  "proposer_seconds_per_call": 2.805533785786894,
+  "proposer_accepted": 25,
+  "unique_accepted_instructions": 22,
+  "accepted_operations": {
+    "random": 3,
+    "mutation": 11,
+    "crossover": 11
+  },
+  "pairwise_word_jaccard_distance_min": 0.0,
+  "pairwise_word_jaccard_distance_mean": 0.6420946928635196,
+  "candidate_count": 32,
+  "total_wall_seconds": 97.137420296669,
+  "completed": true,
+  "selection_count": 4
+}

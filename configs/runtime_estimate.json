@@ -6,9 +6,9 @@
   "total_target_calls_max": 301953,
   "proposer_calls_no_rejections": 441,
   "proposer_calls_max": 1764,
-  "measured_target_calls_per_second": 38.57329552505501,
-  "measured_proposer_seconds_per_call": 2.805533785786894,
-  "projected_inference_hours_no_rejections": 2.518131281750748,
-  "projected_inference_hours_max_proposer_retries": 3.5491649480274314,
+  "measured_target_calls_per_second": 34.58033831266687,
+  "measured_proposer_seconds_per_call": 3.1973158207535746,
+  "projected_inference_hours_no_rejections": 2.817206547903422,
+  "projected_inference_hours_max_proposer_retries": 3.99222011203036,
   "limitations": "Tiny smoke uses 2-question pools, batch up to 16 and small search population. Extrapolation excludes downloads/setup (already completed), model loading, CPU bootstrap/plots, disk/log overhead, resume retries, and changes in shared-GPU contention. Longer prompts/questions may reduce throughput. Pilot may stop the run early."
 }
