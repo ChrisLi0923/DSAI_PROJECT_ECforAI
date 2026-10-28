@@ -19,11 +19,16 @@
     "validation_n": 100
   },
   "search": {
-    "seeds": [11, 29, 47],
+    "seeds": [
+      11,
+      29,
+      47
+    ],
     "population": 4,
     "target_calls_per_method_seed": 12800,
     "validation_shortlist": 3,
-    "max_proposal_attempts": 4
+    "max_proposal_attempts": 4,
+    "proposer_policy": "seeded_focus_rejection_feedback_v2"
   },
   "pilot_thresholds": {
     "max_invalid_rate": 0.05,
@@ -31,5 +36,9 @@
     "min_semantic_flip_group_rate": 0.02,
     "min_robust_rate": 0.02
   },
-  "analysis": {"bootstrap_replicates": 2000, "seed": 9182}
+  "analysis": {
+    "bootstrap_replicates": 2000,
+    "seed": 9182
+  },
+  "protocol_version": 2
 }

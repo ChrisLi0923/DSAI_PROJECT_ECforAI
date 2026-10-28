@@ -103,6 +103,36 @@ class Evaluator:
                 raise
         return results
 
+PROPOSER_POLICY = 'seeded_focus_rejection_feedback_v2'
+EDIT_FOCI = (
+    'Identify the scientific principle relevant to the question before comparing choices.',
+    'Eliminate choices that contradict the question and compare the remaining alternatives.',
+    'Pay attention to negation, qualifiers, and exactly what the question asks.',
+    'Evaluate each option by meaning, independently of its displayed position.',
+    'Resolve the answer content first, then map it to its current displayed letter.',
+    'Use causal reasoning and distinguish causes from effects when relevant.',
+    'Check units, quantities, and physical plausibility when relevant.',
+    'Read the whole question and all choices before committing to an answer.',
+    'Contrast the most plausible alternatives using evidence from the question.',
+    'Use concise scientific reasoning and avoid unsupported assumptions.',
+    'Check that the chosen answer directly addresses the question rather than a nearby fact.',
+    'Ignore decorative layout differences while retaining all question and option content.',
+)
+
+
+def instruction_rejection_reasons(instruction, existing):
+    reasons = []
+    if not 20 <= len(instruction.split()) <= 100 or len(instruction) > 850:
+        reasons.append('length_outside_bounds')
+    if normalize(instruction) in {normalize(x) for x in existing}:
+        reasons.append('duplicate_existing_instruction')
+    if '\n' in instruction or re.search(r'[<>`]|^\s*[\"\']', instruction):
+        reasons.append('not_single_plain_paragraph')
+    if re.search(r'\b(?:parents?|crossover|mutation|instructions?|prompts?|rewrite|craft|paragraph|word count|YOUR INSTRUCTION)\b', instruction, re.I) or re.search(r'\b\d+\s*(?:to|-)\s*\d+\s*words\b', instruction, re.I):
+        reasons.append('meta_instruction_or_word_count')
+    return reasons
+
+
 class Proposer:
     def __init__(self,model,store,max_attempts=4):
         self.model=model; self.store=store; self.max_attempts=max_attempts
@@ -110,30 +140,36 @@ class Proposer:
         old=self.store.get(key)
         if old: return old['instruction']
         if operation not in ('mutation','crossover','random'): raise ValueError(operation)
-        goal={'mutation':'Improve and rewrite the parent instruction using a substantially different reasoning strategy.',
-              'crossover':'Combine useful ideas from BOTH parent instructions into a new coherent instruction, then mutate its wording.',
-              'random':'Independently invent a fresh instruction. The supplied examples illustrate the task only; do not optimize against scores.'}[operation]
+        goal={'mutation':'Improve and rewrite the supplied text using a different reasoning approach.',
+              'crossover':'Combine useful ideas from BOTH supplied texts into a coherent new paragraph with fresh wording.',
+              'random':'Independently invent a fresh paragraph. Supplied texts illustrate the task only; do not optimize against scores.'}[operation]
         request=(goal+'\nWrite a reusable instruction for science multiple-choice questions. '
                  'It must work across layouts and option orders, contain no question-specific facts or examples, '
                  'and ask for one displayed uppercase answer letter only. Use 20 to 100 words for YOUR edit. '
                  'Your output will be a system message to the question-answering model: address that model directly. '
                  'Tell it to solve the question, never to write or edit instructions. Never mention prompts, instructions, editing, or word counts in the output. '
-                 'Output only the new instruction as one plain-text paragraph: no tags, headings, labels, quotes, or Markdown.\nParents/examples:\n'+'\n'.join(parents))
+                 'Do not copy a supplied paragraph. Apply the requested reasoning emphasis and use fresh wording. '
+                 'Output only the new instruction as one plain-text paragraph: no tags, headings, labels, quotes, or Markdown.\nSupplied texts:\n'+'\n'.join(parents))
+        previous=None
         for attempt_n in range(self.max_attempts):
             attempt_key=key+f'/attempt/{attempt_n}'
             saved=self.store.get(attempt_key)
+            focus=EDIT_FOCI[int(digest([seed,attempt_n])[:16],16) % len(EDIT_FOCI)]
+            attempt_request=request+'\nReasoning emphasis for this edit: '+focus
+            if previous is not None:
+                reasons=previous.get('rejection_reasons') or instruction_rejection_reasons(previous['raw'].strip(),existing)
+                attempt_request+=('\nThe previous output was rejected for: '+', '.join(reasons)+
+                    '. Produce a different whole paragraph. A different random seed alone is insufficient. '
+                    'Keep the science-QA task and use the new reasoning emphasis.\nPrevious rejected output:\n'+previous['raw'])
             if saved is None:
                 attempt=self.store.begin('proposer',scope,1)
                 try:
                     output=self.model.generate([[{'role':'system','content':'You write concise, general instruction text for a separate model. Return only that instruction paragraph.'},
-                                                  {'role':'user','content':request}]],True,seed+attempt_n)[0]
+                                                  {'role':'user','content':attempt_request}]],True,seed+attempt_n)[0]
                     instruction=output['raw'].strip()
-                    valid=(20<=len(instruction.split())<=100 and len(instruction)<=850 and
-                           normalize(instruction) not in {normalize(x) for x in existing} and
-                           '\n' not in instruction and
-                           not re.search(r'[<>`]|^\s*[\"\']|\b(?:parents?|crossover|mutation|instructions?|prompts?|rewrite|craft|paragraph|word count|YOUR INSTRUCTION)\b',instruction,re.I) and
-                           not re.search(r'\b\d+\s*(?:to|-)\s*\d+\s*words\b',instruction,re.I))
-                    saved={**output,'instruction':instruction,'accepted':valid,'operation':operation,
+                    reasons=instruction_rejection_reasons(instruction,existing)
+                    saved={**output,'instruction':instruction,'accepted':not reasons,'rejection_reasons':reasons,
+                           'operation':operation,'policy':PROPOSER_POLICY,'focus':focus,'request':attempt_request,
                            'seed':seed+attempt_n,'parents':parents,'scope':scope,'attempt':attempt_n}
                     self.store.put(attempt_key,'proposer',scope,saved); self.store.finish(attempt)
                 except BaseException as e:
@@ -141,4 +177,5 @@ class Proposer:
             if saved['accepted']:
                 self.store.put(key,'proposal',scope,saved)
                 return saved['instruction']
-        raise RuntimeError(f'Proposer failed {self.max_attempts} valid/diverse edit attempts for {key}; diagnostic stop, no manual fallback.')
+            previous=saved
+        raise RuntimeError(f'Proposer failed {self.max_attempts} valid/diverse edit attempts for {key}; diagnostic stop, no manual fallback. Last reasons: {previous.get("rejection_reasons")}')

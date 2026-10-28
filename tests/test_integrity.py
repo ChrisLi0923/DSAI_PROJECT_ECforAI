@@ -184,3 +184,29 @@ def test_repeat_is_an_independent_request(tmp_path):
     assert original[0]['mapping']==repeat[0]['mapping']
     ev.evaluate(MANUAL,[Q],(REPEAT,),'pilot')
     assert m.calls==2  # Resuming does not create an additional repeat.
+
+def test_duplicate_retry_gets_feedback_and_seeded_focus(tmp_path):
+    from robust_prompt.model import instruction_rejection_reasons
+    duplicate=MANUAL
+    fresh='Read the entire science question and compare each answer by meaning. Eliminate alternatives inconsistent with the relevant scientific principle, then return only the displayed uppercase letter of the best supported choice.'
+    class Repeating:
+        def __init__(self): self.requests=[]
+        def generate(self,messages,*args):
+            self.requests.append(messages[0][-1]['content'])
+            return [{'raw':duplicate if len(self.requests)==1 else fresh,'input_tokens':20,'output_tokens':10,'seconds':.01}]
+    s=Store(tmp_path/'feedback.sqlite'); m=Repeating(); p=Proposer(m,s,4)
+    assert p.propose([duplicate],'random',1100120,'regression','stress',[duplicate])==fresh
+    records=s.all('proposer')
+    assert records[0]['rejection_reasons']==['duplicate_existing_instruction']
+    assert 'duplicate_existing_instruction' in m.requests[1] and duplicate in m.requests[1]
+    assert all(r['focus'] and r['policy']=='seeded_focus_rejection_feedback_v2' for r in records)
+    assert p.propose([duplicate],'random',1100120,'regression','stress',[duplicate])==fresh
+    assert len(m.requests)==2
+    assert instruction_rejection_reasons(fresh,[])==[]
+
+def test_rejection_reasons_distinguish_invalid_from_duplicate():
+    from robust_prompt.model import instruction_rejection_reasons
+    assert 'length_outside_bounds' in instruction_rejection_reasons('A',[])
+    assert 'duplicate_existing_instruction' in instruction_rejection_reasons(MANUAL,[MANUAL])
+    text='Write an instruction for a model that solves science questions and explain how to edit the prompt into a single paragraph.'
+    assert 'meta_instruction_or_word_count' in instruction_rejection_reasons(text,[])
