@@ -1,0 +1,92 @@
+{
+  "config": {
+    "model": {
+      "name": "Qwen/Qwen2.5-3B-Instruct",
+      "revision": "aa8e72537993ba99e69dfaafa59ed015b17504d1",
+      "batch_size": 1,
+      "target_max_tokens": 8,
+      "proposer_max_tokens": 160,
+      "max_input_tokens": 1536,
+      "min_free_gib": 18,
+      "memory_fraction": 0.4
+    },
+    "targets": [
+      1.0,
+      2.0,
+      3.0
+    ],
+    "protocol_version": 1,
+    "study": "Study 2 post-study active-node/decision-utility repair",
+    "search": {
+      "seeds": [
+        191
+      ],
+      "population": 8,
+      "policy_evaluation_budget": 48,
+      "max_trial_edits": 8,
+      "random_exploration": 0.2,
+      "utility_call_penalty": 0.01,
+      "hill_restart_after": 8,
+      "variants": [
+        "G0",
+        "G1",
+        "G2",
+        "G3",
+        "hill"
+      ]
+    },
+    "analysis": {
+      "primary_cap": 3.0,
+      "bootstrap_replicates": 30,
+      "bootstrap_seed": 291029,
+      "comparisons": [
+        [
+          "G1",
+          "G0"
+        ],
+        [
+          "G2",
+          "G1"
+        ],
+        [
+          "G2",
+          "G3"
+        ],
+        [
+          "G2",
+          "ordered_triple"
+        ],
+        [
+          "G2",
+          "hill"
+        ],
+        [
+          "G2",
+          "legacy_greedy"
+        ]
+      ],
+      "metrics": [
+        "accuracy",
+        "calls",
+        "utility",
+        "tokens",
+        "invalid"
+      ],
+      "unit": "whole_question",
+      "seed_aggregation": "average_fitted_seeds_within_question",
+      "interval_scope": "conditional_on_fitted_policies",
+      "test_frontier": "descriptive_only"
+    },
+    "new_final": {
+      "requested_n": 1000,
+      "reservation_seed": 20261029,
+      "source": "newly held-out official training subset"
+    }
+  },
+  "evidence": "cached end-to-end smoke, all pools previously queried development material",
+  "pool_hashes": {
+    "search": "8176eb19412c02b6664ed00d1cc3eb22f5c57b83dd52d164e13167b3c63065e8",
+    "validation": "4f4545ec4e25012ec6ed2612323be64ba241c0e473bf33b13f10cec451838fd8",
+    "test": "7bc192f25796682fdec455ecaf8b0c692eba491b2443f1c71fb8d8675e778963"
+  }
+}

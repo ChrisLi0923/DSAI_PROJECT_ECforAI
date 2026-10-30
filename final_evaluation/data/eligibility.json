@@ -1,0 +1,11002 @@
+[
+  {
+    "id": "obqa/train/12-715",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/8-265",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/13-278",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/13-626",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/10-648",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/9-96",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/12-596",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/13-683",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/7-784",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/7-329",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/7-764",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/14-1319",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/1230",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/13-696",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/9-237",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/8-383",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/14-595",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/14-923",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/12-919",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/14-1309",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/12-619",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/10-727",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/14-892",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/13-327",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/9-82",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/10-836",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/12-811",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/8-145",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/7-622",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/7-745",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/10-871",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/1363",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/12-937",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/9-345",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/9-286",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/10-1177",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/13-988",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/11-602",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/9-184",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/8-32",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/10-874",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/14-326",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/12-382",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/8-285",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/14-1111",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/9-319",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/9-1195",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/10-499",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/13-649",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/9-1137",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/1115",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/14-1013",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/9-1079",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/10-544",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/9-403",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/13-851",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/9-760",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/14-103",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/7-568",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/10-350",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/14-409",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/13-231",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/10-389",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/12-944",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/13-233",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/12-891",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/14-1274",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/10-757",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/8-87",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/12-161",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/12-195",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/1175",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/12-636",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/10-527",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/10-434",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/12-1",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/12-474",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/9-356",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/9-761",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/12-911",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/8-120",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/13-49",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/12-1205",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/11-445",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/9-936",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/11-583",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/11-124",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/7-663",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/7-293",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/14-611",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/14-1372",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/13-867",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/10-449",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/10-385",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/13-291",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/11-442",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/10-1201",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/904",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/11-603",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/14-264",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/8-397",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/7-467",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/13-145",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/12-199",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/7-455",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/10-933",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/14-677",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/13-30",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/14-554",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/14-376",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/1443",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/14-1022",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/10-1183",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/7-936",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/12-63",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/7-423",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/12-698",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/11-110",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/9-650",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/10-262",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/11-527",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/10-30",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/10-972",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/9-1133",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/14-1161",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/13-85",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/14-438",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/13-901",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/1058",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/14-1438",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/9-1113",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/9-842",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/14-1015",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/10-1092",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/9-1106",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/12-1053",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/11-500",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/11-687",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/9-92",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/873",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/10-653",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/12-600",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/1276",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/14-929",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/7-476",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/9-1187",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/10-42",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/14-682",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/10-140",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/1646",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/13-281",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/9-721",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/14-1047",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/11-523",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/10-810",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/10-997",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/1494",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/11-538",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/9-449",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/10-404",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/9-127",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/14-745",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/8-172",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/10-1129",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/14-448",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/13-241",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/14-184",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/10-145",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/7-542",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/14-1460",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/11-137",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/10-369",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/9-1176",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/287",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/12-725",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/10-420",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/272",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/8-90",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/13-10",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/10-659",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/11-104",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/13-216",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/13-950",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/13-509",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/9-829",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/12-452",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/14-109",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/9-373",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/10-252",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/1155",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/1043",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/10-186",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/13-604",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/12-46",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/1921",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/13-8",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/14-756",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/8-212",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/7-695",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/13-320",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/9-803",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/10-586",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/10-596",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/11-509",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/13-615",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/11-204",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/14-937",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/217",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/7-729",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/14-631",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/12-768",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/13-82",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/11-188",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/12-145",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/10-190",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/10-159",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/9-243",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/12-1118",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/9-788",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/9-1037",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/13-472",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/9-780",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/11-464",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/7-1117",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/13-825",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/11-689",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/13-112",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/11-123",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/10-764",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/14-152",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/10-1167",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/13-735",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/14-158",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/14-674",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/1442",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/11-467",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/11-225",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/10-226",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/10-976",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/13-860",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/10-279",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/10-172",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/12-960",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/10-834",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/9-605",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/10-856",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/14-42",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/14-1480",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/7-675",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/9-419",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/10-329",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/10-628",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/1453",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/9-33",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/10-1102",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/14-879",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/13-765",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/1091",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/12-12",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/10-601",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/13-438",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/12-1025",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/14-357",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/12-1169",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/8-264",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/10-406",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/14-684",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/11-286",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/10-387",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/13-843",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/12-355",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/13-318",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/12-680",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/9-742",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/14-926",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/11-274",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/12-836",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/14-983",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/10-710",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/14-749",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/10-461",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/12-624",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/9-1158",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/13-367",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/14-1268",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/11-729",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/11-609",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/12-842",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/7-298",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/13-606",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/13-84",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/579",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/10-1174",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/10-943",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/12-643",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/12-609",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/10-1166",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/12-955",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/12-78",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/12-668",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/1248",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/13-310",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/8-476",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/14-1360",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/1269",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/13-252",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/9-296",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/11-282",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/7-908",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/14-480",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/11-79",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/12-627",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/14-1418",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/14-766",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/9-968",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/13-749",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/7-1142",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/13-34",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/11-659",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/13-304",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/7-560",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/14-1064",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/7-642",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/12-969",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/893",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/8-124",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/12-415",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/7-716",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/10-144",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/9-129",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/12-912",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/10-1145",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/12-883",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/7-29",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/10-1046",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/10-833",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/9-563",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/11-302",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/13-332",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/13-357",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/12-620",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/12-1186",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/12-235",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/12-441",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/7-74",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/9-551",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/7-1009",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/10-489",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/12-356",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/11-13",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/12-848",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/10-714",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/14-269",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/12-1147",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/10-59",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/1082",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/10-396",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/14-545",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/13-883",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/14-462",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/9-423",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/11-109",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/8-495",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/9-608",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/12-554",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/12-1079",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/12-553",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/13-410",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/7-995",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/12-196",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/10-887",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/12-881",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/14-406",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/10-1038",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/14-325",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/12-332",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/7-405",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/14-527",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/13-861",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/7-354",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/853",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/1845",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/13-173",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/10-797",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/10-662",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/7-13",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/10-368",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/826",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/12-171",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/10-37",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/14-1000",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/14-44",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/13-391",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/12-735",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/699",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/9-248",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/11-444",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/12-320",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/14-720",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/831",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/12-29",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/12-95",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/12-1088",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/14-692",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/10-218",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/10-649",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/13-313",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/14-355",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/14-495",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/14-334",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/7-350",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/14-876",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/12-1117",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/10-106",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/9-1165",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/12-179",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/7-166",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/13-296",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/1871",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/12-981",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/9-884",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/14-458",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/13-37",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/10-147",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/9-845",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/13-746",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/1386",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/14-848",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/10-455",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/10-198",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/14-116",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/12-724",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/7-1023",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/8-156",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/1929",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/12-215",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/10-432",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/12-941",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/13-807",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/10-912",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/12-350",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/12-1084",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/12-238",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/7-368",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/9-857",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/11-232",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/9-28",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/10-199",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/11-406",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/9-702",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/10-835",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/10-643",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/11-144",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/12-961",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/1721",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/9-538",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/155",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/12-425",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/10-917",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/12-470",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/9-1124",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/10-1055",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/14-1008",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/14-1259",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/13-358",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/13-898",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/10-215",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/11-108",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/12-859",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/14-1409",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/10-148",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/14-1157",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/13-9",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/7-273",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/12-671",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/13-654",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/11-106",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/10-1067",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/14-1083",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/9-5",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/14-1042",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/10-419",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/7-285",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/12-953",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/8-6",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/13-435",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/10-884",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/11-520",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/8-180",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/12-2",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/9-844",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/11-228",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/14-1492",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/11-31",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/10-677",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/13-350",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/12-291",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/14-28",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/14-1467",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/9-380",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/14-1402",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/12-1127",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/10-704",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/10-1040",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/9-1050",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/14-622",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/8-492",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/10-1120",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/14-807",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/13-928",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/11-68",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/10-768",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/13-1000",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/12-825",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/9-872",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/833",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/13-17",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/11-326",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/11-159",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/12-691",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/7-546",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/7-359",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/9-616",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/14-957",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/13-118",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/14-894",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/13-796",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/13-19",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/12-1073",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/14-1061",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/9-496",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/13-578",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/10-193",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/13-822",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/12-118",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/13-787",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/14-267",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/11-190",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/14-1168",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/12-26",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/12-1196",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/11-545",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/183",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/14-1312",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/11-329",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/13-698",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/13-450",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/12-929",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/14-1138",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/14-1264",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/13-984",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/13-970",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/7-124",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/7-892",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/12-432",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/11-608",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/12-341",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/11-96",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/14-1489",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/13-1059",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/14-1265",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/14-1142",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/10-131",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/1191",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/12-482",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/9-1091",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/12-903",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/11-201",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/206",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/13-865",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/7-584",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/10-410",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/12-133",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/14-928",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/12-583",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/11-325",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/7-1134",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/14-479",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/13-503",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/11-624",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/1656",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/10-578",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/12-745",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/12-1144",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/10-889",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/9-1051",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/14-1406",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/13-1061",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/9-405",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/10-1103",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/10-503",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/10-244",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/12-249",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/14-529",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/14-838",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/14-1385",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/10-34",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/12-574",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/10-995",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/13-587",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/14-940",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/11-141",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/575",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/11-681",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/12-168",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/13-119",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/12-1078",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/7-261",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/9-1072",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/14-482",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/370",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/11-555",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/11-629",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/14-1296",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/14-1392",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/10-61",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/7-122",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/13-442",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/14-259",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/10-257",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/10-528",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/14-1426",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/13-535",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/9-880",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/13-490",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/9-787",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/14-822",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/9-1148",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/11-245",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/10-736",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/1284",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/10-647",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/10-407",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/14-1253",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/13-647",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/9-283",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/1380",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/9-809",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/14-1156",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/10-31",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/14-828",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/10-75",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/115",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/14-1",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/14-887",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/10-1044",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/9-86",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/14-1348",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/8-437",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/8-132",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/7-363",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/14-272",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/10-331",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/12-484",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/14-1230",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/14-788",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/7-756",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/9-509",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/14-1146",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/12-219",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/10-170",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/14-659",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/10-157",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/12-798",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/7-317",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/12-864",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/14-695",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/13-124",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/12-98",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/12-232",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/13-470",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/13-307",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/10-398",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/12-1045",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/11-345",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/12-203",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/1219",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/13-449",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/752",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/14-457",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/8-474",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/14-972",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/10-541",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/306",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/13-315",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/13-265",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/10-864",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/384",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/9-695",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/14-383",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/13-476",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/10-473",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/12-106",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/14-797",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/9-832",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/11-332",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/7-776",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/14-705",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/7-650",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/10-581",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/9-642",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/14-1339",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/13-718",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/1689",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/12-750",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/12-455",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/10-293",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/12-476",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/12-445",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/12-916",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/12-8",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/14-573",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/11-475",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/11-321",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/14-728",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/7-1080",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/12-1081",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/13-446",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/10-1049",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/11-704",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/13-621",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/10-1014",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/13-473",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/9-887",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/7-269",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/8-243",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/12-134",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/7-752",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/7-344",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/14-143",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/13-430",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/13-404",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/13-697",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/13-166",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/14-1292",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/14-1369",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/10-1218",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/10-1101",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/11-744",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/13-776",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/10-1076",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/10-722",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/12-607",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/319",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/12-51",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/12-586",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/7-959",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/13-31",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/1167",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/14-948",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/14-432",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/9-1006",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/13-857",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/14-886",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/7-529",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/12-323",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/12-582",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/12-175",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/12-712",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/12-861",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/12-169",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/14-1493",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/8-377",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/11-7",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/12-1206",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/12-361",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/12-426",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/8-254",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/10-547",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/12-982",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/9-495",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/14-265",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/13-1027",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/10-1195",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/13-487",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/14-1067",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/14-1432",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/9-1142",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/12-85",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/11-191",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/11-417",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/14-965",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/9-725",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/13-494",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/14-489",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/12-193",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/12-793",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/14-1147",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/11-550",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/9-770",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/12-665",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/11-72",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/14-726",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/13-460",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/10-1013",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/14-1152",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/7-340",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/13-999",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/11-416",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/9-512",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/14-470",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/11-571",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/13-805",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/70",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/837",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/14-1481",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/242",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/10-381",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/13-465",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/10-238",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/14-445",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/9-263",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/7-778",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/1558",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/10-258",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/13-11",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/9-102",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/12-987",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/10-452",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/14-521",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/12-1050",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/21",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/13-864",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/13-60",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/1159",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/7-804",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/14-699",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/9-748",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/118",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/13-63",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/10-645",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/7-888",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/1254",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/14-747",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/13-584",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/1891",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/13-1034",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/14-700",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/13-585",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/12-501",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/7-1083",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/10-409",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/750",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/13-206",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/11-453",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/161",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/10-299",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/14-300",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/9-1127",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/9-527",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/7-743",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/10",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/10-583",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/11-55",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/12-533",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/14-275",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/12-1011",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/11-600",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/13-1001",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/12-1163",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/14-614",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/10-929",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/14-518",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/14-1025",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/544",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/13-500",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/13-790",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/12-1139",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/12-730",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/9-732",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/12-1166",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/14-1171",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/9-353",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/12-1107",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/11-646",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/13-445",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/588",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/14-840",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/13-184",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/14-114",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/7-436",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/14-1199",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/558",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/10-122",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/14-1278",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/12-1083",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/7-348",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/10-895",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/8-345",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/1351",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/11-308",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/9-632",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/8-339",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/11-590",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/10-1107",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/7-956",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/356",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/12-1114",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/12-678",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/12-731",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/11-18",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/12-429",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/12-177",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/10-998",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/13-283",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/573",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/10-624",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/14-724",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/13-27",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/14-721",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/11-184",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/7-861",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/9-233",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/13-802",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/9-1080",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/10-220",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/14-105",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/8-323",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/13-452",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/11-41",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/10-386",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/13-137",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/10-582",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/12-443",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/10-271",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/14-120",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/10-1095",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/14-408",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/12-733",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/9-170",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/10-698",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/8-103",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/11-187",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/11-94",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/12-400",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/12-96",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/13-870",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/12-601",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/12-345",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/12-993",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/12-684",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/110",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/10-576",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/13-723",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/12-319",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/8-300",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/14-1356",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/10-165",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/12-188",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/10-342",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/14-775",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/399",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/13-97",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/7-826",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/1422",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/10-657",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/11-634",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/13-244",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/10-1033",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/13-548",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/12-491",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/14-171",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/13-25",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/13-334",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/12-898",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/13-385",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/10-520",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/12-887",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/12-292",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/876",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/13-777",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/10-184",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/12-1119",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/10-1144",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/14-751",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/14-396",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/12-264",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/14-744",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/13-750",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/13-286",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/12-278",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/11-11",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/12-242",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/13-648",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/7-507",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/12-460",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/11-20",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/12-279",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/10-301",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/10-480",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/10-939",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/13-3",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/13-139",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/11-214",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/14-212",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/7-1160",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/12-863",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/12-1160",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/779",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  },
+  {
+    "id": "obqa/train/9-641",
+    "eligible": true,
+    "formats": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ]
+  }
+]

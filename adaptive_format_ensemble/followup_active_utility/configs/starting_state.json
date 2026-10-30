@@ -1,0 +1,11 @@
+{
+  "commit": "1e22ec9aaa25ec7015ad7dd1856af6e4e8d2b837",
+  "branch": "study2/active-utility-followup-20261029",
+  "started_at": "2026-10-29T20:26:40+08:00",
+  "preparation_limit_hours": 4,
+  "originals": [
+    "/home/hli/dsai/old_idea",
+    "/home/hli/dsai/adaptive_format_ensemble/runs/main"
+  ],
+  "worktree": "Existing uncommitted project-directory moves preserved; no automatic commit or cleanup. Root .gitignore has an existing symbolic-link loop; not modified."
+}

@@ -1,0 +1,18 @@
+{
+  "report": {
+    "pdf": "/home/hli/dsai/final_evaluation/report/final_report.pdf",
+    "pages": 13,
+    "text_characters": 42808,
+    "docx": "/home/hli/dsai/final_evaluation/report/final_report.docx",
+    "markdown": "/home/hli/dsai/final_evaluation/report/final_report.md"
+  },
+  "summary": {
+    "pdf": "/home/hli/dsai/final_evaluation/report/completed_project_summary.pdf",
+    "pages": 1,
+    "text_characters": 2533,
+    "docx": "/home/hli/dsai/final_evaluation/report/completed_project_summary.docx",
+    "markdown": "/home/hli/dsai/final_evaluation/report/completed_project_summary.md"
+  },
+  "recent_primary_works": 24,
+  "final_outcomes_present": true
+}

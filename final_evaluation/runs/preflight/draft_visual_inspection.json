@@ -1,0 +1,13 @@
+{
+  "inspected_images": [
+    "draft_page1.png",
+    "draft_page5.png",
+    "draft_page10.png",
+    "draft_summary.png"
+  ],
+  "findings": "Readable cover/body/table headers and reference text, no clipping; one-page summary fits. Editorial number/citation spacing subsequently improved. Final report will render first/final/table pages and summary automatically.",
+  "scientific_final_results_in_scaffold": false,
+  "software_checks": 11,
+  "development_model_smoke_calls": 10,
+  "reserved_calls_before_freeze": 0
+}

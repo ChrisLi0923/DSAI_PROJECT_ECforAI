@@ -1,0 +1,54 @@
+{
+  "dataset": "allenai/openbookqa",
+  "revision": "388097ea7776314e93a529163e0fea805b8a6454",
+  "configuration_original": "main",
+  "configuration_facts": "additional",
+  "source_train_sha256": "98148f8a54e62eb862346a75192d5fb824d6cbb68f2f59aecd793d39ecb5cd8b",
+  "additional_train_sha256": "d16d719e87efb86ed0a2ac4c8cdf380f7bfb94b602088393674c0a64ce9ed3d3",
+  "additional_schema": "id: string\nquestion_stem: string\nchoices: struct<text: list<item: string>, label: list<item: string>>\n  child 0, text: list<item: string>\n      child 0, item: string\n  child 1, label: list<item: string>\n      child 0, item: string\nanswerKey: string\nfact1: string\nhumanScore: float\nclarity: float\nturkIdAnonymized: string\n-- schema metadata --\nhuggingface: '{\"info\": {\"features\": {\"id\": {\"dtype\": \"string\", \"_type\": \"' + 472",
+  "eligible_unused_before_reservation": 3146,
+  "counts": {
+    "initial_search": 512,
+    "added": 988,
+    "search": 1500,
+    "validation": 489,
+    "reserve": 1000,
+    "facts": 300,
+    "repeats": 64
+  },
+  "hashes": {
+    "search": "a846b7a8c8b8925bc88192622b4427ec59316e02b708a5c376396fccaf856264",
+    "validation": "c4e5bf5039214971e03ae48ba2a5cb381e433aa7469f7e5af893a0c32e9b1256",
+    "reserve": "361ca31dacce2c25e79fcdca6af149cb64f3eec1168053cfd9263b4576df5ddb",
+    "added": "29511a28f5a145bfb873c95616145e912b85fc4230fe63dfd86125b7f0edef1e",
+    "initial_search": "ca804c557d9d881a3010b18dbb32d61a6b8e430efc71aa80c03990768bcfd643",
+    "facts": "e0262216fd8f0bea181724aaa1978e01b5e86c98c9bdba7f70223f566c23532b",
+    "repeats": "b54176ab044d7013d9200b4aaea89f0151c8695fb32c37fd45cf0955b6613a3e",
+    "reserved_ids": "8f9c850b595911602ff60be98407c0ae9c1204a32c21eba698c3bc60dfe414c6",
+    "history_inventory": "8af011d8fc7bb42238228c1598a85ed1415611d5527ff3e51797c45157175c91",
+    "exclusions": "0a5fdd0dfaeb61496e41176f1c1cfb9929af8ab72ca6b11120be277c55432bd5"
+  },
+  "sampling": {
+    "search_n": 1500,
+    "reserve_n": 1000,
+    "reserve_seed": 301030,
+    "addition_seed": 301031,
+    "fact_n": 300,
+    "fact_seed": 301032,
+    "unrelated_seed": 301033,
+    "repeat_n": 64,
+    "repeat_seed": 301034
+  },
+  "exclusion_counts": {
+    "previous_normalized_stem": 1659,
+    "previous_question_option_content": 1606,
+    "previous_split_or_query_id": 1576,
+    "possible_missing_media": 38,
+    "option_position_reference": 30,
+    "duplicate_source_content": 77,
+    "duplicate_options": 3,
+    "relative_option_reference": 4
+  },
+  "reserve_rule": "Reserve selected first, never queried, scored or used as a decoy-fact source.",
+  "limits": "Exact IDs, whitespace/case-normalized stems and unordered options do not detect all paraphrases or model pretraining exposure. Validation has been used previously and is exploratory development evidence."
+}

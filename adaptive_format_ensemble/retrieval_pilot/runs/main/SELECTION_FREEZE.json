@@ -1,0 +1,31 @@
+{
+  "condition": "R1",
+  "search_results": [
+    {
+      "condition": "R1",
+      "correct": 1130,
+      "n": 1500,
+      "accuracy": 0.7533333333333333,
+      "mean_requested_tokens": 150.37133333333333
+    },
+    {
+      "condition": "R3",
+      "correct": 1127,
+      "n": 1500,
+      "accuracy": 0.7513333333333333,
+      "mean_requested_tokens": 175.312
+    }
+  ],
+  "rule": {
+    "candidates": [
+      "R1",
+      "R3"
+    ],
+    "rule": "Highest search correct-question count; then lower mean total requested tokens; then condition name lexicographically. Freeze before generating any validation R0/R1/R3 response."
+  },
+  "search_hash": "a846b7a8c8b8925bc88192622b4427ec59316e02b708a5c376396fccaf856264",
+  "protocol_sha256": "a57a0dedda4bf875f37a865db8f01b7f03d178f91e5576b9a802379440ea5fad",
+  "created_unix": 1793344911.828273,
+  "scope": "Main retrieval comparison is this designated configuration; validation cannot rename the winner. Both fixed top-k validation results remain descriptive.",
+  "sha256": "d37385705e5bb00b596dc7c3d24a0e41a79cdf2e3d99d6feb3db70d59f9b501a"
+}

@@ -1,0 +1,4 @@
+comparison,n,correct,accuracy,rescues,spoils,net_correct,accuracy_difference,invalid,difference,lower,upper,unit,conditional
+supporting_minus_no_evidence,300,252,0.84,23,11,12,0.039999999999999925,0,0.04,0.0033333333333333335,0.07666666666666666,whole question paired bootstrap,fitted selectors fixed; no retraining uncertainty
+unrelated_minus_no_evidence,300,238,0.7933333333333333,7,9,-2,-0.00666666666666671,0,-0.006666666666666667,-0.03333333333333333,0.016666666666666666,whole question paired bootstrap,fitted selectors fixed; no retraining uncertainty
+supporting_minus_unrelated,300,252,0.84,24,10,14,0.046666666666666634,0,0.04666666666666667,0.01,0.08666666666666667,whole question paired bootstrap,fitted selectors fixed; no retraining uncertainty

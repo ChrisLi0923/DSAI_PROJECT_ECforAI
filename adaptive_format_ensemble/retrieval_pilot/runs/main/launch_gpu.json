@@ -1,0 +1,15 @@
+{
+  "device": {
+    "index": 1,
+    "uuid": "GPU-f7b9ffec-17f1-168f-ecdc-c0f5c4eacf4b",
+    "name": "NVIDIA GeForce RTX 4090",
+    "total_mib": 24564,
+    "free_mib": 24197,
+    "utilization": 0,
+    "compute_processes": 0
+  },
+  "shared": false,
+  "criteria": ">=20 GiB free, <=60% utilization; prefer idle",
+  "loader_fraction_cap": 0.4,
+  "notice": "Snapshot, not a reservation. Existing processes preserved."
+}

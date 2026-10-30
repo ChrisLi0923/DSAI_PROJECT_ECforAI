@@ -1,0 +1,128 @@
+{
+  "config": {
+    "protocol_version": 2,
+    "model": {
+      "name": "Qwen/Qwen2.5-3B-Instruct",
+      "revision": "aa8e72537993ba99e69dfaafa59ed015b17504d1",
+      "batch_size": 1,
+      "target_max_tokens": 8,
+      "proposer_max_tokens": 160,
+      "max_input_tokens": 1536,
+      "min_free_gib": 18,
+      "memory_fraction": 0.4
+    },
+    "search": {
+      "seeds": [
+        11,
+        29,
+        47,
+        71,
+        101
+      ],
+      "population": 32,
+      "generations": 40
+    },
+    "targets": [
+      1.0,
+      2.0,
+      3.0
+    ],
+    "greedy_penalties": [
+      0.0,
+      0.01,
+      0.025,
+      0.05,
+      0.1,
+      0.2,
+      0.5
+    ],
+    "analysis": {
+      "bootstrap_replicates": 2000,
+      "bootstrap_seed": 9182,
+      "comparisons": [
+        "guided-random",
+        "guided-greedy",
+        "guided-fixed_subset",
+        "guided-agreement",
+        "guided-single"
+      ],
+      "unit": "whole_question",
+      "seed_variation": "separate",
+      "interval_scope": "conditional_on_fitted_policies",
+      "test_frontier": "descriptive_only",
+      "cost_matching": {
+        "basis": "validation_achieved_calls",
+        "max_absolute_difference": 0.15,
+        "pair_seeds": true,
+        "test_costs": "report_achieved_no_rematching"
+      }
+    }
+  },
+  "files": {
+    "afe/__init__.py": "78b972ae7e1877d1b47d7a90e5b075818edcf51c686810e4804ff02724ad439c",
+    "afe/analysis.py": "5d33ddd29658b5a3c7d43ec87e25bfc3ab5d10abb70c535310e932f7487cfc6c",
+    "afe/cache.py": "44590d7ade9e8077e59b8e868abd0b381400d5b78e2505c4d1eb07184e25030a",
+    "afe/data.py": "2eece377a1d611374e18cf508b627f2c119d3ee0a3ae97f142c9cd791cbcfb16",
+    "afe/devcheck.py": "2195a6769ec3967141fbba924279ee927dc83bac92b78deb177673eb8b9e4ed2",
+    "afe/document.py": "b8daa7f15114ed6b7a20d64a1620b440f69d30ba18bd81458887f418db128f33",
+    "afe/feasibility.py": "0e394dab84818af4a7e3004563acf888e90b237a372beb70242e5ca6fbb13de2",
+    "afe/gpu.py": "aee2763d5c35bcffb575deb5bf2f0dccba9c862898346d3bd33b5c23e75c4ce4",
+    "afe/policy.py": "29b3919d9229ca23f7e254e579e01aad6f9423089d8e123be0948e04b3fc0dbf",
+    "afe/search.py": "56b5ff821a282f663dfbd4480d51f2286d03b8fe70034b44d8bdc5e5b093da0b",
+    "afe/smoke.py": "ee049f8926ac23a177afe6f7f4c7cb69e628c58f90964bb6d713d71f50fc2518",
+    "afe/workflow.py": "9ccba4c087eb04ac73c7a2b6f7915d21f04141f1922164f004ccc85986b6cb93",
+    "reused/__init__.py": "e130e35a14d9a1cd59b8546fd551ebdd03cf3d54f28fba47303f0840cd3ebf8c",
+    "reused/core.py": "4aa04aad63adff953899297048b779fece5db948797b256414a21b5b14335b55",
+    "reused/gpu_select.py": "ab7dff4c088f6311d3275d1e7e8253a4fafc148493babd3a68da1121b2932d25",
+    "reused/model.py": "81b751a6d8f24f103c5ae76bd4c2ba1e90ee42b1f90c36fd5399ecab3020fbf8",
+    "reused/storage.py": "808da4b91759088430898e7f654c552d825bc59289671fbb48b3099e4efa564d",
+    "configs/main.json": "073bf42a165c12da54ff28198bba87ae8c47604ba29b25aacf3bde4a853b7c78",
+    "configs/runtime_estimate.json": "827bcb13b6a646d53d04a0add0448137dec05db6cbcbcfc82d58e533b1e9f4cf",
+    "scripts/check_launch.py": "fa4cfa877b076d7c1869580ab2be03cdbab7d2b2d14bc50a1d65f6e265f714d7",
+    "scripts/download_data.py": "44ee45fa8c0b10642f43dfe7cff87b8e09a8e4b08d45b7c2b5ed8486db0740d9",
+    "scripts/launch_tmux.py": "9d2829d28533ef2589ca1ecd342f48c56e9e0bf5c2c0037fd69618eec346b9bd",
+    "scripts/run_main.sh": "c9ca3b20b24b313699b27f0b4eab10373b951190e050338f9dea63a8c0ca1008",
+    "scripts/verify.py": "48d1735a16b92778ee5fb6a586b2b88ecc1e92a9253a2380be011f5fc4b76cdc",
+    "tests/test_integrity.py": "b611ebb2d64334e1730b1e74d12b4b88144e37e6267cdaa319312bf85e8fab63",
+    "docs/course_brief.txt": "bcd5819c1cb48fed0fe0a5ff1c64f35a6025a8b7ad93137e38500aa562cf155c",
+    "docs/dataset_repository_metadata.json": "29fcb4a71f2368a12b09dfb6f5ee5bf9da796c9990c80e48954b1c5103a00f06",
+    "docs/literature.md": "2150440796a6b49eaeb5885639f0fdee5e113b397ed6cd83bee057558de9ccae",
+    "docs/protocol.md": "f2d2304514ea367dfab8071609421e23a6f076ec3743df82561e128abe6b4623",
+    "docs/submission_checklist.md": "bb5f874f6c306d5539ea60642b9a3fa0b9eb23dd32c38cdbcb1e5ae558dbfccc",
+    "docs/verification.md": "c51951a6977cdad65bf94e8857722f42f05e7c24852d0b8e321482e91946a90b"
+  },
+  "data": {
+    "dataset": "allenai/openbookqa",
+    "configuration": "main",
+    "revision": "388097ea7776314e93a529163e0fea805b8a6454",
+    "source_sha256": {
+      "test": "cd5483e366daa230c1c87bbdc512d8b7229f14f6dd04d19fc8b1a3855aaaa8a3",
+      "validation": "35370b9cfee8c1ff325ccc74adc434d12c47ca0ac3244aa87f3fa77069285206",
+      "train": "98148f8a54e62eb862346a75192d5fb824d6cbb68f2f59aecd793d39ecb5cd8b"
+    },
+    "split_seed": 20261028,
+    "counts": {
+      "development": 64,
+      "search": 512,
+      "validation": 489,
+      "test": 486
+    },
+    "hashes": {
+      "development": "8fb307bc325af924b6b7531e4fcaeb132455360be3fc50378e74742f77374f66",
+      "search": "ca804c557d9d881a3010b18dbb32d61a6b8e430efc71aa80c03990768bcfd643",
+      "validation": "c4e5bf5039214971e03ae48ba2a5cb381e433aa7469f7e5af893a0c32e9b1256",
+      "test": "72dbf7dfe7d1dcf6c74585f3297f49f7a8f4bab91218d29b23547349ae6ffc76"
+    },
+    "previous_screened_questions": 1437,
+    "deduplication": "Normalized stem and unordered option content; test priority; all previous project splits excluded.",
+    "limits": "No semantic/fuzzy duplicate guarantee; previous unseen discarded ARC rows not screened; pretraining overlap unknown."
+  },
+  "packages": {
+    "torch": "2.6.0+cu124",
+    "transformers": "4.51.3",
+    "numpy": "2.2.5",
+    "pyarrow": "26.0.0",
+    "matplotlib": "3.10.1"
+  },
+  "instruction_hash": "7e61b322804b6ccbc48154a891244f081ff4cb58604ae21c2b90c59c18536445"
+}

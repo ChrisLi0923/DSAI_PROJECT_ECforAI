@@ -1,0 +1,50 @@
+{
+  "policies": [
+    {
+      "format": 2,
+      "predicate": "never",
+      "yes": null,
+      "no": null
+    },
+    {
+      "format": 2,
+      "predicate": "never",
+      "yes": null,
+      "no": null
+    },
+    {
+      "format": 2,
+      "predicate": "never",
+      "yes": null,
+      "no": null
+    },
+    {
+      "format": 0,
+      "predicate": "agreement2",
+      "yes": null,
+      "no": {
+        "format": 1,
+        "predicate": "agreement2",
+        "yes": null,
+        "no": {
+          "format": 2,
+          "predicate": "agreement2",
+          "yes": null,
+          "no": {
+            "format": 3,
+            "predicate": "agreement2",
+            "yes": null,
+            "no": {
+              "format": 4,
+              "predicate": "agreement2",
+              "yes": null,
+              "no": null
+            }
+          }
+        }
+      }
+    }
+  ],
+  "hash": "001094f017a0b7d9f92a1966c754ef382f5eeda7dd01b201f038753c03d5ee85",
+  "evidence": "12 development questions; no final test"
+}

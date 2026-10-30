@@ -1,0 +1,33 @@
+{
+  "category": 3,
+  "classification": "Retrieval does not show a useful benefit under this setup.",
+  "designated": "R1",
+  "accuracy_gain_over_R0": -0.01635991820040905,
+  "accuracy_gain_over_reference": -0.04498977505112478,
+  "token_saving_fraction_vs_reference": 0.3283813507373887,
+  "observed_dominance": false,
+  "accuracy_interval_vs_R0": {
+    "difference": -0.016359918200409,
+    "lower": -0.0429959100204499,
+    "upper": 0.012269938650306749,
+    "unit": "paired whole questions",
+    "scope": "exploratory reused development questions; fitted search selection held fixed"
+  },
+  "accuracy_interval_vs_reference": {
+    "difference": -0.044989775051124746,
+    "lower": -0.07975460122699386,
+    "upper": -0.012218813905930749,
+    "unit": "paired whole questions",
+    "scope": "exploratory reused development questions; fitted search selection held fixed"
+  },
+  "thresholds": {
+    "bootstrap_replicates": 2000,
+    "bootstrap_seed": 301041,
+    "review_seed": 301042,
+    "review_per_category": 5,
+    "practical_accuracy_gain": 0.005,
+    "allowed_accuracy_loss_for_potential_cost_tradeoff": 0.01,
+    "minimum_token_saving_fraction": 0.15
+  },
+  "limits": "These descriptive gates were predeclared; they are not equivalence/non-inferiority tests. No new selector, evolutionary method, retriever tuning or reserved evaluation was fitted."
+}

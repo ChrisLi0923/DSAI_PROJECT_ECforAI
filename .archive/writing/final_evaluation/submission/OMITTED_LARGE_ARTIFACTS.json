@@ -1,0 +1,37 @@
+[
+  {
+    "path": "/home/hli/dsai/old_idea/runs/main_proposer_v1_failed_20261028/records.sqlite",
+    "bytes": 10424320,
+    "reason": "Full historical candidate cache retained in workspace; selected final raw/processed predictions and audited statistics bundled."
+  },
+  {
+    "path": "/home/hli/dsai/old_idea/runs/smoke/records.sqlite",
+    "bytes": 647168,
+    "reason": "Full historical candidate cache retained in workspace; selected final raw/processed predictions and audited statistics bundled."
+  },
+  {
+    "path": "/home/hli/dsai/old_idea/runs/main/records.sqlite",
+    "bytes": 415555584,
+    "reason": "Full historical candidate cache retained in workspace; selected final raw/processed predictions and audited statistics bundled."
+  },
+  {
+    "path": "/home/hli/dsai/old_idea/runs/smoke_proposer_v1/records.sqlite",
+    "bytes": 520192,
+    "reason": "Full historical candidate cache retained in workspace; selected final raw/processed predictions and audited statistics bundled."
+  },
+  {
+    "path": "/home/hli/dsai/old_idea/runs/proposer_recovery_v2/records.sqlite",
+    "bytes": 266240,
+    "reason": "Full historical candidate cache retained in workspace; selected final raw/processed predictions and audited statistics bundled."
+  },
+  {
+    "path": "/home/hli/dsai/old_idea/runs/smoke-proposer-tags-failed/records.sqlite",
+    "bytes": 36864,
+    "reason": "Full historical candidate cache retained in workspace; selected final raw/processed predictions and audited statistics bundled."
+  },
+  {
+    "path": "/home/hli/dsai/old_idea/runs/smoke-plain-unfiltered/records.sqlite",
+    "bytes": 524288,
+    "reason": "Full historical candidate cache retained in workspace; selected final raw/processed predictions and audited statistics bundled."
+  }
+]

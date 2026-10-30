@@ -1,0 +1,22 @@
+2026-10-27 23:47:36,938 INFO Stage: loading_model
+Sliding Window Attention is enabled but not implemented for `sdpa`; unexpected results may be encountered.
+Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]Loading checkpoint shards:  50%|█████     | 1/2 [00:01<00:01,  1.94s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:03<00:00,  1.44s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:03<00:00,  1.51s/it]
+2026-10-27 23:47:45,252 INFO Stage: pilot
+2026-10-27 23:47:45,958 INFO Smoke records pilot gate outcome but bypasses it ONLY in smoke mode: {'passed': False, 'stop_reasons': ['robust_score_near_zero'], 'questions': 2, 'invalid_rate': 0.0, 'robust_rate': 0.0, 'semantic_flip_group_rate': 1.0, 'semantic_flip_group_denominator': 2, 'repeat_disagreement_rate': 0.0, 'repeat_valid_pairs': 2, 'repeat_raw_disagreement_rate': 0.0, 'thresholds': {'max_invalid_rate': 0.05, 'max_repeat_disagreement': 0.01, 'min_semantic_flip_group_rate': 0.02, 'min_robust_rate': 0.02}}
+2026-10-27 23:47:45,976 INFO Stage: search
+2026-10-27 23:47:57,581 INFO Stage: INCOMPLETE
+Traceback (most recent call last):
+  File "/home/hli/dsai/scripts/benchmark_smoke.py", line 21, in <module>
+    run(config,root/'runs/smoke',root/'data')
+  File "/home/hli/dsai/robust_prompt/workflow.py", line 153, in run
+    shortlists[f'{condition}/{seed}']=run_search(condition,seed,config,splits['search'],evaluator,proposer,store)
+                                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/hli/dsai/robust_prompt/workflow.py", line 65, in run_search
+    initial=initial_population(seed,config,proposer,store)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/hli/dsai/robust_prompt/workflow.py", line 50, in initial_population
+    instruction=proposer.propose([MANUAL],'random',seed*10000+i,
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/hli/dsai/robust_prompt/model.py", line 141, in propose
+    raise RuntimeError(f'Proposer failed {self.max_attempts} valid/diverse edit attempts for {key}; diagnostic stop, no manual fallback.')
+RuntimeError: Proposer failed 4 valid/diverse edit attempts for init/11/1; diagnostic stop, no manual fallback.

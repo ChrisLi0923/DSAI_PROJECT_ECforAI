@@ -1,0 +1,620 @@
+2026-10-30T01:07:38+08:00 Bounded capability diagnostic, resumable
+CPU checks, real-model formatting smoke, manifest, reserve, source and prompt freeze verified.
+2026-10-30T01:07:40+0800 stage=existing_cache_analysis
+2026-10-30T01:07:40+0800 Stage A search: reference=405/512, finite-bank oracle=463/512; errors=58 selectable + 49 absent
+2026-10-30T01:07:40+0800 Stage A validation: reference=395/489, finite-bank oracle=446/489; errors=51 selectable + 43 absent
+Sliding Window Attention is enabled but not implemented for `sdpa`; unexpected results may be encountered.
+Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]Loading checkpoint shards:  50%|█████     | 1/2 [00:02<00:02,  2.00s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:03<00:00,  1.51s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:03<00:00,  1.58s/it]
+2026-10-30T01:07:49+0800 stage=search_generation
+2026-10-30T01:07:53+0800 cache search/rotate2 work=20/10104 responses=5037
+2026-10-30T01:07:57+0800 cache search/rotate2 work=40/10104 responses=5057
+2026-10-30T01:08:00+0800 cache search/rotate2 work=60/10104 responses=5077
+2026-10-30T01:08:04+0800 cache search/rotate2 work=80/10104 responses=5097
+2026-10-30T01:08:08+0800 cache search/rotate2 work=100/10104 responses=5117
+2026-10-30T01:08:11+0800 cache search/rotate2 work=120/10104 responses=5137
+2026-10-30T01:08:15+0800 cache search/rotate2 work=140/10104 responses=5157
+2026-10-30T01:08:19+0800 cache search/rotate2 work=160/10104 responses=5177
+2026-10-30T01:08:22+0800 cache search/rotate2 work=180/10104 responses=5197
+2026-10-30T01:08:26+0800 cache search/rotate2 work=200/10104 responses=5217
+2026-10-30T01:08:30+0800 cache search/rotate2 work=220/10104 responses=5237
+2026-10-30T01:08:33+0800 cache search/rotate2 work=240/10104 responses=5257
+2026-10-30T01:08:37+0800 cache search/rotate2 work=260/10104 responses=5277
+2026-10-30T01:08:41+0800 cache search/rotate2 work=280/10104 responses=5297
+2026-10-30T01:08:44+0800 cache search/rotate2 work=300/10104 responses=5317
+2026-10-30T01:08:48+0800 cache search/rotate2 work=320/10104 responses=5337
+2026-10-30T01:08:51+0800 cache search/rotate2 work=340/10104 responses=5357
+2026-10-30T01:08:55+0800 cache search/rotate2 work=360/10104 responses=5377
+2026-10-30T01:08:59+0800 cache search/rotate2 work=380/10104 responses=5397
+2026-10-30T01:09:02+0800 cache search/rotate2 work=400/10104 responses=5417
+2026-10-30T01:09:06+0800 cache search/rotate2 work=420/10104 responses=5437
+2026-10-30T01:09:10+0800 cache search/rotate2 work=440/10104 responses=5457
+2026-10-30T01:09:13+0800 cache search/rotate2 work=460/10104 responses=5477
+2026-10-30T01:09:17+0800 cache search/rotate2 work=480/10104 responses=5497
+2026-10-30T01:09:21+0800 cache search/rotate2 work=500/10104 responses=5517
+2026-10-30T01:09:24+0800 cache search/rotate2 work=520/10104 responses=5537
+2026-10-30T01:09:28+0800 cache search/rotate2 work=540/10104 responses=5557
+2026-10-30T01:09:32+0800 cache search/rotate2 work=560/10104 responses=5577
+2026-10-30T01:09:35+0800 cache search/rotate2 work=580/10104 responses=5597
+2026-10-30T01:09:39+0800 cache search/rotate2 work=600/10104 responses=5617
+2026-10-30T01:09:42+0800 cache search/rotate2 work=620/10104 responses=5637
+2026-10-30T01:09:46+0800 cache search/rotate2 work=640/10104 responses=5657
+2026-10-30T01:09:50+0800 cache search/rotate2 work=660/10104 responses=5677
+2026-10-30T01:09:53+0800 cache search/rotate2 work=680/10104 responses=5697
+2026-10-30T01:09:57+0800 cache search/rotate2 work=700/10104 responses=5717
+2026-10-30T01:10:01+0800 cache search/rotate2 work=720/10104 responses=5737
+2026-10-30T01:10:05+0800 cache search/rotate2 work=740/10104 responses=5757
+2026-10-30T01:10:08+0800 cache search/rotate2 work=760/10104 responses=5777
+2026-10-30T01:10:12+0800 cache search/rotate2 work=780/10104 responses=5797
+2026-10-30T01:10:16+0800 cache search/rotate2 work=800/10104 responses=5817
+2026-10-30T01:10:19+0800 cache search/rotate2 work=820/10104 responses=5837
+2026-10-30T01:10:23+0800 cache search/rotate2 work=840/10104 responses=5857
+2026-10-30T01:10:27+0800 cache search/rotate2 work=860/10104 responses=5877
+2026-10-30T01:10:30+0800 cache search/rotate2 work=880/10104 responses=5897
+2026-10-30T01:10:34+0800 cache search/rotate2 work=900/10104 responses=5917
+2026-10-30T01:10:38+0800 cache search/rotate2 work=920/10104 responses=5937
+2026-10-30T01:10:41+0800 cache search/rotate2 work=940/10104 responses=5957
+2026-10-30T01:10:45+0800 cache search/rotate2 work=960/10104 responses=5977
+2026-10-30T01:10:49+0800 cache search/rotate2 work=980/10104 responses=5997
+2026-10-30T01:10:52+0800 cache search/rotate2 work=1000/10104 responses=6017
+2026-10-30T01:10:56+0800 cache search/rotate2 work=1020/10104 responses=6037
+2026-10-30T01:10:59+0800 cache search/rotate2 work=1040/10104 responses=6057
+2026-10-30T01:11:03+0800 cache search/rotate2 work=1060/10104 responses=6077
+2026-10-30T01:11:07+0800 cache search/rotate2 work=1080/10104 responses=6097
+2026-10-30T01:11:10+0800 cache search/rotate2 work=1100/10104 responses=6117
+2026-10-30T01:11:14+0800 cache search/rotate2 work=1120/10104 responses=6137
+2026-10-30T01:11:17+0800 cache search/rotate2 work=1140/10104 responses=6157
+2026-10-30T01:11:21+0800 cache search/rotate2 work=1160/10104 responses=6177
+2026-10-30T01:11:25+0800 cache search/rotate2 work=1180/10104 responses=6197
+2026-10-30T01:11:28+0800 cache search/rotate2 work=1200/10104 responses=6217
+2026-10-30T01:11:32+0800 cache search/rotate2 work=1220/10104 responses=6237
+2026-10-30T01:11:36+0800 cache search/rotate2 work=1240/10104 responses=6257
+2026-10-30T01:11:39+0800 cache search/rotate2 work=1260/10104 responses=6277
+2026-10-30T01:11:43+0800 cache search/rotate2 work=1280/10104 responses=6297
+2026-10-30T01:11:47+0800 cache search/rotate2 work=1300/10104 responses=6317
+2026-10-30T01:11:50+0800 cache search/rotate2 work=1320/10104 responses=6337
+2026-10-30T01:11:54+0800 cache search/rotate2 work=1340/10104 responses=6357
+2026-10-30T01:11:57+0800 cache search/rotate2 work=1360/10104 responses=6377
+2026-10-30T01:12:01+0800 cache search/rotate2 work=1380/10104 responses=6397
+2026-10-30T01:12:05+0800 cache search/rotate2 work=1400/10104 responses=6417
+2026-10-30T01:12:08+0800 cache search/rotate2 work=1420/10104 responses=6437
+2026-10-30T01:12:12+0800 cache search/rotate2 work=1440/10104 responses=6457
+2026-10-30T01:12:16+0800 cache search/rotate2 work=1460/10104 responses=6477
+2026-10-30T01:12:19+0800 cache search/rotate2 work=1480/10104 responses=6497
+2026-10-30T01:12:23+0800 cache search/rotate2 work=1500/10104 responses=6517
+2026-10-30T01:12:27+0800 cache search/rotate2 work=1520/10104 responses=6537
+2026-10-30T01:12:30+0800 cache search/rotate2 work=1540/10104 responses=6557
+2026-10-30T01:12:34+0800 cache search/rotate2 work=1560/10104 responses=6577
+2026-10-30T01:12:38+0800 cache search/rotate2 work=1580/10104 responses=6597
+2026-10-30T01:12:41+0800 cache search/rotate2 work=1600/10104 responses=6617
+2026-10-30T01:12:45+0800 cache search/rotate2 work=1620/10104 responses=6637
+2026-10-30T01:12:48+0800 cache search/rotate2 work=1640/10104 responses=6657
+2026-10-30T01:12:52+0800 cache search/rotate2 work=1660/10104 responses=6677
+2026-10-30T01:12:56+0800 cache search/rotate2 work=1680/10104 responses=6697
+2026-10-30T01:12:59+0800 cache search/rotate2 work=1700/10104 responses=6717
+2026-10-30T01:13:03+0800 cache search/rotate2 work=1720/10104 responses=6737
+2026-10-30T01:13:07+0800 cache search/rotate2 work=1740/10104 responses=6757
+2026-10-30T01:13:10+0800 cache search/rotate2 work=1760/10104 responses=6777
+2026-10-30T01:13:14+0800 cache search/rotate2 work=1780/10104 responses=6797
+2026-10-30T01:13:18+0800 cache search/rotate2 work=1800/10104 responses=6817
+2026-10-30T01:13:21+0800 cache search/rotate2 work=1820/10104 responses=6837
+2026-10-30T01:13:25+0800 cache search/rotate2 work=1840/10104 responses=6857
+2026-10-30T01:13:29+0800 cache search/rotate2 work=1860/10104 responses=6877
+2026-10-30T01:13:32+0800 cache search/rotate2 work=1880/10104 responses=6897
+2026-10-30T01:13:36+0800 cache search/rotate2 work=1900/10104 responses=6917
+2026-10-30T01:13:40+0800 cache search/rotate2 work=1920/10104 responses=6937
+2026-10-30T01:13:43+0800 cache search/rotate2 work=1940/10104 responses=6957
+2026-10-30T01:13:47+0800 cache search/rotate2 work=1960/10104 responses=6977
+2026-10-30T01:13:51+0800 cache search/rotate2 work=1980/10104 responses=6997
+2026-10-30T01:13:54+0800 cache search/rotate2 work=2000/10104 responses=7017
+2026-10-30T01:13:58+0800 cache search/rotate2 work=2020/10104 responses=7037
+2026-10-30T01:14:02+0800 cache search/rotate2 work=2040/10104 responses=7057
+2026-10-30T01:14:06+0800 cache search/rotate2 work=2060/10104 responses=7077
+2026-10-30T01:14:09+0800 cache search/rotate2 work=2080/10104 responses=7097
+2026-10-30T01:14:13+0800 cache search/rotate2 work=2100/10104 responses=7117
+2026-10-30T01:14:17+0800 cache search/rotate2 work=2120/10104 responses=7137
+2026-10-30T01:14:20+0800 cache search/rotate2 work=2140/10104 responses=7157
+2026-10-30T01:14:24+0800 cache search/rotate2 work=2160/10104 responses=7177
+2026-10-30T01:14:27+0800 cache search/rotate2 work=2180/10104 responses=7197
+2026-10-30T01:14:31+0800 cache search/rotate2 work=2200/10104 responses=7217
+2026-10-30T01:14:35+0800 cache search/rotate2 work=2220/10104 responses=7237
+2026-10-30T01:14:38+0800 cache search/rotate2 work=2240/10104 responses=7257
+2026-10-30T01:14:42+0800 cache search/rotate2 work=2260/10104 responses=7277
+2026-10-30T01:14:46+0800 cache search/rotate2 work=2280/10104 responses=7297
+2026-10-30T01:14:49+0800 cache search/rotate2 work=2300/10104 responses=7317
+2026-10-30T01:14:53+0800 cache search/rotate2 work=2320/10104 responses=7337
+2026-10-30T01:14:57+0800 cache search/rotate2 work=2340/10104 responses=7357
+2026-10-30T01:15:00+0800 cache search/rotate2 work=2360/10104 responses=7377
+2026-10-30T01:15:04+0800 cache search/rotate2 work=2380/10104 responses=7397
+2026-10-30T01:15:07+0800 cache search/rotate2 work=2400/10104 responses=7417
+2026-10-30T01:15:11+0800 cache search/rotate2 work=2420/10104 responses=7437
+2026-10-30T01:15:15+0800 cache search/rotate2 work=2440/10104 responses=7457
+2026-10-30T01:15:18+0800 cache search/rotate2 work=2460/10104 responses=7477
+2026-10-30T01:15:22+0800 cache search/rotate2 work=2480/10104 responses=7497
+2026-10-30T01:15:26+0800 cache search/rotate2 work=2500/10104 responses=7517
+2026-10-30T01:15:29+0800 cache search/rotate2 work=2520/10104 responses=7537
+2026-10-30T01:15:33+0800 cache search/rotate2 work=2540/10104 responses=7557
+2026-10-30T01:15:37+0800 cache search/rotate2 work=2560/10104 responses=7577
+2026-10-30T01:15:40+0800 cache search/rotate2 work=2580/10104 responses=7597
+2026-10-30T01:15:44+0800 cache search/rotate2 work=2600/10104 responses=7617
+2026-10-30T01:15:47+0800 cache search/rotate2 work=2620/10104 responses=7637
+2026-10-30T01:15:51+0800 cache search/rotate2 work=2640/10104 responses=7657
+2026-10-30T01:15:55+0800 cache search/rotate2 work=2660/10104 responses=7677
+2026-10-30T01:15:58+0800 cache search/rotate2 work=2680/10104 responses=7697
+2026-10-30T01:16:02+0800 cache search/rotate2 work=2700/10104 responses=7717
+2026-10-30T01:16:06+0800 cache search/rotate2 work=2720/10104 responses=7737
+2026-10-30T01:16:09+0800 cache search/rotate2 work=2740/10104 responses=7757
+2026-10-30T01:16:13+0800 cache search/rotate2 work=2760/10104 responses=7777
+2026-10-30T01:16:17+0800 cache search/rotate2 work=2780/10104 responses=7797
+2026-10-30T01:16:20+0800 cache search/rotate2 work=2800/10104 responses=7817
+2026-10-30T01:16:24+0800 cache search/rotate2 work=2820/10104 responses=7837
+2026-10-30T01:16:28+0800 cache search/rotate2 work=2840/10104 responses=7857
+2026-10-30T01:16:31+0800 cache search/rotate2 work=2860/10104 responses=7877
+2026-10-30T01:16:35+0800 cache search/rotate2 work=2880/10104 responses=7897
+2026-10-30T01:16:38+0800 cache search/rotate2 work=2900/10104 responses=7917
+2026-10-30T01:16:42+0800 cache search/rotate2 work=2920/10104 responses=7937
+2026-10-30T01:16:46+0800 cache search/rotate2 work=2940/10104 responses=7957
+2026-10-30T01:16:49+0800 cache search/rotate2 work=2960/10104 responses=7977
+2026-10-30T01:16:53+0800 cache search/rotate2 work=2980/10104 responses=7997
+2026-10-30T01:16:57+0800 cache search/rotate2 work=3000/10104 responses=8017
+2026-10-30T01:17:00+0800 cache search/rotate2 work=3020/10104 responses=8037
+2026-10-30T01:17:04+0800 cache search/rotate2 work=3040/10104 responses=8057
+2026-10-30T01:17:08+0800 cache search/rotate2 work=3060/10104 responses=8077
+2026-10-30T01:17:11+0800 cache search/rotate2 work=3080/10104 responses=8097
+2026-10-30T01:17:15+0800 cache search/rotate2 work=3100/10104 responses=8117
+2026-10-30T01:17:19+0800 cache search/rotate2 work=3120/10104 responses=8137
+2026-10-30T01:17:22+0800 cache search/rotate2 work=3140/10104 responses=8157
+2026-10-30T01:17:26+0800 cache search/rotate2 work=3160/10104 responses=8177
+2026-10-30T01:17:30+0800 cache search/rotate2 work=3180/10104 responses=8197
+2026-10-30T01:17:33+0800 cache search/rotate2 work=3200/10104 responses=8217
+2026-10-30T01:17:37+0800 cache search/rotate2 work=3220/10104 responses=8237
+2026-10-30T01:17:40+0800 cache search/rotate2 work=3240/10104 responses=8257
+2026-10-30T01:17:44+0800 cache search/rotate2 work=3260/10104 responses=8277
+2026-10-30T01:17:48+0800 cache search/rotate2 work=3280/10104 responses=8297
+2026-10-30T01:17:51+0800 cache search/rotate2 work=3300/10104 responses=8317
+2026-10-30T01:17:55+0800 cache search/rotate2 work=3320/10104 responses=8337
+2026-10-30T01:17:59+0800 cache search/rotate2 work=3340/10104 responses=8357
+2026-10-30T01:18:02+0800 cache search/rotate2 work=3360/10104 responses=8377
+2026-10-30T01:18:06+0800 cache search/rotate2 work=3380/10104 responses=8397
+2026-10-30T01:18:10+0800 cache search/rotate2 work=3400/10104 responses=8417
+2026-10-30T01:18:13+0800 cache search/rotate2 work=3420/10104 responses=8437
+2026-10-30T01:18:17+0800 cache search/rotate2 work=3440/10104 responses=8457
+2026-10-30T01:18:21+0800 cache search/rotate2 work=3460/10104 responses=8477
+2026-10-30T01:18:24+0800 cache search/rotate2 work=3480/10104 responses=8497
+2026-10-30T01:18:28+0800 cache search/rotate2 work=3500/10104 responses=8517
+2026-10-30T01:18:32+0800 cache search/rotate2 work=3520/10104 responses=8537
+2026-10-30T01:18:35+0800 cache search/rotate2 work=3540/10104 responses=8557
+2026-10-30T01:18:39+0800 cache search/rotate2 work=3560/10104 responses=8577
+2026-10-30T01:18:43+0800 cache search/rotate2 work=3580/10104 responses=8597
+2026-10-30T01:18:46+0800 cache search/rotate2 work=3600/10104 responses=8617
+2026-10-30T01:18:50+0800 cache search/rotate2 work=3620/10104 responses=8637
+2026-10-30T01:18:54+0800 cache search/rotate2 work=3640/10104 responses=8657
+2026-10-30T01:18:57+0800 cache search/rotate2 work=3660/10104 responses=8677
+2026-10-30T01:19:01+0800 cache search/rotate2 work=3680/10104 responses=8697
+2026-10-30T01:19:04+0800 cache search/rotate2 work=3700/10104 responses=8717
+2026-10-30T01:19:08+0800 cache search/rotate2 work=3720/10104 responses=8737
+2026-10-30T01:19:12+0800 cache search/rotate2 work=3740/10104 responses=8757
+2026-10-30T01:19:16+0800 cache search/rotate2 work=3760/10104 responses=8777
+2026-10-30T01:19:19+0800 cache search/rotate2 work=3780/10104 responses=8797
+2026-10-30T01:19:23+0800 cache search/rotate2 work=3800/10104 responses=8817
+2026-10-30T01:19:27+0800 cache search/rotate2 work=3820/10104 responses=8837
+2026-10-30T01:19:30+0800 cache search/rotate2 work=3840/10104 responses=8857
+2026-10-30T01:19:34+0800 cache search/rotate2 work=3860/10104 responses=8877
+2026-10-30T01:19:38+0800 cache search/rotate2 work=3880/10104 responses=8897
+2026-10-30T01:19:41+0800 cache search/rotate2 work=3900/10104 responses=8917
+2026-10-30T01:19:45+0800 cache search/rotate2 work=3920/10104 responses=8937
+2026-10-30T01:19:49+0800 cache search/rotate2 work=3940/10104 responses=8957
+2026-10-30T01:19:52+0800 cache search/rotate2 work=3960/10104 responses=8977
+2026-10-30T01:19:56+0800 cache search/rotate2 work=3980/10104 responses=8997
+2026-10-30T01:20:00+0800 cache search/rotate2 work=4000/10104 responses=9017
+2026-10-30T01:20:03+0800 cache search/rotate2 work=4020/10104 responses=9037
+2026-10-30T01:20:07+0800 cache search/rotate2 work=4040/10104 responses=9057
+2026-10-30T01:20:10+0800 cache search/rotate2 work=4060/10104 responses=9077
+2026-10-30T01:20:14+0800 cache search/rotate2 work=4080/10104 responses=9097
+2026-10-30T01:20:18+0800 cache search/rotate2 work=4100/10104 responses=9117
+2026-10-30T01:20:21+0800 cache search/rotate2 work=4120/10104 responses=9137
+2026-10-30T01:20:25+0800 cache search/rotate2 work=4140/10104 responses=9157
+2026-10-30T01:20:29+0800 cache search/rotate2 work=4160/10104 responses=9177
+2026-10-30T01:20:32+0800 cache search/rotate2 work=4180/10104 responses=9197
+2026-10-30T01:20:36+0800 cache search/rotate2 work=4200/10104 responses=9217
+2026-10-30T01:20:40+0800 cache search/rotate2 work=4220/10104 responses=9237
+2026-10-30T01:20:43+0800 cache search/rotate2 work=4240/10104 responses=9257
+2026-10-30T01:20:47+0800 cache search/rotate2 work=4260/10104 responses=9277
+2026-10-30T01:20:51+0800 cache search/rotate2 work=4280/10104 responses=9297
+2026-10-30T01:20:54+0800 cache search/rotate2 work=4300/10104 responses=9317
+2026-10-30T01:20:58+0800 cache search/rotate2 work=4320/10104 responses=9337
+2026-10-30T01:21:01+0800 cache search/rotate2 work=4340/10104 responses=9357
+2026-10-30T01:21:05+0800 cache search/rotate2 work=4360/10104 responses=9377
+2026-10-30T01:21:09+0800 cache search/rotate2 work=4380/10104 responses=9397
+2026-10-30T01:21:13+0800 cache search/rotate2 work=4400/10104 responses=9417
+2026-10-30T01:21:16+0800 cache search/rotate2 work=4420/10104 responses=9437
+2026-10-30T01:21:20+0800 cache search/rotate2 work=4440/10104 responses=9457
+2026-10-30T01:21:24+0800 cache search/rotate2 work=4460/10104 responses=9477
+2026-10-30T01:21:27+0800 cache search/rotate2 work=4480/10104 responses=9497
+2026-10-30T01:21:31+0800 cache search/rotate2 work=4500/10104 responses=9517
+2026-10-30T01:21:34+0800 cache search/rotate2 work=4520/10104 responses=9537
+2026-10-30T01:21:38+0800 cache search/rotate2 work=4540/10104 responses=9557
+2026-10-30T01:21:42+0800 cache search/rotate2 work=4560/10104 responses=9577
+2026-10-30T01:21:45+0800 cache search/rotate2 work=4580/10104 responses=9597
+2026-10-30T01:21:49+0800 cache search/rotate2 work=4600/10104 responses=9617
+2026-10-30T01:21:53+0800 cache search/rotate2 work=4620/10104 responses=9637
+2026-10-30T01:21:56+0800 cache search/rotate2 work=4640/10104 responses=9657
+2026-10-30T01:22:00+0800 cache search/rotate2 work=4660/10104 responses=9677
+2026-10-30T01:22:03+0800 cache search/rotate2 work=4680/10104 responses=9697
+2026-10-30T01:22:07+0800 cache search/rotate2 work=4700/10104 responses=9717
+2026-10-30T01:22:11+0800 cache search/rotate2 work=4720/10104 responses=9737
+2026-10-30T01:22:14+0800 cache search/rotate2 work=4740/10104 responses=9757
+2026-10-30T01:22:18+0800 cache search/rotate2 work=4760/10104 responses=9777
+2026-10-30T01:22:22+0800 cache search/rotate2 work=4780/10104 responses=9797
+2026-10-30T01:22:25+0800 cache search/rotate2 work=4800/10104 responses=9817
+2026-10-30T01:22:29+0800 cache search/rotate2 work=4820/10104 responses=9837
+2026-10-30T01:22:33+0800 cache search/rotate2 work=4840/10104 responses=9857
+2026-10-30T01:22:36+0800 cache search/rotate2 work=4860/10104 responses=9877
+2026-10-30T01:22:40+0800 cache search/rotate2 work=4880/10104 responses=9897
+2026-10-30T01:22:43+0800 cache search/rotate2 work=4900/10104 responses=9917
+2026-10-30T01:22:47+0800 cache search/rotate2 work=4920/10104 responses=9937
+2026-10-30T01:22:51+0800 cache search/rotate2 work=4940/10104 responses=9957
+2026-10-30T01:23:10+0800 cache search/elimination work=4960/10104 responses=9971
+2026-10-30T01:23:40+0800 cache search/principle work=4980/10104 responses=9991
+2026-10-30T01:24:06+0800 cache search/content work=5000/10104 responses=10011
+2026-10-30T01:24:36+0800 cache search/elimination work=5020/10104 responses=10031
+2026-10-30T01:25:08+0800 cache search/principle work=5040/10104 responses=10051
+2026-10-30T01:25:32+0800 cache search/content work=5060/10104 responses=10071
+2026-10-30T01:26:04+0800 cache search/elimination work=5080/10104 responses=10091
+2026-10-30T01:26:34+0800 cache search/principle work=5100/10104 responses=10111
+2026-10-30T01:27:02+0800 cache search/content work=5120/10104 responses=10131
+2026-10-30T01:27:34+0800 cache search/elimination work=5140/10104 responses=10151
+2026-10-30T01:28:00+0800 cache search/principle work=5160/10104 responses=10171
+2026-10-30T01:28:29+0800 cache search/content work=5180/10104 responses=10191
+2026-10-30T01:28:59+0800 cache search/elimination work=5200/10104 responses=10211
+2026-10-30T01:29:24+0800 cache search/principle work=5220/10104 responses=10231
+2026-10-30T01:29:53+0800 cache search/content work=5240/10104 responses=10251
+2026-10-30T01:30:21+0800 cache search/elimination work=5260/10104 responses=10271
+2026-10-30T01:30:48+0800 cache search/principle work=5280/10104 responses=10291
+2026-10-30T01:31:16+0800 cache search/content work=5300/10104 responses=10311
+2026-10-30T01:31:43+0800 cache search/elimination work=5320/10104 responses=10331
+2026-10-30T01:32:10+0800 cache search/principle work=5340/10104 responses=10351
+2026-10-30T01:32:38+0800 cache search/content work=5360/10104 responses=10371
+2026-10-30T01:33:08+0800 cache search/elimination work=5380/10104 responses=10391
+2026-10-30T01:33:39+0800 cache search/principle work=5400/10104 responses=10411
+2026-10-30T01:34:07+0800 cache search/content work=5420/10104 responses=10431
+2026-10-30T01:34:36+0800 cache search/elimination work=5440/10104 responses=10451
+2026-10-30T01:35:03+0800 cache search/principle work=5460/10104 responses=10471
+2026-10-30T01:35:34+0800 cache search/content work=5480/10104 responses=10491
+2026-10-30T01:36:03+0800 cache search/elimination work=5500/10104 responses=10511
+2026-10-30T01:36:30+0800 cache search/principle work=5520/10104 responses=10531
+2026-10-30T01:36:57+0800 cache search/content work=5540/10104 responses=10551
+2026-10-30T01:37:24+0800 cache search/elimination work=5560/10104 responses=10571
+2026-10-30T01:37:52+0800 cache search/principle work=5580/10104 responses=10591
+2026-10-30T01:38:21+0800 cache search/content work=5600/10104 responses=10611
+2026-10-30T01:38:53+0800 cache search/elimination work=5620/10104 responses=10631
+2026-10-30T01:39:24+0800 cache search/principle work=5640/10104 responses=10651
+2026-10-30T01:39:51+0800 cache search/content work=5660/10104 responses=10671
+2026-10-30T01:40:19+0800 cache search/elimination work=5680/10104 responses=10691
+2026-10-30T01:40:45+0800 cache search/principle work=5700/10104 responses=10711
+2026-10-30T01:41:18+0800 cache search/content work=5720/10104 responses=10731
+2026-10-30T01:41:45+0800 cache search/elimination work=5740/10104 responses=10751
+2026-10-30T01:42:11+0800 cache search/principle work=5760/10104 responses=10771
+2026-10-30T01:42:44+0800 cache search/content work=5780/10104 responses=10791
+2026-10-30T01:43:16+0800 cache search/elimination work=5800/10104 responses=10811
+2026-10-30T01:43:45+0800 cache search/principle work=5820/10104 responses=10831
+2026-10-30T01:44:14+0800 cache search/content work=5840/10104 responses=10851
+2026-10-30T01:44:43+0800 cache search/elimination work=5860/10104 responses=10871
+2026-10-30T01:45:13+0800 cache search/principle work=5880/10104 responses=10891
+2026-10-30T01:45:44+0800 cache search/content work=5900/10104 responses=10911
+2026-10-30T01:46:13+0800 cache search/elimination work=5920/10104 responses=10931
+2026-10-30T01:46:44+0800 cache search/principle work=5940/10104 responses=10951
+2026-10-30T01:47:09+0800 cache search/content work=5960/10104 responses=10971
+2026-10-30T01:47:38+0800 cache search/elimination work=5980/10104 responses=10991
+2026-10-30T01:48:05+0800 cache search/principle work=6000/10104 responses=11011
+2026-10-30T01:48:32+0800 cache search/content work=6020/10104 responses=11031
+2026-10-30T01:49:04+0800 cache search/elimination work=6040/10104 responses=11051
+2026-10-30T01:49:31+0800 cache search/principle work=6060/10104 responses=11071
+2026-10-30T01:50:00+0800 cache search/content work=6080/10104 responses=11091
+2026-10-30T01:50:28+0800 cache search/elimination work=6100/10104 responses=11111
+2026-10-30T01:50:55+0800 cache search/principle work=6120/10104 responses=11131
+2026-10-30T01:51:22+0800 cache search/content work=6140/10104 responses=11151
+2026-10-30T01:51:54+0800 cache search/elimination work=6160/10104 responses=11171
+2026-10-30T01:52:20+0800 cache search/principle work=6180/10104 responses=11191
+2026-10-30T01:52:48+0800 cache search/content work=6200/10104 responses=11211
+2026-10-30T01:53:16+0800 cache search/elimination work=6220/10104 responses=11231
+2026-10-30T01:53:47+0800 cache search/principle work=6240/10104 responses=11251
+2026-10-30T01:54:17+0800 cache search/content work=6260/10104 responses=11271
+2026-10-30T01:54:45+0800 cache search/elimination work=6280/10104 responses=11291
+2026-10-30T01:55:13+0800 cache search/principle work=6300/10104 responses=11311
+2026-10-30T01:55:42+0800 cache search/content work=6320/10104 responses=11331
+2026-10-30T01:56:12+0800 cache search/elimination work=6340/10104 responses=11351
+2026-10-30T01:56:36+0800 cache search/principle work=6360/10104 responses=11371
+2026-10-30T01:57:06+0800 cache search/content work=6380/10104 responses=11391
+2026-10-30T01:57:32+0800 cache search/elimination work=6400/10104 responses=11411
+2026-10-30T01:58:01+0800 cache search/principle work=6420/10104 responses=11431
+2026-10-30T01:58:28+0800 cache search/content work=6440/10104 responses=11451
+2026-10-30T01:58:56+0800 cache search/elimination work=6460/10104 responses=11471
+2026-10-30T01:59:27+0800 cache search/principle work=6480/10104 responses=11491
+2026-10-30T01:59:54+0800 cache search/content work=6500/10104 responses=11511
+2026-10-30T02:00:24+0800 cache search/elimination work=6520/10104 responses=11531
+2026-10-30T02:00:53+0800 cache search/principle work=6540/10104 responses=11551
+2026-10-30T02:01:22+0800 cache search/content work=6560/10104 responses=11571
+2026-10-30T02:01:53+0800 cache search/elimination work=6580/10104 responses=11591
+2026-10-30T02:02:22+0800 cache search/principle work=6600/10104 responses=11611
+2026-10-30T02:02:53+0800 cache search/content work=6620/10104 responses=11631
+2026-10-30T02:03:21+0800 cache search/elimination work=6640/10104 responses=11651
+2026-10-30T02:03:48+0800 cache search/principle work=6660/10104 responses=11671
+2026-10-30T02:04:14+0800 cache search/content work=6680/10104 responses=11691
+2026-10-30T02:04:41+0800 cache search/elimination work=6700/10104 responses=11711
+2026-10-30T02:05:08+0800 cache search/principle work=6720/10104 responses=11731
+2026-10-30T02:05:37+0800 cache search/content work=6740/10104 responses=11751
+2026-10-30T02:06:06+0800 cache search/elimination work=6760/10104 responses=11771
+2026-10-30T02:06:33+0800 cache search/principle work=6780/10104 responses=11791
+2026-10-30T02:07:02+0800 cache search/content work=6800/10104 responses=11811
+2026-10-30T02:07:30+0800 cache search/elimination work=6820/10104 responses=11831
+2026-10-30T02:07:56+0800 cache search/principle work=6840/10104 responses=11851
+2026-10-30T02:08:28+0800 cache search/content work=6860/10104 responses=11871
+2026-10-30T02:08:58+0800 cache search/elimination work=6880/10104 responses=11891
+2026-10-30T02:09:29+0800 cache search/principle work=6900/10104 responses=11911
+2026-10-30T02:09:57+0800 cache search/content work=6920/10104 responses=11931
+2026-10-30T02:10:25+0800 cache search/elimination work=6940/10104 responses=11951
+2026-10-30T02:10:55+0800 cache search/principle work=6960/10104 responses=11971
+2026-10-30T02:11:22+0800 cache search/content work=6980/10104 responses=11991
+2026-10-30T02:11:55+0800 cache search/elimination work=7000/10104 responses=12011
+2026-10-30T02:12:21+0800 cache search/principle work=7020/10104 responses=12031
+2026-10-30T02:12:51+0800 cache search/content work=7040/10104 responses=12051
+2026-10-30T02:13:24+0800 cache search/elimination work=7060/10104 responses=12071
+2026-10-30T02:13:54+0800 cache search/principle work=7080/10104 responses=12091
+2026-10-30T02:14:22+0800 cache search/content work=7100/10104 responses=12111
+2026-10-30T02:14:55+0800 cache search/elimination work=7120/10104 responses=12131
+2026-10-30T02:15:22+0800 cache search/principle work=7140/10104 responses=12151
+2026-10-30T02:15:52+0800 cache search/content work=7160/10104 responses=12171
+2026-10-30T02:16:20+0800 cache search/elimination work=7180/10104 responses=12191
+2026-10-30T02:16:49+0800 cache search/principle work=7200/10104 responses=12211
+2026-10-30T02:17:19+0800 cache search/content work=7220/10104 responses=12231
+2026-10-30T02:17:47+0800 cache search/elimination work=7240/10104 responses=12251
+2026-10-30T02:18:13+0800 cache search/principle work=7260/10104 responses=12271
+2026-10-30T02:18:42+0800 cache search/content work=7280/10104 responses=12291
+2026-10-30T02:19:14+0800 cache search/elimination work=7300/10104 responses=12311
+2026-10-30T02:19:42+0800 cache search/principle work=7320/10104 responses=12331
+2026-10-30T02:20:16+0800 cache search/content work=7340/10104 responses=12351
+2026-10-30T02:20:42+0800 cache search/elimination work=7360/10104 responses=12371
+2026-10-30T02:21:10+0800 cache search/principle work=7380/10104 responses=12391
+2026-10-30T02:21:40+0800 cache search/content work=7400/10104 responses=12411
+2026-10-30T02:22:06+0800 cache search/elimination work=7420/10104 responses=12431
+2026-10-30T02:22:33+0800 cache search/principle work=7440/10104 responses=12451
+2026-10-30T02:23:01+0800 cache search/content work=7460/10104 responses=12471
+2026-10-30T02:23:29+0800 cache search/elimination work=7480/10104 responses=12491
+2026-10-30T02:23:59+0800 cache search/principle work=7500/10104 responses=12511
+2026-10-30T02:24:28+0800 cache search/content work=7520/10104 responses=12531
+2026-10-30T02:25:00+0800 cache search/elimination work=7540/10104 responses=12551
+2026-10-30T02:25:25+0800 cache search/principle work=7560/10104 responses=12571
+2026-10-30T02:25:53+0800 cache search/content work=7580/10104 responses=12591
+2026-10-30T02:26:25+0800 cache search/elimination work=7600/10104 responses=12611
+2026-10-30T02:26:57+0800 cache search/principle work=7620/10104 responses=12631
+2026-10-30T02:27:28+0800 cache search/content work=7640/10104 responses=12651
+2026-10-30T02:27:59+0800 cache search/elimination work=7660/10104 responses=12671
+2026-10-30T02:28:28+0800 cache search/principle work=7680/10104 responses=12691
+2026-10-30T02:28:56+0800 cache search/content work=7700/10104 responses=12711
+2026-10-30T02:29:25+0800 cache search/elimination work=7720/10104 responses=12731
+2026-10-30T02:29:55+0800 cache search/principle work=7740/10104 responses=12751
+2026-10-30T02:30:25+0800 cache search/content work=7760/10104 responses=12771
+2026-10-30T02:30:54+0800 cache search/elimination work=7780/10104 responses=12791
+2026-10-30T02:31:19+0800 cache search/principle work=7800/10104 responses=12811
+2026-10-30T02:31:46+0800 cache search/content work=7820/10104 responses=12831
+2026-10-30T02:32:16+0800 cache search/elimination work=7840/10104 responses=12851
+2026-10-30T02:32:45+0800 cache search/principle work=7860/10104 responses=12871
+2026-10-30T02:33:13+0800 cache search/content work=7880/10104 responses=12891
+2026-10-30T02:33:42+0800 cache search/elimination work=7900/10104 responses=12911
+2026-10-30T02:34:10+0800 cache search/principle work=7920/10104 responses=12931
+2026-10-30T02:34:40+0800 cache search/content work=7940/10104 responses=12951
+2026-10-30T02:35:08+0800 cache search/elimination work=7960/10104 responses=12971
+2026-10-30T02:35:37+0800 cache search/principle work=7980/10104 responses=12991
+2026-10-30T02:36:03+0800 cache search/content work=8000/10104 responses=13011
+2026-10-30T02:36:31+0800 cache search/elimination work=8020/10104 responses=13031
+2026-10-30T02:36:57+0800 cache search/principle work=8040/10104 responses=13051
+2026-10-30T02:37:25+0800 cache search/content work=8060/10104 responses=13071
+2026-10-30T02:37:54+0800 cache search/elimination work=8080/10104 responses=13091
+2026-10-30T02:38:21+0800 cache search/principle work=8100/10104 responses=13111
+2026-10-30T02:38:48+0800 cache search/content work=8120/10104 responses=13131
+2026-10-30T02:39:17+0800 cache search/elimination work=8140/10104 responses=13151
+2026-10-30T02:39:48+0800 cache search/principle work=8160/10104 responses=13171
+2026-10-30T02:40:15+0800 cache search/content work=8180/10104 responses=13191
+2026-10-30T02:40:41+0800 cache search/elimination work=8200/10104 responses=13211
+2026-10-30T02:41:07+0800 cache search/principle work=8220/10104 responses=13231
+2026-10-30T02:41:34+0800 cache search/content work=8240/10104 responses=13251
+2026-10-30T02:42:03+0800 cache search/elimination work=8260/10104 responses=13271
+2026-10-30T02:42:33+0800 cache search/principle work=8280/10104 responses=13291
+2026-10-30T02:42:57+0800 cache search/content work=8300/10104 responses=13311
+2026-10-30T02:43:27+0800 cache search/elimination work=8320/10104 responses=13331
+2026-10-30T02:43:58+0800 cache search/principle work=8340/10104 responses=13351
+2026-10-30T02:44:25+0800 cache search/content work=8360/10104 responses=13371
+2026-10-30T02:44:55+0800 cache search/elimination work=8380/10104 responses=13391
+2026-10-30T02:45:24+0800 cache search/principle work=8400/10104 responses=13411
+2026-10-30T02:45:53+0800 cache search/content work=8420/10104 responses=13431
+2026-10-30T02:46:19+0800 cache search/elimination work=8440/10104 responses=13451
+2026-10-30T02:46:51+0800 cache search/principle work=8460/10104 responses=13471
+2026-10-30T02:47:16+0800 cache search/content work=8480/10104 responses=13491
+2026-10-30T02:47:44+0800 cache search/elimination work=8500/10104 responses=13511
+2026-10-30T02:48:14+0800 cache search/principle work=8520/10104 responses=13531
+2026-10-30T02:48:45+0800 cache search/content work=8540/10104 responses=13551
+2026-10-30T02:49:14+0800 cache search/elimination work=8560/10104 responses=13571
+2026-10-30T02:49:43+0800 cache search/principle work=8580/10104 responses=13591
+2026-10-30T02:50:14+0800 cache search/content work=8600/10104 responses=13611
+2026-10-30T02:50:41+0800 cache search/elimination work=8620/10104 responses=13631
+2026-10-30T02:51:10+0800 cache search/principle work=8640/10104 responses=13651
+2026-10-30T02:51:36+0800 cache search/content work=8660/10104 responses=13671
+2026-10-30T02:52:06+0800 cache search/elimination work=8680/10104 responses=13691
+2026-10-30T02:52:33+0800 cache search/principle work=8700/10104 responses=13711
+2026-10-30T02:53:04+0800 cache search/content work=8720/10104 responses=13731
+2026-10-30T02:53:35+0800 cache search/elimination work=8740/10104 responses=13751
+2026-10-30T02:54:07+0800 cache search/principle work=8760/10104 responses=13771
+2026-10-30T02:54:32+0800 cache search/content work=8780/10104 responses=13791
+2026-10-30T02:55:00+0800 cache search/elimination work=8800/10104 responses=13811
+2026-10-30T02:55:29+0800 cache search/principle work=8820/10104 responses=13831
+2026-10-30T02:56:01+0800 cache search/content work=8840/10104 responses=13851
+2026-10-30T02:56:29+0800 cache search/elimination work=8860/10104 responses=13871
+2026-10-30T02:56:56+0800 cache search/principle work=8880/10104 responses=13891
+2026-10-30T02:57:23+0800 cache search/content work=8900/10104 responses=13911
+2026-10-30T02:57:53+0800 cache search/elimination work=8920/10104 responses=13931
+2026-10-30T02:58:24+0800 cache search/principle work=8940/10104 responses=13951
+2026-10-30T02:58:55+0800 cache search/content work=8960/10104 responses=13971
+2026-10-30T02:59:25+0800 cache search/elimination work=8980/10104 responses=13991
+2026-10-30T02:59:51+0800 cache search/principle work=9000/10104 responses=14011
+2026-10-30T03:00:21+0800 cache search/content work=9020/10104 responses=14031
+2026-10-30T03:00:51+0800 cache search/elimination work=9040/10104 responses=14051
+2026-10-30T03:01:16+0800 cache search/principle work=9060/10104 responses=14071
+2026-10-30T03:01:45+0800 cache search/content work=9080/10104 responses=14091
+2026-10-30T03:02:13+0800 cache search/elimination work=9100/10104 responses=14111
+2026-10-30T03:02:43+0800 cache search/principle work=9120/10104 responses=14131
+2026-10-30T03:03:10+0800 cache search/content work=9140/10104 responses=14151
+2026-10-30T03:03:36+0800 cache search/elimination work=9160/10104 responses=14171
+2026-10-30T03:04:03+0800 cache search/principle work=9180/10104 responses=14191
+2026-10-30T03:04:33+0800 cache search/content work=9200/10104 responses=14211
+2026-10-30T03:05:01+0800 cache search/elimination work=9220/10104 responses=14231
+2026-10-30T03:05:30+0800 cache search/principle work=9240/10104 responses=14251
+2026-10-30T03:05:57+0800 cache search/content work=9260/10104 responses=14271
+2026-10-30T03:06:24+0800 cache search/elimination work=9280/10104 responses=14291
+2026-10-30T03:06:51+0800 cache search/principle work=9300/10104 responses=14311
+2026-10-30T03:07:17+0800 cache search/content work=9320/10104 responses=14331
+2026-10-30T03:07:47+0800 cache search/elimination work=9340/10104 responses=14351
+2026-10-30T03:08:14+0800 cache search/principle work=9360/10104 responses=14371
+2026-10-30T03:08:39+0800 cache search/content work=9380/10104 responses=14391
+2026-10-30T03:09:11+0800 cache search/elimination work=9400/10104 responses=14411
+2026-10-30T03:09:40+0800 cache search/principle work=9420/10104 responses=14431
+2026-10-30T03:10:07+0800 cache search/content work=9440/10104 responses=14451
+2026-10-30T03:10:10+0800 cache search/unrelated work=9460/10104 responses=14467
+2026-10-30T03:10:13+0800 cache search/unrelated work=9480/10104 responses=14487
+2026-10-30T03:10:17+0800 cache search/unrelated work=9500/10104 responses=14507
+2026-10-30T03:10:20+0800 cache search/unrelated work=9520/10104 responses=14527
+2026-10-30T03:10:24+0800 cache search/unrelated work=9540/10104 responses=14547
+2026-10-30T03:10:28+0800 cache search/unrelated work=9560/10104 responses=14567
+2026-10-30T03:10:31+0800 cache search/unrelated work=9580/10104 responses=14587
+2026-10-30T03:10:35+0800 cache search/unrelated work=9600/10104 responses=14607
+2026-10-30T03:10:38+0800 cache search/unrelated work=9620/10104 responses=14627
+2026-10-30T03:10:42+0800 cache search/unrelated work=9640/10104 responses=14647
+2026-10-30T03:10:45+0800 cache search/unrelated work=9660/10104 responses=14667
+2026-10-30T03:10:49+0800 cache search/unrelated work=9680/10104 responses=14687
+2026-10-30T03:10:52+0800 cache search/unrelated work=9700/10104 responses=14707
+2026-10-30T03:10:56+0800 cache search/unrelated work=9720/10104 responses=14727
+2026-10-30T03:11:00+0800 cache search/unrelated work=9740/10104 responses=14747
+2026-10-30T03:11:03+0800 cache search/unrelated work=9760/10104 responses=14767
+2026-10-30T03:11:07+0800 cache search/unrelated work=9780/10104 responses=14787
+2026-10-30T03:11:10+0800 cache search/unrelated work=9800/10104 responses=14807
+2026-10-30T03:11:14+0800 cache search/unrelated work=9820/10104 responses=14827
+2026-10-30T03:11:18+0800 cache search/unrelated work=9840/10104 responses=14847
+2026-10-30T03:11:21+0800 cache search/unrelated work=9860/10104 responses=14867
+2026-10-30T03:11:25+0800 cache search/unrelated work=9880/10104 responses=14887
+2026-10-30T03:11:28+0800 cache search/unrelated work=9900/10104 responses=14907
+2026-10-30T03:11:32+0800 cache search/unrelated work=9920/10104 responses=14927
+2026-10-30T03:11:35+0800 cache search/unrelated work=9940/10104 responses=14947
+2026-10-30T03:11:39+0800 cache search/unrelated work=9960/10104 responses=14967
+2026-10-30T03:11:43+0800 cache search/unrelated work=9980/10104 responses=14987
+2026-10-30T03:11:46+0800 cache search/unrelated work=10000/10104 responses=15007
+2026-10-30T03:11:50+0800 cache search/unrelated work=10020/10104 responses=15027
+2026-10-30T03:11:53+0800 cache search/unrelated work=10040/10104 responses=15047
+2026-10-30T03:11:57+0800 cache search/repeat work=10060/10104 responses=15065
+2026-10-30T03:12:00+0800 cache search/repeat work=10080/10104 responses=15085
+2026-10-30T03:12:04+0800 cache search/repeat work=10100/10104 responses=15105
+2026-10-30T03:12:05+0800 cache search/repeat work=10104/10104 responses=15109
+2026-10-30T03:12:05+0800 stage=search_only_strategy_selection
+2026-10-30T03:12:07+0800 Search-only strategy freeze: elimination,principle
+2026-10-30T03:12:07+0800 stage=frozen_strategy_validation_generation
+2026-10-30T03:12:40+0800 cache validation/principle work=20/978 responses=15129
+2026-10-30T03:13:14+0800 cache validation/principle work=40/978 responses=15149
+2026-10-30T03:13:46+0800 cache validation/principle work=60/978 responses=15169
+2026-10-30T03:14:19+0800 cache validation/principle work=80/978 responses=15189
+2026-10-30T03:14:53+0800 cache validation/principle work=100/978 responses=15209
+2026-10-30T03:15:27+0800 cache validation/principle work=120/978 responses=15229
+2026-10-30T03:16:01+0800 cache validation/principle work=140/978 responses=15249
+2026-10-30T03:16:35+0800 cache validation/principle work=160/978 responses=15269
+2026-10-30T03:17:08+0800 cache validation/principle work=180/978 responses=15289
+2026-10-30T03:17:38+0800 cache validation/principle work=200/978 responses=15309
+2026-10-30T03:18:11+0800 cache validation/principle work=220/978 responses=15329
+2026-10-30T03:18:43+0800 cache validation/principle work=240/978 responses=15349
+2026-10-30T03:19:13+0800 cache validation/principle work=260/978 responses=15369
+2026-10-30T03:19:45+0800 cache validation/principle work=280/978 responses=15389
+2026-10-30T03:20:15+0800 cache validation/principle work=300/978 responses=15409
+2026-10-30T03:20:46+0800 cache validation/principle work=320/978 responses=15429
+2026-10-30T03:21:21+0800 cache validation/principle work=340/978 responses=15449
+2026-10-30T03:21:56+0800 cache validation/principle work=360/978 responses=15469
+2026-10-30T03:22:30+0800 cache validation/principle work=380/978 responses=15489
+2026-10-30T03:23:03+0800 cache validation/principle work=400/978 responses=15509
+2026-10-30T03:23:38+0800 cache validation/principle work=420/978 responses=15529
+2026-10-30T03:24:11+0800 cache validation/principle work=440/978 responses=15549
+2026-10-30T03:24:40+0800 cache validation/principle work=460/978 responses=15569
+2026-10-30T03:25:17+0800 cache validation/principle work=480/978 responses=15589
+2026-10-30T03:25:52+0800 cache validation/principle work=500/978 responses=15609
+2026-10-30T03:26:24+0800 cache validation/principle work=520/978 responses=15629
+2026-10-30T03:27:00+0800 cache validation/principle work=540/978 responses=15649
+2026-10-30T03:27:34+0800 cache validation/principle work=560/978 responses=15669
+2026-10-30T03:28:09+0800 cache validation/principle work=580/978 responses=15689
+2026-10-30T03:28:41+0800 cache validation/principle work=600/978 responses=15709
+2026-10-30T03:29:13+0800 cache validation/principle work=620/978 responses=15729
+2026-10-30T03:29:46+0800 cache validation/principle work=640/978 responses=15749
+2026-10-30T03:30:17+0800 cache validation/principle work=660/978 responses=15769
+2026-10-30T03:30:49+0800 cache validation/principle work=680/978 responses=15789
+2026-10-30T03:31:20+0800 cache validation/principle work=700/978 responses=15809
+2026-10-30T03:31:55+0800 cache validation/principle work=720/978 responses=15829
+2026-10-30T03:32:28+0800 cache validation/principle work=740/978 responses=15849
+2026-10-30T03:32:59+0800 cache validation/principle work=760/978 responses=15869
+2026-10-30T03:33:31+0800 cache validation/principle work=780/978 responses=15889
+2026-10-30T03:34:06+0800 cache validation/principle work=800/978 responses=15909
+2026-10-30T03:34:37+0800 cache validation/principle work=820/978 responses=15929
+2026-10-30T03:35:11+0800 cache validation/principle work=840/978 responses=15949
+2026-10-30T03:35:40+0800 cache validation/principle work=860/978 responses=15969
+2026-10-30T03:36:14+0800 cache validation/principle work=880/978 responses=15989
+2026-10-30T03:36:49+0800 cache validation/principle work=900/978 responses=16009
+2026-10-30T03:37:20+0800 cache validation/principle work=920/978 responses=16029
+2026-10-30T03:37:54+0800 cache validation/principle work=940/978 responses=16049
+2026-10-30T03:38:24+0800 cache validation/principle work=960/978 responses=16069
+2026-10-30T03:38:53+0800 cache validation/principle work=978/978 responses=16087
+2026-10-30T03:38:55+0800 stage=cpu_analysis_learning_curves
+2026-10-30T03:38:57+0800 expanded_baseline_selectors selectors complete in 1.4s
+2026-10-30T03:38:57+0800 Learning curve reference_three seed=11 n=128 complete
+2026-10-30T03:38:57+0800 Learning curve reference_three seed=11 n=256 complete
+2026-10-30T03:38:58+0800 Learning curve reference_three seed=11 n=512 complete
+2026-10-30T03:38:58+0800 Learning curve reference_three seed=11 n=1000 complete
+2026-10-30T03:38:58+0800 Learning curve reference_three seed=11 n=1500 complete
+2026-10-30T03:38:58+0800 Learning curve reference_three seed=29 n=128 complete
+2026-10-30T03:38:58+0800 Learning curve reference_three seed=29 n=256 complete
+2026-10-30T03:38:58+0800 Learning curve reference_three seed=29 n=512 complete
+2026-10-30T03:38:58+0800 Learning curve reference_three seed=29 n=1000 complete
+2026-10-30T03:38:58+0800 Learning curve reference_three seed=29 n=1500 complete
+2026-10-30T03:38:58+0800 Learning curve reference_three seed=47 n=128 complete
+2026-10-30T03:38:59+0800 Learning curve reference_three seed=47 n=256 complete
+2026-10-30T03:38:59+0800 Learning curve reference_three seed=47 n=512 complete
+2026-10-30T03:38:59+0800 Learning curve reference_three seed=47 n=1000 complete
+2026-10-30T03:38:59+0800 Learning curve reference_three seed=47 n=1500 complete
+2026-10-30T03:38:59+0800 Learning curve reference_three seed=71 n=128 complete
+2026-10-30T03:38:59+0800 Learning curve reference_three seed=71 n=256 complete
+2026-10-30T03:38:59+0800 Learning curve reference_three seed=71 n=512 complete
+2026-10-30T03:38:59+0800 Learning curve reference_three seed=71 n=1000 complete
+2026-10-30T03:39:00+0800 Learning curve reference_three seed=71 n=1500 complete
+2026-10-30T03:39:00+0800 Learning curve reference_three seed=101 n=128 complete
+2026-10-30T03:39:00+0800 Learning curve reference_three seed=101 n=256 complete
+2026-10-30T03:39:00+0800 Learning curve reference_three seed=101 n=512 complete
+2026-10-30T03:39:00+0800 Learning curve reference_three seed=101 n=1000 complete
+2026-10-30T03:39:00+0800 Learning curve reference_three seed=101 n=1500 complete
+2026-10-30T03:39:01+0800 Learning curve all_five seed=11 n=128 complete
+2026-10-30T03:39:01+0800 Learning curve all_five seed=11 n=256 complete
+2026-10-30T03:39:01+0800 Learning curve all_five seed=11 n=512 complete
+2026-10-30T03:39:01+0800 Learning curve all_five seed=11 n=1000 complete
+2026-10-30T03:39:02+0800 Learning curve all_five seed=11 n=1500 complete
+2026-10-30T03:39:02+0800 Learning curve all_five seed=29 n=128 complete
+2026-10-30T03:39:02+0800 Learning curve all_five seed=29 n=256 complete
+2026-10-30T03:39:02+0800 Learning curve all_five seed=29 n=512 complete
+2026-10-30T03:39:03+0800 Learning curve all_five seed=29 n=1000 complete
+2026-10-30T03:39:03+0800 Learning curve all_five seed=29 n=1500 complete
+2026-10-30T03:39:03+0800 Learning curve all_five seed=47 n=128 complete
+2026-10-30T03:39:03+0800 Learning curve all_five seed=47 n=256 complete
+2026-10-30T03:39:03+0800 Learning curve all_five seed=47 n=512 complete
+2026-10-30T03:39:04+0800 Learning curve all_five seed=47 n=1000 complete
+2026-10-30T03:39:04+0800 Learning curve all_five seed=47 n=1500 complete
+2026-10-30T03:39:04+0800 Learning curve all_five seed=71 n=128 complete
+2026-10-30T03:39:04+0800 Learning curve all_five seed=71 n=256 complete
+2026-10-30T03:39:05+0800 Learning curve all_five seed=71 n=512 complete
+2026-10-30T03:39:05+0800 Learning curve all_five seed=71 n=1000 complete
+2026-10-30T03:39:05+0800 Learning curve all_five seed=71 n=1500 complete
+2026-10-30T03:39:05+0800 Learning curve all_five seed=101 n=128 complete
+2026-10-30T03:39:05+0800 Learning curve all_five seed=101 n=256 complete
+2026-10-30T03:39:06+0800 Learning curve all_five seed=101 n=512 complete
+2026-10-30T03:39:06+0800 Learning curve all_five seed=101 n=1000 complete
+2026-10-30T03:39:06+0800 Learning curve all_five seed=101 n=1500 complete
+2026-10-30T03:39:14+0800 Diagnostic report and tables produced; no further experiment will be launched.
+2026-10-30T03:39:14+0800 stage=complete

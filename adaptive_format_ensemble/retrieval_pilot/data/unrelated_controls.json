@@ -1,0 +1,3002 @@
+[
+  {
+    "qid": "obqa/train/12-988",
+    "document_id": "obqa-fact-41cf73ae895f484e128c",
+    "text": "a kettle is formed when chunks of ice left by glaciers melt",
+    "bm25_score": 0.0,
+    "query_content_jaccard": 0.0,
+    "word_length_distance": 0,
+    "candidate_count": 936,
+    "selection": "independent corpus control, lower-half retrieval score, low lexical overlap, nearest top-one length, seeded ties; no annotation input"
+  },
+  {
+    "qid": "obqa/train/13-952",
+    "document_id": "obqa-fact-a92fabb7730e497d18c1",
+    "text": "tinted lenses reflect ultraviolet rays",
+    "bm25_score": 0.0,
+    "query_content_jaccard": 0.0,
+    "word_length_distance": 0,
+    "candidate_count": 663,
+    "selection": "independent corpus control, lower-half retrieval score, low lexical overlap, nearest top-one length, seeded ties; no annotation input"
+  },
+  {
+    "qid": "obqa/train/11-199",
+    "document_id": "obqa-fact-7fe4f88837c2cf391516",
+    "text": "cooking food requires adding heat energy",
+    "bm25_score": 0.0,
+    "query_content_jaccard": 0.0,
+    "word_length_distance": 0,
+    "candidate_count": 694,
+    "selection": "independent corpus control, lower-half retrieval score, low lexical overlap, nearest top-one length, seeded ties; no annotation input"
+  },
+  {
+    "qid": "obqa/train/10-379",
+    "document_id": "obqa-fact-3d0f780eb112559aed94",
+    "text": "cool temperatures cause animals to shiver",
+    "bm25_score": 0.0,
+    "query_content_jaccard": 0.0,
+    "word_length_distance": 0,
+    "candidate_count": 668,
+    "selection": "independent corpus control, lower-half retrieval score, low lexical overlap, nearest top-one length, seeded ties; no annotation input"
+  },
+  {
+    "qid": "obqa/train/14-712",
+    "document_id": "obqa-fact-b5ba99d7fe9b2d38f6cc",
+    "text": "non-contact forces can affect objects that are not touching",
+    "bm25_score": 0.0,
+    "query_content_jaccard": 0.0,
+    "word_length_distance": 0,
+    "candidate_count": 664,
+    "selection": "independent corpus control, lower-half retrieval score, low lexical overlap, nearest top-one length, seeded ties; no annotation input"
+  },
+  {
+    "qid": "obqa/train/11-305",
+    "document_id": "obqa-fact-995a8e055998d2af5dcc",
+    "text": "electrical conduction is when metals conduct electricity through metal",
+    "bm25_score": 1.1295543232591339,
+    "query_content_jaccard": 0.0,
+    "word_length_distance": 0,
+    "candidate_count": 672,
+    "selection": "independent corpus control, lower-half retrieval score, low lexical overlap, nearest top-one length, seeded ties; no annotation input"
+  },
+  {
+    "qid": "obqa/train/7-56",
+    "document_id": "obqa-fact-995a8e055998d2af5dcc",
+    "text": "electrical conduction is when metals conduct electricity through metal",
+    "bm25_score": 0.0,
+    "query_content_jaccard": 0.0,
+    "word_length_distance": 0,
+    "candidate_count": 663,
+    "selection": "independent corpus control, lower-half retrieval score, low lexical overlap, nearest top-one length, seeded ties; no annotation input"
+  },
+  {
+    "qid": "obqa/train/1228",
+    "document_id": "obqa-fact-33f61273c5c052f3f74d",
+    "text": "an electric car uses less gasoline than a regular car",
+    "bm25_score": 4.3143670600151465,
+    "query_content_jaccard": 0.0,
+    "word_length_distance": 0,
+    "candidate_count": 667,
+    "selection": "independent corpus control, lower-half retrieval score, low lexical overlap, nearest top-one length, seeded ties; no annotation input"
+  },
+  {
+    "qid": "obqa/train/9-45",
+    "document_id": "obqa-fact-61b48e22854f55d0f233",
+    "text": "inheriting is when a inherited characteristic is passed from parent to offspring by DNA",
+    "bm25_score": 1.4550761278779938,
+    "query_content_jaccard": 0.0,
+    "word_length_distance": 0,
+    "candidate_count": 664,
+    "selection": "independent corpus control, lower-half retrieval score, low lexical overlap, nearest top-one length, seeded ties; no annotation input"
+  },
+  {
+    "qid": "obqa/train/12-742",
+    "document_id": "obqa-fact-8cdb5a27bf99b9a23e92",
+    "text": "an electrical device requires electricity to turn on",
+    "bm25_score": 1.6589785348479487,
+    "query_content_jaccard": 0.0,
+    "word_length_distance": 0,
+    "candidate_count": 664,
+    "selection": "independent corpus control, lower-half retrieval score, low lexical overlap, nearest top-one length, seeded ties; no annotation input"
+  },
+  {
+    "qid": "obqa/train/14-1506",
+    "document_id": "obqa-fact-ee3f1c712bc6259034ed",
+    "text": "if an organism 's prey moves quickly then that organism may need to move quickly to catch its prey",
+    "bm25_score": 0.0,
+    "query_content_jaccard": 0.0,
+    "word_length_distance": 0,
+    "candidate_count": 670,
+    "selection": "independent corpus control, lower-half retrieval score, low lexical overlap, nearest top-one length, seeded ties; no annotation input"
+  },
+  {
+    "qid": "obqa/train/12-289",
+    "document_id": "obqa-fact-9853656bb8759a8e4fd0",
+    "text": "if something is outside during the day then that something will receive sunlight",
+    "bm25_score": 0.945161886386744,
+    "query_content_jaccard": 0.0,
+    "word_length_distance": 0,
+    "candidate_count": 670,
+    "selection": "independent corpus control, lower-half retrieval score, low lexical overlap, nearest top-one length, seeded ties; no annotation input"
+  },
+  {
+    "qid": "obqa/train/10-741",
+    "document_id": "obqa-fact-90262f22129af8da984b",
+    "text": "female birds sit in nests",
+    "bm25_score": 0.0,
+    "query_content_jaccard": 0.0,
+    "word_length_distance": 0,
+    "candidate_count": 678,
+    "selection": "independent corpus control, lower-half retrieval score, low lexical overlap, nearest top-one length, seeded ties; no annotation input"
+  },
+  {
+    "qid": "obqa/train/13-176",
+    "document_id": "obqa-fact-35f6bd54accea9a44840",
+    "text": "evaporation causes amount of water to decrease",
+    "bm25_score": 0.0,
+    "query_content_jaccard": 0.0,
+    "word_length_distance": 0,
+    "candidate_count": 670,
+    "selection": "independent corpus control, lower-half retrieval score, low lexical overlap, nearest top-one length, seeded ties; no annotation input"
+  },
+  {
+    "qid": "obqa/train/12-207",
+    "document_id": "obqa-fact-7a80bc05adb0617ba06a",
+    "text": "folding an object causes that object to change shape",
+    "bm25_score": 1.5780656512547906,
+    "query_content_jaccard": 0.0,
+    "word_length_distance": 0,
+    "candidate_count": 665,
+    "selection": "independent corpus control, lower-half retrieval score, low lexical overlap, nearest top-one length, seeded ties; no annotation input"
+  },
+  {
+    "qid": "obqa/train/10-674",
+    "document_id": "obqa-fact-c87cd48469a0dfb0fc06",
+    "text": "plant cells can perform photosynthesis",
+    "bm25_score": 0.0,
+    "query_content_jaccard": 0.0,
+    "word_length_distance": 0,
+    "candidate_count": 677,
+    "selection": "independent corpus control, lower-half retrieval score, low lexical overlap, nearest top-one length, seeded ties; no annotation input"
+  },
+  {
+    "qid": "obqa/train/13-467",
+    "document_id": "obqa-fact-9629c4ab9fdd112b17ec",
+    "text": "An example of collecting data is measuring",
+    "bm25_score": 0.0,
+    "query_content_jaccard": 0.0,
+    "word_length_distance": 0,
+    "candidate_count": 708,
+    "selection": "independent corpus control, lower-half retrieval score, low lexical overlap, nearest top-one length, seeded ties; no annotation input"
+  },
+  {
+    "qid": "obqa/train/13-1006",
+    "document_id": "obqa-fact-4192734bbe30b1f7fb04",
+    "text": "the vanes rotating in an electric fan causes air to move",
+    "bm25_score": 2.4480947827945485,
+    "query_content_jaccard": 0.0,
+    "word_length_distance": 0,
+    "candidate_count": 665,
+    "selection": "independent corpus control, lower-half retrieval score, low lexical overlap, nearest top-one length, seeded ties; no annotation input"
+  },
+  {
+    "qid": "obqa/train/11-443",
+    "document_id": "obqa-fact-e914312e21832331c184",
+    "text": "carpet absorbs sound",
+    "bm25_score": 0.0,
+    "query_content_jaccard": 0.0,
+    "word_length_distance": 0,
+    "candidate_count": 663,
+    "selection": "independent corpus control, lower-half retrieval score, low lexical overlap, nearest top-one length, seeded ties; no annotation input"
+  },
+  {
+    "qid": "obqa/train/1894",
+    "document_id": "obqa-fact-e289dcc9b76977dc00b1",
+    "text": "inheriting is when a inherited characteristic is passed from parent to offspring by genetics",
+    "bm25_score": 1.3675846823866857,
+    "query_content_jaccard": 0.0,
+    "word_length_distance": 0,
+    "candidate_count": 671,
+    "selection": "independent corpus control, lower-half retrieval score, low lexical overlap, nearest top-one length, seeded ties; no annotation input"
+  },
+  {
+    "qid": "obqa/train/11-267",
+    "document_id": "obqa-fact-8c5794a1f6121eb9e320",
+    "text": "breaking down an object changes that object 's shape and mass",
+    "bm25_score": 0.0,
+    "query_content_jaccard": 0.0,
+    "word_length_distance": 0,
+    "candidate_count": 664,
+    "selection": "independent corpus control, lower-half retrieval score, low lexical overlap, nearest top-one length, seeded ties; no annotation input"
+  },
+  {
+    "qid": "obqa/train/9-737",
+    "document_id": "obqa-fact-df691fd956978c201a88",
+    "text": "friction is used for stopping a vehicle by brakes",
+    "bm25_score": 1.1295543232591339,
+    "query_content_jaccard": 0.0,
+    "word_length_distance": 0,
+    "candidate_count": 681,
+    "selection": "independent corpus control, lower-half retrieval score, low lexical overlap, nearest top-one length, seeded ties; no annotation input"
+  },
+  {
+    "qid": "obqa/train/13-328",
+    "document_id": "obqa-fact-17e711f126e9d06a5da4",
+    "text": "if a body of water loses all water then that body of water does not exist any more",
+    "bm25_score": 1.90888824408724,
+    "query_content_jaccard": 0.0,
+    "word_length_distance": 0,
+    "candidate_count": 664,
+    "selection": "independent corpus control, lower-half retrieval score, low lexical overlap, nearest top-one length, seeded ties; no annotation input"
+  },
+  {
+    "qid": "obqa/train/12-352",
+    "document_id": "obqa-fact-94fed5517dae946779e8",
+    "text": "crumple means change shape from smooth into compacted by physical force",
+    "bm25_score": 0.0,
+    "query_content_jaccard": 0.0,
+    "word_length_distance": 0,
+    "candidate_count": 680,
+    "selection": "independent corpus control, lower-half retrieval score, low lexical overlap, nearest top-one length, seeded ties; no annotation input"
+  },
+  {
+    "qid": "obqa/train/13-890",
+    "document_id": "obqa-fact-16112131f92ef54b2eeb",
+    "text": "riding a bike does not cause pollution",
+    "bm25_score": 0.0,
+    "query_content_jaccard": 0.0,
+    "word_length_distance": 0,
+    "candidate_count": 663,
+    "selection": "independent corpus control, lower-half retrieval score, low lexical overlap, nearest top-one length, seeded ties; no annotation input"
+  },
+  {
+    "qid": "obqa/train/8-436",
+    "document_id": "obqa-fact-38c5e3e52759087cafaf",
+    "text": "the Earth contains many ecosystems",
+    "bm25_score": 0.0,
+    "query_content_jaccard": 0.0,
+    "word_length_distance": 0,
+    "candidate_count": 663,
+    "selection": "independent corpus control, lower-half retrieval score, low lexical overlap, nearest top-one length, seeded ties; no annotation input"
+  },
+  {
+    "qid": "obqa/train/11-481",
+    "document_id": "obqa-fact-d886c1a0a022b996939f",
+    "text": "an animal requires air for survival",
+    "bm25_score": 0.0,
+    "query_content_jaccard": 0.0,
+    "word_length_distance": 0,
+    "candidate_count": 663,
+    "selection": "independent corpus control, lower-half retrieval score, low lexical overlap, nearest top-one length, seeded ties; no annotation input"
+  },
+  {
+    "qid": "obqa/train/9-355",
+    "document_id": "obqa-fact-c570c94ef3e3aefc368c",
+    "text": "rest has a positive impact on a health",
+    "bm25_score": 0.0,
+    "query_content_jaccard": 0.0,
+    "word_length_distance": 0,
+    "candidate_count": 663,
+    "selection": "independent corpus control, lower-half retrieval score, low lexical overlap, nearest top-one length, seeded ties; no annotation input"
+  },
+  {
+    "qid": "obqa/train/10-1190",
+    "document_id": "obqa-fact-6f1c7055e06f351b0ba1",
+    "text": "as distance from a source of light increases , that source of light will appear dimmer",
+    "bm25_score": 0.7000871826115822,
+    "query_content_jaccard": 0.0,
+    "word_length_distance": 0,
+    "candidate_count": 666,
+    "selection": "independent corpus control, lower-half retrieval score, low lexical overlap, nearest top-one length, seeded ties; no annotation input"
+  },
+  {
+    "qid": "obqa/train/12-167",
+    "document_id": "obqa-fact-5c8ddd9b581ca55fd52b",
+    "text": "a tectonic plate moves along a fault line",
+    "bm25_score": 0.0,
+    "query_content_jaccard": 0.0,
+    "word_length_distance": 0,
+    "candidate_count": 670,
+    "selection": "independent corpus control, lower-half retrieval score, low lexical overlap, nearest top-one length, seeded ties; no annotation input"
+  },
+  {
+    "qid": "obqa/train/14-1287",
+    "document_id": "obqa-fact-92c6533183471505d093",
+    "text": "living things require water for survival",
+    "bm25_score": 0.0,
+    "query_content_jaccard": 0.0,
+    "word_length_distance": 0,
+    "candidate_count": 664,
+    "selection": "independent corpus control, lower-half retrieval score, low lexical overlap, nearest top-one length, seeded ties; no annotation input"
+  },
+  {
+    "qid": "obqa/train/12-90",
+    "document_id": "obqa-fact-807cb5bb53a4f387df8e",
+    "text": "DNA is a vehicle for passing inherited characteristics from parent to offspring",
+    "bm25_score": 0.7894475877335835,
+    "query_content_jaccard": 0.0,
+    "word_length_distance": 0,
+    "candidate_count": 698,
+    "selection": "independent corpus control, lower-half retrieval score, low lexical overlap, nearest top-one length, seeded ties; no annotation input"
+  },
+  {
+    "qid": "obqa/train/8-99",
+    "document_id": "obqa-fact-ee3f1c712bc6259034ed",
+    "text": "if an organism 's prey moves quickly then that organism may need to move quickly to catch its prey",
+    "bm25_score": 0.0,
+    "query_content_jaccard": 0.0,
+    "word_length_distance": 0,
+    "candidate_count": 663,
+    "selection": "independent corpus control, lower-half retrieval score, low lexical overlap, nearest top-one length, seeded ties; no annotation input"
+  },
+  {
+    "qid": "obqa/train/12-328",
+    "document_id": "obqa-fact-23c52cc85e7bed749048",
+    "text": "roots are a vehicle for absorbing water and nutrients from soil into the plant",
+    "bm25_score": 1.4550761278779938,
+    "query_content_jaccard": 0.0,
+    "word_length_distance": 0,
+    "candidate_count": 665,
+    "selection": "independent corpus control, lower-half retrieval score, low lexical overlap, nearest top-one length, seeded ties; no annotation input"
+  },
+  {
+    "qid": "obqa/train/8-210",
+    "document_id": "obqa-fact-89230750d6821eb91166",
+    "text": "refraction is when light bends",
+    "bm25_score": 1.4033314503223377,
+    "query_content_jaccard": 0.0,
+    "word_length_distance": 0,
+    "candidate_count": 672,
+    "selection": "independent corpus control, lower-half retrieval score, low lexical overlap, nearest top-one length, seeded ties; no annotation input"
+  },
+  {
+    "qid": "obqa/train/12-212",
+    "document_id": "obqa-fact-e4c833a0bc58ea4a38a2",
+    "text": "height is an inherited characteristic",
+    "bm25_score": 1.960551266529219,
+    "query_content_jaccard": 0.0,
+    "word_length_distance": 0,
+    "candidate_count": 664,
+    "selection": "independent corpus control, lower-half retrieval score, low lexical overlap, nearest top-one length, seeded ties; no annotation input"
+  },
+  {
+    "qid": "obqa/train/7-521",
+    "document_id": "obqa-fact-0be3e37baba744bb8412",
+    "text": "farming changes the environment",
+    "bm25_score": 0.0,
+    "query_content_jaccard": 0.0,
+    "word_length_distance": 0,
+    "candidate_count": 664,
+    "selection": "independent corpus control, lower-half retrieval score, low lexical overlap, nearest top-one length, seeded ties; no annotation input"
+  },
+  {
+    "qid": "obqa/train/13-132",
+    "document_id": "obqa-fact-e865c175f4e867b8875e",
+    "text": "herbivores only eat plants",
+    "bm25_score": 0.0,
+    "query_content_jaccard": 0.0,
+    "word_length_distance": 0,
+    "candidate_count": 684,
+    "selection": "independent corpus control, lower-half retrieval score, low lexical overlap, nearest top-one length, seeded ties; no annotation input"
+  },
+  {
+    "qid": "obqa/train/10-1214",
+    "document_id": "obqa-fact-1796167757057165e210",
+    "text": "wiring requires an electrical conductor",
+    "bm25_score": 0.0,
+    "query_content_jaccard": 0.0,
+    "word_length_distance": 0,
+    "candidate_count": 1216,
+    "selection": "independent corpus control, lower-half retrieval score, low lexical overlap, nearest top-one length, seeded ties; no annotation input"
+  },
+  {
+    "qid": "obqa/train/14-888",
+    "document_id": "obqa-fact-d1c8e28a598ee7e4b0db",
+    "text": "a barometer is used to measure air pressure",
+    "bm25_score": 0.0,
+    "query_content_jaccard": 0.0,
+    "word_length_distance": 0,
+    "candidate_count": 792,
+    "selection": "independent corpus control, lower-half retrieval score, low lexical overlap, nearest top-one length, seeded ties; no annotation input"
+  },
+  {
+    "qid": "obqa/train/791",
+    "document_id": "obqa-fact-d30e8730abb899d6f82a",
+    "text": "an animal 's brain controls that animal",
+    "bm25_score": 0.0,
+    "query_content_jaccard": 0.0,
+    "word_length_distance": 0,
+    "candidate_count": 683,
+    "selection": "independent corpus control, lower-half retrieval score, low lexical overlap, nearest top-one length, seeded ties; no annotation input"
+  },
+  {
+    "qid": "obqa/train/14-219",
+    "document_id": "obqa-fact-cbb0599f52cc38852e81",
+    "text": "mountains are formed by volcanoes",
+    "bm25_score": 0.0,
+    "query_content_jaccard": 0.0,
+    "word_length_distance": 0,
+    "candidate_count": 1307,
+    "selection": "independent corpus control, lower-half retrieval score, low lexical overlap, nearest top-one length, seeded ties; no annotation input"
+  },
+  {
+    "qid": "obqa/train/13-454",
+    "document_id": "obqa-fact-45563c88e6a66389a79c",
+    "text": "moving an object from a cool place to a warm place causes the object 's temperature to increase",
+    "bm25_score": 0.0,
+    "query_content_jaccard": 0.0,
+    "word_length_distance": 0,
+    "candidate_count": 667,
+    "selection": "independent corpus control, lower-half retrieval score, low lexical overlap, nearest top-one length, seeded ties; no annotation input"
+  },
+  {
+    "qid": "obqa/train/10-181",
+    "document_id": "obqa-fact-bfb1d161cdd690fb2e8d",
+    "text": "bees convert nectar into honey",
+    "bm25_score": 0.0,
+    "query_content_jaccard": 0.0,
+    "word_length_distance": 0,
+    "candidate_count": 664,
+    "selection": "independent corpus control, lower-half retrieval score, low lexical overlap, nearest top-one length, seeded ties; no annotation input"
+  },
+  {
+    "qid": "obqa/train/12-931",
+    "document_id": "obqa-fact-0f347f25859cfd227c78",
+    "text": "the sun is the source of solar energy called sunlight",
+    "bm25_score": 2.599299903487516,
+    "query_content_jaccard": 0.0,
+    "word_length_distance": 0,
+    "candidate_count": 663,
+    "selection": "independent corpus control, lower-half retrieval score, low lexical overlap, nearest top-one length, seeded ties; no annotation input"
+  },
+  {
+    "qid": "obqa/train/14-389",
+    "document_id": "obqa-fact-e8a2dc8b9b8dc15db05e",
+    "text": "An example of creating an alternative fuel is turning plant material into fuel",
+    "bm25_score": 0.9890975280664158,
+    "query_content_jaccard": 0.0,
+    "word_length_distance": 0,
+    "candidate_count": 664,
+    "selection": "independent corpus control, lower-half retrieval score, low lexical overlap, nearest top-one length, seeded ties; no annotation input"
+  },
+  {
+    "qid": "obqa/train/14-10",
+    "document_id": "obqa-fact-f688cd919c41e717fea2",
+    "text": "carbohydrates are made of sugars",
+    "bm25_score": 0.0,
+    "query_content_jaccard": 0.0,
+    "word_length_distance": 0,
+    "candidate_count": 970,
+    "selection": "independent corpus control, lower-half retrieval score, low lexical overlap, nearest top-one length, seeded ties; no annotation input"
+  },
+  {
+    "qid": "obqa/train/9-625",
+    "document_id": "obqa-fact-916442ed7d9eb5d05e40",
+    "text": "if one electrical conductor contacts another electrical conductor then electricity will flow through both conductors",
+    "bm25_score": 0.0,
+    "query_content_jaccard": 0.0,
+    "word_length_distance": 0,
+    "candidate_count": 663,
+    "selection": "independent corpus control, lower-half retrieval score, low lexical overlap, nearest top-one length, seeded ties; no annotation input"
+  },
+  {
+    "qid": "obqa/train/14-701",
+    "document_id": "obqa-fact-496ead5a4878f8c7a982",
+    "text": "volcanoes are often found under oceans",
+    "bm25_score": 0.0,
+    "query_content_jaccard": 0.0,
+    "word_length_distance": 0,
+    "candidate_count": 681,
+    "selection": "independent corpus control, lower-half retrieval score, low lexical overlap, nearest top-one length, seeded ties; no annotation input"
+  },
+  {
+    "qid": "obqa/train/13-294",
+    "document_id": "obqa-fact-e549cb42221d38f1905c",
+    "text": "as temperature increases , the ability of that liquid to dissolve solids will increase",
+    "bm25_score": 0.9890975280664158,
+    "query_content_jaccard": 0.0,
+    "word_length_distance": 0,
+    "candidate_count": 665,
+    "selection": "independent corpus control, lower-half retrieval score, low lexical overlap, nearest top-one length, seeded ties; no annotation input"
+  },
+  {
+    "qid": "obqa/train/10-355",
+    "document_id": "obqa-fact-ef648eabf1f019140747",
+    "text": "Earth 's tilt on its axis causes seasons to occur",
+    "bm25_score": 0.0,
+    "query_content_jaccard": 0.0,
+    "word_length_distance": 0,
+    "candidate_count": 673,
+    "selection": "independent corpus control, lower-half retrieval score, low lexical overlap, nearest top-one length, seeded ties; no annotation input"
+  },
+  {
+    "qid": "obqa/train/9-1109",
+    "document_id": "obqa-fact-659167983ddeb41d59e0",
+    "text": "an animal requires shelter",
+    "bm25_score": 0.0,
+    "query_content_jaccard": 0.0,
+    "word_length_distance": 0,
+    "candidate_count": 1214,
+    "selection": "independent corpus control, lower-half retrieval score, low lexical overlap, nearest top-one length, seeded ties; no annotation input"
+  },
+  {
+    "qid": "obqa/train/14-771",
+    "document_id": "obqa-fact-aef5217f42c81754fbde",
+    "text": "sugar dissolves in water when they are combined",
+    "bm25_score": 1.8771315516305678,
+    "query_content_jaccard": 0.0,
+    "word_length_distance": 0,
+    "candidate_count": 667,
+    "selection": "independent corpus control, lower-half retrieval score, low lexical overlap, nearest top-one length, seeded ties; no annotation input"
+  },
+  {
+    "qid": "obqa/train/10-1026",
+    "document_id": "obqa-fact-eee3e63006c717a29781",
+    "text": "earthquakes cause rock layers to fold on top of each other",
+    "bm25_score": 1.4815987396880914,
+    "query_content_jaccard": 0.0,
+    "word_length_distance": 0,
+    "candidate_count": 663,
+    "selection": "independent corpus control, lower-half retrieval score, low lexical overlap, nearest top-one length, seeded ties; no annotation input"
+  },
+  {
+    "qid": "obqa/train/14-198",
+    "document_id": "obqa-fact-163964679c00185b6480",
+    "text": "animals live and feed near their habitats",
+    "bm25_score": 0.0,
+    "query_content_jaccard": 0.0,
+    "word_length_distance": 0,
+    "candidate_count": 663,
+    "selection": "independent corpus control, lower-half retrieval score, low lexical overlap, nearest top-one length, seeded ties; no annotation input"
+  },
+  {
+    "qid": "obqa/train/12-928",
+    "document_id": "obqa-fact-135f254484172f91184e",
+    "text": "as the amount of rain increases in an environment , available sunlight will decrease in that environment",
+    "bm25_score": 2.0576327425635155,
+    "query_content_jaccard": 0.0,
+    "word_length_distance": 0,
+    "candidate_count": 665,
+    "selection": "independent corpus control, lower-half retrieval score, low lexical overlap, nearest top-one length, seeded ties; no annotation input"
+  },
+  {
+    "qid": "obqa/train/13-866",
+    "document_id": "obqa-fact-43d71395be87c942e06e",
+    "text": "wax is an electrical insulator",
+    "bm25_score": 0.0,
+    "query_content_jaccard": 0.0,
+    "word_length_distance": 0,
+    "candidate_count": 677,
+    "selection": "independent corpus control, lower-half retrieval score, low lexical overlap, nearest top-one length, seeded ties; no annotation input"
+  },
+  {
+    "qid": "obqa/train/8-297",
+    "document_id": "obqa-fact-6f067b928d7c1a85d5f4",
+    "text": "decomposition is when a decomposer recycles nutrients from dead organisms to the soil by eating those dead organisms",
+    "bm25_score": 5.05955338951259,
+    "query_content_jaccard": 0.0,
+    "word_length_distance": 0,
+    "candidate_count": 663,
+    "selection": "independent corpus control, lower-half retrieval score, low lexical overlap, nearest top-one length, seeded ties; no annotation input"
+  },
+  {
+    "qid": "obqa/train/11-412",
+    "document_id": "obqa-fact-04f00a0b02cae54ac3ad",
+    "text": "snow falls during the winter in some environments",
+    "bm25_score": 0.0,
+    "query_content_jaccard": 0.0,
+    "word_length_distance": 0,
+    "candidate_count": 704,
+    "selection": "independent corpus control, lower-half retrieval score, low lexical overlap, nearest top-one length, seeded ties; no annotation input"
+  },
+  {
+    "qid": "obqa/train/8-419",
+    "document_id": "obqa-fact-48d7ce09f872a2c162bb",
+    "text": "if an organism becomes too hot then that organism may die",
+    "bm25_score": 0.0,
+    "query_content_jaccard": 0.0,
+    "word_length_distance": 0,
+    "candidate_count": 664,
+    "selection": "independent corpus control, lower-half retrieval score, low lexical overlap, nearest top-one length, seeded ties; no annotation input"
+  },
+  {
+    "qid": "obqa/train/1846",
+    "document_id": "obqa-fact-807cb5bb53a4f387df8e",
+    "text": "DNA is a vehicle for passing inherited characteristics from parent to offspring",
+    "bm25_score": 3.786903514242491,
+    "query_content_jaccard": 0.0,
+    "word_length_distance": 0,
+    "candidate_count": 666,
+    "selection": "independent corpus control, lower-half retrieval score, low lexical overlap, nearest top-one length, seeded ties; no annotation input"
+  },
+  {
+    "qid": "obqa/train/12-826",
+    "document_id": "obqa-fact-87b866460baed5bc92fa",
+    "text": "dew is formed when water vapor cools over night",
+    "bm25_score": 0.0,
+    "query_content_jaccard": 0.0,
+    "word_length_distance": 0,
+    "candidate_count": 893,
+    "selection": "independent corpus control, lower-half retrieval score, low lexical overlap, nearest top-one length, seeded ties; no annotation input"
+  },
+  {
+    "qid": "obqa/train/7-256",
+    "document_id": "obqa-fact-e81f0fe8881dae83266a",
+    "text": "electrocution causes harm to an organism",
+    "bm25_score": 1.9048336298529123,
+    "query_content_jaccard": 0.0,
+    "word_length_distance": 0,
+    "candidate_count": 663,
+    "selection": "independent corpus control, lower-half retrieval score, low lexical overlap, nearest top-one length, seeded ties; no annotation input"
+  },
+  {
+    "qid": "obqa/train/12-694",
+    "document_id": "obqa-fact-278dd3da3ffb534435f3",
+    "text": "as roughness of a surface increases , friction will increase",
+    "bm25_score": 0.0,
+    "query_content_jaccard": 0.0,
+    "word_length_distance": 0,
+    "candidate_count": 811,
+    "selection": "independent corpus control, lower-half retrieval score, low lexical overlap, nearest top-one length, seeded ties; no annotation input"
+  },
+  {
+    "qid": "obqa/train/14-891",
+    "document_id": "obqa-fact-331dca5574526720ba1c",
+    "text": "arteries transport nutrients throughout the body",
+    "bm25_score": 0.0,
+    "query_content_jaccard": 0.0,
+    "word_length_distance": 0,
+    "candidate_count": 1288,
+    "selection": "independent corpus control, lower-half retrieval score, low lexical overlap, nearest top-one length, seeded ties; no annotation input"
+  },
+  {
+    "qid": "obqa/train/10-919",
+    "document_id": "obqa-fact-eee3e63006c717a29781",
+    "text": "earthquakes cause rock layers to fold on top of each other",
+    "bm25_score": 1.4815987396880914,
+    "query_content_jaccard": 0.0,
+    "word_length_distance": 0,
+    "candidate_count": 681,
+    "selection": "independent corpus control, lower-half retrieval score, low lexical overlap, nearest top-one length, seeded ties; no annotation input"
+  },
+  {
+    "qid": "obqa/train/7-282",
+    "document_id": "obqa-fact-eacc51155363452eb662",
+    "text": "electric devices require electrical energy to function",
+    "bm25_score": 1.8018878349509353,
+    "query_content_jaccard": 0.0,
+    "word_length_distance": 0,
+    "candidate_count": 665,
+    "selection": "independent corpus control, lower-half retrieval score, low lexical overlap, nearest top-one length, seeded ties; no annotation input"
+  },
+  {
+    "qid": "obqa/train/9-581",
+    "document_id": "obqa-fact-8160091ce6c95a8183fc",
+    "text": "humans changing an environment sometimes causes that environment to be destroyed",
+    "bm25_score": 0.0,
+    "query_content_jaccard": 0.0,
+    "word_length_distance": 0,
+    "candidate_count": 729,
+    "selection": "independent corpus control, lower-half retrieval score, low lexical overlap, nearest top-one length, seeded ties; no annotation input"
+  },
+  {
+    "qid": "obqa/train/9-782",
+    "document_id": "obqa-fact-f52a744962dcb226d021",
+    "text": "each season occurs once per year",
+    "bm25_score": 0.0,
+    "query_content_jaccard": 0.0,
+    "word_length_distance": 0,
+    "candidate_count": 663,
+    "selection": "independent corpus control, lower-half retrieval score, low lexical overlap, nearest top-one length, seeded ties; no annotation input"
+  },
+  {
+    "qid": "obqa/train/11-120",
+    "document_id": "obqa-fact-04f00a0b02cae54ac3ad",
+    "text": "snow falls during the winter in some environments",
+    "bm25_score": 0.0,
+    "query_content_jaccard": 0.0,
+    "word_length_distance": 0,
+    "candidate_count": 675,
+    "selection": "independent corpus control, lower-half retrieval score, low lexical overlap, nearest top-one length, seeded ties; no annotation input"
+  },
+  {
+    "qid": "obqa/train/10-311",
+    "document_id": "obqa-fact-ce35663f18c8138d704b",
+    "text": "the colors of the parts of an organism are inherited characteristics",
+    "bm25_score": 0.0,
+    "query_content_jaccard": 0.0,
+    "word_length_distance": 0,
+    "candidate_count": 666,
+    "selection": "independent corpus control, lower-half retrieval score, low lexical overlap, nearest top-one length, seeded ties; no annotation input"
+  },
+  {
+    "qid": "obqa/train/14-1509",
+    "document_id": "obqa-fact-c912dfff333ea4606c71",
+    "text": "a car engine usually converts gasoline into motion and heat through combustion",
+    "bm25_score": 0.0,
+    "query_content_jaccard": 0.0,
+    "word_length_distance": 0,
+    "candidate_count": 666,
+    "selection": "independent corpus control, lower-half retrieval score, low lexical overlap, nearest top-one length, seeded ties; no annotation input"
+  },
+  {
+    "qid": "obqa/train/13-1060",
+    "document_id": "obqa-fact-351b725ccda7cb564a7c",
+    "text": "shelter can protect humans from weather",
+    "bm25_score": 0.0,
+    "query_content_jaccard": 0.0,
+    "word_length_distance": 0,
+    "candidate_count": 894,
+    "selection": "independent corpus control, lower-half retrieval score, low lexical overlap, nearest top-one length, seeded ties; no annotation input"
+  },
+  {
+    "qid": "obqa/train/10-197",
+    "document_id": "obqa-fact-e20f7a186342a8a866e0",
+    "text": "magnetic attraction pulls two objects together",
+    "bm25_score": 0.0,
+    "query_content_jaccard": 0.0,
+    "word_length_distance": 0,
+    "candidate_count": 665,
+    "selection": "independent corpus control, lower-half retrieval score, low lexical overlap, nearest top-one length, seeded ties; no annotation input"
+  },
+  {
+    "qid": "obqa/train/10-772",
+    "document_id": "obqa-fact-6c7b11c79eb767507354",
+    "text": "An example of recycling is using an object to make a new object",
+    "bm25_score": 0.945161886386744,
+    "query_content_jaccard": 0.0,
+    "word_length_distance": 0,
+    "candidate_count": 664,
+    "selection": "independent corpus control, lower-half retrieval score, low lexical overlap, nearest top-one length, seeded ties; no annotation input"
+  },
+  {
+    "qid": "obqa/train/7-1183",
+    "document_id": "obqa-fact-3e9e29d4fe7b659716bf",
+    "text": "an organism is a source of organic material",
+    "bm25_score": 0.0,
+    "query_content_jaccard": 0.0,
+    "word_length_distance": 0,
+    "candidate_count": 1027,
+    "selection": "independent corpus control, lower-half retrieval score, low lexical overlap, nearest top-one length, seeded ties; no annotation input"
+  },
+  {
+    "qid": "obqa/train/14-734",
+    "document_id": "obqa-fact-a00128a2023629c702a7",
+    "text": "phloem transports materials through the plant",
+    "bm25_score": 0.0,
+    "query_content_jaccard": 0.0,
+    "word_length_distance": 0,
+    "candidate_count": 994,
+    "selection": "independent corpus control, lower-half retrieval score, low lexical overlap, nearest top-one length, seeded ties; no annotation input"
+  },
+  {
+    "qid": "obqa/train/13-632",
+    "document_id": "obqa-fact-c5e99abcebc92a57372a",
+    "text": "precipitation is when hail fall from clouds to the ground",
+    "bm25_score": 2.607763784170653,
+    "query_content_jaccard": 0.0,
+    "word_length_distance": 0,
+    "candidate_count": 666,
+    "selection": "independent corpus control, lower-half retrieval score, low lexical overlap, nearest top-one length, seeded ties; no annotation input"
+  },
+  {
+    "qid": "obqa/train/12-829",
+    "document_id": "obqa-fact-168c969d98157e1fcdf2",
+    "text": "natural disasters can cause animals to leave an environment",
+    "bm25_score": 0.0,
+    "query_content_jaccard": 0.0,
+    "word_length_distance": 0,
+    "candidate_count": 742,
+    "selection": "independent corpus control, lower-half retrieval score, low lexical overlap, nearest top-one length, seeded ties; no annotation input"
+  },
+  {
+    "qid": "obqa/train/14-1071",
+    "document_id": "obqa-fact-9d65797c0dc2dbf3b0ab",
+    "text": "magnetism can cause objects to repel each other",
+    "bm25_score": 0.0,
+    "query_content_jaccard": 0.0,
+    "word_length_distance": 0,
+    "candidate_count": 677,
+    "selection": "independent corpus control, lower-half retrieval score, low lexical overlap, nearest top-one length, seeded ties; no annotation input"
+  },
+  {
+    "qid": "obqa/train/13-218",
+    "document_id": "obqa-fact-83289ab7600d0a0a43af",
+    "text": "the solar system contains the moon",
+    "bm25_score": 0.0,
+    "query_content_jaccard": 0.0,
+    "word_length_distance": 0,
+    "candidate_count": 675,
+    "selection": "independent corpus control, lower-half retrieval score, low lexical overlap, nearest top-one length, seeded ties; no annotation input"
+  },
+  {
+    "qid": "obqa/train/9-439",
+    "document_id": "obqa-fact-ed161755338786debcbf",
+    "text": "if a hot object is touches a cold substance then that substance will likely cool",
+    "bm25_score": 0.8738377095102103,
+    "query_content_jaccard": 0.0,
+    "word_length_distance": 0,
+    "candidate_count": 681,
+    "selection": "independent corpus control, lower-half retrieval score, low lexical overlap, nearest top-one length, seeded ties; no annotation input"
+  },
+  {
+    "qid": "obqa/train/13-174",
+    "document_id": "obqa-fact-4688ab3fc96a43ef2248",
+    "text": "Galileo Galilei made improvements to the telescope to make better observations of celestial bodies",
+    "bm25_score": 1.7828797484240657,
+    "query_content_jaccard": 0.0,
+    "word_length_distance": 0,
+    "candidate_count": 667,
+    "selection": "independent corpus control, lower-half retrieval score, low lexical overlap, nearest top-one length, seeded ties; no annotation input"
+  },
+  {
+    "qid": "obqa/train/14-381",
+    "document_id": "obqa-fact-3dc6c4ac684d29ad6fb7",
+    "text": "good bacteria grow on a human 's skin",
+    "bm25_score": 0.0,
+    "query_content_jaccard": 0.0,
+    "word_length_distance": 0,
+    "candidate_count": 782,
+    "selection": "independent corpus control, lower-half retrieval score, low lexical overlap, nearest top-one length, seeded ties; no annotation input"
+  },
+  {
+    "qid": "obqa/train/11-385",
+    "document_id": "obqa-fact-a04237f4fb2e5b6f658f",
+    "text": "soil contains nutrients for plants",
+    "bm25_score": 0.0,
+    "query_content_jaccard": 0.0,
+    "word_length_distance": 0,
+    "candidate_count": 664,
+    "selection": "independent corpus control, lower-half retrieval score, low lexical overlap, nearest top-one length, seeded ties; no annotation input"
+  },
+  {
+    "qid": "obqa/train/10-552",
+    "document_id": "obqa-fact-75744a1a1914f47d3e2a",
+    "text": "the sun setting occurs once per day",
+    "bm25_score": 0.0,
+    "query_content_jaccard": 0.0,
+    "word_length_distance": 0,
+    "candidate_count": 679,
+    "selection": "independent corpus control, lower-half retrieval score, low lexical overlap, nearest top-one length, seeded ties; no annotation input"
+  },
+  {
+    "qid": "obqa/train/10-621",
+    "document_id": "obqa-fact-bbb8af83ff421244516e",
+    "text": "humans sometimes eat seeds",
+    "bm25_score": 0.0,
+    "query_content_jaccard": 0.0,
+    "word_length_distance": 0,
+    "candidate_count": 694,
+    "selection": "independent corpus control, lower-half retrieval score, low lexical overlap, nearest top-one length, seeded ties; no annotation input"
+  },
+  {
+    "qid": "obqa/train/12-37",
+    "document_id": "obqa-fact-71d35de2a4f58d0639a9",
+    "text": "a cactus stem is used for storing water",
+    "bm25_score": 0.951358420070364,
+    "query_content_jaccard": 0.0,
+    "word_length_distance": 0,
+    "candidate_count": 663,
+    "selection": "independent corpus control, lower-half retrieval score, low lexical overlap, nearest top-one length, seeded ties; no annotation input"
+  },
+  {
+    "qid": "obqa/train/12-121",
+    "document_id": "obqa-fact-063e7451d80e510fc754",
+    "text": "all cells perform cellular respiration",
+    "bm25_score": 0.0,
+    "query_content_jaccard": 0.0,
+    "word_length_distance": 0,
+    "candidate_count": 1282,
+    "selection": "independent corpus control, lower-half retrieval score, low lexical overlap, nearest top-one length, seeded ties; no annotation input"
+  },
+  {
+    "qid": "obqa/train/11-218",
+    "document_id": "obqa-fact-e8b90eb7b60c8eaa71ff",
+    "text": "a laser is used for producing light",
+    "bm25_score": 0.0,
+    "query_content_jaccard": 0.0,
+    "word_length_distance": 0,
+    "candidate_count": 672,
+    "selection": "independent corpus control, lower-half retrieval score, low lexical overlap, nearest top-one length, seeded ties; no annotation input"
+  },
+  {
+    "qid": "obqa/train/12-1017",
+    "document_id": "obqa-fact-2db658310dde5a7f435f",
+    "text": "ice wedging is when ice causes rocks to crack by expanding in openings",
+    "bm25_score": 2.1858101772237886,
+    "query_content_jaccard": 0.0,
+    "word_length_distance": 0,
+    "candidate_count": 664,
+    "selection": "independent corpus control, lower-half retrieval score, low lexical overlap, nearest top-one length, seeded ties; no annotation input"
+  },
+  {
+    "qid": "obqa/train/14-1041",
+    "document_id": "obqa-fact-f52a744962dcb226d021",
+    "text": "each season occurs once per year",
+    "bm25_score": 0.0,
+    "query_content_jaccard": 0.0,
+    "word_length_distance": 0,
+    "candidate_count": 728,
+    "selection": "independent corpus control, lower-half retrieval score, low lexical overlap, nearest top-one length, seeded ties; no annotation input"
+  },
+  {
+    "qid": "obqa/train/7-681",
+    "document_id": "obqa-fact-d9aa7c41314dcce56a37",
+    "text": "offspring receive genes from their parents through DNA",
+    "bm25_score": 0.0,
+    "query_content_jaccard": 0.0,
+    "word_length_distance": 0,
+    "candidate_count": 664,
+    "selection": "independent corpus control, lower-half retrieval score, low lexical overlap, nearest top-one length, seeded ties; no annotation input"
+  },
+  {
+    "qid": "obqa/train/14-719",
+    "document_id": "obqa-fact-8b7e6b7184f9e4f8e08d",
+    "text": "if a flexible container is pushed on then that container will change shape",
+    "bm25_score": 3.021483125956302,
+    "query_content_jaccard": 0.0,
+    "word_length_distance": 0,
+    "candidate_count": 663,
+    "selection": "independent corpus control, lower-half retrieval score, low lexical overlap, nearest top-one length, seeded ties; no annotation input"
+  },
+  {
+    "qid": "obqa/train/12-1005",
+    "document_id": "obqa-fact-bf3a79c5568589228b64",
+    "text": "a bat births live young",
+    "bm25_score": 0.0,
+    "query_content_jaccard": 0.0,
+    "word_length_distance": 0,
+    "candidate_count": 670,
+    "selection": "independent corpus control, lower-half retrieval score, low lexical overlap, nearest top-one length, seeded ties; no annotation input"
+  },
+  {
+    "qid": "obqa/train/10-324",
+    "document_id": "obqa-fact-598146feff009d74a1ff",
+    "text": "if two equal forces in opposite directions act on an object then that object will stay in the same place",
+    "bm25_score": 4.487683984094106,
+    "query_content_jaccard": 0.0,
+    "word_length_distance": 0,
+    "candidate_count": 664,
+    "selection": "independent corpus control, lower-half retrieval score, low lexical overlap, nearest top-one length, seeded ties; no annotation input"
+  },
+  {
+    "qid": "obqa/train/13-1038",
+    "document_id": "obqa-fact-23c52cc85e7bed749048",
+    "text": "roots are a vehicle for absorbing water and nutrients from soil into the plant",
+    "bm25_score": 4.457199371060164,
+    "query_content_jaccard": 0.0,
+    "word_length_distance": 0,
+    "candidate_count": 665,
+    "selection": "independent corpus control, lower-half retrieval score, low lexical overlap, nearest top-one length, seeded ties; no annotation input"
+  },
+  {
+    "qid": "obqa/train/11-339",
+    "document_id": "obqa-fact-bdaabb0c06238af07621",
+    "text": "a single-cell organism cannot specialize",
+    "bm25_score": 1.0600647966728778,
+    "query_content_jaccard": 0.0,
+    "word_length_distance": 0,
+    "candidate_count": 663,
+    "selection": "independent corpus control, lower-half retrieval score, low lexical overlap, nearest top-one length, seeded ties; no annotation input"
+  },
+  {
+    "qid": "obqa/train/14-646",
+    "document_id": "obqa-fact-26d8a94742db97d9f115",
+    "text": "arctic animals live in an arctic environment",
+    "bm25_score": 0.0,
+    "query_content_jaccard": 0.0,
+    "word_length_distance": 0,
+    "candidate_count": 670,
+    "selection": "independent corpus control, lower-half retrieval score, low lexical overlap, nearest top-one length, seeded ties; no annotation input"
+  },
+  {
+    "qid": "obqa/train/9-156",
+    "document_id": "obqa-fact-656b7ac9de37370f1029",
+    "text": "decreasing something negative has a positive impact on a thing",
+    "bm25_score": 2.580147937300976,
+    "query_content_jaccard": 0.0,
+    "word_length_distance": 0,
+    "candidate_count": 664,
+    "selection": "independent corpus control, lower-half retrieval score, low lexical overlap, nearest top-one length, seeded ties; no annotation input"
+  },
+  {
+    "qid": "obqa/train/13-957",
+    "document_id": "obqa-fact-6ce34dcd1fd9e2c09bd8",
+    "text": "a tree is a source of food for animals in an ecosystem",
+    "bm25_score": 0.0,
+    "query_content_jaccard": 0.0,
+    "word_length_distance": 0,
+    "candidate_count": 675,
+    "selection": "independent corpus control, lower-half retrieval score, low lexical overlap, nearest top-one length, seeded ties; no annotation input"
+  },
+  {
+    "qid": "obqa/train/10-684",
+    "document_id": "obqa-fact-515f0d3ea1e25201c366",
+    "text": "microscope is used to see small things by making them appear bigger",
+    "bm25_score": 0.9853759488498063,
+    "query_content_jaccard": 0.0,
+    "word_length_distance": 0,
+    "candidate_count": 669,
+    "selection": "independent corpus control, lower-half retrieval score, low lexical overlap, nearest top-one length, seeded ties; no annotation input"
+  },
+  {
+    "qid": "obqa/train/13-384",
+    "document_id": "obqa-fact-345b27d8788b360e5af1",
+    "text": "drought means available water decreases in an environment",
+    "bm25_score": 1.6589785348479487,
+    "query_content_jaccard": 0.0,
+    "word_length_distance": 0,
+    "candidate_count": 675,
+    "selection": "independent corpus control, lower-half retrieval score, low lexical overlap, nearest top-one length, seeded ties; no annotation input"
+  },
+  {
+    "qid": "obqa/train/10-920",
+    "document_id": "obqa-fact-d4bb002b4707feca068b",
+    "text": "storms cause bodies of water to increase amount of water they contain",
+    "bm25_score": 1.4185607510417404,
+    "query_content_jaccard": 0.0,
+    "word_length_distance": 0,
+    "candidate_count": 663,
+    "selection": "independent corpus control, lower-half retrieval score, low lexical overlap, nearest top-one length, seeded ties; no annotation input"
+  },
+  {
+    "qid": "obqa/train/14-1387",
+    "document_id": "obqa-fact-3be375b3fb36d811e706",
+    "text": "when a river floods , that river deposits sediment in flood plains",
+    "bm25_score": 0.8245290518414076,
+    "query_content_jaccard": 0.0,
+    "word_length_distance": 0,
+    "candidate_count": 685,
+    "selection": "independent corpus control, lower-half retrieval score, low lexical overlap, nearest top-one length, seeded ties; no annotation input"
+  },
+  {
+    "qid": "obqa/train/14-1363",
+    "document_id": "obqa-fact-9aa2726369c0cb0a9c0d",
+    "text": "sedimentary rocks are formed from sediment compacting together",
+    "bm25_score": 0.0,
+    "query_content_jaccard": 0.0,
+    "word_length_distance": 0,
+    "candidate_count": 664,
+    "selection": "independent corpus control, lower-half retrieval score, low lexical overlap, nearest top-one length, seeded ties; no annotation input"
+  },
+  {
+    "qid": "obqa/train/10-928",
+    "document_id": "obqa-fact-0e7e8c244dc812bb8355",
+    "text": "erosion causes deposition",
+    "bm25_score": 0.0,
+    "query_content_jaccard": 0.0,
+    "word_length_distance": 0,
+    "candidate_count": 1242,
+    "selection": "independent corpus control, lower-half retrieval score, low lexical overlap, nearest top-one length, seeded ties; no annotation input"
+  },
+  {
+    "qid": "obqa/train/14-754",
+    "document_id": "obqa-fact-c49cae1030b193d11e1b",
+    "text": "sunlight produces heat",
+    "bm25_score": 0.0,
+    "query_content_jaccard": 0.0,
+    "word_length_distance": 0,
+    "candidate_count": 812,
+    "selection": "independent corpus control, lower-half retrieval score, low lexical overlap, nearest top-one length, seeded ties; no annotation input"
+  },
+  {
+    "qid": "obqa/train/14-509",
+    "document_id": "obqa-fact-44462b1346d58a210ce8",
+    "text": "birds lay eggs",
+    "bm25_score": 0.0,
+    "query_content_jaccard": 0.0,
+    "word_length_distance": 0,
+    "candidate_count": 699,
+    "selection": "independent corpus control, lower-half retrieval score, low lexical overlap, nearest top-one length, seeded ties; no annotation input"
+  },
+  {
+    "qid": "obqa/train/10-1016",
+    "document_id": "obqa-fact-fb7355461afd711847eb",
+    "text": "a closed circuit has continuous path",
+    "bm25_score": 0.0,
+    "query_content_jaccard": 0.0,
+    "word_length_distance": 0,
+    "candidate_count": 941,
+    "selection": "independent corpus control, lower-half retrieval score, low lexical overlap, nearest top-one length, seeded ties; no annotation input"
+  },
+  {
+    "qid": "obqa/train/11-157",
+    "document_id": "obqa-fact-2bbbee9a856b0f6f5ec6",
+    "text": "specialized tissues at the ends of plant stems are used for growing taller by plants",
+    "bm25_score": 2.715598092943496,
+    "query_content_jaccard": 0.038461538461538464,
+    "word_length_distance": 0,
+    "candidate_count": 670,
+    "selection": "independent corpus control, lower-half retrieval score, low lexical overlap, nearest top-one length, seeded ties; no annotation input"
+  },
+  {
+    "qid": "obqa/train/13-760",
+    "document_id": "obqa-fact-f0d5bc3f002b26ea6b9a",
+    "text": "humans eat crops",
+    "bm25_score": 0.0,
+    "query_content_jaccard": 0.0,
+    "word_length_distance": 0,
+    "candidate_count": 784,
+    "selection": "independent corpus control, lower-half retrieval score, low lexical overlap, nearest top-one length, seeded ties; no annotation input"
+  },
+  {
+    "qid": "obqa/train/13-813",
+    "document_id": "obqa-fact-86df5a579f97c22114ad",
+    "text": "adaptation is when an organism develops a trait over time for survival",
+    "bm25_score": 0.7894475877335835,
+    "query_content_jaccard": 0.0,
+    "word_length_distance": 0,
+    "candidate_count": 691,
+    "selection": "independent corpus control, lower-half retrieval score, low lexical overlap, nearest top-one length, seeded ties; no annotation input"
+  },
+  {
+    "qid": "obqa/train/11-703",
+    "document_id": "obqa-fact-44a1bbfefe9766e0e34c",
+    "text": "as the smoothness of something increases , the friction of that something will decrease when its surface moves against another surface",
+    "bm25_score": 2.356237712097162,
+    "query_content_jaccard": 0.0,
+    "word_length_distance": 0,
+    "candidate_count": 665,
+    "selection": "independent corpus control, lower-half retrieval score, low lexical overlap, nearest top-one length, seeded ties; no annotation input"
+  },
+  {
+    "qid": "obqa/train/14-1500",
+    "document_id": "obqa-fact-f88e64353af19610a6ad",
+    "text": "an animal requires nutrients to grow and heal",
+    "bm25_score": 0.0,
+    "query_content_jaccard": 0.0,
+    "word_length_distance": 0,
+    "candidate_count": 663,
+    "selection": "independent corpus control, lower-half retrieval score, low lexical overlap, nearest top-one length, seeded ties; no annotation input"
+  },
+  {
+    "qid": "obqa/train/11-651",
+    "document_id": "obqa-fact-dd0a8c75c101791e83ca",
+    "text": "if a habitat is removed then that habitat is destroyed",
+    "bm25_score": 3.2764741378195827,
+    "query_content_jaccard": 0.0,
+    "word_length_distance": 0,
+    "candidate_count": 663,
+    "selection": "independent corpus control, lower-half retrieval score, low lexical overlap, nearest top-one length, seeded ties; no annotation input"
+  },
+  {
+    "qid": "obqa/train/14-893",
+    "document_id": "obqa-fact-e92668de46cb43d57095",
+    "text": "a tree can be replaced by planting a new tree",
+    "bm25_score": 0.0,
+    "query_content_jaccard": 0.0,
+    "word_length_distance": 0,
+    "candidate_count": 670,
+    "selection": "independent corpus control, lower-half retrieval score, low lexical overlap, nearest top-one length, seeded ties; no annotation input"
+  },
+  {
+    "qid": "obqa/train/7-347",
+    "document_id": "obqa-fact-c77ca3ce542fb2f723a8",
+    "text": "freezing point means temperature below which a liquid freezes",
+    "bm25_score": 1.8099161781893311,
+    "query_content_jaccard": 0.0,
+    "word_length_distance": 0,
+    "candidate_count": 663,
+    "selection": "independent corpus control, lower-half retrieval score, low lexical overlap, nearest top-one length, seeded ties; no annotation input"
+  },
+  {
+    "qid": "obqa/train/14-723",
+    "document_id": "obqa-fact-1bed678ff26fbe14e129",
+    "text": "as the size of a leaf increases , the amount of sunlight absorbed by that leaf will increase",
+    "bm25_score": 1.3019277805503169,
+    "query_content_jaccard": 0.0,
+    "word_length_distance": 0,
+    "candidate_count": 669,
+    "selection": "independent corpus control, lower-half retrieval score, low lexical overlap, nearest top-one length, seeded ties; no annotation input"
+  },
+  {
+    "qid": "obqa/train/14-1175",
+    "document_id": "obqa-fact-ba8146b267cbe75f80df",
+    "text": "each of the moon 's phases usually occurs once per month",
+    "bm25_score": 1.077004540435955,
+    "query_content_jaccard": 0.0,
+    "word_length_distance": 0,
+    "candidate_count": 663,
+    "selection": "independent corpus control, lower-half retrieval score, low lexical overlap, nearest top-one length, seeded ties; no annotation input"
+  },
+  {
+    "qid": "obqa/train/10-545",
+    "document_id": "obqa-fact-953fae86f0928961d951",
+    "text": "some animals shed fur in warm weather",
+    "bm25_score": 0.0,
+    "query_content_jaccard": 0.0,
+    "word_length_distance": 0,
+    "candidate_count": 666,
+    "selection": "independent corpus control, lower-half retrieval score, low lexical overlap, nearest top-one length, seeded ties; no annotation input"
+  },
+  {
+    "qid": "obqa/train/12-1124",
+    "document_id": "obqa-fact-56b1c5cd9d954bab375d",
+    "text": "combining two substances chemically causes chemical reactions",
+    "bm25_score": 0.0,
+    "query_content_jaccard": 0.0,
+    "word_length_distance": 0,
+    "candidate_count": 670,
+    "selection": "independent corpus control, lower-half retrieval score, low lexical overlap, nearest top-one length, seeded ties; no annotation input"
+  },
+  {
+    "qid": "obqa/train/8-447",
+    "document_id": "obqa-fact-db409b919a196a192650",
+    "text": "pushing an object requires force",
+    "bm25_score": 0.0,
+    "query_content_jaccard": 0.0,
+    "word_length_distance": 0,
+    "candidate_count": 664,
+    "selection": "independent corpus control, lower-half retrieval score, low lexical overlap, nearest top-one length, seeded ties; no annotation input"
+  },
+  {
+    "qid": "obqa/train/14-499",
+    "document_id": "obqa-fact-778f631c817ebd244ad6",
+    "text": "the moon rising occurs once per day",
+    "bm25_score": 1.2286818753710178,
+    "query_content_jaccard": 0.0,
+    "word_length_distance": 0,
+    "candidate_count": 663,
+    "selection": "independent corpus control, lower-half retrieval score, low lexical overlap, nearest top-one length, seeded ties; no annotation input"
+  },
+  {
+    "qid": "obqa/train/14-323",
+    "document_id": "obqa-fact-891ac5cd88f5a02dbe7a",
+    "text": "oceans cover 70% of the surface of the earth",
+    "bm25_score": 1.6790249638763834,
+    "query_content_jaccard": 0.0,
+    "word_length_distance": 0,
+    "candidate_count": 667,
+    "selection": "independent corpus control, lower-half retrieval score, low lexical overlap, nearest top-one length, seeded ties; no annotation input"
+  },
+  {
+    "qid": "obqa/train/14-413",
+    "document_id": "obqa-fact-6b1d14170703c7aba9c3",
+    "text": "as dryness increases in an environment , the available water in that environment will decrease",
+    "bm25_score": 0.0,
+    "query_content_jaccard": 0.0,
+    "word_length_distance": 0,
+    "candidate_count": 676,
+    "selection": "independent corpus control, lower-half retrieval score, low lexical overlap, nearest top-one length, seeded ties; no annotation input"
+  },
+  {
+    "qid": "obqa/train/10-50",
+    "document_id": "obqa-fact-b66a2dabd0d22406bd9f",
+    "text": "some lizards live in desert habitats",
+    "bm25_score": 0.0,
+    "query_content_jaccard": 0.0,
+    "word_length_distance": 0,
+    "candidate_count": 668,
+    "selection": "independent corpus control, lower-half retrieval score, low lexical overlap, nearest top-one length, seeded ties; no annotation input"
+  },
+  {
+    "qid": "obqa/train/12-562",
+    "document_id": "obqa-fact-91b2bfb73a7465f30214",
+    "text": "aquatic plants live in bodies of water",
+    "bm25_score": 0.0,
+    "query_content_jaccard": 0.0,
+    "word_length_distance": 0,
+    "candidate_count": 681,
+    "selection": "independent corpus control, lower-half retrieval score, low lexical overlap, nearest top-one length, seeded ties; no annotation input"
+  },
+  {
+    "qid": "obqa/train/13-600",
+    "document_id": "obqa-fact-d90555aaac3165b22159",
+    "text": "some light bulbs convert electricity into light and heat energy",
+    "bm25_score": 0.0,
+    "query_content_jaccard": 0.0,
+    "word_length_distance": 0,
+    "candidate_count": 665,
+    "selection": "independent corpus control, lower-half retrieval score, low lexical overlap, nearest top-one length, seeded ties; no annotation input"
+  },
+  {
+    "qid": "obqa/train/12-796",
+    "document_id": "obqa-fact-6cfabf4d5fe4bd39ef32",
+    "text": "if the atmospheric temperature rises then the glaciers will melt",
+    "bm25_score": 0.0,
+    "query_content_jaccard": 0.0,
+    "word_length_distance": 0,
+    "candidate_count": 723,
+    "selection": "independent corpus control, lower-half retrieval score, low lexical overlap, nearest top-one length, seeded ties; no annotation input"
+  },
+  {
+    "qid": "obqa/train/12-942",
+    "document_id": "obqa-fact-3ae0ab94cbca5228a8cc",
+    "text": "polar bears live in cold environments",
+    "bm25_score": 0.0,
+    "query_content_jaccard": 0.0,
+    "word_length_distance": 0,
+    "candidate_count": 695,
+    "selection": "independent corpus control, lower-half retrieval score, low lexical overlap, nearest top-one length, seeded ties; no annotation input"
+  },
+  {
+    "qid": "obqa/train/12-1197",
+    "document_id": "obqa-fact-57ecb256e9d52645f0f5",
+    "text": "an incandescent light bulb converts electricity into heat by sending electricity through a filament",
+    "bm25_score": 0.7275380639389969,
+    "query_content_jaccard": 0.0,
+    "word_length_distance": 0,
+    "candidate_count": 676,
+    "selection": "independent corpus control, lower-half retrieval score, low lexical overlap, nearest top-one length, seeded ties; no annotation input"
+  },
+  {
+    "qid": "obqa/train/12-1183",
+    "document_id": "obqa-fact-92c6533183471505d093",
+    "text": "living things require water for survival",
+    "bm25_score": 0.0,
+    "query_content_jaccard": 0.0,
+    "word_length_distance": 0,
+    "candidate_count": 670,
+    "selection": "independent corpus control, lower-half retrieval score, low lexical overlap, nearest top-one length, seeded ties; no annotation input"
+  },
+  {
+    "qid": "obqa/train/13-971",
+    "document_id": "obqa-fact-e505c20c977c61e22dea",
+    "text": "if an object reflects more light then that object is more easily seen",
+    "bm25_score": 1.3204566412340033,
+    "query_content_jaccard": 0.0,
+    "word_length_distance": 0,
+    "candidate_count": 664,
+    "selection": "independent corpus control, lower-half retrieval score, low lexical overlap, nearest top-one length, seeded ties; no annotation input"
+  },
+  {
+    "qid": "obqa/train/14-1289",
+    "document_id": "obqa-fact-2429fa15feb78ed0ad6f",
+    "text": "an animal can survive in an environment with little food by storing fat",
+    "bm25_score": 0.0,
+    "query_content_jaccard": 0.0,
+    "word_length_distance": 0,
+    "candidate_count": 668,
+    "selection": "independent corpus control, lower-half retrieval score, low lexical overlap, nearest top-one length, seeded ties; no annotation input"
+  },
+  {
+    "qid": "obqa/train/10-1042",
+    "document_id": "obqa-fact-77c6ff5068d1cc5c3416",
+    "text": "magnetism does not require contact between objects to act",
+    "bm25_score": 0.0,
+    "query_content_jaccard": 0.0,
+    "word_length_distance": 0,
+    "candidate_count": 671,
+    "selection": "independent corpus control, lower-half retrieval score, low lexical overlap, nearest top-one length, seeded ties; no annotation input"
+  },
+  {
+    "qid": "obqa/train/8-320",
+    "document_id": "obqa-fact-8e034053728acfd2f6c6",
+    "text": "if an animal eats another animal then that animal is a carnivore or omnivore or predator",
+    "bm25_score": 0.6746324917989464,
+    "query_content_jaccard": 0.0,
+    "word_length_distance": 0,
+    "candidate_count": 663,
+    "selection": "independent corpus control, lower-half retrieval score, low lexical overlap, nearest top-one length, seeded ties; no annotation input"
+  },
+  {
+    "qid": "obqa/train/13-463",
+    "document_id": "obqa-fact-d886c1a0a022b996939f",
+    "text": "an animal requires air for survival",
+    "bm25_score": 0.0,
+    "query_content_jaccard": 0.0,
+    "word_length_distance": 0,
+    "candidate_count": 674,
+    "selection": "independent corpus control, lower-half retrieval score, low lexical overlap, nearest top-one length, seeded ties; no annotation input"
+  },
+  {
+    "qid": "obqa/train/13-89",
+    "document_id": "obqa-fact-1eb0de97bcc8d48e3994",
+    "text": "if a population decreases to zero then that organism is extinct",
+    "bm25_score": 0.0,
+    "query_content_jaccard": 0.0,
+    "word_length_distance": 0,
+    "candidate_count": 663,
+    "selection": "independent corpus control, lower-half retrieval score, low lexical overlap, nearest top-one length, seeded ties; no annotation input"
+  },
+  {
+    "qid": "obqa/train/1938",
+    "document_id": "obqa-fact-34750b8dd7106a580ad4",
+    "text": "if one mineral can scratch another mineral then that other mineral is softer than that one mineral",
+    "bm25_score": 0.0,
+    "query_content_jaccard": 0.0,
+    "word_length_distance": 0,
+    "candidate_count": 671,
+    "selection": "independent corpus control, lower-half retrieval score, low lexical overlap, nearest top-one length, seeded ties; no annotation input"
+  },
+  {
+    "qid": "obqa/train/14-134",
+    "document_id": "obqa-fact-ac533cb5d2af86a15f60",
+    "text": "when a cooler object touches a warmer object , thermal conduction occurs",
+    "bm25_score": 4.808559856853638,
+    "query_content_jaccard": 0.0,
+    "word_length_distance": 0,
+    "candidate_count": 663,
+    "selection": "independent corpus control, lower-half retrieval score, low lexical overlap, nearest top-one length, seeded ties; no annotation input"
+  },
+  {
+    "qid": "obqa/train/12-934",
+    "document_id": "obqa-fact-14f7089531af0c72da9e",
+    "text": "Matter in the gas phase has variable shape",
+    "bm25_score": 1.165683106292008,
+    "query_content_jaccard": 0.0,
+    "word_length_distance": 0,
+    "candidate_count": 665,
+    "selection": "independent corpus control, lower-half retrieval score, low lexical overlap, nearest top-one length, seeded ties; no annotation input"
+  },
+  {
+    "qid": "obqa/train/10-984",
+    "document_id": "obqa-fact-ce1bfdeaf0b31bf5cf89",
+    "text": "a reflector is used to reflect light especially on vehicles",
+    "bm25_score": 1.0770248972838612,
+    "query_content_jaccard": 0.0,
+    "word_length_distance": 0,
+    "candidate_count": 669,
+    "selection": "independent corpus control, lower-half retrieval score, low lexical overlap, nearest top-one length, seeded ties; no annotation input"
+  },
+  {
+    "qid": "obqa/train/11-513",
+    "document_id": "obqa-fact-f6d363c8b18ba16315b2",
+    "text": "humidity is the amount of water vapor in the air",
+    "bm25_score": 1.0770248972838612,
+    "query_content_jaccard": 0.0,
+    "word_length_distance": 0,
+    "candidate_count": 670,
+    "selection": "independent corpus control, lower-half retrieval score, low lexical overlap, nearest top-one length, seeded ties; no annotation input"
+  },
+  {
+    "qid": "obqa/train/7-30",
+    "document_id": "obqa-fact-4cb9a81b16b25211515d",
+    "text": "a plants require water for to grow",
+    "bm25_score": 0.0,
+    "query_content_jaccard": 0.0,
+    "word_length_distance": 0,
+    "candidate_count": 666,
+    "selection": "independent corpus control, lower-half retrieval score, low lexical overlap, nearest top-one length, seeded ties; no annotation input"
+  },
+  {
+    "qid": "obqa/train/9-848",
+    "document_id": "obqa-fact-d44637fccb283c746b30",
+    "text": "the first quarter phase of the moon occurs after the new moon",
+    "bm25_score": 2.7263068529980847,
+    "query_content_jaccard": 0.0,
+    "word_length_distance": 0,
+    "candidate_count": 669,
+    "selection": "independent corpus control, lower-half retrieval score, low lexical overlap, nearest top-one length, seeded ties; no annotation input"
+  },
+  {
+    "qid": "obqa/train/11-440",
+    "document_id": "obqa-fact-354ace2edd6561b9b47b",
+    "text": "tearing an object changes that object 's shape",
+    "bm25_score": 0.0,
+    "query_content_jaccard": 0.0,
+    "word_length_distance": 0,
+    "candidate_count": 676,
+    "selection": "independent corpus control, lower-half retrieval score, low lexical overlap, nearest top-one length, seeded ties; no annotation input"
+  },
+  {
+    "qid": "obqa/train/13-969",
+    "document_id": "obqa-fact-dabac3c74bff53ca90c5",
+    "text": "extreme temperatures cause an organism 's energy levels to decrease",
+    "bm25_score": 0.0,
+    "query_content_jaccard": 0.0,
+    "word_length_distance": 0,
+    "candidate_count": 663,
+    "selection": "independent corpus control, lower-half retrieval score, low lexical overlap, nearest top-one length, seeded ties; no annotation input"
+  },
+  {
+    "qid": "obqa/train/30",
+    "document_id": "obqa-fact-fa0c2bc09ad1fbfb65b0",
+    "text": "if a living thing becomes too cold then that living thing will die",
+    "bm25_score": 0.7572295346732372,
+    "query_content_jaccard": 0.0,
+    "word_length_distance": 0,
+    "candidate_count": 670,
+    "selection": "independent corpus control, lower-half retrieval score, low lexical overlap, nearest top-one length, seeded ties; no annotation input"
+  },
+  {
+    "qid": "obqa/train/12-1006",
+    "document_id": "obqa-fact-29c940fd896f08b2d155",
+    "text": "if something contains a large amount of magnetic material then that something will attract magnets",
+    "bm25_score": 0.7000871826115822,
+    "query_content_jaccard": 0.0,
+    "word_length_distance": 0,
+    "candidate_count": 679,
+    "selection": "independent corpus control, lower-half retrieval score, low lexical overlap, nearest top-one length, seeded ties; no annotation input"
+  },
+  {
+    "qid": "obqa/train/1383",
+    "document_id": "obqa-fact-05cf205f41fee0f5d9b0",
+    "text": "metamorphosis is when an animal changes from an immature form to an adult form",
+    "bm25_score": 2.6146306820841096,
+    "query_content_jaccard": 0.0,
+    "word_length_distance": 0,
+    "candidate_count": 666,
+    "selection": "independent corpus control, lower-half retrieval score, low lexical overlap, nearest top-one length, seeded ties; no annotation input"
+  },
+  {
+    "qid": "obqa/train/8-295",
+    "document_id": "obqa-fact-f3e1b01f2d312ab7291d",
+    "text": "An example of stormy weather is rain",
+    "bm25_score": 0.0,
+    "query_content_jaccard": 0.0,
+    "word_length_distance": 0,
+    "candidate_count": 696,
+    "selection": "independent corpus control, lower-half retrieval score, low lexical overlap, nearest top-one length, seeded ties; no annotation input"
+  },
+  {
+    "qid": "obqa/train/13-347",
+    "document_id": "obqa-fact-f430b5c1070a31ef1623",
+    "text": "the stars in the night sky are very far away from the Earth",
+    "bm25_score": 0.0,
+    "query_content_jaccard": 0.0,
+    "word_length_distance": 0,
+    "candidate_count": 1129,
+    "selection": "independent corpus control, lower-half retrieval score, low lexical overlap, nearest top-one length, seeded ties; no annotation input"
+  },
+  {
+    "qid": "obqa/train/13-38",
+    "document_id": "obqa-fact-d2d8bc181404be97cf37",
+    "text": "as air pressure decreases , the chance of rain will increase",
+    "bm25_score": 0.0,
+    "query_content_jaccard": 0.0,
+    "word_length_distance": 0,
+    "candidate_count": 800,
+    "selection": "independent corpus control, lower-half retrieval score, low lexical overlap, nearest top-one length, seeded ties; no annotation input"
+  },
+  {
+    "qid": "obqa/train/10-777",
+    "document_id": "obqa-fact-3d0150caa43a3dc6d877",
+    "text": "processes sometimes produce waste products",
+    "bm25_score": 0.0,
+    "query_content_jaccard": 0.0,
+    "word_length_distance": 0,
+    "candidate_count": 664,
+    "selection": "independent corpus control, lower-half retrieval score, low lexical overlap, nearest top-one length, seeded ties; no annotation input"
+  },
+  {
+    "qid": "obqa/train/14-285",
+    "document_id": "obqa-fact-1ac265e8fa7b6539aabe",
+    "text": "a sandbar is formed by water moving sediment downstream",
+    "bm25_score": 1.1295543232591339,
+    "query_content_jaccard": 0.0,
+    "word_length_distance": 0,
+    "candidate_count": 688,
+    "selection": "independent corpus control, lower-half retrieval score, low lexical overlap, nearest top-one length, seeded ties; no annotation input"
+  },
+  {
+    "qid": "obqa/train/7-149",
+    "document_id": "obqa-fact-a0baff4b77230b84492d",
+    "text": "cold environments are usually white in color from being covered in snow",
+    "bm25_score": 0.0,
+    "query_content_jaccard": 0.0,
+    "word_length_distance": 0,
+    "candidate_count": 671,
+    "selection": "independent corpus control, lower-half retrieval score, low lexical overlap, nearest top-one length, seeded ties; no annotation input"
+  },
+  {
+    "qid": "obqa/train/13-133",
+    "document_id": "obqa-fact-720a85d707429a0c7d22",
+    "text": "if two animals have the same food source then those two animals compete for food",
+    "bm25_score": 0.857804781547559,
+    "query_content_jaccard": 0.0,
+    "word_length_distance": 0,
+    "candidate_count": 669,
+    "selection": "independent corpus control, lower-half retrieval score, low lexical overlap, nearest top-one length, seeded ties; no annotation input"
+  },
+  {
+    "qid": "obqa/train/11-75",
+    "document_id": "obqa-fact-64f22440c74d4929a835",
+    "text": "an animal requires energy to move",
+    "bm25_score": 0.0,
+    "query_content_jaccard": 0.0,
+    "word_length_distance": 0,
+    "candidate_count": 663,
+    "selection": "independent corpus control, lower-half retrieval score, low lexical overlap, nearest top-one length, seeded ties; no annotation input"
+  },
+  {
+    "qid": "obqa/train/12-189",
+    "document_id": "obqa-fact-f83bb158e17d83945610",
+    "text": "An example of camouflage is when an organism looks like its environment",
+    "bm25_score": 2.016556881197135,
+    "query_content_jaccard": 0.0,
+    "word_length_distance": 0,
+    "candidate_count": 664,
+    "selection": "independent corpus control, lower-half retrieval score, low lexical overlap, nearest top-one length, seeded ties; no annotation input"
+  },
+  {
+    "qid": "obqa/train/14-990",
+    "document_id": "obqa-fact-0c1e037bf6889b3dd8a3",
+    "text": "smell is used for finding food by some animals",
+    "bm25_score": 0.0,
+    "query_content_jaccard": 0.0,
+    "word_length_distance": 0,
+    "candidate_count": 666,
+    "selection": "independent corpus control, lower-half retrieval score, low lexical overlap, nearest top-one length, seeded ties; no annotation input"
+  },
+  {
+    "qid": "obqa/train/571",
+    "document_id": "obqa-fact-d722ab065073862002f8",
+    "text": "the moon is the celestial object that is closest to the Earth",
+    "bm25_score": 0.0,
+    "query_content_jaccard": 0.0,
+    "word_length_distance": 0,
+    "candidate_count": 691,
+    "selection": "independent corpus control, lower-half retrieval score, low lexical overlap, nearest top-one length, seeded ties; no annotation input"
+  },
+  {
+    "qid": "obqa/train/13-590",
+    "document_id": "obqa-fact-0e94fa0e2d6acacd86c8",
+    "text": "casting an image of an object through a pinhole onto a screen does not require looking directly at the object",
+    "bm25_score": 0.7216594168413594,
+    "query_content_jaccard": 0.0,
+    "word_length_distance": 1,
+    "candidate_count": 674,
+    "selection": "independent corpus control, lower-half retrieval score, low lexical overlap, nearest top-one length, seeded ties; no annotation input"
+  },
+  {
+    "qid": "obqa/train/10-845",
+    "document_id": "obqa-fact-61c688d31ea1c064b258",
+    "text": "doing chores is a learned characteristic",
+    "bm25_score": 0.0,
+    "query_content_jaccard": 0.0,
+    "word_length_distance": 0,
+    "candidate_count": 1053,
+    "selection": "independent corpus control, lower-half retrieval score, low lexical overlap, nearest top-one length, seeded ties; no annotation input"
+  },
+  {
+    "qid": "obqa/train/10-816",
+    "document_id": "obqa-fact-5c79a9778c2f53941946",
+    "text": "eagles eat fish",
+    "bm25_score": 0.0,
+    "query_content_jaccard": 0.0,
+    "word_length_distance": 0,
+    "candidate_count": 1005,
+    "selection": "independent corpus control, lower-half retrieval score, low lexical overlap, nearest top-one length, seeded ties; no annotation input"
+  },
+  {
+    "qid": "obqa/train/8-269",
+    "document_id": "obqa-fact-89230750d6821eb91166",
+    "text": "refraction is when light bends",
+    "bm25_score": 0.0,
+    "query_content_jaccard": 0.0,
+    "word_length_distance": 0,
+    "candidate_count": 666,
+    "selection": "independent corpus control, lower-half retrieval score, low lexical overlap, nearest top-one length, seeded ties; no annotation input"
+  },
+  {
+    "qid": "obqa/train/12-388",
+    "document_id": "obqa-fact-dfac53ebb426b9131b5b",
+    "text": "as the population of plants decreases , carbon in the atmosphere will increase",
+    "bm25_score": 0.0,
+    "query_content_jaccard": 0.0,
+    "word_length_distance": 0,
+    "candidate_count": 1186,
+    "selection": "independent corpus control, lower-half retrieval score, low lexical overlap, nearest top-one length, seeded ties; no annotation input"
+  },
+  {
+    "qid": "obqa/train/10-603",
+    "document_id": "obqa-fact-d690cc8b7914919e5028",
+    "text": "down feathers are a thermal energy insulator",
+    "bm25_score": 1.0027741170928879,
+    "query_content_jaccard": 0.0,
+    "word_length_distance": 0,
+    "candidate_count": 687,
+    "selection": "independent corpus control, lower-half retrieval score, low lexical overlap, nearest top-one length, seeded ties; no annotation input"
+  },
+  {
+    "qid": "obqa/train/12-655",
+    "document_id": "obqa-fact-1a7d83b8ec7521351c35",
+    "text": "changes in an environment cause animals to adapt to survive",
+    "bm25_score": 0.0,
+    "query_content_jaccard": 0.0,
+    "word_length_distance": 0,
+    "candidate_count": 761,
+    "selection": "independent corpus control, lower-half retrieval score, low lexical overlap, nearest top-one length, seeded ties; no annotation input"
+  },
+  {
+    "qid": "obqa/train/1412",
+    "document_id": "obqa-fact-6cd9e79242e5231fa7b6",
+    "text": "the coloration of fur is an inherited characteristic",
+    "bm25_score": 0.0,
+    "query_content_jaccard": 0.0,
+    "word_length_distance": 0,
+    "candidate_count": 664,
+    "selection": "independent corpus control, lower-half retrieval score, low lexical overlap, nearest top-one length, seeded ties; no annotation input"
+  },
+  {
+    "qid": "obqa/train/11-341",
+    "document_id": "obqa-fact-cd1932e284f5b07708f7",
+    "text": "In the food chain process an animal has the role of consumer which eats other animals for food",
+    "bm25_score": 0.8214724485425328,
+    "query_content_jaccard": 0.0,
+    "word_length_distance": 0,
+    "candidate_count": 664,
+    "selection": "independent corpus control, lower-half retrieval score, low lexical overlap, nearest top-one length, seeded ties; no annotation input"
+  },
+  {
+    "qid": "obqa/train/1738",
+    "document_id": "obqa-fact-6defb3fa9836965ad46c",
+    "text": "as state of matter changes , mass will not change",
+    "bm25_score": 0.0,
+    "query_content_jaccard": 0.0,
+    "word_length_distance": 0,
+    "candidate_count": 722,
+    "selection": "independent corpus control, lower-half retrieval score, low lexical overlap, nearest top-one length, seeded ties; no annotation input"
+  },
+  {
+    "qid": "obqa/train/1585",
+    "document_id": "obqa-fact-5d86bc8bc3cb221fa779",
+    "text": "a Punnett square is used to identify the percent chance of a trait being passed down from a parent to its offspring",
+    "bm25_score": 2.1253709821727154,
+    "query_content_jaccard": 0.0,
+    "word_length_distance": 1,
+    "candidate_count": 672,
+    "selection": "independent corpus control, lower-half retrieval score, low lexical overlap, nearest top-one length, seeded ties; no annotation input"
+  },
+  {
+    "qid": "obqa/train/13-810",
+    "document_id": "obqa-fact-5c996e0572aaf08eb29b",
+    "text": "plastic is a nonrenewable resource",
+    "bm25_score": 1.4033314503223377,
+    "query_content_jaccard": 0.0,
+    "word_length_distance": 0,
+    "candidate_count": 674,
+    "selection": "independent corpus control, lower-half retrieval score, low lexical overlap, nearest top-one length, seeded ties; no annotation input"
+  },
+  {
+    "qid": "obqa/train/12-17",
+    "document_id": "obqa-fact-6f067b928d7c1a85d5f4",
+    "text": "decomposition is when a decomposer recycles nutrients from dead organisms to the soil by eating those dead organisms",
+    "bm25_score": 1.2577995239211193,
+    "query_content_jaccard": 0.0,
+    "word_length_distance": 0,
+    "candidate_count": 663,
+    "selection": "independent corpus control, lower-half retrieval score, low lexical overlap, nearest top-one length, seeded ties; no annotation input"
+  },
+  {
+    "qid": "obqa/train/11-356",
+    "document_id": "obqa-fact-659167983ddeb41d59e0",
+    "text": "an animal requires shelter",
+    "bm25_score": 0.0,
+    "query_content_jaccard": 0.0,
+    "word_length_distance": 0,
+    "candidate_count": 663,
+    "selection": "independent corpus control, lower-half retrieval score, low lexical overlap, nearest top-one length, seeded ties; no annotation input"
+  },
+  {
+    "qid": "obqa/train/7-474",
+    "document_id": "obqa-fact-f83bb158e17d83945610",
+    "text": "An example of camouflage is when an organism looks like its environment",
+    "bm25_score": 1.0311809323473284,
+    "query_content_jaccard": 0.0,
+    "word_length_distance": 0,
+    "candidate_count": 675,
+    "selection": "independent corpus control, lower-half retrieval score, low lexical overlap, nearest top-one length, seeded ties; no annotation input"
+  },
+  {
+    "qid": "obqa/train/10-288",
+    "document_id": "obqa-fact-9bb5ee481741c5cae91c",
+    "text": "a human can pedal a bicycle",
+    "bm25_score": 1.4344888961546065,
+    "query_content_jaccard": 0.0,
+    "word_length_distance": 0,
+    "candidate_count": 663,
+    "selection": "independent corpus control, lower-half retrieval score, low lexical overlap, nearest top-one length, seeded ties; no annotation input"
+  },
+  {
+    "qid": "obqa/train/9-1146",
+    "document_id": "obqa-fact-ce0276ad764cf0033f7c",
+    "text": "the tide cycle regularly occurs twice per day",
+    "bm25_score": 2.331366212584016,
+    "query_content_jaccard": 0.0,
+    "word_length_distance": 0,
+    "candidate_count": 664,
+    "selection": "independent corpus control, lower-half retrieval score, low lexical overlap, nearest top-one length, seeded ties; no annotation input"
+  },
+  {
+    "qid": "obqa/train/12-346",
+    "document_id": "obqa-fact-c183ac1f1c4ac53bd86a",
+    "text": "buildings collapsing often cause death",
+    "bm25_score": 0.0,
+    "query_content_jaccard": 0.0,
+    "word_length_distance": 0,
+    "candidate_count": 664,
+    "selection": "independent corpus control, lower-half retrieval score, low lexical overlap, nearest top-one length, seeded ties; no annotation input"
+  },
+  {
+    "qid": "obqa/train/12-841",
+    "document_id": "obqa-fact-7fac4078aeec2f53863b",
+    "text": "motion is a source of kinetic energy in an object",
+    "bm25_score": 0.8628734120030291,
+    "query_content_jaccard": 0.0,
+    "word_length_distance": 0,
+    "candidate_count": 677,
+    "selection": "independent corpus control, lower-half retrieval score, low lexical overlap, nearest top-one length, seeded ties; no annotation input"
+  },
+  {
+    "qid": "obqa/train/12-851",
+    "document_id": "obqa-fact-871da8ace3154b2e5983",
+    "text": "national parks limit hunting",
+    "bm25_score": 0.0,
+    "query_content_jaccard": 0.0,
+    "word_length_distance": 0,
+    "candidate_count": 676,
+    "selection": "independent corpus control, lower-half retrieval score, low lexical overlap, nearest top-one length, seeded ties; no annotation input"
+  },
+  {
+    "qid": "obqa/train/114",
+    "document_id": "obqa-fact-3a54aab20587101fde92",
+    "text": "burning a living thing usually causes harm to that living thing",
+    "bm25_score": 0.0,
+    "query_content_jaccard": 0.0,
+    "word_length_distance": 0,
+    "candidate_count": 719,
+    "selection": "independent corpus control, lower-half retrieval score, low lexical overlap, nearest top-one length, seeded ties; no annotation input"
+  },
+  {
+    "qid": "obqa/train/10-1171",
+    "document_id": "obqa-fact-14092dbb07f016064dec",
+    "text": "a flashlight emits light",
+    "bm25_score": 0.0,
+    "query_content_jaccard": 0.0,
+    "word_length_distance": 0,
+    "candidate_count": 736,
+    "selection": "independent corpus control, lower-half retrieval score, low lexical overlap, nearest top-one length, seeded ties; no annotation input"
+  },
+  {
+    "qid": "obqa/train/10-294",
+    "document_id": "obqa-fact-3f898216221168d8a717",
+    "text": "peat is made of decaying vegetation compacted by soil in a swamp over a long period of time",
+    "bm25_score": 1.2799884821266803,
+    "query_content_jaccard": 0.0,
+    "word_length_distance": 1,
+    "candidate_count": 663,
+    "selection": "independent corpus control, lower-half retrieval score, low lexical overlap, nearest top-one length, seeded ties; no annotation input"
+  },
+  {
+    "qid": "obqa/train/13-655",
+    "document_id": "obqa-fact-c5ea210fe2e97396ad26",
+    "text": "some animals live in zoo exhibits",
+    "bm25_score": 0.0,
+    "query_content_jaccard": 0.0,
+    "word_length_distance": 0,
+    "candidate_count": 849,
+    "selection": "independent corpus control, lower-half retrieval score, low lexical overlap, nearest top-one length, seeded ties; no annotation input"
+  },
+  {
+    "qid": "obqa/train/14-222",
+    "document_id": "obqa-fact-94fed5517dae946779e8",
+    "text": "crumple means change shape from smooth into compacted by physical force",
+    "bm25_score": 0.0,
+    "query_content_jaccard": 0.0,
+    "word_length_distance": 0,
+    "candidate_count": 666,
+    "selection": "independent corpus control, lower-half retrieval score, low lexical overlap, nearest top-one length, seeded ties; no annotation input"
+  },
+  {
+    "qid": "obqa/train/10-640",
+    "document_id": "obqa-fact-bd8a6b4f7ca771c1b052",
+    "text": "the sun is a source of heat called sunlight",
+    "bm25_score": 0.0,
+    "query_content_jaccard": 0.0,
+    "word_length_distance": 0,
+    "candidate_count": 1152,
+    "selection": "independent corpus control, lower-half retrieval score, low lexical overlap, nearest top-one length, seeded ties; no annotation input"
+  },
+  {
+    "qid": "obqa/train/10-502",
+    "document_id": "obqa-fact-2a528f6bdad68a868c23",
+    "text": "melting point means temperature at which a solid melts",
+    "bm25_score": 0.0,
+    "query_content_jaccard": 0.0,
+    "word_length_distance": 0,
+    "candidate_count": 672,
+    "selection": "independent corpus control, lower-half retrieval score, low lexical overlap, nearest top-one length, seeded ties; no annotation input"
+  },
+  {
+    "qid": "obqa/train/12-874",
+    "document_id": "obqa-fact-57ecb256e9d52645f0f5",
+    "text": "an incandescent light bulb converts electricity into heat by sending electricity through a filament",
+    "bm25_score": 0.0,
+    "query_content_jaccard": 0.0,
+    "word_length_distance": 0,
+    "candidate_count": 667,
+    "selection": "independent corpus control, lower-half retrieval score, low lexical overlap, nearest top-one length, seeded ties; no annotation input"
+  },
+  {
+    "qid": "obqa/train/11-234",
+    "document_id": "obqa-fact-e505c20c977c61e22dea",
+    "text": "if an object reflects more light then that object is more easily seen",
+    "bm25_score": 1.3204566412340033,
+    "query_content_jaccard": 0.0,
+    "word_length_distance": 0,
+    "candidate_count": 663,
+    "selection": "independent corpus control, lower-half retrieval score, low lexical overlap, nearest top-one length, seeded ties; no annotation input"
+  },
+  {
+    "qid": "obqa/train/13-69",
+    "document_id": "obqa-fact-73a29f448194dc38a1fa",
+    "text": "the formation of peat occurs at the bottom of swamps",
+    "bm25_score": 0.0,
+    "query_content_jaccard": 0.0,
+    "word_length_distance": 0,
+    "candidate_count": 671,
+    "selection": "independent corpus control, lower-half retrieval score, low lexical overlap, nearest top-one length, seeded ties; no annotation input"
+  },
+  {
+    "qid": "obqa/train/10-297",
+    "document_id": "obqa-fact-36a5d045ed18752430ae",
+    "text": "if something is in the sunlight then that something will absorb solar energy",
+    "bm25_score": 0.9278203225327692,
+    "query_content_jaccard": 0.0,
+    "word_length_distance": 0,
+    "candidate_count": 677,
+    "selection": "independent corpus control, lower-half retrieval score, low lexical overlap, nearest top-one length, seeded ties; no annotation input"
+  },
+  {
+    "qid": "obqa/train/12-444",
+    "document_id": "obqa-fact-e61ad27a58d910dfa149",
+    "text": "living things can all reproduce",
+    "bm25_score": 0.0,
+    "query_content_jaccard": 0.0,
+    "word_length_distance": 0,
+    "candidate_count": 670,
+    "selection": "independent corpus control, lower-half retrieval score, low lexical overlap, nearest top-one length, seeded ties; no annotation input"
+  },
+  {
+    "qid": "obqa/train/14-1093",
+    "document_id": "obqa-fact-15e0b3f9a3e35ef5b354",
+    "text": "landslides often occur on mountains",
+    "bm25_score": 0.0,
+    "query_content_jaccard": 0.0,
+    "word_length_distance": 0,
+    "candidate_count": 680,
+    "selection": "independent corpus control, lower-half retrieval score, low lexical overlap, nearest top-one length, seeded ties; no annotation input"
+  },
+  {
+    "qid": "obqa/train/14-566",
+    "document_id": "obqa-fact-a3b87302836c3e132207",
+    "text": "tectonic plates being pushed together causes earthquakes",
+    "bm25_score": 0.0,
+    "query_content_jaccard": 0.0,
+    "word_length_distance": 0,
+    "candidate_count": 1099,
+    "selection": "independent corpus control, lower-half retrieval score, low lexical overlap, nearest top-one length, seeded ties; no annotation input"
+  },
+  {
+    "qid": "obqa/train/7-499",
+    "document_id": "obqa-fact-6cd9e79242e5231fa7b6",
+    "text": "the coloration of fur is an inherited characteristic",
+    "bm25_score": 0.0,
+    "query_content_jaccard": 0.0,
+    "word_length_distance": 0,
+    "candidate_count": 994,
+    "selection": "independent corpus control, lower-half retrieval score, low lexical overlap, nearest top-one length, seeded ties; no annotation input"
+  },
+  {
+    "qid": "obqa/train/7-834",
+    "document_id": "obqa-fact-3cee48bdac21789f1d05",
+    "text": "dead organisms rot",
+    "bm25_score": 0.0,
+    "query_content_jaccard": 0.0,
+    "word_length_distance": 0,
+    "candidate_count": 667,
+    "selection": "independent corpus control, lower-half retrieval score, low lexical overlap, nearest top-one length, seeded ties; no annotation input"
+  },
+  {
+    "qid": "obqa/train/11-556",
+    "document_id": "obqa-fact-48136f76f246a23237b7",
+    "text": "the amount of daylight is least on the winter solstice",
+    "bm25_score": 2.6493651681249295,
+    "query_content_jaccard": 0.0,
+    "word_length_distance": 0,
+    "candidate_count": 676,
+    "selection": "independent corpus control, lower-half retrieval score, low lexical overlap, nearest top-one length, seeded ties; no annotation input"
+  },
+  {
+    "qid": "obqa/train/13-297",
+    "document_id": "obqa-fact-d5d10845231d22bf2f74",
+    "text": "a desert environment is usually hot in temperature",
+    "bm25_score": 0.951358420070364,
+    "query_content_jaccard": 0.0,
+    "word_length_distance": 0,
+    "candidate_count": 667,
+    "selection": "independent corpus control, lower-half retrieval score, low lexical overlap, nearest top-one length, seeded ties; no annotation input"
+  },
+  {
+    "qid": "obqa/train/11-490",
+    "document_id": "obqa-fact-1e9843157d6f9adddcd8",
+    "text": "rock is made of minerals",
+    "bm25_score": 0.0,
+    "query_content_jaccard": 0.0,
+    "word_length_distance": 0,
+    "candidate_count": 710,
+    "selection": "independent corpus control, lower-half retrieval score, low lexical overlap, nearest top-one length, seeded ties; no annotation input"
+  },
+  {
+    "qid": "obqa/train/12-458",
+    "document_id": "obqa-fact-bceea8904b6db0962d87",
+    "text": "An example of an inherited behavior is a bird building a nest",
+    "bm25_score": 2.1955999337788157,
+    "query_content_jaccard": 0.0,
+    "word_length_distance": 0,
+    "candidate_count": 665,
+    "selection": "independent corpus control, lower-half retrieval score, low lexical overlap, nearest top-one length, seeded ties; no annotation input"
+  },
+  {
+    "qid": "obqa/train/13-86",
+    "document_id": "obqa-fact-e90e7ad47d53e1befa5c",
+    "text": "when an electrical conductor is plugged into an outlet , a circuit is completed",
+    "bm25_score": 0.7572295346732372,
+    "query_content_jaccard": 0.0,
+    "word_length_distance": 0,
+    "candidate_count": 674,
+    "selection": "independent corpus control, lower-half retrieval score, low lexical overlap, nearest top-one length, seeded ties; no annotation input"
+  },
+  {
+    "qid": "obqa/train/12-936",
+    "document_id": "obqa-fact-27213b55959d5bbbcc11",
+    "text": "coral lives in the ocean",
+    "bm25_score": 2.2183606138873717,
+    "query_content_jaccard": 0.0,
+    "word_length_distance": 0,
+    "candidate_count": 663,
+    "selection": "independent corpus control, lower-half retrieval score, low lexical overlap, nearest top-one length, seeded ties; no annotation input"
+  },
+  {
+    "qid": "obqa/train/9-171",
+    "document_id": "obqa-fact-b84ceeb5291013b2ca18",
+    "text": "if weather is stormy then there is a greater chance of rain",
+    "bm25_score": 1.453409315858861,
+    "query_content_jaccard": 0.0,
+    "word_length_distance": 0,
+    "candidate_count": 663,
+    "selection": "independent corpus control, lower-half retrieval score, low lexical overlap, nearest top-one length, seeded ties; no annotation input"
+  },
+  {
+    "qid": "obqa/train/13-519",
+    "document_id": "obqa-fact-369ffaa93e09f9cbe9ad",
+    "text": "when a sound is produced inside of a room , there is sometimes an echo after the sound",
+    "bm25_score": 1.1351506415928176,
+    "query_content_jaccard": 0.0,
+    "word_length_distance": 0,
+    "candidate_count": 663,
+    "selection": "independent corpus control, lower-half retrieval score, low lexical overlap, nearest top-one length, seeded ties; no annotation input"
+  },
+  {
+    "qid": "obqa/train/14-629",
+    "document_id": "obqa-fact-e914312e21832331c184",
+    "text": "carpet absorbs sound",
+    "bm25_score": 0.0,
+    "query_content_jaccard": 0.0,
+    "word_length_distance": 0,
+    "candidate_count": 1290,
+    "selection": "independent corpus control, lower-half retrieval score, low lexical overlap, nearest top-one length, seeded ties; no annotation input"
+  },
+  {
+    "qid": "obqa/train/11-280",
+    "document_id": "obqa-fact-8399889910ff1f4caaab",
+    "text": "reducing bacteria in food prevents illness in people",
+    "bm25_score": 0.0,
+    "query_content_jaccard": 0.0,
+    "word_length_distance": 0,
+    "candidate_count": 669,
+    "selection": "independent corpus control, lower-half retrieval score, low lexical overlap, nearest top-one length, seeded ties; no annotation input"
+  },
+  {
+    "qid": "obqa/train/12-91",
+    "document_id": "obqa-fact-9e401fbdee7c2d65cb86",
+    "text": "when a hibernating frog emergest from mud , that frog has ended its hibernation",
+    "bm25_score": 0.0,
+    "query_content_jaccard": 0.0,
+    "word_length_distance": 0,
+    "candidate_count": 899,
+    "selection": "independent corpus control, lower-half retrieval score, low lexical overlap, nearest top-one length, seeded ties; no annotation input"
+  },
+  {
+    "qid": "obqa/train/9-698",
+    "document_id": "obqa-fact-5679b0237a185b549fa8",
+    "text": "photosynthesis means producers convert from carbon dioxide, water, and solar energy into food for themselves",
+    "bm25_score": 2.145726059457372,
+    "query_content_jaccard": 0.0,
+    "word_length_distance": 0,
+    "candidate_count": 663,
+    "selection": "independent corpus control, lower-half retrieval score, low lexical overlap, nearest top-one length, seeded ties; no annotation input"
+  },
+  {
+    "qid": "obqa/train/11-741",
+    "document_id": "obqa-fact-8ed74bb0f219c8106ff5",
+    "text": "sometimes weathering smooths rocks",
+    "bm25_score": 0.0,
+    "query_content_jaccard": 0.0,
+    "word_length_distance": 0,
+    "candidate_count": 671,
+    "selection": "independent corpus control, lower-half retrieval score, low lexical overlap, nearest top-one length, seeded ties; no annotation input"
+  },
+  {
+    "qid": "obqa/train/116",
+    "document_id": "obqa-fact-e144c42c95a55d54d559",
+    "text": "wax is an electrical energy insulator",
+    "bm25_score": 0.0,
+    "query_content_jaccard": 0.0,
+    "word_length_distance": 0,
+    "candidate_count": 663,
+    "selection": "independent corpus control, lower-half retrieval score, low lexical overlap, nearest top-one length, seeded ties; no annotation input"
+  },
+  {
+    "qid": "obqa/train/9-195",
+    "document_id": "obqa-fact-73a29f448194dc38a1fa",
+    "text": "the formation of peat occurs at the bottom of swamps",
+    "bm25_score": 4.667362543138598,
+    "query_content_jaccard": 0.0,
+    "word_length_distance": 0,
+    "candidate_count": 663,
+    "selection": "independent corpus control, lower-half retrieval score, low lexical overlap, nearest top-one length, seeded ties; no annotation input"
+  },
+  {
+    "qid": "obqa/train/9-928",
+    "document_id": "obqa-fact-9cb6dcfa14dd0f67d263",
+    "text": "a paper clip is often made of ferromagnetic metals",
+    "bm25_score": 0.0,
+    "query_content_jaccard": 0.0,
+    "word_length_distance": 0,
+    "candidate_count": 678,
+    "selection": "independent corpus control, lower-half retrieval score, low lexical overlap, nearest top-one length, seeded ties; no annotation input"
+  },
+  {
+    "qid": "obqa/train/9-598",
+    "document_id": "obqa-fact-a2e896ca71a559ff2930",
+    "text": "one year is equal to 365 days",
+    "bm25_score": 0.0,
+    "query_content_jaccard": 0.0,
+    "word_length_distance": 0,
+    "candidate_count": 665,
+    "selection": "independent corpus control, lower-half retrieval score, low lexical overlap, nearest top-one length, seeded ties; no annotation input"
+  },
+  {
+    "qid": "obqa/train/13-780",
+    "document_id": "obqa-fact-192814ee539c4c63e69e",
+    "text": "if an animal relies on plants for food then that animal must store enough food to last through the winter",
+    "bm25_score": 1.4433188336827187,
+    "query_content_jaccard": 0.0,
+    "word_length_distance": 0,
+    "candidate_count": 665,
+    "selection": "independent corpus control, lower-half retrieval score, low lexical overlap, nearest top-one length, seeded ties; no annotation input"
+  },
+  {
+    "qid": "obqa/train/7-192",
+    "document_id": "obqa-fact-35f18af8a567f4a14a1c",
+    "text": "if a tree is cut down then that tree will die",
+    "bm25_score": 0.0,
+    "query_content_jaccard": 0.0,
+    "word_length_distance": 0,
+    "candidate_count": 669,
+    "selection": "independent corpus control, lower-half retrieval score, low lexical overlap, nearest top-one length, seeded ties; no annotation input"
+  },
+  {
+    "qid": "obqa/train/9-1184",
+    "document_id": "obqa-fact-6213b9e30d7c903db724",
+    "text": "the continental shelf is located near the shore",
+    "bm25_score": 1.1874704799141766,
+    "query_content_jaccard": 0.0,
+    "word_length_distance": 0,
+    "candidate_count": 667,
+    "selection": "independent corpus control, lower-half retrieval score, low lexical overlap, nearest top-one length, seeded ties; no annotation input"
+  },
+  {
+    "qid": "obqa/train/14-1362",
+    "document_id": "obqa-fact-f5211db4c99d5f44aef7",
+    "text": "the moon does not contain water",
+    "bm25_score": 0.0,
+    "query_content_jaccard": 0.0,
+    "word_length_distance": 0,
+    "candidate_count": 734,
+    "selection": "independent corpus control, lower-half retrieval score, low lexical overlap, nearest top-one length, seeded ties; no annotation input"
+  },
+  {
+    "qid": "obqa/train/13-305",
+    "document_id": "obqa-fact-8dd2b83888f294b58054",
+    "text": "webbed feet are used for moving faster through water by aquatic animals",
+    "bm25_score": 0.0,
+    "query_content_jaccard": 0.0,
+    "word_length_distance": 0,
+    "candidate_count": 665,
+    "selection": "independent corpus control, lower-half retrieval score, low lexical overlap, nearest top-one length, seeded ties; no annotation input"
+  },
+  {
+    "qid": "obqa/train/13-660",
+    "document_id": "obqa-fact-7b66a1defe53b808c36a",
+    "text": "a stinger is used for defense by a wasp",
+    "bm25_score": 2.570843129264176,
+    "query_content_jaccard": 0.0,
+    "word_length_distance": 0,
+    "candidate_count": 664,
+    "selection": "independent corpus control, lower-half retrieval score, low lexical overlap, nearest top-one length, seeded ties; no annotation input"
+  },
+  {
+    "qid": "obqa/train/12-918",
+    "document_id": "obqa-fact-f430b5c1070a31ef1623",
+    "text": "the stars in the night sky are very far away from the Earth",
+    "bm25_score": 0.0,
+    "query_content_jaccard": 0.0,
+    "word_length_distance": 0,
+    "candidate_count": 747,
+    "selection": "independent corpus control, lower-half retrieval score, low lexical overlap, nearest top-one length, seeded ties; no annotation input"
+  },
+  {
+    "qid": "obqa/train/13-1012",
+    "document_id": "obqa-fact-19a459cb250e25b4cbe8",
+    "text": "minerals are formed from magma cooling",
+    "bm25_score": 0.0,
+    "query_content_jaccard": 0.0,
+    "word_length_distance": 0,
+    "candidate_count": 666,
+    "selection": "independent corpus control, lower-half retrieval score, low lexical overlap, nearest top-one length, seeded ties; no annotation input"
+  },
+  {
+    "qid": "obqa/train/13-596",
+    "document_id": "obqa-fact-cc77a291cce4815b75f1",
+    "text": "insects can have a negative impact on crops",
+    "bm25_score": 3.805433680281456,
+    "query_content_jaccard": 0.0,
+    "word_length_distance": 0,
+    "candidate_count": 664,
+    "selection": "independent corpus control, lower-half retrieval score, low lexical overlap, nearest top-one length, seeded ties; no annotation input"
+  },
+  {
+    "qid": "obqa/train/8-117",
+    "document_id": "obqa-fact-df691fd956978c201a88",
+    "text": "friction is used for stopping a vehicle by brakes",
+    "bm25_score": 1.1295543232591339,
+    "query_content_jaccard": 0.0,
+    "word_length_distance": 0,
+    "candidate_count": 679,
+    "selection": "independent corpus control, lower-half retrieval score, low lexical overlap, nearest top-one length, seeded ties; no annotation input"
+  },
+  {
+    "qid": "obqa/train/12-991",
+    "document_id": "obqa-fact-3575981b82b27e643565",
+    "text": "as heat is transferred from something to something else , the temperature of that something will decrease",
+    "bm25_score": 1.212249158922552,
+    "query_content_jaccard": 0.0,
+    "word_length_distance": 0,
+    "candidate_count": 675,
+    "selection": "independent corpus control, lower-half retrieval score, low lexical overlap, nearest top-one length, seeded ties; no annotation input"
+  },
+  {
+    "qid": "obqa/train/14-930",
+    "document_id": "obqa-fact-6c0ba89c0abb4bbfcddd",
+    "text": "if a substance absorbs solar energy then that substance will increase in temperature",
+    "bm25_score": 2.2716886040197113,
+    "query_content_jaccard": 0.0,
+    "word_length_distance": 0,
+    "candidate_count": 685,
+    "selection": "independent corpus control, lower-half retrieval score, low lexical overlap, nearest top-one length, seeded ties; no annotation input"
+  },
+  {
+    "qid": "obqa/train/12-646",
+    "document_id": "obqa-fact-5e2b639ee2df6642392f",
+    "text": "milliliters mL is a unit used for measuring volume generally used for values between 1 and 1000",
+    "bm25_score": 0.0,
+    "query_content_jaccard": 0.0,
+    "word_length_distance": 1,
+    "candidate_count": 673,
+    "selection": "independent corpus control, lower-half retrieval score, low lexical overlap, nearest top-one length, seeded ties; no annotation input"
+  },
+  {
+    "qid": "obqa/train/13-207",
+    "document_id": "obqa-fact-4af0aa4e32a2f7799c76",
+    "text": "a compass 's needle lines up with Earth 's magnetic poles",
+    "bm25_score": 0.0,
+    "query_content_jaccard": 0.0,
+    "word_length_distance": 0,
+    "candidate_count": 692,
+    "selection": "independent corpus control, lower-half retrieval score, low lexical overlap, nearest top-one length, seeded ties; no annotation input"
+  },
+  {
+    "qid": "obqa/train/13-203",
+    "document_id": "obqa-fact-83b5d530aa96098335df",
+    "text": "a solar eclipse could only happen during the new moon",
+    "bm25_score": 2.977401308158258,
+    "query_content_jaccard": 0.0,
+    "word_length_distance": 0,
+    "candidate_count": 665,
+    "selection": "independent corpus control, lower-half retrieval score, low lexical overlap, nearest top-one length, seeded ties; no annotation input"
+  },
+  {
+    "qid": "obqa/train/10-688",
+    "document_id": "obqa-fact-e95797aa47da92e3d886",
+    "text": "the sun transfers heat energy from itself to the planets through sunlight",
+    "bm25_score": 1.4185607510417404,
+    "query_content_jaccard": 0.0,
+    "word_length_distance": 0,
+    "candidate_count": 665,
+    "selection": "independent corpus control, lower-half retrieval score, low lexical overlap, nearest top-one length, seeded ties; no annotation input"
+  },
+  {
+    "qid": "obqa/train/254",
+    "document_id": "obqa-fact-bd1aa99884a42c78a948",
+    "text": "Matter in the solid phase has definite shape",
+    "bm25_score": 0.0,
+    "query_content_jaccard": 0.0,
+    "word_length_distance": 0,
+    "candidate_count": 681,
+    "selection": "independent corpus control, lower-half retrieval score, low lexical overlap, nearest top-one length, seeded ties; no annotation input"
+  },
+  {
+    "qid": "obqa/train/9-546",
+    "document_id": "obqa-fact-dfac53ebb426b9131b5b",
+    "text": "as the population of plants decreases , carbon in the atmosphere will increase",
+    "bm25_score": 0.0,
+    "query_content_jaccard": 0.0,
+    "word_length_distance": 0,
+    "candidate_count": 663,
+    "selection": "independent corpus control, lower-half retrieval score, low lexical overlap, nearest top-one length, seeded ties; no annotation input"
+  },
+  {
+    "qid": "obqa/train/899",
+    "document_id": "obqa-fact-c9a5271b43e2c905f1d2",
+    "text": "an animal requires enough nutrients to survive",
+    "bm25_score": 0.0,
+    "query_content_jaccard": 0.0,
+    "word_length_distance": 0,
+    "candidate_count": 670,
+    "selection": "independent corpus control, lower-half retrieval score, low lexical overlap, nearest top-one length, seeded ties; no annotation input"
+  },
+  {
+    "qid": "obqa/train/1695",
+    "document_id": "obqa-fact-c93da3eac2c3a5212f0e",
+    "text": "electromagnets can be powered by electricity",
+    "bm25_score": 0.0,
+    "query_content_jaccard": 0.0,
+    "word_length_distance": 0,
+    "candidate_count": 679,
+    "selection": "independent corpus control, lower-half retrieval score, low lexical overlap, nearest top-one length, seeded ties; no annotation input"
+  },
+  {
+    "qid": "obqa/train/11-698",
+    "document_id": "obqa-fact-63bceb67de0f38416332",
+    "text": "the cocoons being created occurs during the the pupa stage in a life cycle",
+    "bm25_score": 0.7275380639389969,
+    "query_content_jaccard": 0.0,
+    "word_length_distance": 0,
+    "candidate_count": 663,
+    "selection": "independent corpus control, lower-half retrieval score, low lexical overlap, nearest top-one length, seeded ties; no annotation input"
+  },
+  {
+    "qid": "obqa/train/7-659",
+    "document_id": "obqa-fact-80752fb5145fda4f17cb",
+    "text": "bees eat pollen",
+    "bm25_score": 0.0,
+    "query_content_jaccard": 0.0,
+    "word_length_distance": 0,
+    "candidate_count": 663,
+    "selection": "independent corpus control, lower-half retrieval score, low lexical overlap, nearest top-one length, seeded ties; no annotation input"
+  },
+  {
+    "qid": "obqa/train/10-365",
+    "document_id": "obqa-fact-5e5413056abdf572a7a9",
+    "text": "living things all require energy for survival",
+    "bm25_score": 0.0,
+    "query_content_jaccard": 0.0,
+    "word_length_distance": 0,
+    "candidate_count": 665,
+    "selection": "independent corpus control, lower-half retrieval score, low lexical overlap, nearest top-one length, seeded ties; no annotation input"
+  },
+  {
+    "qid": "obqa/train/12-1052",
+    "document_id": "obqa-fact-d84b47ac9c20901d68a6",
+    "text": "water absorbs solar energy in the water cycle",
+    "bm25_score": 0.0,
+    "query_content_jaccard": 0.0,
+    "word_length_distance": 0,
+    "candidate_count": 667,
+    "selection": "independent corpus control, lower-half retrieval score, low lexical overlap, nearest top-one length, seeded ties; no annotation input"
+  },
+  {
+    "qid": "obqa/train/9-965",
+    "document_id": "obqa-fact-ef648eabf1f019140747",
+    "text": "Earth 's tilt on its axis causes seasons to occur",
+    "bm25_score": 0.0,
+    "query_content_jaccard": 0.0,
+    "word_length_distance": 0,
+    "candidate_count": 670,
+    "selection": "independent corpus control, lower-half retrieval score, low lexical overlap, nearest top-one length, seeded ties; no annotation input"
+  },
+  {
+    "qid": "obqa/train/12-797",
+    "document_id": "obqa-fact-8454db1f5d1d84aa8cf4",
+    "text": "an organism requires energy for growth",
+    "bm25_score": 0.0,
+    "query_content_jaccard": 0.0,
+    "word_length_distance": 0,
+    "candidate_count": 679,
+    "selection": "independent corpus control, lower-half retrieval score, low lexical overlap, nearest top-one length, seeded ties; no annotation input"
+  },
+  {
+    "qid": "obqa/train/14-718",
+    "document_id": "obqa-fact-d40b49701e15f7c4fe70",
+    "text": "meadow voles eat plants",
+    "bm25_score": 0.0,
+    "query_content_jaccard": 0.0,
+    "word_length_distance": 0,
+    "candidate_count": 810,
+    "selection": "independent corpus control, lower-half retrieval score, low lexical overlap, nearest top-one length, seeded ties; no annotation input"
+  },
+  {
+    "qid": "obqa/train/13-53",
+    "document_id": "obqa-fact-3291fbee9c5d1aaf7a0b",
+    "text": "freezing means changing from a liquid into a solid by reducing heat energy",
+    "bm25_score": 0.0,
+    "query_content_jaccard": 0.0,
+    "word_length_distance": 0,
+    "candidate_count": 664,
+    "selection": "independent corpus control, lower-half retrieval score, low lexical overlap, nearest top-one length, seeded ties; no annotation input"
+  },
+  {
+    "qid": "obqa/train/12-97",
+    "document_id": "obqa-fact-746b4f9e6ca80153a673",
+    "text": "the arctic environment is white in color from being covered in snow",
+    "bm25_score": 1.9345930974278933,
+    "query_content_jaccard": 0.0,
+    "word_length_distance": 0,
+    "candidate_count": 664,
+    "selection": "independent corpus control, lower-half retrieval score, low lexical overlap, nearest top-one length, seeded ties; no annotation input"
+  },
+  {
+    "qid": "obqa/train/9-1193",
+    "document_id": "obqa-fact-3cc2c949bbfeac24a234",
+    "text": "poisonous darts are used for defense by sea anemones",
+    "bm25_score": 0.0,
+    "query_content_jaccard": 0.0,
+    "word_length_distance": 0,
+    "candidate_count": 664,
+    "selection": "independent corpus control, lower-half retrieval score, low lexical overlap, nearest top-one length, seeded ties; no annotation input"
+  },
+  {
+    "qid": "obqa/train/7-11",
+    "document_id": "obqa-fact-02155dc8f0fee4bd19ba",
+    "text": "polluting means something poisonous is added to an environment causing harm to the environment",
+    "bm25_score": 1.268680663246099,
+    "query_content_jaccard": 0.0,
+    "word_length_distance": 0,
+    "candidate_count": 693,
+    "selection": "independent corpus control, lower-half retrieval score, low lexical overlap, nearest top-one length, seeded ties; no annotation input"
+  },
+  {
+    "qid": "obqa/train/12-910",
+    "document_id": "obqa-fact-064941db240b97fc4761",
+    "text": "as light pollution increases , seeing the stars will be harder",
+    "bm25_score": 3.4318832836354107,
+    "query_content_jaccard": 0.0,
+    "word_length_distance": 0,
+    "candidate_count": 663,
+    "selection": "independent corpus control, lower-half retrieval score, low lexical overlap, nearest top-one length, seeded ties; no annotation input"
+  },
+  {
+    "qid": "obqa/train/12-683",
+    "document_id": "obqa-fact-ec0e4707d5b1f6681d6f",
+    "text": "melting means changing from a solid into a liquid by adding heat energy",
+    "bm25_score": 0.0,
+    "query_content_jaccard": 0.0,
+    "word_length_distance": 0,
+    "candidate_count": 673,
+    "selection": "independent corpus control, lower-half retrieval score, low lexical overlap, nearest top-one length, seeded ties; no annotation input"
+  },
+  {
+    "qid": "obqa/train/13-1036",
+    "document_id": "obqa-fact-297f61448ed80cbd48ca",
+    "text": "a producer produces its own food",
+    "bm25_score": 0.0,
+    "query_content_jaccard": 0.0,
+    "word_length_distance": 0,
+    "candidate_count": 664,
+    "selection": "independent corpus control, lower-half retrieval score, low lexical overlap, nearest top-one length, seeded ties; no annotation input"
+  },
+  {
+    "qid": "obqa/train/10-548",
+    "document_id": "obqa-fact-29bd5308a0c3507e9293",
+    "text": "organisms live in their habitat",
+    "bm25_score": 0.0,
+    "query_content_jaccard": 0.0,
+    "word_length_distance": 0,
+    "candidate_count": 704,
+    "selection": "independent corpus control, lower-half retrieval score, low lexical overlap, nearest top-one length, seeded ties; no annotation input"
+  },
+  {
+    "qid": "obqa/train/14-1040",
+    "document_id": "obqa-fact-fc0d7a910c4c4cae45de",
+    "text": "wood is an electrical energy insulator",
+    "bm25_score": 0.0,
+    "query_content_jaccard": 0.0,
+    "word_length_distance": 0,
+    "candidate_count": 684,
+    "selection": "independent corpus control, lower-half retrieval score, low lexical overlap, nearest top-one length, seeded ties; no annotation input"
+  },
+  {
+    "qid": "obqa/train/13-773",
+    "document_id": "obqa-fact-9393fa5058d3f9673326",
+    "text": "plucking a string can cause that string to vibrate",
+    "bm25_score": 1.8099161781893311,
+    "query_content_jaccard": 0.0,
+    "word_length_distance": 0,
+    "candidate_count": 678,
+    "selection": "independent corpus control, lower-half retrieval score, low lexical overlap, nearest top-one length, seeded ties; no annotation input"
+  },
+  {
+    "qid": "obqa/train/13-160",
+    "document_id": "obqa-fact-5a02a08123a79a4becfb",
+    "text": "seasonal changes are made in response to changes in the environment",
+    "bm25_score": 1.4815987396880914,
+    "query_content_jaccard": 0.0,
+    "word_length_distance": 0,
+    "candidate_count": 664,
+    "selection": "independent corpus control, lower-half retrieval score, low lexical overlap, nearest top-one length, seeded ties; no annotation input"
+  },
+  {
+    "qid": "obqa/train/11-748",
+    "document_id": "obqa-fact-8ed3660422fe11ff9176",
+    "text": "stalactites are formed by deposition",
+    "bm25_score": 0.0,
+    "query_content_jaccard": 0.0,
+    "word_length_distance": 0,
+    "candidate_count": 677,
+    "selection": "independent corpus control, lower-half retrieval score, low lexical overlap, nearest top-one length, seeded ties; no annotation input"
+  },
+  {
+    "qid": "obqa/train/1792",
+    "document_id": "obqa-fact-c2f71c63554643c6bb2a",
+    "text": "if some nutrients are in the soil then those nutrients are in the food chain",
+    "bm25_score": 0.0,
+    "query_content_jaccard": 0.0,
+    "word_length_distance": 0,
+    "candidate_count": 664,
+    "selection": "independent corpus control, lower-half retrieval score, low lexical overlap, nearest top-one length, seeded ties; no annotation input"
+  },
+  {
+    "qid": "obqa/train/12-93",
+    "document_id": "obqa-fact-8366c633b332878404cd",
+    "text": "An example of reproduction is laying eggs",
+    "bm25_score": 1.3098292591737875,
+    "query_content_jaccard": 0.0,
+    "word_length_distance": 0,
+    "candidate_count": 663,
+    "selection": "independent corpus control, lower-half retrieval score, low lexical overlap, nearest top-one length, seeded ties; no annotation input"
+  },
+  {
+    "qid": "obqa/train/1210",
+    "document_id": "obqa-fact-87af6c410dbf392510d6",
+    "text": "camouflage can be used for hunting for prey",
+    "bm25_score": 0.0,
+    "query_content_jaccard": 0.0,
+    "word_length_distance": 0,
+    "candidate_count": 681,
+    "selection": "independent corpus control, lower-half retrieval score, low lexical overlap, nearest top-one length, seeded ties; no annotation input"
+  },
+  {
+    "qid": "obqa/train/634",
+    "document_id": "obqa-fact-eee3e63006c717a29781",
+    "text": "earthquakes cause rock layers to fold on top of each other",
+    "bm25_score": 0.0,
+    "query_content_jaccard": 0.0,
+    "word_length_distance": 0,
+    "candidate_count": 664,
+    "selection": "independent corpus control, lower-half retrieval score, low lexical overlap, nearest top-one length, seeded ties; no annotation input"
+  },
+  {
+    "qid": "obqa/train/12-804",
+    "document_id": "obqa-fact-bd6ebc485f6ec7023648",
+    "text": "adding heat to an object sometimes causes chemical reactions",
+    "bm25_score": 0.0,
+    "query_content_jaccard": 0.0,
+    "word_length_distance": 0,
+    "candidate_count": 678,
+    "selection": "independent corpus control, lower-half retrieval score, low lexical overlap, nearest top-one length, seeded ties; no annotation input"
+  },
+  {
+    "qid": "obqa/train/10-782",
+    "document_id": "obqa-fact-935724cf97768e854612",
+    "text": "lighting a candle causes that candle to burn",
+    "bm25_score": 0.0,
+    "query_content_jaccard": 0.0,
+    "word_length_distance": 0,
+    "candidate_count": 823,
+    "selection": "independent corpus control, lower-half retrieval score, low lexical overlap, nearest top-one length, seeded ties; no annotation input"
+  },
+  {
+    "qid": "obqa/train/13-680",
+    "document_id": "obqa-fact-6617a4fc0a1b684a2379",
+    "text": "matter in the liquid state drips",
+    "bm25_score": 0.0,
+    "query_content_jaccard": 0.0,
+    "word_length_distance": 0,
+    "candidate_count": 666,
+    "selection": "independent corpus control, lower-half retrieval score, low lexical overlap, nearest top-one length, seeded ties; no annotation input"
+  },
+  {
+    "qid": "obqa/train/9-400",
+    "document_id": "obqa-fact-9f9eec3a44948dd2c0ff",
+    "text": "an equinox occurs twice per year",
+    "bm25_score": 1.8485406825938309,
+    "query_content_jaccard": 0.0,
+    "word_length_distance": 0,
+    "candidate_count": 664,
+    "selection": "independent corpus control, lower-half retrieval score, low lexical overlap, nearest top-one length, seeded ties; no annotation input"
+  },
+  {
+    "qid": "obqa/train/12-959",
+    "document_id": "obqa-fact-eefeaa9d995c69a95654",
+    "text": "phase changes do not change mass",
+    "bm25_score": 0.0,
+    "query_content_jaccard": 0.0,
+    "word_length_distance": 0,
+    "candidate_count": 665,
+    "selection": "independent corpus control, lower-half retrieval score, low lexical overlap, nearest top-one length, seeded ties; no annotation input"
+  },
+  {
+    "qid": "obqa/train/14-920",
+    "document_id": "obqa-fact-32c59ea5893ad21f7dc5",
+    "text": "Louis Pasteur invented pasteurization",
+    "bm25_score": 0.0,
+    "query_content_jaccard": 0.0,
+    "word_length_distance": 0,
+    "candidate_count": 665,
+    "selection": "independent corpus control, lower-half retrieval score, low lexical overlap, nearest top-one length, seeded ties; no annotation input"
+  },
+  {
+    "qid": "obqa/train/10-652",
+    "document_id": "obqa-fact-66fe4ee06d47f6968903",
+    "text": "raccoons eat garbage",
+    "bm25_score": 0.0,
+    "query_content_jaccard": 0.0,
+    "word_length_distance": 0,
+    "candidate_count": 727,
+    "selection": "independent corpus control, lower-half retrieval score, low lexical overlap, nearest top-one length, seeded ties; no annotation input"
+  },
+  {
+    "qid": "obqa/train/13-478",
+    "document_id": "obqa-fact-7024da10ef38d2434130",
+    "text": "as available resources increases , the population of an organism that uses those resources will increase",
+    "bm25_score": 0.857804781547559,
+    "query_content_jaccard": 0.0,
+    "word_length_distance": 0,
+    "candidate_count": 669,
+    "selection": "independent corpus control, lower-half retrieval score, low lexical overlap, nearest top-one length, seeded ties; no annotation input"
+  },
+  {
+    "qid": "obqa/train/14-449",
+    "document_id": "obqa-fact-6237326a8616437d0f6c",
+    "text": "meters m are a unit used for measuring distance generally used for values between 1 and 1000",
+    "bm25_score": 0.6509638902751584,
+    "query_content_jaccard": 0.0,
+    "word_length_distance": 0,
+    "candidate_count": 663,
+    "selection": "independent corpus control, lower-half retrieval score, low lexical overlap, nearest top-one length, seeded ties; no annotation input"
+  },
+  {
+    "qid": "obqa/train/12-1174",
+    "document_id": "obqa-fact-19a459cb250e25b4cbe8",
+    "text": "minerals are formed from magma cooling",
+    "bm25_score": 0.0,
+    "query_content_jaccard": 0.0,
+    "word_length_distance": 0,
+    "candidate_count": 665,
+    "selection": "independent corpus control, lower-half retrieval score, low lexical overlap, nearest top-one length, seeded ties; no annotation input"
+  },
+  {
+    "qid": "obqa/train/12-401",
+    "document_id": "obqa-fact-e0aced878f55c61140c6",
+    "text": "fossil fuels are formed by dead organisms over time",
+    "bm25_score": 0.0,
+    "query_content_jaccard": 0.0,
+    "word_length_distance": 0,
+    "candidate_count": 684,
+    "selection": "independent corpus control, lower-half retrieval score, low lexical overlap, nearest top-one length, seeded ties; no annotation input"
+  },
+  {
+    "qid": "obqa/train/13-520",
+    "document_id": "obqa-fact-ed94a991f0778627844c",
+    "text": "an exothermic reaction increases the amount of heat",
+    "bm25_score": 0.0,
+    "query_content_jaccard": 0.0,
+    "word_length_distance": 0,
+    "candidate_count": 1298,
+    "selection": "independent corpus control, lower-half retrieval score, low lexical overlap, nearest top-one length, seeded ties; no annotation input"
+  },
+  {
+    "qid": "obqa/train/13-1045",
+    "document_id": "obqa-fact-3057322ef4a570dad80b",
+    "text": "photosynthesis makes energy for the plant by converting carbon dioxide, water, and sunlight into carbohydrates",
+    "bm25_score": 0.857804781547559,
+    "query_content_jaccard": 0.0,
+    "word_length_distance": 0,
+    "candidate_count": 664,
+    "selection": "independent corpus control, lower-half retrieval score, low lexical overlap, nearest top-one length, seeded ties; no annotation input"
+  },
+  {
+    "qid": "obqa/train/10-509",
+    "document_id": "obqa-fact-0fd0e8e5d1719b4ad062",
+    "text": "cutting down trees has a negative impact on an organisms living in an ecosystem",
+    "bm25_score": 0.7275380639389969,
+    "query_content_jaccard": 0.0,
+    "word_length_distance": 0,
+    "candidate_count": 666,
+    "selection": "independent corpus control, lower-half retrieval score, low lexical overlap, nearest top-one length, seeded ties; no annotation input"
+  },
+  {
+    "qid": "obqa/train/11-449",
+    "document_id": "obqa-fact-080cc198ce86d2aa0df9",
+    "text": "An example of using tools is a chimpanzee digging for insects with a stick",
+    "bm25_score": 0.0,
+    "query_content_jaccard": 0.0,
+    "word_length_distance": 0,
+    "candidate_count": 780,
+    "selection": "independent corpus control, lower-half retrieval score, low lexical overlap, nearest top-one length, seeded ties; no annotation input"
+  },
+  {
+    "qid": "obqa/train/13-1011",
+    "document_id": "obqa-fact-bb0b85201ef11878a9dc",
+    "text": "iron nails are made of iron",
+    "bm25_score": 1.3846626709189669,
+    "query_content_jaccard": 0.0,
+    "word_length_distance": 0,
+    "candidate_count": 667,
+    "selection": "independent corpus control, lower-half retrieval score, low lexical overlap, nearest top-one length, seeded ties; no annotation input"
+  },
+  {
+    "qid": "obqa/train/12-758",
+    "document_id": "obqa-fact-79cdee063de171279102",
+    "text": "sound can travel through air",
+    "bm25_score": 0.0,
+    "query_content_jaccard": 0.0,
+    "word_length_distance": 0,
+    "candidate_count": 663,
+    "selection": "independent corpus control, lower-half retrieval score, low lexical overlap, nearest top-one length, seeded ties; no annotation input"
+  },
+  {
+    "qid": "obqa/train/14-559",
+    "document_id": "obqa-fact-459b31b7a008b7a98eb4",
+    "text": "swimming is when humans can move in water",
+    "bm25_score": 0.0,
+    "query_content_jaccard": 0.0,
+    "word_length_distance": 0,
+    "candidate_count": 761,
+    "selection": "independent corpus control, lower-half retrieval score, low lexical overlap, nearest top-one length, seeded ties; no annotation input"
+  },
+  {
+    "qid": "obqa/train/12-962",
+    "document_id": "obqa-fact-48b72a998627068f8d1f",
+    "text": "kilometers km are a unit used for measuring distance generally used for values between 1 and 50000000",
+    "bm25_score": 0.6509638902751584,
+    "query_content_jaccard": 0.0,
+    "word_length_distance": 0,
+    "candidate_count": 663,
+    "selection": "independent corpus control, lower-half retrieval score, low lexical overlap, nearest top-one length, seeded ties; no annotation input"
+  },
+  {
+    "qid": "obqa/train/10-639",
+    "document_id": "obqa-fact-7f7e902d4c4081ca7de4",
+    "text": "seconds are used to measure time",
+    "bm25_score": 0.0,
+    "query_content_jaccard": 0.0,
+    "word_length_distance": 0,
+    "candidate_count": 666,
+    "selection": "independent corpus control, lower-half retrieval score, low lexical overlap, nearest top-one length, seeded ties; no annotation input"
+  },
+  {
+    "qid": "obqa/train/9-295",
+    "document_id": "obqa-fact-8cdb5a27bf99b9a23e92",
+    "text": "an electrical device requires electricity to turn on",
+    "bm25_score": 0.0,
+    "query_content_jaccard": 0.0,
+    "word_length_distance": 0,
+    "candidate_count": 671,
+    "selection": "independent corpus control, lower-half retrieval score, low lexical overlap, nearest top-one length, seeded ties; no annotation input"
+  },
+  {
+    "qid": "obqa/train/10-650",
+    "document_id": "obqa-fact-948ff79cde08484b2294",
+    "text": "the Grand Canyon was formed by the Colorado River flowing over long periods of time",
+    "bm25_score": 0.9144578625699119,
+    "query_content_jaccard": 0.0,
+    "word_length_distance": 0,
+    "candidate_count": 664,
+    "selection": "independent corpus control, lower-half retrieval score, low lexical overlap, nearest top-one length, seeded ties; no annotation input"
+  },
+  {
+    "qid": "obqa/train/10-894",
+    "document_id": "obqa-fact-6fec8aef9e6957c5f89e",
+    "text": "a skinny beak is used for obtaining food by a bird from small spaces",
+    "bm25_score": 0.0,
+    "query_content_jaccard": 0.0,
+    "word_length_distance": 0,
+    "candidate_count": 665,
+    "selection": "independent corpus control, lower-half retrieval score, low lexical overlap, nearest top-one length, seeded ties; no annotation input"
+  },
+  {
+    "qid": "obqa/train/1489",
+    "document_id": "obqa-fact-3e98c9362243bb369fde",
+    "text": "flood plains are located near rivers",
+    "bm25_score": 0.0,
+    "query_content_jaccard": 0.0,
+    "word_length_distance": 0,
+    "candidate_count": 1036,
+    "selection": "independent corpus control, lower-half retrieval score, low lexical overlap, nearest top-one length, seeded ties; no annotation input"
+  },
+  {
+    "qid": "obqa/train/14-565",
+    "document_id": "obqa-fact-5d5b868a0c475875b2fb",
+    "text": "binoculars are used for observing distant objects",
+    "bm25_score": 0.0,
+    "query_content_jaccard": 0.0,
+    "word_length_distance": 0,
+    "candidate_count": 675,
+    "selection": "independent corpus control, lower-half retrieval score, low lexical overlap, nearest top-one length, seeded ties; no annotation input"
+  },
+  {
+    "qid": "obqa/train/9-314",
+    "document_id": "obqa-fact-e5ab7aff398f250076d2",
+    "text": "nearly all fossils are found in sedimentary rock",
+    "bm25_score": 0.0,
+    "query_content_jaccard": 0.0,
+    "word_length_distance": 0,
+    "candidate_count": 663,
+    "selection": "independent corpus control, lower-half retrieval score, low lexical overlap, nearest top-one length, seeded ties; no annotation input"
+  },
+  {
+    "qid": "obqa/train/11-347",
+    "document_id": "obqa-fact-3fd53f1bcec63bc6ee66",
+    "text": "habitat destruction causes animals to move to find shelter in another habitat",
+    "bm25_score": 0.0,
+    "query_content_jaccard": 0.0,
+    "word_length_distance": 0,
+    "candidate_count": 665,
+    "selection": "independent corpus control, lower-half retrieval score, low lexical overlap, nearest top-one length, seeded ties; no annotation input"
+  },
+  {
+    "qid": "obqa/train/9-739",
+    "document_id": "obqa-fact-851644f75a44e22502de",
+    "text": "a plant cell contains chloroplasts",
+    "bm25_score": 0.0,
+    "query_content_jaccard": 0.0,
+    "word_length_distance": 0,
+    "candidate_count": 945,
+    "selection": "independent corpus control, lower-half retrieval score, low lexical overlap, nearest top-one length, seeded ties; no annotation input"
+  },
+  {
+    "qid": "obqa/train/14-61",
+    "document_id": "obqa-fact-a98dab853db8e5906958",
+    "text": "if something absorbs something else then that something will contain that something else",
+    "bm25_score": 0.0,
+    "query_content_jaccard": 0.0,
+    "word_length_distance": 0,
+    "candidate_count": 668,
+    "selection": "independent corpus control, lower-half retrieval score, low lexical overlap, nearest top-one length, seeded ties; no annotation input"
+  },
+  {
+    "qid": "obqa/train/14-538",
+    "document_id": "obqa-fact-7ac105f23909aafe7be2",
+    "text": "fossil fuels forming occurs over a period of 300000000 years which is considered a very long time to a human",
+    "bm25_score": 0.0,
+    "query_content_jaccard": 0.0,
+    "word_length_distance": 0,
+    "candidate_count": 678,
+    "selection": "independent corpus control, lower-half retrieval score, low lexical overlap, nearest top-one length, seeded ties; no annotation input"
+  },
+  {
+    "qid": "obqa/train/13-722",
+    "document_id": "obqa-fact-1e9843157d6f9adddcd8",
+    "text": "rock is made of minerals",
+    "bm25_score": 0.0,
+    "query_content_jaccard": 0.0,
+    "word_length_distance": 0,
+    "candidate_count": 1215,
+    "selection": "independent corpus control, lower-half retrieval score, low lexical overlap, nearest top-one length, seeded ties; no annotation input"
+  },
+  {
+    "qid": "obqa/train/14-1444",
+    "document_id": "obqa-fact-d697a7149f5b96b6b06b",
+    "text": "harming an animal species causes that animal 's population to decrease",
+    "bm25_score": 0.0,
+    "query_content_jaccard": 0.0,
+    "word_length_distance": 0,
+    "candidate_count": 745,
+    "selection": "independent corpus control, lower-half retrieval score, low lexical overlap, nearest top-one length, seeded ties; no annotation input"
+  },
+  {
+    "qid": "obqa/train/11-528",
+    "document_id": "obqa-fact-9192668fcc7a1b83adae",
+    "text": "the Earth being tilted on its axis causes seasons",
+    "bm25_score": 1.1088295789529334,
+    "query_content_jaccard": 0.0,
+    "word_length_distance": 0,
+    "candidate_count": 664,
+    "selection": "independent corpus control, lower-half retrieval score, low lexical overlap, nearest top-one length, seeded ties; no annotation input"
+  },
+  {
+    "qid": "obqa/train/14-881",
+    "document_id": "obqa-fact-801e9fd269eb28b697f4",
+    "text": "crop rotation has a positive impact on soil quality",
+    "bm25_score": 0.0,
+    "query_content_jaccard": 0.0,
+    "word_length_distance": 0,
+    "candidate_count": 667,
+    "selection": "independent corpus control, lower-half retrieval score, low lexical overlap, nearest top-one length, seeded ties; no annotation input"
+  },
+  {
+    "qid": "obqa/train/12-296",
+    "document_id": "obqa-fact-0fbb70439f391c2e5fa3",
+    "text": "bad weather decreases visibility while driving",
+    "bm25_score": 0.0,
+    "query_content_jaccard": 0.0,
+    "word_length_distance": 0,
+    "candidate_count": 948,
+    "selection": "independent corpus control, lower-half retrieval score, low lexical overlap, nearest top-one length, seeded ties; no annotation input"
+  },
+  {
+    "qid": "obqa/train/14-57",
+    "document_id": "obqa-fact-3b5240efb29fd0512810",
+    "text": "Earth 's surface is made of rock",
+    "bm25_score": 0.0,
+    "query_content_jaccard": 0.0,
+    "word_length_distance": 0,
+    "candidate_count": 768,
+    "selection": "independent corpus control, lower-half retrieval score, low lexical overlap, nearest top-one length, seeded ties; no annotation input"
+  },
+  {
+    "qid": "obqa/train/12-153",
+    "document_id": "obqa-fact-a04237f4fb2e5b6f658f",
+    "text": "soil contains nutrients for plants",
+    "bm25_score": 0.0,
+    "query_content_jaccard": 0.0,
+    "word_length_distance": 0,
+    "candidate_count": 663,
+    "selection": "independent corpus control, lower-half retrieval score, low lexical overlap, nearest top-one length, seeded ties; no annotation input"
+  },
+  {
+    "qid": "obqa/train/10-321",
+    "document_id": "obqa-fact-dc6bb34393fa4e0b2d2f",
+    "text": "the respiratory system takes in oxygen from the air",
+    "bm25_score": 1.5750049305752103,
+    "query_content_jaccard": 0.0,
+    "word_length_distance": 0,
+    "candidate_count": 664,
+    "selection": "independent corpus control, lower-half retrieval score, low lexical overlap, nearest top-one length, seeded ties; no annotation input"
+  },
+  {
+    "qid": "obqa/train/10-40",
+    "document_id": "obqa-fact-7e6d07eceb088fd230a3",
+    "text": "wind is an inexhaustible resource",
+    "bm25_score": 0.0,
+    "query_content_jaccard": 0.0,
+    "word_length_distance": 0,
+    "candidate_count": 1294,
+    "selection": "independent corpus control, lower-half retrieval score, low lexical overlap, nearest top-one length, seeded ties; no annotation input"
+  },
+  {
+    "qid": "obqa/train/13-439",
+    "document_id": "obqa-fact-90f0eafb5ac950375960",
+    "text": "classifying is when one sorts something by type",
+    "bm25_score": 0.0,
+    "query_content_jaccard": 0.0,
+    "word_length_distance": 0,
+    "candidate_count": 673,
+    "selection": "independent corpus control, lower-half retrieval score, low lexical overlap, nearest top-one length, seeded ties; no annotation input"
+  },
+  {
+    "qid": "obqa/train/8-8",
+    "document_id": "obqa-fact-c8474dc080c117732655",
+    "text": "sunlight and rain can cause a rainbow",
+    "bm25_score": 2.0055482341857758,
+    "query_content_jaccard": 0.0,
+    "word_length_distance": 0,
+    "candidate_count": 663,
+    "selection": "independent corpus control, lower-half retrieval score, low lexical overlap, nearest top-one length, seeded ties; no annotation input"
+  },
+  {
+    "qid": "obqa/train/13-287",
+    "document_id": "obqa-fact-0d7c7d2067781d02223e",
+    "text": "a human requires rest to be healthy",
+    "bm25_score": 0.0,
+    "query_content_jaccard": 0.0,
+    "word_length_distance": 0,
+    "candidate_count": 1192,
+    "selection": "independent corpus control, lower-half retrieval score, low lexical overlap, nearest top-one length, seeded ties; no annotation input"
+  }
+]

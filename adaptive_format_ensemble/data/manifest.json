@@ -1,0 +1,26 @@
+{
+  "dataset": "allenai/openbookqa",
+  "configuration": "main",
+  "revision": "388097ea7776314e93a529163e0fea805b8a6454",
+  "source_sha256": {
+    "test": "cd5483e366daa230c1c87bbdc512d8b7229f14f6dd04d19fc8b1a3855aaaa8a3",
+    "validation": "35370b9cfee8c1ff325ccc74adc434d12c47ca0ac3244aa87f3fa77069285206",
+    "train": "98148f8a54e62eb862346a75192d5fb824d6cbb68f2f59aecd793d39ecb5cd8b"
+  },
+  "split_seed": 20261028,
+  "counts": {
+    "development": 64,
+    "search": 512,
+    "validation": 489,
+    "test": 486
+  },
+  "hashes": {
+    "development": "8fb307bc325af924b6b7531e4fcaeb132455360be3fc50378e74742f77374f66",
+    "search": "ca804c557d9d881a3010b18dbb32d61a6b8e430efc71aa80c03990768bcfd643",
+    "validation": "c4e5bf5039214971e03ae48ba2a5cb381e433aa7469f7e5af893a0c32e9b1256",
+    "test": "72dbf7dfe7d1dcf6c74585f3297f49f7a8f4bab91218d29b23547349ae6ffc76"
+  },
+  "previous_screened_questions": 1437,
+  "deduplication": "Normalized stem and unordered option content; test priority; all previous project splits excluded.",
+  "limits": "No semantic/fuzzy duplicate guarantee; previous unseen discarded ARC rows not screened; pretraining overlap unknown."
+}

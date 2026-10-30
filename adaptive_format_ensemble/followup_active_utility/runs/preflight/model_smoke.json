@@ -1,0 +1,212 @@
+{
+  "passed": true,
+  "evidence": "Two already queried development questions, singleton cache creation and multi-call live verification; no new final questions",
+  "physical_live_responses": [
+    {
+      "qid": "obqa/train/7-245",
+      "format_index": 3,
+      "raw": "C",
+      "raw_with_special_tokens": "C<|im_end|>",
+      "output_token_ids": [
+        34,
+        151645
+      ],
+      "input_tokens": 104,
+      "output_tokens": 2,
+      "seconds": 0.14328055083751678,
+      "padded_input_tokens": 104,
+      "finish_reason": "eos",
+      "letter": "C",
+      "identity": 3,
+      "valid": true
+    },
+    {
+      "qid": "obqa/train/7-245",
+      "format_index": 4,
+      "raw": "B",
+      "raw_with_special_tokens": "B<|im_end|>",
+      "output_token_ids": [
+        33,
+        151645
+      ],
+      "input_tokens": 104,
+      "output_tokens": 2,
+      "seconds": 0.14521361142396927,
+      "padded_input_tokens": 104,
+      "finish_reason": "eos",
+      "letter": "B",
+      "identity": 3,
+      "valid": true
+    },
+    {
+      "qid": "obqa/train/8-266",
+      "format_index": 3,
+      "raw": "D",
+      "raw_with_special_tokens": "D<|im_end|>",
+      "output_token_ids": [
+        35,
+        151645
+      ],
+      "input_tokens": 109,
+      "output_tokens": 2,
+      "seconds": 0.14635593444108963,
+      "padded_input_tokens": 109,
+      "finish_reason": "eos",
+      "letter": "D",
+      "identity": 0,
+      "valid": true
+    },
+    {
+      "qid": "obqa/train/8-266",
+      "format_index": 4,
+      "raw": "C",
+      "raw_with_special_tokens": "C<|im_end|>",
+      "output_token_ids": [
+        34,
+        151645
+      ],
+      "input_tokens": 109,
+      "output_tokens": 2,
+      "seconds": 0.1438826248049736,
+      "padded_input_tokens": 109,
+      "finish_reason": "eos",
+      "letter": "C",
+      "identity": 0,
+      "valid": true
+    }
+  ],
+  "live_cache_discrepancies": [],
+  "historical_cache_differences": [],
+  "cache_costs": {
+    "cache_generation": {
+      "development": {
+        "completed_unique_calls": 10,
+        "executed_here_calls": 10,
+        "input_tokens": 1079,
+        "output_tokens": 20,
+        "inference_seconds": 1.780603103339672,
+        "invalid_outputs": 0,
+        "reused_previous_calls": 0
+      }
+    },
+    "attempts": [
+      {
+        "id": 1,
+        "kind": "generation",
+        "scope": "development",
+        "n": 1,
+        "started": 1793278109.7045388,
+        "ended": 1793278110.21172,
+        "status": "complete",
+        "detail": "null"
+      },
+      {
+        "id": 2,
+        "kind": "generation",
+        "scope": "development",
+        "n": 1,
+        "started": 1793278110.2202914,
+        "ended": 1793278110.3980305,
+        "status": "complete",
+        "detail": "null"
+      },
+      {
+        "id": 3,
+        "kind": "generation",
+        "scope": "development",
+        "n": 1,
+        "started": 1793278110.4066641,
+        "ended": 1793278110.582116,
+        "status": "complete",
+        "detail": "null"
+      },
+      {
+        "id": 4,
+        "kind": "generation",
+        "scope": "development",
+        "n": 1,
+        "started": 1793278110.5907276,
+        "ended": 1793278110.766482,
+        "status": "complete",
+        "detail": "null"
+      },
+      {
+        "id": 5,
+        "kind": "generation",
+        "scope": "development",
+        "n": 1,
+        "started": 1793278110.7749808,
+        "ended": 1793278110.9509864,
+        "status": "complete",
+        "detail": "null"
+      },
+      {
+        "id": 6,
+        "kind": "generation",
+        "scope": "development",
+        "n": 1,
+        "started": 1793278110.9596202,
+        "ended": 1793278111.1374955,
+        "status": "complete",
+        "detail": "null"
+      },
+      {
+        "id": 7,
+        "kind": "generation",
+        "scope": "development",
+        "n": 1,
+        "started": 1793278111.1461766,
+        "ended": 1793278111.3209622,
+        "status": "complete",
+        "detail": "null"
+      },
+      {
+        "id": 8,
+        "kind": "generation",
+        "scope": "development",
+        "n": 1,
+        "started": 1793278111.329716,
+        "ended": 1793278111.5036552,
+        "status": "complete",
+        "detail": "null"
+      },
+      {
+        "id": 9,
+        "kind": "generation",
+        "scope": "development",
+        "n": 1,
+        "started": 1793278111.5123553,
+        "ended": 1793278111.686659,
+        "status": "complete",
+        "detail": "null"
+      },
+      {
+        "id": 10,
+        "kind": "generation",
+        "scope": "development",
+        "n": 1,
+        "started": 1793278111.6953151,
+        "ended": 1793278111.8620667,
+        "status": "complete",
+        "detail": "null"
+      }
+    ],
+    "attempt_caveat": "Interrupted uncommitted batches may have executed; nominal completed calls differ from physical attempts."
+  },
+  "inference_seconds": 2.3593358248472214,
+  "hardware": {
+    "gpu": "NVIDIA GeForce RTX 4090",
+    "visible_devices": "GPU-d33b074a-05c8-31c7-8080-8c9dea9275ed",
+    "free_gib_before_load": 20.0987548828125,
+    "total_gib": 23.64288330078125,
+    "torch": "2.6.0+cu124",
+    "cuda": "12.4",
+    "load_seconds": 5.821934767067432,
+    "dtype": "bfloat16",
+    "deterministic_algorithms": true,
+    "cpu_threads": 4,
+    "tf32": false,
+    "attention": "sdpa",
+    "memory_fraction": 0.4
+  }
+}

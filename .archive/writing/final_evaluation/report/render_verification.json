@@ -1,0 +1,17 @@
+{
+  "report_pages": 13,
+  "rendered_pages": [
+    1,
+    7,
+    13
+  ],
+  "summary_pages": 1,
+  "text_content_checked": true,
+  "image_files": [
+    "/home/hli/dsai/final_evaluation/report/render_checks/summary.png",
+    "/home/hli/dsai/final_evaluation/report/render_checks/page_1.png",
+    "/home/hli/dsai/final_evaluation/report/render_checks/page_7.png",
+    "/home/hli/dsai/final_evaluation/report/render_checks/page_13.png"
+  ],
+  "scope": "Prelaunch scaffold visually inspected; final documents rendered and checked for required content/blank pages. Final author editorial read-through remains a submission task."
+}

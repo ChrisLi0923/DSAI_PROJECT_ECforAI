@@ -1,0 +1,478 @@
+[
+  {
+    "role": "primary_methodological",
+    "method": "G2",
+    "baseline": "G1",
+    "unit": "whole source question; fitted seeds averaged inside question",
+    "accuracy": {
+      "difference": 0.0,
+      "lower": 0.0,
+      "upper": 0.0,
+      "question_count": 1000,
+      "unit": "percentage points",
+      "scope": "conditional on these fitted policies; no future-search uncertainty",
+      "difference_fraction": 0.0
+    },
+    "calls": {
+      "difference": 0.005199999999999962,
+      "lower": -0.0040000000000000435,
+      "upper": 0.013804999999999937,
+      "question_count": 1000,
+      "unit": "calls",
+      "scope": "conditional on these fitted policies; no future-search uncertainty",
+      "relative_reduction_percent": -0.2359346642468222
+    },
+    "utility": {
+      "difference": -5.200000000001663e-05,
+      "lower": -0.0001380500000000169,
+      "upper": 3.999999999998445e-05,
+      "question_count": 1000,
+      "unit": "utility",
+      "scope": "conditional on these fitted policies; no future-search uncertainty"
+    },
+    "input_tokens": {
+      "difference": 0.5294000000000002,
+      "lower": -0.3939599999999997,
+      "upper": 1.3965049999999999,
+      "question_count": 1000,
+      "unit": "input_tokens",
+      "scope": "conditional on these fitted policies; no future-search uncertainty",
+      "relative_reduction_percent": -0.24320549807971492
+    },
+    "output_tokens": {
+      "difference": 0.010199999999999924,
+      "lower": -0.008200000000000068,
+      "upper": 0.027599999999999923,
+      "question_count": 1000,
+      "unit": "output_tokens",
+      "scope": "conditional on these fitted policies; no future-search uncertainty",
+      "relative_reduction_percent": -0.23134497618507427
+    },
+    "tokens": {
+      "difference": 0.5395999999999999,
+      "lower": -0.40039999999999976,
+      "upper": 1.4252849999999992,
+      "question_count": 1000,
+      "unit": "tokens",
+      "scope": "conditional on these fitted policies; no future-search uncertainty",
+      "relative_reduction_percent": -0.24297003399599248
+    },
+    "invalid": {
+      "difference": 0.0,
+      "lower": 0.0,
+      "upper": 0.0,
+      "question_count": 1000,
+      "unit": "percentage points",
+      "scope": "conditional on these fitted policies; no future-search uncertainty",
+      "difference_fraction": 0.0
+    }
+  },
+  {
+    "role": "primary_practical",
+    "method": "ordered_triple",
+    "baseline": "fixed_three",
+    "unit": "whole source question; fitted seeds averaged inside question",
+    "accuracy": {
+      "difference": 0.0,
+      "lower": 0.0,
+      "upper": 0.0,
+      "question_count": 1000,
+      "unit": "percentage points",
+      "scope": "conditional on these fitted policies; no future-search uncertainty",
+      "difference_fraction": 0.0
+    },
+    "calls": {
+      "difference": -0.796,
+      "lower": -0.821,
+      "upper": -0.77,
+      "question_count": 1000,
+      "unit": "calls",
+      "scope": "conditional on these fitted policies; no future-search uncertainty",
+      "relative_reduction_percent": 26.533333333333335
+    },
+    "utility": {
+      "difference": 0.007960000000000007,
+      "lower": 0.007700000000000006,
+      "upper": 0.008210000000000007,
+      "question_count": 1000,
+      "unit": "utility",
+      "scope": "conditional on these fitted policies; no future-search uncertainty"
+    },
+    "input_tokens": {
+      "difference": -78.588,
+      "lower": -81.12565,
+      "upper": -75.97865,
+      "question_count": 1000,
+      "unit": "input_tokens",
+      "scope": "conditional on these fitted policies; no future-search uncertainty",
+      "relative_reduction_percent": 26.526341371209462
+    },
+    "output_tokens": {
+      "difference": -1.592,
+      "lower": -1.642,
+      "upper": -1.54,
+      "question_count": 1000,
+      "unit": "output_tokens",
+      "scope": "conditional on these fitted policies; no future-search uncertainty",
+      "relative_reduction_percent": 26.528911848025327
+    },
+    "tokens": {
+      "difference": -80.18,
+      "lower": -82.76382500000001,
+      "upper": -77.52470000000001,
+      "question_count": 1000,
+      "unit": "tokens",
+      "scope": "conditional on these fitted policies; no future-search uncertainty",
+      "relative_reduction_percent": 26.526392404016345
+    },
+    "invalid": {
+      "difference": 0.0,
+      "lower": 0.0,
+      "upper": 0.0,
+      "question_count": 1000,
+      "unit": "percentage points",
+      "scope": "conditional on these fitted policies; no future-search uncertainty",
+      "difference_fraction": 0.0
+    }
+  },
+  {
+    "role": "secondary",
+    "method": "G1",
+    "baseline": "G0",
+    "unit": "whole source question; fitted seeds averaged inside question",
+    "accuracy": {
+      "difference": 0.0,
+      "lower": 0.0,
+      "upper": 0.0,
+      "question_count": 1000,
+      "unit": "percentage points",
+      "scope": "conditional on these fitted policies; no future-search uncertainty",
+      "difference_fraction": 0.0
+    },
+    "calls": {
+      "difference": -0.15920000000000015,
+      "lower": -0.17320000000000013,
+      "upper": -0.14440000000000014,
+      "question_count": 1000,
+      "unit": "calls",
+      "scope": "conditional on these fitted policies; no future-search uncertainty",
+      "relative_reduction_percent": 6.73662830060935
+    },
+    "utility": {
+      "difference": 0.0015920000000000844,
+      "lower": 0.0014440000000000826,
+      "upper": 0.0017320000000000861,
+      "question_count": 1000,
+      "unit": "utility",
+      "scope": "conditional on these fitted policies; no future-search uncertainty"
+    },
+    "input_tokens": {
+      "difference": -15.727799999999998,
+      "lower": -17.132254999999997,
+      "upper": -14.23552,
+      "question_count": 1000,
+      "unit": "input_tokens",
+      "scope": "conditional on these fitted policies; no future-search uncertainty",
+      "relative_reduction_percent": 6.738450702173658
+    },
+    "output_tokens": {
+      "difference": -0.3180000000000003,
+      "lower": -0.34560000000000024,
+      "upper": -0.28840000000000027,
+      "question_count": 1000,
+      "unit": "output_tokens",
+      "scope": "conditional on these fitted policies; no future-search uncertainty",
+      "relative_reduction_percent": 6.727311191030257
+    },
+    "tokens": {
+      "difference": -16.0458,
+      "lower": -17.476674999999997,
+      "upper": -14.527489999999998,
+      "question_count": 1000,
+      "unit": "tokens",
+      "scope": "conditional on these fitted policies; no future-search uncertainty",
+      "relative_reduction_percent": 6.738229578030226
+    },
+    "invalid": {
+      "difference": 0.0,
+      "lower": 0.0,
+      "upper": 0.0,
+      "question_count": 1000,
+      "unit": "percentage points",
+      "scope": "conditional on these fitted policies; no future-search uncertainty",
+      "difference_fraction": 0.0
+    }
+  },
+  {
+    "role": "secondary",
+    "method": "ordered_triple",
+    "baseline": "original",
+    "unit": "whole source question; fitted seeds averaged inside question",
+    "accuracy": {
+      "difference": 2.8000000000000003,
+      "lower": 0.8999999999999999,
+      "upper": 4.6,
+      "question_count": 1000,
+      "unit": "percentage points",
+      "scope": "conditional on these fitted policies; no future-search uncertainty",
+      "difference_fraction": 0.028
+    },
+    "calls": {
+      "difference": 1.204,
+      "lower": 1.179,
+      "upper": 1.23,
+      "question_count": 1000,
+      "unit": "calls",
+      "scope": "conditional on these fitted policies; no future-search uncertainty",
+      "relative_reduction_percent": -120.39999999999999
+    },
+    "utility": {
+      "difference": 0.01595999999999999,
+      "lower": -0.0031010000000000087,
+      "upper": 0.03383074999999999,
+      "question_count": 1000,
+      "unit": "utility",
+      "scope": "conditional on these fitted policies; no future-search uncertainty"
+    },
+    "input_tokens": {
+      "difference": 118.921,
+      "lower": 116.31295,
+      "upper": 121.531475,
+      "question_count": 1000,
+      "unit": "input_tokens",
+      "scope": "conditional on these fitted policies; no future-search uncertainty",
+      "relative_reduction_percent": -120.42023188699307
+    },
+    "output_tokens": {
+      "difference": 2.409,
+      "lower": 2.359,
+      "upper": 2.461,
+      "question_count": 1000,
+      "unit": "output_tokens",
+      "scope": "conditional on these fitted policies; no future-search uncertainty",
+      "relative_reduction_percent": -120.44999999999999
+    },
+    "tokens": {
+      "difference": 121.33,
+      "lower": 118.665975,
+      "upper": 123.989675,
+      "question_count": 1000,
+      "unit": "tokens",
+      "scope": "conditional on these fitted policies; no future-search uncertainty",
+      "relative_reduction_percent": -120.42082278795097
+    },
+    "invalid": {
+      "difference": 0.0,
+      "lower": 0.0,
+      "upper": 0.0,
+      "question_count": 1000,
+      "unit": "percentage points",
+      "scope": "conditional on these fitted policies; no future-search uncertainty",
+      "difference_fraction": 0.0
+    }
+  },
+  {
+    "role": "secondary",
+    "method": "ordered_triple",
+    "baseline": "best_single",
+    "unit": "whole source question; fitted seeds averaged inside question",
+    "accuracy": {
+      "difference": 2.5,
+      "lower": 0.6,
+      "upper": 4.3999999999999995,
+      "question_count": 1000,
+      "unit": "percentage points",
+      "scope": "conditional on these fitted policies; no future-search uncertainty",
+      "difference_fraction": 0.025
+    },
+    "calls": {
+      "difference": 1.204,
+      "lower": 1.179,
+      "upper": 1.23,
+      "question_count": 1000,
+      "unit": "calls",
+      "scope": "conditional on these fitted policies; no future-search uncertainty",
+      "relative_reduction_percent": -120.39999999999999
+    },
+    "utility": {
+      "difference": 0.01295999999999999,
+      "lower": -0.005901000000000006,
+      "upper": 0.032030499999999996,
+      "question_count": 1000,
+      "unit": "utility",
+      "scope": "conditional on these fitted policies; no future-search uncertainty"
+    },
+    "input_tokens": {
+      "difference": 118.921,
+      "lower": 116.314975,
+      "upper": 121.53335,
+      "question_count": 1000,
+      "unit": "input_tokens",
+      "scope": "conditional on these fitted policies; no future-search uncertainty",
+      "relative_reduction_percent": -120.42023188699307
+    },
+    "output_tokens": {
+      "difference": 2.408,
+      "lower": 2.358,
+      "upper": 2.46,
+      "question_count": 1000,
+      "unit": "output_tokens",
+      "scope": "conditional on these fitted policies; no future-search uncertainty",
+      "relative_reduction_percent": -120.33983008495753
+    },
+    "tokens": {
+      "difference": 121.329,
+      "lower": 118.668925,
+      "upper": 123.9896,
+      "question_count": 1000,
+      "unit": "tokens",
+      "scope": "conditional on these fitted policies; no future-search uncertainty",
+      "relative_reduction_percent": -120.4186351185041
+    },
+    "invalid": {
+      "difference": -0.1,
+      "lower": -0.3,
+      "upper": 0.0,
+      "question_count": 1000,
+      "unit": "percentage points",
+      "scope": "conditional on these fitted policies; no future-search uncertainty",
+      "difference_fraction": -0.001
+    }
+  },
+  {
+    "role": "secondary",
+    "method": "G1",
+    "baseline": "ordered_triple",
+    "unit": "whole source question; fitted seeds averaged inside question",
+    "accuracy": {
+      "difference": 0.0,
+      "lower": 0.0,
+      "upper": 0.0,
+      "question_count": 1000,
+      "unit": "percentage points",
+      "scope": "conditional on these fitted policies; no future-search uncertainty",
+      "difference_fraction": 0.0
+    },
+    "calls": {
+      "difference": 0.0,
+      "lower": 0.0,
+      "upper": 0.0,
+      "question_count": 1000,
+      "unit": "calls",
+      "scope": "conditional on these fitted policies; no future-search uncertainty",
+      "relative_reduction_percent": -0.0
+    },
+    "utility": {
+      "difference": 7.682743330406083e-17,
+      "lower": 7.349676423018537e-17,
+      "upper": 8.004708007547378e-17,
+      "question_count": 1000,
+      "unit": "utility",
+      "scope": "conditional on these fitted policies; no future-search uncertainty"
+    },
+    "input_tokens": {
+      "difference": 0.0,
+      "lower": 0.0,
+      "upper": 0.0,
+      "question_count": 1000,
+      "unit": "input_tokens",
+      "scope": "conditional on these fitted policies; no future-search uncertainty",
+      "relative_reduction_percent": -0.0
+    },
+    "output_tokens": {
+      "difference": 0.0,
+      "lower": 0.0,
+      "upper": 0.0,
+      "question_count": 1000,
+      "unit": "output_tokens",
+      "scope": "conditional on these fitted policies; no future-search uncertainty",
+      "relative_reduction_percent": -0.0
+    },
+    "tokens": {
+      "difference": 0.0,
+      "lower": 0.0,
+      "upper": 0.0,
+      "question_count": 1000,
+      "unit": "tokens",
+      "scope": "conditional on these fitted policies; no future-search uncertainty",
+      "relative_reduction_percent": -0.0
+    },
+    "invalid": {
+      "difference": 0.0,
+      "lower": 0.0,
+      "upper": 0.0,
+      "question_count": 1000,
+      "unit": "percentage points",
+      "scope": "conditional on these fitted policies; no future-search uncertainty",
+      "difference_fraction": 0.0
+    }
+  },
+  {
+    "role": "secondary",
+    "method": "G2",
+    "baseline": "ordered_triple",
+    "unit": "whole source question; fitted seeds averaged inside question",
+    "accuracy": {
+      "difference": 0.0,
+      "lower": 0.0,
+      "upper": 0.0,
+      "question_count": 1000,
+      "unit": "percentage points",
+      "scope": "conditional on these fitted policies; no future-search uncertainty",
+      "difference_fraction": 0.0
+    },
+    "calls": {
+      "difference": 0.005199999999999962,
+      "lower": -0.0040000000000000435,
+      "upper": 0.013804999999999937,
+      "question_count": 1000,
+      "unit": "calls",
+      "scope": "conditional on these fitted policies; no future-search uncertainty",
+      "relative_reduction_percent": -0.2359346642468222
+    },
+    "utility": {
+      "difference": -5.19999999999398e-05,
+      "lower": -0.00013804999999994066,
+      "upper": 4.0000000000061396e-05,
+      "question_count": 1000,
+      "unit": "utility",
+      "scope": "conditional on these fitted policies; no future-search uncertainty"
+    },
+    "input_tokens": {
+      "difference": 0.5294000000000002,
+      "lower": -0.3939599999999997,
+      "upper": 1.3965049999999999,
+      "question_count": 1000,
+      "unit": "input_tokens",
+      "scope": "conditional on these fitted policies; no future-search uncertainty",
+      "relative_reduction_percent": -0.24320549807971492
+    },
+    "output_tokens": {
+      "difference": 0.010199999999999924,
+      "lower": -0.008200000000000068,
+      "upper": 0.027599999999999923,
+      "question_count": 1000,
+      "unit": "output_tokens",
+      "scope": "conditional on these fitted policies; no future-search uncertainty",
+      "relative_reduction_percent": -0.23134497618507427
+    },
+    "tokens": {
+      "difference": 0.5395999999999999,
+      "lower": -0.40039999999999976,
+      "upper": 1.4252849999999992,
+      "question_count": 1000,
+      "unit": "tokens",
+      "scope": "conditional on these fitted policies; no future-search uncertainty",
+      "relative_reduction_percent": -0.24297003399599248
+    },
+    "invalid": {
+      "difference": 0.0,
+      "lower": 0.0,
+      "upper": 0.0,
+      "question_count": 1000,
+      "unit": "percentage points",
+      "scope": "conditional on these fitted policies; no future-search uncertainty",
+      "difference_fraction": 0.0
+    }
+  }
+]

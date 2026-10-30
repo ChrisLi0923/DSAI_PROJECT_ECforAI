@@ -1,0 +1,47 @@
+{
+  "G0": {
+    "mutations": 10160,
+    "zero_visit_fraction": 0.8159448818897638,
+    "prediction_change_fraction": 0.10108267716535434,
+    "call_change_fraction": 0.06643700787401575,
+    "random_fallback_fraction": 0.0,
+    "trial_probes": 10160,
+    "selected_offspring": 10160
+  },
+  "G1": {
+    "mutations": 10160,
+    "zero_visit_fraction": 0.0,
+    "prediction_change_fraction": 0.558759842519685,
+    "call_change_fraction": 0.3746062992125984,
+    "random_fallback_fraction": 0.0,
+    "trial_probes": 10160,
+    "selected_offspring": 10160
+  },
+  "G2": {
+    "mutations": 2822,
+    "zero_visit_fraction": 0.0,
+    "prediction_change_fraction": 0.5425230333097094,
+    "call_change_fraction": 0.5049610205527995,
+    "random_fallback_fraction": 0.020198440822111977,
+    "trial_probes": 17496,
+    "selected_offspring": 2822
+  },
+  "G3": {
+    "mutations": 10160,
+    "zero_visit_fraction": 0.8006889763779528,
+    "prediction_change_fraction": 0.11161417322834645,
+    "call_change_fraction": 0.08238188976377953,
+    "random_fallback_fraction": 0.0,
+    "trial_probes": 10160,
+    "selected_offspring": 10160
+  },
+  "hill": {
+    "mutations": 2892,
+    "zero_visit_fraction": 0.0,
+    "prediction_change_fraction": 0.47614107883817425,
+    "call_change_fraction": 0.5656984785615491,
+    "random_fallback_fraction": 0.006915629322268326,
+    "trial_probes": 17427,
+    "selected_offspring": 742
+  }
+}

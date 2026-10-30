@@ -1,0 +1,42 @@
+{
+  "stage": "complete",
+  "pid": 832810,
+  "unix": 1793372959.7888606,
+  "session_wall_seconds": 892.1082923412323,
+  "session_cpu_seconds": 732.137806116,
+  "main_calls": 5000,
+  "question_count": 1000,
+  "frozen_sha256": "f253a58bfd21621c98db5e1e1659639e171ca4116fe348c428b02f7b01dfefe7",
+  "prior_outputs_unchanged": true,
+  "report_sha256": "1863e4fd1c07956b9686b3623080383bbc607535b079faa1a0011ac1f89515af",
+  "submission_archive": {
+    "archive": "/home/hli/dsai/final_evaluation/submission/dsai6707_submission.zip",
+    "bytes": 54548613,
+    "sha256": "aad36e267d45c2689424486b58aa5af7e1c6b19241449adf2f004e141d654fab",
+    "files": 596,
+    "wall_seconds": 6.4567728489637375,
+    "crc_verified": true,
+    "manual_remaining": [
+      "Final author/editorial review and required author identification",
+      "External course upload by15November2026; not performed"
+    ]
+  },
+  "document_checks": {
+    "report_pages": 13,
+    "rendered_pages": [
+      1,
+      7,
+      13
+    ],
+    "summary_pages": 1,
+    "text_content_checked": true,
+    "image_files": [
+      "/home/hli/dsai/final_evaluation/report/render_checks/summary.png",
+      "/home/hli/dsai/final_evaluation/report/render_checks/page_1.png",
+      "/home/hli/dsai/final_evaluation/report/render_checks/page_7.png",
+      "/home/hli/dsai/final_evaluation/report/render_checks/page_13.png"
+    ],
+    "scope": "Prelaunch scaffold visually inspected; final documents rendered and checked for required content/blank pages. Final author editorial read-through remains a submission task."
+  },
+  "model_experiments_closed": true
+}

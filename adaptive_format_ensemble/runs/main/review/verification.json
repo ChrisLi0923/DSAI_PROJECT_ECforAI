@@ -1,0 +1,13 @@
+{
+  "complete": true,
+  "frozen_hash_matches": true,
+  "frozen_source_hashes_match": true,
+  "all_48_frozen_replays_match": true,
+  "complete_test_matrix_rows": 2430,
+  "freeze_precedes_first_test_generation": true,
+  "attempt_statuses": {
+    "complete": 7435
+  },
+  "new_model_calls": 0,
+  "search_or_selection_rerun": false
+}

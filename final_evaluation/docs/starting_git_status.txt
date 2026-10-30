@@ -1,0 +1,72 @@
+ T ../.gitignore
+ M ../CHANGELOG.md
+ M ../README.md
+ T ../conda-explicit.txt
+ D ../configs/draft.json
+ D ../configs/main.json
+ D ../configs/model_assets.json
+ D ../configs/protocol_freeze.json
+ D ../configs/protocol_freeze_fixed_gpu.json
+ D ../configs/protocol_freeze_pre_wait.json
+ D ../configs/protocol_freeze_proposer_v1.json
+ D ../configs/runtime_estimate.json
+ D ../configs/smoke.json
+ D ../docs/feasibility.md
+ D ../docs/hardware_preparation.txt
+ D ../docs/literature.md
+ D ../docs/preparation_inference_costs.json
+ D ../docs/proposal.md
+ D ../docs/proposal.pdf
+ D ../docs/proposer_v2_verification.json
+ D ../docs/protocol.md
+ D ../docs/report.md
+ D ../docs/smoke_benchmark.json
+ D ../docs/smoke_benchmark_proposer_v1.json
+ D ../docs/smoke_resume_verification.json
+ D ../docs/smoke_resume_verification_proposer_v1.json
+ D ../docs/tokenization_check.json
+ D ../docs/verification.md
+ T ../environment.yml
+ T ../pyproject.toml
+ T ../requirements-lock.txt
+ T ../requirements.txt
+ D ../robust_prompt/__init__.py
+ D ../robust_prompt/analysis.py
+ D ../robust_prompt/core.py
+ D ../robust_prompt/data.py
+ D ../robust_prompt/gpu_select.py
+ D ../robust_prompt/model.py
+ D ../robust_prompt/preflight.py
+ D ../robust_prompt/storage.py
+ D ../robust_prompt/workflow.py
+ D ../scripts/benchmark_smoke.py
+ D ../scripts/check_inputs.py
+ D ../scripts/check_proposer_recovery.py
+ D ../scripts/freeze_protocol.py
+ D ../scripts/monitor.sh
+ D ../scripts/prepare_assets.py
+ D ../scripts/render_proposal.py
+ D ../scripts/run_long.sh
+ D ../scripts/setup.sh
+ D ../tests/test_gpu_select.py
+ D ../tests/test_integrity.py
+?? ../DSAI6707_Project_1.pdf
+?? ../adaptive_format_ensemble/
+?? ../assets-prepare.log
+?? ../configs
+?? ../data
+?? ../data-prepare.log
+?? ../docs
+?? ../final-dependencies.log
+?? ./
+?? ../jinja-install.log
+?? ../old_idea/
+?? ../packages-install.log
+?? ../postanalysis
+?? ../robust_prompt
+?? ../runs
+?? ../scripts
+?? ../tests
+?? ../torch-install.log
+?? ../transfer-install.log
+?? ../xet-install.log

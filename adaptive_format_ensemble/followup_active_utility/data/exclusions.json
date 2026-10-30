@@ -1,0 +1,6043 @@
+[
+  {
+    "id": "obqa/train/9-782",
+    "reasons": [
+      "previous_normalized_question_stem",
+      "previous_question_option_content",
+      "previous_split_or_query_id"
+    ]
+  },
+  {
+    "id": "obqa/train/9-87",
+    "reasons": [
+      "previous_normalized_question_stem",
+      "previous_question_option_content",
+      "previous_split_or_query_id"
+    ]
+  },
+  {
+    "id": "obqa/train/7-1167",
+    "reasons": [
+      "possible_missing_media"
+    ]
+  },
+  {
+    "id": "obqa/train/8-78",
+    "reasons": [
+      "previous_normalized_question_stem",
+      "previous_question_option_content",
+      "previous_split_or_query_id"
+    ]
+  },
+  {
+    "id": "obqa/train/7-30",
+    "reasons": [
+      "previous_normalized_question_stem",
+      "previous_question_option_content",
+      "previous_split_or_query_id"
+    ]
+  },
+  {
+    "id": "obqa/train/8-37",
+    "reasons": [
+      "previous_normalized_question_stem",
+      "previous_question_option_content",
+      "previous_split_or_query_id"
+    ]
+  },
+  {
+    "id": "obqa/train/9-200",
+    "reasons": [
+      "previous_normalized_question_stem",
+      "previous_question_option_content",
+      "previous_split_or_query_id"
+    ]
+  },
+  {
+    "id": "obqa/train/8-408",
+    "reasons": [
+      "option_position_reference"
+    ]
+  },
+  {
+    "id": "obqa/train/9-836",
+    "reasons": [
+      "previous_normalized_question_stem",
+      "previous_question_option_content",
+      "previous_split_or_query_id"
+    ]
+  },
+  {
+    "id": "obqa/train/8-446",
+    "reasons": [
+      "previous_normalized_question_stem",
+      "previous_question_option_content",
+      "previous_split_or_query_id"
+    ]
+  },
+  {
+    "id": "obqa/train/172",
+    "reasons": [
+      "previous_normalized_question_stem",
+      "previous_question_option_content",
+      "previous_split_or_query_id"
+    ]
+  },
+  {
+    "id": "obqa/train/7-721",
+    "reasons": [
+      "previous_normalized_question_stem",
+      "previous_question_option_content",
+      "previous_split_or_query_id"
+    ]
+  },
+  {
+    "id": "obqa/train/9-1013",
+    "reasons": [
+      "previous_normalized_question_stem",
+      "previous_question_option_content",
+      "previous_split_or_query_id"
+    ]
+  },
+  {
+    "id": "obqa/train/1640",
+    "reasons": [
+      "previous_normalized_question_stem",
+      "previous_question_option_content",
+      "previous_split_or_query_id"
+    ]
+  },
+  {
+    "id": "obqa/train/852",
+    "reasons": [
+      "previous_normalized_question_stem",
+      "previous_question_option_content",
+      "previous_split_or_query_id"
+    ]
+  },
+  {
+    "id": "obqa/train/9-1189",
+    "reasons": [
+      "previous_normalized_question_stem",
+      "previous_question_option_content",
+      "previous_split_or_query_id"
+    ]
+  },
+  {
+    "id": "obqa/train/8-242",
+    "reasons": [
+      "previous_normalized_question_stem",
+      "previous_question_option_content",
+      "previous_split_or_query_id"
+    ]
+  },
+  {
+    "id": "obqa/train/8-275",
+    "reasons": [
+      "previous_normalized_question_stem",
+      "previous_question_option_content",
+      "previous_split_or_query_id"
+    ]
+  },
+  {
+    "id": "obqa/train/1738",
+    "reasons": [
+      "previous_normalized_question_stem",
+      "previous_question_option_content",
+      "previous_split_or_query_id"
+    ]
+  },
+  {
+    "id": "obqa/train/8-462",
+    "reasons": [
+      "previous_normalized_question_stem",
+      "previous_question_option_content",
+      "previous_split_or_query_id"
+    ]
+  },
+  {
+    "id": "obqa/train/8-301",
+    "reasons": [
+      "previous_normalized_question_stem",
+      "previous_question_option_content",
+      "previous_split_or_query_id"
+    ]
+  },
+  {
+    "id": "obqa/train/7-1081",
+    "reasons": [
+      "previous_normalized_question_stem",
+      "previous_question_option_content",
+      "previous_split_or_query_id"
+    ]
+  },
+  {
+    "id": "obqa/train/7-447",
+    "reasons": [
+      "previous_normalized_question_stem",
+      "previous_question_option_content",
+      "previous_split_or_query_id"
+    ]
+  },
+  {
+    "id": "obqa/train/9-45",
+    "reasons": [
+      "previous_normalized_question_stem",
+      "previous_question_option_content",
+      "previous_split_or_query_id"
+    ]
+  },
+  {
+    "id": "obqa/train/9-1150",
+    "reasons": [
+      "previous_normalized_question_stem",
+      "previous_question_option_content",
+      "previous_split_or_query_id"
+    ]
+  },
+  {
+    "id": "obqa/train/8-30",
+    "reasons": [
+      "previous_normalized_question_stem",
+      "previous_question_option_content",
+      "previous_split_or_query_id"
+    ]
+  },
+  {
+    "id": "obqa/train/9-923",
+    "reasons": [
+      "previous_normalized_question_stem",
+      "previous_question_option_content",
+      "previous_split_or_query_id"
+    ]
+  },
+  {
+    "id": "obqa/train/7-45",
+    "reasons": [
+      "possible_missing_media"
+    ]
+  },
+  {
+    "id": "obqa/train/8-447",
+    "reasons": [
+      "previous_normalized_question_stem",
+      "previous_question_option_content",
+      "previous_split_or_query_id"
+    ]
+  },
+  {
+    "id": "obqa/train/8-335",
+    "reasons": [
+      "possible_missing_media"
+    ]
+  },
+  {
+    "id": "obqa/train/9-617",
+    "reasons": [
+      "previous_normalized_question_stem",
+      "previous_question_option_content",
+      "previous_split_or_query_id"
+    ]
+  },
+  {
+    "id": "obqa/train/7-449",
+    "reasons": [
+      "previous_normalized_question_stem",
+      "previous_question_option_content",
+      "previous_split_or_query_id"
+    ]
+  },
+  {
+    "id": "obqa/train/7-905",
+    "reasons": [
+      "previous_normalized_question_stem",
+      "previous_question_option_content",
+      "previous_split_or_query_id"
+    ]
+  },
+  {
+    "id": "obqa/train/7-460",
+    "reasons": [
+      "previous_normalized_question_stem",
+      "previous_question_option_content",
+      "previous_split_or_query_id"
+    ]
+  },
+  {
+    "id": "obqa/train/7-681",
+    "reasons": [
+      "previous_normalized_question_stem",
+      "previous_question_option_content",
+      "previous_split_or_query_id"
+    ]
+  },
+  {
+    "id": "obqa/train/7-256",
+    "reasons": [
+      "previous_normalized_question_stem",
+      "previous_question_option_content",
+      "previous_split_or_query_id"
+    ]
+  },
+  {
+    "id": "obqa/train/792",
+    "reasons": [
+      "previous_normalized_question_stem",
+      "previous_question_option_content",
+      "previous_split_or_query_id"
+    ]
+  },
+  {
+    "id": "obqa/train/7-267",
+    "reasons": [
+      "previous_normalized_question_stem",
+      "previous_question_option_content",
+      "previous_split_or_query_id"
+    ]
+  },
+  {
+    "id": "obqa/train/7-531",
+    "reasons": [
+      "previous_normalized_question_stem",
+      "previous_question_option_content",
+      "previous_split_or_query_id"
+    ]
+  },
+  {
+    "id": "obqa/train/7-149",
+    "reasons": [
+      "previous_normalized_question_stem",
+      "previous_question_option_content",
+      "previous_split_or_query_id"
+    ]
+  },
+  {
+    "id": "obqa/train/8-95",
+    "reasons": [
+      "previous_normalized_question_stem",
+      "previous_question_option_content",
+      "previous_split_or_query_id"
+    ]
+  },
+  {
+    "id": "obqa/train/9-417",
+    "reasons": [
+      "option_position_reference"
+    ]
+  },
+  {
+    "id": "obqa/train/7-167",
+    "reasons": [
+      "previous_normalized_question_stem",
+      "previous_question_option_content",
+      "previous_split_or_query_id"
+    ]
+  },
+  {
+    "id": "obqa/train/7-754",
+    "reasons": [
+      "previous_normalized_question_stem",
+      "previous_question_option_content",
+      "previous_split_or_query_id"
+    ]
+  },
+  {
+    "id": "obqa/train/1827",
+    "reasons": [
+      "previous_normalized_question_stem",
+      "previous_question_option_content",
+      "previous_split_or_query_id"
+    ]
+  },
+  {
+    "id": "obqa/train/336",
+    "reasons": [
+      "previous_normalized_question_stem",
+      "previous_question_option_content",
+      "previous_split_or_query_id"
+    ]
+  },
+  {
+    "id": "obqa/train/8-347",
+    "reasons": [
+      "possible_missing_media"
+    ]
+  },
+  {
+    "id": "obqa/train/8-407",
+    "reasons": [
+      "option_position_reference"
+    ]
+  },
+  {
+    "id": "obqa/train/1366",
+    "reasons": [
+      "previous_normalized_question_stem",
+      "previous_question_option_content",
+      "previous_split_or_query_id"
+    ]
+  },
+  {
+    "id": "obqa/train/9-556",
+    "reasons": [
+      "previous_normalized_question_stem",
+      "previous_question_option_content",
+      "previous_split_or_query_id"
+    ]
+  },
+  {
+    "id": "obqa/train/9-344",
+    "reasons": [
+      "previous_normalized_question_stem",
+      "previous_question_option_content",
+      "previous_split_or_query_id"
+    ]
+  },
+  {
+    "id": "obqa/train/7-499",
+    "reasons": [
+      "previous_normalized_question_stem",
+      "previous_question_option_content",
+      "previous_split_or_query_id"
+    ]
+  },
+  {
+    "id": "obqa/train/899",
+    "reasons": [
+      "previous_normalized_question_stem",
+      "previous_question_option_content",
+      "previous_split_or_query_id"
+    ]
+  },
+  {
+    "id": "obqa/train/8-200",
+    "reasons": [
+      "previous_normalized_question_stem"
+    ]
+  },
+  {
+    "id": "obqa/train/8-137",
+    "reasons": [
+      "previous_normalized_question_stem",
+      "previous_question_option_content",
+      "previous_split_or_query_id"
+    ]
+  },
+  {
+    "id": "obqa/train/8-266",
+    "reasons": [
+      "previous_normalized_question_stem",
+      "previous_question_option_content",
+      "previous_split_or_query_id"
+    ]
+  },
+  {
+    "id": "obqa/train/1977",
+    "reasons": [
+      "previous_normalized_question_stem",
+      "previous_question_option_content",
+      "previous_split_or_query_id"
+    ]
+  },
+  {
+    "id": "obqa/train/1395",
+    "reasons": [
+      "previous_normalized_question_stem",
+      "previous_question_option_content",
+      "previous_split_or_query_id"
+    ]
+  },
+  {
+    "id": "obqa/train/7-700",
+    "reasons": [
+      "previous_normalized_question_stem",
+      "previous_question_option_content",
+      "previous_split_or_query_id"
+    ]
+  },
+  {
+    "id": "obqa/train/7-647",
+    "reasons": [
+      "option_position_reference"
+    ]
+  },
+  {
+    "id": "obqa/train/1237",
+    "reasons": [
+      "previous_normalized_question_stem",
+      "previous_question_option_content",
+      "previous_split_or_query_id"
+    ]
+  },
+  {
+    "id": "obqa/train/1187",
+    "reasons": [
+      "previous_normalized_question_stem",
+      "previous_question_option_content",
+      "previous_split_or_query_id"
+    ]
+  },
+  {
+    "id": "obqa/train/1045",
+    "reasons": [
+      "previous_normalized_question_stem",
+      "previous_question_option_content",
+      "previous_split_or_query_id"
+    ]
+  },
+  {
+    "id": "obqa/train/1514",
+    "reasons": [
+      "previous_normalized_question_stem",
+      "previous_question_option_content",
+      "previous_split_or_query_id"
+    ]
+  },
+  {
+    "id": "obqa/train/8-392",
+    "reasons": [
+      "previous_normalized_question_stem",
+      "previous_question_option_content",
+      "previous_split_or_query_id"
+    ]
+  },
+  {
+    "id": "obqa/train/9-767",
+    "reasons": [
+      "previous_normalized_question_stem",
+      "previous_question_option_content",
+      "previous_split_or_query_id"
+    ]
+  },
+  {
+    "id": "obqa/train/9-444",
+    "reasons": [
+      "possible_missing_media"
+    ]
+  },
+  {
+    "id": "obqa/train/722",
+    "reasons": [
+      "previous_normalized_question_stem",
+      "previous_question_option_content",
+      "previous_split_or_query_id"
+    ]
+  },
+  {
+    "id": "obqa/train/7-1002",
+    "reasons": [
+      "previous_normalized_question_stem",
+      "previous_question_option_content",
+      "previous_split_or_query_id"
+    ]
+  },
+  {
+    "id": "obqa/train/114",
+    "reasons": [
+      "previous_normalized_question_stem",
+      "previous_question_option_content",
+      "previous_split_or_query_id"
+    ]
+  },
+  {
+    "id": "obqa/train/822",
+    "reasons": [
+      "previous_normalized_question_stem"
+    ]
+  },
+  {
+    "id": "obqa/train/8-319",
+    "reasons": [
+      "previous_normalized_question_stem",
+      "previous_question_option_content",
+      "previous_split_or_query_id"
+    ]
+  },
+  {
+    "id": "obqa/train/7-590",
+    "reasons": [
+      "duplicate_remaining_source_question"
+    ]
+  },
+  {
+    "id": "obqa/train/8-174",
+    "reasons": [
+      "previous_normalized_question_stem",
+      "previous_question_option_content",
+      "previous_split_or_query_id"
+    ]
+  },
+  {
+    "id": "obqa/train/9-400",
+    "reasons": [
+      "previous_normalized_question_stem",
+      "previous_question_option_content",
+      "previous_split_or_query_id"
+    ]
+  },
+  {
+    "id": "obqa/train/7-813",
+    "reasons": [
+      "possible_missing_media"
+    ]
+  },
+  {
+    "id": "obqa/train/7-822",
+    "reasons": [
+      "previous_normalized_question_stem",
+      "previous_question_option_content",
+      "previous_split_or_query_id"
+    ]
+  },
+  {
+    "id": "obqa/train/1669",
+    "reasons": [
+      "previous_normalized_question_stem",
+      "previous_question_option_content",
+      "previous_split_or_query_id"
+    ]
+  },
+  {
+    "id": "obqa/train/9-261",
+    "reasons": [
+      "option_position_reference"
+    ]
+  },
+  {
+    "id": "obqa/train/7-178",
+    "reasons": [
+      "option_position_reference"
+    ]
+  },
+  {
+    "id": "obqa/train/1466",
+    "reasons": [
+      "previous_normalized_question_stem",
+      "previous_question_option_content",
+      "previous_split_or_query_id"
+    ]
+  },
+  {
+    "id": "obqa/train/7-659",
+    "reasons": [
+      "previous_normalized_question_stem",
+      "previous_question_option_content",
+      "previous_split_or_query_id"
+    ]
+  },
+  {
+    "id": "obqa/train/9-654",
+    "reasons": [
+      "previous_normalized_question_stem",
+      "previous_question_option_content",
+      "previous_split_or_query_id"
+    ]
+  },
+  {
+    "id": "obqa/train/1962",
+    "reasons": [
+      "previous_normalized_question_stem",
+      "previous_question_option_content",
+      "previous_split_or_query_id"
+    ]
+  },
+  {
+    "id": "obqa/train/7-337",
+    "reasons": [
+      "previous_normalized_question_stem",
+      "previous_question_option_content",
+      "previous_split_or_query_id"
+    ]
+  },
+  {
+    "id": "obqa/train/8-131",
+    "reasons": [
+      "possible_missing_media"
+    ]
+  },
+  {
+    "id": "obqa/train/867",
+    "reasons": [
+      "previous_normalized_question_stem",
+      "previous_question_option_content",
+      "previous_split_or_query_id"
+    ]
+  },
+  {
+    "id": "obqa/train/825",
+    "reasons": [
+      "previous_normalized_question_stem",
+      "previous_question_option_content",
+      "previous_split_or_query_id"
+    ]
+  },
+  {
+    "id": "obqa/train/9-708",
+    "reasons": [
+      "previous_normalized_question_stem",
+      "previous_question_option_content",
+      "previous_split_or_query_id"
+    ]
+  },
+  {
+    "id": "obqa/train/7-514",
+    "reasons": [
+      "previous_normalized_question_stem",
+      "previous_question_option_content",
+      "previous_split_or_query_id"
+    ]
+  },
+  {
+    "id": "obqa/train/1544",
+    "reasons": [
+      "previous_normalized_question_stem",
+      "previous_question_option_content",
+      "previous_split_or_query_id"
+    ]
+  },
+  {
+    "id": "obqa/train/8-432",
+    "reasons": [
+      "possible_missing_media"
+    ]
+  },
+  {
+    "id": "obqa/train/1722",
+    "reasons": [
+      "previous_normalized_question_stem"
+    ]
+  },
+  {
+    "id": "obqa/train/9-90",
+    "reasons": [
+      "previous_normalized_question_stem",
+      "previous_question_option_content",
+      "previous_split_or_query_id"
+    ]
+  },
+  {
+    "id": "obqa/train/8-34",
+    "reasons": [
+      "option_position_reference"
+    ]
+  },
+  {
+    "id": "obqa/train/76",
+    "reasons": [
+      "previous_normalized_question_stem",
+      "previous_question_option_content",
+      "previous_split_or_query_id"
+    ]
+  },
+  {
+    "id": "obqa/train/1361",
+    "reasons": [
+      "previous_normalized_question_stem",
+      "previous_question_option_content",
+      "previous_split_or_query_id"
+    ]
+  },
+  {
+    "id": "obqa/train/1950",
+    "reasons": [
+      "previous_normalized_question_stem",
+      "previous_question_option_content",
+      "previous_split_or_query_id"
+    ]
+  },
+  {
+    "id": "obqa/train/7-836",
+    "reasons": [
+      "previous_normalized_question_stem",
+      "previous_question_option_content",
+      "previous_split_or_query_id"
+    ]
+  },
+  {
+    "id": "obqa/train/9-965",
+    "reasons": [
+      "previous_normalized_question_stem",
+      "previous_question_option_content",
+      "previous_split_or_query_id"
+    ]
+  },
+  {
+    "id": "obqa/train/9-69",
+    "reasons": [
+      "previous_normalized_question_stem",
+      "previous_question_option_content",
+      "previous_split_or_query_id"
+    ]
+  },
+  {
+    "id": "obqa/train/9-744",
+    "reasons": [
+      "previous_normalized_question_stem",
+      "previous_question_option_content",
+      "previous_split_or_query_id"
+    ]
+  },
+  {
+    "id": "obqa/train/7-1156",
+    "reasons": [
+      "previous_normalized_question_stem",
+      "previous_question_option_content",
+      "previous_split_or_query_id"
+    ]
+  },
+  {
+    "id": "obqa/train/7-750",
+    "reasons": [
+      "previous_normalized_question_stem",
+      "previous_question_option_content",
+      "previous_split_or_query_id"
+    ]
+  },
+  {
+    "id": "obqa/train/9-698",
+    "reasons": [
+      "previous_normalized_question_stem",
+      "previous_question_option_content",
+      "previous_split_or_query_id"
+    ]
+  },
+  {
+    "id": "obqa/train/8-229",
+    "reasons": [
+      "option_position_reference"
+    ]
+  },
+  {
+    "id": "obqa/train/1683",
+    "reasons": [
+      "previous_normalized_question_stem",
+      "previous_question_option_content",
+      "previous_split_or_query_id"
+    ]
+  },
+  {
+    "id": "obqa/train/7-697",
+    "reasons": [
+      "previous_normalized_question_stem",
+      "previous_question_option_content",
+      "previous_split_or_query_id"
+    ]
+  },
+  {
+    "id": "obqa/train/8-330",
+    "reasons": [
+      "option_position_reference"
+    ]
+  },
+  {
+    "id": "obqa/train/52",
+    "reasons": [
+      "previous_normalized_question_stem",
+      "previous_question_option_content",
+      "previous_split_or_query_id"
+    ]
+  },
+  {
+    "id": "obqa/train/791",
+    "reasons": [
+      "previous_normalized_question_stem",
+      "previous_question_option_content",
+      "previous_split_or_query_id"
+    ]
+  },
+  {
+    "id": "obqa/train/9-607",
+    "reasons": [
+      "option_position_reference"
+    ]
+  },
+  {
+    "id": "obqa/train/9-81",
+    "reasons": [
+      "previous_normalized_question_stem",
+      "previous_question_option_content",
+      "previous_split_or_query_id"
+    ]
+  },
+  {
+    "id": "obqa/train/1283",
+    "reasons": [
+      "previous_normalized_question_stem",
+      "previous_question_option_content",
+      "previous_split_or_query_id"
+    ]
+  },
+  {
+    "id": "obqa/train/9-388",
+    "reasons": [
+      "previous_normalized_question_stem",
+      "previous_question_option_content",
+      "previous_split_or_query_id"
+    ]
+  },
+  {
+    "id": "obqa/train/9-365",
+    "reasons": [
+      "previous_normalized_question_stem",
+      "previous_question_option_content",
+      "previous_split_or_query_id"
+    ]
+  },
+  {
+    "id": "obqa/train/7-197",
+    "reasons": [
+      "previous_normalized_question_stem",
+      "previous_question_option_content",
+      "previous_split_or_query_id"
+    ]
+  },
+  {
+    "id": "obqa/train/8-421",
+    "reasons": [
+      "previous_normalized_question_stem",
+      "previous_question_option_content",
+      "previous_split_or_query_id"
+    ]
+  },
+  {
+    "id": "obqa/train/1806",
+    "reasons": [
+      "previous_normalized_question_stem",
+      "previous_question_option_content",
+      "previous_split_or_query_id"
+    ]
+  },
+  {
+    "id": "obqa/train/302",
+    "reasons": [
+      "previous_normalized_question_stem",
+      "previous_question_option_content",
+      "previous_split_or_query_id"
+    ]
+  },
+  {
+    "id": "obqa/train/7-296",
+    "reasons": [
+      "previous_normalized_question_stem",
+      "previous_question_option_content",
+      "previous_split_or_query_id"
+    ]
+  },
+  {
+    "id": "obqa/train/14",
+    "reasons": [
+      "previous_normalized_question_stem",
+      "previous_question_option_content",
+      "previous_split_or_query_id"
+    ]
+  },
+  {
+    "id": "obqa/train/8-305",
+    "reasons": [
+      "option_position_reference"
+    ]
+  },
+  {
+    "id": "obqa/train/9-379",
+    "reasons": [
+      "previous_normalized_question_stem",
+      "previous_question_option_content",
+      "previous_split_or_query_id"
+    ]
+  },
+  {
+    "id": "obqa/train/8-324",
+    "reasons": [
+      "previous_normalized_question_stem",
+      "previous_question_option_content",
+      "previous_split_or_query_id"
+    ]
+  },
+  {
+    "id": "obqa/train/9-111",
+    "reasons": [
+      "previous_normalized_question_stem",
+      "previous_question_option_content",
+      "previous_split_or_query_id"
+    ]
+  },
+  {
+    "id": "obqa/train/9-157",
+    "reasons": [
+      "previous_normalized_question_stem",
+      "previous_question_option_content",
+      "previous_split_or_query_id"
+    ]
+  },
+  {
+    "id": "obqa/train/8-360",
+    "reasons": [
+      "possible_missing_media"
+    ]
+  },
+  {
+    "id": "obqa/train/282",
+    "reasons": [
+      "possible_missing_media"
+    ]
+  },
+  {
+    "id": "obqa/train/1286",
+    "reasons": [
+      "previous_normalized_question_stem",
+      "previous_question_option_content",
+      "previous_split_or_query_id"
+    ]
+  },
+  {
+    "id": "obqa/train/8-10",
+    "reasons": [
+      "previous_normalized_question_stem"
+    ]
+  },
+  {
+    "id": "obqa/train/8-436",
+    "reasons": [
+      "previous_normalized_question_stem",
+      "previous_question_option_content",
+      "previous_split_or_query_id"
+    ]
+  },
+  {
+    "id": "obqa/train/7-662",
+    "reasons": [
+      "previous_normalized_question_stem",
+      "previous_question_option_content",
+      "previous_split_or_query_id"
+    ]
+  },
+  {
+    "id": "obqa/train/7-994",
+    "reasons": [
+      "previous_normalized_question_stem",
+      "previous_question_option_content",
+      "previous_split_or_query_id"
+    ]
+  },
+  {
+    "id": "obqa/train/581",
+    "reasons": [
+      "previous_normalized_question_stem",
+      "previous_question_option_content",
+      "previous_split_or_query_id"
+    ]
+  },
+  {
+    "id": "obqa/train/896",
+    "reasons": [
+      "previous_normalized_question_stem",
+      "previous_question_option_content",
+      "previous_split_or_query_id"
+    ]
+  },
+  {
+    "id": "obqa/train/7-719",
+    "reasons": [
+      "previous_normalized_question_stem",
+      "previous_question_option_content",
+      "previous_split_or_query_id"
+    ]
+  },
+  {
+    "id": "obqa/train/8-487",
+    "reasons": [
+      "previous_normalized_question_stem",
+      "previous_question_option_content",
+      "previous_split_or_query_id"
+    ]
+  },
+  {
+    "id": "obqa/train/7-1182",
+    "reasons": [
+      "previous_normalized_question_stem",
+      "previous_question_option_content",
+      "previous_split_or_query_id"
+    ]
+  },
+  {
+    "id": "obqa/train/1094",
+    "reasons": [
+      "duplicate_remaining_source_question"
+    ]
+  },
+  {
+    "id": "obqa/train/9-855",
+    "reasons": [
+      "option_position_reference"
+    ]
+  },
+  {
+    "id": "obqa/train/1210",
+    "reasons": [
+      "previous_normalized_question_stem",
+      "previous_question_option_content",
+      "previous_split_or_query_id"
+    ]
+  },
+  {
+    "id": "obqa/train/9-383",
+    "reasons": [
+      "previous_normalized_question_stem",
+      "previous_question_option_content",
+      "previous_split_or_query_id"
+    ]
+  },
+  {
+    "id": "obqa/train/564",
+    "reasons": [
+      "previous_normalized_question_stem",
+      "previous_question_option_content",
+      "previous_split_or_query_id"
+    ]
+  },
+  {
+    "id": "obqa/train/7-392",
+    "reasons": [
+      "previous_normalized_question_stem",
+      "previous_question_option_content",
+      "previous_split_or_query_id"
+    ]
+  },
+  {
+    "id": "obqa/train/923",
+    "reasons": [
+      "previous_normalized_question_stem"
+    ]
+  },
+  {
+    "id": "obqa/train/7-841",
+    "reasons": [
+      "previous_normalized_question_stem"
+    ]
+  },
+  {
+    "id": "obqa/train/8-306",
+    "reasons": [
+      "previous_normalized_question_stem",
+      "previous_question_option_content",
+      "previous_split_or_query_id"
+    ]
+  },
+  {
+    "id": "obqa/train/1195",
+    "reasons": [
+      "previous_normalized_question_stem",
+      "previous_question_option_content",
+      "previous_split_or_query_id"
+    ]
+  },
+  {
+    "id": "obqa/train/9-928",
+    "reasons": [
+      "previous_normalized_question_stem",
+      "previous_question_option_content",
+      "previous_split_or_query_id"
+    ]
+  },
+  {
+    "id": "obqa/train/7-555",
+    "reasons": [
+      "previous_normalized_question_stem",
+      "previous_question_option_content",
+      "previous_split_or_query_id"
+    ]
+  },
+  {
+    "id": "obqa/train/9-1156",
+    "reasons": [
+      "previous_normalized_question_stem",
+      "previous_question_option_content",
+      "previous_split_or_query_id"
+    ]
+  },
+  {
+    "id": "obqa/train/8-115",
+    "reasons": [
+      "previous_normalized_question_stem",
+      "previous_question_option_content",
+      "previous_split_or_query_id"
+    ]
+  },
+  {
+    "id": "obqa/train/7-224",
+    "reasons": [
+      "possible_missing_media"
+    ]
+  },
+  {
+    "id": "obqa/train/1766",
+    "reasons": [
+      "previous_normalized_question_stem",
+      "previous_question_option_content",
+      "previous_split_or_query_id"
+    ]
+  },
+  {
+    "id": "obqa/train/8-221",
+    "reasons": [
+      "option_position_reference"
+    ]
+  },
+  {
+    "id": "obqa/train/1420",
+    "reasons": [
+      "previous_normalized_question_stem",
+      "previous_question_option_content",
+      "previous_split_or_query_id"
+    ]
+  },
+  {
+    "id": "obqa/train/7-521",
+    "reasons": [
+      "previous_normalized_question_stem",
+      "previous_question_option_content",
+      "previous_split_or_query_id"
+    ]
+  },
+  {
+    "id": "obqa/train/1217",
+    "reasons": [
+      "previous_normalized_question_stem"
+    ]
+  },
+  {
+    "id": "obqa/train/121",
+    "reasons": [
+      "previous_normalized_question_stem",
+      "previous_question_option_content",
+      "previous_split_or_query_id"
+    ]
+  },
+  {
+    "id": "obqa/train/1365",
+    "reasons": [
+      "previous_normalized_question_stem",
+      "previous_question_option_content",
+      "previous_split_or_query_id"
+    ]
+  },
+  {
+    "id": "obqa/train/773",
+    "reasons": [
+      "previous_normalized_question_stem",
+      "previous_question_option_content",
+      "previous_split_or_query_id"
+    ]
+  },
+  {
+    "id": "obqa/train/7-245",
+    "reasons": [
+      "previous_normalized_question_stem",
+      "previous_question_option_content",
+      "previous_split_or_query_id"
+    ]
+  },
+  {
+    "id": "obqa/train/8-248",
+    "reasons": [
+      "previous_normalized_question_stem",
+      "previous_question_option_content",
+      "previous_split_or_query_id"
+    ]
+  },
+  {
+    "id": "obqa/train/7-1136",
+    "reasons": [
+      "previous_normalized_question_stem",
+      "previous_question_option_content",
+      "previous_split_or_query_id"
+    ]
+  },
+  {
+    "id": "obqa/train/7-722",
+    "reasons": [
+      "previous_normalized_question_stem",
+      "previous_question_option_content",
+      "previous_split_or_query_id"
+    ]
+  },
+  {
+    "id": "obqa/train/1537",
+    "reasons": [
+      "previous_normalized_question_stem",
+      "previous_question_option_content",
+      "previous_split_or_query_id"
+    ]
+  },
+  {
+    "id": "obqa/train/7-1064",
+    "reasons": [
+      "previous_normalized_question_stem",
+      "previous_question_option_content",
+      "previous_split_or_query_id"
+    ]
+  },
+  {
+    "id": "obqa/train/9-202",
+    "reasons": [
+      "previous_normalized_question_stem",
+      "previous_question_option_content",
+      "previous_split_or_query_id"
+    ]
+  },
+  {
+    "id": "obqa/train/9-293",
+    "reasons": [
+      "previous_normalized_question_stem",
+      "previous_question_option_content",
+      "previous_split_or_query_id"
+    ]
+  },
+  {
+    "id": "obqa/train/9-507",
+    "reasons": [
+      "previous_normalized_question_stem",
+      "previous_question_option_content",
+      "previous_split_or_query_id"
+    ]
+  },
+  {
+    "id": "obqa/train/9-1109",
+    "reasons": [
+      "previous_normalized_question_stem",
+      "previous_question_option_content",
+      "previous_split_or_query_id"
+    ]
+  },
+  {
+    "id": "obqa/train/1589",
+    "reasons": [
+      "previous_normalized_question_stem",
+      "previous_question_option_content",
+      "previous_split_or_query_id"
+    ]
+  },
+  {
+    "id": "obqa/train/9-139",
+    "reasons": [
+      "previous_normalized_question_stem",
+      "previous_question_option_content",
+      "previous_split_or_query_id"
+    ]
+  },
+  {
+    "id": "obqa/train/7-172",
+    "reasons": [
+      "previous_normalized_question_stem",
+      "previous_question_option_content",
+      "previous_split_or_query_id"
+    ]
+  },
+  {
+    "id": "obqa/train/1404",
+    "reasons": [
+      "previous_normalized_question_stem",
+      "previous_question_option_content",
+      "previous_split_or_query_id"
+    ]
+  },
+  {
+    "id": "obqa/train/1232",
+    "reasons": [
+      "previous_normalized_question_stem",
+      "previous_question_option_content",
+      "previous_split_or_query_id"
+    ]
+  },
+  {
+    "id": "obqa/train/9-598",
+    "reasons": [
+      "previous_normalized_question_stem",
+      "previous_question_option_content",
+      "previous_split_or_query_id"
+    ]
+  },
+  {
+    "id": "obqa/train/1341",
+    "reasons": [
+      "duplicate_remaining_source_question"
+    ]
+  },
+  {
+    "id": "obqa/train/1433",
+    "reasons": [
+      "option_position_reference"
+    ]
+  },
+  {
+    "id": "obqa/train/10-3",
+    "reasons": [
+      "previous_normalized_question_stem",
+      "previous_question_option_content",
+      "previous_split_or_query_id"
+    ]
+  },
+  {
+    "id": "obqa/train/10-5",
+    "reasons": [
+      "previous_normalized_question_stem",
+      "previous_question_option_content",
+      "previous_split_or_query_id"
+    ]
+  },
+  {
+    "id": "obqa/train/10-11",
+    "reasons": [
+      "previous_normalized_question_stem",
+      "previous_question_option_content",
+      "previous_split_or_query_id"
+    ]
+  },
+  {
+    "id": "obqa/train/10-13",
+    "reasons": [
+      "previous_normalized_question_stem",
+      "previous_question_option_content",
+      "previous_split_or_query_id"
+    ]
+  },
+  {
+    "id": "obqa/train/10-20",
+    "reasons": [
+      "previous_normalized_question_stem",
+      "previous_question_option_content",
+      "previous_split_or_query_id"
+    ]
+  },
+  {
+    "id": "obqa/train/10-23",
+    "reasons": [
+      "possible_missing_media"
+    ]
+  },
+  {
+    "id": "obqa/train/10-41",
+    "reasons": [
+      "option_position_reference"
+    ]
+  },
+  {
+    "id": "obqa/train/10-47",
+    "reasons": [
+      "possible_missing_media"
+    ]
+  },
+  {
+    "id": "obqa/train/10-60",
+    "reasons": [
+      "previous_normalized_question_stem",
+      "previous_question_option_content",
+      "previous_split_or_query_id"
+    ]
+  },
+  {
+    "id": "obqa/train/10-105",
+    "reasons": [
+      "previous_normalized_question_stem",
+      "previous_question_option_content",
+      "previous_split_or_query_id"
+    ]
+  },
+  {
+    "id": "obqa/train/10-118",
+    "reasons": [
+      "previous_normalized_question_stem",
+      "previous_question_option_content",
+      "previous_split_or_query_id"
+    ]
+  },
+  {
+    "id": "obqa/train/10-119",
+    "reasons": [
+      "previous_normalized_question_stem",
+      "previous_question_option_content",
+      "previous_split_or_query_id"
+    ]
+  },
+  {
+    "id": "obqa/train/10-136",
+    "reasons": [
+      "previous_normalized_question_stem",
+      "previous_question_option_content",
+      "previous_split_or_query_id"
+    ]
+  },
+  {
+    "id": "obqa/train/10-137",
+    "reasons": [
+      "possible_missing_media"
+    ]
+  },
+  {
+    "id": "obqa/train/10-152",
+    "reasons": [
+      "previous_normalized_question_stem",
+      "previous_question_option_content",
+      "previous_split_or_query_id"
+    ]
+  },
+  {
+    "id": "obqa/train/10-167",
+    "reasons": [
+      "previous_normalized_question_stem",
+      "previous_question_option_content",
+      "previous_split_or_query_id"
+    ]
+  },
+  {
+    "id": "obqa/train/10-177",
+    "reasons": [
+      "previous_normalized_question_stem",
+      "previous_question_option_content",
+      "previous_split_or_query_id"
+    ]
+  },
+  {
+    "id": "obqa/train/10-180",
+    "reasons": [
+      "previous_normalized_question_stem",
+      "previous_question_option_content",
+      "previous_split_or_query_id"
+    ]
+  },
+  {
+    "id": "obqa/train/10-188",
+    "reasons": [
+      "previous_normalized_question_stem",
+      "previous_question_option_content",
+      "previous_split_or_query_id"
+    ]
+  },
+  {
+    "id": "obqa/train/10-204",
+    "reasons": [
+      "previous_normalized_question_stem",
+      "previous_question_option_content",
+      "previous_split_or_query_id"
+    ]
+  },
+  {
+    "id": "obqa/train/10-210",
+    "reasons": [
+      "option_position_reference"
+    ]
+  },
+  {
+    "id": "obqa/train/10-212",
+    "reasons": [
+      "previous_normalized_question_stem",
+      "previous_question_option_content",
+      "previous_split_or_query_id"
+    ]
+  },
+  {
+    "id": "obqa/train/10-219",
+    "reasons": [
+      "previous_normalized_question_stem",
+      "previous_question_option_content",
+      "previous_split_or_query_id"
+    ]
+  },
+  {
+    "id": "obqa/train/10-230",
+    "reasons": [
+      "previous_normalized_question_stem"
+    ]
+  },
+  {
+    "id": "obqa/train/10-236",
+    "reasons": [
+      "previous_normalized_question_stem",
+      "previous_question_option_content",
+      "previous_split_or_query_id"
+    ]
+  },
+  {
+    "id": "obqa/train/10-283",
+    "reasons": [
+      "previous_normalized_question_stem",
+      "previous_question_option_content",
+      "previous_split_or_query_id"
+    ]
+  },
+  {
+    "id": "obqa/train/10-288",
+    "reasons": [
+      "previous_normalized_question_stem",
+      "previous_question_option_content",
+      "previous_split_or_query_id"
+    ]
+  },
+  {
+    "id": "obqa/train/10-289",
+    "reasons": [
+      "previous_normalized_question_stem",
+      "previous_question_option_content",
+      "previous_split_or_query_id"
+    ]
+  },
+  {
+    "id": "obqa/train/10-294",
+    "reasons": [
+      "previous_normalized_question_stem",
+      "previous_question_option_content",
+      "previous_split_or_query_id"
+    ]
+  },
+  {
+    "id": "obqa/train/10-296",
+    "reasons": [
+      "previous_normalized_question_stem",
+      "previous_question_option_content",
+      "previous_split_or_query_id"
+    ]
+  },
+  {
+    "id": "obqa/train/10-316",
+    "reasons": [
+      "previous_normalized_question_stem",
+      "previous_question_option_content",
+      "previous_split_or_query_id"
+    ]
+  },
+  {
+    "id": "obqa/train/10-317",
+    "reasons": [
+      "duplicate_options"
+    ]
+  },
+  {
+    "id": "obqa/train/10-333",
+    "reasons": [
+      "previous_normalized_question_stem",
+      "previous_question_option_content",
+      "previous_split_or_query_id"
+    ]
+  },
+  {
+    "id": "obqa/train/10-343",
+    "reasons": [
+      "possible_missing_media"
+    ]
+  },
+  {
+    "id": "obqa/train/10-351",
+    "reasons": [
+      "previous_normalized_question_stem",
+      "previous_question_option_content",
+      "previous_split_or_query_id"
+    ]
+  },
+  {
+    "id": "obqa/train/10-354",
+    "reasons": [
+      "previous_normalized_question_stem",
+      "previous_question_option_content",
+      "previous_split_or_query_id"
+    ]
+  },
+  {
+    "id": "obqa/train/10-358",
+    "reasons": [
+      "previous_normalized_question_stem"
+    ]
+  },
+  {
+    "id": "obqa/train/10-382",
+    "reasons": [
+      "option_position_reference"
+    ]
+  },
+  {
+    "id": "obqa/train/10-393",
+    "reasons": [
+      "previous_normalized_question_stem",
+      "previous_question_option_content",
+      "previous_split_or_query_id"
+    ]
+  },
+  {
+    "id": "obqa/train/10-395",
+    "reasons": [
+      "previous_normalized_question_stem",
+      "previous_question_option_content",
+      "previous_split_or_query_id"
+    ]
+  },
+  {
+    "id": "obqa/train/10-399",
+    "reasons": [
+      "option_position_reference"
+    ]
+  },
+  {
+    "id": "obqa/train/10-403",
+    "reasons": [
+      "previous_normalized_question_stem",
+      "previous_question_option_content",
+      "previous_split_or_query_id"
+    ]
+  },
+  {
+    "id": "obqa/train/10-414",
+    "reasons": [
+      "previous_normalized_question_stem",
+      "previous_question_option_content",
+      "previous_split_or_query_id"
+    ]
+  },
+  {
+    "id": "obqa/train/10-418",
+    "reasons": [
+      "previous_normalized_question_stem",
+      "previous_question_option_content",
+      "previous_split_or_query_id"
+    ]
+  },
+  {
+    "id": "obqa/train/10-436",
+    "reasons": [
+      "previous_normalized_question_stem",
+      "previous_question_option_content",
+      "previous_split_or_query_id"
+    ]
+  },
+  {
+    "id": "obqa/train/10-439",
+    "reasons": [
+      "previous_normalized_question_stem",
+      "previous_question_option_content",
+      "previous_split_or_query_id"
+    ]
+  },
+  {
+    "id": "obqa/train/10-454",
+    "reasons": [
+      "previous_normalized_question_stem",
+      "previous_question_option_content",
+      "previous_split_or_query_id"
+    ]
+  },
+  {
+    "id": "obqa/train/10-462",
+    "reasons": [
+      "previous_normalized_question_stem",
+      "previous_question_option_content",
+      "previous_split_or_query_id"
+    ]
+  },
+  {
+    "id": "obqa/train/10-463",
+    "reasons": [
+      "possible_missing_media"
+    ]
+  },
+  {
+    "id": "obqa/train/10-470",
+    "reasons": [
+      "previous_normalized_question_stem"
+    ]
+  },
+  {
+    "id": "obqa/train/10-485",
+    "reasons": [
+      "previous_normalized_question_stem",
+      "previous_question_option_content",
+      "previous_split_or_query_id"
+    ]
+  },
+  {
+    "id": "obqa/train/10-493",
+    "reasons": [
+      "previous_normalized_question_stem",
+      "previous_question_option_content",
+      "previous_split_or_query_id"
+    ]
+  },
+  {
+    "id": "obqa/train/10-502",
+    "reasons": [
+      "previous_normalized_question_stem",
+      "previous_question_option_content",
+      "previous_split_or_query_id"
+    ]
+  },
+  {
+    "id": "obqa/train/10-505",
+    "reasons": [
+      "previous_normalized_question_stem",
+      "previous_question_option_content",
+      "previous_split_or_query_id"
+    ]
+  },
+  {
+    "id": "obqa/train/10-532",
+    "reasons": [
+      "previous_normalized_question_stem",
+      "previous_question_option_content",
+      "previous_split_or_query_id"
+    ]
+  },
+  {
+    "id": "obqa/train/10-554",
+    "reasons": [
+      "previous_normalized_question_stem",
+      "previous_question_option_content"
+    ]
+  },
+  {
+    "id": "obqa/train/10-555",
+    "reasons": [
+      "previous_normalized_question_stem",
+      "previous_question_option_content",
+      "previous_split_or_query_id"
+    ]
+  },
+  {
+    "id": "obqa/train/10-564",
+    "reasons": [
+      "previous_normalized_question_stem",
+      "previous_question_option_content",
+      "previous_split_or_query_id"
+    ]
+  },
+  {
+    "id": "obqa/train/10-565",
+    "reasons": [
+      "previous_normalized_question_stem",
+      "previous_question_option_content",
+      "previous_split_or_query_id"
+    ]
+  },
+  {
+    "id": "obqa/train/10-570",
+    "reasons": [
+      "previous_normalized_question_stem",
+      "previous_question_option_content",
+      "previous_split_or_query_id"
+    ]
+  },
+  {
+    "id": "obqa/train/10-572",
+    "reasons": [
+      "previous_normalized_question_stem",
+      "previous_question_option_content",
+      "previous_split_or_query_id"
+    ]
+  },
+  {
+    "id": "obqa/train/10-577",
+    "reasons": [
+      "previous_normalized_question_stem",
+      "previous_question_option_content",
+      "previous_split_or_query_id"
+    ]
+  },
+  {
+    "id": "obqa/train/10-584",
+    "reasons": [
+      "previous_normalized_question_stem",
+      "previous_question_option_content",
+      "previous_split_or_query_id"
+    ]
+  },
+  {
+    "id": "obqa/train/10-585",
+    "reasons": [
+      "previous_normalized_question_stem",
+      "previous_question_option_content",
+      "previous_split_or_query_id"
+    ]
+  },
+  {
+    "id": "obqa/train/10-587",
+    "reasons": [
+      "previous_normalized_question_stem",
+      "previous_question_option_content",
+      "previous_split_or_query_id"
+    ]
+  },
+  {
+    "id": "obqa/train/10-598",
+    "reasons": [
+      "previous_normalized_question_stem",
+      "previous_question_option_content",
+      "previous_split_or_query_id"
+    ]
+  },
+  {
+    "id": "obqa/train/10-614",
+    "reasons": [
+      "previous_normalized_question_stem",
+      "previous_question_option_content",
+      "previous_split_or_query_id"
+    ]
+  },
+  {
+    "id": "obqa/train/10-621",
+    "reasons": [
+      "previous_normalized_question_stem",
+      "previous_question_option_content",
+      "previous_split_or_query_id"
+    ]
+  },
+  {
+    "id": "obqa/train/10-642",
+    "reasons": [
+      "previous_normalized_question_stem",
+      "previous_question_option_content",
+      "previous_split_or_query_id"
+    ]
+  },
+  {
+    "id": "obqa/train/10-652",
+    "reasons": [
+      "previous_normalized_question_stem",
+      "previous_question_option_content",
+      "previous_split_or_query_id"
+    ]
+  },
+  {
+    "id": "obqa/train/10-655",
+    "reasons": [
+      "previous_normalized_question_stem",
+      "previous_question_option_content",
+      "previous_split_or_query_id"
+    ]
+  },
+  {
+    "id": "obqa/train/10-669",
+    "reasons": [
+      "previous_normalized_question_stem"
+    ]
+  },
+  {
+    "id": "obqa/train/10-673",
+    "reasons": [
+      "previous_normalized_question_stem",
+      "previous_question_option_content",
+      "previous_split_or_query_id"
+    ]
+  },
+  {
+    "id": "obqa/train/10-680",
+    "reasons": [
+      "previous_normalized_question_stem",
+      "previous_question_option_content",
+      "previous_split_or_query_id"
+    ]
+  },
+  {
+    "id": "obqa/train/10-682",
+    "reasons": [
+      "previous_normalized_question_stem",
+      "previous_question_option_content",
+      "previous_split_or_query_id"
+    ]
+  },
+  {
+    "id": "obqa/train/10-685",
+    "reasons": [
+      "previous_normalized_question_stem",
+      "previous_question_option_content",
+      "previous_split_or_query_id"
+    ]
+  },
+  {
+    "id": "obqa/train/10-690",
+    "reasons": [
+      "previous_normalized_question_stem",
+      "previous_question_option_content",
+      "previous_split_or_query_id"
+    ]
+  },
+  {
+    "id": "obqa/train/10-712",
+    "reasons": [
+      "previous_normalized_question_stem",
+      "previous_question_option_content",
+      "previous_split_or_query_id"
+    ]
+  },
+  {
+    "id": "obqa/train/10-719",
+    "reasons": [
+      "option_position_reference"
+    ]
+  },
+  {
+    "id": "obqa/train/10-741",
+    "reasons": [
+      "previous_normalized_question_stem",
+      "previous_question_option_content",
+      "previous_split_or_query_id"
+    ]
+  },
+  {
+    "id": "obqa/train/10-774",
+    "reasons": [
+      "previous_normalized_question_stem",
+      "previous_question_option_content",
+      "previous_split_or_query_id"
+    ]
+  },
+  {
+    "id": "obqa/train/10-776",
+    "reasons": [
+      "option_position_reference"
+    ]
+  },
+  {
+    "id": "obqa/train/10-777",
+    "reasons": [
+      "previous_normalized_question_stem",
+      "previous_question_option_content",
+      "previous_split_or_query_id"
+    ]
+  },
+  {
+    "id": "obqa/train/10-805",
+    "reasons": [
+      "previous_normalized_question_stem",
+      "previous_question_option_content",
+      "previous_split_or_query_id"
+    ]
+  },
+  {
+    "id": "obqa/train/10-809",
+    "reasons": [
+      "previous_normalized_question_stem",
+      "previous_question_option_content",
+      "previous_split_or_query_id"
+    ]
+  },
+  {
+    "id": "obqa/train/10-817",
+    "reasons": [
+      "possible_missing_media"
+    ]
+  },
+  {
+    "id": "obqa/train/10-824",
+    "reasons": [
+      "previous_normalized_question_stem",
+      "previous_question_option_content",
+      "previous_split_or_query_id"
+    ]
+  },
+  {
+    "id": "obqa/train/10-852",
+    "reasons": [
+      "previous_normalized_question_stem",
+      "previous_question_option_content",
+      "previous_split_or_query_id"
+    ]
+  },
+  {
+    "id": "obqa/train/10-854",
+    "reasons": [
+      "previous_normalized_question_stem",
+      "previous_question_option_content",
+      "previous_split_or_query_id"
+    ]
+  },
+  {
+    "id": "obqa/train/10-855",
+    "reasons": [
+      "option_position_reference"
+    ]
+  },
+  {
+    "id": "obqa/train/10-870",
+    "reasons": [
+      "previous_normalized_question_stem",
+      "previous_question_option_content",
+      "previous_split_or_query_id"
+    ]
+  },
+  {
+    "id": "obqa/train/10-886",
+    "reasons": [
+      "previous_normalized_question_stem",
+      "previous_question_option_content",
+      "previous_split_or_query_id"
+    ]
+  },
+  {
+    "id": "obqa/train/10-891",
+    "reasons": [
+      "previous_normalized_question_stem",
+      "previous_question_option_content",
+      "previous_split_or_query_id"
+    ]
+  },
+  {
+    "id": "obqa/train/10-977",
+    "reasons": [
+      "previous_normalized_question_stem",
+      "previous_question_option_content",
+      "previous_split_or_query_id"
+    ]
+  },
+  {
+    "id": "obqa/train/10-1005",
+    "reasons": [
+      "previous_normalized_question_stem",
+      "previous_question_option_content",
+      "previous_split_or_query_id"
+    ]
+  },
+  {
+    "id": "obqa/train/10-1008",
+    "reasons": [
+      "previous_normalized_question_stem",
+      "previous_question_option_content",
+      "previous_split_or_query_id"
+    ]
+  },
+  {
+    "id": "obqa/train/10-1009",
+    "reasons": [
+      "previous_normalized_question_stem",
+      "previous_question_option_content",
+      "previous_split_or_query_id"
+    ]
+  },
+  {
+    "id": "obqa/train/10-1021",
+    "reasons": [
+      "previous_normalized_question_stem",
+      "previous_question_option_content",
+      "previous_split_or_query_id"
+    ]
+  },
+  {
+    "id": "obqa/train/10-1042",
+    "reasons": [
+      "previous_normalized_question_stem",
+      "previous_question_option_content",
+      "previous_split_or_query_id"
+    ]
+  },
+  {
+    "id": "obqa/train/10-1054",
+    "reasons": [
+      "previous_normalized_question_stem",
+      "previous_question_option_content",
+      "previous_split_or_query_id"
+    ]
+  },
+  {
+    "id": "obqa/train/10-1084",
+    "reasons": [
+      "previous_normalized_question_stem",
+      "previous_question_option_content",
+      "previous_split_or_query_id"
+    ]
+  },
+  {
+    "id": "obqa/train/10-1114",
+    "reasons": [
+      "previous_normalized_question_stem",
+      "previous_question_option_content",
+      "previous_split_or_query_id"
+    ]
+  },
+  {
+    "id": "obqa/train/10-1121",
+    "reasons": [
+      "duplicate_remaining_source_question"
+    ]
+  },
+  {
+    "id": "obqa/train/10-1137",
+    "reasons": [
+      "previous_normalized_question_stem",
+      "previous_question_option_content",
+      "previous_split_or_query_id"
+    ]
+  },
+  {
+    "id": "obqa/train/10-1143",
+    "reasons": [
+      "previous_normalized_question_stem",
+      "previous_question_option_content",
+      "previous_split_or_query_id"
+    ]
+  },
+  {
+    "id": "obqa/train/10-1154",
+    "reasons": [
+      "previous_normalized_question_stem",
+      "previous_question_option_content",
+      "previous_split_or_query_id"
+    ]
+  },
+  {
+    "id": "obqa/train/10-1171",
+    "reasons": [
+      "previous_normalized_question_stem",
+      "previous_question_option_content",
+      "previous_split_or_query_id"
+    ]
+  },
+  {
+    "id": "obqa/train/10-1173",
+    "reasons": [
+      "previous_normalized_question_stem",
+      "previous_question_option_content",
+      "previous_split_or_query_id"
+    ]
+  },
+  {
+    "id": "obqa/train/10-1178",
+    "reasons": [
+      "option_position_reference"
+    ]
+  },
+  {
+    "id": "obqa/train/10-1185",
+    "reasons": [
+      "previous_normalized_question_stem",
+      "previous_question_option_content",
+      "previous_split_or_query_id"
+    ]
+  },
+  {
+    "id": "obqa/train/10-1186",
+    "reasons": [
+      "duplicate_remaining_source_question"
+    ]
+  },
+  {
+    "id": "obqa/train/10-1189",
+    "reasons": [
+      "previous_normalized_question_stem",
+      "previous_question_option_content",
+      "previous_split_or_query_id"
+    ]
+  },
+  {
+    "id": "obqa/train/10-1214",
+    "reasons": [
+      "previous_normalized_question_stem",
+      "previous_question_option_content",
+      "previous_split_or_query_id"
+    ]
+  },
+  {
+    "id": "obqa/train/11-21",
+    "reasons": [
+      "previous_normalized_question_stem",
+      "previous_question_option_content",
+      "previous_split_or_query_id"
+    ]
+  },
+  {
+    "id": "obqa/train/11-30",
+    "reasons": [
+      "previous_normalized_question_stem",
+      "previous_question_option_content",
+      "previous_split_or_query_id"
+    ]
+  },
+  {
+    "id": "obqa/train/11-33",
+    "reasons": [
+      "previous_normalized_question_stem",
+      "previous_question_option_content",
+      "previous_split_or_query_id"
+    ]
+  },
+  {
+    "id": "obqa/train/11-35",
+    "reasons": [
+      "previous_normalized_question_stem",
+      "previous_question_option_content",
+      "previous_split_or_query_id"
+    ]
+  },
+  {
+    "id": "obqa/train/11-38",
+    "reasons": [
+      "possible_missing_media"
+    ]
+  },
+  {
+    "id": "obqa/train/11-75",
+    "reasons": [
+      "previous_normalized_question_stem",
+      "previous_question_option_content",
+      "previous_split_or_query_id"
+    ]
+  },
+  {
+    "id": "obqa/train/11-83",
+    "reasons": [
+      "previous_normalized_question_stem",
+      "previous_question_option_content",
+      "previous_split_or_query_id"
+    ]
+  },
+  {
+    "id": "obqa/train/11-88",
+    "reasons": [
+      "previous_normalized_question_stem",
+      "previous_question_option_content",
+      "previous_split_or_query_id"
+    ]
+  },
+  {
+    "id": "obqa/train/11-100",
+    "reasons": [
+      "previous_normalized_question_stem",
+      "previous_question_option_content",
+      "previous_split_or_query_id"
+    ]
+  },
+  {
+    "id": "obqa/train/11-111",
+    "reasons": [
+      "previous_normalized_question_stem",
+      "previous_question_option_content"
+    ]
+  },
+  {
+    "id": "obqa/train/11-112",
+    "reasons": [
+      "previous_normalized_question_stem",
+      "previous_question_option_content",
+      "previous_split_or_query_id"
+    ]
+  },
+  {
+    "id": "obqa/train/11-119",
+    "reasons": [
+      "previous_normalized_question_stem",
+      "previous_question_option_content",
+      "previous_split_or_query_id"
+    ]
+  },
+  {
+    "id": "obqa/train/11-120",
+    "reasons": [
+      "previous_normalized_question_stem",
+      "previous_question_option_content",
+      "previous_split_or_query_id"
+    ]
+  },
+  {
+    "id": "obqa/train/11-131",
+    "reasons": [
+      "previous_normalized_question_stem",
+      "previous_question_option_content",
+      "previous_split_or_query_id"
+    ]
+  },
+  {
+    "id": "obqa/train/11-134",
+    "reasons": [
+      "previous_normalized_question_stem",
+      "previous_question_option_content",
+      "previous_split_or_query_id"
+    ]
+  },
+  {
+    "id": "obqa/train/11-148",
+    "reasons": [
+      "possible_missing_media"
+    ]
+  },
+  {
+    "id": "obqa/train/11-151",
+    "reasons": [
+      "previous_normalized_question_stem",
+      "previous_question_option_content",
+      "previous_split_or_query_id"
+    ]
+  },
+  {
+    "id": "obqa/train/11-157",
+    "reasons": [
+      "previous_normalized_question_stem",
+      "previous_question_option_content",
+      "previous_split_or_query_id"
+    ]
+  },
+  {
+    "id": "obqa/train/11-165",
+    "reasons": [
+      "previous_normalized_question_stem",
+      "previous_question_option_content",
+      "previous_split_or_query_id"
+    ]
+  },
+  {
+    "id": "obqa/train/11-168",
+    "reasons": [
+      "previous_normalized_question_stem",
+      "previous_question_option_content",
+      "previous_split_or_query_id"
+    ]
+  },
+  {
+    "id": "obqa/train/11-186",
+    "reasons": [
+      "previous_normalized_question_stem",
+      "previous_question_option_content",
+      "previous_split_or_query_id"
+    ]
+  },
+  {
+    "id": "obqa/train/11-197",
+    "reasons": [
+      "previous_normalized_question_stem",
+      "previous_question_option_content",
+      "previous_split_or_query_id"
+    ]
+  },
+  {
+    "id": "obqa/train/11-199",
+    "reasons": [
+      "previous_normalized_question_stem",
+      "previous_question_option_content",
+      "previous_split_or_query_id"
+    ]
+  },
+  {
+    "id": "obqa/train/11-209",
+    "reasons": [
+      "previous_normalized_question_stem",
+      "previous_question_option_content",
+      "previous_split_or_query_id"
+    ]
+  },
+  {
+    "id": "obqa/train/11-218",
+    "reasons": [
+      "previous_normalized_question_stem",
+      "previous_question_option_content",
+      "previous_split_or_query_id"
+    ]
+  },
+  {
+    "id": "obqa/train/11-222",
+    "reasons": [
+      "possible_missing_media"
+    ]
+  },
+  {
+    "id": "obqa/train/11-231",
+    "reasons": [
+      "previous_normalized_question_stem",
+      "previous_question_option_content",
+      "previous_split_or_query_id"
+    ]
+  },
+  {
+    "id": "obqa/train/11-234",
+    "reasons": [
+      "previous_normalized_question_stem",
+      "previous_question_option_content",
+      "previous_split_or_query_id"
+    ]
+  },
+  {
+    "id": "obqa/train/11-237",
+    "reasons": [
+      "previous_normalized_question_stem",
+      "previous_question_option_content",
+      "previous_split_or_query_id"
+    ]
+  },
+  {
+    "id": "obqa/train/11-239",
+    "reasons": [
+      "option_position_reference"
+    ]
+  },
+  {
+    "id": "obqa/train/11-264",
+    "reasons": [
+      "option_position_reference"
+    ]
+  },
+  {
+    "id": "obqa/train/11-267",
+    "reasons": [
+      "previous_normalized_question_stem",
+      "previous_question_option_content",
+      "previous_split_or_query_id"
+    ]
+  },
+  {
+    "id": "obqa/train/11-272",
+    "reasons": [
+      "possible_missing_media"
+    ]
+  },
+  {
+    "id": "obqa/train/11-275",
+    "reasons": [
+      "option_position_reference"
+    ]
+  },
+  {
+    "id": "obqa/train/11-280",
+    "reasons": [
+      "previous_normalized_question_stem",
+      "previous_question_option_content",
+      "previous_split_or_query_id"
+    ]
+  },
+  {
+    "id": "obqa/train/11-294",
+    "reasons": [
+      "previous_normalized_question_stem",
+      "previous_question_option_content",
+      "previous_split_or_query_id"
+    ]
+  },
+  {
+    "id": "obqa/train/11-305",
+    "reasons": [
+      "previous_normalized_question_stem",
+      "previous_question_option_content",
+      "previous_split_or_query_id"
+    ]
+  },
+  {
+    "id": "obqa/train/11-314",
+    "reasons": [
+      "previous_normalized_question_stem",
+      "previous_question_option_content",
+      "previous_split_or_query_id"
+    ]
+  },
+  {
+    "id": "obqa/train/11-322",
+    "reasons": [
+      "previous_normalized_question_stem",
+      "previous_question_option_content",
+      "previous_split_or_query_id"
+    ]
+  },
+  {
+    "id": "obqa/train/11-327",
+    "reasons": [
+      "previous_normalized_question_stem",
+      "previous_question_option_content",
+      "previous_split_or_query_id"
+    ]
+  },
+  {
+    "id": "obqa/train/11-333",
+    "reasons": [
+      "previous_normalized_question_stem",
+      "previous_question_option_content",
+      "previous_split_or_query_id"
+    ]
+  },
+  {
+    "id": "obqa/train/11-334",
+    "reasons": [
+      "previous_normalized_question_stem",
+      "previous_question_option_content",
+      "previous_split_or_query_id"
+    ]
+  },
+  {
+    "id": "obqa/train/11-339",
+    "reasons": [
+      "previous_normalized_question_stem",
+      "previous_question_option_content",
+      "previous_split_or_query_id"
+    ]
+  },
+  {
+    "id": "obqa/train/11-347",
+    "reasons": [
+      "previous_normalized_question_stem",
+      "previous_question_option_content",
+      "previous_split_or_query_id"
+    ]
+  },
+  {
+    "id": "obqa/train/11-375",
+    "reasons": [
+      "previous_normalized_question_stem",
+      "previous_question_option_content",
+      "previous_split_or_query_id"
+    ]
+  },
+  {
+    "id": "obqa/train/11-380",
+    "reasons": [
+      "previous_normalized_question_stem",
+      "previous_question_option_content",
+      "previous_split_or_query_id"
+    ]
+  },
+  {
+    "id": "obqa/train/11-392",
+    "reasons": [
+      "previous_normalized_question_stem",
+      "previous_question_option_content",
+      "previous_split_or_query_id"
+    ]
+  },
+  {
+    "id": "obqa/train/11-397",
+    "reasons": [
+      "previous_normalized_question_stem",
+      "previous_question_option_content",
+      "previous_split_or_query_id"
+    ]
+  },
+  {
+    "id": "obqa/train/11-412",
+    "reasons": [
+      "previous_normalized_question_stem",
+      "previous_question_option_content",
+      "previous_split_or_query_id"
+    ]
+  },
+  {
+    "id": "obqa/train/11-440",
+    "reasons": [
+      "previous_normalized_question_stem",
+      "previous_question_option_content",
+      "previous_split_or_query_id"
+    ]
+  },
+  {
+    "id": "obqa/train/11-446",
+    "reasons": [
+      "previous_normalized_question_stem",
+      "previous_question_option_content",
+      "previous_split_or_query_id"
+    ]
+  },
+  {
+    "id": "obqa/train/11-449",
+    "reasons": [
+      "previous_normalized_question_stem",
+      "previous_question_option_content",
+      "previous_split_or_query_id"
+    ]
+  },
+  {
+    "id": "obqa/train/11-459",
+    "reasons": [
+      "previous_normalized_question_stem",
+      "previous_question_option_content",
+      "previous_split_or_query_id"
+    ]
+  },
+  {
+    "id": "obqa/train/11-472",
+    "reasons": [
+      "previous_normalized_question_stem",
+      "previous_question_option_content",
+      "previous_split_or_query_id"
+    ]
+  },
+  {
+    "id": "obqa/train/11-478",
+    "reasons": [
+      "previous_normalized_question_stem",
+      "previous_question_option_content",
+      "previous_split_or_query_id"
+    ]
+  },
+  {
+    "id": "obqa/train/11-492",
+    "reasons": [
+      "possible_missing_media"
+    ]
+  },
+  {
+    "id": "obqa/train/11-521",
+    "reasons": [
+      "previous_normalized_question_stem",
+      "previous_question_option_content",
+      "previous_split_or_query_id"
+    ]
+  },
+  {
+    "id": "obqa/train/11-530",
+    "reasons": [
+      "previous_normalized_question_stem",
+      "previous_question_option_content",
+      "previous_split_or_query_id"
+    ]
+  },
+  {
+    "id": "obqa/train/11-531",
+    "reasons": [
+      "previous_normalized_question_stem",
+      "previous_question_option_content",
+      "previous_split_or_query_id"
+    ]
+  },
+  {
+    "id": "obqa/train/11-562",
+    "reasons": [
+      "previous_normalized_question_stem",
+      "previous_question_option_content",
+      "previous_split_or_query_id"
+    ]
+  },
+  {
+    "id": "obqa/train/11-579",
+    "reasons": [
+      "previous_normalized_question_stem",
+      "previous_question_option_content",
+      "previous_split_or_query_id"
+    ]
+  },
+  {
+    "id": "obqa/train/11-587",
+    "reasons": [
+      "previous_normalized_question_stem",
+      "previous_question_option_content",
+      "previous_split_or_query_id"
+    ]
+  },
+  {
+    "id": "obqa/train/11-588",
+    "reasons": [
+      "previous_normalized_question_stem",
+      "previous_question_option_content",
+      "previous_split_or_query_id"
+    ]
+  },
+  {
+    "id": "obqa/train/11-594",
+    "reasons": [
+      "previous_normalized_question_stem",
+      "previous_question_option_content",
+      "previous_split_or_query_id"
+    ]
+  },
+  {
+    "id": "obqa/train/11-614",
+    "reasons": [
+      "previous_normalized_question_stem",
+      "previous_question_option_content",
+      "previous_split_or_query_id"
+    ]
+  },
+  {
+    "id": "obqa/train/11-615",
+    "reasons": [
+      "previous_normalized_question_stem",
+      "previous_question_option_content",
+      "previous_split_or_query_id"
+    ]
+  },
+  {
+    "id": "obqa/train/11-632",
+    "reasons": [
+      "previous_normalized_question_stem",
+      "previous_question_option_content",
+      "previous_split_or_query_id"
+    ]
+  },
+  {
+    "id": "obqa/train/11-645",
+    "reasons": [
+      "previous_normalized_question_stem",
+      "previous_question_option_content",
+      "previous_split_or_query_id"
+    ]
+  },
+  {
+    "id": "obqa/train/11-648",
+    "reasons": [
+      "previous_normalized_question_stem",
+      "previous_question_option_content",
+      "previous_split_or_query_id"
+    ]
+  },
+  {
+    "id": "obqa/train/11-655",
+    "reasons": [
+      "previous_normalized_question_stem",
+      "previous_question_option_content",
+      "previous_split_or_query_id"
+    ]
+  },
+  {
+    "id": "obqa/train/11-679",
+    "reasons": [
+      "previous_normalized_question_stem",
+      "previous_question_option_content",
+      "previous_split_or_query_id"
+    ]
+  },
+  {
+    "id": "obqa/train/11-695",
+    "reasons": [
+      "previous_normalized_question_stem",
+      "previous_question_option_content",
+      "previous_split_or_query_id"
+    ]
+  },
+  {
+    "id": "obqa/train/11-697",
+    "reasons": [
+      "previous_normalized_question_stem",
+      "previous_question_option_content",
+      "previous_split_or_query_id"
+    ]
+  },
+  {
+    "id": "obqa/train/11-698",
+    "reasons": [
+      "previous_normalized_question_stem",
+      "previous_question_option_content",
+      "previous_split_or_query_id"
+    ]
+  },
+  {
+    "id": "obqa/train/11-699",
+    "reasons": [
+      "previous_normalized_question_stem",
+      "previous_question_option_content",
+      "previous_split_or_query_id"
+    ]
+  },
+  {
+    "id": "obqa/train/11-703",
+    "reasons": [
+      "previous_normalized_question_stem",
+      "previous_question_option_content",
+      "previous_split_or_query_id"
+    ]
+  },
+  {
+    "id": "obqa/train/11-728",
+    "reasons": [
+      "previous_normalized_question_stem",
+      "previous_question_option_content",
+      "previous_split_or_query_id"
+    ]
+  },
+  {
+    "id": "obqa/train/11-742",
+    "reasons": [
+      "previous_normalized_question_stem",
+      "previous_question_option_content"
+    ]
+  },
+  {
+    "id": "obqa/train/11-748",
+    "reasons": [
+      "previous_normalized_question_stem",
+      "previous_question_option_content",
+      "previous_split_or_query_id"
+    ]
+  },
+  {
+    "id": "obqa/train/12-25",
+    "reasons": [
+      "previous_normalized_question_stem",
+      "previous_question_option_content",
+      "previous_split_or_query_id"
+    ]
+  },
+  {
+    "id": "obqa/train/12-31",
+    "reasons": [
+      "previous_normalized_question_stem",
+      "previous_question_option_content",
+      "previous_split_or_query_id"
+    ]
+  },
+  {
+    "id": "obqa/train/12-37",
+    "reasons": [
+      "previous_normalized_question_stem",
+      "previous_question_option_content",
+      "previous_split_or_query_id"
+    ]
+  },
+  {
+    "id": "obqa/train/12-38",
+    "reasons": [
+      "previous_normalized_question_stem",
+      "previous_question_option_content",
+      "previous_split_or_query_id"
+    ]
+  },
+  {
+    "id": "obqa/train/12-50",
+    "reasons": [
+      "previous_normalized_question_stem",
+      "previous_question_option_content",
+      "previous_split_or_query_id"
+    ]
+  },
+  {
+    "id": "obqa/train/12-71",
+    "reasons": [
+      "possible_missing_media"
+    ]
+  },
+  {
+    "id": "obqa/train/12-73",
+    "reasons": [
+      "previous_normalized_question_stem",
+      "previous_question_option_content",
+      "previous_split_or_query_id"
+    ]
+  },
+  {
+    "id": "obqa/train/12-75",
+    "reasons": [
+      "previous_normalized_question_stem",
+      "previous_question_option_content",
+      "previous_split_or_query_id"
+    ]
+  },
+  {
+    "id": "obqa/train/12-87",
+    "reasons": [
+      "previous_normalized_question_stem"
+    ]
+  },
+  {
+    "id": "obqa/train/12-89",
+    "reasons": [
+      "duplicate_remaining_source_question"
+    ]
+  },
+  {
+    "id": "obqa/train/12-90",
+    "reasons": [
+      "previous_normalized_question_stem",
+      "previous_question_option_content",
+      "previous_split_or_query_id"
+    ]
+  },
+  {
+    "id": "obqa/train/12-92",
+    "reasons": [
+      "duplicate_remaining_source_question"
+    ]
+  },
+  {
+    "id": "obqa/train/12-97",
+    "reasons": [
+      "previous_normalized_question_stem",
+      "previous_question_option_content",
+      "previous_split_or_query_id"
+    ]
+  },
+  {
+    "id": "obqa/train/12-99",
+    "reasons": [
+      "previous_normalized_question_stem",
+      "previous_question_option_content",
+      "previous_split_or_query_id"
+    ]
+  },
+  {
+    "id": "obqa/train/12-101",
+    "reasons": [
+      "duplicate_remaining_source_question"
+    ]
+  },
+  {
+    "id": "obqa/train/12-124",
+    "reasons": [
+      "previous_normalized_question_stem",
+      "previous_question_option_content",
+      "previous_split_or_query_id"
+    ]
+  },
+  {
+    "id": "obqa/train/12-149",
+    "reasons": [
+      "possible_missing_media"
+    ]
+  },
+  {
+    "id": "obqa/train/12-159",
+    "reasons": [
+      "previous_normalized_question_stem",
+      "previous_question_option_content"
+    ]
+  },
+  {
+    "id": "obqa/train/12-173",
+    "reasons": [
+      "previous_normalized_question_stem",
+      "previous_question_option_content",
+      "previous_split_or_query_id"
+    ]
+  },
+  {
+    "id": "obqa/train/12-183",
+    "reasons": [
+      "previous_normalized_question_stem",
+      "previous_question_option_content",
+      "previous_split_or_query_id"
+    ]
+  },
+  {
+    "id": "obqa/train/12-194",
+    "reasons": [
+      "previous_normalized_question_stem"
+    ]
+  },
+  {
+    "id": "obqa/train/12-200",
+    "reasons": [
+      "previous_normalized_question_stem",
+      "previous_question_option_content",
+      "previous_split_or_query_id"
+    ]
+  },
+  {
+    "id": "obqa/train/12-204",
+    "reasons": [
+      "duplicate_remaining_source_question"
+    ]
+  },
+  {
+    "id": "obqa/train/12-207",
+    "reasons": [
+      "previous_normalized_question_stem",
+      "previous_question_option_content",
+      "previous_split_or_query_id"
+    ]
+  },
+  {
+    "id": "obqa/train/12-209",
+    "reasons": [
+      "previous_normalized_question_stem"
+    ]
+  },
+  {
+    "id": "obqa/train/12-212",
+    "reasons": [
+      "previous_normalized_question_stem",
+      "previous_question_option_content",
+      "previous_split_or_query_id"
+    ]
+  },
+  {
+    "id": "obqa/train/12-218",
+    "reasons": [
+      "previous_normalized_question_stem",
+      "previous_question_option_content",
+      "previous_split_or_query_id"
+    ]
+  },
+  {
+    "id": "obqa/train/12-225",
+    "reasons": [
+      "previous_normalized_question_stem",
+      "previous_question_option_content",
+      "previous_split_or_query_id"
+    ]
+  },
+  {
+    "id": "obqa/train/12-227",
+    "reasons": [
+      "duplicate_remaining_source_question"
+    ]
+  },
+  {
+    "id": "obqa/train/12-228",
+    "reasons": [
+      "previous_normalized_question_stem",
+      "previous_question_option_content",
+      "previous_split_or_query_id"
+    ]
+  },
+  {
+    "id": "obqa/train/12-230",
+    "reasons": [
+      "duplicate_remaining_source_question"
+    ]
+  },
+  {
+    "id": "obqa/train/12-244",
+    "reasons": [
+      "previous_normalized_question_stem"
+    ]
+  },
+  {
+    "id": "obqa/train/12-253",
+    "reasons": [
+      "previous_normalized_question_stem"
+    ]
+  },
+  {
+    "id": "obqa/train/12-255",
+    "reasons": [
+      "previous_normalized_question_stem",
+      "previous_question_option_content",
+      "previous_split_or_query_id"
+    ]
+  },
+  {
+    "id": "obqa/train/12-259",
+    "reasons": [
+      "relative_option_reference"
+    ]
+  },
+  {
+    "id": "obqa/train/12-261",
+    "reasons": [
+      "previous_normalized_question_stem"
+    ]
+  },
+  {
+    "id": "obqa/train/12-272",
+    "reasons": [
+      "duplicate_remaining_source_question"
+    ]
+  },
+  {
+    "id": "obqa/train/12-290",
+    "reasons": [
+      "previous_normalized_question_stem",
+      "previous_question_option_content",
+      "previous_split_or_query_id"
+    ]
+  },
+  {
+    "id": "obqa/train/12-328",
+    "reasons": [
+      "previous_normalized_question_stem",
+      "previous_question_option_content",
+      "previous_split_or_query_id"
+    ]
+  },
+  {
+    "id": "obqa/train/12-331",
+    "reasons": [
+      "duplicate_options"
+    ]
+  },
+  {
+    "id": "obqa/train/12-334",
+    "reasons": [
+      "duplicate_remaining_source_question"
+    ]
+  },
+  {
+    "id": "obqa/train/12-335",
+    "reasons": [
+      "duplicate_remaining_source_question"
+    ]
+  },
+  {
+    "id": "obqa/train/12-339",
+    "reasons": [
+      "duplicate_remaining_source_question"
+    ]
+  },
+  {
+    "id": "obqa/train/12-353",
+    "reasons": [
+      "previous_normalized_question_stem"
+    ]
+  },
+  {
+    "id": "obqa/train/12-406",
+    "reasons": [
+      "previous_normalized_question_stem",
+      "previous_question_option_content",
+      "previous_split_or_query_id"
+    ]
+  },
+  {
+    "id": "obqa/train/12-408",
+    "reasons": [
+      "duplicate_options"
+    ]
+  },
+  {
+    "id": "obqa/train/12-411",
+    "reasons": [
+      "previous_normalized_question_stem",
+      "previous_question_option_content",
+      "previous_split_or_query_id"
+    ]
+  },
+  {
+    "id": "obqa/train/12-416",
+    "reasons": [
+      "previous_normalized_question_stem",
+      "previous_question_option_content",
+      "previous_split_or_query_id"
+    ]
+  },
+  {
+    "id": "obqa/train/12-438",
+    "reasons": [
+      "previous_normalized_question_stem",
+      "previous_question_option_content",
+      "previous_split_or_query_id"
+    ]
+  },
+  {
+    "id": "obqa/train/12-444",
+    "reasons": [
+      "previous_normalized_question_stem",
+      "previous_question_option_content",
+      "previous_split_or_query_id"
+    ]
+  },
+  {
+    "id": "obqa/train/12-463",
+    "reasons": [
+      "previous_normalized_question_stem",
+      "previous_question_option_content",
+      "previous_split_or_query_id"
+    ]
+  },
+  {
+    "id": "obqa/train/12-464",
+    "reasons": [
+      "previous_normalized_question_stem",
+      "previous_question_option_content",
+      "previous_split_or_query_id"
+    ]
+  },
+  {
+    "id": "obqa/train/12-478",
+    "reasons": [
+      "duplicate_remaining_source_question"
+    ]
+  },
+  {
+    "id": "obqa/train/12-485",
+    "reasons": [
+      "previous_normalized_question_stem",
+      "previous_question_option_content",
+      "previous_split_or_query_id"
+    ]
+  },
+  {
+    "id": "obqa/train/12-488",
+    "reasons": [
+      "option_position_reference"
+    ]
+  },
+  {
+    "id": "obqa/train/12-496",
+    "reasons": [
+      "previous_normalized_question_stem",
+      "previous_question_option_content",
+      "previous_split_or_query_id"
+    ]
+  },
+  {
+    "id": "obqa/train/12-509",
+    "reasons": [
+      "previous_normalized_question_stem",
+      "previous_question_option_content",
+      "previous_split_or_query_id"
+    ]
+  },
+  {
+    "id": "obqa/train/12-511",
+    "reasons": [
+      "previous_normalized_question_stem",
+      "previous_question_option_content",
+      "previous_split_or_query_id"
+    ]
+  },
+  {
+    "id": "obqa/train/12-516",
+    "reasons": [
+      "previous_normalized_question_stem",
+      "previous_question_option_content",
+      "previous_split_or_query_id"
+    ]
+  },
+  {
+    "id": "obqa/train/12-531",
+    "reasons": [
+      "duplicate_remaining_source_question"
+    ]
+  },
+  {
+    "id": "obqa/train/12-535",
+    "reasons": [
+      "previous_normalized_question_stem",
+      "previous_question_option_content",
+      "previous_split_or_query_id"
+    ]
+  },
+  {
+    "id": "obqa/train/12-541",
+    "reasons": [
+      "previous_normalized_question_stem",
+      "previous_question_option_content",
+      "previous_split_or_query_id"
+    ]
+  },
+  {
+    "id": "obqa/train/12-566",
+    "reasons": [
+      "duplicate_remaining_source_question"
+    ]
+  },
+  {
+    "id": "obqa/train/12-577",
+    "reasons": [
+      "previous_normalized_question_stem",
+      "previous_question_option_content",
+      "previous_split_or_query_id"
+    ]
+  },
+  {
+    "id": "obqa/train/12-578",
+    "reasons": [
+      "previous_normalized_question_stem",
+      "previous_question_option_content",
+      "previous_split_or_query_id"
+    ]
+  },
+  {
+    "id": "obqa/train/12-579",
+    "reasons": [
+      "previous_normalized_question_stem",
+      "previous_question_option_content",
+      "previous_split_or_query_id"
+    ]
+  },
+  {
+    "id": "obqa/train/12-589",
+    "reasons": [
+      "previous_normalized_question_stem"
+    ]
+  },
+  {
+    "id": "obqa/train/12-597",
+    "reasons": [
+      "previous_normalized_question_stem",
+      "previous_question_option_content",
+      "previous_split_or_query_id"
+    ]
+  },
+  {
+    "id": "obqa/train/12-603",
+    "reasons": [
+      "previous_normalized_question_stem"
+    ]
+  },
+  {
+    "id": "obqa/train/12-605",
+    "reasons": [
+      "previous_normalized_question_stem"
+    ]
+  },
+  {
+    "id": "obqa/train/12-613",
+    "reasons": [
+      "previous_normalized_question_stem"
+    ]
+  },
+  {
+    "id": "obqa/train/12-623",
+    "reasons": [
+      "previous_normalized_question_stem"
+    ]
+  },
+  {
+    "id": "obqa/train/12-629",
+    "reasons": [
+      "previous_normalized_question_stem",
+      "previous_question_option_content",
+      "previous_split_or_query_id"
+    ]
+  },
+  {
+    "id": "obqa/train/12-645",
+    "reasons": [
+      "previous_normalized_question_stem",
+      "previous_question_option_content"
+    ]
+  },
+  {
+    "id": "obqa/train/12-649",
+    "reasons": [
+      "previous_normalized_question_stem",
+      "previous_question_option_content",
+      "previous_split_or_query_id"
+    ]
+  },
+  {
+    "id": "obqa/train/12-651",
+    "reasons": [
+      "duplicate_remaining_source_question"
+    ]
+  },
+  {
+    "id": "obqa/train/12-666",
+    "reasons": [
+      "previous_normalized_question_stem",
+      "previous_question_option_content",
+      "previous_split_or_query_id"
+    ]
+  },
+  {
+    "id": "obqa/train/12-667",
+    "reasons": [
+      "previous_normalized_question_stem"
+    ]
+  },
+  {
+    "id": "obqa/train/12-669",
+    "reasons": [
+      "previous_normalized_question_stem",
+      "previous_question_option_content",
+      "previous_split_or_query_id"
+    ]
+  },
+  {
+    "id": "obqa/train/12-672",
+    "reasons": [
+      "previous_normalized_question_stem",
+      "previous_question_option_content",
+      "previous_split_or_query_id"
+    ]
+  },
+  {
+    "id": "obqa/train/12-674",
+    "reasons": [
+      "previous_normalized_question_stem",
+      "previous_question_option_content",
+      "previous_split_or_query_id"
+    ]
+  },
+  {
+    "id": "obqa/train/12-683",
+    "reasons": [
+      "previous_normalized_question_stem",
+      "previous_question_option_content",
+      "previous_split_or_query_id"
+    ]
+  },
+  {
+    "id": "obqa/train/12-693",
+    "reasons": [
+      "previous_normalized_question_stem",
+      "previous_question_option_content",
+      "previous_split_or_query_id"
+    ]
+  },
+  {
+    "id": "obqa/train/12-694",
+    "reasons": [
+      "previous_normalized_question_stem",
+      "previous_question_option_content",
+      "previous_split_or_query_id"
+    ]
+  },
+  {
+    "id": "obqa/train/12-706",
+    "reasons": [
+      "duplicate_remaining_source_question"
+    ]
+  },
+  {
+    "id": "obqa/train/12-711",
+    "reasons": [
+      "previous_normalized_question_stem",
+      "previous_question_option_content",
+      "previous_split_or_query_id"
+    ]
+  },
+  {
+    "id": "obqa/train/12-714",
+    "reasons": [
+      "previous_normalized_question_stem",
+      "previous_question_option_content",
+      "previous_split_or_query_id"
+    ]
+  },
+  {
+    "id": "obqa/train/12-719",
+    "reasons": [
+      "previous_normalized_question_stem",
+      "previous_question_option_content",
+      "previous_split_or_query_id"
+    ]
+  },
+  {
+    "id": "obqa/train/12-741",
+    "reasons": [
+      "previous_normalized_question_stem",
+      "previous_question_option_content",
+      "previous_split_or_query_id"
+    ]
+  },
+  {
+    "id": "obqa/train/12-744",
+    "reasons": [
+      "previous_normalized_question_stem",
+      "previous_question_option_content",
+      "previous_split_or_query_id"
+    ]
+  },
+  {
+    "id": "obqa/train/12-769",
+    "reasons": [
+      "previous_normalized_question_stem",
+      "previous_question_option_content",
+      "previous_split_or_query_id"
+    ]
+  },
+  {
+    "id": "obqa/train/12-774",
+    "reasons": [
+      "previous_normalized_question_stem",
+      "previous_question_option_content",
+      "previous_split_or_query_id"
+    ]
+  },
+  {
+    "id": "obqa/train/12-782",
+    "reasons": [
+      "duplicate_remaining_source_question"
+    ]
+  },
+  {
+    "id": "obqa/train/12-784",
+    "reasons": [
+      "previous_normalized_question_stem",
+      "previous_question_option_content",
+      "previous_split_or_query_id"
+    ]
+  },
+  {
+    "id": "obqa/train/12-792",
+    "reasons": [
+      "previous_normalized_question_stem",
+      "previous_question_option_content",
+      "previous_split_or_query_id"
+    ]
+  },
+  {
+    "id": "obqa/train/12-795",
+    "reasons": [
+      "duplicate_remaining_source_question"
+    ]
+  },
+  {
+    "id": "obqa/train/12-796",
+    "reasons": [
+      "previous_normalized_question_stem",
+      "previous_question_option_content",
+      "previous_split_or_query_id"
+    ]
+  },
+  {
+    "id": "obqa/train/12-804",
+    "reasons": [
+      "previous_normalized_question_stem",
+      "previous_question_option_content",
+      "previous_split_or_query_id"
+    ]
+  },
+  {
+    "id": "obqa/train/12-808",
+    "reasons": [
+      "previous_normalized_question_stem",
+      "previous_question_option_content",
+      "previous_split_or_query_id"
+    ]
+  },
+  {
+    "id": "obqa/train/12-817",
+    "reasons": [
+      "previous_normalized_question_stem",
+      "previous_question_option_content",
+      "previous_split_or_query_id"
+    ]
+  },
+  {
+    "id": "obqa/train/12-821",
+    "reasons": [
+      "previous_normalized_question_stem",
+      "previous_question_option_content",
+      "previous_split_or_query_id"
+    ]
+  },
+  {
+    "id": "obqa/train/12-835",
+    "reasons": [
+      "previous_normalized_question_stem",
+      "previous_question_option_content",
+      "previous_split_or_query_id"
+    ]
+  },
+  {
+    "id": "obqa/train/12-851",
+    "reasons": [
+      "previous_normalized_question_stem",
+      "previous_question_option_content",
+      "previous_split_or_query_id"
+    ]
+  },
+  {
+    "id": "obqa/train/12-882",
+    "reasons": [
+      "previous_normalized_question_stem",
+      "previous_question_option_content",
+      "previous_split_or_query_id"
+    ]
+  },
+  {
+    "id": "obqa/train/12-888",
+    "reasons": [
+      "previous_normalized_question_stem",
+      "previous_question_option_content",
+      "previous_split_or_query_id"
+    ]
+  },
+  {
+    "id": "obqa/train/12-897",
+    "reasons": [
+      "duplicate_remaining_source_question"
+    ]
+  },
+  {
+    "id": "obqa/train/12-907",
+    "reasons": [
+      "previous_normalized_question_stem",
+      "previous_question_option_content",
+      "previous_split_or_query_id"
+    ]
+  },
+  {
+    "id": "obqa/train/12-910",
+    "reasons": [
+      "previous_normalized_question_stem",
+      "previous_question_option_content",
+      "previous_split_or_query_id"
+    ]
+  },
+  {
+    "id": "obqa/train/12-914",
+    "reasons": [
+      "previous_normalized_question_stem",
+      "previous_question_option_content",
+      "previous_split_or_query_id"
+    ]
+  },
+  {
+    "id": "obqa/train/12-936",
+    "reasons": [
+      "previous_normalized_question_stem",
+      "previous_question_option_content",
+      "previous_split_or_query_id"
+    ]
+  },
+  {
+    "id": "obqa/train/12-942",
+    "reasons": [
+      "previous_normalized_question_stem",
+      "previous_question_option_content",
+      "previous_split_or_query_id"
+    ]
+  },
+  {
+    "id": "obqa/train/12-947",
+    "reasons": [
+      "duplicate_remaining_source_question"
+    ]
+  },
+  {
+    "id": "obqa/train/12-959",
+    "reasons": [
+      "previous_normalized_question_stem",
+      "previous_question_option_content",
+      "previous_split_or_query_id"
+    ]
+  },
+  {
+    "id": "obqa/train/12-964",
+    "reasons": [
+      "previous_normalized_question_stem",
+      "previous_question_option_content",
+      "previous_split_or_query_id"
+    ]
+  },
+  {
+    "id": "obqa/train/12-978",
+    "reasons": [
+      "previous_normalized_question_stem",
+      "previous_question_option_content",
+      "previous_split_or_query_id"
+    ]
+  },
+  {
+    "id": "obqa/train/12-986",
+    "reasons": [
+      "previous_normalized_question_stem"
+    ]
+  },
+  {
+    "id": "obqa/train/12-988",
+    "reasons": [
+      "previous_normalized_question_stem",
+      "previous_question_option_content",
+      "previous_split_or_query_id"
+    ]
+  },
+  {
+    "id": "obqa/train/12-989",
+    "reasons": [
+      "previous_normalized_question_stem",
+      "previous_question_option_content",
+      "previous_split_or_query_id"
+    ]
+  },
+  {
+    "id": "obqa/train/12-1001",
+    "reasons": [
+      "previous_normalized_question_stem"
+    ]
+  },
+  {
+    "id": "obqa/train/12-1006",
+    "reasons": [
+      "previous_normalized_question_stem",
+      "previous_question_option_content",
+      "previous_split_or_query_id"
+    ]
+  },
+  {
+    "id": "obqa/train/12-1007",
+    "reasons": [
+      "previous_normalized_question_stem",
+      "previous_question_option_content",
+      "previous_split_or_query_id"
+    ]
+  },
+  {
+    "id": "obqa/train/12-1015",
+    "reasons": [
+      "previous_normalized_question_stem",
+      "previous_question_option_content",
+      "previous_split_or_query_id"
+    ]
+  },
+  {
+    "id": "obqa/train/12-1016",
+    "reasons": [
+      "possible_missing_media"
+    ]
+  },
+  {
+    "id": "obqa/train/12-1035",
+    "reasons": [
+      "previous_normalized_question_stem"
+    ]
+  },
+  {
+    "id": "obqa/train/12-1038",
+    "reasons": [
+      "previous_normalized_question_stem",
+      "previous_question_option_content",
+      "previous_split_or_query_id"
+    ]
+  },
+  {
+    "id": "obqa/train/12-1046",
+    "reasons": [
+      "possible_missing_media"
+    ]
+  },
+  {
+    "id": "obqa/train/12-1047",
+    "reasons": [
+      "duplicate_remaining_source_question"
+    ]
+  },
+  {
+    "id": "obqa/train/12-1054",
+    "reasons": [
+      "previous_normalized_question_stem",
+      "previous_question_option_content",
+      "previous_split_or_query_id"
+    ]
+  },
+  {
+    "id": "obqa/train/12-1056",
+    "reasons": [
+      "previous_normalized_question_stem",
+      "previous_question_option_content",
+      "previous_split_or_query_id"
+    ]
+  },
+  {
+    "id": "obqa/train/12-1057",
+    "reasons": [
+      "previous_normalized_question_stem",
+      "previous_question_option_content",
+      "previous_split_or_query_id"
+    ]
+  },
+  {
+    "id": "obqa/train/12-1090",
+    "reasons": [
+      "previous_normalized_question_stem",
+      "previous_question_option_content",
+      "previous_split_or_query_id"
+    ]
+  },
+  {
+    "id": "obqa/train/12-1108",
+    "reasons": [
+      "previous_normalized_question_stem",
+      "previous_question_option_content",
+      "previous_split_or_query_id"
+    ]
+  },
+  {
+    "id": "obqa/train/12-1112",
+    "reasons": [
+      "previous_normalized_question_stem",
+      "previous_question_option_content",
+      "previous_split_or_query_id"
+    ]
+  },
+  {
+    "id": "obqa/train/12-1125",
+    "reasons": [
+      "previous_normalized_question_stem",
+      "previous_question_option_content",
+      "previous_split_or_query_id"
+    ]
+  },
+  {
+    "id": "obqa/train/12-1137",
+    "reasons": [
+      "duplicate_remaining_source_question"
+    ]
+  },
+  {
+    "id": "obqa/train/12-1140",
+    "reasons": [
+      "previous_normalized_question_stem",
+      "previous_question_option_content",
+      "previous_split_or_query_id"
+    ]
+  },
+  {
+    "id": "obqa/train/12-1143",
+    "reasons": [
+      "previous_normalized_question_stem",
+      "previous_question_option_content",
+      "previous_split_or_query_id"
+    ]
+  },
+  {
+    "id": "obqa/train/12-1146",
+    "reasons": [
+      "previous_normalized_question_stem",
+      "previous_question_option_content",
+      "previous_split_or_query_id"
+    ]
+  },
+  {
+    "id": "obqa/train/12-1157",
+    "reasons": [
+      "previous_normalized_question_stem",
+      "previous_question_option_content",
+      "previous_split_or_query_id"
+    ]
+  },
+  {
+    "id": "obqa/train/12-1165",
+    "reasons": [
+      "previous_normalized_question_stem",
+      "previous_question_option_content",
+      "previous_split_or_query_id"
+    ]
+  },
+  {
+    "id": "obqa/train/12-1168",
+    "reasons": [
+      "previous_normalized_question_stem",
+      "previous_question_option_content",
+      "previous_split_or_query_id"
+    ]
+  },
+  {
+    "id": "obqa/train/12-1174",
+    "reasons": [
+      "previous_normalized_question_stem",
+      "previous_question_option_content",
+      "previous_split_or_query_id"
+    ]
+  },
+  {
+    "id": "obqa/train/12-1177",
+    "reasons": [
+      "previous_normalized_question_stem",
+      "previous_question_option_content",
+      "previous_split_or_query_id"
+    ]
+  },
+  {
+    "id": "obqa/train/12-1209",
+    "reasons": [
+      "duplicate_remaining_source_question"
+    ]
+  },
+  {
+    "id": "obqa/train/12-1212",
+    "reasons": [
+      "duplicate_remaining_source_question"
+    ]
+  },
+  {
+    "id": "obqa/train/13-1",
+    "reasons": [
+      "previous_normalized_question_stem",
+      "previous_question_option_content",
+      "previous_split_or_query_id"
+    ]
+  },
+  {
+    "id": "obqa/train/13-12",
+    "reasons": [
+      "previous_normalized_question_stem",
+      "previous_question_option_content",
+      "previous_split_or_query_id"
+    ]
+  },
+  {
+    "id": "obqa/train/13-23",
+    "reasons": [
+      "previous_normalized_question_stem",
+      "previous_question_option_content",
+      "previous_split_or_query_id"
+    ]
+  },
+  {
+    "id": "obqa/train/13-32",
+    "reasons": [
+      "previous_normalized_question_stem",
+      "previous_question_option_content",
+      "previous_split_or_query_id"
+    ]
+  },
+  {
+    "id": "obqa/train/13-40",
+    "reasons": [
+      "previous_normalized_question_stem",
+      "previous_question_option_content",
+      "previous_split_or_query_id"
+    ]
+  },
+  {
+    "id": "obqa/train/13-74",
+    "reasons": [
+      "duplicate_remaining_source_question"
+    ]
+  },
+  {
+    "id": "obqa/train/13-76",
+    "reasons": [
+      "option_position_reference"
+    ]
+  },
+  {
+    "id": "obqa/train/13-79",
+    "reasons": [
+      "previous_normalized_question_stem",
+      "previous_question_option_content",
+      "previous_split_or_query_id"
+    ]
+  },
+  {
+    "id": "obqa/train/13-86",
+    "reasons": [
+      "previous_normalized_question_stem",
+      "previous_question_option_content",
+      "previous_split_or_query_id"
+    ]
+  },
+  {
+    "id": "obqa/train/13-89",
+    "reasons": [
+      "previous_normalized_question_stem",
+      "previous_question_option_content",
+      "previous_split_or_query_id"
+    ]
+  },
+  {
+    "id": "obqa/train/13-91",
+    "reasons": [
+      "previous_normalized_question_stem",
+      "previous_question_option_content",
+      "previous_split_or_query_id"
+    ]
+  },
+  {
+    "id": "obqa/train/13-93",
+    "reasons": [
+      "duplicate_remaining_source_question"
+    ]
+  },
+  {
+    "id": "obqa/train/13-95",
+    "reasons": [
+      "duplicate_remaining_source_question"
+    ]
+  },
+  {
+    "id": "obqa/train/13-106",
+    "reasons": [
+      "previous_normalized_question_stem"
+    ]
+  },
+  {
+    "id": "obqa/train/13-107",
+    "reasons": [
+      "previous_normalized_question_stem",
+      "previous_question_option_content",
+      "previous_split_or_query_id"
+    ]
+  },
+  {
+    "id": "obqa/train/13-115",
+    "reasons": [
+      "option_position_reference"
+    ]
+  },
+  {
+    "id": "obqa/train/13-117",
+    "reasons": [
+      "duplicate_remaining_source_question"
+    ]
+  },
+  {
+    "id": "obqa/train/13-121",
+    "reasons": [
+      "previous_normalized_question_stem",
+      "previous_question_option_content",
+      "previous_split_or_query_id"
+    ]
+  },
+  {
+    "id": "obqa/train/13-127",
+    "reasons": [
+      "previous_normalized_question_stem",
+      "previous_question_option_content",
+      "previous_split_or_query_id"
+    ]
+  },
+  {
+    "id": "obqa/train/13-136",
+    "reasons": [
+      "possible_missing_media"
+    ]
+  },
+  {
+    "id": "obqa/train/13-163",
+    "reasons": [
+      "duplicate_remaining_source_question"
+    ]
+  },
+  {
+    "id": "obqa/train/13-167",
+    "reasons": [
+      "duplicate_remaining_source_question"
+    ]
+  },
+  {
+    "id": "obqa/train/13-174",
+    "reasons": [
+      "previous_normalized_question_stem",
+      "previous_question_option_content",
+      "previous_split_or_query_id"
+    ]
+  },
+  {
+    "id": "obqa/train/13-176",
+    "reasons": [
+      "previous_normalized_question_stem",
+      "previous_question_option_content",
+      "previous_split_or_query_id"
+    ]
+  },
+  {
+    "id": "obqa/train/13-177",
+    "reasons": [
+      "previous_normalized_question_stem",
+      "previous_question_option_content",
+      "previous_split_or_query_id"
+    ]
+  },
+  {
+    "id": "obqa/train/13-202",
+    "reasons": [
+      "duplicate_remaining_source_question"
+    ]
+  },
+  {
+    "id": "obqa/train/13-207",
+    "reasons": [
+      "previous_normalized_question_stem",
+      "previous_question_option_content",
+      "previous_split_or_query_id"
+    ]
+  },
+  {
+    "id": "obqa/train/13-212",
+    "reasons": [
+      "duplicate_remaining_source_question"
+    ]
+  },
+  {
+    "id": "obqa/train/13-215",
+    "reasons": [
+      "previous_normalized_question_stem",
+      "previous_question_option_content"
+    ]
+  },
+  {
+    "id": "obqa/train/13-228",
+    "reasons": [
+      "previous_normalized_question_stem",
+      "previous_question_option_content",
+      "previous_split_or_query_id"
+    ]
+  },
+  {
+    "id": "obqa/train/13-234",
+    "reasons": [
+      "previous_normalized_question_stem",
+      "previous_question_option_content",
+      "previous_split_or_query_id"
+    ]
+  },
+  {
+    "id": "obqa/train/13-236",
+    "reasons": [
+      "duplicate_remaining_source_question"
+    ]
+  },
+  {
+    "id": "obqa/train/13-239",
+    "reasons": [
+      "possible_missing_media"
+    ]
+  },
+  {
+    "id": "obqa/train/13-243",
+    "reasons": [
+      "previous_normalized_question_stem",
+      "previous_question_option_content",
+      "previous_split_or_query_id"
+    ]
+  },
+  {
+    "id": "obqa/train/13-245",
+    "reasons": [
+      "previous_normalized_question_stem"
+    ]
+  },
+  {
+    "id": "obqa/train/13-266",
+    "reasons": [
+      "previous_normalized_question_stem",
+      "previous_question_option_content",
+      "previous_split_or_query_id"
+    ]
+  },
+  {
+    "id": "obqa/train/13-299",
+    "reasons": [
+      "previous_normalized_question_stem"
+    ]
+  },
+  {
+    "id": "obqa/train/13-305",
+    "reasons": [
+      "previous_normalized_question_stem",
+      "previous_question_option_content",
+      "previous_split_or_query_id"
+    ]
+  },
+  {
+    "id": "obqa/train/13-308",
+    "reasons": [
+      "previous_normalized_question_stem",
+      "previous_question_option_content"
+    ]
+  },
+  {
+    "id": "obqa/train/13-311",
+    "reasons": [
+      "previous_normalized_question_stem",
+      "previous_question_option_content",
+      "previous_split_or_query_id"
+    ]
+  },
+  {
+    "id": "obqa/train/13-319",
+    "reasons": [
+      "previous_normalized_question_stem",
+      "previous_question_option_content",
+      "previous_split_or_query_id"
+    ]
+  },
+  {
+    "id": "obqa/train/13-323",
+    "reasons": [
+      "previous_normalized_question_stem",
+      "previous_question_option_content",
+      "previous_split_or_query_id"
+    ]
+  },
+  {
+    "id": "obqa/train/13-329",
+    "reasons": [
+      "previous_normalized_question_stem",
+      "previous_question_option_content",
+      "previous_split_or_query_id"
+    ]
+  },
+  {
+    "id": "obqa/train/13-330",
+    "reasons": [
+      "previous_normalized_question_stem",
+      "previous_question_option_content",
+      "previous_split_or_query_id"
+    ]
+  },
+  {
+    "id": "obqa/train/13-335",
+    "reasons": [
+      "previous_normalized_question_stem"
+    ]
+  },
+  {
+    "id": "obqa/train/13-351",
+    "reasons": [
+      "previous_normalized_question_stem",
+      "previous_question_option_content",
+      "previous_split_or_query_id"
+    ]
+  },
+  {
+    "id": "obqa/train/13-374",
+    "reasons": [
+      "previous_normalized_question_stem",
+      "previous_question_option_content",
+      "previous_split_or_query_id"
+    ]
+  },
+  {
+    "id": "obqa/train/13-376",
+    "reasons": [
+      "previous_normalized_question_stem"
+    ]
+  },
+  {
+    "id": "obqa/train/13-377",
+    "reasons": [
+      "previous_normalized_question_stem",
+      "previous_question_option_content",
+      "previous_split_or_query_id"
+    ]
+  },
+  {
+    "id": "obqa/train/13-412",
+    "reasons": [
+      "duplicate_remaining_source_question"
+    ]
+  },
+  {
+    "id": "obqa/train/13-428",
+    "reasons": [
+      "duplicate_remaining_source_question"
+    ]
+  },
+  {
+    "id": "obqa/train/13-440",
+    "reasons": [
+      "previous_normalized_question_stem",
+      "previous_question_option_content",
+      "previous_split_or_query_id"
+    ]
+  },
+  {
+    "id": "obqa/train/13-480",
+    "reasons": [
+      "duplicate_remaining_source_question"
+    ]
+  },
+  {
+    "id": "obqa/train/13-485",
+    "reasons": [
+      "previous_normalized_question_stem",
+      "previous_question_option_content",
+      "previous_split_or_query_id"
+    ]
+  },
+  {
+    "id": "obqa/train/13-497",
+    "reasons": [
+      "previous_normalized_question_stem",
+      "previous_question_option_content"
+    ]
+  },
+  {
+    "id": "obqa/train/13-501",
+    "reasons": [
+      "previous_normalized_question_stem",
+      "previous_question_option_content",
+      "previous_split_or_query_id"
+    ]
+  },
+  {
+    "id": "obqa/train/13-507",
+    "reasons": [
+      "previous_normalized_question_stem",
+      "previous_question_option_content",
+      "previous_split_or_query_id"
+    ]
+  },
+  {
+    "id": "obqa/train/13-516",
+    "reasons": [
+      "previous_normalized_question_stem",
+      "previous_question_option_content",
+      "previous_split_or_query_id"
+    ]
+  },
+  {
+    "id": "obqa/train/13-520",
+    "reasons": [
+      "previous_normalized_question_stem",
+      "previous_question_option_content",
+      "previous_split_or_query_id"
+    ]
+  },
+  {
+    "id": "obqa/train/13-529",
+    "reasons": [
+      "duplicate_remaining_source_question"
+    ]
+  },
+  {
+    "id": "obqa/train/13-536",
+    "reasons": [
+      "previous_normalized_question_stem",
+      "previous_question_option_content"
+    ]
+  },
+  {
+    "id": "obqa/train/13-555",
+    "reasons": [
+      "duplicate_remaining_source_question"
+    ]
+  },
+  {
+    "id": "obqa/train/13-557",
+    "reasons": [
+      "previous_normalized_question_stem",
+      "previous_question_option_content",
+      "previous_split_or_query_id"
+    ]
+  },
+  {
+    "id": "obqa/train/13-575",
+    "reasons": [
+      "previous_normalized_question_stem",
+      "previous_question_option_content",
+      "previous_split_or_query_id"
+    ]
+  },
+  {
+    "id": "obqa/train/13-579",
+    "reasons": [
+      "previous_normalized_question_stem",
+      "previous_question_option_content",
+      "previous_split_or_query_id"
+    ]
+  },
+  {
+    "id": "obqa/train/13-580",
+    "reasons": [
+      "previous_normalized_question_stem",
+      "previous_question_option_content",
+      "previous_split_or_query_id"
+    ]
+  },
+  {
+    "id": "obqa/train/13-581",
+    "reasons": [
+      "duplicate_remaining_source_question"
+    ]
+  },
+  {
+    "id": "obqa/train/13-582",
+    "reasons": [
+      "previous_normalized_question_stem",
+      "previous_question_option_content",
+      "previous_split_or_query_id"
+    ]
+  },
+  {
+    "id": "obqa/train/13-594",
+    "reasons": [
+      "previous_normalized_question_stem"
+    ]
+  },
+  {
+    "id": "obqa/train/13-609",
+    "reasons": [
+      "possible_missing_media"
+    ]
+  },
+  {
+    "id": "obqa/train/13-613",
+    "reasons": [
+      "duplicate_remaining_source_question"
+    ]
+  },
+  {
+    "id": "obqa/train/13-631",
+    "reasons": [
+      "previous_normalized_question_stem",
+      "previous_question_option_content"
+    ]
+  },
+  {
+    "id": "obqa/train/13-640",
+    "reasons": [
+      "duplicate_remaining_source_question"
+    ]
+  },
+  {
+    "id": "obqa/train/13-655",
+    "reasons": [
+      "previous_normalized_question_stem",
+      "previous_question_option_content",
+      "previous_split_or_query_id"
+    ]
+  },
+  {
+    "id": "obqa/train/13-660",
+    "reasons": [
+      "previous_normalized_question_stem",
+      "previous_question_option_content",
+      "previous_split_or_query_id"
+    ]
+  },
+  {
+    "id": "obqa/train/13-661",
+    "reasons": [
+      "duplicate_remaining_source_question"
+    ]
+  },
+  {
+    "id": "obqa/train/13-664",
+    "reasons": [
+      "previous_normalized_question_stem",
+      "previous_question_option_content",
+      "previous_split_or_query_id"
+    ]
+  },
+  {
+    "id": "obqa/train/13-666",
+    "reasons": [
+      "possible_missing_media"
+    ]
+  },
+  {
+    "id": "obqa/train/13-675",
+    "reasons": [
+      "previous_normalized_question_stem",
+      "previous_question_option_content",
+      "previous_split_or_query_id"
+    ]
+  },
+  {
+    "id": "obqa/train/13-699",
+    "reasons": [
+      "previous_normalized_question_stem",
+      "previous_question_option_content",
+      "previous_split_or_query_id"
+    ]
+  },
+  {
+    "id": "obqa/train/13-720",
+    "reasons": [
+      "previous_normalized_question_stem",
+      "previous_question_option_content",
+      "previous_split_or_query_id"
+    ]
+  },
+  {
+    "id": "obqa/train/13-726",
+    "reasons": [
+      "duplicate_remaining_source_question"
+    ]
+  },
+  {
+    "id": "obqa/train/13-751",
+    "reasons": [
+      "duplicate_remaining_source_question"
+    ]
+  },
+  {
+    "id": "obqa/train/13-760",
+    "reasons": [
+      "previous_normalized_question_stem",
+      "previous_question_option_content",
+      "previous_split_or_query_id"
+    ]
+  },
+  {
+    "id": "obqa/train/13-762",
+    "reasons": [
+      "previous_normalized_question_stem",
+      "previous_question_option_content",
+      "previous_split_or_query_id"
+    ]
+  },
+  {
+    "id": "obqa/train/13-766",
+    "reasons": [
+      "previous_normalized_question_stem",
+      "previous_question_option_content",
+      "previous_split_or_query_id"
+    ]
+  },
+  {
+    "id": "obqa/train/13-771",
+    "reasons": [
+      "previous_normalized_question_stem",
+      "previous_question_option_content",
+      "previous_split_or_query_id"
+    ]
+  },
+  {
+    "id": "obqa/train/13-773",
+    "reasons": [
+      "previous_normalized_question_stem",
+      "previous_question_option_content",
+      "previous_split_or_query_id"
+    ]
+  },
+  {
+    "id": "obqa/train/13-778",
+    "reasons": [
+      "previous_normalized_question_stem",
+      "previous_question_option_content",
+      "previous_split_or_query_id"
+    ]
+  },
+  {
+    "id": "obqa/train/13-780",
+    "reasons": [
+      "previous_normalized_question_stem",
+      "previous_question_option_content",
+      "previous_split_or_query_id"
+    ]
+  },
+  {
+    "id": "obqa/train/13-795",
+    "reasons": [
+      "previous_normalized_question_stem",
+      "previous_question_option_content",
+      "previous_split_or_query_id"
+    ]
+  },
+  {
+    "id": "obqa/train/13-801",
+    "reasons": [
+      "previous_normalized_question_stem",
+      "previous_question_option_content",
+      "previous_split_or_query_id"
+    ]
+  },
+  {
+    "id": "obqa/train/13-803",
+    "reasons": [
+      "previous_normalized_question_stem",
+      "previous_question_option_content",
+      "previous_split_or_query_id"
+    ]
+  },
+  {
+    "id": "obqa/train/13-804",
+    "reasons": [
+      "previous_normalized_question_stem",
+      "previous_question_option_content",
+      "previous_split_or_query_id"
+    ]
+  },
+  {
+    "id": "obqa/train/13-811",
+    "reasons": [
+      "previous_normalized_question_stem",
+      "previous_question_option_content",
+      "previous_split_or_query_id"
+    ]
+  },
+  {
+    "id": "obqa/train/13-816",
+    "reasons": [
+      "previous_normalized_question_stem",
+      "previous_question_option_content",
+      "previous_split_or_query_id"
+    ]
+  },
+  {
+    "id": "obqa/train/13-818",
+    "reasons": [
+      "previous_normalized_question_stem",
+      "previous_question_option_content",
+      "previous_split_or_query_id"
+    ]
+  },
+  {
+    "id": "obqa/train/13-819",
+    "reasons": [
+      "option_position_reference"
+    ]
+  },
+  {
+    "id": "obqa/train/13-823",
+    "reasons": [
+      "previous_normalized_question_stem",
+      "previous_question_option_content",
+      "previous_split_or_query_id"
+    ]
+  },
+  {
+    "id": "obqa/train/13-839",
+    "reasons": [
+      "previous_normalized_question_stem",
+      "previous_question_option_content"
+    ]
+  },
+  {
+    "id": "obqa/train/13-859",
+    "reasons": [
+      "previous_normalized_question_stem",
+      "previous_question_option_content"
+    ]
+  },
+  {
+    "id": "obqa/train/13-892",
+    "reasons": [
+      "previous_normalized_question_stem"
+    ]
+  },
+  {
+    "id": "obqa/train/13-903",
+    "reasons": [
+      "possible_missing_media"
+    ]
+  },
+  {
+    "id": "obqa/train/13-914",
+    "reasons": [
+      "previous_normalized_question_stem"
+    ]
+  },
+  {
+    "id": "obqa/train/13-915",
+    "reasons": [
+      "previous_normalized_question_stem",
+      "previous_question_option_content",
+      "previous_split_or_query_id"
+    ]
+  },
+  {
+    "id": "obqa/train/13-925",
+    "reasons": [
+      "previous_normalized_question_stem",
+      "previous_question_option_content",
+      "previous_split_or_query_id"
+    ]
+  },
+  {
+    "id": "obqa/train/13-937",
+    "reasons": [
+      "previous_normalized_question_stem",
+      "previous_question_option_content",
+      "previous_split_or_query_id"
+    ]
+  },
+  {
+    "id": "obqa/train/13-946",
+    "reasons": [
+      "previous_normalized_question_stem",
+      "previous_question_option_content",
+      "previous_split_or_query_id"
+    ]
+  },
+  {
+    "id": "obqa/train/13-957",
+    "reasons": [
+      "previous_normalized_question_stem",
+      "previous_question_option_content",
+      "previous_split_or_query_id"
+    ]
+  },
+  {
+    "id": "obqa/train/13-960",
+    "reasons": [
+      "relative_option_reference"
+    ]
+  },
+  {
+    "id": "obqa/train/13-961",
+    "reasons": [
+      "duplicate_remaining_source_question"
+    ]
+  },
+  {
+    "id": "obqa/train/13-972",
+    "reasons": [
+      "previous_normalized_question_stem",
+      "previous_question_option_content",
+      "previous_split_or_query_id"
+    ]
+  },
+  {
+    "id": "obqa/train/13-986",
+    "reasons": [
+      "previous_normalized_question_stem",
+      "previous_question_option_content",
+      "previous_split_or_query_id"
+    ]
+  },
+  {
+    "id": "obqa/train/13-995",
+    "reasons": [
+      "previous_normalized_question_stem",
+      "previous_question_option_content",
+      "previous_split_or_query_id"
+    ]
+  },
+  {
+    "id": "obqa/train/13-1006",
+    "reasons": [
+      "previous_normalized_question_stem",
+      "previous_question_option_content",
+      "previous_split_or_query_id"
+    ]
+  },
+  {
+    "id": "obqa/train/13-1014",
+    "reasons": [
+      "duplicate_remaining_source_question"
+    ]
+  },
+  {
+    "id": "obqa/train/13-1019",
+    "reasons": [
+      "possible_missing_media"
+    ]
+  },
+  {
+    "id": "obqa/train/13-1045",
+    "reasons": [
+      "previous_normalized_question_stem",
+      "previous_question_option_content",
+      "previous_split_or_query_id"
+    ]
+  },
+  {
+    "id": "obqa/train/13-1060",
+    "reasons": [
+      "previous_normalized_question_stem",
+      "previous_question_option_content",
+      "previous_split_or_query_id"
+    ]
+  },
+  {
+    "id": "obqa/train/14-11",
+    "reasons": [
+      "previous_normalized_question_stem",
+      "previous_question_option_content",
+      "previous_split_or_query_id"
+    ]
+  },
+  {
+    "id": "obqa/train/14-15",
+    "reasons": [
+      "previous_normalized_question_stem"
+    ]
+  },
+  {
+    "id": "obqa/train/14-16",
+    "reasons": [
+      "previous_normalized_question_stem",
+      "previous_question_option_content",
+      "previous_split_or_query_id"
+    ]
+  },
+  {
+    "id": "obqa/train/14-20",
+    "reasons": [
+      "duplicate_remaining_source_question"
+    ]
+  },
+  {
+    "id": "obqa/train/14-25",
+    "reasons": [
+      "previous_normalized_question_stem",
+      "previous_question_option_content",
+      "previous_split_or_query_id"
+    ]
+  },
+  {
+    "id": "obqa/train/14-33",
+    "reasons": [
+      "duplicate_remaining_source_question"
+    ]
+  },
+  {
+    "id": "obqa/train/14-34",
+    "reasons": [
+      "previous_normalized_question_stem",
+      "previous_question_option_content",
+      "previous_split_or_query_id"
+    ]
+  },
+  {
+    "id": "obqa/train/14-40",
+    "reasons": [
+      "previous_normalized_question_stem",
+      "previous_question_option_content",
+      "previous_split_or_query_id"
+    ]
+  },
+  {
+    "id": "obqa/train/14-43",
+    "reasons": [
+      "previous_normalized_question_stem",
+      "previous_question_option_content",
+      "previous_split_or_query_id"
+    ]
+  },
+  {
+    "id": "obqa/train/14-45",
+    "reasons": [
+      "previous_normalized_question_stem",
+      "previous_question_option_content",
+      "previous_split_or_query_id"
+    ]
+  },
+  {
+    "id": "obqa/train/14-59",
+    "reasons": [
+      "previous_normalized_question_stem",
+      "previous_question_option_content",
+      "previous_split_or_query_id"
+    ]
+  },
+  {
+    "id": "obqa/train/14-60",
+    "reasons": [
+      "duplicate_remaining_source_question"
+    ]
+  },
+  {
+    "id": "obqa/train/14-63",
+    "reasons": [
+      "possible_missing_media"
+    ]
+  },
+  {
+    "id": "obqa/train/14-67",
+    "reasons": [
+      "duplicate_remaining_source_question"
+    ]
+  },
+  {
+    "id": "obqa/train/14-93",
+    "reasons": [
+      "previous_normalized_question_stem",
+      "previous_question_option_content",
+      "previous_split_or_query_id"
+    ]
+  },
+  {
+    "id": "obqa/train/14-102",
+    "reasons": [
+      "duplicate_remaining_source_question"
+    ]
+  },
+  {
+    "id": "obqa/train/14-118",
+    "reasons": [
+      "previous_normalized_question_stem",
+      "previous_question_option_content",
+      "previous_split_or_query_id"
+    ]
+  },
+  {
+    "id": "obqa/train/14-130",
+    "reasons": [
+      "duplicate_remaining_source_question"
+    ]
+  },
+  {
+    "id": "obqa/train/14-132",
+    "reasons": [
+      "previous_normalized_question_stem",
+      "previous_question_option_content"
+    ]
+  },
+  {
+    "id": "obqa/train/14-134",
+    "reasons": [
+      "previous_normalized_question_stem",
+      "previous_question_option_content",
+      "previous_split_or_query_id"
+    ]
+  },
+  {
+    "id": "obqa/train/14-135",
+    "reasons": [
+      "previous_normalized_question_stem",
+      "previous_question_option_content",
+      "previous_split_or_query_id"
+    ]
+  },
+  {
+    "id": "obqa/train/14-139",
+    "reasons": [
+      "previous_normalized_question_stem",
+      "previous_question_option_content",
+      "previous_split_or_query_id"
+    ]
+  },
+  {
+    "id": "obqa/train/14-155",
+    "reasons": [
+      "previous_normalized_question_stem",
+      "previous_question_option_content",
+      "previous_split_or_query_id"
+    ]
+  },
+  {
+    "id": "obqa/train/14-159",
+    "reasons": [
+      "previous_normalized_question_stem",
+      "previous_question_option_content",
+      "previous_split_or_query_id"
+    ]
+  },
+  {
+    "id": "obqa/train/14-166",
+    "reasons": [
+      "previous_normalized_question_stem",
+      "previous_question_option_content",
+      "previous_split_or_query_id"
+    ]
+  },
+  {
+    "id": "obqa/train/14-169",
+    "reasons": [
+      "previous_normalized_question_stem",
+      "previous_question_option_content",
+      "previous_split_or_query_id"
+    ]
+  },
+  {
+    "id": "obqa/train/14-172",
+    "reasons": [
+      "previous_normalized_question_stem",
+      "previous_question_option_content",
+      "previous_split_or_query_id"
+    ]
+  },
+  {
+    "id": "obqa/train/14-176",
+    "reasons": [
+      "previous_normalized_question_stem",
+      "previous_question_option_content",
+      "previous_split_or_query_id"
+    ]
+  },
+  {
+    "id": "obqa/train/14-187",
+    "reasons": [
+      "duplicate_remaining_source_question"
+    ]
+  },
+  {
+    "id": "obqa/train/14-193",
+    "reasons": [
+      "duplicate_remaining_source_question"
+    ]
+  },
+  {
+    "id": "obqa/train/14-216",
+    "reasons": [
+      "duplicate_remaining_source_question"
+    ]
+  },
+  {
+    "id": "obqa/train/14-238",
+    "reasons": [
+      "possible_missing_media"
+    ]
+  },
+  {
+    "id": "obqa/train/14-240",
+    "reasons": [
+      "previous_normalized_question_stem",
+      "previous_question_option_content",
+      "previous_split_or_query_id"
+    ]
+  },
+  {
+    "id": "obqa/train/14-245",
+    "reasons": [
+      "previous_normalized_question_stem",
+      "previous_question_option_content",
+      "previous_split_or_query_id"
+    ]
+  },
+  {
+    "id": "obqa/train/14-250",
+    "reasons": [
+      "duplicate_remaining_source_question"
+    ]
+  },
+  {
+    "id": "obqa/train/14-268",
+    "reasons": [
+      "duplicate_remaining_source_question"
+    ]
+  },
+  {
+    "id": "obqa/train/14-277",
+    "reasons": [
+      "previous_normalized_question_stem",
+      "previous_question_option_content",
+      "previous_split_or_query_id"
+    ]
+  },
+  {
+    "id": "obqa/train/14-281",
+    "reasons": [
+      "duplicate_remaining_source_question"
+    ]
+  },
+  {
+    "id": "obqa/train/14-287",
+    "reasons": [
+      "previous_normalized_question_stem",
+      "previous_question_option_content",
+      "previous_split_or_query_id"
+    ]
+  },
+  {
+    "id": "obqa/train/14-307",
+    "reasons": [
+      "previous_normalized_question_stem",
+      "previous_question_option_content",
+      "previous_split_or_query_id"
+    ]
+  },
+  {
+    "id": "obqa/train/14-323",
+    "reasons": [
+      "previous_normalized_question_stem",
+      "previous_question_option_content",
+      "previous_split_or_query_id"
+    ]
+  },
+  {
+    "id": "obqa/train/14-324",
+    "reasons": [
+      "possible_missing_media"
+    ]
+  },
+  {
+    "id": "obqa/train/14-339",
+    "reasons": [
+      "previous_normalized_question_stem",
+      "previous_question_option_content",
+      "previous_split_or_query_id"
+    ]
+  },
+  {
+    "id": "obqa/train/14-350",
+    "reasons": [
+      "duplicate_remaining_source_question"
+    ]
+  },
+  {
+    "id": "obqa/train/14-356",
+    "reasons": [
+      "previous_normalized_question_stem",
+      "previous_question_option_content",
+      "previous_split_or_query_id"
+    ]
+  },
+  {
+    "id": "obqa/train/14-360",
+    "reasons": [
+      "duplicate_remaining_source_question"
+    ]
+  },
+  {
+    "id": "obqa/train/14-374",
+    "reasons": [
+      "previous_normalized_question_stem",
+      "previous_question_option_content",
+      "previous_split_or_query_id"
+    ]
+  },
+  {
+    "id": "obqa/train/14-377",
+    "reasons": [
+      "previous_normalized_question_stem"
+    ]
+  },
+  {
+    "id": "obqa/train/14-380",
+    "reasons": [
+      "previous_normalized_question_stem",
+      "previous_question_option_content"
+    ]
+  },
+  {
+    "id": "obqa/train/14-389",
+    "reasons": [
+      "previous_normalized_question_stem",
+      "previous_question_option_content",
+      "previous_split_or_query_id"
+    ]
+  },
+  {
+    "id": "obqa/train/14-391",
+    "reasons": [
+      "duplicate_remaining_source_question"
+    ]
+  },
+  {
+    "id": "obqa/train/14-397",
+    "reasons": [
+      "previous_normalized_question_stem",
+      "previous_question_option_content",
+      "previous_split_or_query_id"
+    ]
+  },
+  {
+    "id": "obqa/train/14-411",
+    "reasons": [
+      "previous_normalized_question_stem",
+      "previous_question_option_content",
+      "previous_split_or_query_id"
+    ]
+  },
+  {
+    "id": "obqa/train/14-417",
+    "reasons": [
+      "duplicate_remaining_source_question"
+    ]
+  },
+  {
+    "id": "obqa/train/14-456",
+    "reasons": [
+      "duplicate_remaining_source_question"
+    ]
+  },
+  {
+    "id": "obqa/train/14-461",
+    "reasons": [
+      "previous_normalized_question_stem",
+      "previous_question_option_content",
+      "previous_split_or_query_id"
+    ]
+  },
+  {
+    "id": "obqa/train/14-488",
+    "reasons": [
+      "previous_normalized_question_stem",
+      "previous_question_option_content",
+      "previous_split_or_query_id"
+    ]
+  },
+  {
+    "id": "obqa/train/14-490",
+    "reasons": [
+      "option_position_reference"
+    ]
+  },
+  {
+    "id": "obqa/train/14-499",
+    "reasons": [
+      "previous_normalized_question_stem",
+      "previous_question_option_content",
+      "previous_split_or_query_id"
+    ]
+  },
+  {
+    "id": "obqa/train/14-510",
+    "reasons": [
+      "previous_normalized_question_stem",
+      "previous_question_option_content",
+      "previous_split_or_query_id"
+    ]
+  },
+  {
+    "id": "obqa/train/14-540",
+    "reasons": [
+      "previous_normalized_question_stem",
+      "previous_question_option_content",
+      "previous_split_or_query_id"
+    ]
+  },
+  {
+    "id": "obqa/train/14-541",
+    "reasons": [
+      "previous_normalized_question_stem",
+      "previous_question_option_content",
+      "previous_split_or_query_id"
+    ]
+  },
+  {
+    "id": "obqa/train/14-543",
+    "reasons": [
+      "duplicate_remaining_source_question"
+    ]
+  },
+  {
+    "id": "obqa/train/14-546",
+    "reasons": [
+      "previous_normalized_question_stem"
+    ]
+  },
+  {
+    "id": "obqa/train/14-553",
+    "reasons": [
+      "duplicate_remaining_source_question"
+    ]
+  },
+  {
+    "id": "obqa/train/14-565",
+    "reasons": [
+      "previous_normalized_question_stem",
+      "previous_question_option_content",
+      "previous_split_or_query_id"
+    ]
+  },
+  {
+    "id": "obqa/train/14-566",
+    "reasons": [
+      "previous_normalized_question_stem",
+      "previous_question_option_content",
+      "previous_split_or_query_id"
+    ]
+  },
+  {
+    "id": "obqa/train/14-571",
+    "reasons": [
+      "previous_normalized_question_stem",
+      "previous_question_option_content",
+      "previous_split_or_query_id"
+    ]
+  },
+  {
+    "id": "obqa/train/14-581",
+    "reasons": [
+      "duplicate_remaining_source_question"
+    ]
+  },
+  {
+    "id": "obqa/train/14-590",
+    "reasons": [
+      "possible_missing_media"
+    ]
+  },
+  {
+    "id": "obqa/train/14-606",
+    "reasons": [
+      "duplicate_remaining_source_question"
+    ]
+  },
+  {
+    "id": "obqa/train/14-615",
+    "reasons": [
+      "previous_normalized_question_stem",
+      "previous_question_option_content",
+      "previous_split_or_query_id"
+    ]
+  },
+  {
+    "id": "obqa/train/14-617",
+    "reasons": [
+      "previous_normalized_question_stem",
+      "previous_question_option_content",
+      "previous_split_or_query_id"
+    ]
+  },
+  {
+    "id": "obqa/train/14-629",
+    "reasons": [
+      "previous_normalized_question_stem",
+      "previous_question_option_content",
+      "previous_split_or_query_id"
+    ]
+  },
+  {
+    "id": "obqa/train/14-638",
+    "reasons": [
+      "previous_normalized_question_stem",
+      "previous_question_option_content",
+      "previous_split_or_query_id"
+    ]
+  },
+  {
+    "id": "obqa/train/14-643",
+    "reasons": [
+      "duplicate_remaining_source_question"
+    ]
+  },
+  {
+    "id": "obqa/train/14-651",
+    "reasons": [
+      "previous_normalized_question_stem",
+      "previous_question_option_content"
+    ]
+  },
+  {
+    "id": "obqa/train/14-668",
+    "reasons": [
+      "previous_normalized_question_stem",
+      "previous_question_option_content",
+      "previous_split_or_query_id"
+    ]
+  },
+  {
+    "id": "obqa/train/14-673",
+    "reasons": [
+      "previous_normalized_question_stem",
+      "previous_question_option_content",
+      "previous_split_or_query_id"
+    ]
+  },
+  {
+    "id": "obqa/train/14-686",
+    "reasons": [
+      "duplicate_remaining_source_question"
+    ]
+  },
+  {
+    "id": "obqa/train/14-701",
+    "reasons": [
+      "previous_normalized_question_stem",
+      "previous_question_option_content",
+      "previous_split_or_query_id"
+    ]
+  },
+  {
+    "id": "obqa/train/14-711",
+    "reasons": [
+      "duplicate_remaining_source_question"
+    ]
+  },
+  {
+    "id": "obqa/train/14-714",
+    "reasons": [
+      "previous_normalized_question_stem",
+      "previous_question_option_content",
+      "previous_split_or_query_id"
+    ]
+  },
+  {
+    "id": "obqa/train/14-746",
+    "reasons": [
+      "duplicate_remaining_source_question"
+    ]
+  },
+  {
+    "id": "obqa/train/14-750",
+    "reasons": [
+      "previous_normalized_question_stem",
+      "previous_question_option_content",
+      "previous_split_or_query_id"
+    ]
+  },
+  {
+    "id": "obqa/train/14-753",
+    "reasons": [
+      "duplicate_remaining_source_question"
+    ]
+  },
+  {
+    "id": "obqa/train/14-754",
+    "reasons": [
+      "previous_normalized_question_stem",
+      "previous_question_option_content",
+      "previous_split_or_query_id"
+    ]
+  },
+  {
+    "id": "obqa/train/14-762",
+    "reasons": [
+      "duplicate_remaining_source_question"
+    ]
+  },
+  {
+    "id": "obqa/train/14-767",
+    "reasons": [
+      "duplicate_remaining_source_question"
+    ]
+  },
+  {
+    "id": "obqa/train/14-768",
+    "reasons": [
+      "previous_normalized_question_stem",
+      "previous_question_option_content",
+      "previous_split_or_query_id"
+    ]
+  },
+  {
+    "id": "obqa/train/14-770",
+    "reasons": [
+      "possible_missing_media"
+    ]
+  },
+  {
+    "id": "obqa/train/14-815",
+    "reasons": [
+      "previous_normalized_question_stem",
+      "previous_question_option_content",
+      "previous_split_or_query_id"
+    ]
+  },
+  {
+    "id": "obqa/train/14-825",
+    "reasons": [
+      "previous_normalized_question_stem",
+      "previous_question_option_content",
+      "previous_split_or_query_id"
+    ]
+  },
+  {
+    "id": "obqa/train/14-831",
+    "reasons": [
+      "duplicate_remaining_source_question"
+    ]
+  },
+  {
+    "id": "obqa/train/14-844",
+    "reasons": [
+      "duplicate_remaining_source_question"
+    ]
+  },
+  {
+    "id": "obqa/train/14-862",
+    "reasons": [
+      "duplicate_remaining_source_question"
+    ]
+  },
+  {
+    "id": "obqa/train/14-881",
+    "reasons": [
+      "previous_normalized_question_stem",
+      "previous_question_option_content",
+      "previous_split_or_query_id"
+    ]
+  },
+  {
+    "id": "obqa/train/14-883",
+    "reasons": [
+      "relative_option_reference"
+    ]
+  },
+  {
+    "id": "obqa/train/14-895",
+    "reasons": [
+      "previous_normalized_question_stem",
+      "previous_question_option_content"
+    ]
+  },
+  {
+    "id": "obqa/train/14-912",
+    "reasons": [
+      "previous_normalized_question_stem",
+      "previous_question_option_content",
+      "previous_split_or_query_id"
+    ]
+  },
+  {
+    "id": "obqa/train/14-919",
+    "reasons": [
+      "previous_normalized_question_stem",
+      "previous_question_option_content",
+      "previous_split_or_query_id"
+    ]
+  },
+  {
+    "id": "obqa/train/14-920",
+    "reasons": [
+      "previous_normalized_question_stem",
+      "previous_question_option_content",
+      "previous_split_or_query_id"
+    ]
+  },
+  {
+    "id": "obqa/train/14-924",
+    "reasons": [
+      "duplicate_remaining_source_question"
+    ]
+  },
+  {
+    "id": "obqa/train/14-930",
+    "reasons": [
+      "previous_normalized_question_stem",
+      "previous_question_option_content",
+      "previous_split_or_query_id"
+    ]
+  },
+  {
+    "id": "obqa/train/14-935",
+    "reasons": [
+      "previous_normalized_question_stem",
+      "previous_question_option_content",
+      "previous_split_or_query_id"
+    ]
+  },
+  {
+    "id": "obqa/train/14-955",
+    "reasons": [
+      "previous_normalized_question_stem",
+      "previous_question_option_content",
+      "previous_split_or_query_id"
+    ]
+  },
+  {
+    "id": "obqa/train/14-956",
+    "reasons": [
+      "previous_normalized_question_stem",
+      "previous_question_option_content",
+      "previous_split_or_query_id"
+    ]
+  },
+  {
+    "id": "obqa/train/14-960",
+    "reasons": [
+      "duplicate_remaining_source_question"
+    ]
+  },
+  {
+    "id": "obqa/train/14-980",
+    "reasons": [
+      "duplicate_remaining_source_question"
+    ]
+  },
+  {
+    "id": "obqa/train/14-987",
+    "reasons": [
+      "previous_normalized_question_stem",
+      "previous_question_option_content",
+      "previous_split_or_query_id"
+    ]
+  },
+  {
+    "id": "obqa/train/14-990",
+    "reasons": [
+      "previous_normalized_question_stem",
+      "previous_question_option_content",
+      "previous_split_or_query_id"
+    ]
+  },
+  {
+    "id": "obqa/train/14-995",
+    "reasons": [
+      "previous_normalized_question_stem",
+      "previous_question_option_content",
+      "previous_split_or_query_id"
+    ]
+  },
+  {
+    "id": "obqa/train/14-1044",
+    "reasons": [
+      "previous_normalized_question_stem",
+      "previous_question_option_content",
+      "previous_split_or_query_id"
+    ]
+  },
+  {
+    "id": "obqa/train/14-1053",
+    "reasons": [
+      "previous_normalized_question_stem",
+      "previous_question_option_content"
+    ]
+  },
+  {
+    "id": "obqa/train/14-1054",
+    "reasons": [
+      "duplicate_remaining_source_question"
+    ]
+  },
+  {
+    "id": "obqa/train/14-1070",
+    "reasons": [
+      "duplicate_remaining_source_question"
+    ]
+  },
+  {
+    "id": "obqa/train/14-1073",
+    "reasons": [
+      "previous_normalized_question_stem",
+      "previous_question_option_content",
+      "previous_split_or_query_id"
+    ]
+  },
+  {
+    "id": "obqa/train/14-1084",
+    "reasons": [
+      "previous_normalized_question_stem",
+      "previous_question_option_content",
+      "previous_split_or_query_id"
+    ]
+  },
+  {
+    "id": "obqa/train/14-1106",
+    "reasons": [
+      "duplicate_remaining_source_question"
+    ]
+  },
+  {
+    "id": "obqa/train/14-1114",
+    "reasons": [
+      "previous_normalized_question_stem",
+      "previous_question_option_content",
+      "previous_split_or_query_id"
+    ]
+  },
+  {
+    "id": "obqa/train/14-1116",
+    "reasons": [
+      "previous_normalized_question_stem",
+      "previous_question_option_content",
+      "previous_split_or_query_id"
+    ]
+  },
+  {
+    "id": "obqa/train/14-1125",
+    "reasons": [
+      "previous_normalized_question_stem",
+      "previous_question_option_content",
+      "previous_split_or_query_id"
+    ]
+  },
+  {
+    "id": "obqa/train/14-1134",
+    "reasons": [
+      "previous_normalized_question_stem",
+      "previous_question_option_content",
+      "previous_split_or_query_id"
+    ]
+  },
+  {
+    "id": "obqa/train/14-1150",
+    "reasons": [
+      "previous_normalized_question_stem"
+    ]
+  },
+  {
+    "id": "obqa/train/14-1151",
+    "reasons": [
+      "previous_normalized_question_stem",
+      "previous_question_option_content"
+    ]
+  },
+  {
+    "id": "obqa/train/14-1158",
+    "reasons": [
+      "previous_normalized_question_stem",
+      "previous_question_option_content",
+      "previous_split_or_query_id"
+    ]
+  },
+  {
+    "id": "obqa/train/14-1177",
+    "reasons": [
+      "previous_normalized_question_stem",
+      "previous_question_option_content",
+      "previous_split_or_query_id"
+    ]
+  },
+  {
+    "id": "obqa/train/14-1180",
+    "reasons": [
+      "previous_normalized_question_stem",
+      "previous_question_option_content",
+      "previous_split_or_query_id"
+    ]
+  },
+  {
+    "id": "obqa/train/14-1188",
+    "reasons": [
+      "duplicate_remaining_source_question"
+    ]
+  },
+  {
+    "id": "obqa/train/14-1190",
+    "reasons": [
+      "previous_normalized_question_stem",
+      "previous_question_option_content",
+      "previous_split_or_query_id"
+    ]
+  },
+  {
+    "id": "obqa/train/14-1194",
+    "reasons": [
+      "duplicate_remaining_source_question"
+    ]
+  },
+  {
+    "id": "obqa/train/14-1207",
+    "reasons": [
+      "previous_normalized_question_stem",
+      "previous_question_option_content"
+    ]
+  },
+  {
+    "id": "obqa/train/14-1215",
+    "reasons": [
+      "duplicate_remaining_source_question"
+    ]
+  },
+  {
+    "id": "obqa/train/14-1220",
+    "reasons": [
+      "duplicate_remaining_source_question"
+    ]
+  },
+  {
+    "id": "obqa/train/14-1225",
+    "reasons": [
+      "previous_normalized_question_stem",
+      "previous_question_option_content",
+      "previous_split_or_query_id"
+    ]
+  },
+  {
+    "id": "obqa/train/14-1235",
+    "reasons": [
+      "previous_normalized_question_stem",
+      "previous_question_option_content",
+      "previous_split_or_query_id"
+    ]
+  },
+  {
+    "id": "obqa/train/14-1256",
+    "reasons": [
+      "previous_normalized_question_stem",
+      "previous_question_option_content",
+      "previous_split_or_query_id"
+    ]
+  },
+  {
+    "id": "obqa/train/14-1270",
+    "reasons": [
+      "previous_normalized_question_stem",
+      "previous_question_option_content",
+      "previous_split_or_query_id"
+    ]
+  },
+  {
+    "id": "obqa/train/14-1275",
+    "reasons": [
+      "duplicate_remaining_source_question"
+    ]
+  },
+  {
+    "id": "obqa/train/14-1289",
+    "reasons": [
+      "previous_normalized_question_stem",
+      "previous_question_option_content",
+      "previous_split_or_query_id"
+    ]
+  },
+  {
+    "id": "obqa/train/14-1326",
+    "reasons": [
+      "previous_normalized_question_stem",
+      "previous_question_option_content",
+      "previous_split_or_query_id"
+    ]
+  },
+  {
+    "id": "obqa/train/14-1335",
+    "reasons": [
+      "previous_normalized_question_stem",
+      "previous_question_option_content",
+      "previous_split_or_query_id"
+    ]
+  },
+  {
+    "id": "obqa/train/14-1340",
+    "reasons": [
+      "duplicate_remaining_source_question"
+    ]
+  },
+  {
+    "id": "obqa/train/14-1341",
+    "reasons": [
+      "previous_normalized_question_stem",
+      "previous_question_option_content",
+      "previous_split_or_query_id"
+    ]
+  },
+  {
+    "id": "obqa/train/14-1346",
+    "reasons": [
+      "previous_normalized_question_stem",
+      "previous_question_option_content",
+      "previous_split_or_query_id"
+    ]
+  },
+  {
+    "id": "obqa/train/14-1349",
+    "reasons": [
+      "previous_normalized_question_stem",
+      "previous_question_option_content",
+      "previous_split_or_query_id"
+    ]
+  },
+  {
+    "id": "obqa/train/14-1354",
+    "reasons": [
+      "previous_normalized_question_stem",
+      "previous_question_option_content",
+      "previous_split_or_query_id"
+    ]
+  },
+  {
+    "id": "obqa/train/14-1367",
+    "reasons": [
+      "previous_normalized_question_stem",
+      "previous_question_option_content",
+      "previous_split_or_query_id"
+    ]
+  },
+  {
+    "id": "obqa/train/14-1370",
+    "reasons": [
+      "previous_normalized_question_stem",
+      "previous_question_option_content"
+    ]
+  },
+  {
+    "id": "obqa/train/14-1371",
+    "reasons": [
+      "duplicate_remaining_source_question"
+    ]
+  },
+  {
+    "id": "obqa/train/14-1380",
+    "reasons": [
+      "relative_option_reference"
+    ]
+  },
+  {
+    "id": "obqa/train/14-1381",
+    "reasons": [
+      "previous_normalized_question_stem",
+      "previous_question_option_content",
+      "previous_split_or_query_id"
+    ]
+  },
+  {
+    "id": "obqa/train/14-1387",
+    "reasons": [
+      "previous_normalized_question_stem",
+      "previous_question_option_content",
+      "previous_split_or_query_id"
+    ]
+  },
+  {
+    "id": "obqa/train/14-1396",
+    "reasons": [
+      "previous_normalized_question_stem"
+    ]
+  },
+  {
+    "id": "obqa/train/14-1404",
+    "reasons": [
+      "previous_normalized_question_stem",
+      "previous_question_option_content",
+      "previous_split_or_query_id"
+    ]
+  },
+  {
+    "id": "obqa/train/14-1412",
+    "reasons": [
+      "previous_normalized_question_stem",
+      "previous_question_option_content",
+      "previous_split_or_query_id"
+    ]
+  },
+  {
+    "id": "obqa/train/14-1415",
+    "reasons": [
+      "previous_normalized_question_stem",
+      "previous_question_option_content",
+      "previous_split_or_query_id"
+    ]
+  },
+  {
+    "id": "obqa/train/14-1416",
+    "reasons": [
+      "possible_missing_media"
+    ]
+  },
+  {
+    "id": "obqa/train/14-1420",
+    "reasons": [
+      "previous_normalized_question_stem",
+      "previous_question_option_content",
+      "previous_split_or_query_id"
+    ]
+  },
+  {
+    "id": "obqa/train/14-1422",
+    "reasons": [
+      "previous_normalized_question_stem",
+      "previous_question_option_content",
+      "previous_split_or_query_id"
+    ]
+  },
+  {
+    "id": "obqa/train/14-1433",
+    "reasons": [
+      "previous_normalized_question_stem",
+      "previous_question_option_content",
+      "previous_split_or_query_id"
+    ]
+  },
+  {
+    "id": "obqa/train/14-1442",
+    "reasons": [
+      "previous_normalized_question_stem",
+      "previous_question_option_content",
+      "previous_split_or_query_id"
+    ]
+  },
+  {
+    "id": "obqa/train/14-1444",
+    "reasons": [
+      "previous_normalized_question_stem",
+      "previous_question_option_content",
+      "previous_split_or_query_id"
+    ]
+  },
+  {
+    "id": "obqa/train/14-1449",
+    "reasons": [
+      "previous_normalized_question_stem",
+      "previous_question_option_content"
+    ]
+  },
+  {
+    "id": "obqa/train/14-1457",
+    "reasons": [
+      "previous_normalized_question_stem",
+      "previous_question_option_content",
+      "previous_split_or_query_id"
+    ]
+  },
+  {
+    "id": "obqa/train/14-1458",
+    "reasons": [
+      "previous_normalized_question_stem",
+      "previous_question_option_content",
+      "previous_split_or_query_id"
+    ]
+  },
+  {
+    "id": "obqa/train/14-1462",
+    "reasons": [
+      "previous_normalized_question_stem",
+      "previous_question_option_content",
+      "previous_split_or_query_id"
+    ]
+  },
+  {
+    "id": "obqa/train/14-1463",
+    "reasons": [
+      "previous_normalized_question_stem",
+      "previous_question_option_content",
+      "previous_split_or_query_id"
+    ]
+  },
+  {
+    "id": "obqa/train/14-1469",
+    "reasons": [
+      "previous_normalized_question_stem"
+    ]
+  },
+  {
+    "id": "obqa/train/14-1485",
+    "reasons": [
+      "previous_normalized_question_stem",
+      "previous_question_option_content"
+    ]
+  },
+  {
+    "id": "obqa/train/14-1499",
+    "reasons": [
+      "duplicate_remaining_source_question"
+    ]
+  },
+  {
+    "id": "obqa/train/14-1501",
+    "reasons": [
+      "duplicate_remaining_source_question"
+    ]
+  },
+  {
+    "id": "obqa/train/14-1506",
+    "reasons": [
+      "previous_normalized_question_stem",
+      "previous_question_option_content",
+      "previous_split_or_query_id"
+    ]
+  },
+  {
+    "id": "obqa/train/14-1510",
+    "reasons": [
+      "previous_normalized_question_stem",
+      "previous_question_option_content"
+    ]
+  },
+  {
+    "id": "obqa/train/14-1511",
+    "reasons": [
+      "previous_normalized_question_stem",
+      "previous_question_option_content",
+      "previous_split_or_query_id"
+    ]
+  }
+]

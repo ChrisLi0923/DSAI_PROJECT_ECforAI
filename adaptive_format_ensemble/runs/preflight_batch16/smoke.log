@@ -1,0 +1,15 @@
+Sliding Window Attention is enabled but not implemented for `sdpa`; unexpected results may be encountered.
+Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]Loading checkpoint shards:  50%|█████     | 1/2 [00:01<00:01,  1.98s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:03<00:00,  1.46s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:03<00:00,  1.54s/it]
+cache split=development completed_new=16/60
+cache split=development completed_new=32/60
+cache split=development completed_new=48/60
+cache split=development completed_new=60/60
+search guided=False seed=191 generation=1 evaluated=16
+search guided=False seed=191 generation=2 evaluated=24
+search guided=True seed=191 generation=1 evaluated=16
+search guided=True seed=191 generation=2 evaluated=24
+{
+  "passed": true,
+  "inference_seconds": 7.40057685226202,
+  "wall_seconds_excluding_load": 7.859754182398319
+}

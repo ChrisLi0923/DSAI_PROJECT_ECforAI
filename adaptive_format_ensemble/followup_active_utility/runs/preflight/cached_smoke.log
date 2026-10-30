@@ -1,0 +1,22 @@
+verifying/reusing compatible search and validation caches
+CPU search G0 seed 191
+G0 seed=191 generation=1 evaluations=24/48
+G0 seed=191 generation=2 evaluations=40/48
+G0 seed=191 finished: {'raw_scored_evaluations': 48, 'question_policy_replays': 384, 'policy_evaluation_equivalents': 48, 'roles': {'base': 20, 'initial': 8, 'trial': 20}, 'unique_scored_policies': 23, 'archived_candidates': 22, 'attempt_statuses': {'complete': 48}, 'replay_seconds': 0.010483689606189728, 'full_generations': 2, 'partial_generation_offspring': 4, 'step': 20, 'seconds': 1.8545840457081795, 'cpu_seconds': 0.09564367000000029, 'initial_population_hash': 'b98bc0f5b6da1b3a446a2d769db5855a04ed284c6917040f3550eccbd84edae6'}
+CPU search G1 seed 191
+G1 seed=191 generation=1 evaluations=24/48
+G1 seed=191 generation=2 evaluations=40/48
+G1 seed=191 finished: {'raw_scored_evaluations': 48, 'question_policy_replays': 384, 'policy_evaluation_equivalents': 48, 'roles': {'base': 20, 'initial': 8, 'trial': 20}, 'unique_scored_policies': 22, 'archived_candidates': 21, 'attempt_statuses': {'complete': 48}, 'replay_seconds': 0.01090625673532486, 'full_generations': 2, 'partial_generation_offspring': 4, 'step': 20, 'seconds': 1.8295136988162994, 'cpu_seconds': 0.09210921500000024, 'initial_population_hash': 'b98bc0f5b6da1b3a446a2d769db5855a04ed284c6917040f3550eccbd84edae6'}
+CPU search G2 seed 191
+G2 seed=191 finished: {'raw_scored_evaluations': 48, 'question_policy_replays': 384, 'policy_evaluation_equivalents': 48, 'roles': {'base': 6, 'initial': 8, 'trial': 34}, 'unique_scored_policies': 36, 'archived_candidates': 11, 'attempt_statuses': {'complete': 48}, 'replay_seconds': 0.01381925493478775, 'full_generations': 0, 'partial_generation_offspring': 6, 'step': 6, 'seconds': 1.2845202535390854, 'cpu_seconds': 0.07784515599999997, 'initial_population_hash': 'b98bc0f5b6da1b3a446a2d769db5855a04ed284c6917040f3550eccbd84edae6'}
+CPU search G3 seed 191
+G3 seed=191 generation=1 evaluations=24/48
+G3 seed=191 generation=2 evaluations=40/48
+G3 seed=191 finished: {'raw_scored_evaluations': 48, 'question_policy_replays': 384, 'policy_evaluation_equivalents': 48, 'roles': {'base': 20, 'initial': 8, 'trial': 20}, 'unique_scored_policies': 21, 'archived_candidates': 19, 'attempt_statuses': {'complete': 48}, 'replay_seconds': 0.010212548077106476, 'full_generations': 2, 'partial_generation_offspring': 4, 'step': 20, 'seconds': 1.829514391720295, 'cpu_seconds': 0.08889638100000008, 'initial_population_hash': 'b98bc0f5b6da1b3a446a2d769db5855a04ed284c6917040f3550eccbd84edae6'}
+CPU search hill seed 191
+hill seed=191 finished: {'raw_scored_evaluations': 48, 'question_policy_replays': 384, 'policy_evaluation_equivalents': 48, 'roles': {'base': 6, 'initial': 8, 'trial': 34}, 'unique_scored_policies': 20, 'archived_candidates': 8, 'attempt_statuses': {'complete': 48}, 'replay_seconds': 0.008532553911209106, 'full_generations': 0, 'partial_generation_offspring': 0, 'step': 6, 'seconds': 1.2253656461834908, 'cpu_seconds': 0.05440476799999994, 'initial_population_hash': 'b98bc0f5b6da1b3a446a2d769db5855a04ed284c6917040f3550eccbd84edae6'}
+selecting policies on validation only
+frozen; generating new final matrix
+analysis and mechanism diagnostics
+Analysis, diagnostics and factual report written
+COMPLETE

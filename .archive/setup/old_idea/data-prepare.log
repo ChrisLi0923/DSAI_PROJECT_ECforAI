@@ -1,0 +1,27 @@
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/home/hli/dsai/robust_prompt/data.py", line 86, in <module>
+    args=p.parse_args(); print(prepare(read_json(args.config),args.output))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/hli/dsai/robust_prompt/data.py", line 18, in prepare
+    ds = load_dataset(spec['dataset'], 'ARC-Challenge', revision=spec['revision'])
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/hli/anaconda3/envs/dsai/lib/python3.11/site-packages/datasets/load.py", line 2062, in load_dataset
+    builder_instance = load_dataset_builder(
+                       ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/hli/anaconda3/envs/dsai/lib/python3.11/site-packages/datasets/load.py", line 1782, in load_dataset_builder
+    dataset_module = dataset_module_factory(
+                     ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/hli/anaconda3/envs/dsai/lib/python3.11/site-packages/datasets/load.py", line 1664, in dataset_module_factory
+    raise e1 from None
+  File "/home/hli/anaconda3/envs/dsai/lib/python3.11/site-packages/datasets/load.py", line 1551, in dataset_module_factory
+    raise ConnectionError(f"Couldn't reach '{path}' on the Hub ({e.__class__.__name__})") from e
+ConnectionError: Couldn't reach 'allenai/ai2_arc' on the Hub (LocalEntryNotFoundError)
+Xet Storage is enabled for this repo, but the 'hf_xet' package is not installed. Falling back to regular HTTP download. For better performance, install the package with: `pip install huggingface_hub[hf_xet]` or `pip install hf_xet`
+Xet Storage is enabled for this repo, but the 'hf_xet' package is not installed. Falling back to regular HTTP download. For better performance, install the package with: `pip install huggingface_hub[hf_xet]` or `pip install hf_xet`
+Xet Storage is enabled for this repo, but the 'hf_xet' package is not installed. Falling back to regular HTTP download. For better performance, install the package with: `pip install huggingface_hub[hf_xet]` or `pip install hf_xet`
+Generating train split:   0%|          | 0/1119 [00:00<?, ? examples/s]Generating train split: 100%|██████████| 1119/1119 [00:00<00:00, 109960.08 examples/s]
+Generating test split:   0%|          | 0/1172 [00:00<?, ? examples/s]Generating test split: 100%|██████████| 1172/1172 [00:00<00:00, 191132.01 examples/s]
+Generating validation split:   0%|          | 0/299 [00:00<?, ? examples/s]Generating validation split: 100%|██████████| 299/299 [00:00<00:00, 105227.13 examples/s]
+{'data_config': {'dataset': 'allenai/ai2_arc', 'revision': '210d026faf9955653af8916fad021475a3f00453', 'split_seed': 20261027, 'pilot_n': 100, 'search_n': 128, 'validation_n': 100}, 'counts': {'pilot': 100, 'search': 128, 'validation': 100, 'test': 1109}, 'hashes': {'pilot': 'c8626b5799308799c70bc76a6463c3d0512d3c42d728a839195364a8537f7e95', 'search': '37bad0611103c3fb88bdc8f18ed60744e29b05ac9963530eec56a66b51a6d52c', 'validation': 'd4fe0d0faea5b4cc2eebbd6c77d19fbcaed25f30d86047b9afdaea5a19e6a343', 'test': '3c70215ab40799d763521c4d1d80582a7d3afb506049b651b29240642359dc9b'}, 'rejected': 137, 'screening_reasons': {'option_position_reference': 28, 'possible_missing_media': 94, 'requires_four_distinct_labels': 13, 'duplicate_options': 4, 'duplicate_source_question': 1}, 'policy': 'Test-priority exact content/ID deduplication; no test inference before prompt freeze.'}

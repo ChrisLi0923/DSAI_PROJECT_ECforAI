@@ -1,0 +1,31 @@
+{
+  "dataset": "allenai/openbookqa",
+  "revision": "388097ea7776314e93a529163e0fea805b8a6454",
+  "source_manifest": "/home/hli/dsai/adaptive_format_ensemble/capability_diagnostic/data/manifest.json",
+  "source_manifest_sha256": "f6ed4504b0dc242dc2164ead90118a8c4f9ff629fc882dae4800dc0f48017472",
+  "counts": {
+    "search": 1500,
+    "validation": 489,
+    "diagnostic_subset": 300,
+    "reserve_unqueried": 1000,
+    "corpus": 1326
+  },
+  "hashes": {
+    "search": "a846b7a8c8b8925bc88192622b4427ec59316e02b708a5c376396fccaf856264",
+    "validation": "c4e5bf5039214971e03ae48ba2a5cb381e433aa7469f7e5af893a0c32e9b1256",
+    "reserved_ids": "8f9c850b595911602ff60be98407c0ae9c1204a32c21eba698c3bc60dfe414c6",
+    "diagnostic_subset_ids": "793302da9746e6cf6798db0973d7f7d825661f339383f86ea4187bfb1830eeca",
+    "corpus": "5da31911378790b335c89149a5f7cf7fb09a235bf833739d104ab77e97a81443",
+    "corpus_manifest": "0ed6a0d1c5ff6019fe90b07ce226693e01f49c2d977d5b36a9a4a9fa656c88b2",
+    "rankings": "75c31c5ea0d08beefa944758d9e5e8c50df354aeb442bb08b0a77761e7d4786a",
+    "diagnostic_annotations": "9c66a5bbafe40642b2e5b689171ae4ea3b3888c4f4152e54c4f93c5df1400ffc",
+    "unrelated_controls": "35c223c8a37566c8fed8e82b6a2746da3f5ae44cb6f538ed17172b9b57c12e16",
+    "protected_history": "93925ba32946ef1ab748e747344381e2422570860cc28a58179e2e2422c435a4"
+  },
+  "retriever_freeze_sha256": "2f9d9214bdb3a791d16c844b758efdb9474c1fb44a9a2284f7f5be550ff0b138",
+  "retrieval_generation_seconds": 0.8607286885380745,
+  "additional_validation_sha256": "92e5e68e4da7bec7d130d925385abf377c2d82b89a16de502b4e1b9cf3f50a26",
+  "additional_train_sha256": "d16d719e87efb86ed0a2ac4c8cdf380f7bfb94b602088393674c0a64ce9ed3d3",
+  "no_resampling": true,
+  "limits": "Same repeatedly used development pools; not a fresh confirmatory test. No reserved text, annotations or outcomes enter the index or query. Public corpus facts may naturally be relevant to reserved questions."
+}

@@ -1,0 +1,1154 @@
+{
+  "single/seed0/cap1": {
+    "qid": [
+      "obqa/train/7-245",
+      "obqa/train/8-266",
+      "obqa/train/14-93",
+      "obqa/train/9-202"
+    ],
+    "gold": [
+      2,
+      0,
+      1,
+      2
+    ],
+    "answer": [
+      3,
+      0,
+      1,
+      2
+    ],
+    "calls": [
+      1,
+      1,
+      1,
+      1
+    ],
+    "tokens": [
+      110,
+      115,
+      167,
+      113
+    ]
+  },
+  "single/seed0/cap2": {
+    "qid": [
+      "obqa/train/7-245",
+      "obqa/train/8-266",
+      "obqa/train/14-93",
+      "obqa/train/9-202"
+    ],
+    "gold": [
+      2,
+      0,
+      1,
+      2
+    ],
+    "answer": [
+      3,
+      0,
+      1,
+      2
+    ],
+    "calls": [
+      1,
+      1,
+      1,
+      1
+    ],
+    "tokens": [
+      110,
+      115,
+      167,
+      113
+    ]
+  },
+  "single/seed0/cap3": {
+    "qid": [
+      "obqa/train/7-245",
+      "obqa/train/8-266",
+      "obqa/train/14-93",
+      "obqa/train/9-202"
+    ],
+    "gold": [
+      2,
+      0,
+      1,
+      2
+    ],
+    "answer": [
+      3,
+      0,
+      1,
+      2
+    ],
+    "calls": [
+      1,
+      1,
+      1,
+      1
+    ],
+    "tokens": [
+      110,
+      115,
+      167,
+      113
+    ]
+  },
+  "fixed_subset/seed0/cap1": {
+    "qid": [
+      "obqa/train/7-245",
+      "obqa/train/8-266",
+      "obqa/train/14-93",
+      "obqa/train/9-202"
+    ],
+    "gold": [
+      2,
+      0,
+      1,
+      2
+    ],
+    "answer": [
+      3,
+      0,
+      1,
+      2
+    ],
+    "calls": [
+      1,
+      1,
+      1,
+      1
+    ],
+    "tokens": [
+      110,
+      115,
+      167,
+      113
+    ]
+  },
+  "fixed_subset/seed0/cap2": {
+    "qid": [
+      "obqa/train/7-245",
+      "obqa/train/8-266",
+      "obqa/train/14-93",
+      "obqa/train/9-202"
+    ],
+    "gold": [
+      2,
+      0,
+      1,
+      2
+    ],
+    "answer": [
+      3,
+      0,
+      1,
+      2
+    ],
+    "calls": [
+      1,
+      1,
+      1,
+      1
+    ],
+    "tokens": [
+      110,
+      115,
+      167,
+      113
+    ]
+  },
+  "fixed_subset/seed0/cap3": {
+    "qid": [
+      "obqa/train/7-245",
+      "obqa/train/8-266",
+      "obqa/train/14-93",
+      "obqa/train/9-202"
+    ],
+    "gold": [
+      2,
+      0,
+      1,
+      2
+    ],
+    "answer": [
+      3,
+      0,
+      1,
+      2
+    ],
+    "calls": [
+      1,
+      1,
+      1,
+      1
+    ],
+    "tokens": [
+      110,
+      115,
+      167,
+      113
+    ]
+  },
+  "fixed_three/seed0/cap1": {
+    "qid": [
+      "obqa/train/7-245",
+      "obqa/train/8-266",
+      "obqa/train/14-93",
+      "obqa/train/9-202"
+    ],
+    "gold": [
+      2,
+      0,
+      1,
+      2
+    ],
+    "answer": [
+      3,
+      0,
+      1,
+      2
+    ],
+    "calls": [
+      3,
+      3,
+      3,
+      3
+    ],
+    "tokens": [
+      325,
+      340,
+      496,
+      336
+    ]
+  },
+  "fixed_three/seed0/cap2": {
+    "qid": [
+      "obqa/train/7-245",
+      "obqa/train/8-266",
+      "obqa/train/14-93",
+      "obqa/train/9-202"
+    ],
+    "gold": [
+      2,
+      0,
+      1,
+      2
+    ],
+    "answer": [
+      3,
+      0,
+      1,
+      2
+    ],
+    "calls": [
+      3,
+      3,
+      3,
+      3
+    ],
+    "tokens": [
+      325,
+      340,
+      496,
+      336
+    ]
+  },
+  "fixed_three/seed0/cap3": {
+    "qid": [
+      "obqa/train/7-245",
+      "obqa/train/8-266",
+      "obqa/train/14-93",
+      "obqa/train/9-202"
+    ],
+    "gold": [
+      2,
+      0,
+      1,
+      2
+    ],
+    "answer": [
+      3,
+      0,
+      1,
+      2
+    ],
+    "calls": [
+      3,
+      3,
+      3,
+      3
+    ],
+    "tokens": [
+      325,
+      340,
+      496,
+      336
+    ]
+  },
+  "fixed_full/seed0/cap1": {
+    "qid": [
+      "obqa/train/7-245",
+      "obqa/train/8-266",
+      "obqa/train/14-93",
+      "obqa/train/9-202"
+    ],
+    "gold": [
+      2,
+      0,
+      1,
+      2
+    ],
+    "answer": [
+      3,
+      0,
+      1,
+      2
+    ],
+    "calls": [
+      5,
+      5,
+      5,
+      5
+    ],
+    "tokens": [
+      537,
+      562,
+      821,
+      554
+    ]
+  },
+  "fixed_full/seed0/cap2": {
+    "qid": [
+      "obqa/train/7-245",
+      "obqa/train/8-266",
+      "obqa/train/14-93",
+      "obqa/train/9-202"
+    ],
+    "gold": [
+      2,
+      0,
+      1,
+      2
+    ],
+    "answer": [
+      3,
+      0,
+      1,
+      2
+    ],
+    "calls": [
+      5,
+      5,
+      5,
+      5
+    ],
+    "tokens": [
+      537,
+      562,
+      821,
+      554
+    ]
+  },
+  "fixed_full/seed0/cap3": {
+    "qid": [
+      "obqa/train/7-245",
+      "obqa/train/8-266",
+      "obqa/train/14-93",
+      "obqa/train/9-202"
+    ],
+    "gold": [
+      2,
+      0,
+      1,
+      2
+    ],
+    "answer": [
+      3,
+      0,
+      1,
+      2
+    ],
+    "calls": [
+      5,
+      5,
+      5,
+      5
+    ],
+    "tokens": [
+      537,
+      562,
+      821,
+      554
+    ]
+  },
+  "fixed_agreement/seed0/cap1": {
+    "qid": [
+      "obqa/train/7-245",
+      "obqa/train/8-266",
+      "obqa/train/14-93",
+      "obqa/train/9-202"
+    ],
+    "gold": [
+      2,
+      0,
+      1,
+      2
+    ],
+    "answer": [
+      3,
+      0,
+      1,
+      2
+    ],
+    "calls": [
+      2,
+      2,
+      2,
+      2
+    ],
+    "tokens": [
+      215,
+      225,
+      330,
+      222
+    ]
+  },
+  "fixed_agreement/seed0/cap2": {
+    "qid": [
+      "obqa/train/7-245",
+      "obqa/train/8-266",
+      "obqa/train/14-93",
+      "obqa/train/9-202"
+    ],
+    "gold": [
+      2,
+      0,
+      1,
+      2
+    ],
+    "answer": [
+      3,
+      0,
+      1,
+      2
+    ],
+    "calls": [
+      2,
+      2,
+      2,
+      2
+    ],
+    "tokens": [
+      215,
+      225,
+      330,
+      222
+    ]
+  },
+  "fixed_agreement/seed0/cap3": {
+    "qid": [
+      "obqa/train/7-245",
+      "obqa/train/8-266",
+      "obqa/train/14-93",
+      "obqa/train/9-202"
+    ],
+    "gold": [
+      2,
+      0,
+      1,
+      2
+    ],
+    "answer": [
+      3,
+      0,
+      1,
+      2
+    ],
+    "calls": [
+      2,
+      2,
+      2,
+      2
+    ],
+    "tokens": [
+      215,
+      225,
+      330,
+      222
+    ]
+  },
+  "ordered_triple/seed0/cap1": {
+    "qid": [
+      "obqa/train/7-245",
+      "obqa/train/8-266",
+      "obqa/train/14-93",
+      "obqa/train/9-202"
+    ],
+    "gold": [
+      2,
+      0,
+      1,
+      2
+    ],
+    "answer": [
+      3,
+      0,
+      1,
+      2
+    ],
+    "calls": [
+      2,
+      2,
+      3,
+      2
+    ],
+    "tokens": [
+      215,
+      225,
+      496,
+      223
+    ]
+  },
+  "ordered_triple/seed0/cap2": {
+    "qid": [
+      "obqa/train/7-245",
+      "obqa/train/8-266",
+      "obqa/train/14-93",
+      "obqa/train/9-202"
+    ],
+    "gold": [
+      2,
+      0,
+      1,
+      2
+    ],
+    "answer": [
+      3,
+      0,
+      1,
+      2
+    ],
+    "calls": [
+      2,
+      2,
+      3,
+      2
+    ],
+    "tokens": [
+      215,
+      225,
+      496,
+      223
+    ]
+  },
+  "ordered_triple/seed0/cap3": {
+    "qid": [
+      "obqa/train/7-245",
+      "obqa/train/8-266",
+      "obqa/train/14-93",
+      "obqa/train/9-202"
+    ],
+    "gold": [
+      2,
+      0,
+      1,
+      2
+    ],
+    "answer": [
+      3,
+      0,
+      1,
+      2
+    ],
+    "calls": [
+      2,
+      2,
+      3,
+      2
+    ],
+    "tokens": [
+      215,
+      225,
+      496,
+      223
+    ]
+  },
+  "legacy_greedy/seed0/cap1": {
+    "qid": [
+      "obqa/train/7-245",
+      "obqa/train/8-266",
+      "obqa/train/14-93",
+      "obqa/train/9-202"
+    ],
+    "gold": [
+      2,
+      0,
+      1,
+      2
+    ],
+    "answer": [
+      3,
+      0,
+      1,
+      2
+    ],
+    "calls": [
+      1,
+      1,
+      1,
+      1
+    ],
+    "tokens": [
+      110,
+      115,
+      167,
+      113
+    ]
+  },
+  "legacy_greedy/seed0/cap2": {
+    "qid": [
+      "obqa/train/7-245",
+      "obqa/train/8-266",
+      "obqa/train/14-93",
+      "obqa/train/9-202"
+    ],
+    "gold": [
+      2,
+      0,
+      1,
+      2
+    ],
+    "answer": [
+      3,
+      0,
+      1,
+      2
+    ],
+    "calls": [
+      1,
+      1,
+      1,
+      1
+    ],
+    "tokens": [
+      110,
+      115,
+      167,
+      113
+    ]
+  },
+  "legacy_greedy/seed0/cap3": {
+    "qid": [
+      "obqa/train/7-245",
+      "obqa/train/8-266",
+      "obqa/train/14-93",
+      "obqa/train/9-202"
+    ],
+    "gold": [
+      2,
+      0,
+      1,
+      2
+    ],
+    "answer": [
+      3,
+      0,
+      1,
+      2
+    ],
+    "calls": [
+      1,
+      1,
+      1,
+      1
+    ],
+    "tokens": [
+      110,
+      115,
+      167,
+      113
+    ]
+  },
+  "G0/seed191/cap1": {
+    "qid": [
+      "obqa/train/7-245",
+      "obqa/train/8-266",
+      "obqa/train/14-93",
+      "obqa/train/9-202"
+    ],
+    "gold": [
+      2,
+      0,
+      1,
+      2
+    ],
+    "answer": [
+      3,
+      0,
+      1,
+      2
+    ],
+    "calls": [
+      1,
+      1,
+      1,
+      1
+    ],
+    "tokens": [
+      110,
+      115,
+      167,
+      113
+    ]
+  },
+  "G0/seed191/cap2": {
+    "qid": [
+      "obqa/train/7-245",
+      "obqa/train/8-266",
+      "obqa/train/14-93",
+      "obqa/train/9-202"
+    ],
+    "gold": [
+      2,
+      0,
+      1,
+      2
+    ],
+    "answer": [
+      3,
+      0,
+      1,
+      2
+    ],
+    "calls": [
+      1,
+      1,
+      1,
+      1
+    ],
+    "tokens": [
+      110,
+      115,
+      167,
+      113
+    ]
+  },
+  "G0/seed191/cap3": {
+    "qid": [
+      "obqa/train/7-245",
+      "obqa/train/8-266",
+      "obqa/train/14-93",
+      "obqa/train/9-202"
+    ],
+    "gold": [
+      2,
+      0,
+      1,
+      2
+    ],
+    "answer": [
+      3,
+      0,
+      1,
+      2
+    ],
+    "calls": [
+      1,
+      1,
+      1,
+      1
+    ],
+    "tokens": [
+      110,
+      115,
+      167,
+      113
+    ]
+  },
+  "G1/seed191/cap1": {
+    "qid": [
+      "obqa/train/7-245",
+      "obqa/train/8-266",
+      "obqa/train/14-93",
+      "obqa/train/9-202"
+    ],
+    "gold": [
+      2,
+      0,
+      1,
+      2
+    ],
+    "answer": [
+      3,
+      0,
+      1,
+      2
+    ],
+    "calls": [
+      1,
+      1,
+      1,
+      1
+    ],
+    "tokens": [
+      110,
+      115,
+      167,
+      113
+    ]
+  },
+  "G1/seed191/cap2": {
+    "qid": [
+      "obqa/train/7-245",
+      "obqa/train/8-266",
+      "obqa/train/14-93",
+      "obqa/train/9-202"
+    ],
+    "gold": [
+      2,
+      0,
+      1,
+      2
+    ],
+    "answer": [
+      3,
+      0,
+      1,
+      2
+    ],
+    "calls": [
+      1,
+      1,
+      1,
+      1
+    ],
+    "tokens": [
+      110,
+      115,
+      167,
+      113
+    ]
+  },
+  "G1/seed191/cap3": {
+    "qid": [
+      "obqa/train/7-245",
+      "obqa/train/8-266",
+      "obqa/train/14-93",
+      "obqa/train/9-202"
+    ],
+    "gold": [
+      2,
+      0,
+      1,
+      2
+    ],
+    "answer": [
+      3,
+      0,
+      1,
+      2
+    ],
+    "calls": [
+      1,
+      1,
+      1,
+      1
+    ],
+    "tokens": [
+      110,
+      115,
+      167,
+      113
+    ]
+  },
+  "G2/seed191/cap1": {
+    "qid": [
+      "obqa/train/7-245",
+      "obqa/train/8-266",
+      "obqa/train/14-93",
+      "obqa/train/9-202"
+    ],
+    "gold": [
+      2,
+      0,
+      1,
+      2
+    ],
+    "answer": [
+      3,
+      0,
+      1,
+      2
+    ],
+    "calls": [
+      1,
+      1,
+      1,
+      1
+    ],
+    "tokens": [
+      110,
+      115,
+      167,
+      113
+    ]
+  },
+  "G2/seed191/cap2": {
+    "qid": [
+      "obqa/train/7-245",
+      "obqa/train/8-266",
+      "obqa/train/14-93",
+      "obqa/train/9-202"
+    ],
+    "gold": [
+      2,
+      0,
+      1,
+      2
+    ],
+    "answer": [
+      3,
+      0,
+      1,
+      2
+    ],
+    "calls": [
+      1,
+      1,
+      1,
+      1
+    ],
+    "tokens": [
+      110,
+      115,
+      167,
+      113
+    ]
+  },
+  "G2/seed191/cap3": {
+    "qid": [
+      "obqa/train/7-245",
+      "obqa/train/8-266",
+      "obqa/train/14-93",
+      "obqa/train/9-202"
+    ],
+    "gold": [
+      2,
+      0,
+      1,
+      2
+    ],
+    "answer": [
+      3,
+      0,
+      1,
+      2
+    ],
+    "calls": [
+      1,
+      1,
+      1,
+      1
+    ],
+    "tokens": [
+      110,
+      115,
+      167,
+      113
+    ]
+  },
+  "G3/seed191/cap1": {
+    "qid": [
+      "obqa/train/7-245",
+      "obqa/train/8-266",
+      "obqa/train/14-93",
+      "obqa/train/9-202"
+    ],
+    "gold": [
+      2,
+      0,
+      1,
+      2
+    ],
+    "answer": [
+      3,
+      0,
+      1,
+      2
+    ],
+    "calls": [
+      1,
+      1,
+      1,
+      1
+    ],
+    "tokens": [
+      110,
+      115,
+      167,
+      113
+    ]
+  },
+  "G3/seed191/cap2": {
+    "qid": [
+      "obqa/train/7-245",
+      "obqa/train/8-266",
+      "obqa/train/14-93",
+      "obqa/train/9-202"
+    ],
+    "gold": [
+      2,
+      0,
+      1,
+      2
+    ],
+    "answer": [
+      3,
+      0,
+      1,
+      2
+    ],
+    "calls": [
+      1,
+      1,
+      1,
+      1
+    ],
+    "tokens": [
+      110,
+      115,
+      167,
+      113
+    ]
+  },
+  "G3/seed191/cap3": {
+    "qid": [
+      "obqa/train/7-245",
+      "obqa/train/8-266",
+      "obqa/train/14-93",
+      "obqa/train/9-202"
+    ],
+    "gold": [
+      2,
+      0,
+      1,
+      2
+    ],
+    "answer": [
+      3,
+      0,
+      1,
+      2
+    ],
+    "calls": [
+      1,
+      1,
+      1,
+      1
+    ],
+    "tokens": [
+      110,
+      115,
+      167,
+      113
+    ]
+  },
+  "hill/seed191/cap1": {
+    "qid": [
+      "obqa/train/7-245",
+      "obqa/train/8-266",
+      "obqa/train/14-93",
+      "obqa/train/9-202"
+    ],
+    "gold": [
+      2,
+      0,
+      1,
+      2
+    ],
+    "answer": [
+      3,
+      0,
+      1,
+      2
+    ],
+    "calls": [
+      1,
+      1,
+      1,
+      1
+    ],
+    "tokens": [
+      110,
+      115,
+      167,
+      113
+    ]
+  },
+  "hill/seed191/cap2": {
+    "qid": [
+      "obqa/train/7-245",
+      "obqa/train/8-266",
+      "obqa/train/14-93",
+      "obqa/train/9-202"
+    ],
+    "gold": [
+      2,
+      0,
+      1,
+      2
+    ],
+    "answer": [
+      3,
+      0,
+      1,
+      2
+    ],
+    "calls": [
+      1,
+      1,
+      1,
+      1
+    ],
+    "tokens": [
+      110,
+      115,
+      167,
+      113
+    ]
+  },
+  "hill/seed191/cap3": {
+    "qid": [
+      "obqa/train/7-245",
+      "obqa/train/8-266",
+      "obqa/train/14-93",
+      "obqa/train/9-202"
+    ],
+    "gold": [
+      2,
+      0,
+      1,
+      2
+    ],
+    "answer": [
+      3,
+      0,
+      1,
+      2
+    ],
+    "calls": [
+      1,
+      1,
+      1,
+      1
+    ],
+    "tokens": [
+      110,
+      115,
+      167,
+      113
+    ]
+  }
+}

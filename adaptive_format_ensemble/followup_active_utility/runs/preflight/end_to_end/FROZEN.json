@@ -1,0 +1,1018 @@
+{
+  "exports": [
+    {
+      "id": "single/seed0/cap1",
+      "method": "single",
+      "seed": 0,
+      "target_calls": 1.0,
+      "policy": {
+        "format": 2,
+        "predicate": "never",
+        "yes": null,
+        "no": null
+      },
+      "validation_accuracy": 0.875,
+      "validation_calls": 1.0,
+      "cap_feasible": true,
+      "validation_utility": 0.865,
+      "search_accuracy": 0.875,
+      "search_calls": 1.0,
+      "search_utility": 0.865,
+      "search_validation_accuracy_gap": 0.0
+    },
+    {
+      "id": "single/seed0/cap2",
+      "method": "single",
+      "seed": 0,
+      "target_calls": 2.0,
+      "policy": {
+        "format": 2,
+        "predicate": "never",
+        "yes": null,
+        "no": null
+      },
+      "validation_accuracy": 0.875,
+      "validation_calls": 1.0,
+      "cap_feasible": true,
+      "validation_utility": 0.865,
+      "search_accuracy": 0.875,
+      "search_calls": 1.0,
+      "search_utility": 0.865,
+      "search_validation_accuracy_gap": 0.0
+    },
+    {
+      "id": "single/seed0/cap3",
+      "method": "single",
+      "seed": 0,
+      "target_calls": 3.0,
+      "policy": {
+        "format": 2,
+        "predicate": "never",
+        "yes": null,
+        "no": null
+      },
+      "validation_accuracy": 0.875,
+      "validation_calls": 1.0,
+      "cap_feasible": true,
+      "validation_utility": 0.865,
+      "search_accuracy": 0.875,
+      "search_calls": 1.0,
+      "search_utility": 0.865,
+      "search_validation_accuracy_gap": 0.0
+    },
+    {
+      "id": "fixed_subset/seed0/cap1",
+      "method": "fixed_subset",
+      "seed": 0,
+      "target_calls": 1.0,
+      "policy": {
+        "format": 2,
+        "predicate": "never",
+        "yes": null,
+        "no": null
+      },
+      "validation_accuracy": 0.875,
+      "validation_calls": 1.0,
+      "cap_feasible": true,
+      "validation_utility": 0.865,
+      "search_accuracy": 0.875,
+      "search_calls": 1.0,
+      "search_utility": 0.865,
+      "search_validation_accuracy_gap": 0.0
+    },
+    {
+      "id": "fixed_subset/seed0/cap2",
+      "method": "fixed_subset",
+      "seed": 0,
+      "target_calls": 2.0,
+      "policy": {
+        "format": 2,
+        "predicate": "never",
+        "yes": null,
+        "no": null
+      },
+      "validation_accuracy": 0.875,
+      "validation_calls": 1.0,
+      "cap_feasible": true,
+      "validation_utility": 0.865,
+      "search_accuracy": 0.875,
+      "search_calls": 1.0,
+      "search_utility": 0.865,
+      "search_validation_accuracy_gap": 0.0
+    },
+    {
+      "id": "fixed_subset/seed0/cap3",
+      "method": "fixed_subset",
+      "seed": 0,
+      "target_calls": 3.0,
+      "policy": {
+        "format": 2,
+        "predicate": "never",
+        "yes": null,
+        "no": null
+      },
+      "validation_accuracy": 0.875,
+      "validation_calls": 1.0,
+      "cap_feasible": true,
+      "validation_utility": 0.865,
+      "search_accuracy": 0.875,
+      "search_calls": 1.0,
+      "search_utility": 0.865,
+      "search_validation_accuracy_gap": 0.0
+    },
+    {
+      "id": "fixed_three/seed0/cap1",
+      "method": "fixed_three",
+      "seed": 0,
+      "target_calls": 1.0,
+      "policy": {
+        "format": 1,
+        "predicate": "never",
+        "yes": null,
+        "no": {
+          "format": 2,
+          "predicate": "never",
+          "yes": null,
+          "no": {
+            "format": 3,
+            "predicate": "never",
+            "yes": null,
+            "no": null
+          }
+        }
+      },
+      "validation_accuracy": 0.875,
+      "validation_calls": 3.0,
+      "cap_feasible": false,
+      "validation_utility": 0.845,
+      "search_accuracy": 0.875,
+      "search_calls": 3.0,
+      "search_utility": 0.845,
+      "search_validation_accuracy_gap": 0.0
+    },
+    {
+      "id": "fixed_three/seed0/cap2",
+      "method": "fixed_three",
+      "seed": 0,
+      "target_calls": 2.0,
+      "policy": {
+        "format": 1,
+        "predicate": "never",
+        "yes": null,
+        "no": {
+          "format": 2,
+          "predicate": "never",
+          "yes": null,
+          "no": {
+            "format": 3,
+            "predicate": "never",
+            "yes": null,
+            "no": null
+          }
+        }
+      },
+      "validation_accuracy": 0.875,
+      "validation_calls": 3.0,
+      "cap_feasible": false,
+      "validation_utility": 0.845,
+      "search_accuracy": 0.875,
+      "search_calls": 3.0,
+      "search_utility": 0.845,
+      "search_validation_accuracy_gap": 0.0
+    },
+    {
+      "id": "fixed_three/seed0/cap3",
+      "method": "fixed_three",
+      "seed": 0,
+      "target_calls": 3.0,
+      "policy": {
+        "format": 1,
+        "predicate": "never",
+        "yes": null,
+        "no": {
+          "format": 2,
+          "predicate": "never",
+          "yes": null,
+          "no": {
+            "format": 3,
+            "predicate": "never",
+            "yes": null,
+            "no": null
+          }
+        }
+      },
+      "validation_accuracy": 0.875,
+      "validation_calls": 3.0,
+      "cap_feasible": true,
+      "validation_utility": 0.845,
+      "search_accuracy": 0.875,
+      "search_calls": 3.0,
+      "search_utility": 0.845,
+      "search_validation_accuracy_gap": 0.0
+    },
+    {
+      "id": "fixed_full/seed0/cap1",
+      "method": "fixed_full",
+      "seed": 0,
+      "target_calls": 1.0,
+      "policy": {
+        "format": 0,
+        "predicate": "never",
+        "yes": null,
+        "no": {
+          "format": 1,
+          "predicate": "never",
+          "yes": null,
+          "no": {
+            "format": 2,
+            "predicate": "never",
+            "yes": null,
+            "no": {
+              "format": 3,
+              "predicate": "never",
+              "yes": null,
+              "no": {
+                "format": 4,
+                "predicate": "never",
+                "yes": null,
+                "no": null
+              }
+            }
+          }
+        }
+      },
+      "validation_accuracy": 0.875,
+      "validation_calls": 5.0,
+      "cap_feasible": false,
+      "validation_utility": 0.825,
+      "search_accuracy": 0.875,
+      "search_calls": 5.0,
+      "search_utility": 0.825,
+      "search_validation_accuracy_gap": 0.0
+    },
+    {
+      "id": "fixed_full/seed0/cap2",
+      "method": "fixed_full",
+      "seed": 0,
+      "target_calls": 2.0,
+      "policy": {
+        "format": 0,
+        "predicate": "never",
+        "yes": null,
+        "no": {
+          "format": 1,
+          "predicate": "never",
+          "yes": null,
+          "no": {
+            "format": 2,
+            "predicate": "never",
+            "yes": null,
+            "no": {
+              "format": 3,
+              "predicate": "never",
+              "yes": null,
+              "no": {
+                "format": 4,
+                "predicate": "never",
+                "yes": null,
+                "no": null
+              }
+            }
+          }
+        }
+      },
+      "validation_accuracy": 0.875,
+      "validation_calls": 5.0,
+      "cap_feasible": false,
+      "validation_utility": 0.825,
+      "search_accuracy": 0.875,
+      "search_calls": 5.0,
+      "search_utility": 0.825,
+      "search_validation_accuracy_gap": 0.0
+    },
+    {
+      "id": "fixed_full/seed0/cap3",
+      "method": "fixed_full",
+      "seed": 0,
+      "target_calls": 3.0,
+      "policy": {
+        "format": 0,
+        "predicate": "never",
+        "yes": null,
+        "no": {
+          "format": 1,
+          "predicate": "never",
+          "yes": null,
+          "no": {
+            "format": 2,
+            "predicate": "never",
+            "yes": null,
+            "no": {
+              "format": 3,
+              "predicate": "never",
+              "yes": null,
+              "no": {
+                "format": 4,
+                "predicate": "never",
+                "yes": null,
+                "no": null
+              }
+            }
+          }
+        }
+      },
+      "validation_accuracy": 0.875,
+      "validation_calls": 5.0,
+      "cap_feasible": false,
+      "validation_utility": 0.825,
+      "search_accuracy": 0.875,
+      "search_calls": 5.0,
+      "search_utility": 0.825,
+      "search_validation_accuracy_gap": 0.0
+    },
+    {
+      "id": "fixed_agreement/seed0/cap1",
+      "method": "fixed_agreement",
+      "seed": 0,
+      "target_calls": 1.0,
+      "policy": {
+        "format": 0,
+        "predicate": "agreement2",
+        "yes": null,
+        "no": {
+          "format": 1,
+          "predicate": "agreement2",
+          "yes": null,
+          "no": {
+            "format": 2,
+            "predicate": "agreement2",
+            "yes": null,
+            "no": {
+              "format": 3,
+              "predicate": "agreement2",
+              "yes": null,
+              "no": {
+                "format": 4,
+                "predicate": "agreement2",
+                "yes": null,
+                "no": null
+              }
+            }
+          }
+        }
+      },
+      "validation_accuracy": 0.875,
+      "validation_calls": 2.0,
+      "cap_feasible": false,
+      "validation_utility": 0.855,
+      "search_accuracy": 0.875,
+      "search_calls": 2.125,
+      "search_utility": 0.85375,
+      "search_validation_accuracy_gap": 0.0
+    },
+    {
+      "id": "fixed_agreement/seed0/cap2",
+      "method": "fixed_agreement",
+      "seed": 0,
+      "target_calls": 2.0,
+      "policy": {
+        "format": 0,
+        "predicate": "agreement2",
+        "yes": null,
+        "no": {
+          "format": 1,
+          "predicate": "agreement2",
+          "yes": null,
+          "no": {
+            "format": 2,
+            "predicate": "agreement2",
+            "yes": null,
+            "no": {
+              "format": 3,
+              "predicate": "agreement2",
+              "yes": null,
+              "no": {
+                "format": 4,
+                "predicate": "agreement2",
+                "yes": null,
+                "no": null
+              }
+            }
+          }
+        }
+      },
+      "validation_accuracy": 0.875,
+      "validation_calls": 2.0,
+      "cap_feasible": true,
+      "validation_utility": 0.855,
+      "search_accuracy": 0.875,
+      "search_calls": 2.125,
+      "search_utility": 0.85375,
+      "search_validation_accuracy_gap": 0.0
+    },
+    {
+      "id": "fixed_agreement/seed0/cap3",
+      "method": "fixed_agreement",
+      "seed": 0,
+      "target_calls": 3.0,
+      "policy": {
+        "format": 0,
+        "predicate": "agreement2",
+        "yes": null,
+        "no": {
+          "format": 1,
+          "predicate": "agreement2",
+          "yes": null,
+          "no": {
+            "format": 2,
+            "predicate": "agreement2",
+            "yes": null,
+            "no": {
+              "format": 3,
+              "predicate": "agreement2",
+              "yes": null,
+              "no": {
+                "format": 4,
+                "predicate": "agreement2",
+                "yes": null,
+                "no": null
+              }
+            }
+          }
+        }
+      },
+      "validation_accuracy": 0.875,
+      "validation_calls": 2.0,
+      "cap_feasible": true,
+      "validation_utility": 0.855,
+      "search_accuracy": 0.875,
+      "search_calls": 2.125,
+      "search_utility": 0.85375,
+      "search_validation_accuracy_gap": 0.0
+    },
+    {
+      "id": "ordered_triple/seed0/cap1",
+      "method": "ordered_triple",
+      "seed": 0,
+      "target_calls": 1.0,
+      "policy": {
+        "format": 1,
+        "predicate": "agreement2",
+        "yes": null,
+        "no": {
+          "format": 3,
+          "predicate": "agreement2",
+          "yes": null,
+          "no": {
+            "format": 2,
+            "predicate": "agreement2",
+            "yes": null,
+            "no": null
+          }
+        }
+      },
+      "validation_accuracy": 0.875,
+      "validation_calls": 2.0,
+      "cap_feasible": false,
+      "validation_utility": 0.855,
+      "search_accuracy": 0.875,
+      "search_calls": 2.125,
+      "search_utility": 0.85375,
+      "search_validation_accuracy_gap": 0.0
+    },
+    {
+      "id": "ordered_triple/seed0/cap2",
+      "method": "ordered_triple",
+      "seed": 0,
+      "target_calls": 2.0,
+      "policy": {
+        "format": 1,
+        "predicate": "agreement2",
+        "yes": null,
+        "no": {
+          "format": 3,
+          "predicate": "agreement2",
+          "yes": null,
+          "no": {
+            "format": 2,
+            "predicate": "agreement2",
+            "yes": null,
+            "no": null
+          }
+        }
+      },
+      "validation_accuracy": 0.875,
+      "validation_calls": 2.0,
+      "cap_feasible": true,
+      "validation_utility": 0.855,
+      "search_accuracy": 0.875,
+      "search_calls": 2.125,
+      "search_utility": 0.85375,
+      "search_validation_accuracy_gap": 0.0
+    },
+    {
+      "id": "ordered_triple/seed0/cap3",
+      "method": "ordered_triple",
+      "seed": 0,
+      "target_calls": 3.0,
+      "policy": {
+        "format": 1,
+        "predicate": "agreement2",
+        "yes": null,
+        "no": {
+          "format": 3,
+          "predicate": "agreement2",
+          "yes": null,
+          "no": {
+            "format": 2,
+            "predicate": "agreement2",
+            "yes": null,
+            "no": null
+          }
+        }
+      },
+      "validation_accuracy": 0.875,
+      "validation_calls": 2.0,
+      "cap_feasible": true,
+      "validation_utility": 0.855,
+      "search_accuracy": 0.875,
+      "search_calls": 2.125,
+      "search_utility": 0.85375,
+      "search_validation_accuracy_gap": 0.0
+    },
+    {
+      "id": "legacy_greedy/seed0/cap1",
+      "method": "legacy_greedy",
+      "seed": 0,
+      "target_calls": 1.0,
+      "policy": {
+        "format": 2,
+        "predicate": "never",
+        "yes": null,
+        "no": null
+      },
+      "validation_accuracy": 0.875,
+      "validation_calls": 1.0,
+      "cap_feasible": true,
+      "validation_utility": 0.865,
+      "search_accuracy": 0.875,
+      "search_calls": 1.0,
+      "search_utility": 0.865,
+      "search_validation_accuracy_gap": 0.0
+    },
+    {
+      "id": "legacy_greedy/seed0/cap2",
+      "method": "legacy_greedy",
+      "seed": 0,
+      "target_calls": 2.0,
+      "policy": {
+        "format": 2,
+        "predicate": "never",
+        "yes": null,
+        "no": null
+      },
+      "validation_accuracy": 0.875,
+      "validation_calls": 1.0,
+      "cap_feasible": true,
+      "validation_utility": 0.865,
+      "search_accuracy": 0.875,
+      "search_calls": 1.0,
+      "search_utility": 0.865,
+      "search_validation_accuracy_gap": 0.0
+    },
+    {
+      "id": "legacy_greedy/seed0/cap3",
+      "method": "legacy_greedy",
+      "seed": 0,
+      "target_calls": 3.0,
+      "policy": {
+        "format": 2,
+        "predicate": "never",
+        "yes": null,
+        "no": null
+      },
+      "validation_accuracy": 0.875,
+      "validation_calls": 1.0,
+      "cap_feasible": true,
+      "validation_utility": 0.865,
+      "search_accuracy": 0.875,
+      "search_calls": 1.0,
+      "search_utility": 0.865,
+      "search_validation_accuracy_gap": 0.0
+    },
+    {
+      "id": "G0/seed191/cap1",
+      "method": "G0",
+      "seed": 191,
+      "target_calls": 1.0,
+      "policy": {
+        "format": 2,
+        "predicate": "never",
+        "yes": null,
+        "no": null
+      },
+      "validation_accuracy": 0.875,
+      "validation_calls": 1.0,
+      "cap_feasible": true,
+      "validation_utility": 0.865,
+      "search_accuracy": 0.875,
+      "search_calls": 1.0,
+      "search_utility": 0.865,
+      "search_validation_accuracy_gap": 0.0
+    },
+    {
+      "id": "G0/seed191/cap2",
+      "method": "G0",
+      "seed": 191,
+      "target_calls": 2.0,
+      "policy": {
+        "format": 2,
+        "predicate": "never",
+        "yes": null,
+        "no": null
+      },
+      "validation_accuracy": 0.875,
+      "validation_calls": 1.0,
+      "cap_feasible": true,
+      "validation_utility": 0.865,
+      "search_accuracy": 0.875,
+      "search_calls": 1.0,
+      "search_utility": 0.865,
+      "search_validation_accuracy_gap": 0.0
+    },
+    {
+      "id": "G0/seed191/cap3",
+      "method": "G0",
+      "seed": 191,
+      "target_calls": 3.0,
+      "policy": {
+        "format": 2,
+        "predicate": "never",
+        "yes": null,
+        "no": null
+      },
+      "validation_accuracy": 0.875,
+      "validation_calls": 1.0,
+      "cap_feasible": true,
+      "validation_utility": 0.865,
+      "search_accuracy": 0.875,
+      "search_calls": 1.0,
+      "search_utility": 0.865,
+      "search_validation_accuracy_gap": 0.0
+    },
+    {
+      "id": "G1/seed191/cap1",
+      "method": "G1",
+      "seed": 191,
+      "target_calls": 1.0,
+      "policy": {
+        "format": 2,
+        "predicate": "never",
+        "yes": null,
+        "no": null
+      },
+      "validation_accuracy": 0.875,
+      "validation_calls": 1.0,
+      "cap_feasible": true,
+      "validation_utility": 0.865,
+      "search_accuracy": 0.875,
+      "search_calls": 1.0,
+      "search_utility": 0.865,
+      "search_validation_accuracy_gap": 0.0
+    },
+    {
+      "id": "G1/seed191/cap2",
+      "method": "G1",
+      "seed": 191,
+      "target_calls": 2.0,
+      "policy": {
+        "format": 2,
+        "predicate": "never",
+        "yes": null,
+        "no": null
+      },
+      "validation_accuracy": 0.875,
+      "validation_calls": 1.0,
+      "cap_feasible": true,
+      "validation_utility": 0.865,
+      "search_accuracy": 0.875,
+      "search_calls": 1.0,
+      "search_utility": 0.865,
+      "search_validation_accuracy_gap": 0.0
+    },
+    {
+      "id": "G1/seed191/cap3",
+      "method": "G1",
+      "seed": 191,
+      "target_calls": 3.0,
+      "policy": {
+        "format": 2,
+        "predicate": "never",
+        "yes": null,
+        "no": null
+      },
+      "validation_accuracy": 0.875,
+      "validation_calls": 1.0,
+      "cap_feasible": true,
+      "validation_utility": 0.865,
+      "search_accuracy": 0.875,
+      "search_calls": 1.0,
+      "search_utility": 0.865,
+      "search_validation_accuracy_gap": 0.0
+    },
+    {
+      "id": "G2/seed191/cap1",
+      "method": "G2",
+      "seed": 191,
+      "target_calls": 1.0,
+      "policy": {
+        "format": 2,
+        "predicate": "never",
+        "yes": null,
+        "no": null
+      },
+      "validation_accuracy": 0.875,
+      "validation_calls": 1.0,
+      "cap_feasible": true,
+      "validation_utility": 0.865,
+      "search_accuracy": 0.875,
+      "search_calls": 1.0,
+      "search_utility": 0.865,
+      "search_validation_accuracy_gap": 0.0
+    },
+    {
+      "id": "G2/seed191/cap2",
+      "method": "G2",
+      "seed": 191,
+      "target_calls": 2.0,
+      "policy": {
+        "format": 2,
+        "predicate": "never",
+        "yes": null,
+        "no": null
+      },
+      "validation_accuracy": 0.875,
+      "validation_calls": 1.0,
+      "cap_feasible": true,
+      "validation_utility": 0.865,
+      "search_accuracy": 0.875,
+      "search_calls": 1.0,
+      "search_utility": 0.865,
+      "search_validation_accuracy_gap": 0.0
+    },
+    {
+      "id": "G2/seed191/cap3",
+      "method": "G2",
+      "seed": 191,
+      "target_calls": 3.0,
+      "policy": {
+        "format": 2,
+        "predicate": "never",
+        "yes": null,
+        "no": null
+      },
+      "validation_accuracy": 0.875,
+      "validation_calls": 1.0,
+      "cap_feasible": true,
+      "validation_utility": 0.865,
+      "search_accuracy": 0.875,
+      "search_calls": 1.0,
+      "search_utility": 0.865,
+      "search_validation_accuracy_gap": 0.0
+    },
+    {
+      "id": "G3/seed191/cap1",
+      "method": "G3",
+      "seed": 191,
+      "target_calls": 1.0,
+      "policy": {
+        "format": 2,
+        "predicate": "never",
+        "yes": null,
+        "no": null
+      },
+      "validation_accuracy": 0.875,
+      "validation_calls": 1.0,
+      "cap_feasible": true,
+      "validation_utility": 0.865,
+      "search_accuracy": 0.875,
+      "search_calls": 1.0,
+      "search_utility": 0.865,
+      "search_validation_accuracy_gap": 0.0
+    },
+    {
+      "id": "G3/seed191/cap2",
+      "method": "G3",
+      "seed": 191,
+      "target_calls": 2.0,
+      "policy": {
+        "format": 2,
+        "predicate": "never",
+        "yes": null,
+        "no": null
+      },
+      "validation_accuracy": 0.875,
+      "validation_calls": 1.0,
+      "cap_feasible": true,
+      "validation_utility": 0.865,
+      "search_accuracy": 0.875,
+      "search_calls": 1.0,
+      "search_utility": 0.865,
+      "search_validation_accuracy_gap": 0.0
+    },
+    {
+      "id": "G3/seed191/cap3",
+      "method": "G3",
+      "seed": 191,
+      "target_calls": 3.0,
+      "policy": {
+        "format": 2,
+        "predicate": "never",
+        "yes": null,
+        "no": null
+      },
+      "validation_accuracy": 0.875,
+      "validation_calls": 1.0,
+      "cap_feasible": true,
+      "validation_utility": 0.865,
+      "search_accuracy": 0.875,
+      "search_calls": 1.0,
+      "search_utility": 0.865,
+      "search_validation_accuracy_gap": 0.0
+    },
+    {
+      "id": "hill/seed191/cap1",
+      "method": "hill",
+      "seed": 191,
+      "target_calls": 1.0,
+      "policy": {
+        "format": 2,
+        "predicate": "never",
+        "yes": null,
+        "no": null
+      },
+      "validation_accuracy": 0.875,
+      "validation_calls": 1.0,
+      "cap_feasible": true,
+      "validation_utility": 0.865,
+      "search_accuracy": 0.875,
+      "search_calls": 1.0,
+      "search_utility": 0.865,
+      "search_validation_accuracy_gap": 0.0
+    },
+    {
+      "id": "hill/seed191/cap2",
+      "method": "hill",
+      "seed": 191,
+      "target_calls": 2.0,
+      "policy": {
+        "format": 2,
+        "predicate": "never",
+        "yes": null,
+        "no": null
+      },
+      "validation_accuracy": 0.875,
+      "validation_calls": 1.0,
+      "cap_feasible": true,
+      "validation_utility": 0.865,
+      "search_accuracy": 0.875,
+      "search_calls": 1.0,
+      "search_utility": 0.865,
+      "search_validation_accuracy_gap": 0.0
+    },
+    {
+      "id": "hill/seed191/cap3",
+      "method": "hill",
+      "seed": 191,
+      "target_calls": 3.0,
+      "policy": {
+        "format": 2,
+        "predicate": "never",
+        "yes": null,
+        "no": null
+      },
+      "validation_accuracy": 0.875,
+      "validation_calls": 1.0,
+      "cap_feasible": true,
+      "validation_utility": 0.865,
+      "search_accuracy": 0.875,
+      "search_calls": 1.0,
+      "search_utility": 0.865,
+      "search_validation_accuracy_gap": 0.0
+    }
+  ],
+  "groups": [
+    {
+      "method": "single",
+      "seed": 0,
+      "candidates": 5
+    },
+    {
+      "method": "fixed_subset",
+      "seed": 0,
+      "candidates": 31
+    },
+    {
+      "method": "fixed_three",
+      "seed": 0,
+      "candidates": 10
+    },
+    {
+      "method": "fixed_full",
+      "seed": 0,
+      "candidates": 1
+    },
+    {
+      "method": "fixed_agreement",
+      "seed": 0,
+      "candidates": 1
+    },
+    {
+      "method": "ordered_triple",
+      "seed": 0,
+      "candidates": 60
+    },
+    {
+      "method": "legacy_greedy",
+      "seed": 0,
+      "candidates": 7
+    },
+    {
+      "method": "G0",
+      "seed": 191,
+      "candidates": 22
+    },
+    {
+      "method": "G1",
+      "seed": 191,
+      "candidates": 21
+    },
+    {
+      "method": "G2",
+      "seed": 191,
+      "candidates": 11
+    },
+    {
+      "method": "G3",
+      "seed": 191,
+      "candidates": 19
+    },
+    {
+      "method": "hill",
+      "seed": 191,
+      "candidates": 8
+    }
+  ],
+  "config_hash": "d5b50d652c6952ed5356d9223f41d8bb06bb5cf6d3f653589ee6a284d59e666c",
+  "source_hash": "8ba490cab5a9fdc01ca1ef30f433375a847305082895e5f71a0d12d4986a300b",
+  "analysis_rules": {
+    "primary_cap": 3.0,
+    "bootstrap_replicates": 30,
+    "bootstrap_seed": 291029,
+    "comparisons": [
+      [
+        "G1",
+        "G0"
+      ],
+      [
+        "G2",
+        "G1"
+      ],
+      [
+        "G2",
+        "G3"
+      ],
+      [
+        "G2",
+        "ordered_triple"
+      ],
+      [
+        "G2",
+        "hill"
+      ],
+      [
+        "G2",
+        "legacy_greedy"
+      ]
+    ],
+    "metrics": [
+      "accuracy",
+      "calls",
+      "utility",
+      "tokens",
+      "invalid"
+    ],
+    "unit": "whole_question",
+    "seed_aggregation": "average_fitted_seeds_within_question",
+    "interval_scope": "conditional_on_fitted_policies",
+    "test_frontier": "descriptive_only"
+  },
+  "test_manifest_hash": "7bc192f25796682fdec455ecaf8b0c692eba491b2443f1c71fb8d8675e778963",
+  "test_source": "previously queried development material, smoke only",
+  "validation_selection": "highest accuracy under mean-call cap; then calls, size, policy hash; if infeasible lowest calls then accuracy,size,hash",
+  "post_search_diagnostic_replays": 288,
+  "validation_policy_evaluations": 588,
+  "validation_question_policy_replays": 4704,
+  "created_unix": 1793278863.6360464,
+  "sha256": "7f2882e76aafa149f738f87e34b2e122b094c8c26ba2243c789b3f35c384d63b"
+}

@@ -1,0 +1,7 @@
+{
+  "evidence": "real-model smoke",
+  "elapsed_seconds": 101.99812851846218,
+  "wall_span_seconds_including_resume_gaps": 102.08702325820923,
+  "config_sha256": "af6fded0409f84014ba0569f53b70790d4764bdd9ed0c9763caff109e20644e5",
+  "selected_prompts": 5
+}

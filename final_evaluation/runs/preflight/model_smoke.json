@@ -1,0 +1,650 @@
+{
+  "passed": true,
+  "calls": 10,
+  "reserved_calls": 0,
+  "extra_preparation_calls": 10,
+  "wall_seconds": 2.165413022041321,
+  "input_tokens": 964,
+  "output_tokens": 20,
+  "generation_seconds": 1.7616261839866638,
+  "canonical_mismatches": 0,
+  "raw_mismatches": 0,
+  "responses": [
+    {
+      "raw": "C",
+      "raw_with_special_tokens": "C<|im_end|>",
+      "output_token_ids": [
+        34,
+        151645
+      ],
+      "input_tokens": 94,
+      "output_tokens": 2,
+      "seconds": 0.4358507767319679,
+      "padded_input_tokens": 94,
+      "finish_reason": "eos",
+      "letter": "C",
+      "identity": 2,
+      "valid": true,
+      "qid": "obqa/train/12-579",
+      "format_index": 0,
+      "format": "original",
+      "split": "development",
+      "request_identity": {
+        "schema": 1,
+        "model": {
+          "name": "Qwen/Qwen2.5-3B-Instruct",
+          "revision": "aa8e72537993ba99e69dfaafa59ed015b17504d1",
+          "batch_size": 1,
+          "target_max_tokens": 8,
+          "proposer_max_tokens": 160,
+          "max_input_tokens": 1536,
+          "min_free_gib": 18,
+          "memory_fraction": 0.4
+        },
+        "tokenizer_revision": "aa8e72537993ba99e69dfaafa59ed015b17504d1",
+        "instruction_hash": "7e61b322804b6ccbc48154a891244f081ff4cb58604ae21c2b90c59c18536445",
+        "question": {
+          "id": "obqa/train/12-579",
+          "question": "Something is coming out of clouds on a dark day, so it is likely",
+          "options": [
+            "birds",
+            "dust",
+            "precipitation",
+            "angels"
+          ],
+          "source": "train"
+        },
+        "rendered_input": "Something is coming out of clouds on a dark day, so it is likely\nA. birds\nB. dust\nC. precipitation\nD. angels",
+        "format": "original",
+        "permutation": {
+          "A": 0,
+          "B": 1,
+          "C": 2,
+          "D": 3
+        },
+        "decoding": {
+          "do_sample": false,
+          "seed": 0,
+          "max_new_tokens": 8,
+          "padding_side": "left",
+          "chat_template_revision": "aa8e72537993ba99e69dfaafa59ed015b17504d1"
+        }
+      },
+      "key": "f1347d68050536e1c1dc83bcc2cc9b7f064f2da9a2f0d3a3ec5fe7d61d239af5"
+    },
+    {
+      "raw": "C",
+      "raw_with_special_tokens": "C<|im_end|>",
+      "output_token_ids": [
+        34,
+        151645
+      ],
+      "input_tokens": 97,
+      "output_tokens": 2,
+      "seconds": 0.14560720324516296,
+      "padded_input_tokens": 97,
+      "finish_reason": "eos",
+      "letter": "C",
+      "identity": 2,
+      "valid": true,
+      "qid": "obqa/train/12-579",
+      "format_index": 1,
+      "format": "inline",
+      "split": "development",
+      "request_identity": {
+        "schema": 1,
+        "model": {
+          "name": "Qwen/Qwen2.5-3B-Instruct",
+          "revision": "aa8e72537993ba99e69dfaafa59ed015b17504d1",
+          "batch_size": 1,
+          "target_max_tokens": 8,
+          "proposer_max_tokens": 160,
+          "max_input_tokens": 1536,
+          "min_free_gib": 18,
+          "memory_fraction": 0.4
+        },
+        "tokenizer_revision": "aa8e72537993ba99e69dfaafa59ed015b17504d1",
+        "instruction_hash": "7e61b322804b6ccbc48154a891244f081ff4cb58604ae21c2b90c59c18536445",
+        "question": {
+          "id": "obqa/train/12-579",
+          "question": "Something is coming out of clouds on a dark day, so it is likely",
+          "options": [
+            "birds",
+            "dust",
+            "precipitation",
+            "angels"
+          ],
+          "source": "train"
+        },
+        "rendered_input": "Something is coming out of clouds on a dark day, so it is likely\n(A) birds  (B) dust  (C) precipitation  (D) angels",
+        "format": "inline",
+        "permutation": {
+          "A": 0,
+          "B": 1,
+          "C": 2,
+          "D": 3
+        },
+        "decoding": {
+          "do_sample": false,
+          "seed": 0,
+          "max_new_tokens": 8,
+          "padding_side": "left",
+          "chat_template_revision": "aa8e72537993ba99e69dfaafa59ed015b17504d1"
+        }
+      },
+      "key": "1a7a0fc45fb02d0595ed179073af4da8eb235252ea0f3002d3b8e685e5108953"
+    },
+    {
+      "raw": "C",
+      "raw_with_special_tokens": "C<|im_end|>",
+      "output_token_ids": [
+        34,
+        151645
+      ],
+      "input_tokens": 98,
+      "output_tokens": 2,
+      "seconds": 0.14823023229837418,
+      "padded_input_tokens": 98,
+      "finish_reason": "eos",
+      "letter": "C",
+      "identity": 2,
+      "valid": true,
+      "qid": "obqa/train/12-579",
+      "format_index": 2,
+      "format": "bullets",
+      "split": "development",
+      "request_identity": {
+        "schema": 1,
+        "model": {
+          "name": "Qwen/Qwen2.5-3B-Instruct",
+          "revision": "aa8e72537993ba99e69dfaafa59ed015b17504d1",
+          "batch_size": 1,
+          "target_max_tokens": 8,
+          "proposer_max_tokens": 160,
+          "max_input_tokens": 1536,
+          "min_free_gib": 18,
+          "memory_fraction": 0.4
+        },
+        "tokenizer_revision": "aa8e72537993ba99e69dfaafa59ed015b17504d1",
+        "instruction_hash": "7e61b322804b6ccbc48154a891244f081ff4cb58604ae21c2b90c59c18536445",
+        "question": {
+          "id": "obqa/train/12-579",
+          "question": "Something is coming out of clouds on a dark day, so it is likely",
+          "options": [
+            "birds",
+            "dust",
+            "precipitation",
+            "angels"
+          ],
+          "source": "train"
+        },
+        "rendered_input": "Something is coming out of clouds on a dark day, so it is likely\n- A: birds\n- B: dust\n- C: precipitation\n- D: angels",
+        "format": "bullets",
+        "permutation": {
+          "A": 0,
+          "B": 1,
+          "C": 2,
+          "D": 3
+        },
+        "decoding": {
+          "do_sample": false,
+          "seed": 0,
+          "max_new_tokens": 8,
+          "padding_side": "left",
+          "chat_template_revision": "aa8e72537993ba99e69dfaafa59ed015b17504d1"
+        }
+      },
+      "key": "34b57f9691323bbefafb334da9858abac14aca3184a7955526200df1ced96b81"
+    },
+    {
+      "raw": "B",
+      "raw_with_special_tokens": "B<|im_end|>",
+      "output_token_ids": [
+        33,
+        151645
+      ],
+      "input_tokens": 94,
+      "output_tokens": 2,
+      "seconds": 0.14650945365428925,
+      "padded_input_tokens": 94,
+      "finish_reason": "eos",
+      "letter": "B",
+      "identity": 2,
+      "valid": true,
+      "qid": "obqa/train/12-579",
+      "format_index": 3,
+      "format": "rotate1",
+      "split": "development",
+      "request_identity": {
+        "schema": 1,
+        "model": {
+          "name": "Qwen/Qwen2.5-3B-Instruct",
+          "revision": "aa8e72537993ba99e69dfaafa59ed015b17504d1",
+          "batch_size": 1,
+          "target_max_tokens": 8,
+          "proposer_max_tokens": 160,
+          "max_input_tokens": 1536,
+          "min_free_gib": 18,
+          "memory_fraction": 0.4
+        },
+        "tokenizer_revision": "aa8e72537993ba99e69dfaafa59ed015b17504d1",
+        "instruction_hash": "7e61b322804b6ccbc48154a891244f081ff4cb58604ae21c2b90c59c18536445",
+        "question": {
+          "id": "obqa/train/12-579",
+          "question": "Something is coming out of clouds on a dark day, so it is likely",
+          "options": [
+            "birds",
+            "dust",
+            "precipitation",
+            "angels"
+          ],
+          "source": "train"
+        },
+        "rendered_input": "Something is coming out of clouds on a dark day, so it is likely\nA. dust\nB. precipitation\nC. angels\nD. birds",
+        "format": "rotate1",
+        "permutation": {
+          "A": 1,
+          "B": 2,
+          "C": 3,
+          "D": 0
+        },
+        "decoding": {
+          "do_sample": false,
+          "seed": 0,
+          "max_new_tokens": 8,
+          "padding_side": "left",
+          "chat_template_revision": "aa8e72537993ba99e69dfaafa59ed015b17504d1"
+        }
+      },
+      "key": "8a1fe0225314174f91cf09252ba655181632666388d4c212aaf0394df9b6d0b6"
+    },
+    {
+      "raw": "A",
+      "raw_with_special_tokens": "A<|im_end|>",
+      "output_token_ids": [
+        32,
+        151645
+      ],
+      "input_tokens": 94,
+      "output_tokens": 2,
+      "seconds": 0.14394045621156693,
+      "padded_input_tokens": 94,
+      "finish_reason": "eos",
+      "letter": "A",
+      "identity": 2,
+      "valid": true,
+      "qid": "obqa/train/12-579",
+      "format_index": 4,
+      "format": "rotate2",
+      "split": "development",
+      "request_identity": {
+        "schema": 1,
+        "model": {
+          "name": "Qwen/Qwen2.5-3B-Instruct",
+          "revision": "aa8e72537993ba99e69dfaafa59ed015b17504d1",
+          "batch_size": 1,
+          "target_max_tokens": 8,
+          "proposer_max_tokens": 160,
+          "max_input_tokens": 1536,
+          "min_free_gib": 18,
+          "memory_fraction": 0.4
+        },
+        "tokenizer_revision": "aa8e72537993ba99e69dfaafa59ed015b17504d1",
+        "instruction_hash": "7e61b322804b6ccbc48154a891244f081ff4cb58604ae21c2b90c59c18536445",
+        "question": {
+          "id": "obqa/train/12-579",
+          "question": "Something is coming out of clouds on a dark day, so it is likely",
+          "options": [
+            "birds",
+            "dust",
+            "precipitation",
+            "angels"
+          ],
+          "source": "train"
+        },
+        "rendered_input": "Something is coming out of clouds on a dark day, so it is likely\nA. precipitation\nB. angels\nC. birds\nD. dust",
+        "format": "rotate2",
+        "permutation": {
+          "A": 2,
+          "B": 3,
+          "C": 0,
+          "D": 1
+        },
+        "decoding": {
+          "do_sample": false,
+          "seed": 0,
+          "max_new_tokens": 8,
+          "padding_side": "left",
+          "chat_template_revision": "aa8e72537993ba99e69dfaafa59ed015b17504d1"
+        }
+      },
+      "key": "a30279ed4e3cfbb5f001f583a706312616340a2b32003251e0630bb53f2bc23a"
+    },
+    {
+      "raw": "A",
+      "raw_with_special_tokens": "A<|im_end|>",
+      "output_token_ids": [
+        32,
+        151645
+      ],
+      "input_tokens": 96,
+      "output_tokens": 2,
+      "seconds": 0.14854223281145096,
+      "padded_input_tokens": 96,
+      "finish_reason": "eos",
+      "letter": "A",
+      "identity": 0,
+      "valid": true,
+      "qid": "obqa/train/10-119",
+      "format_index": 0,
+      "format": "original",
+      "split": "development",
+      "request_identity": {
+        "schema": 1,
+        "model": {
+          "name": "Qwen/Qwen2.5-3B-Instruct",
+          "revision": "aa8e72537993ba99e69dfaafa59ed015b17504d1",
+          "batch_size": 1,
+          "target_max_tokens": 8,
+          "proposer_max_tokens": 160,
+          "max_input_tokens": 1536,
+          "min_free_gib": 18,
+          "memory_fraction": 0.4
+        },
+        "tokenizer_revision": "aa8e72537993ba99e69dfaafa59ed015b17504d1",
+        "instruction_hash": "7e61b322804b6ccbc48154a891244f081ff4cb58604ae21c2b90c59c18536445",
+        "question": {
+          "id": "obqa/train/10-119",
+          "question": "A cat finds it easiest to get a grip when climbing up",
+          "options": [
+            "plastic pole",
+            "carpeted pole",
+            "icy pole",
+            "metal pole"
+          ],
+          "source": "train"
+        },
+        "rendered_input": "A cat finds it easiest to get a grip when climbing up\nA. plastic pole\nB. carpeted pole\nC. icy pole\nD. metal pole",
+        "format": "original",
+        "permutation": {
+          "A": 0,
+          "B": 1,
+          "C": 2,
+          "D": 3
+        },
+        "decoding": {
+          "do_sample": false,
+          "seed": 0,
+          "max_new_tokens": 8,
+          "padding_side": "left",
+          "chat_template_revision": "aa8e72537993ba99e69dfaafa59ed015b17504d1"
+        }
+      },
+      "key": "8aaacfe12c12225ac16f7b54cf603861878b6026a2d8f1b1f6f7126051e5dcda"
+    },
+    {
+      "raw": "B",
+      "raw_with_special_tokens": "B<|im_end|>",
+      "output_token_ids": [
+        33,
+        151645
+      ],
+      "input_tokens": 99,
+      "output_tokens": 2,
+      "seconds": 0.14481454342603683,
+      "padded_input_tokens": 99,
+      "finish_reason": "eos",
+      "letter": "B",
+      "identity": 1,
+      "valid": true,
+      "qid": "obqa/train/10-119",
+      "format_index": 1,
+      "format": "inline",
+      "split": "development",
+      "request_identity": {
+        "schema": 1,
+        "model": {
+          "name": "Qwen/Qwen2.5-3B-Instruct",
+          "revision": "aa8e72537993ba99e69dfaafa59ed015b17504d1",
+          "batch_size": 1,
+          "target_max_tokens": 8,
+          "proposer_max_tokens": 160,
+          "max_input_tokens": 1536,
+          "min_free_gib": 18,
+          "memory_fraction": 0.4
+        },
+        "tokenizer_revision": "aa8e72537993ba99e69dfaafa59ed015b17504d1",
+        "instruction_hash": "7e61b322804b6ccbc48154a891244f081ff4cb58604ae21c2b90c59c18536445",
+        "question": {
+          "id": "obqa/train/10-119",
+          "question": "A cat finds it easiest to get a grip when climbing up",
+          "options": [
+            "plastic pole",
+            "carpeted pole",
+            "icy pole",
+            "metal pole"
+          ],
+          "source": "train"
+        },
+        "rendered_input": "A cat finds it easiest to get a grip when climbing up\n(A) plastic pole  (B) carpeted pole  (C) icy pole  (D) metal pole",
+        "format": "inline",
+        "permutation": {
+          "A": 0,
+          "B": 1,
+          "C": 2,
+          "D": 3
+        },
+        "decoding": {
+          "do_sample": false,
+          "seed": 0,
+          "max_new_tokens": 8,
+          "padding_side": "left",
+          "chat_template_revision": "aa8e72537993ba99e69dfaafa59ed015b17504d1"
+        }
+      },
+      "key": "6e44863d6f4af3600ed36d603fea76b4b19435fad7f2058b7993e7745cdd523f"
+    },
+    {
+      "raw": "B",
+      "raw_with_special_tokens": "B<|im_end|>",
+      "output_token_ids": [
+        33,
+        151645
+      ],
+      "input_tokens": 100,
+      "output_tokens": 2,
+      "seconds": 0.14813712239265442,
+      "padded_input_tokens": 100,
+      "finish_reason": "eos",
+      "letter": "B",
+      "identity": 1,
+      "valid": true,
+      "qid": "obqa/train/10-119",
+      "format_index": 2,
+      "format": "bullets",
+      "split": "development",
+      "request_identity": {
+        "schema": 1,
+        "model": {
+          "name": "Qwen/Qwen2.5-3B-Instruct",
+          "revision": "aa8e72537993ba99e69dfaafa59ed015b17504d1",
+          "batch_size": 1,
+          "target_max_tokens": 8,
+          "proposer_max_tokens": 160,
+          "max_input_tokens": 1536,
+          "min_free_gib": 18,
+          "memory_fraction": 0.4
+        },
+        "tokenizer_revision": "aa8e72537993ba99e69dfaafa59ed015b17504d1",
+        "instruction_hash": "7e61b322804b6ccbc48154a891244f081ff4cb58604ae21c2b90c59c18536445",
+        "question": {
+          "id": "obqa/train/10-119",
+          "question": "A cat finds it easiest to get a grip when climbing up",
+          "options": [
+            "plastic pole",
+            "carpeted pole",
+            "icy pole",
+            "metal pole"
+          ],
+          "source": "train"
+        },
+        "rendered_input": "A cat finds it easiest to get a grip when climbing up\n- A: plastic pole\n- B: carpeted pole\n- C: icy pole\n- D: metal pole",
+        "format": "bullets",
+        "permutation": {
+          "A": 0,
+          "B": 1,
+          "C": 2,
+          "D": 3
+        },
+        "decoding": {
+          "do_sample": false,
+          "seed": 0,
+          "max_new_tokens": 8,
+          "padding_side": "left",
+          "chat_template_revision": "aa8e72537993ba99e69dfaafa59ed015b17504d1"
+        }
+      },
+      "key": "e688c06c4dae70d67178468da3a1eaec2273b571d1f33b2d78f093372176d59b"
+    },
+    {
+      "raw": "A",
+      "raw_with_special_tokens": "A<|im_end|>",
+      "output_token_ids": [
+        32,
+        151645
+      ],
+      "input_tokens": 96,
+      "output_tokens": 2,
+      "seconds": 0.15357711911201477,
+      "padded_input_tokens": 96,
+      "finish_reason": "eos",
+      "letter": "A",
+      "identity": 1,
+      "valid": true,
+      "qid": "obqa/train/10-119",
+      "format_index": 3,
+      "format": "rotate1",
+      "split": "development",
+      "request_identity": {
+        "schema": 1,
+        "model": {
+          "name": "Qwen/Qwen2.5-3B-Instruct",
+          "revision": "aa8e72537993ba99e69dfaafa59ed015b17504d1",
+          "batch_size": 1,
+          "target_max_tokens": 8,
+          "proposer_max_tokens": 160,
+          "max_input_tokens": 1536,
+          "min_free_gib": 18,
+          "memory_fraction": 0.4
+        },
+        "tokenizer_revision": "aa8e72537993ba99e69dfaafa59ed015b17504d1",
+        "instruction_hash": "7e61b322804b6ccbc48154a891244f081ff4cb58604ae21c2b90c59c18536445",
+        "question": {
+          "id": "obqa/train/10-119",
+          "question": "A cat finds it easiest to get a grip when climbing up",
+          "options": [
+            "plastic pole",
+            "carpeted pole",
+            "icy pole",
+            "metal pole"
+          ],
+          "source": "train"
+        },
+        "rendered_input": "A cat finds it easiest to get a grip when climbing up\nA. carpeted pole\nB. icy pole\nC. metal pole\nD. plastic pole",
+        "format": "rotate1",
+        "permutation": {
+          "A": 1,
+          "B": 2,
+          "C": 3,
+          "D": 0
+        },
+        "decoding": {
+          "do_sample": false,
+          "seed": 0,
+          "max_new_tokens": 8,
+          "padding_side": "left",
+          "chat_template_revision": "aa8e72537993ba99e69dfaafa59ed015b17504d1"
+        }
+      },
+      "key": "94187d33b1388ebe965919814b4c9969cf78593a7c48bf5cc370f973cbf93432"
+    },
+    {
+      "raw": "B",
+      "raw_with_special_tokens": "B<|im_end|>",
+      "output_token_ids": [
+        33,
+        151645
+      ],
+      "input_tokens": 96,
+      "output_tokens": 2,
+      "seconds": 0.1464170441031456,
+      "padded_input_tokens": 96,
+      "finish_reason": "eos",
+      "letter": "B",
+      "identity": 3,
+      "valid": true,
+      "qid": "obqa/train/10-119",
+      "format_index": 4,
+      "format": "rotate2",
+      "split": "development",
+      "request_identity": {
+        "schema": 1,
+        "model": {
+          "name": "Qwen/Qwen2.5-3B-Instruct",
+          "revision": "aa8e72537993ba99e69dfaafa59ed015b17504d1",
+          "batch_size": 1,
+          "target_max_tokens": 8,
+          "proposer_max_tokens": 160,
+          "max_input_tokens": 1536,
+          "min_free_gib": 18,
+          "memory_fraction": 0.4
+        },
+        "tokenizer_revision": "aa8e72537993ba99e69dfaafa59ed015b17504d1",
+        "instruction_hash": "7e61b322804b6ccbc48154a891244f081ff4cb58604ae21c2b90c59c18536445",
+        "question": {
+          "id": "obqa/train/10-119",
+          "question": "A cat finds it easiest to get a grip when climbing up",
+          "options": [
+            "plastic pole",
+            "carpeted pole",
+            "icy pole",
+            "metal pole"
+          ],
+          "source": "train"
+        },
+        "rendered_input": "A cat finds it easiest to get a grip when climbing up\nA. icy pole\nB. metal pole\nC. plastic pole\nD. carpeted pole",
+        "format": "rotate2",
+        "permutation": {
+          "A": 2,
+          "B": 3,
+          "C": 0,
+          "D": 1
+        },
+        "decoding": {
+          "do_sample": false,
+          "seed": 0,
+          "max_new_tokens": 8,
+          "padding_side": "left",
+          "chat_template_revision": "aa8e72537993ba99e69dfaafa59ed015b17504d1"
+        }
+      },
+      "key": "85d941490a1c4bfd6003bafa5633c1d3976e71b7dd63a3c77d8e5659d67aca45"
+    }
+  ],
+  "hardware": {
+    "gpu": "NVIDIA GeForce RTX 4090",
+    "visible_devices": "GPU-44a70774-4e6e-2da2-3a68-26266ac5035c",
+    "free_gib_before_load": 20.0987548828125,
+    "total_gib": 23.64288330078125,
+    "torch": "2.6.0+cu124",
+    "cuda": "12.4",
+    "load_seconds": 5.951149083673954,
+    "dtype": "bfloat16",
+    "deterministic_algorithms": true,
+    "cpu_threads": 4,
+    "tf32": false,
+    "attention": "sdpa",
+    "memory_fraction": 0.4
+  },
+  "scope": "Two previously queried search questions, all five formats; no reserve outcome used for debugging or tuning."
+}

@@ -1,0 +1,2402 @@
+[
+  {
+    "qid": "obqa/train/12-988",
+    "supporting_fact": "adding salt to a liquid decreases the melting point of that liquid",
+    "unrelated_fact": "An example of protecting the environment is reducing the amount of waste",
+    "unrelated_source_id": "obqa/train/13-15",
+    "word_length_difference": 0,
+    "selection": "nearest word length after independent lexical/option overlap exclusions; seeded tie"
+  },
+  {
+    "qid": "obqa/train/13-952",
+    "supporting_fact": "as the smoothness of something increases , the friction of that something will decrease when its surface moves against another surface",
+    "unrelated_fact": "as the sale of a product decreases , the amount of money made by the person selling that product will decrease",
+    "unrelated_source_id": "obqa/train/11-433",
+    "word_length_difference": 0,
+    "selection": "nearest word length after independent lexical/option overlap exclusions; seeded tie"
+  },
+  {
+    "qid": "obqa/train/11-199",
+    "supporting_fact": "a plant requires sunlight for photosynthesis",
+    "unrelated_fact": "a deer lives in a forest",
+    "unrelated_source_id": "obqa/train/1163",
+    "word_length_difference": 0,
+    "selection": "nearest word length after independent lexical/option overlap exclusions; seeded tie"
+  },
+  {
+    "qid": "obqa/train/10-379",
+    "supporting_fact": "an organism requires energy for growth",
+    "unrelated_fact": "a closed circuit has continuous path",
+    "unrelated_source_id": "obqa/train/14-79",
+    "word_length_difference": 0,
+    "selection": "nearest word length after independent lexical/option overlap exclusions; seeded tie"
+  },
+  {
+    "qid": "obqa/train/14-712",
+    "supporting_fact": "the moon reflects sunlight towards the Earth",
+    "unrelated_fact": "a polar bear requires a cold environment",
+    "unrelated_source_id": "obqa/train/12-931",
+    "word_length_difference": 0,
+    "selection": "nearest word length after independent lexical/option overlap exclusions; seeded tie"
+  },
+  {
+    "qid": "obqa/train/11-305",
+    "supporting_fact": "a sea turtle lives in the ocean",
+    "unrelated_fact": "recyclable means a material can be recycled",
+    "unrelated_source_id": "obqa/train/9-599",
+    "word_length_difference": 0,
+    "selection": "nearest word length after independent lexical/option overlap exclusions; seeded tie"
+  },
+  {
+    "qid": "obqa/train/7-56",
+    "supporting_fact": "as the number of sources of food increase in an environment , the population of the organisms will increase in that environment",
+    "unrelated_fact": "the arctic environment is cold in temperature from being at a northern lattitude below 0 degrees celsius during most of the year",
+    "unrelated_source_id": "obqa/train/10-441",
+    "word_length_difference": 0,
+    "selection": "nearest word length after independent lexical/option overlap exclusions; seeded tie"
+  },
+  {
+    "qid": "obqa/train/1228",
+    "supporting_fact": "coal mine is a source of coal under the ground",
+    "unrelated_fact": "thermal conduction is when materials conduct heat through those materials",
+    "unrelated_source_id": "obqa/train/8-452",
+    "word_length_difference": 0,
+    "selection": "nearest word length after independent lexical/option overlap exclusions; seeded tie"
+  },
+  {
+    "qid": "obqa/train/9-45",
+    "supporting_fact": "the cocoons being created occurs during the the pupa stage in a life cycle",
+    "unrelated_fact": "as temperature during the day increases , the temperature in an environment will increase",
+    "unrelated_source_id": "obqa/train/14-704",
+    "word_length_difference": 0,
+    "selection": "nearest word length after independent lexical/option overlap exclusions; seeded tie"
+  },
+  {
+    "qid": "obqa/train/12-742",
+    "supporting_fact": "snow falls during the winter in the arctic environment",
+    "unrelated_fact": "runoff is when cropland water enters bodies of water",
+    "unrelated_source_id": "obqa/train/9-400",
+    "word_length_difference": 0,
+    "selection": "nearest word length after independent lexical/option overlap exclusions; seeded tie"
+  },
+  {
+    "qid": "obqa/train/14-1506",
+    "supporting_fact": "breaking down an object changes that object 's shape and mass",
+    "unrelated_fact": "producer is a kind of role in the food chain process",
+    "unrelated_source_id": "obqa/train/9-365",
+    "word_length_difference": 0,
+    "selection": "nearest word length after independent lexical/option overlap exclusions; seeded tie"
+  },
+  {
+    "qid": "obqa/train/12-289",
+    "supporting_fact": "a solution is made of one substance dissolved in another substance",
+    "unrelated_fact": "winter is when a hemisphere is tilted away from the sun",
+    "unrelated_source_id": "obqa/train/657",
+    "word_length_difference": 0,
+    "selection": "nearest word length after independent lexical/option overlap exclusions; seeded tie"
+  },
+  {
+    "qid": "obqa/train/10-741",
+    "supporting_fact": "An example of hitting something is dropping an object onto that something",
+    "unrelated_fact": "An example of a fossil is the bones of an extinct animal",
+    "unrelated_source_id": "obqa/train/10-11",
+    "word_length_difference": 0,
+    "selection": "nearest word length after independent lexical/option overlap exclusions; seeded tie"
+  },
+  {
+    "qid": "obqa/train/13-176",
+    "supporting_fact": "down feathers are a thermal energy insulator",
+    "unrelated_fact": "a magnet attracts ferromagnetic metals through magnetism",
+    "unrelated_source_id": "obqa/train/8-289",
+    "word_length_difference": 0,
+    "selection": "nearest word length after independent lexical/option overlap exclusions; seeded tie"
+  },
+  {
+    "qid": "obqa/train/12-207",
+    "supporting_fact": "as the weight of an animal decreases , that animal will fly more easily",
+    "unrelated_fact": "In the food chain process some types of plankton have the role of producer",
+    "unrelated_source_id": "obqa/train/10-468",
+    "word_length_difference": 0,
+    "selection": "nearest word length after independent lexical/option overlap exclusions; seeded tie"
+  },
+  {
+    "qid": "obqa/train/10-674",
+    "supporting_fact": "rock is made of minerals",
+    "unrelated_fact": "buildings collapsing often cause death",
+    "unrelated_source_id": "obqa/train/14-148",
+    "word_length_difference": 0,
+    "selection": "nearest word length after independent lexical/option overlap exclusions; seeded tie"
+  },
+  {
+    "qid": "obqa/train/13-467",
+    "supporting_fact": "recyclable means a material can be recycled",
+    "unrelated_fact": "an earthquake causes the ground to shake",
+    "unrelated_source_id": "obqa/train/13-993",
+    "word_length_difference": 0,
+    "selection": "nearest word length after independent lexical/option overlap exclusions; seeded tie"
+  },
+  {
+    "qid": "obqa/train/13-1006",
+    "supporting_fact": "a source of something supplies that something",
+    "unrelated_fact": "some animals move quickly to escape predators",
+    "unrelated_source_id": "obqa/train/12-38",
+    "word_length_difference": 0,
+    "selection": "nearest word length after independent lexical/option overlap exclusions; seeded tie"
+  },
+  {
+    "qid": "obqa/train/11-443",
+    "supporting_fact": "as the smoothness of something increases , the friction of that something will decrease when its surface moves against another surface",
+    "unrelated_fact": "as the sale of a product decreases , the amount of money made by the person selling that product will decrease",
+    "unrelated_source_id": "obqa/train/13-116",
+    "word_length_difference": 0,
+    "selection": "nearest word length after independent lexical/option overlap exclusions; seeded tie"
+  },
+  {
+    "qid": "obqa/train/1894",
+    "supporting_fact": "as the amount of food an animal eats decreases , that organism will become thinner",
+    "unrelated_fact": "as population of predators decreases , the population of prey will increase in an environment",
+    "unrelated_source_id": "obqa/train/14-134",
+    "word_length_difference": 0,
+    "selection": "nearest word length after independent lexical/option overlap exclusions; seeded tie"
+  },
+  {
+    "qid": "obqa/train/11-267",
+    "supporting_fact": "an animal requires air for survival",
+    "unrelated_fact": "absorbing sunlight causes objects to heat",
+    "unrelated_source_id": "obqa/train/11-52",
+    "word_length_difference": 0,
+    "selection": "nearest word length after independent lexical/option overlap exclusions; seeded tie"
+  },
+  {
+    "qid": "obqa/train/9-737",
+    "supporting_fact": "stalactites are formed by deposition",
+    "unrelated_fact": "water is a renewable resource",
+    "unrelated_source_id": "obqa/train/336",
+    "word_length_difference": 0,
+    "selection": "nearest word length after independent lexical/option overlap exclusions; seeded tie"
+  },
+  {
+    "qid": "obqa/train/13-328",
+    "supporting_fact": "the number of rings in a tree trunk can be used to estimate the age of the tree",
+    "unrelated_fact": "as the available water in an environment increases , the populations of organisms in that environment will increase",
+    "unrelated_source_id": "obqa/train/7-12",
+    "word_length_difference": 0,
+    "selection": "nearest word length after independent lexical/option overlap exclusions; seeded tie"
+  },
+  {
+    "qid": "obqa/train/12-352",
+    "supporting_fact": "if a living thing dies then that living thing is dead",
+    "unrelated_fact": "harming an animal species causes that animal 's population to decrease",
+    "unrelated_source_id": "obqa/train/1766",
+    "word_length_difference": 0,
+    "selection": "nearest word length after independent lexical/option overlap exclusions; seeded tie"
+  },
+  {
+    "qid": "obqa/train/13-890",
+    "supporting_fact": "the cells of multicellular organisms can specialize",
+    "unrelated_fact": "binoculars are used for observing distant objects",
+    "unrelated_source_id": "obqa/train/13-461",
+    "word_length_difference": 0,
+    "selection": "nearest word length after independent lexical/option overlap exclusions; seeded tie"
+  },
+  {
+    "qid": "obqa/train/8-436",
+    "supporting_fact": "In the respiration process carbon dioxide is a waste product",
+    "unrelated_fact": "the amount of daylight is greatest on the summer solstice",
+    "unrelated_source_id": "obqa/train/13-675",
+    "word_length_difference": 0,
+    "selection": "nearest word length after independent lexical/option overlap exclusions; seeded tie"
+  },
+  {
+    "qid": "obqa/train/11-481",
+    "supporting_fact": "a bird is warm-blooded",
+    "unrelated_fact": "metal is sometimes magnetic",
+    "unrelated_source_id": "obqa/train/14-815",
+    "word_length_difference": 0,
+    "selection": "nearest word length after independent lexical/option overlap exclusions; seeded tie"
+  },
+  {
+    "qid": "obqa/train/9-355",
+    "supporting_fact": "scientists make observations",
+    "unrelated_fact": "all animals breathe",
+    "unrelated_source_id": "obqa/train/7-674",
+    "word_length_difference": 0,
+    "selection": "nearest word length after independent lexical/option overlap exclusions; seeded tie"
+  },
+  {
+    "qid": "obqa/train/10-1190",
+    "supporting_fact": "the skeletal system protects internal organs",
+    "unrelated_fact": "seasons cause change to the environment",
+    "unrelated_source_id": "obqa/train/11-620",
+    "word_length_difference": 0,
+    "selection": "nearest word length after independent lexical/option overlap exclusions; seeded tie"
+  },
+  {
+    "qid": "obqa/train/12-167",
+    "supporting_fact": "the ocean contains large amounts of salt water",
+    "unrelated_fact": "animals learn some behaviors from watching their parents",
+    "unrelated_source_id": "obqa/train/1757",
+    "word_length_difference": 0,
+    "selection": "nearest word length after independent lexical/option overlap exclusions; seeded tie"
+  },
+  {
+    "qid": "obqa/train/14-1287",
+    "supporting_fact": "the pupa stage is a stage in the metamorphosis process of some animals",
+    "unrelated_fact": "reproduction is when an organism passes genetic information from itself to its offspring",
+    "unrelated_source_id": "obqa/train/14-1326",
+    "word_length_difference": 0,
+    "selection": "nearest word length after independent lexical/option overlap exclusions; seeded tie"
+  },
+  {
+    "qid": "obqa/train/12-90",
+    "supporting_fact": "an electrical device requires electricity to turn on",
+    "unrelated_fact": "the ocean contains large amounts of salt water",
+    "unrelated_source_id": "obqa/train/12-167",
+    "word_length_difference": 0,
+    "selection": "nearest word length after independent lexical/option overlap exclusions; seeded tie"
+  },
+  {
+    "qid": "obqa/train/8-99",
+    "supporting_fact": "echolocation is when some animals detect objects by hearing echoes by emitting sound",
+    "unrelated_fact": "the gravitational pull of the Moon on Earth 's oceans causes the tides",
+    "unrelated_source_id": "obqa/train/12-123",
+    "word_length_difference": 0,
+    "selection": "nearest word length after independent lexical/option overlap exclusions; seeded tie"
+  },
+  {
+    "qid": "obqa/train/12-328",
+    "supporting_fact": "camouflage is used for hiding by animals against predators",
+    "unrelated_fact": "December is during the summer in the southern hemisphere",
+    "unrelated_source_id": "obqa/train/10-767",
+    "word_length_difference": 0,
+    "selection": "nearest word length after independent lexical/option overlap exclusions; seeded tie"
+  },
+  {
+    "qid": "obqa/train/8-210",
+    "supporting_fact": "recycling nonrenewable resources has a positive impact on the conservation of those resources",
+    "unrelated_fact": "the mass of a planet causes the pull of gravity on that planet",
+    "unrelated_source_id": "obqa/train/9-1150",
+    "word_length_difference": 0,
+    "selection": "nearest word length after independent lexical/option overlap exclusions; seeded tie"
+  },
+  {
+    "qid": "obqa/train/12-212",
+    "supporting_fact": "a thermal conductor is made of materials that conduct thermal energy",
+    "unrelated_fact": "having food has a positive impact on an organism 's health",
+    "unrelated_source_id": "obqa/train/10-344",
+    "word_length_difference": 0,
+    "selection": "nearest word length after independent lexical/option overlap exclusions; seeded tie"
+  },
+  {
+    "qid": "obqa/train/7-521",
+    "supporting_fact": "a disperser disperses",
+    "unrelated_fact": "eagles eat fish",
+    "unrelated_source_id": "obqa/train/10-1171",
+    "word_length_difference": 0,
+    "selection": "nearest word length after independent lexical/option overlap exclusions; seeded tie"
+  },
+  {
+    "qid": "obqa/train/13-132",
+    "supporting_fact": "as lightness in color of an object increases , the ability of that object to reflect light will increase",
+    "unrelated_fact": "as the surface area of a body of water increases , evaporation of that body of water will increase",
+    "unrelated_source_id": "obqa/train/13-96",
+    "word_length_difference": 0,
+    "selection": "nearest word length after independent lexical/option overlap exclusions; seeded tie"
+  },
+  {
+    "qid": "obqa/train/10-1214",
+    "supporting_fact": "acid can cause chemical change",
+    "unrelated_fact": "a beach ball contains gas",
+    "unrelated_source_id": "obqa/train/14-752",
+    "word_length_difference": 0,
+    "selection": "nearest word length after independent lexical/option overlap exclusions; seeded tie"
+  },
+  {
+    "qid": "obqa/train/14-888",
+    "supporting_fact": "the coloration of fur is an inherited characteristic",
+    "unrelated_fact": "objects made of glass cause refraction of light",
+    "unrelated_source_id": "obqa/train/10-534",
+    "word_length_difference": 0,
+    "selection": "nearest word length after independent lexical/option overlap exclusions; seeded tie"
+  },
+  {
+    "qid": "obqa/train/791",
+    "supporting_fact": "dropping something causes that something to fall",
+    "unrelated_fact": "the moon 's surface contains many craters",
+    "unrelated_source_id": "obqa/train/7-30",
+    "word_length_difference": 0,
+    "selection": "nearest word length after independent lexical/option overlap exclusions; seeded tie"
+  },
+  {
+    "qid": "obqa/train/14-219",
+    "supporting_fact": "burning a living thing usually causes harm to that living thing",
+    "unrelated_fact": "birds are a vehicle for spreading the seeds of a plant",
+    "unrelated_source_id": "obqa/train/13-673",
+    "word_length_difference": 0,
+    "selection": "nearest word length after independent lexical/option overlap exclusions; seeded tie"
+  },
+  {
+    "qid": "obqa/train/13-454",
+    "supporting_fact": "storms cause bodies of water to increase amount of water they contain",
+    "unrelated_fact": "as distance from an object decreases , that object will appear larger",
+    "unrelated_source_id": "obqa/train/10-789",
+    "word_length_difference": 0,
+    "selection": "nearest word length after independent lexical/option overlap exclusions; seeded tie"
+  },
+  {
+    "qid": "obqa/train/10-181",
+    "supporting_fact": "volcanoes are often found under oceans",
+    "unrelated_fact": "a canyon is made of rocks",
+    "unrelated_source_id": "obqa/train/13-780",
+    "word_length_difference": 0,
+    "selection": "nearest word length after independent lexical/option overlap exclusions; seeded tie"
+  },
+  {
+    "qid": "obqa/train/12-931",
+    "supporting_fact": "a polar bear requires a cold environment",
+    "unrelated_fact": "down feathers are a thermal energy insulator",
+    "unrelated_source_id": "obqa/train/7-830",
+    "word_length_difference": 0,
+    "selection": "nearest word length after independent lexical/option overlap exclusions; seeded tie"
+  },
+  {
+    "qid": "obqa/train/14-389",
+    "supporting_fact": "as the amount of rain increases in an environment , available sunlight will decrease in that environment",
+    "unrelated_fact": "if something is a raw material in a process then that something is required for that process",
+    "unrelated_source_id": "obqa/train/7-143",
+    "word_length_difference": 0,
+    "selection": "nearest word length after independent lexical/option overlap exclusions; seeded tie"
+  },
+  {
+    "qid": "obqa/train/14-10",
+    "supporting_fact": "when the seasons change from the summer to the fall , the amount of daylight will decrease",
+    "unrelated_fact": "as the thickness of an object increases , the resistance to damage of that object will increase",
+    "unrelated_source_id": "obqa/train/12-729",
+    "word_length_difference": 0,
+    "selection": "nearest word length after independent lexical/option overlap exclusions; seeded tie"
+  },
+  {
+    "qid": "obqa/train/9-625",
+    "supporting_fact": "solar energy is a renewable resource",
+    "unrelated_fact": "a closed circuit has continuous path",
+    "unrelated_source_id": "obqa/train/14-79",
+    "word_length_difference": 0,
+    "selection": "nearest word length after independent lexical/option overlap exclusions; seeded tie"
+  },
+  {
+    "qid": "obqa/train/14-701",
+    "supporting_fact": "bad weather decreases visibility while driving",
+    "unrelated_fact": "wax is an electrical energy insulator",
+    "unrelated_source_id": "obqa/train/13-384",
+    "word_length_difference": 0,
+    "selection": "nearest word length after independent lexical/option overlap exclusions; seeded tie"
+  },
+  {
+    "qid": "obqa/train/13-294",
+    "supporting_fact": "fat is used to keep animals warm",
+    "unrelated_fact": "one day is equal to 24 hours",
+    "unrelated_source_id": "obqa/train/13-287",
+    "word_length_difference": 0,
+    "selection": "nearest word length after independent lexical/option overlap exclusions; seeded tie"
+  },
+  {
+    "qid": "obqa/train/10-355",
+    "supporting_fact": "if a living thing dies then that living thing is dead",
+    "unrelated_fact": "as energy required for an activity increases , pulse will increase",
+    "unrelated_source_id": "obqa/train/7-555",
+    "word_length_difference": 0,
+    "selection": "nearest word length after independent lexical/option overlap exclusions; seeded tie"
+  },
+  {
+    "qid": "obqa/train/9-1109",
+    "supporting_fact": "predators eat other animals",
+    "unrelated_fact": "heavy rains cause flooding",
+    "unrelated_source_id": "obqa/train/13-743",
+    "word_length_difference": 0,
+    "selection": "nearest word length after independent lexical/option overlap exclusions; seeded tie"
+  },
+  {
+    "qid": "obqa/train/14-771",
+    "supporting_fact": "friction occurs when two object 's surfaces move against each other",
+    "unrelated_fact": "An example of a chemical change is acid breaking down substances",
+    "unrelated_source_id": "obqa/train/13-351",
+    "word_length_difference": 0,
+    "selection": "nearest word length after independent lexical/option overlap exclusions; seeded tie"
+  },
+  {
+    "qid": "obqa/train/10-1026",
+    "supporting_fact": "as a source of light becomes closer , that source will appear brighter",
+    "unrelated_fact": "if a leaf falls off of a tree then that leaf is dead",
+    "unrelated_source_id": "obqa/train/12-14",
+    "word_length_difference": 0,
+    "selection": "nearest word length after independent lexical/option overlap exclusions; seeded tie"
+  },
+  {
+    "qid": "obqa/train/14-198",
+    "supporting_fact": "An example of camouflage is an organism looking like leaves",
+    "unrelated_fact": "plants absorb nutrients from soil into themselves through their roots",
+    "unrelated_source_id": "obqa/train/14-912",
+    "word_length_difference": 0,
+    "selection": "nearest word length after independent lexical/option overlap exclusions; seeded tie"
+  },
+  {
+    "qid": "obqa/train/12-928",
+    "supporting_fact": "a graduated cylinder is a kind of instrument for measuring volume of liquids or objects",
+    "unrelated_fact": "as population of predators decreases , the population of prey will increase in an environment",
+    "unrelated_source_id": "obqa/train/10-118",
+    "word_length_difference": 0,
+    "selection": "nearest word length after independent lexical/option overlap exclusions; seeded tie"
+  },
+  {
+    "qid": "obqa/train/13-866",
+    "supporting_fact": "a renewable resource can be renewed",
+    "unrelated_fact": "minerals are formed from magma cooling",
+    "unrelated_source_id": "obqa/train/10-493",
+    "word_length_difference": 0,
+    "selection": "nearest word length after independent lexical/option overlap exclusions; seeded tie"
+  },
+  {
+    "qid": "obqa/train/8-297",
+    "supporting_fact": "adaptations are used for survival",
+    "unrelated_fact": "bees convert nectar into honey",
+    "unrelated_source_id": "obqa/train/11-83",
+    "word_length_difference": 0,
+    "selection": "nearest word length after independent lexical/option overlap exclusions; seeded tie"
+  },
+  {
+    "qid": "obqa/train/11-412",
+    "supporting_fact": "a solution is made of one substance dissolved in another substance",
+    "unrelated_fact": "if an organism becomes too hot then that organism may die",
+    "unrelated_source_id": "obqa/train/10-236",
+    "word_length_difference": 0,
+    "selection": "nearest word length after independent lexical/option overlap exclusions; seeded tie"
+  },
+  {
+    "qid": "obqa/train/8-419",
+    "supporting_fact": "a canyon forming occurs over a period of millions of years",
+    "unrelated_fact": "the moon orbiting the Earth causes the phases of the moon",
+    "unrelated_source_id": "obqa/train/12-906",
+    "word_length_difference": 0,
+    "selection": "nearest word length after independent lexical/option overlap exclusions; seeded tie"
+  },
+  {
+    "qid": "obqa/train/1846",
+    "supporting_fact": "cold environments are usually white in color from being covered in snow",
+    "unrelated_fact": "an ocean is a source of heat and moisture for a hurricane",
+    "unrelated_source_id": "obqa/train/11-682",
+    "word_length_difference": 0,
+    "selection": "nearest word length after independent lexical/option overlap exclusions; seeded tie"
+  },
+  {
+    "qid": "obqa/train/12-826",
+    "supporting_fact": "a desert environment is low in availability of water",
+    "unrelated_fact": "friction causes the speed of an object to decrease",
+    "unrelated_source_id": "obqa/train/14-1486",
+    "word_length_difference": 0,
+    "selection": "nearest word length after independent lexical/option overlap exclusions; seeded tie"
+  },
+  {
+    "qid": "obqa/train/7-256",
+    "supporting_fact": "natural disasters can cause animals to leave an environment",
+    "unrelated_fact": "if a tree falls then that tree is dead",
+    "unrelated_source_id": "obqa/train/14-1444",
+    "word_length_difference": 0,
+    "selection": "nearest word length after independent lexical/option overlap exclusions; seeded tie"
+  },
+  {
+    "qid": "obqa/train/12-694",
+    "supporting_fact": "special tissues in plants transport minerals throughout the plant",
+    "unrelated_fact": "a dense forest environment is often dark in color",
+    "unrelated_source_id": "obqa/train/14-333",
+    "word_length_difference": 0,
+    "selection": "nearest word length after independent lexical/option overlap exclusions; seeded tie"
+  },
+  {
+    "qid": "obqa/train/14-891",
+    "supporting_fact": "An example of reproduction is laying eggs",
+    "unrelated_fact": "touch can be used for detecting texture",
+    "unrelated_source_id": "obqa/train/1366",
+    "word_length_difference": 0,
+    "selection": "nearest word length after independent lexical/option overlap exclusions; seeded tie"
+  },
+  {
+    "qid": "obqa/train/10-919",
+    "supporting_fact": "the cell membrane provides support for a cell",
+    "unrelated_fact": "a tape measure is used to measure length",
+    "unrelated_source_id": "obqa/train/8-37",
+    "word_length_difference": 0,
+    "selection": "nearest word length after independent lexical/option overlap exclusions; seeded tie"
+  },
+  {
+    "qid": "obqa/train/7-282",
+    "supporting_fact": "magnifying glass is used to see small things by making objects appear bigger",
+    "unrelated_fact": "recycling nonrenewable resources has a positive impact on the conservation of those resources",
+    "unrelated_source_id": "obqa/train/8-210",
+    "word_length_difference": 0,
+    "selection": "nearest word length after independent lexical/option overlap exclusions; seeded tie"
+  },
+  {
+    "qid": "obqa/train/9-581",
+    "supporting_fact": "squirrels gather nuts in the autumn to eat during the winter",
+    "unrelated_fact": "crumple means change shape from smooth into compacted by physical force",
+    "unrelated_source_id": "obqa/train/10-1027",
+    "word_length_difference": 0,
+    "selection": "nearest word length after independent lexical/option overlap exclusions; seeded tie"
+  },
+  {
+    "qid": "obqa/train/9-782",
+    "supporting_fact": "poison causes harm to living things",
+    "unrelated_fact": "solar energy is an inexhaustible resource",
+    "unrelated_source_id": "obqa/train/13-967",
+    "word_length_difference": 0,
+    "selection": "nearest word length after independent lexical/option overlap exclusions; seeded tie"
+  },
+  {
+    "qid": "obqa/train/11-120",
+    "supporting_fact": "creating paper requires cutting down trees",
+    "unrelated_fact": "the moon does not contain water",
+    "unrelated_source_id": "obqa/train/9-274",
+    "word_length_difference": 0,
+    "selection": "nearest word length after independent lexical/option overlap exclusions; seeded tie"
+  },
+  {
+    "qid": "obqa/train/10-311",
+    "supporting_fact": "mechanical weathering is when rocks are broken down by mechanical means",
+    "unrelated_fact": "the condition of the parts of an organism are acquired characteristics",
+    "unrelated_source_id": "obqa/train/10-440",
+    "word_length_difference": 0,
+    "selection": "nearest word length after independent lexical/option overlap exclusions; seeded tie"
+  },
+  {
+    "qid": "obqa/train/14-1509",
+    "supporting_fact": "a single-cell organism can survive without the help of other cells",
+    "unrelated_fact": "the colors of the parts of an organism are inherited characteristics",
+    "unrelated_source_id": "obqa/train/12-77",
+    "word_length_difference": 0,
+    "selection": "nearest word length after independent lexical/option overlap exclusions; seeded tie"
+  },
+  {
+    "qid": "obqa/train/13-1060",
+    "supporting_fact": "an animal requires nutrients for survival",
+    "unrelated_fact": "the moon 's surface contains highlands",
+    "unrelated_source_id": "obqa/train/14-524",
+    "word_length_difference": 0,
+    "selection": "nearest word length after independent lexical/option overlap exclusions; seeded tie"
+  },
+  {
+    "qid": "obqa/train/10-197",
+    "supporting_fact": "when pollen sticks to a hummingbird , that pollen will move to where the hummingbird moves",
+    "unrelated_fact": "if an animal eats another animal then that animal is a carnivore or omnivore or predator",
+    "unrelated_source_id": "obqa/train/13-596",
+    "word_length_difference": 0,
+    "selection": "nearest word length after independent lexical/option overlap exclusions; seeded tie"
+  },
+  {
+    "qid": "obqa/train/10-772",
+    "supporting_fact": "winter in the Northern Hemisphere is during the summer in the Southern Hemisphere",
+    "unrelated_fact": "An example of hunting is an otter cracking open clams with a rock",
+    "unrelated_source_id": "obqa/train/13-160",
+    "word_length_difference": 0,
+    "selection": "nearest word length after independent lexical/option overlap exclusions; seeded tie"
+  },
+  {
+    "qid": "obqa/train/7-1183",
+    "supporting_fact": "if an organism makes food for itself then that organism does not need to eat other organisms",
+    "unrelated_fact": "when the seasons change from the summer to the fall , the amount of daylight will decrease",
+    "unrelated_source_id": "obqa/train/14-10",
+    "word_length_difference": 0,
+    "selection": "nearest word length after independent lexical/option overlap exclusions; seeded tie"
+  },
+  {
+    "qid": "obqa/train/14-734",
+    "supporting_fact": "absorbing sunlight causes objects to heat",
+    "unrelated_fact": "cooking food requires adding heat energy",
+    "unrelated_source_id": "obqa/train/13-925",
+    "word_length_difference": 0,
+    "selection": "nearest word length after independent lexical/option overlap exclusions; seeded tie"
+  },
+  {
+    "qid": "obqa/train/13-632",
+    "supporting_fact": "landslides often occur on mountains",
+    "unrelated_fact": "some birds live in forests",
+    "unrelated_source_id": "obqa/train/14-359",
+    "word_length_difference": 0,
+    "selection": "nearest word length after independent lexical/option overlap exclusions; seeded tie"
+  },
+  {
+    "qid": "obqa/train/12-829",
+    "supporting_fact": "the Earth being tilted on its axis causes seasons",
+    "unrelated_fact": "reproduction is a stage in the life cycle process",
+    "unrelated_source_id": "obqa/train/12-998",
+    "word_length_difference": 0,
+    "selection": "nearest word length after independent lexical/option overlap exclusions; seeded tie"
+  },
+  {
+    "qid": "obqa/train/14-1071",
+    "supporting_fact": "if a flexible container is pushed on then that container will change shape",
+    "unrelated_fact": "reproduction is when an organism passes genetic information from itself to its offspring",
+    "unrelated_source_id": "obqa/train/14-1326",
+    "word_length_difference": 0,
+    "selection": "nearest word length after independent lexical/option overlap exclusions; seeded tie"
+  },
+  {
+    "qid": "obqa/train/13-218",
+    "supporting_fact": "if an organism becomes too hot then that organism may die",
+    "unrelated_fact": "the condition of the parts of an organism are acquired characteristics",
+    "unrelated_source_id": "obqa/train/12-547",
+    "word_length_difference": 0,
+    "selection": "nearest word length after independent lexical/option overlap exclusions; seeded tie"
+  },
+  {
+    "qid": "obqa/train/9-439",
+    "supporting_fact": "earthworms create tunnels in soil",
+    "unrelated_fact": "trees are a renewable resource",
+    "unrelated_source_id": "obqa/train/10-50",
+    "word_length_difference": 0,
+    "selection": "nearest word length after independent lexical/option overlap exclusions; seeded tie"
+  },
+  {
+    "qid": "obqa/train/13-174",
+    "supporting_fact": "soil is formed by rocks eroding",
+    "unrelated_fact": "usually coral lives in warm water",
+    "unrelated_source_id": "obqa/train/10-1185",
+    "word_length_difference": 0,
+    "selection": "nearest word length after independent lexical/option overlap exclusions; seeded tie"
+  },
+  {
+    "qid": "obqa/train/14-381",
+    "supporting_fact": "rest has a positive impact on a health",
+    "unrelated_fact": "a tectonic plate moves along a fault line",
+    "unrelated_source_id": "obqa/train/13-798",
+    "word_length_difference": 0,
+    "selection": "nearest word length after independent lexical/option overlap exclusions; seeded tie"
+  },
+  {
+    "qid": "obqa/train/11-385",
+    "supporting_fact": "wind causes erosion",
+    "unrelated_fact": "dead organisms rot",
+    "unrelated_source_id": "obqa/train/9-546",
+    "word_length_difference": 0,
+    "selection": "nearest word length after independent lexical/option overlap exclusions; seeded tie"
+  },
+  {
+    "qid": "obqa/train/10-552",
+    "supporting_fact": "sunlight and rain can cause a rainbow",
+    "unrelated_fact": "a living thing is made of cells",
+    "unrelated_source_id": "obqa/train/14-176",
+    "word_length_difference": 0,
+    "selection": "nearest word length after independent lexical/option overlap exclusions; seeded tie"
+  },
+  {
+    "qid": "obqa/train/10-621",
+    "supporting_fact": "a moth undergoes metamorphosis",
+    "unrelated_fact": "cows only eat plants",
+    "unrelated_source_id": "obqa/train/13-664",
+    "word_length_difference": 0,
+    "selection": "nearest word length after independent lexical/option overlap exclusions; seeded tie"
+  },
+  {
+    "qid": "obqa/train/12-37",
+    "supporting_fact": "a car engine is a source of heat",
+    "unrelated_fact": "a cactus stem is used for storing water",
+    "unrelated_source_id": "obqa/train/12-938",
+    "word_length_difference": 0,
+    "selection": "nearest word length after independent lexical/option overlap exclusions; seeded tie"
+  },
+  {
+    "qid": "obqa/train/12-121",
+    "supporting_fact": "humidity is the amount of water vapor in the air",
+    "unrelated_fact": "long ears are used for releasing heat by a jackrabbit",
+    "unrelated_source_id": "obqa/train/10-928",
+    "word_length_difference": 0,
+    "selection": "nearest word length after independent lexical/option overlap exclusions; seeded tie"
+  },
+  {
+    "qid": "obqa/train/11-218",
+    "supporting_fact": "a thermal energy conductor transfers heat from hotter objects to cooler objects",
+    "unrelated_fact": "if an object is kicked then force is exerted on that object",
+    "unrelated_source_id": "obqa/train/11-605",
+    "word_length_difference": 0,
+    "selection": "nearest word length after independent lexical/option overlap exclusions; seeded tie"
+  },
+  {
+    "qid": "obqa/train/12-1017",
+    "supporting_fact": "the increase of something required by an organism has a positive impact on that organism 's survival",
+    "unrelated_fact": "as the thickness of an object increases , the resistance to damage of that object will increase",
+    "unrelated_source_id": "obqa/train/12-729",
+    "word_length_difference": 0,
+    "selection": "nearest word length after independent lexical/option overlap exclusions; seeded tie"
+  },
+  {
+    "qid": "obqa/train/14-1041",
+    "supporting_fact": "A bee is a pollinating animal",
+    "unrelated_fact": "a plane travels through the atmosphere",
+    "unrelated_source_id": "obqa/train/14-1362",
+    "word_length_difference": 0,
+    "selection": "nearest word length after independent lexical/option overlap exclusions; seeded tie"
+  },
+  {
+    "qid": "obqa/train/7-681",
+    "supporting_fact": "nectar is used for attracting pollinators by plants",
+    "unrelated_fact": "a battery converts chemical energy into electrical energy",
+    "unrelated_source_id": "obqa/train/13-439",
+    "word_length_difference": 0,
+    "selection": "nearest word length after independent lexical/option overlap exclusions; seeded tie"
+  },
+  {
+    "qid": "obqa/train/14-719",
+    "supporting_fact": "plant reproduction requires pollination",
+    "unrelated_fact": "cows only eat plants",
+    "unrelated_source_id": "obqa/train/7-1175",
+    "word_length_difference": 0,
+    "selection": "nearest word length after independent lexical/option overlap exclusions; seeded tie"
+  },
+  {
+    "qid": "obqa/train/12-1005",
+    "supporting_fact": "oceans cover 70% of the surface of the earth",
+    "unrelated_fact": "being exposed to heat can cause erosion of rocks",
+    "unrelated_source_id": "obqa/train/14-963",
+    "word_length_difference": 0,
+    "selection": "nearest word length after independent lexical/option overlap exclusions; seeded tie"
+  },
+  {
+    "qid": "obqa/train/10-324",
+    "supporting_fact": "reproduction occurs during adulthood",
+    "unrelated_fact": "amphibians hatch from eggs",
+    "unrelated_source_id": "obqa/train/12-1184",
+    "word_length_difference": 0,
+    "selection": "nearest word length after independent lexical/option overlap exclusions; seeded tie"
+  },
+  {
+    "qid": "obqa/train/13-1038",
+    "supporting_fact": "the sun is a source of light called sunlight",
+    "unrelated_fact": "natural gas is a source of heat by burning",
+    "unrelated_source_id": "obqa/train/13-337",
+    "word_length_difference": 0,
+    "selection": "nearest word length after independent lexical/option overlap exclusions; seeded tie"
+  },
+  {
+    "qid": "obqa/train/11-339",
+    "supporting_fact": "skeletal system is made of bones",
+    "unrelated_fact": "the moon 's surface contains highlands",
+    "unrelated_source_id": "obqa/train/14-524",
+    "word_length_difference": 0,
+    "selection": "nearest word length after independent lexical/option overlap exclusions; seeded tie"
+  },
+  {
+    "qid": "obqa/train/14-646",
+    "supporting_fact": "an anemometer is used to measure wind speed",
+    "unrelated_fact": "the digestive system digests food for the body",
+    "unrelated_source_id": "obqa/train/10-739",
+    "word_length_difference": 0,
+    "selection": "nearest word length after independent lexical/option overlap exclusions; seeded tie"
+  },
+  {
+    "qid": "obqa/train/9-156",
+    "supporting_fact": "a planet rotating causes cycles of day and night on that planet",
+    "unrelated_fact": "if an object is blue then that object reflects only blue light",
+    "unrelated_source_id": "obqa/train/12-329",
+    "word_length_difference": 0,
+    "selection": "nearest word length after independent lexical/option overlap exclusions; seeded tie"
+  },
+  {
+    "qid": "obqa/train/13-957",
+    "supporting_fact": "the sun transfers solar energy from itself to the Earth through sunlight",
+    "unrelated_fact": "if a tree falls then sunlight becomes available to the surrounding plants",
+    "unrelated_source_id": "obqa/train/11-447",
+    "word_length_difference": 0,
+    "selection": "nearest word length after independent lexical/option overlap exclusions; seeded tie"
+  },
+  {
+    "qid": "obqa/train/10-684",
+    "supporting_fact": "carbohydrates are made of sugars",
+    "unrelated_fact": "some crickets live in forests",
+    "unrelated_source_id": "obqa/train/8-487",
+    "word_length_difference": 0,
+    "selection": "nearest word length after independent lexical/option overlap exclusions; seeded tie"
+  },
+  {
+    "qid": "obqa/train/13-384",
+    "supporting_fact": "wax is an electrical energy insulator",
+    "unrelated_fact": "birds build nests in the spring",
+    "unrelated_source_id": "obqa/train/12-75",
+    "word_length_difference": 0,
+    "selection": "nearest word length after independent lexical/option overlap exclusions; seeded tie"
+  },
+  {
+    "qid": "obqa/train/10-920",
+    "supporting_fact": "sweat is used for adjusting to hot temperatures by some animals",
+    "unrelated_fact": "as energy required for an activity increases , pulse will increase",
+    "unrelated_source_id": "obqa/train/7-555",
+    "word_length_difference": 0,
+    "selection": "nearest word length after independent lexical/option overlap exclusions; seeded tie"
+  },
+  {
+    "qid": "obqa/train/14-1387",
+    "supporting_fact": "a glacier is made of ice",
+    "unrelated_fact": "condensing causes a liquid to form",
+    "unrelated_source_id": "obqa/train/12-312",
+    "word_length_difference": 0,
+    "selection": "nearest word length after independent lexical/option overlap exclusions; seeded tie"
+  },
+  {
+    "qid": "obqa/train/14-1363",
+    "supporting_fact": "a plane travels through the atmosphere",
+    "unrelated_fact": "fire destroys plants in an environment",
+    "unrelated_source_id": "obqa/train/14-1016",
+    "word_length_difference": 0,
+    "selection": "nearest word length after independent lexical/option overlap exclusions; seeded tie"
+  },
+  {
+    "qid": "obqa/train/10-928",
+    "supporting_fact": "long ears are used for releasing heat by a jackrabbit",
+    "unrelated_fact": "skin is used for protecting the body from harmful substances",
+    "unrelated_source_id": "obqa/train/13-203",
+    "word_length_difference": 0,
+    "selection": "nearest word length after independent lexical/option overlap exclusions; seeded tie"
+  },
+  {
+    "qid": "obqa/train/14-754",
+    "supporting_fact": "some birds are predators",
+    "unrelated_fact": "seed production requires pollination",
+    "unrelated_source_id": "obqa/train/11-33",
+    "word_length_difference": 0,
+    "selection": "nearest word length after independent lexical/option overlap exclusions; seeded tie"
+  },
+  {
+    "qid": "obqa/train/14-509",
+    "supporting_fact": "hawks eat lizards",
+    "unrelated_fact": "alligators eat fish",
+    "unrelated_source_id": "obqa/train/13-1037",
+    "word_length_difference": 0,
+    "selection": "nearest word length after independent lexical/option overlap exclusions; seeded tie"
+  },
+  {
+    "qid": "obqa/train/10-1016",
+    "supporting_fact": "dew is formed when water vapor condenses over night",
+    "unrelated_fact": "the amount of daylight is least in the winter",
+    "unrelated_source_id": "obqa/train/13-501",
+    "word_length_difference": 0,
+    "selection": "nearest word length after independent lexical/option overlap exclusions; seeded tie"
+  },
+  {
+    "qid": "obqa/train/11-157",
+    "supporting_fact": "fruit contains seeds",
+    "unrelated_fact": "carnivores are predators",
+    "unrelated_source_id": "obqa/train/14-1228",
+    "word_length_difference": 0,
+    "selection": "nearest word length after independent lexical/option overlap exclusions; seeded tie"
+  },
+  {
+    "qid": "obqa/train/13-760",
+    "supporting_fact": "humans building homes in an ecosystem causes that environment to change",
+    "unrelated_fact": "conserving water can be used for survival in a dry environment",
+    "unrelated_source_id": "obqa/train/13-885",
+    "word_length_difference": 0,
+    "selection": "nearest word length after independent lexical/option overlap exclusions; seeded tie"
+  },
+  {
+    "qid": "obqa/train/13-813",
+    "supporting_fact": "as a source of light becomes closer , that source will appear brighter",
+    "unrelated_fact": "if a flexible container is pushed on then that container will change shape",
+    "unrelated_source_id": "obqa/train/12-769",
+    "word_length_difference": 0,
+    "selection": "nearest word length after independent lexical/option overlap exclusions; seeded tie"
+  },
+  {
+    "qid": "obqa/train/11-703",
+    "supporting_fact": "if a leaf falls off of a tree then that leaf is dead",
+    "unrelated_fact": "the breaking down of food into simple substances occurs in the digestive system",
+    "unrelated_source_id": "obqa/train/13-121",
+    "word_length_difference": 0,
+    "selection": "nearest word length after independent lexical/option overlap exclusions; seeded tie"
+  },
+  {
+    "qid": "obqa/train/14-1500",
+    "supporting_fact": "food is a source of energy for animals",
+    "unrelated_fact": "landfills have a negative impact on the communities",
+    "unrelated_source_id": "obqa/train/1040",
+    "word_length_difference": 0,
+    "selection": "nearest word length after independent lexical/option overlap exclusions; seeded tie"
+  },
+  {
+    "qid": "obqa/train/11-651",
+    "supporting_fact": "when the seasons change from the summer to the fall , the amount of daylight will decrease",
+    "unrelated_fact": "as the thickness of an object increases , the resistance to damage of that object will increase",
+    "unrelated_source_id": "obqa/train/10-751",
+    "word_length_difference": 0,
+    "selection": "nearest word length after independent lexical/option overlap exclusions; seeded tie"
+  },
+  {
+    "qid": "obqa/train/14-893",
+    "supporting_fact": "the skin is the largest organ in the human body",
+    "unrelated_fact": "magnifying makes seeing small things easier through using a microscope",
+    "unrelated_source_id": "obqa/train/919",
+    "word_length_difference": 0,
+    "selection": "nearest word length after independent lexical/option overlap exclusions; seeded tie"
+  },
+  {
+    "qid": "obqa/train/7-347",
+    "supporting_fact": "all living things grow",
+    "unrelated_fact": "birds sometimes eat insects",
+    "unrelated_source_id": "obqa/train/8-451",
+    "word_length_difference": 0,
+    "selection": "nearest word length after independent lexical/option overlap exclusions; seeded tie"
+  },
+  {
+    "qid": "obqa/train/14-723",
+    "supporting_fact": "when a habitat can support living things , living things can live in that habitat",
+    "unrelated_fact": "remora fish eat food by attaching themselves to sharks and eating the food left behind",
+    "unrelated_source_id": "obqa/train/10-370",
+    "word_length_difference": 0,
+    "selection": "nearest word length after independent lexical/option overlap exclusions; seeded tie"
+  },
+  {
+    "qid": "obqa/train/14-1175",
+    "supporting_fact": "climate is the usual kind of weather in a location",
+    "unrelated_fact": "waxy leaves are used for storing water by some plants",
+    "unrelated_source_id": "obqa/train/11-483",
+    "word_length_difference": 0,
+    "selection": "nearest word length after independent lexical/option overlap exclusions; seeded tie"
+  },
+  {
+    "qid": "obqa/train/10-545",
+    "supporting_fact": "a mirror is used for reflecting light",
+    "unrelated_fact": "a human requires sleep to be healthy",
+    "unrelated_source_id": "obqa/train/11-100",
+    "word_length_difference": 0,
+    "selection": "nearest word length after independent lexical/option overlap exclusions; seeded tie"
+  },
+  {
+    "qid": "obqa/train/12-1124",
+    "supporting_fact": "solar energy is an inexhaustible resource",
+    "unrelated_fact": "wind is used for producing electricity",
+    "unrelated_source_id": "obqa/train/13-323",
+    "word_length_difference": 0,
+    "selection": "nearest word length after independent lexical/option overlap exclusions; seeded tie"
+  },
+  {
+    "qid": "obqa/train/8-447",
+    "supporting_fact": "a doorbell converts electrical energy into sound",
+    "unrelated_fact": "riding a bike does not cause pollution",
+    "unrelated_source_id": "obqa/train/14-451",
+    "word_length_difference": 0,
+    "selection": "nearest word length after independent lexical/option overlap exclusions; seeded tie"
+  },
+  {
+    "qid": "obqa/train/14-499",
+    "supporting_fact": "if a living thing becomes too cold then that living thing will die",
+    "unrelated_fact": "carbon dioxide concentrations in the air have increased over the last decade dramatically",
+    "unrelated_source_id": "obqa/train/11-437",
+    "word_length_difference": 0,
+    "selection": "nearest word length after independent lexical/option overlap exclusions; seeded tie"
+  },
+  {
+    "qid": "obqa/train/14-323",
+    "supporting_fact": "shelter is used for protection by animals against weather",
+    "unrelated_fact": "December is during the summer in the southern hemisphere",
+    "unrelated_source_id": "obqa/train/867",
+    "word_length_difference": 0,
+    "selection": "nearest word length after independent lexical/option overlap exclusions; seeded tie"
+  },
+  {
+    "qid": "obqa/train/14-413",
+    "supporting_fact": "animal cells can not perform photosynthesis",
+    "unrelated_fact": "a scar is an acquired characteristic",
+    "unrelated_source_id": "obqa/train/14-441",
+    "word_length_difference": 0,
+    "selection": "nearest word length after independent lexical/option overlap exclusions; seeded tie"
+  },
+  {
+    "qid": "obqa/train/10-50",
+    "supporting_fact": "trees are a renewable resource",
+    "unrelated_fact": "stalactites are formed by deposition",
+    "unrelated_source_id": "obqa/train/9-737",
+    "word_length_difference": 0,
+    "selection": "nearest word length after independent lexical/option overlap exclusions; seeded tie"
+  },
+  {
+    "qid": "obqa/train/12-562",
+    "supporting_fact": "an oven is a source of heat",
+    "unrelated_fact": "a thermometer is used to measure temperature",
+    "unrelated_source_id": "obqa/train/11-615",
+    "word_length_difference": 0,
+    "selection": "nearest word length after independent lexical/option overlap exclusions; seeded tie"
+  },
+  {
+    "qid": "obqa/train/13-600",
+    "supporting_fact": "steam is a kind of water above 100 degrees celsius",
+    "unrelated_fact": "a tree growing a tree-growth ring occurs once per year",
+    "unrelated_source_id": "obqa/train/1365",
+    "word_length_difference": 0,
+    "selection": "nearest word length after independent lexical/option overlap exclusions; seeded tie"
+  },
+  {
+    "qid": "obqa/train/12-796",
+    "supporting_fact": "brass is made of copper and zinc",
+    "unrelated_fact": "an electric car contains an electric motor",
+    "unrelated_source_id": "obqa/train/12-1183",
+    "word_length_difference": 0,
+    "selection": "nearest word length after independent lexical/option overlap exclusions; seeded tie"
+  },
+  {
+    "qid": "obqa/train/12-942",
+    "supporting_fact": "a frog eats insects",
+    "unrelated_fact": "a bird is warm-blooded",
+    "unrelated_source_id": "obqa/train/11-481",
+    "word_length_difference": 0,
+    "selection": "nearest word length after independent lexical/option overlap exclusions; seeded tie"
+  },
+  {
+    "qid": "obqa/train/12-1197",
+    "supporting_fact": "dropping something causes that something to fall",
+    "unrelated_fact": "a carbonated beverage contains dissolved carbon dioxide",
+    "unrelated_source_id": "obqa/train/10-752",
+    "word_length_difference": 0,
+    "selection": "nearest word length after independent lexical/option overlap exclusions; seeded tie"
+  },
+  {
+    "qid": "obqa/train/12-1183",
+    "supporting_fact": "an electric car contains an electric motor",
+    "unrelated_fact": "renewable resources can be used over again",
+    "unrelated_source_id": "obqa/train/11-459",
+    "word_length_difference": 0,
+    "selection": "nearest word length after independent lexical/option overlap exclusions; seeded tie"
+  },
+  {
+    "qid": "obqa/train/13-971",
+    "supporting_fact": "if a population decreases to zero then that organism is extinct",
+    "unrelated_fact": "as energy required for an activity increases , pulse will increase",
+    "unrelated_source_id": "obqa/train/1927",
+    "word_length_difference": 0,
+    "selection": "nearest word length after independent lexical/option overlap exclusions; seeded tie"
+  },
+  {
+    "qid": "obqa/train/14-1289",
+    "supporting_fact": "if something is outside during the day then that something will receive sunlight",
+    "unrelated_fact": "as the population of plants decreases , carbon in the atmosphere will increase",
+    "unrelated_source_id": "obqa/train/14-1084",
+    "word_length_difference": 0,
+    "selection": "nearest word length after independent lexical/option overlap exclusions; seeded tie"
+  },
+  {
+    "qid": "obqa/train/10-1042",
+    "supporting_fact": "if something is outside during the day then that something will receive sunlight",
+    "unrelated_fact": "when light hits a reflective object , that light bounces off that object",
+    "unrelated_source_id": "obqa/train/14-1270",
+    "word_length_difference": 0,
+    "selection": "nearest word length after independent lexical/option overlap exclusions; seeded tie"
+  },
+  {
+    "qid": "obqa/train/8-320",
+    "supporting_fact": "a tree can be replaced by planting a new tree",
+    "unrelated_fact": "eyes are used for seeing by animals by sensing light",
+    "unrelated_source_id": "obqa/train/814",
+    "word_length_difference": 0,
+    "selection": "nearest word length after independent lexical/option overlap exclusions; seeded tie"
+  },
+  {
+    "qid": "obqa/train/13-463",
+    "supporting_fact": "water flows down a slope",
+    "unrelated_fact": "preferences are generally learned characteristics",
+    "unrelated_source_id": "obqa/train/11-341",
+    "word_length_difference": 0,
+    "selection": "nearest word length after independent lexical/option overlap exclusions; seeded tie"
+  },
+  {
+    "qid": "obqa/train/13-89",
+    "supporting_fact": "the phases of the Moon change the appearance of the Moon",
+    "unrelated_fact": "a graduated cylinder is used to measure volume of an object",
+    "unrelated_source_id": "obqa/train/12-176",
+    "word_length_difference": 0,
+    "selection": "nearest word length after independent lexical/option overlap exclusions; seeded tie"
+  },
+  {
+    "qid": "obqa/train/1938",
+    "supporting_fact": "as heat and moisture increases , the strength of a hurricane will increase",
+    "unrelated_fact": "a seismometer is used to measure the strength or magnitude of an earthquake",
+    "unrelated_source_id": "obqa/train/12-281",
+    "word_length_difference": 0,
+    "selection": "nearest word length after independent lexical/option overlap exclusions; seeded tie"
+  },
+  {
+    "qid": "obqa/train/14-134",
+    "supporting_fact": "as population of predators decreases , the population of prey will increase in an environment",
+    "unrelated_fact": "An example of a change in the Earth is an ocean becoming a wooded area",
+    "unrelated_source_id": "obqa/train/14-433",
+    "word_length_difference": 0,
+    "selection": "nearest word length after independent lexical/option overlap exclusions; seeded tie"
+  },
+  {
+    "qid": "obqa/train/12-934",
+    "supporting_fact": "a thermal insulator slows the transfer of heat",
+    "unrelated_fact": "thick feathers can be used for keeping warm",
+    "unrelated_source_id": "obqa/train/14-1024",
+    "word_length_difference": 0,
+    "selection": "nearest word length after independent lexical/option overlap exclusions; seeded tie"
+  },
+  {
+    "qid": "obqa/train/10-984",
+    "supporting_fact": "a warm front causes cloudy and rainy weather",
+    "unrelated_fact": "large trees block sunlight from reaching the ground",
+    "unrelated_source_id": "obqa/train/10-5",
+    "word_length_difference": 0,
+    "selection": "nearest word length after independent lexical/option overlap exclusions; seeded tie"
+  },
+  {
+    "qid": "obqa/train/11-513",
+    "supporting_fact": "flippers are used for moving in water",
+    "unrelated_fact": "riding a bike does not cause pollution",
+    "unrelated_source_id": "obqa/train/14-451",
+    "word_length_difference": 0,
+    "selection": "nearest word length after independent lexical/option overlap exclusions; seeded tie"
+  },
+  {
+    "qid": "obqa/train/7-30",
+    "supporting_fact": "the moon 's surface contains many craters",
+    "unrelated_fact": "baking soda can react chemically with vinegar",
+    "unrelated_source_id": "obqa/train/7-748",
+    "word_length_difference": 0,
+    "selection": "nearest word length after independent lexical/option overlap exclusions; seeded tie"
+  },
+  {
+    "qid": "obqa/train/9-848",
+    "supporting_fact": "temperature is a measure of heat energy",
+    "unrelated_fact": "combining two substances chemically causes chemical reactions",
+    "unrelated_source_id": "obqa/train/13-965",
+    "word_length_difference": 0,
+    "selection": "nearest word length after independent lexical/option overlap exclusions; seeded tie"
+  },
+  {
+    "qid": "obqa/train/11-440",
+    "supporting_fact": "offspring receive genes from their parents through DNA",
+    "unrelated_fact": "white blood cell destroys pathogens in the body",
+    "unrelated_source_id": "obqa/train/10-1199",
+    "word_length_difference": 0,
+    "selection": "nearest word length after independent lexical/option overlap exclusions; seeded tie"
+  },
+  {
+    "qid": "obqa/train/13-969",
+    "supporting_fact": "a chipmunk eats acorns",
+    "unrelated_fact": "meadow voles eat plants",
+    "unrelated_source_id": "obqa/train/10-454",
+    "word_length_difference": 0,
+    "selection": "nearest word length after independent lexical/option overlap exclusions; seeded tie"
+  },
+  {
+    "qid": "obqa/train/30",
+    "supporting_fact": "when an electrical conductor is plugged into an outlet , a circuit is completed",
+    "unrelated_fact": "a skinny beak is used for obtaining food by a bird from small spaces",
+    "unrelated_source_id": "obqa/train/14-129",
+    "word_length_difference": 0,
+    "selection": "nearest word length after independent lexical/option overlap exclusions; seeded tie"
+  },
+  {
+    "qid": "obqa/train/12-1006",
+    "supporting_fact": "lightning can cause a forest fire",
+    "unrelated_fact": "air is a vehicle for sound",
+    "unrelated_source_id": "obqa/train/12-962",
+    "word_length_difference": 0,
+    "selection": "nearest word length after independent lexical/option overlap exclusions; seeded tie"
+  },
+  {
+    "qid": "obqa/train/1383",
+    "supporting_fact": "as mileage per galon of gasoline increases , the amount of gasoline used will decrease",
+    "unrelated_fact": "if something contains a large amount of magnetic material then that something will attract magnets",
+    "unrelated_source_id": "obqa/train/10-292",
+    "word_length_difference": 0,
+    "selection": "nearest word length after independent lexical/option overlap exclusions; seeded tie"
+  },
+  {
+    "qid": "obqa/train/8-295",
+    "supporting_fact": "a leaf performs photosynthesis",
+    "unrelated_fact": "all living things grow",
+    "unrelated_source_id": "obqa/train/14-1497",
+    "word_length_difference": 0,
+    "selection": "nearest word length after independent lexical/option overlap exclusions; seeded tie"
+  },
+  {
+    "qid": "obqa/train/13-347",
+    "supporting_fact": "as temperature increases , the ability of that liquid to dissolve solids will increase",
+    "unrelated_fact": "the cocoons being created occurs during the the pupa stage in a life cycle",
+    "unrelated_source_id": "obqa/train/9-45",
+    "word_length_difference": 0,
+    "selection": "nearest word length after independent lexical/option overlap exclusions; seeded tie"
+  },
+  {
+    "qid": "obqa/train/13-38",
+    "supporting_fact": "Earth 's tilt on its axis causes seasons to occur",
+    "unrelated_fact": "most predators live near the same environment as their prey",
+    "unrelated_source_id": "obqa/train/9-965",
+    "word_length_difference": 0,
+    "selection": "nearest word length after independent lexical/option overlap exclusions; seeded tie"
+  },
+  {
+    "qid": "obqa/train/10-777",
+    "supporting_fact": "if a substance absorbs solar energy then that substance will increase in temperature",
+    "unrelated_fact": "echolocation is when some animals detect objects by hearing echoes by emitting sound",
+    "unrelated_source_id": "obqa/train/12-918",
+    "word_length_difference": 0,
+    "selection": "nearest word length after independent lexical/option overlap exclusions; seeded tie"
+  },
+  {
+    "qid": "obqa/train/14-285",
+    "supporting_fact": "clouds produce rain",
+    "unrelated_fact": "skidding causes friction",
+    "unrelated_source_id": "obqa/train/12-874",
+    "word_length_difference": 0,
+    "selection": "nearest word length after independent lexical/option overlap exclusions; seeded tie"
+  },
+  {
+    "qid": "obqa/train/7-149",
+    "supporting_fact": "electrical current running through a wire causes that wire to heat up",
+    "unrelated_fact": "An example of hitting something is dropping an object onto that something",
+    "unrelated_source_id": "obqa/train/10-741",
+    "word_length_difference": 0,
+    "selection": "nearest word length after independent lexical/option overlap exclusions; seeded tie"
+  },
+  {
+    "qid": "obqa/train/13-133",
+    "supporting_fact": "ice wedging is when ice causes rocks to crack by expanding in openings",
+    "unrelated_fact": "as a source of light becomes closer , that source will appear brighter",
+    "unrelated_source_id": "obqa/train/1046",
+    "word_length_difference": 0,
+    "selection": "nearest word length after independent lexical/option overlap exclusions; seeded tie"
+  },
+  {
+    "qid": "obqa/train/11-75",
+    "supporting_fact": "as the amount of rainfall increases in an area , the amount of available water in that area will increase",
+    "unrelated_fact": "as the number of pollinators attracted to a flower increases , the ability of that flower to reproduce will increase",
+    "unrelated_source_id": "obqa/train/7-267",
+    "word_length_difference": 0,
+    "selection": "nearest word length after independent lexical/option overlap exclusions; seeded tie"
+  },
+  {
+    "qid": "obqa/train/12-189",
+    "supporting_fact": "a renewable resource can be replaced",
+    "unrelated_fact": "seasons cause change to the environment",
+    "unrelated_source_id": "obqa/train/12-693",
+    "word_length_difference": 0,
+    "selection": "nearest word length after independent lexical/option overlap exclusions; seeded tie"
+  },
+  {
+    "qid": "obqa/train/14-990",
+    "supporting_fact": "if a habitat is destroyed then that habitat can not support animals",
+    "unrelated_fact": "if an organism dies then the population of that organism will decrease",
+    "unrelated_source_id": "obqa/train/10-114",
+    "word_length_difference": 0,
+    "selection": "nearest word length after independent lexical/option overlap exclusions; seeded tie"
+  },
+  {
+    "qid": "obqa/train/571",
+    "supporting_fact": "rocks are a source of shelter for small animals in an environment",
+    "unrelated_fact": "the arctic environment is white in color from being covered in snow",
+    "unrelated_source_id": "obqa/train/14-312",
+    "word_length_difference": 0,
+    "selection": "nearest word length after independent lexical/option overlap exclusions; seeded tie"
+  },
+  {
+    "qid": "obqa/train/13-590",
+    "supporting_fact": "a moth undergoes metamorphosis",
+    "unrelated_fact": "carnivores only eat animals",
+    "unrelated_source_id": "obqa/train/10-515",
+    "word_length_difference": 0,
+    "selection": "nearest word length after independent lexical/option overlap exclusions; seeded tie"
+  },
+  {
+    "qid": "obqa/train/10-845",
+    "supporting_fact": "electricity causes less pollution than gasoline",
+    "unrelated_fact": "nervous system is an electric conductor",
+    "unrelated_source_id": "obqa/train/9-344",
+    "word_length_difference": 0,
+    "selection": "nearest word length after independent lexical/option overlap exclusions; seeded tie"
+  },
+  {
+    "qid": "obqa/train/10-816",
+    "supporting_fact": "the formation of peat occurs at the bottom of swamps",
+    "unrelated_fact": "long ears are used for releasing heat by a jackrabbit",
+    "unrelated_source_id": "obqa/train/10-928",
+    "word_length_difference": 0,
+    "selection": "nearest word length after independent lexical/option overlap exclusions; seeded tie"
+  },
+  {
+    "qid": "obqa/train/8-269",
+    "supporting_fact": "as moisture of an object decreases , the friction of that object against another object will increase",
+    "unrelated_fact": "as elevation of a place decreases , how much a flood will affect that place will increases",
+    "unrelated_source_id": "obqa/train/1792",
+    "word_length_difference": 0,
+    "selection": "nearest word length after independent lexical/option overlap exclusions; seeded tie"
+  },
+  {
+    "qid": "obqa/train/12-388",
+    "supporting_fact": "smoking causes direct damage to the lungs",
+    "unrelated_fact": "heat can change the state of matter",
+    "unrelated_source_id": "obqa/train/14-405",
+    "word_length_difference": 0,
+    "selection": "nearest word length after independent lexical/option overlap exclusions; seeded tie"
+  },
+  {
+    "qid": "obqa/train/10-603",
+    "supporting_fact": "plants are a source of fibers",
+    "unrelated_fact": "cooking food requires adding heat energy",
+    "unrelated_source_id": "obqa/train/13-925",
+    "word_length_difference": 0,
+    "selection": "nearest word length after independent lexical/option overlap exclusions; seeded tie"
+  },
+  {
+    "qid": "obqa/train/12-655",
+    "supporting_fact": "decomposition increases the amount of nutrients in the soil",
+    "unrelated_fact": "beads of water are formed by water vapor condensing",
+    "unrelated_source_id": "obqa/train/13-405",
+    "word_length_difference": 0,
+    "selection": "nearest word length after independent lexical/option overlap exclusions; seeded tie"
+  },
+  {
+    "qid": "obqa/train/1412",
+    "supporting_fact": "heat can change the state of matter",
+    "unrelated_fact": "explosions can cause harm to an organism",
+    "unrelated_source_id": "obqa/train/12-509",
+    "word_length_difference": 0,
+    "selection": "nearest word length after independent lexical/option overlap exclusions; seeded tie"
+  },
+  {
+    "qid": "obqa/train/11-341",
+    "supporting_fact": "preferences are generally learned characteristics",
+    "unrelated_fact": "female birds sit in nests",
+    "unrelated_source_id": "obqa/train/10-525",
+    "word_length_difference": 0,
+    "selection": "nearest word length after independent lexical/option overlap exclusions; seeded tie"
+  },
+  {
+    "qid": "obqa/train/1738",
+    "supporting_fact": "ink is used for hiding from predators by octopuses",
+    "unrelated_fact": "wind carries sand from one place to another place",
+    "unrelated_source_id": "obqa/train/13-45",
+    "word_length_difference": 0,
+    "selection": "nearest word length after independent lexical/option overlap exclusions; seeded tie"
+  },
+  {
+    "qid": "obqa/train/1585",
+    "supporting_fact": "as the number of sources of food increase in an environment , the population of the organisms will increase in that environment",
+    "unrelated_fact": "a Punnett square is used to identify the percent chance of a trait being passed down from a parent to its offspring",
+    "unrelated_source_id": "obqa/train/12-594",
+    "word_length_difference": 0,
+    "selection": "nearest word length after independent lexical/option overlap exclusions; seeded tie"
+  },
+  {
+    "qid": "obqa/train/13-810",
+    "supporting_fact": "a reptile is cold-blooded",
+    "unrelated_fact": "metal is sometimes magnetic",
+    "unrelated_source_id": "obqa/train/13-550",
+    "word_length_difference": 0,
+    "selection": "nearest word length after independent lexical/option overlap exclusions; seeded tie"
+  },
+  {
+    "qid": "obqa/train/12-17",
+    "supporting_fact": "the volume of an object can be used to describe the size of that object",
+    "unrelated_fact": "a cavern is formed by carbonic acid in groundwater seeping through rock and dissolving limestone",
+    "unrelated_source_id": "obqa/train/14-959",
+    "word_length_difference": 0,
+    "selection": "nearest word length after independent lexical/option overlap exclusions; seeded tie"
+  },
+  {
+    "qid": "obqa/train/11-356",
+    "supporting_fact": "iron is always magnetic",
+    "unrelated_fact": "some flowers become fruits",
+    "unrelated_source_id": "obqa/train/14-760",
+    "word_length_difference": 0,
+    "selection": "nearest word length after independent lexical/option overlap exclusions; seeded tie"
+  },
+  {
+    "qid": "obqa/train/7-474",
+    "supporting_fact": "a desert environment contains very little food",
+    "unrelated_fact": "a human requires rest to be healthy",
+    "unrelated_source_id": "obqa/train/12-5",
+    "word_length_difference": 0,
+    "selection": "nearest word length after independent lexical/option overlap exclusions; seeded tie"
+  },
+  {
+    "qid": "obqa/train/10-288",
+    "supporting_fact": "An example of combining two substances is pouring one substance into the other substance",
+    "unrelated_fact": "cutting down trees has a negative impact on an organisms living in an ecosystem",
+    "unrelated_source_id": "obqa/train/12-847",
+    "word_length_difference": 0,
+    "selection": "nearest word length after independent lexical/option overlap exclusions; seeded tie"
+  },
+  {
+    "qid": "obqa/train/9-1146",
+    "supporting_fact": "In the photosynthesis process oxygen has the role of waste product",
+    "unrelated_fact": "as air pressure decreases , the chance of rain will increase",
+    "unrelated_source_id": "obqa/train/11-397",
+    "word_length_difference": 0,
+    "selection": "nearest word length after independent lexical/option overlap exclusions; seeded tie"
+  },
+  {
+    "qid": "obqa/train/12-346",
+    "supporting_fact": "vibrating matter can produce sound",
+    "unrelated_fact": "soil is formed by weathering",
+    "unrelated_source_id": "obqa/train/10-1005",
+    "word_length_difference": 0,
+    "selection": "nearest word length after independent lexical/option overlap exclusions; seeded tie"
+  },
+  {
+    "qid": "obqa/train/12-841",
+    "supporting_fact": "conserving resources has a positive impact on the environment",
+    "unrelated_fact": "camouflage is used for hiding by animals against predators",
+    "unrelated_source_id": "obqa/train/14-571",
+    "word_length_difference": 0,
+    "selection": "nearest word length after independent lexical/option overlap exclusions; seeded tie"
+  },
+  {
+    "qid": "obqa/train/12-851",
+    "supporting_fact": "green plants provide food for consumers by performing photosynthesis",
+    "unrelated_fact": "recycling resources has a positive impact on the environment",
+    "unrelated_source_id": "obqa/train/13-417",
+    "word_length_difference": 0,
+    "selection": "nearest word length after independent lexical/option overlap exclusions; seeded tie"
+  },
+  {
+    "qid": "obqa/train/114",
+    "supporting_fact": "claws are used to catch prey by some predators",
+    "unrelated_fact": "wind carries sand from one place to another place",
+    "unrelated_source_id": "obqa/train/13-45",
+    "word_length_difference": 0,
+    "selection": "nearest word length after independent lexical/option overlap exclusions; seeded tie"
+  },
+  {
+    "qid": "obqa/train/10-1171",
+    "supporting_fact": "eagles eat fish",
+    "unrelated_fact": "bees eat pollen",
+    "unrelated_source_id": "obqa/train/9-660",
+    "word_length_difference": 0,
+    "selection": "nearest word length after independent lexical/option overlap exclusions; seeded tie"
+  },
+  {
+    "qid": "obqa/train/10-294",
+    "supporting_fact": "muscles pull bones to move the bones",
+    "unrelated_fact": "a living thing requires nutrients to grow",
+    "unrelated_source_id": "obqa/train/9-401",
+    "word_length_difference": 0,
+    "selection": "nearest word length after independent lexical/option overlap exclusions; seeded tie"
+  },
+  {
+    "qid": "obqa/train/13-655",
+    "supporting_fact": "two females can not usually reproduce with each other",
+    "unrelated_fact": "a stinger is used for defense by a wasp",
+    "unrelated_source_id": "obqa/train/14-843",
+    "word_length_difference": 0,
+    "selection": "nearest word length after independent lexical/option overlap exclusions; seeded tie"
+  },
+  {
+    "qid": "obqa/train/14-222",
+    "supporting_fact": "mammals give birth to live young",
+    "unrelated_fact": "veins transport nutrients throughout the body",
+    "unrelated_source_id": "obqa/train/12-638",
+    "word_length_difference": 0,
+    "selection": "nearest word length after independent lexical/option overlap exclusions; seeded tie"
+  },
+  {
+    "qid": "obqa/train/10-640",
+    "supporting_fact": "brick is an electrical insulator",
+    "unrelated_fact": "some rabbits live in forests",
+    "unrelated_source_id": "obqa/train/12-870",
+    "word_length_difference": 0,
+    "selection": "nearest word length after independent lexical/option overlap exclusions; seeded tie"
+  },
+  {
+    "qid": "obqa/train/10-502",
+    "supporting_fact": "the Earth being tilted on its axis causes ones side of the Earth to receive less energy from the Sun than the other side",
+    "unrelated_fact": "if the amount of available food and water decreases in an environment then animals may leave that environment to find food and water",
+    "unrelated_source_id": "obqa/train/14-981",
+    "word_length_difference": 1,
+    "selection": "nearest word length after independent lexical/option overlap exclusions; seeded tie"
+  },
+  {
+    "qid": "obqa/train/12-874",
+    "supporting_fact": "skidding causes friction",
+    "unrelated_fact": "reptiles lay eggs",
+    "unrelated_source_id": "obqa/train/14-1377",
+    "word_length_difference": 0,
+    "selection": "nearest word length after independent lexical/option overlap exclusions; seeded tie"
+  },
+  {
+    "qid": "obqa/train/11-234",
+    "supporting_fact": "riding a bike does not cause pollution",
+    "unrelated_fact": "electric devices require electrical energy to function",
+    "unrelated_source_id": "obqa/train/896",
+    "word_length_difference": 0,
+    "selection": "nearest word length after independent lexical/option overlap exclusions; seeded tie"
+  },
+  {
+    "qid": "obqa/train/13-69",
+    "supporting_fact": "An example of weathering is when a plant root grows into a crack in rock",
+    "unrelated_fact": "the volume of an object can be used to describe the size of that object",
+    "unrelated_source_id": "obqa/train/12-17",
+    "word_length_difference": 0,
+    "selection": "nearest word length after independent lexical/option overlap exclusions; seeded tie"
+  },
+  {
+    "qid": "obqa/train/10-297",
+    "supporting_fact": "as available water in an environment decreases , the amount of available food in that environment will decrease",
+    "unrelated_fact": "as the size of a leaf increases , the amount of sunlight absorbed by that leaf will increase",
+    "unrelated_source_id": "obqa/train/9-603",
+    "word_length_difference": 0,
+    "selection": "nearest word length after independent lexical/option overlap exclusions; seeded tie"
+  },
+  {
+    "qid": "obqa/train/12-444",
+    "supporting_fact": "an landfill is a source of pollution",
+    "unrelated_fact": "the cells of multicellular organisms can specialize",
+    "unrelated_source_id": "obqa/train/13-890",
+    "word_length_difference": 0,
+    "selection": "nearest word length after independent lexical/option overlap exclusions; seeded tie"
+  },
+  {
+    "qid": "obqa/train/14-1093",
+    "supporting_fact": "heavy rains cause flooding",
+    "unrelated_fact": "a bubble contains gas",
+    "unrelated_source_id": "obqa/train/13-336",
+    "word_length_difference": 0,
+    "selection": "nearest word length after independent lexical/option overlap exclusions; seeded tie"
+  },
+  {
+    "qid": "obqa/train/14-566",
+    "supporting_fact": "a phase change is when matter changes from one state into another state",
+    "unrelated_fact": "if a living thing becomes too cold then that living thing will die",
+    "unrelated_source_id": "obqa/train/11-45",
+    "word_length_difference": 0,
+    "selection": "nearest word length after independent lexical/option overlap exclusions; seeded tie"
+  },
+  {
+    "qid": "obqa/train/7-499",
+    "supporting_fact": "cycles of freezing and thawing water cause ice wedging",
+    "unrelated_fact": "transpiration usually happens in the leaves of a plant",
+    "unrelated_source_id": "obqa/train/10-136",
+    "word_length_difference": 0,
+    "selection": "nearest word length after independent lexical/option overlap exclusions; seeded tie"
+  },
+  {
+    "qid": "obqa/train/7-834",
+    "supporting_fact": "eagles eat rabbits",
+    "unrelated_fact": "scientists make observations",
+    "unrelated_source_id": "obqa/train/9-355",
+    "word_length_difference": 0,
+    "selection": "nearest word length after independent lexical/option overlap exclusions; seeded tie"
+  },
+  {
+    "qid": "obqa/train/11-556",
+    "supporting_fact": "raccoons eat garbage",
+    "unrelated_fact": "eagles eat rabbits",
+    "unrelated_source_id": "obqa/train/14-854",
+    "word_length_difference": 0,
+    "selection": "nearest word length after independent lexical/option overlap exclusions; seeded tie"
+  },
+  {
+    "qid": "obqa/train/13-297",
+    "supporting_fact": "remora fish eat food by attaching themselves to sharks and eating the food left behind",
+    "unrelated_fact": "the volume of an object can be used to describe the size of that object",
+    "unrelated_source_id": "obqa/train/12-17",
+    "word_length_difference": 0,
+    "selection": "nearest word length after independent lexical/option overlap exclusions; seeded tie"
+  },
+  {
+    "qid": "obqa/train/11-490",
+    "supporting_fact": "An example of an instinctive behavior is a baby bird pecking at its shell to hatch",
+    "unrelated_fact": "as the amount of polluting gasses in the atmoshere increases , the atmospheric temperature will increase",
+    "unrelated_source_id": "obqa/train/7-233",
+    "word_length_difference": 0,
+    "selection": "nearest word length after independent lexical/option overlap exclusions; seeded tie"
+  },
+  {
+    "qid": "obqa/train/12-458",
+    "supporting_fact": "painting an object a color causes that object to be that color",
+    "unrelated_fact": "a planet rotating causes cycles of day and night on that planet",
+    "unrelated_source_id": "obqa/train/7-447",
+    "word_length_difference": 0,
+    "selection": "nearest word length after independent lexical/option overlap exclusions; seeded tie"
+  },
+  {
+    "qid": "obqa/train/13-86",
+    "supporting_fact": "as dryness increases in an environment , the available water in that environment will decrease",
+    "unrelated_fact": "remora fish eat food by attaching themselves to sharks and eating the food left behind",
+    "unrelated_source_id": "obqa/train/13-297",
+    "word_length_difference": 0,
+    "selection": "nearest word length after independent lexical/option overlap exclusions; seeded tie"
+  },
+  {
+    "qid": "obqa/train/12-936",
+    "supporting_fact": "breath contains water vapor",
+    "unrelated_fact": "birds sometimes eat insects",
+    "unrelated_source_id": "obqa/train/1588",
+    "word_length_difference": 0,
+    "selection": "nearest word length after independent lexical/option overlap exclusions; seeded tie"
+  },
+  {
+    "qid": "obqa/train/9-171",
+    "supporting_fact": "the shape of an object can be discovered through feeling that object",
+    "unrelated_fact": "electrical current running through a wire causes that wire to heat up",
+    "unrelated_source_id": "obqa/train/11-679",
+    "word_length_difference": 0,
+    "selection": "nearest word length after independent lexical/option overlap exclusions; seeded tie"
+  },
+  {
+    "qid": "obqa/train/13-519",
+    "supporting_fact": "if an organism makes food for itself then that organism does not need to eat other organisms",
+    "unrelated_fact": "as the amount of food an animal eats increases , the weight of that animal will increase",
+    "unrelated_source_id": "obqa/train/14-100",
+    "word_length_difference": 0,
+    "selection": "nearest word length after independent lexical/option overlap exclusions; seeded tie"
+  },
+  {
+    "qid": "obqa/train/14-629",
+    "supporting_fact": "predators eat prey",
+    "unrelated_fact": "raccoons eat waste",
+    "unrelated_source_id": "obqa/train/8-262",
+    "word_length_difference": 0,
+    "selection": "nearest word length after independent lexical/option overlap exclusions; seeded tie"
+  },
+  {
+    "qid": "obqa/train/11-280",
+    "supporting_fact": "An example of reproduction is laying eggs",
+    "unrelated_fact": "a laser is used for producing light",
+    "unrelated_source_id": "obqa/train/12-50",
+    "word_length_difference": 0,
+    "selection": "nearest word length after independent lexical/option overlap exclusions; seeded tie"
+  },
+  {
+    "qid": "obqa/train/12-91",
+    "supporting_fact": "some light bulbs convert electricity into light and heat energy",
+    "unrelated_fact": "An example of protecting the environment is creating protected areas",
+    "unrelated_source_id": "obqa/train/12-308",
+    "word_length_difference": 0,
+    "selection": "nearest word length after independent lexical/option overlap exclusions; seeded tie"
+  },
+  {
+    "qid": "obqa/train/9-698",
+    "supporting_fact": "as distance from a source of light increases , that source of light will appear dimmer",
+    "unrelated_fact": "cutting down trees in a forest causes the number of trees to decrease in that forest",
+    "unrelated_source_id": "obqa/train/1187",
+    "word_length_difference": 0,
+    "selection": "nearest word length after independent lexical/option overlap exclusions; seeded tie"
+  },
+  {
+    "qid": "obqa/train/11-741",
+    "supporting_fact": "uneven heating of the Earth 's surface cause wind",
+    "unrelated_fact": "echo is when sound reflects off of a surface",
+    "unrelated_source_id": "obqa/train/874",
+    "word_length_difference": 0,
+    "selection": "nearest word length after independent lexical/option overlap exclusions; seeded tie"
+  },
+  {
+    "qid": "obqa/train/116",
+    "supporting_fact": "natural gas is a nonrenewable resource",
+    "unrelated_fact": "a plant requires sunlight for photosynthesis",
+    "unrelated_source_id": "obqa/train/11-199",
+    "word_length_difference": 0,
+    "selection": "nearest word length after independent lexical/option overlap exclusions; seeded tie"
+  },
+  {
+    "qid": "obqa/train/9-195",
+    "supporting_fact": "an island is formed by lava cooling on the ocean floor over time",
+    "unrelated_fact": "the breaking down of food into simple substances occurs in the digestive system",
+    "unrelated_source_id": "obqa/train/9-139",
+    "word_length_difference": 0,
+    "selection": "nearest word length after independent lexical/option overlap exclusions; seeded tie"
+  },
+  {
+    "qid": "obqa/train/9-928",
+    "supporting_fact": "freezing point means temperature below which a liquid freezes",
+    "unrelated_fact": "usually plants die or become dormant during the winter",
+    "unrelated_source_id": "obqa/train/11-577",
+    "word_length_difference": 0,
+    "selection": "nearest word length after independent lexical/option overlap exclusions; seeded tie"
+  },
+  {
+    "qid": "obqa/train/9-598",
+    "supporting_fact": "chemical reactions cause different substances to form",
+    "unrelated_fact": "wildfire is when a forest catches fire",
+    "unrelated_source_id": "obqa/train/12-1101",
+    "word_length_difference": 0,
+    "selection": "nearest word length after independent lexical/option overlap exclusions; seeded tie"
+  },
+  {
+    "qid": "obqa/train/13-780",
+    "supporting_fact": "a canyon is made of rocks",
+    "unrelated_fact": "a plant requires photosynthesis to grow",
+    "unrelated_source_id": "obqa/train/12-296",
+    "word_length_difference": 0,
+    "selection": "nearest word length after independent lexical/option overlap exclusions; seeded tie"
+  },
+  {
+    "qid": "obqa/train/7-192",
+    "supporting_fact": "if an organism dies then the population of that organism will decrease",
+    "unrelated_fact": "coal is used to produce electricity by burning in coal-fire power stations",
+    "unrelated_source_id": "obqa/train/11-471",
+    "word_length_difference": 0,
+    "selection": "nearest word length after independent lexical/option overlap exclusions; seeded tie"
+  },
+  {
+    "qid": "obqa/train/9-1184",
+    "supporting_fact": "food is a source of energy for animals",
+    "unrelated_fact": "a flower 's purpose is to produce seeds",
+    "unrelated_source_id": "obqa/train/10-177",
+    "word_length_difference": 0,
+    "selection": "nearest word length after independent lexical/option overlap exclusions; seeded tie"
+  },
+  {
+    "qid": "obqa/train/14-1362",
+    "supporting_fact": "a plane travels through the atmosphere",
+    "unrelated_fact": "an animal requires nutrients for survival",
+    "unrelated_source_id": "obqa/train/8-462",
+    "word_length_difference": 0,
+    "selection": "nearest word length after independent lexical/option overlap exclusions; seeded tie"
+  },
+  {
+    "qid": "obqa/train/13-305",
+    "supporting_fact": "pushing on the pedals of a bike cause that bike to move",
+    "unrelated_fact": "a planet rotating causes cycles of day and night on that planet",
+    "unrelated_source_id": "obqa/train/9-156",
+    "word_length_difference": 0,
+    "selection": "nearest word length after independent lexical/option overlap exclusions; seeded tie"
+  },
+  {
+    "qid": "obqa/train/13-660",
+    "supporting_fact": "snow falls during the winter in the arctic environment",
+    "unrelated_fact": "decomposer is a kind of role in an ecosystem",
+    "unrelated_source_id": "obqa/train/8-278",
+    "word_length_difference": 0,
+    "selection": "nearest word length after independent lexical/option overlap exclusions; seeded tie"
+  },
+  {
+    "qid": "obqa/train/12-918",
+    "supporting_fact": "echolocation is when some animals detect objects by hearing echoes by emitting sound",
+    "unrelated_fact": "An example of recycling is using an object to make a new object",
+    "unrelated_source_id": "obqa/train/14-47",
+    "word_length_difference": 0,
+    "selection": "nearest word length after independent lexical/option overlap exclusions; seeded tie"
+  },
+  {
+    "qid": "obqa/train/13-1012",
+    "supporting_fact": "An example of seed dispersal is animals eating seeds",
+    "unrelated_fact": "camouflage is used for hiding by animals against predators",
+    "unrelated_source_id": "obqa/train/14-571",
+    "word_length_difference": 0,
+    "selection": "nearest word length after independent lexical/option overlap exclusions; seeded tie"
+  },
+  {
+    "qid": "obqa/train/13-596",
+    "supporting_fact": "if an animal eats another animal then that animal is a carnivore or omnivore or predator",
+    "unrelated_fact": "as the size of a flower increases , the number of pollinators it will attract increases",
+    "unrelated_source_id": "obqa/train/10-283",
+    "word_length_difference": 0,
+    "selection": "nearest word length after independent lexical/option overlap exclusions; seeded tie"
+  },
+  {
+    "qid": "obqa/train/8-117",
+    "supporting_fact": "acid rain has a negative impact on water quality",
+    "unrelated_fact": "nutrients are a source of energy for living things",
+    "unrelated_source_id": "obqa/train/11-322",
+    "word_length_difference": 0,
+    "selection": "nearest word length after independent lexical/option overlap exclusions; seeded tie"
+  },
+  {
+    "qid": "obqa/train/12-991",
+    "supporting_fact": "carbon steel is always magnetic",
+    "unrelated_fact": "hydropower requires damming a river",
+    "unrelated_source_id": "obqa/train/10-1084",
+    "word_length_difference": 0,
+    "selection": "nearest word length after independent lexical/option overlap exclusions; seeded tie"
+  },
+  {
+    "qid": "obqa/train/14-930",
+    "supporting_fact": "as distance from an object decreases , the the pull of gravity on that object increases",
+    "unrelated_fact": "when both a dominant and recessive gene are present , the dominant trait will be visible",
+    "unrelated_source_id": "obqa/train/10-28",
+    "word_length_difference": 0,
+    "selection": "nearest word length after independent lexical/option overlap exclusions; seeded tie"
+  },
+  {
+    "qid": "obqa/train/12-646",
+    "supporting_fact": "harming an animal species causes that animal 's population to decrease",
+    "unrelated_fact": "if an organism becomes too hot then that organism may die",
+    "unrelated_source_id": "obqa/train/14-356",
+    "word_length_difference": 0,
+    "selection": "nearest word length after independent lexical/option overlap exclusions; seeded tie"
+  },
+  {
+    "qid": "obqa/train/13-207",
+    "supporting_fact": "sunlight contains ultraviolet light",
+    "unrelated_fact": "herbivores only eat plants",
+    "unrelated_source_id": "obqa/train/13-425",
+    "word_length_difference": 0,
+    "selection": "nearest word length after independent lexical/option overlap exclusions; seeded tie"
+  },
+  {
+    "qid": "obqa/train/13-203",
+    "supporting_fact": "skin is used for protecting the body from harmful substances",
+    "unrelated_fact": "dropping an object into water causes vibrations in the water",
+    "unrelated_source_id": "obqa/train/13-234",
+    "word_length_difference": 0,
+    "selection": "nearest word length after independent lexical/option overlap exclusions; seeded tie"
+  },
+  {
+    "qid": "obqa/train/10-688",
+    "supporting_fact": "landslides often occur on mountains",
+    "unrelated_fact": "metal is a thermal conductor",
+    "unrelated_source_id": "obqa/train/10-636",
+    "word_length_difference": 0,
+    "selection": "nearest word length after independent lexical/option overlap exclusions; seeded tie"
+  },
+  {
+    "qid": "obqa/train/254",
+    "supporting_fact": "potential energy changes to kinetic energy through motion",
+    "unrelated_fact": "a warm front causes cloudy and rainy weather",
+    "unrelated_source_id": "obqa/train/10-984",
+    "word_length_difference": 0,
+    "selection": "nearest word length after independent lexical/option overlap exclusions; seeded tie"
+  },
+  {
+    "qid": "obqa/train/9-546",
+    "supporting_fact": "dead organisms rot",
+    "unrelated_fact": "reptiles lay eggs",
+    "unrelated_source_id": "obqa/train/14-1377",
+    "word_length_difference": 0,
+    "selection": "nearest word length after independent lexical/option overlap exclusions; seeded tie"
+  },
+  {
+    "qid": "obqa/train/899",
+    "supporting_fact": "clouds produce rain",
+    "unrelated_fact": "bears eat insects",
+    "unrelated_source_id": "obqa/train/12-1208",
+    "word_length_difference": 0,
+    "selection": "nearest word length after independent lexical/option overlap exclusions; seeded tie"
+  },
+  {
+    "qid": "obqa/train/1695",
+    "supporting_fact": "as distance to a city decreases , the amount of light pollution will increase",
+    "unrelated_fact": "as water increases in an environment , the population of aquatic animals will increase",
+    "unrelated_source_id": "obqa/train/12-1125",
+    "word_length_difference": 0,
+    "selection": "nearest word length after independent lexical/option overlap exclusions; seeded tie"
+  },
+  {
+    "qid": "obqa/train/11-698",
+    "supporting_fact": "smell is used for finding food by some animals",
+    "unrelated_fact": "dead organisms are the source of nutrients for decomposers",
+    "unrelated_source_id": "obqa/train/10-870",
+    "word_length_difference": 0,
+    "selection": "nearest word length after independent lexical/option overlap exclusions; seeded tie"
+  },
+  {
+    "qid": "obqa/train/7-659",
+    "supporting_fact": "tearing an object changes that object 's shape",
+    "unrelated_fact": "food is a source of energy for plants",
+    "unrelated_source_id": "obqa/train/11-142",
+    "word_length_difference": 0,
+    "selection": "nearest word length after independent lexical/option overlap exclusions; seeded tie"
+  },
+  {
+    "qid": "obqa/train/10-365",
+    "supporting_fact": "some animals shed fur in warm weather",
+    "unrelated_fact": "the cells of multicellular organisms can specialize",
+    "unrelated_source_id": "obqa/train/13-890",
+    "word_length_difference": 0,
+    "selection": "nearest word length after independent lexical/option overlap exclusions; seeded tie"
+  },
+  {
+    "qid": "obqa/train/12-1052",
+    "supporting_fact": "reproduction is when an organism passes genetic information from itself to its offspring",
+    "unrelated_fact": "Earth 's magnetic patterns are used for finding locations by animals that migrate",
+    "unrelated_source_id": "obqa/train/7-629",
+    "word_length_difference": 0,
+    "selection": "nearest word length after independent lexical/option overlap exclusions; seeded tie"
+  },
+  {
+    "qid": "obqa/train/9-965",
+    "supporting_fact": "most predators live near the same environment as their prey",
+    "unrelated_fact": "a beak is used for catching prey by some birds",
+    "unrelated_source_id": "obqa/train/10-1173",
+    "word_length_difference": 0,
+    "selection": "nearest word length after independent lexical/option overlap exclusions; seeded tie"
+  },
+  {
+    "qid": "obqa/train/12-797",
+    "supporting_fact": "soil loss causes grooves in soil",
+    "unrelated_fact": "solar energy is a renewable resource",
+    "unrelated_source_id": "obqa/train/7-744",
+    "word_length_difference": 0,
+    "selection": "nearest word length after independent lexical/option overlap exclusions; seeded tie"
+  },
+  {
+    "qid": "obqa/train/14-718",
+    "supporting_fact": "plant reproduction requires pollination",
+    "unrelated_fact": "rocks sometimes contain iron",
+    "unrelated_source_id": "obqa/train/13-778",
+    "word_length_difference": 0,
+    "selection": "nearest word length after independent lexical/option overlap exclusions; seeded tie"
+  },
+  {
+    "qid": "obqa/train/13-53",
+    "supporting_fact": "June is during the winter in the southern hemisphere",
+    "unrelated_fact": "refracting sunlight causes light to split into different colors",
+    "unrelated_source_id": "obqa/train/1832",
+    "word_length_difference": 0,
+    "selection": "nearest word length after independent lexical/option overlap exclusions; seeded tie"
+  },
+  {
+    "qid": "obqa/train/12-97",
+    "supporting_fact": "natural events usually cause changes to Earth 's surface",
+    "unrelated_fact": "decomposition increases the amount of nutrients in the soil",
+    "unrelated_source_id": "obqa/train/12-655",
+    "word_length_difference": 0,
+    "selection": "nearest word length after independent lexical/option overlap exclusions; seeded tie"
+  },
+  {
+    "qid": "obqa/train/9-1193",
+    "supporting_fact": "adaptation is when an organism develops a trait over time for survival",
+    "unrelated_fact": "migration is when animals move to different locations in an annual cycle",
+    "unrelated_source_id": "obqa/train/12-124",
+    "word_length_difference": 0,
+    "selection": "nearest word length after independent lexical/option overlap exclusions; seeded tie"
+  },
+  {
+    "qid": "obqa/train/7-11",
+    "supporting_fact": "if an object undergoes chemical change then that object will have new chemical properties",
+    "unrelated_fact": "the slope of the land causes a river to flow in a particular direction",
+    "unrelated_source_id": "obqa/train/7-579",
+    "word_length_difference": 0,
+    "selection": "nearest word length after independent lexical/option overlap exclusions; seeded tie"
+  },
+  {
+    "qid": "obqa/train/12-910",
+    "supporting_fact": "nectar is used for attracting pollinators by plants",
+    "unrelated_fact": "a tectonic plate moves along a fault line",
+    "unrelated_source_id": "obqa/train/10-937",
+    "word_length_difference": 0,
+    "selection": "nearest word length after independent lexical/option overlap exclusions; seeded tie"
+  },
+  {
+    "qid": "obqa/train/12-683",
+    "supporting_fact": "as state of matter changes , mass will not change",
+    "unrelated_fact": "waxy leaves are used for storing water by some plants",
+    "unrelated_source_id": "obqa/train/11-483",
+    "word_length_difference": 0,
+    "selection": "nearest word length after independent lexical/option overlap exclusions; seeded tie"
+  },
+  {
+    "qid": "obqa/train/13-1036",
+    "supporting_fact": "good bacteria grow on the skin",
+    "unrelated_fact": "mammals give birth to live young",
+    "unrelated_source_id": "obqa/train/14-222",
+    "word_length_difference": 0,
+    "selection": "nearest word length after independent lexical/option overlap exclusions; seeded tie"
+  },
+  {
+    "qid": "obqa/train/10-548",
+    "supporting_fact": "An example of an instinctive behavior is a baby bird pecking at its shell to hatch",
+    "unrelated_fact": "if an object is exposed to a source of heat then that conductor may become hot",
+    "unrelated_source_id": "obqa/train/10-1062",
+    "word_length_difference": 0,
+    "selection": "nearest word length after independent lexical/option overlap exclusions; seeded tie"
+  },
+  {
+    "qid": "obqa/train/14-1040",
+    "supporting_fact": "A bee is a pollinating animal",
+    "unrelated_fact": "electricity causes less pollution than gasoline",
+    "unrelated_source_id": "obqa/train/10-845",
+    "word_length_difference": 0,
+    "selection": "nearest word length after independent lexical/option overlap exclusions; seeded tie"
+  },
+  {
+    "qid": "obqa/train/13-773",
+    "supporting_fact": "a producer is a source of energy for consumers",
+    "unrelated_fact": "decomposition increases the amount of nutrients in the soil",
+    "unrelated_source_id": "obqa/train/11-645",
+    "word_length_difference": 0,
+    "selection": "nearest word length after independent lexical/option overlap exclusions; seeded tie"
+  },
+  {
+    "qid": "obqa/train/13-160",
+    "supporting_fact": "An example of hunting is an otter cracking open clams with a rock",
+    "unrelated_fact": "the breaking down of food into simple substances occurs in the digestive system",
+    "unrelated_source_id": "obqa/train/9-139",
+    "word_length_difference": 0,
+    "selection": "nearest word length after independent lexical/option overlap exclusions; seeded tie"
+  },
+  {
+    "qid": "obqa/train/11-748",
+    "supporting_fact": "reptiles lay eggs",
+    "unrelated_fact": "a disperser disperses",
+    "unrelated_source_id": "obqa/train/7-521",
+    "word_length_difference": 0,
+    "selection": "nearest word length after independent lexical/option overlap exclusions; seeded tie"
+  },
+  {
+    "qid": "obqa/train/1792",
+    "supporting_fact": "as elevation of a place decreases , how much a flood will affect that place will increases",
+    "unrelated_fact": "as the mass of an object increases , the force required to push that object will increase",
+    "unrelated_source_id": "obqa/train/14-1073",
+    "word_length_difference": 0,
+    "selection": "nearest word length after independent lexical/option overlap exclusions; seeded tie"
+  },
+  {
+    "qid": "obqa/train/12-93",
+    "supporting_fact": "living underground can be used for hiding from predators",
+    "unrelated_fact": "a sandbar is formed by water moving sediment downstream",
+    "unrelated_source_id": "obqa/train/10-1009",
+    "word_length_difference": 0,
+    "selection": "nearest word length after independent lexical/option overlap exclusions; seeded tie"
+  },
+  {
+    "qid": "obqa/train/1210",
+    "supporting_fact": "a magnet attracts magnetic metals through magnetism",
+    "unrelated_fact": "a plant requires soil for to grow",
+    "unrelated_source_id": "obqa/train/10-1154",
+    "word_length_difference": 0,
+    "selection": "nearest word length after independent lexical/option overlap exclusions; seeded tie"
+  },
+  {
+    "qid": "obqa/train/634",
+    "supporting_fact": "if a living thing dies then that living thing is dead",
+    "unrelated_fact": "the sun causes water to evaporate more quickly by adding heat",
+    "unrelated_source_id": "obqa/train/14-155",
+    "word_length_difference": 0,
+    "selection": "nearest word length after independent lexical/option overlap exclusions; seeded tie"
+  },
+  {
+    "qid": "obqa/train/12-804",
+    "supporting_fact": "a flower produces pollen and seeds",
+    "unrelated_fact": "animals usually distance themselves from humans",
+    "unrelated_source_id": "obqa/train/13-48",
+    "word_length_difference": 0,
+    "selection": "nearest word length after independent lexical/option overlap exclusions; seeded tie"
+  },
+  {
+    "qid": "obqa/train/10-782",
+    "supporting_fact": "a forest environment is often green in color",
+    "unrelated_fact": "the ocean contains large amounts of salt water",
+    "unrelated_source_id": "obqa/train/12-167",
+    "word_length_difference": 0,
+    "selection": "nearest word length after independent lexical/option overlap exclusions; seeded tie"
+  },
+  {
+    "qid": "obqa/train/13-680",
+    "supporting_fact": "an animal requires energy to move",
+    "unrelated_fact": "lightning can cause a forest fire",
+    "unrelated_source_id": "obqa/train/12-1006",
+    "word_length_difference": 0,
+    "selection": "nearest word length after independent lexical/option overlap exclusions; seeded tie"
+  },
+  {
+    "qid": "obqa/train/9-400",
+    "supporting_fact": "runoff is when cropland water enters bodies of water",
+    "unrelated_fact": "gills are used for breathing water by aquatic animals",
+    "unrelated_source_id": "obqa/train/11-92",
+    "word_length_difference": 0,
+    "selection": "nearest word length after independent lexical/option overlap exclusions; seeded tie"
+  },
+  {
+    "qid": "obqa/train/12-959",
+    "supporting_fact": "plants are the source of fruit",
+    "unrelated_fact": "seasons cause change to the environment",
+    "unrelated_source_id": "obqa/train/12-693",
+    "word_length_difference": 0,
+    "selection": "nearest word length after independent lexical/option overlap exclusions; seeded tie"
+  },
+  {
+    "qid": "obqa/train/14-920",
+    "supporting_fact": "herbivores only eat plants",
+    "unrelated_fact": "a reptile is cold-blooded",
+    "unrelated_source_id": "obqa/train/13-810",
+    "word_length_difference": 0,
+    "selection": "nearest word length after independent lexical/option overlap exclusions; seeded tie"
+  },
+  {
+    "qid": "obqa/train/10-652",
+    "supporting_fact": "usually plants die or become dormant during the winter",
+    "unrelated_fact": "erosion causes a river to become deeper and wider",
+    "unrelated_source_id": "obqa/train/13-380",
+    "word_length_difference": 0,
+    "selection": "nearest word length after independent lexical/option overlap exclusions; seeded tie"
+  },
+  {
+    "qid": "obqa/train/13-478",
+    "supporting_fact": "mountains are formed by volcanoes",
+    "unrelated_fact": "hibernation is an inherited behavior",
+    "unrelated_source_id": "obqa/train/10-27",
+    "word_length_difference": 0,
+    "selection": "nearest word length after independent lexical/option overlap exclusions; seeded tie"
+  },
+  {
+    "qid": "obqa/train/14-449",
+    "supporting_fact": "as available water in an environment decreases , the amount of available food in that environment will decrease",
+    "unrelated_fact": "if a body part was burned then that body part was exposed to a lot of heat energy",
+    "unrelated_source_id": "obqa/train/13-721",
+    "word_length_difference": 0,
+    "selection": "nearest word length after independent lexical/option overlap exclusions; seeded tie"
+  },
+  {
+    "qid": "obqa/train/12-1174",
+    "supporting_fact": "an animal requires nutrients for survival",
+    "unrelated_fact": "breaking apart rocks can cause debris",
+    "unrelated_source_id": "obqa/train/11-446",
+    "word_length_difference": 0,
+    "selection": "nearest word length after independent lexical/option overlap exclusions; seeded tie"
+  },
+  {
+    "qid": "obqa/train/12-401",
+    "supporting_fact": "gravitational force causes objects that have mass to be pulled down on a planet",
+    "unrelated_fact": "a skinny beak is used for obtaining food by a bird from small spaces",
+    "unrelated_source_id": "obqa/train/10-40",
+    "word_length_difference": 0,
+    "selection": "nearest word length after independent lexical/option overlap exclusions; seeded tie"
+  },
+  {
+    "qid": "obqa/train/13-520",
+    "supporting_fact": "An example of conservation is avoiding waste",
+    "unrelated_fact": "a thermometer is used to measure temperature",
+    "unrelated_source_id": "obqa/train/11-615",
+    "word_length_difference": 0,
+    "selection": "nearest word length after independent lexical/option overlap exclusions; seeded tie"
+  },
+  {
+    "qid": "obqa/train/13-1045",
+    "supporting_fact": "wildfire is when a forest catches fire",
+    "unrelated_fact": "one year is equal to 365 days",
+    "unrelated_source_id": "obqa/train/11-197",
+    "word_length_difference": 0,
+    "selection": "nearest word length after independent lexical/option overlap exclusions; seeded tie"
+  },
+  {
+    "qid": "obqa/train/10-509",
+    "supporting_fact": "humans eat crops",
+    "unrelated_fact": "dead organisms decay",
+    "unrelated_source_id": "obqa/train/7-774",
+    "word_length_difference": 0,
+    "selection": "nearest word length after independent lexical/option overlap exclusions; seeded tie"
+  },
+  {
+    "qid": "obqa/train/11-449",
+    "supporting_fact": "a computer controls a robot",
+    "unrelated_fact": "vaccines can help prevent illness",
+    "unrelated_source_id": "obqa/train/13-538",
+    "word_length_difference": 0,
+    "selection": "nearest word length after independent lexical/option overlap exclusions; seeded tie"
+  },
+  {
+    "qid": "obqa/train/13-1011",
+    "supporting_fact": "doing chores is a learned characteristic",
+    "unrelated_fact": "fire destroys plants in an environment",
+    "unrelated_source_id": "obqa/train/14-1016",
+    "word_length_difference": 0,
+    "selection": "nearest word length after independent lexical/option overlap exclusions; seeded tie"
+  },
+  {
+    "qid": "obqa/train/12-758",
+    "supporting_fact": "claws are used to catch prey by some predators",
+    "unrelated_fact": "usually plants die or become dormant during the winter",
+    "unrelated_source_id": "obqa/train/10-652",
+    "word_length_difference": 0,
+    "selection": "nearest word length after independent lexical/option overlap exclusions; seeded tie"
+  },
+  {
+    "qid": "obqa/train/14-559",
+    "supporting_fact": "a new season occurs once per three months",
+    "unrelated_fact": "the cell membrane provides support for a cell",
+    "unrelated_source_id": "obqa/train/7-1076",
+    "word_length_difference": 0,
+    "selection": "nearest word length after independent lexical/option overlap exclusions; seeded tie"
+  },
+  {
+    "qid": "obqa/train/12-962",
+    "supporting_fact": "air is a vehicle for sound",
+    "unrelated_fact": "a radio is used for communication",
+    "unrelated_source_id": "obqa/train/14-382",
+    "word_length_difference": 0,
+    "selection": "nearest word length after independent lexical/option overlap exclusions; seeded tie"
+  },
+  {
+    "qid": "obqa/train/10-639",
+    "supporting_fact": "an electromagnet contains cylindrical ferrous metal",
+    "unrelated_fact": "fire destroys plants in an environment",
+    "unrelated_source_id": "obqa/train/14-1016",
+    "word_length_difference": 0,
+    "selection": "nearest word length after independent lexical/option overlap exclusions; seeded tie"
+  },
+  {
+    "qid": "obqa/train/9-295",
+    "supporting_fact": "an organism requires energy for growth",
+    "unrelated_fact": "plants are a source of fibers",
+    "unrelated_source_id": "obqa/train/10-603",
+    "word_length_difference": 0,
+    "selection": "nearest word length after independent lexical/option overlap exclusions; seeded tie"
+  },
+  {
+    "qid": "obqa/train/10-650",
+    "supporting_fact": "treating water is used to remove harmful substances before drinking",
+    "unrelated_fact": "a reflector is used to reflect light especially on vehicles",
+    "unrelated_source_id": "obqa/train/14-1404",
+    "word_length_difference": 0,
+    "selection": "nearest word length after independent lexical/option overlap exclusions; seeded tie"
+  },
+  {
+    "qid": "obqa/train/10-894",
+    "supporting_fact": "matter vibrating can cause sound",
+    "unrelated_fact": "plant cells can perform photosynthesis",
+    "unrelated_source_id": "obqa/train/14-540",
+    "word_length_difference": 0,
+    "selection": "nearest word length after independent lexical/option overlap exclusions; seeded tie"
+  },
+  {
+    "qid": "obqa/train/1489",
+    "supporting_fact": "some lizards live in desert habitats",
+    "unrelated_fact": "pollution is a source of pollutants",
+    "unrelated_source_id": "obqa/train/8-301",
+    "word_length_difference": 0,
+    "selection": "nearest word length after independent lexical/option overlap exclusions; seeded tie"
+  },
+  {
+    "qid": "obqa/train/14-565",
+    "supporting_fact": "a living thing requires nutrients to grow",
+    "unrelated_fact": "a camera is used for recording images",
+    "unrelated_source_id": "obqa/train/10-1021",
+    "word_length_difference": 0,
+    "selection": "nearest word length after independent lexical/option overlap exclusions; seeded tie"
+  },
+  {
+    "qid": "obqa/train/9-314",
+    "supporting_fact": "fat is used to keep animals warm",
+    "unrelated_fact": "a doorbell converts electrical energy into sound",
+    "unrelated_source_id": "obqa/train/8-447",
+    "word_length_difference": 0,
+    "selection": "nearest word length after independent lexical/option overlap exclusions; seeded tie"
+  },
+  {
+    "qid": "obqa/train/11-347",
+    "supporting_fact": "the sun is the source of solar energy called sunlight",
+    "unrelated_fact": "An example of camouflage is an organism looking like leaves",
+    "unrelated_source_id": "obqa/train/14-198",
+    "word_length_difference": 0,
+    "selection": "nearest word length after independent lexical/option overlap exclusions; seeded tie"
+  },
+  {
+    "qid": "obqa/train/9-739",
+    "supporting_fact": "a cavern is formed by carbonic acid in groundwater seeping through rock and dissolving limestone",
+    "unrelated_fact": "when a plant grows , the number of the leaves of that plant may increase",
+    "unrelated_source_id": "obqa/train/12-578",
+    "word_length_difference": 0,
+    "selection": "nearest word length after independent lexical/option overlap exclusions; seeded tie"
+  },
+  {
+    "qid": "obqa/train/14-61",
+    "supporting_fact": "heat and pressure change the remains of prehistoric living things into natural gas",
+    "unrelated_fact": "magnifying glass is used to see small things by making objects appear bigger",
+    "unrelated_source_id": "obqa/train/7-282",
+    "word_length_difference": 0,
+    "selection": "nearest word length after independent lexical/option overlap exclusions; seeded tie"
+  },
+  {
+    "qid": "obqa/train/14-538",
+    "supporting_fact": "if two equal forces in opposite directions act on an object then that object will stay in the same place",
+    "unrelated_fact": "as the amount of rainfall increases in an area , the amount of available water in that area will increase",
+    "unrelated_source_id": "obqa/train/14-316",
+    "word_length_difference": 0,
+    "selection": "nearest word length after independent lexical/option overlap exclusions; seeded tie"
+  },
+  {
+    "qid": "obqa/train/13-722",
+    "supporting_fact": "living things can all reproduce",
+    "unrelated_fact": "rock is made of minerals",
+    "unrelated_source_id": "obqa/train/12-719",
+    "word_length_difference": 0,
+    "selection": "nearest word length after independent lexical/option overlap exclusions; seeded tie"
+  },
+  {
+    "qid": "obqa/train/14-1444",
+    "supporting_fact": "if a tree falls then that tree is dead",
+    "unrelated_fact": "claws are used to catch prey by some predators",
+    "unrelated_source_id": "obqa/train/114",
+    "word_length_difference": 0,
+    "selection": "nearest word length after independent lexical/option overlap exclusions; seeded tie"
+  },
+  {
+    "qid": "obqa/train/11-528",
+    "supporting_fact": "the Earth contains many ecosystems",
+    "unrelated_fact": "skidding causes speed to decrease",
+    "unrelated_source_id": "obqa/train/12-396",
+    "word_length_difference": 0,
+    "selection": "nearest word length after independent lexical/option overlap exclusions; seeded tie"
+  },
+  {
+    "qid": "obqa/train/14-881",
+    "supporting_fact": "an animal being born when food is available has a positive impact on that animal 's health",
+    "unrelated_fact": "as the amount of rain increases in an environment , available sunlight will decrease in that environment",
+    "unrelated_source_id": "obqa/train/1404",
+    "word_length_difference": 0,
+    "selection": "nearest word length after independent lexical/option overlap exclusions; seeded tie"
+  },
+  {
+    "qid": "obqa/train/12-296",
+    "supporting_fact": "a plant requires photosynthesis to grow",
+    "unrelated_fact": "a radio is used for communication",
+    "unrelated_source_id": "obqa/train/14-382",
+    "word_length_difference": 0,
+    "selection": "nearest word length after independent lexical/option overlap exclusions; seeded tie"
+  },
+  {
+    "qid": "obqa/train/14-57",
+    "supporting_fact": "a car engine is a source of heat",
+    "unrelated_fact": "carbon dioxide can be found in the air",
+    "unrelated_source_id": "obqa/train/7-530",
+    "word_length_difference": 0,
+    "selection": "nearest word length after independent lexical/option overlap exclusions; seeded tie"
+  },
+  {
+    "qid": "obqa/train/12-153",
+    "supporting_fact": "sunlight produces heat",
+    "unrelated_fact": "raccoons eat waste",
+    "unrelated_source_id": "obqa/train/13-409",
+    "word_length_difference": 0,
+    "selection": "nearest word length after independent lexical/option overlap exclusions; seeded tie"
+  },
+  {
+    "qid": "obqa/train/10-321",
+    "supporting_fact": "decomposer is a kind of role in an ecosystem",
+    "unrelated_fact": "a producer is a source of energy for consumers",
+    "unrelated_source_id": "obqa/train/13-773",
+    "word_length_difference": 0,
+    "selection": "nearest word length after independent lexical/option overlap exclusions; seeded tie"
+  },
+  {
+    "qid": "obqa/train/10-40",
+    "supporting_fact": "a skinny beak is used for obtaining food by a bird from small spaces",
+    "unrelated_fact": "a pollutions standard is a kind of standard for reducing pollutants emitted by factories",
+    "unrelated_source_id": "obqa/train/7-121",
+    "word_length_difference": 0,
+    "selection": "nearest word length after independent lexical/option overlap exclusions; seeded tie"
+  },
+  {
+    "qid": "obqa/train/13-439",
+    "supporting_fact": "a battery converts chemical energy into electrical energy",
+    "unrelated_fact": "a consumer can not produce its own food",
+    "unrelated_source_id": "obqa/train/13-795",
+    "word_length_difference": 0,
+    "selection": "nearest word length after independent lexical/option overlap exclusions; seeded tie"
+  },
+  {
+    "qid": "obqa/train/8-8",
+    "supporting_fact": "an electric car contains an electric motor",
+    "unrelated_fact": "telephones convert sound energy into electrical energy",
+    "unrelated_source_id": "obqa/train/12-186",
+    "word_length_difference": 0,
+    "selection": "nearest word length after independent lexical/option overlap exclusions; seeded tie"
+  },
+  {
+    "qid": "obqa/train/13-287",
+    "supporting_fact": "one day is equal to 24 hours",
+    "unrelated_fact": "a magnet attracts magnetic metals through magnetism",
+    "unrelated_source_id": "obqa/train/10-20",
+    "word_length_difference": 0,
+    "selection": "nearest word length after independent lexical/option overlap exclusions; seeded tie"
+  }
+]

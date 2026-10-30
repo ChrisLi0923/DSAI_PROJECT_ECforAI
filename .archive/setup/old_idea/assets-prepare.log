@@ -1,0 +1,45 @@
+Fetching 9 files:   0%|          | 0/9 [00:00<?, ?it/s]Fetching 9 files:  22%|██▏       | 2/9 [00:01<00:04,  1.64it/s]Xet Storage is enabled for this repo, but the 'hf_xet' package is not installed. Falling back to regular HTTP download. For better performance, install the package with: `pip install huggingface_hub[hf_xet]` or `pip install hf_xet`
+Xet Storage is enabled for this repo, but the 'hf_xet' package is not installed. Falling back to regular HTTP download. For better performance, install the package with: `pip install huggingface_hub[hf_xet]` or `pip install hf_xet`
+Fetching 9 files:  33%|███▎      | 3/9 [00:20<00:40,  6.67s/it]Xet Storage is enabled for this repo, but the 'hf_xet' package is not installed. Falling back to regular HTTP download. For better performance, install the package with: `pip install huggingface_hub[hf_xet]` or `pip install hf_xet`
+Traceback (most recent call last):
+  File "/home/hli/anaconda3/envs/dsai/lib/python3.11/site-packages/huggingface_hub/file_download.py", line 423, in http_get
+    hf_transfer.download(
+Exception: Failed too many failures in parallel (3): Request: error decoding response body (no permits available)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/hli/dsai/scripts/prepare_assets.py", line 11, in <module>
+    root=Path(__file__).resolve().parents[1]
+  File "/home/hli/anaconda3/envs/dsai/lib/python3.11/site-packages/huggingface_hub/utils/_validators.py", line 114, in _inner_fn
+    return fn(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^
+  File "/home/hli/anaconda3/envs/dsai/lib/python3.11/site-packages/huggingface_hub/_snapshot_download.py", line 294, in snapshot_download
+    _inner_hf_hub_download(file)
+  File "/home/hli/anaconda3/envs/dsai/lib/python3.11/site-packages/huggingface_hub/_snapshot_download.py", line 270, in _inner_hf_hub_download
+    return hf_hub_download(
+           ^^^^^^^^^^^^^^^^
+  File "/home/hli/anaconda3/envs/dsai/lib/python3.11/site-packages/huggingface_hub/utils/_validators.py", line 114, in _inner_fn
+    return fn(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^
+  File "/home/hli/anaconda3/envs/dsai/lib/python3.11/site-packages/huggingface_hub/file_download.py", line 961, in hf_hub_download
+    return _hf_hub_download_to_cache_dir(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/hli/anaconda3/envs/dsai/lib/python3.11/site-packages/huggingface_hub/file_download.py", line 1112, in _hf_hub_download_to_cache_dir
+    _download_to_tmp_and_move(
+  File "/home/hli/anaconda3/envs/dsai/lib/python3.11/site-packages/huggingface_hub/file_download.py", line 1675, in _download_to_tmp_and_move
+    http_get(
+  File "/home/hli/anaconda3/envs/dsai/lib/python3.11/site-packages/huggingface_hub/file_download.py", line 434, in http_get
+    raise RuntimeError(
+RuntimeError: An error occurred while downloading using `hf_transfer`. Consider disabling HF_HUB_ENABLE_HF_TRANSFER for better error handling.
+Fetching 9 files:   0%|          | 0/9 [00:00<?, ?it/s]Xet Storage is enabled for this repo, but the 'hf_xet' package is not installed. Falling back to regular HTTP download. For better performance, install the package with: `pip install huggingface_hub[hf_xet]` or `pip install hf_xet`
+Xet Storage is enabled for this repo, but the 'hf_xet' package is not installed. Falling back to regular HTTP download. For better performance, install the package with: `pip install huggingface_hub[hf_xet]` or `pip install hf_xet`
+Fetching 9 files:  33%|███▎      | 3/9 [00:20<00:40,  6.67s/it]Fetching 9 files:   0%|          | 0/9 [00:00<?, ?it/s]Fetching 9 files:  33%|███▎      | 3/9 [00:20<00:40,  6.67s/it]  2026-10-27T15:25:58.340034Z  WARN  Retry attempt #0. Sleeping 401.776133ms before the next attempt
+    at /root/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/reqwest-retry-0.7.0/src/middleware.rs:171
+
+Fetching 9 files:  44%|████▍     | 4/9 [31:19<39:09, 469.94s/it]  2026-10-27T15:35:46.865618Z  WARN  Retry attempt #0. Sleeping 2.279659163s before the next attempt
+    at /root/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/reqwest-retry-0.7.0/src/middleware.rs:171
+
+Fetching 9 files: 100%|██████████| 9/9 [45:25<00:00, 302.87s/it]Fetching 9 files: 100%|██████████| 9/9 [45:25<00:00, 302.87s/it]
+Model asset download complete
+{'data_config': {'dataset': 'allenai/ai2_arc', 'revision': '210d026faf9955653af8916fad021475a3f00453', 'split_seed': 20261027, 'pilot_n': 100, 'search_n': 128, 'validation_n': 100}, 'counts': {'pilot': 100, 'search': 128, 'validation': 100, 'test': 1109}, 'hashes': {'pilot': 'c8626b5799308799c70bc76a6463c3d0512d3c42d728a839195364a8537f7e95', 'search': '37bad0611103c3fb88bdc8f18ed60744e29b05ac9963530eec56a66b51a6d52c', 'validation': 'd4fe0d0faea5b4cc2eebbd6c77d19fbcaed25f30d86047b9afdaea5a19e6a343', 'test': '3c70215ab40799d763521c4d1d80582a7d3afb506049b651b29240642359dc9b'}, 'rejected': 137, 'screening_reasons': {'option_position_reference': 28, 'possible_missing_media': 94, 'requires_four_distinct_labels': 13, 'duplicate_options': 4, 'duplicate_source_question': 1}, 'policy': 'Test-priority exact content/ID deduplication; no test inference before prompt freeze.'}

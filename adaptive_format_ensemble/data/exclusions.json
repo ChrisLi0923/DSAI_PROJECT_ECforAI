@@ -1,0 +1,1823 @@
+[
+  {
+    "id": "obqa/test/9-1180",
+    "source": "test",
+    "reasons": [
+      "option_position_reference"
+    ]
+  },
+  {
+    "id": "obqa/test/8-304",
+    "source": "test",
+    "reasons": [
+      "option_position_reference"
+    ]
+  },
+  {
+    "id": "obqa/test/7-203",
+    "source": "test",
+    "reasons": [
+      "possible_missing_media"
+    ]
+  },
+  {
+    "id": "obqa/test/9-105",
+    "source": "test",
+    "reasons": [
+      "option_position_reference"
+    ]
+  },
+  {
+    "id": "obqa/test/1047",
+    "source": "test",
+    "reasons": [
+      "cross_or_within_split_duplicate"
+    ]
+  },
+  {
+    "id": "obqa/test/8-373",
+    "source": "test",
+    "reasons": [
+      "relative_option_reference"
+    ]
+  },
+  {
+    "id": "obqa/test/9-550",
+    "source": "test",
+    "reasons": [
+      "possible_missing_media"
+    ]
+  },
+  {
+    "id": "obqa/test/9-259",
+    "source": "test",
+    "reasons": [
+      "option_position_reference"
+    ]
+  },
+  {
+    "id": "obqa/test/8-494",
+    "source": "test",
+    "reasons": [
+      "option_position_reference"
+    ]
+  },
+  {
+    "id": "obqa/test/1560",
+    "source": "test",
+    "reasons": [
+      "possible_missing_media"
+    ]
+  },
+  {
+    "id": "obqa/test/1528",
+    "source": "test",
+    "reasons": [
+      "cross_or_within_split_duplicate"
+    ]
+  },
+  {
+    "id": "obqa/test/1208",
+    "source": "test",
+    "reasons": [
+      "possible_missing_media"
+    ]
+  },
+  {
+    "id": "obqa/test/8-332",
+    "source": "test",
+    "reasons": [
+      "option_position_reference"
+    ]
+  },
+  {
+    "id": "obqa/test/1391",
+    "source": "test",
+    "reasons": [
+      "possible_missing_media"
+    ]
+  },
+  {
+    "id": "obqa/validation/142",
+    "source": "validation",
+    "reasons": [
+      "option_position_reference"
+    ]
+  },
+  {
+    "id": "obqa/validation/8-38",
+    "source": "validation",
+    "reasons": [
+      "possible_missing_media"
+    ]
+  },
+  {
+    "id": "obqa/validation/9-250",
+    "source": "validation",
+    "reasons": [
+      "option_position_reference"
+    ]
+  },
+  {
+    "id": "obqa/validation/156",
+    "source": "validation",
+    "reasons": [
+      "possible_missing_media"
+    ]
+  },
+  {
+    "id": "obqa/validation/8-303",
+    "source": "validation",
+    "reasons": [
+      "possible_missing_media"
+    ]
+  },
+  {
+    "id": "obqa/validation/7-537",
+    "source": "validation",
+    "reasons": [
+      "possible_missing_media"
+    ]
+  },
+  {
+    "id": "obqa/validation/7-437",
+    "source": "validation",
+    "reasons": [
+      "possible_missing_media"
+    ]
+  },
+  {
+    "id": "obqa/validation/7-370",
+    "source": "validation",
+    "reasons": [
+      "possible_missing_media"
+    ]
+  },
+  {
+    "id": "obqa/validation/7-4",
+    "source": "validation",
+    "reasons": [
+      "possible_missing_media"
+    ]
+  },
+  {
+    "id": "obqa/validation/927",
+    "source": "validation",
+    "reasons": [
+      "cross_or_within_split_duplicate"
+    ]
+  },
+  {
+    "id": "obqa/validation/9-1112",
+    "source": "validation",
+    "reasons": [
+      "option_position_reference",
+      "relative_option_reference"
+    ]
+  },
+  {
+    "id": "obqa/train/7-1167",
+    "source": "train",
+    "reasons": [
+      "possible_missing_media"
+    ]
+  },
+  {
+    "id": "obqa/train/8-408",
+    "source": "train",
+    "reasons": [
+      "option_position_reference"
+    ]
+  },
+  {
+    "id": "obqa/train/7-45",
+    "source": "train",
+    "reasons": [
+      "possible_missing_media"
+    ]
+  },
+  {
+    "id": "obqa/train/8-335",
+    "source": "train",
+    "reasons": [
+      "possible_missing_media"
+    ]
+  },
+  {
+    "id": "obqa/train/9-417",
+    "source": "train",
+    "reasons": [
+      "option_position_reference"
+    ]
+  },
+  {
+    "id": "obqa/train/8-347",
+    "source": "train",
+    "reasons": [
+      "possible_missing_media"
+    ]
+  },
+  {
+    "id": "obqa/train/8-407",
+    "source": "train",
+    "reasons": [
+      "option_position_reference"
+    ]
+  },
+  {
+    "id": "obqa/train/8-200",
+    "source": "train",
+    "reasons": [
+      "cross_or_within_split_duplicate"
+    ]
+  },
+  {
+    "id": "obqa/train/7-647",
+    "source": "train",
+    "reasons": [
+      "option_position_reference"
+    ]
+  },
+  {
+    "id": "obqa/train/9-444",
+    "source": "train",
+    "reasons": [
+      "possible_missing_media"
+    ]
+  },
+  {
+    "id": "obqa/train/822",
+    "source": "train",
+    "reasons": [
+      "cross_or_within_split_duplicate"
+    ]
+  },
+  {
+    "id": "obqa/train/7-590",
+    "source": "train",
+    "reasons": [
+      "cross_or_within_split_duplicate"
+    ]
+  },
+  {
+    "id": "obqa/train/7-813",
+    "source": "train",
+    "reasons": [
+      "possible_missing_media"
+    ]
+  },
+  {
+    "id": "obqa/train/9-261",
+    "source": "train",
+    "reasons": [
+      "option_position_reference"
+    ]
+  },
+  {
+    "id": "obqa/train/7-178",
+    "source": "train",
+    "reasons": [
+      "option_position_reference"
+    ]
+  },
+  {
+    "id": "obqa/train/8-131",
+    "source": "train",
+    "reasons": [
+      "possible_missing_media"
+    ]
+  },
+  {
+    "id": "obqa/train/8-432",
+    "source": "train",
+    "reasons": [
+      "possible_missing_media"
+    ]
+  },
+  {
+    "id": "obqa/train/1722",
+    "source": "train",
+    "reasons": [
+      "cross_or_within_split_duplicate"
+    ]
+  },
+  {
+    "id": "obqa/train/8-34",
+    "source": "train",
+    "reasons": [
+      "option_position_reference"
+    ]
+  },
+  {
+    "id": "obqa/train/8-229",
+    "source": "train",
+    "reasons": [
+      "option_position_reference"
+    ]
+  },
+  {
+    "id": "obqa/train/8-330",
+    "source": "train",
+    "reasons": [
+      "option_position_reference"
+    ]
+  },
+  {
+    "id": "obqa/train/9-607",
+    "source": "train",
+    "reasons": [
+      "option_position_reference"
+    ]
+  },
+  {
+    "id": "obqa/train/8-305",
+    "source": "train",
+    "reasons": [
+      "option_position_reference"
+    ]
+  },
+  {
+    "id": "obqa/train/8-360",
+    "source": "train",
+    "reasons": [
+      "possible_missing_media"
+    ]
+  },
+  {
+    "id": "obqa/train/282",
+    "source": "train",
+    "reasons": [
+      "possible_missing_media"
+    ]
+  },
+  {
+    "id": "obqa/train/8-10",
+    "source": "train",
+    "reasons": [
+      "cross_or_within_split_duplicate"
+    ]
+  },
+  {
+    "id": "obqa/train/1094",
+    "source": "train",
+    "reasons": [
+      "cross_or_within_split_duplicate"
+    ]
+  },
+  {
+    "id": "obqa/train/9-855",
+    "source": "train",
+    "reasons": [
+      "option_position_reference"
+    ]
+  },
+  {
+    "id": "obqa/train/923",
+    "source": "train",
+    "reasons": [
+      "cross_or_within_split_duplicate"
+    ]
+  },
+  {
+    "id": "obqa/train/7-841",
+    "source": "train",
+    "reasons": [
+      "cross_or_within_split_duplicate"
+    ]
+  },
+  {
+    "id": "obqa/train/7-224",
+    "source": "train",
+    "reasons": [
+      "possible_missing_media"
+    ]
+  },
+  {
+    "id": "obqa/train/8-221",
+    "source": "train",
+    "reasons": [
+      "option_position_reference"
+    ]
+  },
+  {
+    "id": "obqa/train/1217",
+    "source": "train",
+    "reasons": [
+      "cross_or_within_split_duplicate"
+    ]
+  },
+  {
+    "id": "obqa/train/1341",
+    "source": "train",
+    "reasons": [
+      "cross_or_within_split_duplicate"
+    ]
+  },
+  {
+    "id": "obqa/train/1433",
+    "source": "train",
+    "reasons": [
+      "option_position_reference"
+    ]
+  },
+  {
+    "id": "obqa/train/10-23",
+    "source": "train",
+    "reasons": [
+      "possible_missing_media"
+    ]
+  },
+  {
+    "id": "obqa/train/10-41",
+    "source": "train",
+    "reasons": [
+      "option_position_reference"
+    ]
+  },
+  {
+    "id": "obqa/train/10-47",
+    "source": "train",
+    "reasons": [
+      "possible_missing_media"
+    ]
+  },
+  {
+    "id": "obqa/train/10-137",
+    "source": "train",
+    "reasons": [
+      "possible_missing_media"
+    ]
+  },
+  {
+    "id": "obqa/train/10-210",
+    "source": "train",
+    "reasons": [
+      "option_position_reference"
+    ]
+  },
+  {
+    "id": "obqa/train/10-230",
+    "source": "train",
+    "reasons": [
+      "cross_or_within_split_duplicate"
+    ]
+  },
+  {
+    "id": "obqa/train/10-317",
+    "source": "train",
+    "reasons": [
+      "duplicate_options"
+    ]
+  },
+  {
+    "id": "obqa/train/10-343",
+    "source": "train",
+    "reasons": [
+      "possible_missing_media"
+    ]
+  },
+  {
+    "id": "obqa/train/10-358",
+    "source": "train",
+    "reasons": [
+      "cross_or_within_split_duplicate"
+    ]
+  },
+  {
+    "id": "obqa/train/10-382",
+    "source": "train",
+    "reasons": [
+      "option_position_reference"
+    ]
+  },
+  {
+    "id": "obqa/train/10-399",
+    "source": "train",
+    "reasons": [
+      "option_position_reference"
+    ]
+  },
+  {
+    "id": "obqa/train/10-463",
+    "source": "train",
+    "reasons": [
+      "possible_missing_media"
+    ]
+  },
+  {
+    "id": "obqa/train/10-470",
+    "source": "train",
+    "reasons": [
+      "cross_or_within_split_duplicate"
+    ]
+  },
+  {
+    "id": "obqa/train/10-554",
+    "source": "train",
+    "reasons": [
+      "cross_or_within_split_duplicate"
+    ]
+  },
+  {
+    "id": "obqa/train/10-669",
+    "source": "train",
+    "reasons": [
+      "cross_or_within_split_duplicate"
+    ]
+  },
+  {
+    "id": "obqa/train/10-719",
+    "source": "train",
+    "reasons": [
+      "option_position_reference"
+    ]
+  },
+  {
+    "id": "obqa/train/10-776",
+    "source": "train",
+    "reasons": [
+      "option_position_reference"
+    ]
+  },
+  {
+    "id": "obqa/train/10-817",
+    "source": "train",
+    "reasons": [
+      "possible_missing_media"
+    ]
+  },
+  {
+    "id": "obqa/train/10-855",
+    "source": "train",
+    "reasons": [
+      "option_position_reference"
+    ]
+  },
+  {
+    "id": "obqa/train/10-1121",
+    "source": "train",
+    "reasons": [
+      "cross_or_within_split_duplicate"
+    ]
+  },
+  {
+    "id": "obqa/train/10-1178",
+    "source": "train",
+    "reasons": [
+      "option_position_reference"
+    ]
+  },
+  {
+    "id": "obqa/train/10-1186",
+    "source": "train",
+    "reasons": [
+      "cross_or_within_split_duplicate"
+    ]
+  },
+  {
+    "id": "obqa/train/11-38",
+    "source": "train",
+    "reasons": [
+      "possible_missing_media"
+    ]
+  },
+  {
+    "id": "obqa/train/11-111",
+    "source": "train",
+    "reasons": [
+      "cross_or_within_split_duplicate"
+    ]
+  },
+  {
+    "id": "obqa/train/11-148",
+    "source": "train",
+    "reasons": [
+      "possible_missing_media"
+    ]
+  },
+  {
+    "id": "obqa/train/11-222",
+    "source": "train",
+    "reasons": [
+      "possible_missing_media"
+    ]
+  },
+  {
+    "id": "obqa/train/11-239",
+    "source": "train",
+    "reasons": [
+      "option_position_reference"
+    ]
+  },
+  {
+    "id": "obqa/train/11-264",
+    "source": "train",
+    "reasons": [
+      "option_position_reference"
+    ]
+  },
+  {
+    "id": "obqa/train/11-272",
+    "source": "train",
+    "reasons": [
+      "possible_missing_media"
+    ]
+  },
+  {
+    "id": "obqa/train/11-275",
+    "source": "train",
+    "reasons": [
+      "option_position_reference"
+    ]
+  },
+  {
+    "id": "obqa/train/11-492",
+    "source": "train",
+    "reasons": [
+      "possible_missing_media"
+    ]
+  },
+  {
+    "id": "obqa/train/11-742",
+    "source": "train",
+    "reasons": [
+      "cross_or_within_split_duplicate"
+    ]
+  },
+  {
+    "id": "obqa/train/12-71",
+    "source": "train",
+    "reasons": [
+      "possible_missing_media"
+    ]
+  },
+  {
+    "id": "obqa/train/12-87",
+    "source": "train",
+    "reasons": [
+      "cross_or_within_split_duplicate"
+    ]
+  },
+  {
+    "id": "obqa/train/12-89",
+    "source": "train",
+    "reasons": [
+      "cross_or_within_split_duplicate"
+    ]
+  },
+  {
+    "id": "obqa/train/12-92",
+    "source": "train",
+    "reasons": [
+      "cross_or_within_split_duplicate"
+    ]
+  },
+  {
+    "id": "obqa/train/12-101",
+    "source": "train",
+    "reasons": [
+      "cross_or_within_split_duplicate"
+    ]
+  },
+  {
+    "id": "obqa/train/12-149",
+    "source": "train",
+    "reasons": [
+      "possible_missing_media"
+    ]
+  },
+  {
+    "id": "obqa/train/12-159",
+    "source": "train",
+    "reasons": [
+      "cross_or_within_split_duplicate"
+    ]
+  },
+  {
+    "id": "obqa/train/12-194",
+    "source": "train",
+    "reasons": [
+      "cross_or_within_split_duplicate"
+    ]
+  },
+  {
+    "id": "obqa/train/12-204",
+    "source": "train",
+    "reasons": [
+      "cross_or_within_split_duplicate"
+    ]
+  },
+  {
+    "id": "obqa/train/12-209",
+    "source": "train",
+    "reasons": [
+      "cross_or_within_split_duplicate"
+    ]
+  },
+  {
+    "id": "obqa/train/12-227",
+    "source": "train",
+    "reasons": [
+      "cross_or_within_split_duplicate"
+    ]
+  },
+  {
+    "id": "obqa/train/12-230",
+    "source": "train",
+    "reasons": [
+      "cross_or_within_split_duplicate"
+    ]
+  },
+  {
+    "id": "obqa/train/12-244",
+    "source": "train",
+    "reasons": [
+      "cross_or_within_split_duplicate"
+    ]
+  },
+  {
+    "id": "obqa/train/12-253",
+    "source": "train",
+    "reasons": [
+      "cross_or_within_split_duplicate"
+    ]
+  },
+  {
+    "id": "obqa/train/12-259",
+    "source": "train",
+    "reasons": [
+      "relative_option_reference"
+    ]
+  },
+  {
+    "id": "obqa/train/12-261",
+    "source": "train",
+    "reasons": [
+      "cross_or_within_split_duplicate"
+    ]
+  },
+  {
+    "id": "obqa/train/12-272",
+    "source": "train",
+    "reasons": [
+      "cross_or_within_split_duplicate"
+    ]
+  },
+  {
+    "id": "obqa/train/12-331",
+    "source": "train",
+    "reasons": [
+      "duplicate_options"
+    ]
+  },
+  {
+    "id": "obqa/train/12-334",
+    "source": "train",
+    "reasons": [
+      "cross_or_within_split_duplicate"
+    ]
+  },
+  {
+    "id": "obqa/train/12-335",
+    "source": "train",
+    "reasons": [
+      "cross_or_within_split_duplicate"
+    ]
+  },
+  {
+    "id": "obqa/train/12-339",
+    "source": "train",
+    "reasons": [
+      "cross_or_within_split_duplicate"
+    ]
+  },
+  {
+    "id": "obqa/train/12-353",
+    "source": "train",
+    "reasons": [
+      "cross_or_within_split_duplicate"
+    ]
+  },
+  {
+    "id": "obqa/train/12-408",
+    "source": "train",
+    "reasons": [
+      "duplicate_options"
+    ]
+  },
+  {
+    "id": "obqa/train/12-478",
+    "source": "train",
+    "reasons": [
+      "cross_or_within_split_duplicate"
+    ]
+  },
+  {
+    "id": "obqa/train/12-488",
+    "source": "train",
+    "reasons": [
+      "option_position_reference"
+    ]
+  },
+  {
+    "id": "obqa/train/12-531",
+    "source": "train",
+    "reasons": [
+      "cross_or_within_split_duplicate"
+    ]
+  },
+  {
+    "id": "obqa/train/12-566",
+    "source": "train",
+    "reasons": [
+      "cross_or_within_split_duplicate"
+    ]
+  },
+  {
+    "id": "obqa/train/12-589",
+    "source": "train",
+    "reasons": [
+      "cross_or_within_split_duplicate"
+    ]
+  },
+  {
+    "id": "obqa/train/12-603",
+    "source": "train",
+    "reasons": [
+      "cross_or_within_split_duplicate"
+    ]
+  },
+  {
+    "id": "obqa/train/12-605",
+    "source": "train",
+    "reasons": [
+      "cross_or_within_split_duplicate"
+    ]
+  },
+  {
+    "id": "obqa/train/12-613",
+    "source": "train",
+    "reasons": [
+      "cross_or_within_split_duplicate"
+    ]
+  },
+  {
+    "id": "obqa/train/12-623",
+    "source": "train",
+    "reasons": [
+      "cross_or_within_split_duplicate"
+    ]
+  },
+  {
+    "id": "obqa/train/12-645",
+    "source": "train",
+    "reasons": [
+      "cross_or_within_split_duplicate"
+    ]
+  },
+  {
+    "id": "obqa/train/12-651",
+    "source": "train",
+    "reasons": [
+      "cross_or_within_split_duplicate"
+    ]
+  },
+  {
+    "id": "obqa/train/12-667",
+    "source": "train",
+    "reasons": [
+      "cross_or_within_split_duplicate"
+    ]
+  },
+  {
+    "id": "obqa/train/12-706",
+    "source": "train",
+    "reasons": [
+      "cross_or_within_split_duplicate"
+    ]
+  },
+  {
+    "id": "obqa/train/12-782",
+    "source": "train",
+    "reasons": [
+      "cross_or_within_split_duplicate"
+    ]
+  },
+  {
+    "id": "obqa/train/12-795",
+    "source": "train",
+    "reasons": [
+      "cross_or_within_split_duplicate"
+    ]
+  },
+  {
+    "id": "obqa/train/12-897",
+    "source": "train",
+    "reasons": [
+      "cross_or_within_split_duplicate"
+    ]
+  },
+  {
+    "id": "obqa/train/12-947",
+    "source": "train",
+    "reasons": [
+      "cross_or_within_split_duplicate"
+    ]
+  },
+  {
+    "id": "obqa/train/12-986",
+    "source": "train",
+    "reasons": [
+      "cross_or_within_split_duplicate"
+    ]
+  },
+  {
+    "id": "obqa/train/12-1001",
+    "source": "train",
+    "reasons": [
+      "cross_or_within_split_duplicate"
+    ]
+  },
+  {
+    "id": "obqa/train/12-1016",
+    "source": "train",
+    "reasons": [
+      "possible_missing_media"
+    ]
+  },
+  {
+    "id": "obqa/train/12-1035",
+    "source": "train",
+    "reasons": [
+      "cross_or_within_split_duplicate"
+    ]
+  },
+  {
+    "id": "obqa/train/12-1046",
+    "source": "train",
+    "reasons": [
+      "possible_missing_media"
+    ]
+  },
+  {
+    "id": "obqa/train/12-1047",
+    "source": "train",
+    "reasons": [
+      "cross_or_within_split_duplicate"
+    ]
+  },
+  {
+    "id": "obqa/train/12-1137",
+    "source": "train",
+    "reasons": [
+      "cross_or_within_split_duplicate"
+    ]
+  },
+  {
+    "id": "obqa/train/12-1209",
+    "source": "train",
+    "reasons": [
+      "cross_or_within_split_duplicate"
+    ]
+  },
+  {
+    "id": "obqa/train/12-1212",
+    "source": "train",
+    "reasons": [
+      "cross_or_within_split_duplicate"
+    ]
+  },
+  {
+    "id": "obqa/train/13-74",
+    "source": "train",
+    "reasons": [
+      "cross_or_within_split_duplicate"
+    ]
+  },
+  {
+    "id": "obqa/train/13-76",
+    "source": "train",
+    "reasons": [
+      "option_position_reference"
+    ]
+  },
+  {
+    "id": "obqa/train/13-93",
+    "source": "train",
+    "reasons": [
+      "cross_or_within_split_duplicate"
+    ]
+  },
+  {
+    "id": "obqa/train/13-95",
+    "source": "train",
+    "reasons": [
+      "cross_or_within_split_duplicate"
+    ]
+  },
+  {
+    "id": "obqa/train/13-106",
+    "source": "train",
+    "reasons": [
+      "cross_or_within_split_duplicate"
+    ]
+  },
+  {
+    "id": "obqa/train/13-115",
+    "source": "train",
+    "reasons": [
+      "option_position_reference"
+    ]
+  },
+  {
+    "id": "obqa/train/13-117",
+    "source": "train",
+    "reasons": [
+      "cross_or_within_split_duplicate"
+    ]
+  },
+  {
+    "id": "obqa/train/13-136",
+    "source": "train",
+    "reasons": [
+      "possible_missing_media"
+    ]
+  },
+  {
+    "id": "obqa/train/13-163",
+    "source": "train",
+    "reasons": [
+      "cross_or_within_split_duplicate"
+    ]
+  },
+  {
+    "id": "obqa/train/13-167",
+    "source": "train",
+    "reasons": [
+      "cross_or_within_split_duplicate"
+    ]
+  },
+  {
+    "id": "obqa/train/13-202",
+    "source": "train",
+    "reasons": [
+      "cross_or_within_split_duplicate"
+    ]
+  },
+  {
+    "id": "obqa/train/13-212",
+    "source": "train",
+    "reasons": [
+      "cross_or_within_split_duplicate"
+    ]
+  },
+  {
+    "id": "obqa/train/13-215",
+    "source": "train",
+    "reasons": [
+      "cross_or_within_split_duplicate"
+    ]
+  },
+  {
+    "id": "obqa/train/13-236",
+    "source": "train",
+    "reasons": [
+      "cross_or_within_split_duplicate"
+    ]
+  },
+  {
+    "id": "obqa/train/13-239",
+    "source": "train",
+    "reasons": [
+      "possible_missing_media"
+    ]
+  },
+  {
+    "id": "obqa/train/13-245",
+    "source": "train",
+    "reasons": [
+      "cross_or_within_split_duplicate"
+    ]
+  },
+  {
+    "id": "obqa/train/13-299",
+    "source": "train",
+    "reasons": [
+      "cross_or_within_split_duplicate"
+    ]
+  },
+  {
+    "id": "obqa/train/13-308",
+    "source": "train",
+    "reasons": [
+      "cross_or_within_split_duplicate"
+    ]
+  },
+  {
+    "id": "obqa/train/13-335",
+    "source": "train",
+    "reasons": [
+      "cross_or_within_split_duplicate"
+    ]
+  },
+  {
+    "id": "obqa/train/13-376",
+    "source": "train",
+    "reasons": [
+      "cross_or_within_split_duplicate"
+    ]
+  },
+  {
+    "id": "obqa/train/13-412",
+    "source": "train",
+    "reasons": [
+      "cross_or_within_split_duplicate"
+    ]
+  },
+  {
+    "id": "obqa/train/13-428",
+    "source": "train",
+    "reasons": [
+      "cross_or_within_split_duplicate"
+    ]
+  },
+  {
+    "id": "obqa/train/13-480",
+    "source": "train",
+    "reasons": [
+      "cross_or_within_split_duplicate"
+    ]
+  },
+  {
+    "id": "obqa/train/13-497",
+    "source": "train",
+    "reasons": [
+      "cross_or_within_split_duplicate"
+    ]
+  },
+  {
+    "id": "obqa/train/13-529",
+    "source": "train",
+    "reasons": [
+      "cross_or_within_split_duplicate"
+    ]
+  },
+  {
+    "id": "obqa/train/13-536",
+    "source": "train",
+    "reasons": [
+      "cross_or_within_split_duplicate"
+    ]
+  },
+  {
+    "id": "obqa/train/13-555",
+    "source": "train",
+    "reasons": [
+      "cross_or_within_split_duplicate"
+    ]
+  },
+  {
+    "id": "obqa/train/13-581",
+    "source": "train",
+    "reasons": [
+      "cross_or_within_split_duplicate"
+    ]
+  },
+  {
+    "id": "obqa/train/13-594",
+    "source": "train",
+    "reasons": [
+      "cross_or_within_split_duplicate"
+    ]
+  },
+  {
+    "id": "obqa/train/13-609",
+    "source": "train",
+    "reasons": [
+      "possible_missing_media"
+    ]
+  },
+  {
+    "id": "obqa/train/13-613",
+    "source": "train",
+    "reasons": [
+      "cross_or_within_split_duplicate"
+    ]
+  },
+  {
+    "id": "obqa/train/13-631",
+    "source": "train",
+    "reasons": [
+      "cross_or_within_split_duplicate"
+    ]
+  },
+  {
+    "id": "obqa/train/13-640",
+    "source": "train",
+    "reasons": [
+      "cross_or_within_split_duplicate"
+    ]
+  },
+  {
+    "id": "obqa/train/13-661",
+    "source": "train",
+    "reasons": [
+      "cross_or_within_split_duplicate"
+    ]
+  },
+  {
+    "id": "obqa/train/13-666",
+    "source": "train",
+    "reasons": [
+      "possible_missing_media"
+    ]
+  },
+  {
+    "id": "obqa/train/13-726",
+    "source": "train",
+    "reasons": [
+      "cross_or_within_split_duplicate"
+    ]
+  },
+  {
+    "id": "obqa/train/13-751",
+    "source": "train",
+    "reasons": [
+      "cross_or_within_split_duplicate"
+    ]
+  },
+  {
+    "id": "obqa/train/13-819",
+    "source": "train",
+    "reasons": [
+      "option_position_reference"
+    ]
+  },
+  {
+    "id": "obqa/train/13-839",
+    "source": "train",
+    "reasons": [
+      "cross_or_within_split_duplicate"
+    ]
+  },
+  {
+    "id": "obqa/train/13-859",
+    "source": "train",
+    "reasons": [
+      "cross_or_within_split_duplicate"
+    ]
+  },
+  {
+    "id": "obqa/train/13-892",
+    "source": "train",
+    "reasons": [
+      "cross_or_within_split_duplicate"
+    ]
+  },
+  {
+    "id": "obqa/train/13-903",
+    "source": "train",
+    "reasons": [
+      "possible_missing_media"
+    ]
+  },
+  {
+    "id": "obqa/train/13-914",
+    "source": "train",
+    "reasons": [
+      "cross_or_within_split_duplicate"
+    ]
+  },
+  {
+    "id": "obqa/train/13-960",
+    "source": "train",
+    "reasons": [
+      "relative_option_reference"
+    ]
+  },
+  {
+    "id": "obqa/train/13-961",
+    "source": "train",
+    "reasons": [
+      "cross_or_within_split_duplicate"
+    ]
+  },
+  {
+    "id": "obqa/train/13-1014",
+    "source": "train",
+    "reasons": [
+      "cross_or_within_split_duplicate"
+    ]
+  },
+  {
+    "id": "obqa/train/13-1019",
+    "source": "train",
+    "reasons": [
+      "possible_missing_media"
+    ]
+  },
+  {
+    "id": "obqa/train/14-15",
+    "source": "train",
+    "reasons": [
+      "cross_or_within_split_duplicate"
+    ]
+  },
+  {
+    "id": "obqa/train/14-20",
+    "source": "train",
+    "reasons": [
+      "cross_or_within_split_duplicate"
+    ]
+  },
+  {
+    "id": "obqa/train/14-33",
+    "source": "train",
+    "reasons": [
+      "cross_or_within_split_duplicate"
+    ]
+  },
+  {
+    "id": "obqa/train/14-60",
+    "source": "train",
+    "reasons": [
+      "cross_or_within_split_duplicate"
+    ]
+  },
+  {
+    "id": "obqa/train/14-63",
+    "source": "train",
+    "reasons": [
+      "possible_missing_media"
+    ]
+  },
+  {
+    "id": "obqa/train/14-67",
+    "source": "train",
+    "reasons": [
+      "cross_or_within_split_duplicate"
+    ]
+  },
+  {
+    "id": "obqa/train/14-102",
+    "source": "train",
+    "reasons": [
+      "cross_or_within_split_duplicate"
+    ]
+  },
+  {
+    "id": "obqa/train/14-130",
+    "source": "train",
+    "reasons": [
+      "cross_or_within_split_duplicate"
+    ]
+  },
+  {
+    "id": "obqa/train/14-132",
+    "source": "train",
+    "reasons": [
+      "cross_or_within_split_duplicate"
+    ]
+  },
+  {
+    "id": "obqa/train/14-187",
+    "source": "train",
+    "reasons": [
+      "cross_or_within_split_duplicate"
+    ]
+  },
+  {
+    "id": "obqa/train/14-193",
+    "source": "train",
+    "reasons": [
+      "cross_or_within_split_duplicate"
+    ]
+  },
+  {
+    "id": "obqa/train/14-216",
+    "source": "train",
+    "reasons": [
+      "cross_or_within_split_duplicate"
+    ]
+  },
+  {
+    "id": "obqa/train/14-238",
+    "source": "train",
+    "reasons": [
+      "possible_missing_media"
+    ]
+  },
+  {
+    "id": "obqa/train/14-250",
+    "source": "train",
+    "reasons": [
+      "cross_or_within_split_duplicate"
+    ]
+  },
+  {
+    "id": "obqa/train/14-268",
+    "source": "train",
+    "reasons": [
+      "cross_or_within_split_duplicate"
+    ]
+  },
+  {
+    "id": "obqa/train/14-281",
+    "source": "train",
+    "reasons": [
+      "cross_or_within_split_duplicate"
+    ]
+  },
+  {
+    "id": "obqa/train/14-324",
+    "source": "train",
+    "reasons": [
+      "possible_missing_media"
+    ]
+  },
+  {
+    "id": "obqa/train/14-350",
+    "source": "train",
+    "reasons": [
+      "cross_or_within_split_duplicate"
+    ]
+  },
+  {
+    "id": "obqa/train/14-360",
+    "source": "train",
+    "reasons": [
+      "cross_or_within_split_duplicate"
+    ]
+  },
+  {
+    "id": "obqa/train/14-377",
+    "source": "train",
+    "reasons": [
+      "cross_or_within_split_duplicate"
+    ]
+  },
+  {
+    "id": "obqa/train/14-380",
+    "source": "train",
+    "reasons": [
+      "cross_or_within_split_duplicate"
+    ]
+  },
+  {
+    "id": "obqa/train/14-391",
+    "source": "train",
+    "reasons": [
+      "cross_or_within_split_duplicate"
+    ]
+  },
+  {
+    "id": "obqa/train/14-417",
+    "source": "train",
+    "reasons": [
+      "cross_or_within_split_duplicate"
+    ]
+  },
+  {
+    "id": "obqa/train/14-456",
+    "source": "train",
+    "reasons": [
+      "cross_or_within_split_duplicate"
+    ]
+  },
+  {
+    "id": "obqa/train/14-490",
+    "source": "train",
+    "reasons": [
+      "option_position_reference"
+    ]
+  },
+  {
+    "id": "obqa/train/14-543",
+    "source": "train",
+    "reasons": [
+      "cross_or_within_split_duplicate"
+    ]
+  },
+  {
+    "id": "obqa/train/14-546",
+    "source": "train",
+    "reasons": [
+      "cross_or_within_split_duplicate"
+    ]
+  },
+  {
+    "id": "obqa/train/14-553",
+    "source": "train",
+    "reasons": [
+      "cross_or_within_split_duplicate"
+    ]
+  },
+  {
+    "id": "obqa/train/14-581",
+    "source": "train",
+    "reasons": [
+      "cross_or_within_split_duplicate"
+    ]
+  },
+  {
+    "id": "obqa/train/14-590",
+    "source": "train",
+    "reasons": [
+      "possible_missing_media"
+    ]
+  },
+  {
+    "id": "obqa/train/14-606",
+    "source": "train",
+    "reasons": [
+      "cross_or_within_split_duplicate"
+    ]
+  },
+  {
+    "id": "obqa/train/14-643",
+    "source": "train",
+    "reasons": [
+      "cross_or_within_split_duplicate"
+    ]
+  },
+  {
+    "id": "obqa/train/14-651",
+    "source": "train",
+    "reasons": [
+      "cross_or_within_split_duplicate"
+    ]
+  },
+  {
+    "id": "obqa/train/14-686",
+    "source": "train",
+    "reasons": [
+      "cross_or_within_split_duplicate"
+    ]
+  },
+  {
+    "id": "obqa/train/14-711",
+    "source": "train",
+    "reasons": [
+      "cross_or_within_split_duplicate"
+    ]
+  },
+  {
+    "id": "obqa/train/14-746",
+    "source": "train",
+    "reasons": [
+      "cross_or_within_split_duplicate"
+    ]
+  },
+  {
+    "id": "obqa/train/14-753",
+    "source": "train",
+    "reasons": [
+      "cross_or_within_split_duplicate"
+    ]
+  },
+  {
+    "id": "obqa/train/14-762",
+    "source": "train",
+    "reasons": [
+      "cross_or_within_split_duplicate"
+    ]
+  },
+  {
+    "id": "obqa/train/14-767",
+    "source": "train",
+    "reasons": [
+      "cross_or_within_split_duplicate"
+    ]
+  },
+  {
+    "id": "obqa/train/14-770",
+    "source": "train",
+    "reasons": [
+      "possible_missing_media"
+    ]
+  },
+  {
+    "id": "obqa/train/14-831",
+    "source": "train",
+    "reasons": [
+      "cross_or_within_split_duplicate"
+    ]
+  },
+  {
+    "id": "obqa/train/14-844",
+    "source": "train",
+    "reasons": [
+      "cross_or_within_split_duplicate"
+    ]
+  },
+  {
+    "id": "obqa/train/14-862",
+    "source": "train",
+    "reasons": [
+      "cross_or_within_split_duplicate"
+    ]
+  },
+  {
+    "id": "obqa/train/14-883",
+    "source": "train",
+    "reasons": [
+      "relative_option_reference"
+    ]
+  },
+  {
+    "id": "obqa/train/14-895",
+    "source": "train",
+    "reasons": [
+      "cross_or_within_split_duplicate"
+    ]
+  },
+  {
+    "id": "obqa/train/14-924",
+    "source": "train",
+    "reasons": [
+      "cross_or_within_split_duplicate"
+    ]
+  },
+  {
+    "id": "obqa/train/14-960",
+    "source": "train",
+    "reasons": [
+      "cross_or_within_split_duplicate"
+    ]
+  },
+  {
+    "id": "obqa/train/14-980",
+    "source": "train",
+    "reasons": [
+      "cross_or_within_split_duplicate"
+    ]
+  },
+  {
+    "id": "obqa/train/14-1053",
+    "source": "train",
+    "reasons": [
+      "cross_or_within_split_duplicate"
+    ]
+  },
+  {
+    "id": "obqa/train/14-1054",
+    "source": "train",
+    "reasons": [
+      "cross_or_within_split_duplicate"
+    ]
+  },
+  {
+    "id": "obqa/train/14-1070",
+    "source": "train",
+    "reasons": [
+      "cross_or_within_split_duplicate"
+    ]
+  },
+  {
+    "id": "obqa/train/14-1106",
+    "source": "train",
+    "reasons": [
+      "cross_or_within_split_duplicate"
+    ]
+  },
+  {
+    "id": "obqa/train/14-1150",
+    "source": "train",
+    "reasons": [
+      "cross_or_within_split_duplicate"
+    ]
+  },
+  {
+    "id": "obqa/train/14-1151",
+    "source": "train",
+    "reasons": [
+      "cross_or_within_split_duplicate"
+    ]
+  },
+  {
+    "id": "obqa/train/14-1188",
+    "source": "train",
+    "reasons": [
+      "cross_or_within_split_duplicate"
+    ]
+  },
+  {
+    "id": "obqa/train/14-1194",
+    "source": "train",
+    "reasons": [
+      "cross_or_within_split_duplicate"
+    ]
+  },
+  {
+    "id": "obqa/train/14-1207",
+    "source": "train",
+    "reasons": [
+      "cross_or_within_split_duplicate"
+    ]
+  },
+  {
+    "id": "obqa/train/14-1215",
+    "source": "train",
+    "reasons": [
+      "cross_or_within_split_duplicate"
+    ]
+  },
+  {
+    "id": "obqa/train/14-1220",
+    "source": "train",
+    "reasons": [
+      "cross_or_within_split_duplicate"
+    ]
+  },
+  {
+    "id": "obqa/train/14-1275",
+    "source": "train",
+    "reasons": [
+      "cross_or_within_split_duplicate"
+    ]
+  },
+  {
+    "id": "obqa/train/14-1340",
+    "source": "train",
+    "reasons": [
+      "cross_or_within_split_duplicate"
+    ]
+  },
+  {
+    "id": "obqa/train/14-1370",
+    "source": "train",
+    "reasons": [
+      "cross_or_within_split_duplicate"
+    ]
+  },
+  {
+    "id": "obqa/train/14-1371",
+    "source": "train",
+    "reasons": [
+      "cross_or_within_split_duplicate"
+    ]
+  },
+  {
+    "id": "obqa/train/14-1380",
+    "source": "train",
+    "reasons": [
+      "relative_option_reference"
+    ]
+  },
+  {
+    "id": "obqa/train/14-1396",
+    "source": "train",
+    "reasons": [
+      "cross_or_within_split_duplicate"
+    ]
+  },
+  {
+    "id": "obqa/train/14-1416",
+    "source": "train",
+    "reasons": [
+      "possible_missing_media"
+    ]
+  },
+  {
+    "id": "obqa/train/14-1449",
+    "source": "train",
+    "reasons": [
+      "cross_or_within_split_duplicate"
+    ]
+  },
+  {
+    "id": "obqa/train/14-1469",
+    "source": "train",
+    "reasons": [
+      "cross_or_within_split_duplicate"
+    ]
+  },
+  {
+    "id": "obqa/train/14-1485",
+    "source": "train",
+    "reasons": [
+      "cross_or_within_split_duplicate"
+    ]
+  },
+  {
+    "id": "obqa/train/14-1499",
+    "source": "train",
+    "reasons": [
+      "cross_or_within_split_duplicate"
+    ]
+  },
+  {
+    "id": "obqa/train/14-1501",
+    "source": "train",
+    "reasons": [
+      "cross_or_within_split_duplicate"
+    ]
+  },
+  {
+    "id": "obqa/train/14-1510",
+    "source": "train",
+    "reasons": [
+      "cross_or_within_split_duplicate"
+    ]
+  }
+]

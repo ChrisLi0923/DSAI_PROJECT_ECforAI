@@ -1,0 +1,17 @@
+{
+  "verified_at_unix": 1793197599.606965,
+  "status": {
+    "stage": "generating search",
+    "pid": 617018,
+    "unix": 1793197509.3543026,
+    "complete": false
+  },
+  "completed_response_counts": {
+    "development": 320,
+    "search": 448
+  },
+  "completed_generation_work_units": 448,
+  "log_bytes": 19439,
+  "actual_tmux": "dsai:1:format-ensemble-1028-222508",
+  "final_test_generated": false
+}

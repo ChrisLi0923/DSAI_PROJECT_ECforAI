@@ -1,0 +1,71 @@
+Sliding Window Attention is enabled but not implemented for `sdpa`; unexpected results may be encountered.
+Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]Loading checkpoint shards:  50%|█████     | 1/2 [00:01<00:01,  1.96s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:03<00:00,  1.45s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:03<00:00,  1.53s/it]
+cache split=development completed_new=1/60
+cache split=development completed_new=2/60
+cache split=development completed_new=3/60
+cache split=development completed_new=4/60
+cache split=development completed_new=5/60
+cache split=development completed_new=6/60
+cache split=development completed_new=7/60
+cache split=development completed_new=8/60
+cache split=development completed_new=9/60
+cache split=development completed_new=10/60
+cache split=development completed_new=11/60
+cache split=development completed_new=12/60
+cache split=development completed_new=13/60
+cache split=development completed_new=14/60
+cache split=development completed_new=15/60
+cache split=development completed_new=16/60
+cache split=development completed_new=17/60
+cache split=development completed_new=18/60
+cache split=development completed_new=19/60
+cache split=development completed_new=20/60
+cache split=development completed_new=21/60
+cache split=development completed_new=22/60
+cache split=development completed_new=23/60
+cache split=development completed_new=24/60
+cache split=development completed_new=25/60
+cache split=development completed_new=26/60
+cache split=development completed_new=27/60
+cache split=development completed_new=28/60
+cache split=development completed_new=29/60
+cache split=development completed_new=30/60
+cache split=development completed_new=31/60
+cache split=development completed_new=32/60
+cache split=development completed_new=33/60
+cache split=development completed_new=34/60
+cache split=development completed_new=35/60
+cache split=development completed_new=36/60
+cache split=development completed_new=37/60
+cache split=development completed_new=38/60
+cache split=development completed_new=39/60
+cache split=development completed_new=40/60
+cache split=development completed_new=41/60
+cache split=development completed_new=42/60
+cache split=development completed_new=43/60
+cache split=development completed_new=44/60
+cache split=development completed_new=45/60
+cache split=development completed_new=46/60
+cache split=development completed_new=47/60
+cache split=development completed_new=48/60
+cache split=development completed_new=49/60
+cache split=development completed_new=50/60
+cache split=development completed_new=51/60
+cache split=development completed_new=52/60
+cache split=development completed_new=53/60
+cache split=development completed_new=54/60
+cache split=development completed_new=55/60
+cache split=development completed_new=56/60
+cache split=development completed_new=57/60
+cache split=development completed_new=58/60
+cache split=development completed_new=59/60
+cache split=development completed_new=60/60
+search guided=False seed=191 generation=1 evaluated=16
+search guided=False seed=191 generation=2 evaluated=24
+search guided=True seed=191 generation=1 evaluated=16
+search guided=True seed=191 generation=2 evaluated=24
+{
+  "passed": true,
+  "inference_seconds": 16.150761179625988,
+  "wall_seconds_excluding_load": 18.507304400205612
+}

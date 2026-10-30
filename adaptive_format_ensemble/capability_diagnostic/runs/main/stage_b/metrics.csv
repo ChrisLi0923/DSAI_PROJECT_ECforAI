@@ -1,0 +1,13 @@
+bank,method,split,n,correct,accuracy,rescues,spoils,net_correct,accuracy_difference,invalid,mean_calls,mean_tokens,paired_difference_interval
+reference_three,majority,search,512,405,0.791015625,0,0,0,0.0,0,3,303.14453125,
+reference_three,selector,search,512,403,0.787109375,6,8,-2,-0.00390625,0,3,303.14453125,
+reference_three,fixed_reliability_weights,search,512,403,0.787109375,6,8,-2,-0.00390625,0,3,303.14453125,
+reference_three,majority,validation,489,395,0.8077709611451943,0,0,0,0.0,0,3,308.879345603272,"{'difference': 0.0, 'lower': 0.0, 'upper': 0.0, 'unit': 'whole question paired bootstrap', 'conditional': 'fitted selectors fixed; no retraining uncertainty'}"
+reference_three,selector,validation,489,391,0.7995910020449898,4,8,-4,-0.008179959100204526,0,3,308.879345603272,"{'difference': -0.0081799591002045, 'lower': -0.022494887525562373, 'upper': 0.006134969325153374, 'unit': 'whole question paired bootstrap', 'conditional': 'fitted selectors fixed; no retraining uncertainty'}"
+reference_three,fixed_reliability_weights,validation,489,391,0.7995910020449898,4,8,-4,-0.008179959100204526,0,3,308.879345603272,"{'difference': -0.0081799591002045, 'lower': -0.022494887525562373, 'upper': 0.006134969325153374, 'unit': 'whole question paired bootstrap', 'conditional': 'fitted selectors fixed; no retraining uncertainty'}"
+all_five,majority,search,512,390,0.76171875,0,0,0,0.0,0,5,512.25,
+all_five,selector,search,512,406,0.79296875,31,15,16,0.03125,0,5,512.25,
+all_five,fixed_reliability_weights,search,512,396,0.7734375,8,2,6,0.01171875,0,5,512.25,
+all_five,majority,validation,489,384,0.7852760736196319,0,0,0,0.0,0,5,521.8220858895705,"{'difference': 0.0, 'lower': 0.0, 'upper': 0.0, 'unit': 'whole question paired bootstrap', 'conditional': 'fitted selectors fixed; no retraining uncertainty'}"
+all_five,selector,validation,489,391,0.7995910020449898,21,14,7,0.014314928425357865,0,5,521.8220858895705,"{'difference': 0.014314928425357873, 'lower': -0.0081799591002045, 'upper': 0.03885480572597137, 'unit': 'whole question paired bootstrap', 'conditional': 'fitted selectors fixed; no retraining uncertainty'}"
+all_five,fixed_reliability_weights,validation,489,382,0.7811860940695297,1,3,-2,-0.004089979550102263,0,5,521.8220858895705,"{'difference': -0.00408997955010225, 'lower': -0.012269938650306749, 'upper': 0.00408997955010225, 'unit': 'whole question paired bootstrap', 'conditional': 'fitted selectors fixed; no retraining uncertainty'}"

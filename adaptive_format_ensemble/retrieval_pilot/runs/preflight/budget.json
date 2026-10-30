@@ -1,0 +1,11 @@
+{
+  "search_calls": 4500,
+  "validation_calls": 1467,
+  "unrelated_calls": 300,
+  "maximum_unique_main_calls": 6267,
+  "cached_exact_main_calls": 0,
+  "remaining_calls": 6267,
+  "reused_baseline_calls": 9945,
+  "extra_verification_calls": 0,
+  "smoke_reused": true
+}

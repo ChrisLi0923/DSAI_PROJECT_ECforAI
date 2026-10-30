@@ -1,0 +1,40 @@
+{
+  "unix": 1793372230.3126023,
+  "target": "dsai:1:final-evaluation-1030-225427",
+  "pid": 832810,
+  "alive_verified_in_host_namespace": true,
+  "stage": "final_matrix_generation",
+  "committed_final_responses": 891,
+  "failed_or_interrupted_attempts": 0,
+  "log_bytes": 1992,
+  "frozen_sha256": "f253a58bfd21621c98db5e1e1659639e171ca4116fe348c428b02f7b01dfefe7",
+  "freeze_unix": 1793371755.8605201,
+  "first_generation_attempt_unix": 1793372076.0802343,
+  "freeze_precedes_generation": true,
+  "hardware": {
+    "gpu": "NVIDIA GeForce RTX 4090",
+    "visible_devices": "GPU-f7b9ffec-17f1-168f-ecdc-c0f5c4eacf4b",
+    "free_gib_before_load": 20.0987548828125,
+    "total_gib": 23.64288330078125,
+    "torch": "2.6.0+cu124",
+    "cuda": "12.4",
+    "load_seconds": 5.863216169178486,
+    "dtype": "bfloat16",
+    "deterministic_algorithms": true,
+    "cpu_threads": 4,
+    "tf32": false,
+    "attention": "sdpa",
+    "memory_fraction": 0.4
+  },
+  "gpu": {
+    "index": 1,
+    "uuid": "GPU-f7b9ffec-17f1-168f-ecdc-c0f5c4eacf4b",
+    "name": "NVIDIA GeForce RTX 4090",
+    "total_mib": 24564,
+    "free_mib": 20969,
+    "utilization": 34,
+    "compute_processes": 1
+  },
+  "prior_outputs_unchanged": true,
+  "completed": false
+}

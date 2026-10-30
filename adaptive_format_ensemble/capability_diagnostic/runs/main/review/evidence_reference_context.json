@@ -1,0 +1,23 @@
+{
+  "n": 300,
+  "original_correct": 240,
+  "reference_correct": 245,
+  "supporting_correct": 252,
+  "unrelated_correct": 238,
+  "supporting_minus_reference": {
+    "n": 300,
+    "correct": 252,
+    "accuracy": 0.84,
+    "rescues": 25,
+    "spoils": 18,
+    "net_correct": 7,
+    "accuracy_difference": 0.023333333333333317,
+    "invalid": 0,
+    "difference": 0.023333333333333334,
+    "lower": -0.016666666666666666,
+    "upper": 0.06333333333333334,
+    "unit": "whole question paired bootstrap",
+    "conditional": "fitted selectors fixed; no retraining uncertainty"
+  },
+  "scope": "Additional exploratory context, not a new predeclared primary comparison."
+}

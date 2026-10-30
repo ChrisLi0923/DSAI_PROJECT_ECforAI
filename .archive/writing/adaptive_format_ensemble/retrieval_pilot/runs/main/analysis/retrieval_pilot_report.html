@@ -1,0 +1,704 @@
+<!doctype html><html><head><meta charset="utf-8"><style>body{font:11pt serif;max-width:1000px;margin:2em auto;line-height:1.4}table{border-collapse:collapse;font-size:9pt}td,th{border:1px solid #aaa;padding:4px}h1,h2{font-family:sans-serif}a{color:#254e80}</style></head><body>
+<h1>Retrieval-assisted answering pilot</h1>
+<p>Exploratory development evidence. The exact1500 search/489 previously used validation questions are retained; the1000 reserved questions were not queried, scored, or indexed. This pilot uses a fixed public science-fact corpus, not Q/A examples. Retrieval and adaptive retrieval are established methods; no novelty or evolutionary benefit is claimed.</p>
+<h2>Design and provenance</h2>
+<p>{</p>
+<p>  &quot;search&quot;: 1500,</p>
+<p>  &quot;validation&quot;: 489,</p>
+<p>  &quot;diagnostic_subset&quot;: 300,</p>
+<p>  &quot;reserve_unqueried&quot;: 1000,</p>
+<p>  &quot;corpus&quot;: 1326</p>
+<p>}</p>
+<p>{</p>
+<p>  &quot;source&quot;: {</p>
+<p>    &quot;repository&quot;: &quot;https://github.com/allenai/OpenBookQA&quot;,</p>
+<p>    &quot;repository_revision&quot;: &quot;b51971646e9371a61508d9953fc706645e194a71&quot;,</p>
+<p>    &quot;script_url&quot;: &quot;https://raw.githubusercontent.com/allenai/OpenBookQA/b51971646e9371a61508d9953fc706645e194a71/scripts/download_and_prepare_data.sh&quot;,</p>
+<p>    &quot;script_sha256&quot;: &quot;c913668c36f9ffd032213c4dc906809d1d0ffd36f4aebf783477f27ce6c6e8e5&quot;,</p>
+<p>    &quot;archive_url&quot;: &quot;https://s3-us-west-2.amazonaws.com/ai2-website/data/OpenBookQA-V1-Sep2018.zip&quot;,</p>
+<p>    &quot;archive_sha256&quot;: &quot;82368cf05df2e3b309c17d162e10b888b4d768fad6e171e0a041954c8553be46&quot;,</p>
+<p>    &quot;archive_bytes&quot;: 1446098,</p>
+<p>    &quot;http_headers&quot;: {</p>
+<p>      &quot;x-amz-id-2&quot;: &quot;haYb+PUhIA5m41VLYqSji0YO4gNX6SBqY96Hl85kVP4eHjy6VEm3IBl0Ls665+ZUrR266h+03Y0=&quot;,</p>
+<p>      &quot;x-amz-request-id&quot;: &quot;HV82Z51VPHMNXJKR&quot;,</p>
+<p>      &quot;Date&quot;: &quot;Fri, 30 Oct 2026 06:50:30 GMT&quot;,</p>
+<p>      &quot;Last-Modified&quot;: &quot;Tue, 09 Oct 2018 17:45:09 GMT&quot;,</p>
+<p>      &quot;ETag&quot;: &quot;\&quot;e07b3b2714762fb7b7cdc32a5ea0aa25\&quot;&quot;,</p>
+<p>      &quot;x-amz-version-id&quot;: &quot;SJXTuRkUGotGLCcLWhRkLtnY1qLw54s8&quot;,</p>
+<p>      &quot;Accept-Ranges&quot;: &quot;bytes&quot;,</p>
+<p>      &quot;Content-Type&quot;: &quot;application/zip&quot;,</p>
+<p>      &quot;Content-Length&quot;: &quot;1446098&quot;,</p>
+<p>      &quot;Server&quot;: &quot;AmazonS3&quot;,</p>
+<p>      &quot;Connection&quot;: &quot;close&quot;</p>
+<p>    },</p>
+<p>    &quot;corpus_member&quot;: &quot;OpenBookQA-V1-Sep2018/Data/Main/openbook.txt&quot;,</p>
+<p>    &quot;raw_corpus_sha256&quot;: &quot;42daf7849bd9ad1096599279e8875038fe8bf55e35c4757d67ec5a2f51ad795c&quot;,</p>
+<p>    &quot;archive_members&quot;: [</p>
+<p>      &quot;OpenBookQA-V1-Sep2018/&quot;,</p>
+<p>      &quot;OpenBookQA-V1-Sep2018/Data/&quot;,</p>
+<p>      &quot;OpenBookQA-V1-Sep2018/Data/Additional/&quot;,</p>
+<p>      &quot;OpenBookQA-V1-Sep2018/Data/Additional/test_complete.jsonl&quot;,</p>
+<p>      &quot;OpenBookQA-V1-Sep2018/Data/Additional/train_complete.jsonl&quot;,</p>
+<p>      &quot;OpenBookQA-V1-Sep2018/Data/Additional/crowdsourced-facts.txt&quot;,</p>
+<p>      &quot;OpenBookQA-V1-Sep2018/Data/Additional/dev_complete.jsonl&quot;,</p>
+<p>      &quot;OpenBookQA-V1-Sep2018/Data/Main/&quot;,</p>
+<p>      &quot;OpenBookQA-V1-Sep2018/Data/Main/train.jsonl&quot;,</p>
+<p>      &quot;OpenBookQA-V1-Sep2018/Data/Main/test.jsonl&quot;,</p>
+<p>      &quot;OpenBookQA-V1-Sep2018/Data/Main/train.tsv&quot;,</p>
+<p>      &quot;OpenBookQA-V1-Sep2018/Data/Main/dev.tsv&quot;,</p>
+<p>      &quot;OpenBookQA-V1-Sep2018/Data/Main/dev.jsonl&quot;,</p>
+<p>      &quot;OpenBookQA-V1-Sep2018/Data/Main/openbook.txt&quot;,</p>
+<p>      &quot;OpenBookQA-V1-Sep2018/Data/Main/test.tsv&quot;</p>
+<p>    ],</p>
+<p>    &quot;extraction&quot;: &quot;Only Data/Main/openbook.txt extracted; no Q/A examples or annotations indexed.&quot;</p>
+<p>  },</p>
+<p>  &quot;raw_lines&quot;: 1326,</p>
+<p>  &quot;documents&quot;: 1326,</p>
+<p>  &quot;normalization&quot;: &quot;NFKC, strip one pair of outer double quotes, collapse whitespace, casefold and remove one terminal full stop for deduplication/matching; displayed text retains spelling and punctuation&quot;,</p>
+<p>  &quot;stable_id&quot;: &quot;obqa-fact- plus first20 SHA256 hex characters of normalized fact, collisions refused&quot;,</p>
+<p>  &quot;index_contents&quot;: &quot;Only official Data/Main/openbook.txt science facts. No questions, keys, ratings or annotations.&quot;</p>
+<p>}</p>
+<p>BM25 uses fixed k1=1.5,b=0.75, positive log1p IDF and linear query term counts. Unicode/case normalization preserves negations and uses no stopword removal or stemming. The stem and every option text enter symmetrically, sorted independently of displayed letters; no answer key, annotation, ID or model outcome selects query terms. Scores tie by stable document ID. Top one is the prefix of one saved top-three ranking. Annotation normalization/matching is separate and never an inference feature.</p>
+<p>R0/R1/R3 share the same manual instruction, applicability caveat, original layout, evidence wrapper and strict one-letter parser. R0 has an empty evidence block. The fixed model/tokenizer revision and singleton greedy BF16 SDPA eight-token settings are preserved. R0 controls for wrapper effects. RU uses one independently chosen corpus fact approximately matched to top-one length, under the same wrapper on the exact historical300-question subset. An independent audit found no RU matches to retrieved/supporting facts; low lexical overlap cannot guarantee semantic irrelevance.</p>
+<h2>Search-only designation</h2>
+<p>{</p>
+<p>  &quot;condition&quot;: &quot;R1&quot;,</p>
+<p>  &quot;search_results&quot;: [</p>
+<p>    {</p>
+<p>      &quot;condition&quot;: &quot;R1&quot;,</p>
+<p>      &quot;correct&quot;: 1130,</p>
+<p>      &quot;n&quot;: 1500,</p>
+<p>      &quot;accuracy&quot;: 0.7533333333333333,</p>
+<p>      &quot;mean_requested_tokens&quot;: 150.37133333333333</p>
+<p>    },</p>
+<p>    {</p>
+<p>      &quot;condition&quot;: &quot;R3&quot;,</p>
+<p>      &quot;correct&quot;: 1127,</p>
+<p>      &quot;n&quot;: 1500,</p>
+<p>      &quot;accuracy&quot;: 0.7513333333333333,</p>
+<p>      &quot;mean_requested_tokens&quot;: 175.312</p>
+<p>    }</p>
+<p>  ],</p>
+<p>  &quot;rule&quot;: {</p>
+<p>    &quot;candidates&quot;: [</p>
+<p>      &quot;R1&quot;,</p>
+<p>      &quot;R3&quot;</p>
+<p>    ],</p>
+<p>    &quot;rule&quot;: &quot;Highest search correct-question count; then lower mean total requested tokens; then condition name lexicographically. Freeze before generating any validation R0/R1/R3 response.&quot;</p>
+<p>  },</p>
+<p>  &quot;search_hash&quot;: &quot;a846b7a8c8b8925bc88192622b4427ec59316e02b708a5c376396fccaf856264&quot;,</p>
+<p>  &quot;protocol_sha256&quot;: &quot;a57a0dedda4bf875f37a865db8f01b7f03d178f91e5576b9a802379440ea5fad&quot;,</p>
+<p>  &quot;created_unix&quot;: 1793344911.828273,</p>
+<p>  &quot;scope&quot;: &quot;Main retrieval comparison is this designated configuration; validation cannot rename the winner. Both fixed top-k validation results remain descriptive.&quot;,</p>
+<p>  &quot;sha256&quot;: &quot;d37385705e5bb00b596dc7c3d24a0e41a79cdf2e3d99d6feb3db70d59f9b501a&quot;</p>
+<p>}</p>
+<p><strong>R1 is the designated main retrieval condition.</strong> It was selected using search accuracy, then lower requested tokens, then name, and frozen before generating any validation responses. Both fixed top-k validation results are reported; validation does not rename the selected method.</p>
+<h2>Answering results</h2>
+<table>
+<tr><td>Pool</td><td>Condition</td><td>Correct/N</td><td>Accuracy</td><td>Calls</td><td>Mean input/output/total tokens</td><td>Invalid/truncated</td></tr>
+<tr><td>search</td><td>original</td><td>1158/1500</td><td>77.20%</td><td>1.000</td><td>99.2/2.0/101.2</td><td>0/0</td></tr>
+<tr><td>search</td><td>ordered_triple</td><td>1212/1500</td><td>80.80%</td><td>2.206</td><td>219.0/4.4/223.4</td><td>0/0</td></tr>
+<tr><td>search</td><td>full_five</td><td>1175/1500</td><td>78.33%</td><td>5.000</td><td>502.9/10.0/512.9</td><td>0/0</td></tr>
+<tr><td>search</td><td>R0</td><td>1154/1500</td><td>76.93%</td><td>1.000</td><td>136.2/2.0/138.2</td><td>11/0</td></tr>
+<tr><td>search</td><td>R1</td><td>1130/1500</td><td>75.33%</td><td>1.000</td><td>148.4/2.0/150.4</td><td>8/2</td></tr>
+<tr><td>search</td><td>R3</td><td>1127/1500</td><td>75.13%</td><td>1.000</td><td>173.3/2.0/175.3</td><td>9/3</td></tr>
+<tr><td>validation</td><td>original</td><td>381/489</td><td>77.91%</td><td>1.000</td><td>101.0/2.0/103.0</td><td>0/0</td></tr>
+<tr><td>validation</td><td>ordered_triple</td><td>395/489</td><td>80.78%</td><td>2.207</td><td>222.4/4.4/226.9</td><td>0/0</td></tr>
+<tr><td>validation</td><td>full_five</td><td>384/489</td><td>78.53%</td><td>5.000</td><td>511.8/10.0/521.8</td><td>0/0</td></tr>
+<tr><td>validation</td><td>R0</td><td>381/489</td><td>77.91%</td><td>1.000</td><td>138.0/2.0/140.0</td><td>2/0</td></tr>
+<tr><td>validation</td><td>R1</td><td>373/489</td><td>76.28%</td><td>1.000</td><td>150.4/2.0/152.4</td><td>2/0</td></tr>
+<tr><td>validation</td><td>R3</td><td>380/489</td><td>77.71%</td><td>1.000</td><td>175.5/2.0/177.5</td><td>2/0</td></tr>
+</table>
+<p>![Achieved accuracy versus requested tokens](accuracy_tokens.png)</p>
+<h2>Paired validation differences</h2>
+<table>
+<tr><td>Method minus baseline</td><td>Rescues/spoils/net</td><td>Accuracy change (points)</td><td>Paired95% interval</td><td>Token difference</td><td>Call difference</td></tr>
+<tr><td>R0 − ordered_triple</td><td>21/35/-14</td><td>-2.86</td><td>[-5.93, +0.20]</td><td>-86.9</td><td>-1.207</td></tr>
+<tr><td>R1 − R0</td><td>21/29/-8</td><td>-1.64</td><td>[-4.30, +1.23]</td><td>+12.4</td><td>+0.000</td></tr>
+<tr><td>R1 − ordered_triple</td><td>23/45/-22</td><td>-4.50</td><td>[-7.98, -1.22]</td><td>-74.5</td><td>-1.207</td></tr>
+<tr><td>R3 − R0</td><td>22/23/-1</td><td>-0.20</td><td>[-3.07, +2.45]</td><td>+37.5</td><td>+0.000</td></tr>
+<tr><td>R3 − ordered_triple</td><td>27/42/-15</td><td>-3.07</td><td>[-6.54, +0.21]</td><td>-49.3</td><td>-1.207</td></tr>
+<tr><td>R0 − original</td><td>19/19/+0</td><td>+0.00</td><td>[-2.66, +2.45]</td><td>+37.0</td><td>+0.000</td></tr>
+</table>
+<p>CSV/JSON retains paired intervals for calls, total/input/output tokens and retrieval time as well as accuracy. Whole-question resampling preserves response/cost pairing; intervals condition on the frozen search selection. Reused validation and multiple exploratory comparisons prevent confirmatory claims. Overlapping individual intervals are not a significance test. Failure to detect an accuracy difference does not establish equivalence or non-inferiority.</p>
+<h2>Retrieval diagnostics</h2>
+<p>[</p>
+<p>  {</p>
+<p>    &quot;split&quot;: &quot;search&quot;,</p>
+<p>    &quot;n&quot;: 1500,</p>
+<p>    &quot;annotation_present&quot;: 1500,</p>
+<p>    &quot;annotation_unmatched&quot;: 0,</p>
+<p>    &quot;presence_rate&quot;: 1.0,</p>
+<p>    &quot;hit1&quot;: 376,</p>
+<p>    &quot;hit3&quot;: 539,</p>
+<p>    &quot;hit1_rate_all&quot;: 0.25066666666666665,</p>
+<p>    &quot;hit3_rate_all&quot;: 0.35933333333333334,</p>
+<p>    &quot;hit1_rate_if_in_corpus&quot;: 0.25066666666666665,</p>
+<p>    &quot;hit3_rate_if_in_corpus&quot;: 0.35933333333333334,</p>
+<p>    &quot;top1_score_quantiles&quot;: {</p>
+<p>      &quot;0&quot;: 3.9714098242005655,</p>
+<p>      &quot;0.1&quot;: 10.18333215360602,</p>
+<p>      &quot;0.25&quot;: 12.624749559115072,</p>
+<p>      &quot;0.5&quot;: 17.58014003022562,</p>
+<p>      &quot;0.75&quot;: 24.14980789840599,</p>
+<p>      &quot;0.9&quot;: 32.286680075451905,</p>
+<p>      &quot;1&quot;: 121.95085209335375</p>
+<p>    },</p>
+<p>    &quot;margin_quantiles&quot;: {</p>
+<p>      &quot;0&quot;: 0.0,</p>
+<p>      &quot;0.1&quot;: 0.0922444193698464,</p>
+<p>      &quot;0.25&quot;: 0.5514020201972056,</p>
+<p>      &quot;0.5&quot;: 1.6695694964589975,</p>
+<p>      &quot;0.75&quot;: 4.390493401524335,</p>
+<p>      &quot;0.9&quot;: 8.799916907043134,</p>
+<p>      &quot;1&quot;: 53.44676264521354</p>
+<p>    },</p>
+<p>    &quot;unmatched_ids&quot;: []</p>
+<p>  },</p>
+<p>  {</p>
+<p>    &quot;split&quot;: &quot;validation&quot;,</p>
+<p>    &quot;n&quot;: 489,</p>
+<p>    &quot;annotation_present&quot;: 489,</p>
+<p>    &quot;annotation_unmatched&quot;: 0,</p>
+<p>    &quot;presence_rate&quot;: 1.0,</p>
+<p>    &quot;hit1&quot;: 156,</p>
+<p>    &quot;hit3&quot;: 219,</p>
+<p>    &quot;hit1_rate_all&quot;: 0.31901840490797545,</p>
+<p>    &quot;hit3_rate_all&quot;: 0.44785276073619634,</p>
+<p>    &quot;hit1_rate_if_in_corpus&quot;: 0.31901840490797545,</p>
+<p>    &quot;hit3_rate_if_in_corpus&quot;: 0.44785276073619634,</p>
+<p>    &quot;top1_score_quantiles&quot;: {</p>
+<p>      &quot;0&quot;: 6.038007498308382,</p>
+<p>      &quot;0.1&quot;: 10.59449332734033,</p>
+<p>      &quot;0.25&quot;: 13.828254345119188,</p>
+<p>      &quot;0.5&quot;: 19.18229978675728,</p>
+<p>      &quot;0.75&quot;: 26.189473431789853,</p>
+<p>      &quot;0.9&quot;: 37.27454672722638,</p>
+<p>      &quot;1&quot;: 88.51488138431478</p>
+<p>    },</p>
+<p>    &quot;margin_quantiles&quot;: {</p>
+<p>      &quot;0&quot;: 0.0,</p>
+<p>      &quot;0.1&quot;: 0.1885696220201268,</p>
+<p>      &quot;0.25&quot;: 0.8075526135466653,</p>
+<p>      &quot;0.5&quot;: 2.1918885790890315,</p>
+<p>      &quot;0.75&quot;: 4.9077040407254895,</p>
+<p>      &quot;0.9&quot;: 11.064462223440602,</p>
+<p>      &quot;1&quot;: 39.84000400359942</p>
+<p>    },</p>
+<p>    &quot;unmatched_ids&quot;: []</p>
+<p>  }</p>
+<p>]</p>
+<p>The saved conditional_results.csv reports answer accuracy, rescues and spoils versus R0/reference when an annotated fact is hit or absent, with corpus-unmatched annotations separate. A fact can help without matching the annotation; matching it does not guarantee sufficient evidence or a correct answer. These groups are descriptive and may differ in difficulty, so their accuracy differences are not isolated causal effects. Low overlap and annotation mismatch do not establish irrelevance.</p>
+<h2>Same300-question control and historical annotated-fact comparator</h2>
+<table>
+<tr><td>Condition</td><td>Correct/N</td><td>Accuracy</td><td>Mean requested tokens</td></tr>
+<tr><td>original</td><td>240/300</td><td>80.00%</td><td>100.5</td></tr>
+<tr><td>ordered_triple</td><td>245/300</td><td>81.67%</td><td>221.9</td></tr>
+<tr><td>full_five</td><td>242/300</td><td>80.67%</td><td>509.4</td></tr>
+<tr><td>R0</td><td>238/300</td><td>79.33%</td><td>137.5</td></tr>
+<tr><td>R1</td><td>228/300</td><td>76.00%</td><td>149.4</td></tr>
+<tr><td>R3</td><td>239/300</td><td>79.67%</td><td>174.0</td></tr>
+<tr><td>RU</td><td>212/300</td><td>70.67%</td><td>149.6</td></tr>
+<tr><td>annotated_fact_historical</td><td>252/300</td><td>84.00%</td><td>120.4</td></tr>
+</table>
+<p>[</p>
+<p>  {</p>
+<p>    &quot;method&quot;: &quot;R1&quot;,</p>
+<p>    &quot;baseline&quot;: &quot;RU&quot;,</p>
+<p>    &quot;n&quot;: 300,</p>
+<p>    &quot;correct&quot;: 228,</p>
+<p>    &quot;accuracy&quot;: 0.76,</p>
+<p>    &quot;rescues&quot;: 24,</p>
+<p>    &quot;spoils&quot;: 8,</p>
+<p>    &quot;net_correct&quot;: 16,</p>
+<p>    &quot;accuracy_difference&quot;: 0.053333333333333344,</p>
+<p>    &quot;accuracy_interval&quot;: {</p>
+<p>      &quot;difference&quot;: 0.05333333333333334,</p>
+<p>      &quot;lower&quot;: 0.016666666666666666,</p>
+<p>      &quot;upper&quot;: 0.09,</p>
+<p>      &quot;unit&quot;: &quot;paired whole questions&quot;,</p>
+<p>      &quot;scope&quot;: &quot;exploratory reused development questions; fitted search selection held fixed&quot;</p>
+<p>    },</p>
+<p>    &quot;tokens_interval&quot;: {</p>
+<p>      &quot;difference&quot;: -0.23333333333333334,</p>
+<p>      &quot;lower&quot;: -0.41333333333333333,</p>
+<p>      &quot;upper&quot;: -0.06,</p>
+<p>      &quot;unit&quot;: &quot;paired whole questions&quot;,</p>
+<p>      &quot;scope&quot;: &quot;exploratory reused development questions; fitted search selection held fixed&quot;</p>
+<p>    },</p>
+<p>    &quot;limits&quot;: &quot;The historical annotated-fact condition uses its old prompt; comparisons to new retrieval conditions also differ in wrapper. R1 versus RU uses the identical new wrapper.&quot;</p>
+<p>  },</p>
+<p>  {</p>
+<p>    &quot;method&quot;: &quot;R1&quot;,</p>
+<p>    &quot;baseline&quot;: &quot;R0&quot;,</p>
+<p>    &quot;n&quot;: 300,</p>
+<p>    &quot;correct&quot;: 228,</p>
+<p>    &quot;accuracy&quot;: 0.76,</p>
+<p>    &quot;rescues&quot;: 15,</p>
+<p>    &quot;spoils&quot;: 25,</p>
+<p>    &quot;net_correct&quot;: -10,</p>
+<p>    &quot;accuracy_difference&quot;: -0.033333333333333326,</p>
+<p>    &quot;accuracy_interval&quot;: {</p>
+<p>      &quot;difference&quot;: -0.03333333333333333,</p>
+<p>      &quot;lower&quot;: -0.07333333333333333,</p>
+<p>      &quot;upper&quot;: 0.006666666666666667,</p>
+<p>      &quot;unit&quot;: &quot;paired whole questions&quot;,</p>
+<p>      &quot;scope&quot;: &quot;exploratory reused development questions; fitted search selection held fixed&quot;</p>
+<p>    },</p>
+<p>    &quot;tokens_interval&quot;: {</p>
+<p>      &quot;difference&quot;: 11.91,</p>
+<p>      &quot;lower&quot;: 11.456666666666667,</p>
+<p>      &quot;upper&quot;: 12.413583333333333,</p>
+<p>      &quot;unit&quot;: &quot;paired whole questions&quot;,</p>
+<p>      &quot;scope&quot;: &quot;exploratory reused development questions; fitted search selection held fixed&quot;</p>
+<p>    },</p>
+<p>    &quot;limits&quot;: &quot;The historical annotated-fact condition uses its old prompt; comparisons to new retrieval conditions also differ in wrapper. R1 versus RU uses the identical new wrapper.&quot;</p>
+<p>  },</p>
+<p>  {</p>
+<p>    &quot;method&quot;: &quot;RU&quot;,</p>
+<p>    &quot;baseline&quot;: &quot;R0&quot;,</p>
+<p>    &quot;n&quot;: 300,</p>
+<p>    &quot;correct&quot;: 212,</p>
+<p>    &quot;accuracy&quot;: 0.7066666666666667,</p>
+<p>    &quot;rescues&quot;: 6,</p>
+<p>    &quot;spoils&quot;: 32,</p>
+<p>    &quot;net_correct&quot;: -26,</p>
+<p>    &quot;accuracy_difference&quot;: -0.08666666666666667,</p>
+<p>    &quot;accuracy_interval&quot;: {</p>
+<p>      &quot;difference&quot;: -0.08666666666666667,</p>
+<p>      &quot;lower&quot;: -0.12666666666666668,</p>
+<p>      &quot;upper&quot;: -0.04666666666666667,</p>
+<p>      &quot;unit&quot;: &quot;paired whole questions&quot;,</p>
+<p>      &quot;scope&quot;: &quot;exploratory reused development questions; fitted search selection held fixed&quot;</p>
+<p>    },</p>
+<p>    &quot;tokens_interval&quot;: {</p>
+<p>      &quot;difference&quot;: 12.143333333333333,</p>
+<p>      &quot;lower&quot;: 11.676666666666666,</p>
+<p>      &quot;upper&quot;: 12.7,</p>
+<p>      &quot;unit&quot;: &quot;paired whole questions&quot;,</p>
+<p>      &quot;scope&quot;: &quot;exploratory reused development questions; fitted search selection held fixed&quot;</p>
+<p>    },</p>
+<p>    &quot;limits&quot;: &quot;The historical annotated-fact condition uses its old prompt; comparisons to new retrieval conditions also differ in wrapper. R1 versus RU uses the identical new wrapper.&quot;</p>
+<p>  },</p>
+<p>  {</p>
+<p>    &quot;method&quot;: &quot;R3&quot;,</p>
+<p>    &quot;baseline&quot;: &quot;R0&quot;,</p>
+<p>    &quot;n&quot;: 300,</p>
+<p>    &quot;correct&quot;: 239,</p>
+<p>    &quot;accuracy&quot;: 0.7966666666666666,</p>
+<p>    &quot;rescues&quot;: 14,</p>
+<p>    &quot;spoils&quot;: 13,</p>
+<p>    &quot;net_correct&quot;: 1,</p>
+<p>    &quot;accuracy_difference&quot;: 0.0033333333333332993,</p>
+<p>    &quot;accuracy_interval&quot;: {</p>
+<p>      &quot;difference&quot;: 0.0033333333333333335,</p>
+<p>      &quot;lower&quot;: -0.03,</p>
+<p>      &quot;upper&quot;: 0.03666666666666667,</p>
+<p>      &quot;unit&quot;: &quot;paired whole questions&quot;,</p>
+<p>      &quot;scope&quot;: &quot;exploratory reused development questions; fitted search selection held fixed&quot;</p>
+<p>    },</p>
+<p>    &quot;tokens_interval&quot;: {</p>
+<p>      &quot;difference&quot;: 36.5,</p>
+<p>      &quot;lower&quot;: 35.473333333333336,</p>
+<p>      &quot;upper&quot;: 37.54333333333334,</p>
+<p>      &quot;unit&quot;: &quot;paired whole questions&quot;,</p>
+<p>      &quot;scope&quot;: &quot;exploratory reused development questions; fitted search selection held fixed&quot;</p>
+<p>    },</p>
+<p>    &quot;limits&quot;: &quot;The historical annotated-fact condition uses its old prompt; comparisons to new retrieval conditions also differ in wrapper. R1 versus RU uses the identical new wrapper.&quot;</p>
+<p>  },</p>
+<p>  {</p>
+<p>    &quot;method&quot;: &quot;annotated_fact_historical&quot;,</p>
+<p>    &quot;baseline&quot;: &quot;original&quot;,</p>
+<p>    &quot;n&quot;: 300,</p>
+<p>    &quot;correct&quot;: 252,</p>
+<p>    &quot;accuracy&quot;: 0.84,</p>
+<p>    &quot;rescues&quot;: 23,</p>
+<p>    &quot;spoils&quot;: 11,</p>
+<p>    &quot;net_correct&quot;: 12,</p>
+<p>    &quot;accuracy_difference&quot;: 0.039999999999999925,</p>
+<p>    &quot;accuracy_interval&quot;: {</p>
+<p>      &quot;difference&quot;: 0.04,</p>
+<p>      &quot;lower&quot;: 0.0033333333333333335,</p>
+<p>      &quot;upper&quot;: 0.07666666666666666,</p>
+<p>      &quot;unit&quot;: &quot;paired whole questions&quot;,</p>
+<p>      &quot;scope&quot;: &quot;exploratory reused development questions; fitted search selection held fixed&quot;</p>
+<p>    },</p>
+<p>    &quot;tokens_interval&quot;: {</p>
+<p>      &quot;difference&quot;: 19.916666666666668,</p>
+<p>      &quot;lower&quot;: 19.429916666666667,</p>
+<p>      &quot;upper&quot;: 20.386666666666667,</p>
+<p>      &quot;unit&quot;: &quot;paired whole questions&quot;,</p>
+<p>      &quot;scope&quot;: &quot;exploratory reused development questions; fitted search selection held fixed&quot;</p>
+<p>    },</p>
+<p>    &quot;limits&quot;: &quot;The historical annotated-fact condition uses its old prompt; comparisons to new retrieval conditions also differ in wrapper. R1 versus RU uses the identical new wrapper.&quot;</p>
+<p>  },</p>
+<p>  {</p>
+<p>    &quot;method&quot;: &quot;R1&quot;,</p>
+<p>    &quot;baseline&quot;: &quot;annotated_fact_historical&quot;,</p>
+<p>    &quot;n&quot;: 300,</p>
+<p>    &quot;correct&quot;: 228,</p>
+<p>    &quot;accuracy&quot;: 0.76,</p>
+<p>    &quot;rescues&quot;: 10,</p>
+<p>    &quot;spoils&quot;: 34,</p>
+<p>    &quot;net_correct&quot;: -24,</p>
+<p>    &quot;accuracy_difference&quot;: -0.07999999999999996,</p>
+<p>    &quot;accuracy_interval&quot;: {</p>
+<p>      &quot;difference&quot;: -0.08,</p>
+<p>      &quot;lower&quot;: -0.12,</p>
+<p>      &quot;upper&quot;: -0.03666666666666667,</p>
+<p>      &quot;unit&quot;: &quot;paired whole questions&quot;,</p>
+<p>      &quot;scope&quot;: &quot;exploratory reused development questions; fitted search selection held fixed&quot;</p>
+<p>    },</p>
+<p>    &quot;tokens_interval&quot;: {</p>
+<p>      &quot;difference&quot;: 28.986666666666668,</p>
+<p>      &quot;lower&quot;: 28.393083333333333,</p>
+<p>      &quot;upper&quot;: 29.563749999999995,</p>
+<p>      &quot;unit&quot;: &quot;paired whole questions&quot;,</p>
+<p>      &quot;scope&quot;: &quot;exploratory reused development questions; fitted search selection held fixed&quot;</p>
+<p>    },</p>
+<p>    &quot;limits&quot;: &quot;The historical annotated-fact condition uses its old prompt; comparisons to new retrieval conditions also differ in wrapper. R1 versus RU uses the identical new wrapper.&quot;</p>
+<p>  },</p>
+<p>  {</p>
+<p>    &quot;method&quot;: &quot;R3&quot;,</p>
+<p>    &quot;baseline&quot;: &quot;annotated_fact_historical&quot;,</p>
+<p>    &quot;n&quot;: 300,</p>
+<p>    &quot;correct&quot;: 239,</p>
+<p>    &quot;accuracy&quot;: 0.7966666666666666,</p>
+<p>    &quot;rescues&quot;: 13,</p>
+<p>    &quot;spoils&quot;: 26,</p>
+<p>    &quot;net_correct&quot;: -13,</p>
+<p>    &quot;accuracy_difference&quot;: -0.043333333333333335,</p>
+<p>    &quot;accuracy_interval&quot;: {</p>
+<p>      &quot;difference&quot;: -0.043333333333333335,</p>
+<p>      &quot;lower&quot;: -0.08333333333333333,</p>
+<p>      &quot;upper&quot;: -0.0033333333333333335,</p>
+<p>      &quot;unit&quot;: &quot;paired whole questions&quot;,</p>
+<p>      &quot;scope&quot;: &quot;exploratory reused development questions; fitted search selection held fixed&quot;</p>
+<p>    },</p>
+<p>    &quot;tokens_interval&quot;: {</p>
+<p>      &quot;difference&quot;: 53.57666666666667,</p>
+<p>      &quot;lower&quot;: 52.59,</p>
+<p>      &quot;upper&quot;: 54.64341666666667,</p>
+<p>      &quot;unit&quot;: &quot;paired whole questions&quot;,</p>
+<p>      &quot;scope&quot;: &quot;exploratory reused development questions; fitted search selection held fixed&quot;</p>
+<p>    },</p>
+<p>    &quot;limits&quot;: &quot;The historical annotated-fact condition uses its old prompt; comparisons to new retrieval conditions also differ in wrapper. R1 versus RU uses the identical new wrapper.&quot;</p>
+<p>  }</p>
+<p>]</p>
+<p>R1 versus RU holds the new wrapper fixed. The historical annotated-fact condition supplied privileged evidence using its old wrapper; comparisons with new conditions are descriptive and also differ in prompt. It is not the proposed method or a deployable retrieval result.</p>
+<h2>Previous strategy output-format check</h2>
+<p>[</p>
+<p>  {</p>
+<p>    &quot;split&quot;: &quot;search&quot;,</p>
+<p>    &quot;strategy&quot;: &quot;elimination&quot;,</p>
+<p>    &quot;n&quot;: 1500,</p>
+<p>    &quot;correct&quot;: 1002,</p>
+<p>    &quot;accuracy&quot;: 0.668,</p>
+<p>    &quot;original_single_accuracy&quot;: 0.772,</p>
+<p>    &quot;invalid&quot;: 52,</p>
+<p>    &quot;invalid_rate&quot;: 0.034666666666666665,</p>
+<p>    &quot;truncated&quot;: 0,</p>
+<p>    &quot;truncation_rate&quot;: 0.0,</p>
+<p>    &quot;text_letter_conflicts&quot;: 0,</p>
+<p>    &quot;conflict_rate&quot;: 0.0,</p>
+<p>    &quot;valid_wrong_answers&quot;: 446,</p>
+<p>    &quot;errors&quot;: 498,</p>
+<p>    &quot;valid_wrong_share_of_errors&quot;: 0.8955823293172691,</p>
+<p>    &quot;accuracy_if_all_invalid_were_correct&quot;: 0.7026666666666667,</p>
+<p>    &quot;conclusion&quot;: &quot;Most failures are valid parsed wrong answers; format failures cannot account for the large accuracy decline. Text-letter conflicts are not an applicable text-field task for these two strategies; none was recorded.&quot;</p>
+<p>  },</p>
+<p>  {</p>
+<p>    &quot;split&quot;: &quot;search&quot;,</p>
+<p>    &quot;strategy&quot;: &quot;principle&quot;,</p>
+<p>    &quot;n&quot;: 1500,</p>
+<p>    &quot;correct&quot;: 1006,</p>
+<p>    &quot;accuracy&quot;: 0.6706666666666666,</p>
+<p>    &quot;original_single_accuracy&quot;: 0.772,</p>
+<p>    &quot;invalid&quot;: 39,</p>
+<p>    &quot;invalid_rate&quot;: 0.026,</p>
+<p>    &quot;truncated&quot;: 0,</p>
+<p>    &quot;truncation_rate&quot;: 0.0,</p>
+<p>    &quot;text_letter_conflicts&quot;: 0,</p>
+<p>    &quot;conflict_rate&quot;: 0.0,</p>
+<p>    &quot;valid_wrong_answers&quot;: 455,</p>
+<p>    &quot;errors&quot;: 494,</p>
+<p>    &quot;valid_wrong_share_of_errors&quot;: 0.9210526315789473,</p>
+<p>    &quot;accuracy_if_all_invalid_were_correct&quot;: 0.6966666666666667,</p>
+<p>    &quot;conclusion&quot;: &quot;Most failures are valid parsed wrong answers; format failures cannot account for the large accuracy decline. Text-letter conflicts are not an applicable text-field task for these two strategies; none was recorded.&quot;</p>
+<p>  },</p>
+<p>  {</p>
+<p>    &quot;split&quot;: &quot;validation&quot;,</p>
+<p>    &quot;strategy&quot;: &quot;elimination&quot;,</p>
+<p>    &quot;n&quot;: 489,</p>
+<p>    &quot;correct&quot;: 327,</p>
+<p>    &quot;accuracy&quot;: 0.6687116564417178,</p>
+<p>    &quot;original_single_accuracy&quot;: 0.7791411042944786,</p>
+<p>    &quot;invalid&quot;: 11,</p>
+<p>    &quot;invalid_rate&quot;: 0.022494887525562373,</p>
+<p>    &quot;truncated&quot;: 0,</p>
+<p>    &quot;truncation_rate&quot;: 0.0,</p>
+<p>    &quot;text_letter_conflicts&quot;: 0,</p>
+<p>    &quot;conflict_rate&quot;: 0.0,</p>
+<p>    &quot;valid_wrong_answers&quot;: 151,</p>
+<p>    &quot;errors&quot;: 162,</p>
+<p>    &quot;valid_wrong_share_of_errors&quot;: 0.9320987654320988,</p>
+<p>    &quot;accuracy_if_all_invalid_were_correct&quot;: 0.6912065439672802,</p>
+<p>    &quot;conclusion&quot;: &quot;Most failures are valid parsed wrong answers; format failures cannot account for the large accuracy decline. Text-letter conflicts are not an applicable text-field task for these two strategies; none was recorded.&quot;</p>
+<p>  },</p>
+<p>  {</p>
+<p>    &quot;split&quot;: &quot;validation&quot;,</p>
+<p>    &quot;strategy&quot;: &quot;principle&quot;,</p>
+<p>    &quot;n&quot;: 489,</p>
+<p>    &quot;correct&quot;: 320,</p>
+<p>    &quot;accuracy&quot;: 0.65439672801636,</p>
+<p>    &quot;original_single_accuracy&quot;: 0.7791411042944786,</p>
+<p>    &quot;invalid&quot;: 12,</p>
+<p>    &quot;invalid_rate&quot;: 0.024539877300613498,</p>
+<p>    &quot;truncated&quot;: 0,</p>
+<p>    &quot;truncation_rate&quot;: 0.0,</p>
+<p>    &quot;text_letter_conflicts&quot;: 0,</p>
+<p>    &quot;conflict_rate&quot;: 0.0,</p>
+<p>    &quot;valid_wrong_answers&quot;: 157,</p>
+<p>    &quot;errors&quot;: 169,</p>
+<p>    &quot;valid_wrong_share_of_errors&quot;: 0.9289940828402367,</p>
+<p>    &quot;accuracy_if_all_invalid_were_correct&quot;: 0.6789366053169734,</p>
+<p>    &quot;conclusion&quot;: &quot;Most failures are valid parsed wrong answers; format failures cannot account for the large accuracy decline. Text-letter conflicts are not an applicable text-field task for these two strategies; none was recorded.&quot;</p>
+<p>  }</p>
+<p>]</p>
+<p>This check reads saved outputs only; elimination/principle are not rerun or redesigned. Valid wrong answers dominate their errors, while truncation is absent. Formatting alone does not explain their large declines.</p>
+<h2>Decision and recommendation</h2>
+<p>{</p>
+<p>  &quot;category&quot;: 3,</p>
+<p>  &quot;classification&quot;: &quot;Retrieval does not show a useful benefit under this setup.&quot;,</p>
+<p>  &quot;designated&quot;: &quot;R1&quot;,</p>
+<p>  &quot;accuracy_gain_over_R0&quot;: -0.01635991820040905,</p>
+<p>  &quot;accuracy_gain_over_reference&quot;: -0.04498977505112478,</p>
+<p>  &quot;token_saving_fraction_vs_reference&quot;: 0.3283813507373887,</p>
+<p>  &quot;observed_dominance&quot;: false,</p>
+<p>  &quot;accuracy_interval_vs_R0&quot;: {</p>
+<p>    &quot;difference&quot;: -0.016359918200409,</p>
+<p>    &quot;lower&quot;: -0.0429959100204499,</p>
+<p>    &quot;upper&quot;: 0.012269938650306749,</p>
+<p>    &quot;unit&quot;: &quot;paired whole questions&quot;,</p>
+<p>    &quot;scope&quot;: &quot;exploratory reused development questions; fitted search selection held fixed&quot;</p>
+<p>  },</p>
+<p>  &quot;accuracy_interval_vs_reference&quot;: {</p>
+<p>    &quot;difference&quot;: -0.044989775051124746,</p>
+<p>    &quot;lower&quot;: -0.07975460122699386,</p>
+<p>    &quot;upper&quot;: -0.012218813905930749,</p>
+<p>    &quot;unit&quot;: &quot;paired whole questions&quot;,</p>
+<p>    &quot;scope&quot;: &quot;exploratory reused development questions; fitted search selection held fixed&quot;</p>
+<p>  },</p>
+<p>  &quot;thresholds&quot;: {</p>
+<p>    &quot;bootstrap_replicates&quot;: 2000,</p>
+<p>    &quot;bootstrap_seed&quot;: 301041,</p>
+<p>    &quot;review_seed&quot;: 301042,</p>
+<p>    &quot;review_per_category&quot;: 5,</p>
+<p>    &quot;practical_accuracy_gain&quot;: 0.005,</p>
+<p>    &quot;allowed_accuracy_loss_for_potential_cost_tradeoff&quot;: 0.01,</p>
+<p>    &quot;minimum_token_saving_fraction&quot;: 0.15</p>
+<p>  },</p>
+<p>  &quot;limits&quot;: &quot;These descriptive gates were predeclared; they are not equivalence/non-inferiority tests. No new selector, evolutionary method, retriever tuning or reserved evaluation was fitted.&quot;</p>
+<p>}</p>
+<p>Another evolutionary routing experiment is not justified by this pilot alone. Preserve the negative finding and stop automatic retrieval/prompt expansion. If the wrapper itself helps, credit the wrapper; if annotated facts help while retrieval fails, distinguish coverage/precision from ability to use supplied facts. No reserved evaluation or model training is launched.</p>
+<p>The public fact bank, one lexical retriever, one query formulation, one model and reused development data limit generalization. No single observed category proves a unique internal cause. Dataset annotations can be awkward or incomplete. The earlier83.3% used a different pool and must not be directly subtracted from these validation scores.</p>
+<h2>Cost accounting</h2>
+<p>{</p>
+<p>  &quot;actual_retrieval_seconds_once_per_question&quot;: 0.8607286885380745,</p>
+<p>  &quot;cache_generation&quot;: [</p>
+<p>    {</p>
+<p>      &quot;split&quot;: &quot;search&quot;,</p>
+<p>      &quot;condition&quot;: &quot;R0&quot;,</p>
+<p>      &quot;historical_reuse&quot;: false,</p>
+<p>      &quot;calls&quot;: 1500,</p>
+<p>      &quot;input_tokens&quot;: 204273,</p>
+<p>      &quot;output_tokens&quot;: 3017,</p>
+<p>      &quot;generation_seconds&quot;: 221.68633030354977,</p>
+<p>      &quot;invalid&quot;: 11,</p>
+<p>      &quot;truncated&quot;: 0</p>
+<p>    },</p>
+<p>    {</p>
+<p>      &quot;split&quot;: &quot;search&quot;,</p>
+<p>      &quot;condition&quot;: &quot;R1&quot;,</p>
+<p>      &quot;historical_reuse&quot;: false,</p>
+<p>      &quot;calls&quot;: 1500,</p>
+<p>      &quot;input_tokens&quot;: 222537,</p>
+<p>      &quot;output_tokens&quot;: 3020,</p>
+<p>      &quot;generation_seconds&quot;: 221.90962433069944,</p>
+<p>      &quot;invalid&quot;: 8,</p>
+<p>      &quot;truncated&quot;: 2</p>
+<p>    },</p>
+<p>    {</p>
+<p>      &quot;split&quot;: &quot;search&quot;,</p>
+<p>      &quot;condition&quot;: &quot;R3&quot;,</p>
+<p>      &quot;historical_reuse&quot;: false,</p>
+<p>      &quot;calls&quot;: 1500,</p>
+<p>      &quot;input_tokens&quot;: 259943,</p>
+<p>      &quot;output_tokens&quot;: 3025,</p>
+<p>      &quot;generation_seconds&quot;: 222.10496796667576,</p>
+<p>      &quot;invalid&quot;: 9,</p>
+<p>      &quot;truncated&quot;: 3</p>
+<p>    },</p>
+<p>    {</p>
+<p>      &quot;split&quot;: &quot;search&quot;,</p>
+<p>      &quot;condition&quot;: &quot;RU&quot;,</p>
+<p>      &quot;historical_reuse&quot;: false,</p>
+<p>      &quot;calls&quot;: 300,</p>
+<p>      &quot;input_tokens&quot;: 44278,</p>
+<p>      &quot;output_tokens&quot;: 608,</p>
+<p>      &quot;generation_seconds&quot;: 44.60657298564911,</p>
+<p>      &quot;invalid&quot;: 2,</p>
+<p>      &quot;truncated&quot;: 1</p>
+<p>    },</p>
+<p>    {</p>
+<p>      &quot;split&quot;: &quot;search&quot;,</p>
+<p>      &quot;condition&quot;: &quot;bullets&quot;,</p>
+<p>      &quot;historical_reuse&quot;: true,</p>
+<p>      &quot;calls&quot;: 1500,</p>
+<p>      &quot;input_tokens&quot;: 154778,</p>
+<p>      &quot;output_tokens&quot;: 3000,</p>
+<p>      &quot;generation_seconds&quot;: 218.35693880170584,</p>
+<p>      &quot;invalid&quot;: 0,</p>
+<p>      &quot;truncated&quot;: 0</p>
+<p>    },</p>
+<p>    {</p>
+<p>      &quot;split&quot;: &quot;search&quot;,</p>
+<p>      &quot;condition&quot;: &quot;inline&quot;,</p>
+<p>      &quot;historical_reuse&quot;: true,</p>
+<p>      &quot;calls&quot;: 1500,</p>
+<p>      &quot;input_tokens&quot;: 153286,</p>
+<p>      &quot;output_tokens&quot;: 3001,</p>
+<p>      &quot;generation_seconds&quot;: 218.56300305575132,</p>
+<p>      &quot;invalid&quot;: 1,</p>
+<p>      &quot;truncated&quot;: 0</p>
+<p>    },</p>
+<p>    {</p>
+<p>      &quot;split&quot;: &quot;search&quot;,</p>
+<p>      &quot;condition&quot;: &quot;original&quot;,</p>
+<p>      &quot;historical_reuse&quot;: true,</p>
+<p>      &quot;calls&quot;: 1500,</p>
+<p>      &quot;input_tokens&quot;: 148778,</p>
+<p>      &quot;output_tokens&quot;: 3000,</p>
+<p>      &quot;generation_seconds&quot;: 218.7446150481701,</p>
+<p>      &quot;invalid&quot;: 0,</p>
+<p>      &quot;truncated&quot;: 0</p>
+<p>    },</p>
+<p>    {</p>
+<p>      &quot;split&quot;: &quot;search&quot;,</p>
+<p>      &quot;condition&quot;: &quot;rotate1&quot;,</p>
+<p>      &quot;historical_reuse&quot;: true,</p>
+<p>      &quot;calls&quot;: 1500,</p>
+<p>      &quot;input_tokens&quot;: 148775,</p>
+<p>      &quot;output_tokens&quot;: 3000,</p>
+<p>      &quot;generation_seconds&quot;: 218.47923097759485,</p>
+<p>      &quot;invalid&quot;: 0,</p>
+<p>      &quot;truncated&quot;: 0</p>
+<p>    },</p>
+<p>    {</p>
+<p>      &quot;split&quot;: &quot;search&quot;,</p>
+<p>      &quot;condition&quot;: &quot;rotate2&quot;,</p>
+<p>      &quot;historical_reuse&quot;: true,</p>
+<p>      &quot;calls&quot;: 1500,</p>
+<p>      &quot;input_tokens&quot;: 148776,</p>
+<p>      &quot;output_tokens&quot;: 3001,</p>
+<p>      &quot;generation_seconds&quot;: 218.44489718973637,</p>
+<p>      &quot;invalid&quot;: 1,</p>
+<p>      &quot;truncated&quot;: 0</p>
+<p>    },</p>
+<p>    {</p>
+<p>      &quot;split&quot;: &quot;validation&quot;,</p>
+<p>      &quot;condition&quot;: &quot;R0&quot;,</p>
+<p>      &quot;historical_reuse&quot;: false,</p>
+<p>      &quot;calls&quot;: 489,</p>
+<p>      &quot;input_tokens&quot;: 67460,</p>
+<p>      &quot;output_tokens&quot;: 981,</p>
+<p>      &quot;generation_seconds&quot;: 71.86136753857136,</p>
+<p>      &quot;invalid&quot;: 2,</p>
+<p>      &quot;truncated&quot;: 0</p>
+<p>    },</p>
+<p>    {</p>
+<p>      &quot;split&quot;: &quot;validation&quot;,</p>
+<p>      &quot;condition&quot;: &quot;R1&quot;,</p>
+<p>      &quot;historical_reuse&quot;: false,</p>
+<p>      &quot;calls&quot;: 489,</p>
+<p>      &quot;input_tokens&quot;: 73523,</p>
+<p>      &quot;output_tokens&quot;: 981,</p>
+<p>      &quot;generation_seconds&quot;: 71.98470462113619,</p>
+<p>      &quot;invalid&quot;: 2,</p>
+<p>      &quot;truncated&quot;: 0</p>
+<p>    },</p>
+<p>    {</p>
+<p>      &quot;split&quot;: &quot;validation&quot;,</p>
+<p>      &quot;condition&quot;: &quot;R3&quot;,</p>
+<p>      &quot;historical_reuse&quot;: false,</p>
+<p>      &quot;calls&quot;: 489,</p>
+<p>      &quot;input_tokens&quot;: 85819,</p>
+<p>      &quot;output_tokens&quot;: 981,</p>
+<p>      &quot;generation_seconds&quot;: 71.94746868312359,</p>
+<p>      &quot;invalid&quot;: 2,</p>
+<p>      &quot;truncated&quot;: 0</p>
+<p>    },</p>
+<p>    {</p>
+<p>      &quot;split&quot;: &quot;validation&quot;,</p>
+<p>      &quot;condition&quot;: &quot;bullets&quot;,</p>
+<p>      &quot;historical_reuse&quot;: true,</p>
+<p>      &quot;calls&quot;: 489,</p>
+<p>      &quot;input_tokens&quot;: 51326,</p>
+<p>      &quot;output_tokens&quot;: 978,</p>
+<p>      &quot;generation_seconds&quot;: 70.88959915190935,</p>
+<p>      &quot;invalid&quot;: 0,</p>
+<p>      &quot;truncated&quot;: 0</p>
+<p>    },</p>
+<p>    {</p>
+<p>      &quot;split&quot;: &quot;validation&quot;,</p>
+<p>      &quot;condition&quot;: &quot;inline&quot;,</p>
+<p>      &quot;historical_reuse&quot;: true,</p>
+<p>      &quot;calls&quot;: 489,</p>
+<p>      &quot;input_tokens&quot;: 50847,</p>
+<p>      &quot;output_tokens&quot;: 978,</p>
+<p>      &quot;generation_seconds&quot;: 70.7215965166688,</p>
+<p>      &quot;invalid&quot;: 0,</p>
+<p>      &quot;truncated&quot;: 0</p>
+<p>    },</p>
+<p>    {</p>
+<p>      &quot;split&quot;: &quot;validation&quot;,</p>
+<p>      &quot;condition&quot;: &quot;original&quot;,</p>
+<p>      &quot;historical_reuse&quot;: true,</p>
+<p>      &quot;calls&quot;: 489,</p>
+<p>      &quot;input_tokens&quot;: 49370,</p>
+<p>      &quot;output_tokens&quot;: 978,</p>
+<p>      &quot;generation_seconds&quot;: 70.75336060672998,</p>
+<p>      &quot;invalid&quot;: 0,</p>
+<p>      &quot;truncated&quot;: 0</p>
+<p>    },</p>
+<p>    {</p>
+<p>      &quot;split&quot;: &quot;validation&quot;,</p>
+<p>      &quot;condition&quot;: &quot;rotate1&quot;,</p>
+<p>      &quot;historical_reuse&quot;: true,</p>
+<p>      &quot;calls&quot;: 489,</p>
+<p>      &quot;input_tokens&quot;: 49369,</p>
+<p>      &quot;output_tokens&quot;: 978,</p>
+<p>      &quot;generation_seconds&quot;: 70.78636634349823,</p>
+<p>      &quot;invalid&quot;: 0,</p>
+<p>      &quot;truncated&quot;: 0</p>
+<p>    },</p>
+<p>    {</p>
+<p>      &quot;split&quot;: &quot;validation&quot;,</p>
+<p>      &quot;condition&quot;: &quot;rotate2&quot;,</p>
+<p>      &quot;historical_reuse&quot;: true,</p>
+<p>      &quot;calls&quot;: 489,</p>
+<p>      &quot;input_tokens&quot;: 49369,</p>
+<p>      &quot;output_tokens&quot;: 978,</p>
+<p>      &quot;generation_seconds&quot;: 70.79245728999376,</p>
+<p>      &quot;invalid&quot;: 0,</p>
+<p>      &quot;truncated&quot;: 0</p>
+<p>    }</p>
+<p>  ],</p>
+<p>  &quot;new_completed_calls&quot;: 6267,</p>
+<p>  &quot;analysis_wall_seconds&quot;: 29.72673286497593,</p>
+<p>  &quot;analysis_cpu_seconds&quot;: 29.734482049999997</p>
+<p>}</p>
+<p>Actual pilot generation, historical reused inference, once-per-question retrieval, CPU analysis and simulated deployment requests are separate. Smoke calls belong to the main cache. Index/control construction is preparation overhead; saved cached generation times do not establish controlled live deployment latency savings. Attempts and workflow session timings retain interruption overhead. Only COMPLETE.json establishes completion.</p>
+<h2>Verified primary references</h2>
+<p><a href="https://github.com/allenai/OpenBookQA/blob/b51971646e9371a61508d9953fc706645e194a71/scripts/download_and_prepare_data.sh">OpenBookQA official distribution script</a> identifies the public science-fact file. Robertson and Zaragoza, <a href="https://www.staff.city.ac.uk/~sbrp622/papers/foundations_bm25_review.pdf">The Probabilistic Relevance Framework: BM25 and Beyond</a>,2009, supplies the lexical-retrieval foundation. <a href="https://aclanthology.org/2023.emnlp-main.495/">FLARE / Active Retrieval Augmented Generation</a>,Jiang et al.,2023, and <a href="https://aclanthology.org/2024.naacl-long.389/">Adaptive-RAG</a>,Jeong et al.,2024, establish prior work on deciding when/how to retrieve. Neither basic retrieval nor adaptive retrieval is claimed novel here.</p>
+</body></html>

@@ -1,0 +1,261 @@
+{
+  "passed": true,
+  "reserve_questions": 1000,
+  "checks": [
+    {
+      "type": "unchanged_historical_cache_inventory",
+      "path": "/home/hli/dsai/adaptive_format_ensemble/followup_active_utility/runs/main/responses.sqlite",
+      "sha256": "babc6e7b872f923324dd0fa42521588e24c7f2ece06a50991ce13d8de0ef6610",
+      "rows_previously_inventoried": 10005
+    },
+    {
+      "type": "unchanged_historical_cache_inventory",
+      "path": "/home/hli/dsai/adaptive_format_ensemble/followup_active_utility/runs/preflight/end_to_end/responses.sqlite",
+      "sha256": "a8c766c793b181784e7cace27ed86b93ca14ca02a64422ecf0d5ccc537a9f1ba",
+      "rows_previously_inventoried": 100
+    },
+    {
+      "type": "unchanged_historical_cache_inventory",
+      "path": "/home/hli/dsai/adaptive_format_ensemble/followup_active_utility/runs/preflight/end_to_end_initial/responses.sqlite",
+      "sha256": "a8c766c793b181784e7cace27ed86b93ca14ca02a64422ecf0d5ccc537a9f1ba",
+      "rows_previously_inventoried": 100
+    },
+    {
+      "type": "unchanged_historical_cache_inventory",
+      "path": "/home/hli/dsai/adaptive_format_ensemble/followup_active_utility/runs/preflight/fresh_smoke.sqlite",
+      "sha256": "7d0c4411ab4f030a07a7ba126c9e9fc166cfa8f7c95526385bae2c5857c1f061",
+      "rows_previously_inventoried": 10
+    },
+    {
+      "type": "unchanged_historical_cache_inventory",
+      "path": "/home/hli/dsai/adaptive_format_ensemble/followup_active_utility/runs/preflight/reused.sqlite",
+      "sha256": "3fbee1026f1b64812cb74ac941cf187edabe286b9fbd2a56400dccedb8de72b1",
+      "rows_previously_inventoried": 5005
+    },
+    {
+      "type": "unchanged_historical_cache_inventory",
+      "path": "/home/hli/dsai/adaptive_format_ensemble/runs/main/responses.sqlite",
+      "sha256": "33c454a6f0ba429a0f4275f9026d56e71ee1283cec039dff43cb9e65a755a548",
+      "rows_previously_inventoried": 7755
+    },
+    {
+      "type": "unchanged_historical_cache_inventory",
+      "path": "/home/hli/dsai/adaptive_format_ensemble/runs/preflight/smoke.sqlite",
+      "sha256": "da34f0123aa01061b1a97bc89ed4bb996ab59f34b54a6764e8a3ab6bbcb3eb6c",
+      "rows_previously_inventoried": 320
+    },
+    {
+      "type": "unchanged_historical_cache_inventory",
+      "path": "/home/hli/dsai/adaptive_format_ensemble/runs/preflight_batch16/smoke.sqlite",
+      "sha256": "3dd8aacee8ade89dc51d96b6c117cb24c8491e94fcd17d7de7ede61080071044",
+      "rows_previously_inventoried": 320
+    },
+    {
+      "type": "unchanged_historical_cache_inventory",
+      "path": "/home/hli/dsai/old_idea/runs/main/records.sqlite",
+      "sha256": "1877c3c5c9f1ecd9f7f412a0729b08816f37b227ea939f0303a391aa7c8a5d75",
+      "rows_previously_inventoried": 301953
+    },
+    {
+      "type": "unchanged_historical_cache_inventory",
+      "path": "/home/hli/dsai/old_idea/runs/main_proposer_v1_failed_20261028/records.sqlite",
+      "sha256": "305cd523753a45d29bf5dd3b33e21d84fd138eb7337d2e194c9e0d8e0a7eccc2",
+      "rows_previously_inventoried": 8280
+    },
+    {
+      "type": "unchanged_historical_cache_inventory",
+      "path": "/home/hli/dsai/old_idea/runs/proposer_recovery_v2/records.sqlite",
+      "sha256": "0cca61a579678b613da62a6e90452c0a355a96b061e03fa8d97642ba0b651834",
+      "rows_previously_inventoried": 0
+    },
+    {
+      "type": "unchanged_historical_cache_inventory",
+      "path": "/home/hli/dsai/old_idea/runs/smoke/records.sqlite",
+      "sha256": "538ff0661bb70a2bf77f839b5b0fc49f86143d51a493d19461acccc794903e52",
+      "rows_previously_inventoried": 312
+    },
+    {
+      "type": "unchanged_historical_cache_inventory",
+      "path": "/home/hli/dsai/old_idea/runs/smoke-plain-unfiltered/records.sqlite",
+      "sha256": "a798c85499025af87ff87d9dc161fff48a182c9163a2ab35eebc5354d04fd611",
+      "rows_previously_inventoried": 312
+    },
+    {
+      "type": "unchanged_historical_cache_inventory",
+      "path": "/home/hli/dsai/old_idea/runs/smoke-proposer-tags-failed/records.sqlite",
+      "sha256": "b7362afe55cacc3f651794def7bf792ac0d3ab5e1cbf7993da678fc9c402f0de",
+      "rows_previously_inventoried": 12
+    },
+    {
+      "type": "unchanged_historical_cache_inventory",
+      "path": "/home/hli/dsai/old_idea/runs/smoke_proposer_v1/records.sqlite",
+      "sha256": "dfb5bc038ab2ce0723ed47d03b69f883d8e6c778a57137f7a398693764005b8c",
+      "rows_previously_inventoried": 312
+    },
+    {
+      "type": "used_split",
+      "path": "/home/hli/dsai/old_idea/data/pilot.json",
+      "sha256": "3541fb406a8f9951b6924c57f57997aac7d90f7c70432d6a03d6148aa1a7f78a",
+      "questions": 100,
+      "reserve_overlap": 0
+    },
+    {
+      "type": "used_split",
+      "path": "/home/hli/dsai/old_idea/data/search.json",
+      "sha256": "7d42a8f02ee5866a9a6d1d8a604fca4b48a22a1f75a6a72748d570040597f3cb",
+      "questions": 128,
+      "reserve_overlap": 0
+    },
+    {
+      "type": "used_split",
+      "path": "/home/hli/dsai/old_idea/data/validation.json",
+      "sha256": "51f9d0b2a1fff47f8f949e8998e996c7dddd7eddcbbab5aafe11f631a2c5dd31",
+      "questions": 100,
+      "reserve_overlap": 0
+    },
+    {
+      "type": "used_split",
+      "path": "/home/hli/dsai/old_idea/data/test.json",
+      "sha256": "23477a5f77742b7570e0204f0299872a0ae37724722e71edd31b41fdb1075df4",
+      "questions": 1109,
+      "reserve_overlap": 0
+    },
+    {
+      "type": "used_split",
+      "path": "/home/hli/dsai/adaptive_format_ensemble/data/development.json",
+      "sha256": "264d149a6ef0f2bf35654969d2b6f2a3f275d8b8635ad94975ac928b2b3702bc",
+      "questions": 64,
+      "reserve_overlap": 0
+    },
+    {
+      "type": "used_split",
+      "path": "/home/hli/dsai/adaptive_format_ensemble/data/search.json",
+      "sha256": "975febf6edc978962974a67c61e3acbd5baae21160ee865ae85f6fba5eb7bcf6",
+      "questions": 512,
+      "reserve_overlap": 0
+    },
+    {
+      "type": "used_split",
+      "path": "/home/hli/dsai/adaptive_format_ensemble/data/validation.json",
+      "sha256": "0ac85070d5bf244fc3fe69320b4641bf58b11f566074f9e80f2d695c97d632d0",
+      "questions": 489,
+      "reserve_overlap": 0
+    },
+    {
+      "type": "used_split",
+      "path": "/home/hli/dsai/adaptive_format_ensemble/data/test.json",
+      "sha256": "7da71aecb4f144c9f58c291732f182ebad9abf43cc47ce1444793785b001fb62",
+      "questions": 486,
+      "reserve_overlap": 0
+    },
+    {
+      "type": "used_split",
+      "path": "/home/hli/dsai/adaptive_format_ensemble/followup_active_utility/data/search.json",
+      "sha256": "975febf6edc978962974a67c61e3acbd5baae21160ee865ae85f6fba5eb7bcf6",
+      "questions": 512,
+      "reserve_overlap": 0
+    },
+    {
+      "type": "used_split",
+      "path": "/home/hli/dsai/adaptive_format_ensemble/followup_active_utility/data/validation.json",
+      "sha256": "0ac85070d5bf244fc3fe69320b4641bf58b11f566074f9e80f2d695c97d632d0",
+      "questions": 489,
+      "reserve_overlap": 0
+    },
+    {
+      "type": "used_split",
+      "path": "/home/hli/dsai/adaptive_format_ensemble/followup_active_utility/data/test.json",
+      "sha256": "8e2c7f4d3d183ac73e5f039b38902f8aeacf527a50683150a64749ef372f394b",
+      "questions": 1000,
+      "reserve_overlap": 0
+    },
+    {
+      "type": "used_split",
+      "path": "/home/hli/dsai/adaptive_format_ensemble/capability_diagnostic/data/initial_search.json",
+      "sha256": "975febf6edc978962974a67c61e3acbd5baae21160ee865ae85f6fba5eb7bcf6",
+      "questions": 512,
+      "reserve_overlap": 0
+    },
+    {
+      "type": "used_split",
+      "path": "/home/hli/dsai/adaptive_format_ensemble/capability_diagnostic/data/added.json",
+      "sha256": "566b147d160d2ece05bd3d24972343a75817cac1e753bcda4314558b4b05844f",
+      "questions": 988,
+      "reserve_overlap": 0
+    },
+    {
+      "type": "used_split",
+      "path": "/home/hli/dsai/adaptive_format_ensemble/capability_diagnostic/data/search.json",
+      "sha256": "6e1ad3232626dddca162161679b4913be91e45d39439341632b501b89513de4d",
+      "questions": 1500,
+      "reserve_overlap": 0
+    },
+    {
+      "type": "used_split",
+      "path": "/home/hli/dsai/adaptive_format_ensemble/capability_diagnostic/data/validation.json",
+      "sha256": "0ac85070d5bf244fc3fe69320b4641bf58b11f566074f9e80f2d695c97d632d0",
+      "questions": 489,
+      "reserve_overlap": 0
+    },
+    {
+      "type": "used_split",
+      "path": "/home/hli/dsai/adaptive_format_ensemble/retrieval_pilot/data/search.json",
+      "sha256": "6e1ad3232626dddca162161679b4913be91e45d39439341632b501b89513de4d",
+      "questions": 1500,
+      "reserve_overlap": 0
+    },
+    {
+      "type": "used_split",
+      "path": "/home/hli/dsai/adaptive_format_ensemble/retrieval_pilot/data/validation.json",
+      "sha256": "0ac85070d5bf244fc3fe69320b4641bf58b11f566074f9e80f2d695c97d632d0",
+      "questions": 489,
+      "reserve_overlap": 0
+    },
+    {
+      "type": "later_cache_metadata",
+      "path": "/home/hli/dsai/adaptive_format_ensemble/capability_diagnostic/runs/main/responses.sqlite",
+      "distinct_question_records": 3978,
+      "reserve_overlap": 0,
+      "sha256": "836c903e5057caf2274c0da2f0b26a4d4a9692be4d4ba561e0a712e06e05ecd1"
+    },
+    {
+      "type": "later_cache_metadata",
+      "path": "/home/hli/dsai/adaptive_format_ensemble/retrieval_pilot/runs/main/responses.sqlite",
+      "distinct_question_records": 3978,
+      "reserve_overlap": 0,
+      "sha256": "2c95c4254f5ab1a49afb4fc367ebc174d134d23bb3f8b1478061609ba91afa55"
+    },
+    {
+      "type": "recorded_frozen_policy_prediction_ids",
+      "path": "/home/hli/dsai/adaptive_format_ensemble/followup_active_utility/runs/main/predictions.json",
+      "question_id_entries": 96000,
+      "reserve_overlap": 0
+    },
+    {
+      "type": "recorded_frozen_policy_prediction_ids",
+      "path": "/home/hli/dsai/adaptive_format_ensemble/runs/main/predictions.json",
+      "question_id_entries": 23328,
+      "reserve_overlap": 0
+    },
+    {
+      "type": "diagnostic_scoring_or_retrieval_ids",
+      "path": "/home/hli/dsai/adaptive_format_ensemble/capability_diagnostic/runs/main/analysis/per_question.jsonl",
+      "question_ids": 1989,
+      "reserve_overlap": 0
+    },
+    {
+      "type": "diagnostic_scoring_or_retrieval_ids",
+      "path": "/home/hli/dsai/adaptive_format_ensemble/retrieval_pilot/data/rankings.json",
+      "question_ids": 1989,
+      "reserve_overlap": 0
+    },
+    {
+      "type": "diagnostic_scoring_or_retrieval_ids",
+      "path": "/home/hli/dsai/adaptive_format_ensemble/retrieval_pilot/runs/main/analysis/per_question.jsonl",
+      "question_ids": 1989,
+      "reserve_overlap": 0
+    }
+  ],
+  "historical_inventory_sha256": "9369e3a4c2ff9799e83d1d49627905fe510f1dc21ec3d97dc4dcce2f9f9ffde6",
+  "scope": "All known project split, query and scoring sources. Historical301953-response integrity audit is reused via unchanged inventory hashes; not rerun. No inference/outcome-based policy analysis found on reserve. Unknown off-workspace work and pretraining exposure cannot be certified."
+}

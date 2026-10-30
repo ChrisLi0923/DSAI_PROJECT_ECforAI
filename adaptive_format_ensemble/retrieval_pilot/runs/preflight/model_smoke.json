@@ -1,0 +1,1276 @@
+{
+  "passed": true,
+  "calls": 12,
+  "new_calls_this_invocation": 12,
+  "extra_verification_calls": 0,
+  "all_calls_reused_by_main": true,
+  "wall_seconds": 2.466016501188278,
+  "inference_seconds": 2.0365734100341797,
+  "input_tokens": 1806,
+  "output_tokens": 24,
+  "responses": [
+    {
+      "raw": "C",
+      "raw_with_special_tokens": "C<|im_end|>",
+      "output_token_ids": [
+        34,
+        151645
+      ],
+      "input_tokens": 131,
+      "output_tokens": 2,
+      "seconds": 0.4282887727022171,
+      "padded_input_tokens": 131,
+      "finish_reason": "eos",
+      "letter": "C",
+      "identity": 2,
+      "valid": true,
+      "key": "2d75e3488fba779044331439ad48c7fe7bb55f5ad413224c473ffc7766b12f5d",
+      "qid": "obqa/train/12-579",
+      "condition": "R0",
+      "split": "search",
+      "mapping": {
+        "A": 0,
+        "B": 1,
+        "C": 2,
+        "D": 3
+      },
+      "request_identity": {
+        "schema": "retrieval-pilot-1",
+        "model": {
+          "name": "Qwen/Qwen2.5-3B-Instruct",
+          "revision": "aa8e72537993ba99e69dfaafa59ed015b17504d1",
+          "batch_size": 1,
+          "target_max_tokens": 8,
+          "proposer_max_tokens": 160,
+          "max_input_tokens": 1536,
+          "min_free_gib": 18,
+          "memory_fraction": 0.4
+        },
+        "tokenizer_revision": "aa8e72537993ba99e69dfaafa59ed015b17504d1",
+        "instruction_hash": "215562ac8225ef4263071f5f8f4227a393dfc5be540f3b90d6fbb0b282462938",
+        "messages": [
+          {
+            "role": "system",
+            "content": "Solve the science multiple-choice question carefully. Choose the single best answer based on its content, regardless of layout or option order.\nReference facts may be irrelevant or incomplete. Use them only when applicable; the question may also be answered without them.\nReturn exactly one uppercase displayed option letter (A, B, C, or D). Do not add any other text."
+          },
+          {
+            "role": "user",
+            "content": "Something is coming out of clouds on a dark day, so it is likely\nA. birds\nB. dust\nC. precipitation\nD. angels\n\nReference facts:\n<reference_facts>\n\n</reference_facts>"
+          }
+        ],
+        "question": {
+          "id": "obqa/train/12-579",
+          "source": "train",
+          "question": "Something is coming out of clouds on a dark day, so it is likely",
+          "options": [
+            "birds",
+            "dust",
+            "precipitation",
+            "angels"
+          ]
+        },
+        "rendered_input": "Something is coming out of clouds on a dark day, so it is likely\nA. birds\nB. dust\nC. precipitation\nD. angels\n\nReference facts:\n<reference_facts>\n\n</reference_facts>",
+        "format": "original",
+        "permutation": {
+          "A": 0,
+          "B": 1,
+          "C": 2,
+          "D": 3
+        },
+        "evidence_document_ids": [],
+        "corpus_hash": "5da31911378790b335c89149a5f7cf7fb09a235bf833739d104ab77e97a81443",
+        "retriever": {
+          "algorithm": "BM25",
+          "k1": 1.5,
+          "b": 0.75,
+          "top_k": 3,
+          "idf": "log(1 + (N - df + 0.5)/(df + 0.5))",
+          "query_tf": "linear count",
+          "tokenizer": "Unicode NFKC and casefold; words with internal apostrophes; no stopword removal or stemming",
+          "query": "question stem plus all option texts sorted by normalized text; no added displayed letters",
+          "ties": "ascending stable document ID"
+        },
+        "decoding": {
+          "do_sample": false,
+          "seed": 0,
+          "max_new_tokens": 8,
+          "batch_size": 1,
+          "dtype": "bfloat16",
+          "attention": "sdpa",
+          "deterministic": true,
+          "padding_side": "left",
+          "chat_template_revision": "aa8e72537993ba99e69dfaafa59ed015b17504d1"
+        }
+      },
+      "evidence_document_ids": [],
+      "parse_status": "valid",
+      "truncated": false,
+      "created_unix": 1793343965.8754394,
+      "max_new_tokens": 8,
+      "raw_sha256": "6b23c0d5f35d1b11f9b683f0b0a617355deb11277d91ae091d399c655b87940d"
+    },
+    {
+      "raw": "C",
+      "raw_with_special_tokens": "C<|im_end|>",
+      "output_token_ids": [
+        34,
+        151645
+      ],
+      "input_tokens": 140,
+      "output_tokens": 2,
+      "seconds": 0.14603875577449799,
+      "padded_input_tokens": 140,
+      "finish_reason": "eos",
+      "letter": "C",
+      "identity": 2,
+      "valid": true,
+      "key": "409bcf10863604f6db4cc1c893e786d42b11289f1a117668a546c0d21ceaeca4",
+      "qid": "obqa/train/12-579",
+      "condition": "R1",
+      "split": "search",
+      "mapping": {
+        "A": 0,
+        "B": 1,
+        "C": 2,
+        "D": 3
+      },
+      "request_identity": {
+        "schema": "retrieval-pilot-1",
+        "model": {
+          "name": "Qwen/Qwen2.5-3B-Instruct",
+          "revision": "aa8e72537993ba99e69dfaafa59ed015b17504d1",
+          "batch_size": 1,
+          "target_max_tokens": 8,
+          "proposer_max_tokens": 160,
+          "max_input_tokens": 1536,
+          "min_free_gib": 18,
+          "memory_fraction": 0.4
+        },
+        "tokenizer_revision": "aa8e72537993ba99e69dfaafa59ed015b17504d1",
+        "instruction_hash": "215562ac8225ef4263071f5f8f4227a393dfc5be540f3b90d6fbb0b282462938",
+        "messages": [
+          {
+            "role": "system",
+            "content": "Solve the science multiple-choice question carefully. Choose the single best answer based on its content, regardless of layout or option order.\nReference facts may be irrelevant or incomplete. Use them only when applicable; the question may also be answered without them.\nReturn exactly one uppercase displayed option letter (A, B, C, or D). Do not add any other text."
+          },
+          {
+            "role": "user",
+            "content": "Something is coming out of clouds on a dark day, so it is likely\nA. birds\nB. dust\nC. precipitation\nD. angels\n\nReference facts:\n<reference_facts>\n- grey clouds are a source of precipitation\n</reference_facts>"
+          }
+        ],
+        "question": {
+          "id": "obqa/train/12-579",
+          "source": "train",
+          "question": "Something is coming out of clouds on a dark day, so it is likely",
+          "options": [
+            "birds",
+            "dust",
+            "precipitation",
+            "angels"
+          ]
+        },
+        "rendered_input": "Something is coming out of clouds on a dark day, so it is likely\nA. birds\nB. dust\nC. precipitation\nD. angels\n\nReference facts:\n<reference_facts>\n- grey clouds are a source of precipitation\n</reference_facts>",
+        "format": "original",
+        "permutation": {
+          "A": 0,
+          "B": 1,
+          "C": 2,
+          "D": 3
+        },
+        "evidence_document_ids": [
+          "obqa-fact-d0a5636043ca83c03ade"
+        ],
+        "corpus_hash": "5da31911378790b335c89149a5f7cf7fb09a235bf833739d104ab77e97a81443",
+        "retriever": {
+          "algorithm": "BM25",
+          "k1": 1.5,
+          "b": 0.75,
+          "top_k": 3,
+          "idf": "log(1 + (N - df + 0.5)/(df + 0.5))",
+          "query_tf": "linear count",
+          "tokenizer": "Unicode NFKC and casefold; words with internal apostrophes; no stopword removal or stemming",
+          "query": "question stem plus all option texts sorted by normalized text; no added displayed letters",
+          "ties": "ascending stable document ID"
+        },
+        "decoding": {
+          "do_sample": false,
+          "seed": 0,
+          "max_new_tokens": 8,
+          "batch_size": 1,
+          "dtype": "bfloat16",
+          "attention": "sdpa",
+          "deterministic": true,
+          "padding_side": "left",
+          "chat_template_revision": "aa8e72537993ba99e69dfaafa59ed015b17504d1"
+        }
+      },
+      "evidence_document_ids": [
+        "obqa-fact-d0a5636043ca83c03ade"
+      ],
+      "parse_status": "valid",
+      "truncated": false,
+      "created_unix": 1793343966.057833,
+      "max_new_tokens": 8,
+      "raw_sha256": "6b23c0d5f35d1b11f9b683f0b0a617355deb11277d91ae091d399c655b87940d"
+    },
+    {
+      "raw": "C",
+      "raw_with_special_tokens": "C<|im_end|>",
+      "output_token_ids": [
+        34,
+        151645
+      ],
+      "input_tokens": 159,
+      "output_tokens": 2,
+      "seconds": 0.14701098948717117,
+      "padded_input_tokens": 159,
+      "finish_reason": "eos",
+      "letter": "C",
+      "identity": 2,
+      "valid": true,
+      "key": "5ffbcebc01c5bcea90f8d2e3b9efbf573271bfe44c7f403b0ad353b39122d57b",
+      "qid": "obqa/train/12-579",
+      "condition": "R3",
+      "split": "search",
+      "mapping": {
+        "A": 0,
+        "B": 1,
+        "C": 2,
+        "D": 3
+      },
+      "request_identity": {
+        "schema": "retrieval-pilot-1",
+        "model": {
+          "name": "Qwen/Qwen2.5-3B-Instruct",
+          "revision": "aa8e72537993ba99e69dfaafa59ed015b17504d1",
+          "batch_size": 1,
+          "target_max_tokens": 8,
+          "proposer_max_tokens": 160,
+          "max_input_tokens": 1536,
+          "min_free_gib": 18,
+          "memory_fraction": 0.4
+        },
+        "tokenizer_revision": "aa8e72537993ba99e69dfaafa59ed015b17504d1",
+        "instruction_hash": "215562ac8225ef4263071f5f8f4227a393dfc5be540f3b90d6fbb0b282462938",
+        "messages": [
+          {
+            "role": "system",
+            "content": "Solve the science multiple-choice question carefully. Choose the single best answer based on its content, regardless of layout or option order.\nReference facts may be irrelevant or incomplete. Use them only when applicable; the question may also be answered without them.\nReturn exactly one uppercase displayed option letter (A, B, C, or D). Do not add any other text."
+          },
+          {
+            "role": "user",
+            "content": "Something is coming out of clouds on a dark day, so it is likely\nA. birds\nB. dust\nC. precipitation\nD. angels\n\nReference facts:\n<reference_facts>\n- grey clouds are a source of precipitation\n- grey clouds appear before precipitation\n- precipitation is when snow fall from clouds to the Earth\n</reference_facts>"
+          }
+        ],
+        "question": {
+          "id": "obqa/train/12-579",
+          "source": "train",
+          "question": "Something is coming out of clouds on a dark day, so it is likely",
+          "options": [
+            "birds",
+            "dust",
+            "precipitation",
+            "angels"
+          ]
+        },
+        "rendered_input": "Something is coming out of clouds on a dark day, so it is likely\nA. birds\nB. dust\nC. precipitation\nD. angels\n\nReference facts:\n<reference_facts>\n- grey clouds are a source of precipitation\n- grey clouds appear before precipitation\n- precipitation is when snow fall from clouds to the Earth\n</reference_facts>",
+        "format": "original",
+        "permutation": {
+          "A": 0,
+          "B": 1,
+          "C": 2,
+          "D": 3
+        },
+        "evidence_document_ids": [
+          "obqa-fact-d0a5636043ca83c03ade",
+          "obqa-fact-50bdf5f24dd6f76e3958",
+          "obqa-fact-047a7814009687d62723"
+        ],
+        "corpus_hash": "5da31911378790b335c89149a5f7cf7fb09a235bf833739d104ab77e97a81443",
+        "retriever": {
+          "algorithm": "BM25",
+          "k1": 1.5,
+          "b": 0.75,
+          "top_k": 3,
+          "idf": "log(1 + (N - df + 0.5)/(df + 0.5))",
+          "query_tf": "linear count",
+          "tokenizer": "Unicode NFKC and casefold; words with internal apostrophes; no stopword removal or stemming",
+          "query": "question stem plus all option texts sorted by normalized text; no added displayed letters",
+          "ties": "ascending stable document ID"
+        },
+        "decoding": {
+          "do_sample": false,
+          "seed": 0,
+          "max_new_tokens": 8,
+          "batch_size": 1,
+          "dtype": "bfloat16",
+          "attention": "sdpa",
+          "deterministic": true,
+          "padding_side": "left",
+          "chat_template_revision": "aa8e72537993ba99e69dfaafa59ed015b17504d1"
+        }
+      },
+      "evidence_document_ids": [
+        "obqa-fact-d0a5636043ca83c03ade",
+        "obqa-fact-50bdf5f24dd6f76e3958",
+        "obqa-fact-047a7814009687d62723"
+      ],
+      "parse_status": "valid",
+      "truncated": false,
+      "created_unix": 1793343966.241077,
+      "max_new_tokens": 8,
+      "raw_sha256": "6b23c0d5f35d1b11f9b683f0b0a617355deb11277d91ae091d399c655b87940d"
+    },
+    {
+      "raw": "B",
+      "raw_with_special_tokens": "B<|im_end|>",
+      "output_token_ids": [
+        33,
+        151645
+      ],
+      "input_tokens": 133,
+      "output_tokens": 2,
+      "seconds": 0.14614685624837875,
+      "padded_input_tokens": 133,
+      "finish_reason": "eos",
+      "letter": "B",
+      "identity": 1,
+      "valid": true,
+      "key": "8140bc852b6a2702000751fccc9ac31991cfcf96660017bfc39f98f7cd110f16",
+      "qid": "obqa/train/10-119",
+      "condition": "R0",
+      "split": "search",
+      "mapping": {
+        "A": 0,
+        "B": 1,
+        "C": 2,
+        "D": 3
+      },
+      "request_identity": {
+        "schema": "retrieval-pilot-1",
+        "model": {
+          "name": "Qwen/Qwen2.5-3B-Instruct",
+          "revision": "aa8e72537993ba99e69dfaafa59ed015b17504d1",
+          "batch_size": 1,
+          "target_max_tokens": 8,
+          "proposer_max_tokens": 160,
+          "max_input_tokens": 1536,
+          "min_free_gib": 18,
+          "memory_fraction": 0.4
+        },
+        "tokenizer_revision": "aa8e72537993ba99e69dfaafa59ed015b17504d1",
+        "instruction_hash": "215562ac8225ef4263071f5f8f4227a393dfc5be540f3b90d6fbb0b282462938",
+        "messages": [
+          {
+            "role": "system",
+            "content": "Solve the science multiple-choice question carefully. Choose the single best answer based on its content, regardless of layout or option order.\nReference facts may be irrelevant or incomplete. Use them only when applicable; the question may also be answered without them.\nReturn exactly one uppercase displayed option letter (A, B, C, or D). Do not add any other text."
+          },
+          {
+            "role": "user",
+            "content": "A cat finds it easiest to get a grip when climbing up\nA. plastic pole\nB. carpeted pole\nC. icy pole\nD. metal pole\n\nReference facts:\n<reference_facts>\n\n</reference_facts>"
+          }
+        ],
+        "question": {
+          "id": "obqa/train/10-119",
+          "source": "train",
+          "question": "A cat finds it easiest to get a grip when climbing up",
+          "options": [
+            "plastic pole",
+            "carpeted pole",
+            "icy pole",
+            "metal pole"
+          ]
+        },
+        "rendered_input": "A cat finds it easiest to get a grip when climbing up\nA. plastic pole\nB. carpeted pole\nC. icy pole\nD. metal pole\n\nReference facts:\n<reference_facts>\n\n</reference_facts>",
+        "format": "original",
+        "permutation": {
+          "A": 0,
+          "B": 1,
+          "C": 2,
+          "D": 3
+        },
+        "evidence_document_ids": [],
+        "corpus_hash": "5da31911378790b335c89149a5f7cf7fb09a235bf833739d104ab77e97a81443",
+        "retriever": {
+          "algorithm": "BM25",
+          "k1": 1.5,
+          "b": 0.75,
+          "top_k": 3,
+          "idf": "log(1 + (N - df + 0.5)/(df + 0.5))",
+          "query_tf": "linear count",
+          "tokenizer": "Unicode NFKC and casefold; words with internal apostrophes; no stopword removal or stemming",
+          "query": "question stem plus all option texts sorted by normalized text; no added displayed letters",
+          "ties": "ascending stable document ID"
+        },
+        "decoding": {
+          "do_sample": false,
+          "seed": 0,
+          "max_new_tokens": 8,
+          "batch_size": 1,
+          "dtype": "bfloat16",
+          "attention": "sdpa",
+          "deterministic": true,
+          "padding_side": "left",
+          "chat_template_revision": "aa8e72537993ba99e69dfaafa59ed015b17504d1"
+        }
+      },
+      "evidence_document_ids": [],
+      "parse_status": "valid",
+      "truncated": false,
+      "created_unix": 1793343966.4153981,
+      "max_new_tokens": 8,
+      "raw_sha256": "df7e70e5021544f4834bbee64a9e3789febc4be81470df629cad6ddb03320a5c"
+    },
+    {
+      "raw": "B",
+      "raw_with_special_tokens": "B<|im_end|>",
+      "output_token_ids": [
+        33,
+        151645
+      ],
+      "input_tokens": 153,
+      "output_tokens": 2,
+      "seconds": 0.14683864265680313,
+      "padded_input_tokens": 153,
+      "finish_reason": "eos",
+      "letter": "B",
+      "identity": 1,
+      "valid": true,
+      "key": "526613e8059f4facfd2949d997199c502b0a82925fac2c5efc492c4bf5c7f346",
+      "qid": "obqa/train/10-119",
+      "condition": "R1",
+      "split": "search",
+      "mapping": {
+        "A": 0,
+        "B": 1,
+        "C": 2,
+        "D": 3
+      },
+      "request_identity": {
+        "schema": "retrieval-pilot-1",
+        "model": {
+          "name": "Qwen/Qwen2.5-3B-Instruct",
+          "revision": "aa8e72537993ba99e69dfaafa59ed015b17504d1",
+          "batch_size": 1,
+          "target_max_tokens": 8,
+          "proposer_max_tokens": 160,
+          "max_input_tokens": 1536,
+          "min_free_gib": 18,
+          "memory_fraction": 0.4
+        },
+        "tokenizer_revision": "aa8e72537993ba99e69dfaafa59ed015b17504d1",
+        "instruction_hash": "215562ac8225ef4263071f5f8f4227a393dfc5be540f3b90d6fbb0b282462938",
+        "messages": [
+          {
+            "role": "system",
+            "content": "Solve the science multiple-choice question carefully. Choose the single best answer based on its content, regardless of layout or option order.\nReference facts may be irrelevant or incomplete. Use them only when applicable; the question may also be answered without them.\nReturn exactly one uppercase displayed option letter (A, B, C, or D). Do not add any other text."
+          },
+          {
+            "role": "user",
+            "content": "A cat finds it easiest to get a grip when climbing up\nA. plastic pole\nB. carpeted pole\nC. icy pole\nD. metal pole\n\nReference facts:\n<reference_facts>\n- winter in a hemisphere occurs when the Pole located in that hemisphere is tilted away from the Sun\n</reference_facts>"
+          }
+        ],
+        "question": {
+          "id": "obqa/train/10-119",
+          "source": "train",
+          "question": "A cat finds it easiest to get a grip when climbing up",
+          "options": [
+            "plastic pole",
+            "carpeted pole",
+            "icy pole",
+            "metal pole"
+          ]
+        },
+        "rendered_input": "A cat finds it easiest to get a grip when climbing up\nA. plastic pole\nB. carpeted pole\nC. icy pole\nD. metal pole\n\nReference facts:\n<reference_facts>\n- winter in a hemisphere occurs when the Pole located in that hemisphere is tilted away from the Sun\n</reference_facts>",
+        "format": "original",
+        "permutation": {
+          "A": 0,
+          "B": 1,
+          "C": 2,
+          "D": 3
+        },
+        "evidence_document_ids": [
+          "obqa-fact-4deedca46bc3d1ec566a"
+        ],
+        "corpus_hash": "5da31911378790b335c89149a5f7cf7fb09a235bf833739d104ab77e97a81443",
+        "retriever": {
+          "algorithm": "BM25",
+          "k1": 1.5,
+          "b": 0.75,
+          "top_k": 3,
+          "idf": "log(1 + (N - df + 0.5)/(df + 0.5))",
+          "query_tf": "linear count",
+          "tokenizer": "Unicode NFKC and casefold; words with internal apostrophes; no stopword removal or stemming",
+          "query": "question stem plus all option texts sorted by normalized text; no added displayed letters",
+          "ties": "ascending stable document ID"
+        },
+        "decoding": {
+          "do_sample": false,
+          "seed": 0,
+          "max_new_tokens": 8,
+          "batch_size": 1,
+          "dtype": "bfloat16",
+          "attention": "sdpa",
+          "deterministic": true,
+          "padding_side": "left",
+          "chat_template_revision": "aa8e72537993ba99e69dfaafa59ed015b17504d1"
+        }
+      },
+      "evidence_document_ids": [
+        "obqa-fact-4deedca46bc3d1ec566a"
+      ],
+      "parse_status": "valid",
+      "truncated": false,
+      "created_unix": 1793343966.590143,
+      "max_new_tokens": 8,
+      "raw_sha256": "df7e70e5021544f4834bbee64a9e3789febc4be81470df629cad6ddb03320a5c"
+    },
+    {
+      "raw": "B",
+      "raw_with_special_tokens": "B<|im_end|>",
+      "output_token_ids": [
+        33,
+        151645
+      ],
+      "input_tokens": 191,
+      "output_tokens": 2,
+      "seconds": 0.14650309085845947,
+      "padded_input_tokens": 191,
+      "finish_reason": "eos",
+      "letter": "B",
+      "identity": 1,
+      "valid": true,
+      "key": "d19e19b923c2de7cc0bf5d0f803312ab2808c547dc561209444d509680eb2a03",
+      "qid": "obqa/train/10-119",
+      "condition": "R3",
+      "split": "search",
+      "mapping": {
+        "A": 0,
+        "B": 1,
+        "C": 2,
+        "D": 3
+      },
+      "request_identity": {
+        "schema": "retrieval-pilot-1",
+        "model": {
+          "name": "Qwen/Qwen2.5-3B-Instruct",
+          "revision": "aa8e72537993ba99e69dfaafa59ed015b17504d1",
+          "batch_size": 1,
+          "target_max_tokens": 8,
+          "proposer_max_tokens": 160,
+          "max_input_tokens": 1536,
+          "min_free_gib": 18,
+          "memory_fraction": 0.4
+        },
+        "tokenizer_revision": "aa8e72537993ba99e69dfaafa59ed015b17504d1",
+        "instruction_hash": "215562ac8225ef4263071f5f8f4227a393dfc5be540f3b90d6fbb0b282462938",
+        "messages": [
+          {
+            "role": "system",
+            "content": "Solve the science multiple-choice question carefully. Choose the single best answer based on its content, regardless of layout or option order.\nReference facts may be irrelevant or incomplete. Use them only when applicable; the question may also be answered without them.\nReturn exactly one uppercase displayed option letter (A, B, C, or D). Do not add any other text."
+          },
+          {
+            "role": "user",
+            "content": "A cat finds it easiest to get a grip when climbing up\nA. plastic pole\nB. carpeted pole\nC. icy pole\nD. metal pole\n\nReference facts:\n<reference_facts>\n- winter in a hemisphere occurs when the Pole located in that hemisphere is tilted away from the Sun\n- as the distance of a location from the North Pole becomes smaller, the amount of daylight received by that location will decrease during the winter\n- plastic is a nonrenewable resource\n</reference_facts>"
+          }
+        ],
+        "question": {
+          "id": "obqa/train/10-119",
+          "source": "train",
+          "question": "A cat finds it easiest to get a grip when climbing up",
+          "options": [
+            "plastic pole",
+            "carpeted pole",
+            "icy pole",
+            "metal pole"
+          ]
+        },
+        "rendered_input": "A cat finds it easiest to get a grip when climbing up\nA. plastic pole\nB. carpeted pole\nC. icy pole\nD. metal pole\n\nReference facts:\n<reference_facts>\n- winter in a hemisphere occurs when the Pole located in that hemisphere is tilted away from the Sun\n- as the distance of a location from the North Pole becomes smaller, the amount of daylight received by that location will decrease during the winter\n- plastic is a nonrenewable resource\n</reference_facts>",
+        "format": "original",
+        "permutation": {
+          "A": 0,
+          "B": 1,
+          "C": 2,
+          "D": 3
+        },
+        "evidence_document_ids": [
+          "obqa-fact-4deedca46bc3d1ec566a",
+          "obqa-fact-7b05f7bb19e59b2b4c65",
+          "obqa-fact-5c996e0572aaf08eb29b"
+        ],
+        "corpus_hash": "5da31911378790b335c89149a5f7cf7fb09a235bf833739d104ab77e97a81443",
+        "retriever": {
+          "algorithm": "BM25",
+          "k1": 1.5,
+          "b": 0.75,
+          "top_k": 3,
+          "idf": "log(1 + (N - df + 0.5)/(df + 0.5))",
+          "query_tf": "linear count",
+          "tokenizer": "Unicode NFKC and casefold; words with internal apostrophes; no stopword removal or stemming",
+          "query": "question stem plus all option texts sorted by normalized text; no added displayed letters",
+          "ties": "ascending stable document ID"
+        },
+        "decoding": {
+          "do_sample": false,
+          "seed": 0,
+          "max_new_tokens": 8,
+          "batch_size": 1,
+          "dtype": "bfloat16",
+          "attention": "sdpa",
+          "deterministic": true,
+          "padding_side": "left",
+          "chat_template_revision": "aa8e72537993ba99e69dfaafa59ed015b17504d1"
+        }
+      },
+      "evidence_document_ids": [
+        "obqa-fact-4deedca46bc3d1ec566a",
+        "obqa-fact-7b05f7bb19e59b2b4c65",
+        "obqa-fact-5c996e0572aaf08eb29b"
+      ],
+      "parse_status": "valid",
+      "truncated": false,
+      "created_unix": 1793343966.7649248,
+      "max_new_tokens": 8,
+      "raw_sha256": "df7e70e5021544f4834bbee64a9e3789febc4be81470df629cad6ddb03320a5c"
+    },
+    {
+      "raw": "A",
+      "raw_with_special_tokens": "A<|im_end|>",
+      "output_token_ids": [
+        32,
+        151645
+      ],
+      "input_tokens": 131,
+      "output_tokens": 2,
+      "seconds": 0.14584380388259888,
+      "padded_input_tokens": 131,
+      "finish_reason": "eos",
+      "letter": "A",
+      "identity": 0,
+      "valid": true,
+      "key": "dbd0a61b9583697aa2355f13d91ea89a59500b36264db02e0d68836aac9b5d03",
+      "qid": "obqa/train/10-283",
+      "condition": "R0",
+      "split": "search",
+      "mapping": {
+        "A": 0,
+        "B": 1,
+        "C": 2,
+        "D": 3
+      },
+      "request_identity": {
+        "schema": "retrieval-pilot-1",
+        "model": {
+          "name": "Qwen/Qwen2.5-3B-Instruct",
+          "revision": "aa8e72537993ba99e69dfaafa59ed015b17504d1",
+          "batch_size": 1,
+          "target_max_tokens": 8,
+          "proposer_max_tokens": 160,
+          "max_input_tokens": 1536,
+          "min_free_gib": 18,
+          "memory_fraction": 0.4
+        },
+        "tokenizer_revision": "aa8e72537993ba99e69dfaafa59ed015b17504d1",
+        "instruction_hash": "215562ac8225ef4263071f5f8f4227a393dfc5be540f3b90d6fbb0b282462938",
+        "messages": [
+          {
+            "role": "system",
+            "content": "Solve the science multiple-choice question carefully. Choose the single best answer based on its content, regardless of layout or option order.\nReference facts may be irrelevant or incomplete. Use them only when applicable; the question may also be answered without them.\nReturn exactly one uppercase displayed option letter (A, B, C, or D). Do not add any other text."
+          },
+          {
+            "role": "user",
+            "content": "As the flower size increases, what will it attract more of?\nA. monarchs\nB. grass\nC. carnivores\nD. toy butterfly\n\nReference facts:\n<reference_facts>\n\n</reference_facts>"
+          }
+        ],
+        "question": {
+          "id": "obqa/train/10-283",
+          "source": "train",
+          "question": "As the flower size increases, what will it attract more of?",
+          "options": [
+            "monarchs",
+            "grass",
+            "carnivores",
+            "toy butterfly"
+          ]
+        },
+        "rendered_input": "As the flower size increases, what will it attract more of?\nA. monarchs\nB. grass\nC. carnivores\nD. toy butterfly\n\nReference facts:\n<reference_facts>\n\n</reference_facts>",
+        "format": "original",
+        "permutation": {
+          "A": 0,
+          "B": 1,
+          "C": 2,
+          "D": 3
+        },
+        "evidence_document_ids": [],
+        "corpus_hash": "5da31911378790b335c89149a5f7cf7fb09a235bf833739d104ab77e97a81443",
+        "retriever": {
+          "algorithm": "BM25",
+          "k1": 1.5,
+          "b": 0.75,
+          "top_k": 3,
+          "idf": "log(1 + (N - df + 0.5)/(df + 0.5))",
+          "query_tf": "linear count",
+          "tokenizer": "Unicode NFKC and casefold; words with internal apostrophes; no stopword removal or stemming",
+          "query": "question stem plus all option texts sorted by normalized text; no added displayed letters",
+          "ties": "ascending stable document ID"
+        },
+        "decoding": {
+          "do_sample": false,
+          "seed": 0,
+          "max_new_tokens": 8,
+          "batch_size": 1,
+          "dtype": "bfloat16",
+          "attention": "sdpa",
+          "deterministic": true,
+          "padding_side": "left",
+          "chat_template_revision": "aa8e72537993ba99e69dfaafa59ed015b17504d1"
+        }
+      },
+      "evidence_document_ids": [],
+      "parse_status": "valid",
+      "truncated": false,
+      "created_unix": 1793343966.9382,
+      "max_new_tokens": 8,
+      "raw_sha256": "559aead08264d5795d3909718cdd05abd49572e84fe55590eef31a88a08fdffd"
+    },
+    {
+      "raw": "A",
+      "raw_with_special_tokens": "A<|im_end|>",
+      "output_token_ids": [
+        32,
+        151645
+      ],
+      "input_tokens": 151,
+      "output_tokens": 2,
+      "seconds": 0.14622574299573898,
+      "padded_input_tokens": 151,
+      "finish_reason": "eos",
+      "letter": "A",
+      "identity": 0,
+      "valid": true,
+      "key": "d94557860b2d37cc2b370cb5e5ce5d4ea475fcbfae2cc181bdd5902cea41ebd3",
+      "qid": "obqa/train/10-283",
+      "condition": "R1",
+      "split": "search",
+      "mapping": {
+        "A": 0,
+        "B": 1,
+        "C": 2,
+        "D": 3
+      },
+      "request_identity": {
+        "schema": "retrieval-pilot-1",
+        "model": {
+          "name": "Qwen/Qwen2.5-3B-Instruct",
+          "revision": "aa8e72537993ba99e69dfaafa59ed015b17504d1",
+          "batch_size": 1,
+          "target_max_tokens": 8,
+          "proposer_max_tokens": 160,
+          "max_input_tokens": 1536,
+          "min_free_gib": 18,
+          "memory_fraction": 0.4
+        },
+        "tokenizer_revision": "aa8e72537993ba99e69dfaafa59ed015b17504d1",
+        "instruction_hash": "215562ac8225ef4263071f5f8f4227a393dfc5be540f3b90d6fbb0b282462938",
+        "messages": [
+          {
+            "role": "system",
+            "content": "Solve the science multiple-choice question carefully. Choose the single best answer based on its content, regardless of layout or option order.\nReference facts may be irrelevant or incomplete. Use them only when applicable; the question may also be answered without them.\nReturn exactly one uppercase displayed option letter (A, B, C, or D). Do not add any other text."
+          },
+          {
+            "role": "user",
+            "content": "As the flower size increases, what will it attract more of?\nA. monarchs\nB. grass\nC. carnivores\nD. toy butterfly\n\nReference facts:\n<reference_facts>\n- as the size of a flower increases , the number of pollinators it will attract increases\n</reference_facts>"
+          }
+        ],
+        "question": {
+          "id": "obqa/train/10-283",
+          "source": "train",
+          "question": "As the flower size increases, what will it attract more of?",
+          "options": [
+            "monarchs",
+            "grass",
+            "carnivores",
+            "toy butterfly"
+          ]
+        },
+        "rendered_input": "As the flower size increases, what will it attract more of?\nA. monarchs\nB. grass\nC. carnivores\nD. toy butterfly\n\nReference facts:\n<reference_facts>\n- as the size of a flower increases , the number of pollinators it will attract increases\n</reference_facts>",
+        "format": "original",
+        "permutation": {
+          "A": 0,
+          "B": 1,
+          "C": 2,
+          "D": 3
+        },
+        "evidence_document_ids": [
+          "obqa-fact-0539ec750a8c976c39b4"
+        ],
+        "corpus_hash": "5da31911378790b335c89149a5f7cf7fb09a235bf833739d104ab77e97a81443",
+        "retriever": {
+          "algorithm": "BM25",
+          "k1": 1.5,
+          "b": 0.75,
+          "top_k": 3,
+          "idf": "log(1 + (N - df + 0.5)/(df + 0.5))",
+          "query_tf": "linear count",
+          "tokenizer": "Unicode NFKC and casefold; words with internal apostrophes; no stopword removal or stemming",
+          "query": "question stem plus all option texts sorted by normalized text; no added displayed letters",
+          "ties": "ascending stable document ID"
+        },
+        "decoding": {
+          "do_sample": false,
+          "seed": 0,
+          "max_new_tokens": 8,
+          "batch_size": 1,
+          "dtype": "bfloat16",
+          "attention": "sdpa",
+          "deterministic": true,
+          "padding_side": "left",
+          "chat_template_revision": "aa8e72537993ba99e69dfaafa59ed015b17504d1"
+        }
+      },
+      "evidence_document_ids": [
+        "obqa-fact-0539ec750a8c976c39b4"
+      ],
+      "parse_status": "valid",
+      "truncated": false,
+      "created_unix": 1793343967.1197226,
+      "max_new_tokens": 8,
+      "raw_sha256": "559aead08264d5795d3909718cdd05abd49572e84fe55590eef31a88a08fdffd"
+    },
+    {
+      "raw": "A",
+      "raw_with_special_tokens": "A<|im_end|>",
+      "output_token_ids": [
+        32,
+        151645
+      ],
+      "input_tokens": 197,
+      "output_tokens": 2,
+      "seconds": 0.14562303572893143,
+      "padded_input_tokens": 197,
+      "finish_reason": "eos",
+      "letter": "A",
+      "identity": 0,
+      "valid": true,
+      "key": "0bfad68cce759190a9a9b91004e05bbcbf276e45ae085ec6b8408d8cf25a2013",
+      "qid": "obqa/train/10-283",
+      "condition": "R3",
+      "split": "search",
+      "mapping": {
+        "A": 0,
+        "B": 1,
+        "C": 2,
+        "D": 3
+      },
+      "request_identity": {
+        "schema": "retrieval-pilot-1",
+        "model": {
+          "name": "Qwen/Qwen2.5-3B-Instruct",
+          "revision": "aa8e72537993ba99e69dfaafa59ed015b17504d1",
+          "batch_size": 1,
+          "target_max_tokens": 8,
+          "proposer_max_tokens": 160,
+          "max_input_tokens": 1536,
+          "min_free_gib": 18,
+          "memory_fraction": 0.4
+        },
+        "tokenizer_revision": "aa8e72537993ba99e69dfaafa59ed015b17504d1",
+        "instruction_hash": "215562ac8225ef4263071f5f8f4227a393dfc5be540f3b90d6fbb0b282462938",
+        "messages": [
+          {
+            "role": "system",
+            "content": "Solve the science multiple-choice question carefully. Choose the single best answer based on its content, regardless of layout or option order.\nReference facts may be irrelevant or incomplete. Use them only when applicable; the question may also be answered without them.\nReturn exactly one uppercase displayed option letter (A, B, C, or D). Do not add any other text."
+          },
+          {
+            "role": "user",
+            "content": "As the flower size increases, what will it attract more of?\nA. monarchs\nB. grass\nC. carnivores\nD. toy butterfly\n\nReference facts:\n<reference_facts>\n- as the size of a flower increases , the number of pollinators it will attract increases\n- as the amount of fragrance of a flower increases , the number of pollinators it will attract increases\n- as the number of pollinators attracted to a flower increases , the ability of that flower to reproduce will increase\n</reference_facts>"
+          }
+        ],
+        "question": {
+          "id": "obqa/train/10-283",
+          "source": "train",
+          "question": "As the flower size increases, what will it attract more of?",
+          "options": [
+            "monarchs",
+            "grass",
+            "carnivores",
+            "toy butterfly"
+          ]
+        },
+        "rendered_input": "As the flower size increases, what will it attract more of?\nA. monarchs\nB. grass\nC. carnivores\nD. toy butterfly\n\nReference facts:\n<reference_facts>\n- as the size of a flower increases , the number of pollinators it will attract increases\n- as the amount of fragrance of a flower increases , the number of pollinators it will attract increases\n- as the number of pollinators attracted to a flower increases , the ability of that flower to reproduce will increase\n</reference_facts>",
+        "format": "original",
+        "permutation": {
+          "A": 0,
+          "B": 1,
+          "C": 2,
+          "D": 3
+        },
+        "evidence_document_ids": [
+          "obqa-fact-0539ec750a8c976c39b4",
+          "obqa-fact-c3ff2d8e0489e65bde5f",
+          "obqa-fact-1c21d0e07978b18d43ef"
+        ],
+        "corpus_hash": "5da31911378790b335c89149a5f7cf7fb09a235bf833739d104ab77e97a81443",
+        "retriever": {
+          "algorithm": "BM25",
+          "k1": 1.5,
+          "b": 0.75,
+          "top_k": 3,
+          "idf": "log(1 + (N - df + 0.5)/(df + 0.5))",
+          "query_tf": "linear count",
+          "tokenizer": "Unicode NFKC and casefold; words with internal apostrophes; no stopword removal or stemming",
+          "query": "question stem plus all option texts sorted by normalized text; no added displayed letters",
+          "ties": "ascending stable document ID"
+        },
+        "decoding": {
+          "do_sample": false,
+          "seed": 0,
+          "max_new_tokens": 8,
+          "batch_size": 1,
+          "dtype": "bfloat16",
+          "attention": "sdpa",
+          "deterministic": true,
+          "padding_side": "left",
+          "chat_template_revision": "aa8e72537993ba99e69dfaafa59ed015b17504d1"
+        }
+      },
+      "evidence_document_ids": [
+        "obqa-fact-0539ec750a8c976c39b4",
+        "obqa-fact-c3ff2d8e0489e65bde5f",
+        "obqa-fact-1c21d0e07978b18d43ef"
+      ],
+      "parse_status": "valid",
+      "truncated": false,
+      "created_unix": 1793343967.3011596,
+      "max_new_tokens": 8,
+      "raw_sha256": "559aead08264d5795d3909718cdd05abd49572e84fe55590eef31a88a08fdffd"
+    },
+    {
+      "raw": "D",
+      "raw_with_special_tokens": "D<|im_end|>",
+      "output_token_ids": [
+        35,
+        151645
+      ],
+      "input_tokens": 139,
+      "output_tokens": 2,
+      "seconds": 0.14596767723560333,
+      "padded_input_tokens": 139,
+      "finish_reason": "eos",
+      "letter": "D",
+      "identity": 3,
+      "valid": true,
+      "key": "c640670cd84719d92a66d0a422543ec254e406ca4d7707c2a56cbdf3b47f64af",
+      "qid": "obqa/train/12-988",
+      "condition": "RU",
+      "split": "search",
+      "mapping": {
+        "A": 0,
+        "B": 1,
+        "C": 2,
+        "D": 3
+      },
+      "request_identity": {
+        "schema": "retrieval-pilot-1",
+        "model": {
+          "name": "Qwen/Qwen2.5-3B-Instruct",
+          "revision": "aa8e72537993ba99e69dfaafa59ed015b17504d1",
+          "batch_size": 1,
+          "target_max_tokens": 8,
+          "proposer_max_tokens": 160,
+          "max_input_tokens": 1536,
+          "min_free_gib": 18,
+          "memory_fraction": 0.4
+        },
+        "tokenizer_revision": "aa8e72537993ba99e69dfaafa59ed015b17504d1",
+        "instruction_hash": "215562ac8225ef4263071f5f8f4227a393dfc5be540f3b90d6fbb0b282462938",
+        "messages": [
+          {
+            "role": "system",
+            "content": "Solve the science multiple-choice question carefully. Choose the single best answer based on its content, regardless of layout or option order.\nReference facts may be irrelevant or incomplete. Use them only when applicable; the question may also be answered without them.\nReturn exactly one uppercase displayed option letter (A, B, C, or D). Do not add any other text."
+          },
+          {
+            "role": "user",
+            "content": "Adding salt to liquid decreases what?\nA. light\nB. energy\nC. magnetism\nD. thawing temp\n\nReference facts:\n<reference_facts>\n- a kettle is formed when chunks of ice left by glaciers melt\n</reference_facts>"
+          }
+        ],
+        "question": {
+          "id": "obqa/train/12-988",
+          "source": "train",
+          "question": "Adding salt to liquid decreases what?",
+          "options": [
+            "light",
+            "energy",
+            "magnetism",
+            "thawing temp"
+          ]
+        },
+        "rendered_input": "Adding salt to liquid decreases what?\nA. light\nB. energy\nC. magnetism\nD. thawing temp\n\nReference facts:\n<reference_facts>\n- a kettle is formed when chunks of ice left by glaciers melt\n</reference_facts>",
+        "format": "original",
+        "permutation": {
+          "A": 0,
+          "B": 1,
+          "C": 2,
+          "D": 3
+        },
+        "evidence_document_ids": [
+          "obqa-fact-41cf73ae895f484e128c"
+        ],
+        "corpus_hash": "5da31911378790b335c89149a5f7cf7fb09a235bf833739d104ab77e97a81443",
+        "retriever": {
+          "algorithm": "BM25",
+          "k1": 1.5,
+          "b": 0.75,
+          "top_k": 3,
+          "idf": "log(1 + (N - df + 0.5)/(df + 0.5))",
+          "query_tf": "linear count",
+          "tokenizer": "Unicode NFKC and casefold; words with internal apostrophes; no stopword removal or stemming",
+          "query": "question stem plus all option texts sorted by normalized text; no added displayed letters",
+          "ties": "ascending stable document ID"
+        },
+        "decoding": {
+          "do_sample": false,
+          "seed": 0,
+          "max_new_tokens": 8,
+          "batch_size": 1,
+          "dtype": "bfloat16",
+          "attention": "sdpa",
+          "deterministic": true,
+          "padding_side": "left",
+          "chat_template_revision": "aa8e72537993ba99e69dfaafa59ed015b17504d1"
+        }
+      },
+      "evidence_document_ids": [
+        "obqa-fact-41cf73ae895f484e128c"
+      ],
+      "parse_status": "valid",
+      "truncated": false,
+      "created_unix": 1793343967.4832547,
+      "max_new_tokens": 8,
+      "raw_sha256": "3f39d5c348e5b79d06e842c114e6cc571583bbf44e4b0ebfda1a01ec05745d43"
+    },
+    {
+      "raw": "D",
+      "raw_with_special_tokens": "D<|im_end|>",
+      "output_token_ids": [
+        35,
+        151645
+      ],
+      "input_tokens": 140,
+      "output_tokens": 2,
+      "seconds": 0.14578892290592194,
+      "padded_input_tokens": 140,
+      "finish_reason": "eos",
+      "letter": "D",
+      "identity": 3,
+      "valid": true,
+      "key": "4c1aaaa7342c1dd9d7cf0ba5b3bcdb98f21d44be624c4908ddb5fdfc9dda7cfc",
+      "qid": "obqa/train/13-952",
+      "condition": "RU",
+      "split": "search",
+      "mapping": {
+        "A": 0,
+        "B": 1,
+        "C": 2,
+        "D": 3
+      },
+      "request_identity": {
+        "schema": "retrieval-pilot-1",
+        "model": {
+          "name": "Qwen/Qwen2.5-3B-Instruct",
+          "revision": "aa8e72537993ba99e69dfaafa59ed015b17504d1",
+          "batch_size": 1,
+          "target_max_tokens": 8,
+          "proposer_max_tokens": 160,
+          "max_input_tokens": 1536,
+          "min_free_gib": 18,
+          "memory_fraction": 0.4
+        },
+        "tokenizer_revision": "aa8e72537993ba99e69dfaafa59ed015b17504d1",
+        "instruction_hash": "215562ac8225ef4263071f5f8f4227a393dfc5be540f3b90d6fbb0b282462938",
+        "messages": [
+          {
+            "role": "system",
+            "content": "Solve the science multiple-choice question carefully. Choose the single best answer based on its content, regardless of layout or option order.\nReference facts may be irrelevant or incomplete. Use them only when applicable; the question may also be answered without them.\nReturn exactly one uppercase displayed option letter (A, B, C, or D). Do not add any other text."
+          },
+          {
+            "role": "user",
+            "content": "A bobsled moves much faster as it leaves the concrete an touches the\nA. sand\nB. grass\nC. sun\nD. ice\n\nReference facts:\n<reference_facts>\n- tinted lenses reflect ultraviolet rays\n</reference_facts>"
+          }
+        ],
+        "question": {
+          "id": "obqa/train/13-952",
+          "source": "train",
+          "question": "A bobsled moves much faster as it leaves the concrete an touches the",
+          "options": [
+            "sand",
+            "grass",
+            "sun",
+            "ice"
+          ]
+        },
+        "rendered_input": "A bobsled moves much faster as it leaves the concrete an touches the\nA. sand\nB. grass\nC. sun\nD. ice\n\nReference facts:\n<reference_facts>\n- tinted lenses reflect ultraviolet rays\n</reference_facts>",
+        "format": "original",
+        "permutation": {
+          "A": 0,
+          "B": 1,
+          "C": 2,
+          "D": 3
+        },
+        "evidence_document_ids": [
+          "obqa-fact-a92fabb7730e497d18c1"
+        ],
+        "corpus_hash": "5da31911378790b335c89149a5f7cf7fb09a235bf833739d104ab77e97a81443",
+        "retriever": {
+          "algorithm": "BM25",
+          "k1": 1.5,
+          "b": 0.75,
+          "top_k": 3,
+          "idf": "log(1 + (N - df + 0.5)/(df + 0.5))",
+          "query_tf": "linear count",
+          "tokenizer": "Unicode NFKC and casefold; words with internal apostrophes; no stopword removal or stemming",
+          "query": "question stem plus all option texts sorted by normalized text; no added displayed letters",
+          "ties": "ascending stable document ID"
+        },
+        "decoding": {
+          "do_sample": false,
+          "seed": 0,
+          "max_new_tokens": 8,
+          "batch_size": 1,
+          "dtype": "bfloat16",
+          "attention": "sdpa",
+          "deterministic": true,
+          "padding_side": "left",
+          "chat_template_revision": "aa8e72537993ba99e69dfaafa59ed015b17504d1"
+        }
+      },
+      "evidence_document_ids": [
+        "obqa-fact-a92fabb7730e497d18c1"
+      ],
+      "parse_status": "valid",
+      "truncated": false,
+      "created_unix": 1793343967.6649053,
+      "max_new_tokens": 8,
+      "raw_sha256": "3f39d5c348e5b79d06e842c114e6cc571583bbf44e4b0ebfda1a01ec05745d43"
+    },
+    {
+      "raw": "C",
+      "raw_with_special_tokens": "C<|im_end|>",
+      "output_token_ids": [
+        34,
+        151645
+      ],
+      "input_tokens": 141,
+      "output_tokens": 2,
+      "seconds": 0.1462971195578575,
+      "padded_input_tokens": 141,
+      "finish_reason": "eos",
+      "letter": "C",
+      "identity": 2,
+      "valid": true,
+      "key": "5eca2975441f4c43204ae322d6e402adeeed460e7873cdf69f7e06350258f541",
+      "qid": "obqa/train/11-199",
+      "condition": "RU",
+      "split": "search",
+      "mapping": {
+        "A": 0,
+        "B": 1,
+        "C": 2,
+        "D": 3
+      },
+      "request_identity": {
+        "schema": "retrieval-pilot-1",
+        "model": {
+          "name": "Qwen/Qwen2.5-3B-Instruct",
+          "revision": "aa8e72537993ba99e69dfaafa59ed015b17504d1",
+          "batch_size": 1,
+          "target_max_tokens": 8,
+          "proposer_max_tokens": 160,
+          "max_input_tokens": 1536,
+          "min_free_gib": 18,
+          "memory_fraction": 0.4
+        },
+        "tokenizer_revision": "aa8e72537993ba99e69dfaafa59ed015b17504d1",
+        "instruction_hash": "215562ac8225ef4263071f5f8f4227a393dfc5be540f3b90d6fbb0b282462938",
+        "messages": [
+          {
+            "role": "system",
+            "content": "Solve the science multiple-choice question carefully. Choose the single best answer based on its content, regardless of layout or option order.\nReference facts may be irrelevant or incomplete. Use them only when applicable; the question may also be answered without them.\nReturn exactly one uppercase displayed option letter (A, B, C, or D). Do not add any other text."
+          },
+          {
+            "role": "user",
+            "content": "A plant needing to photosynthesize will want to be placed nearest to a\nA. fridge\nB. bed\nC. skylight\nD. basement\n\nReference facts:\n<reference_facts>\n- cooking food requires adding heat energy\n</reference_facts>"
+          }
+        ],
+        "question": {
+          "id": "obqa/train/11-199",
+          "source": "train",
+          "question": "A plant needing to photosynthesize will want to be placed nearest to a",
+          "options": [
+            "fridge",
+            "bed",
+            "skylight",
+            "basement"
+          ]
+        },
+        "rendered_input": "A plant needing to photosynthesize will want to be placed nearest to a\nA. fridge\nB. bed\nC. skylight\nD. basement\n\nReference facts:\n<reference_facts>\n- cooking food requires adding heat energy\n</reference_facts>",
+        "format": "original",
+        "permutation": {
+          "A": 0,
+          "B": 1,
+          "C": 2,
+          "D": 3
+        },
+        "evidence_document_ids": [
+          "obqa-fact-7fe4f88837c2cf391516"
+        ],
+        "corpus_hash": "5da31911378790b335c89149a5f7cf7fb09a235bf833739d104ab77e97a81443",
+        "retriever": {
+          "algorithm": "BM25",
+          "k1": 1.5,
+          "b": 0.75,
+          "top_k": 3,
+          "idf": "log(1 + (N - df + 0.5)/(df + 0.5))",
+          "query_tf": "linear count",
+          "tokenizer": "Unicode NFKC and casefold; words with internal apostrophes; no stopword removal or stemming",
+          "query": "question stem plus all option texts sorted by normalized text; no added displayed letters",
+          "ties": "ascending stable document ID"
+        },
+        "decoding": {
+          "do_sample": false,
+          "seed": 0,
+          "max_new_tokens": 8,
+          "batch_size": 1,
+          "dtype": "bfloat16",
+          "attention": "sdpa",
+          "deterministic": true,
+          "padding_side": "left",
+          "chat_template_revision": "aa8e72537993ba99e69dfaafa59ed015b17504d1"
+        }
+      },
+      "evidence_document_ids": [
+        "obqa-fact-7fe4f88837c2cf391516"
+      ],
+      "parse_status": "valid",
+      "truncated": false,
+      "created_unix": 1793343967.8471584,
+      "max_new_tokens": 8,
+      "raw_sha256": "6b23c0d5f35d1b11f9b683f0b0a617355deb11277d91ae091d399c655b87940d"
+    }
+  ],
+  "hardware": {
+    "gpu": "NVIDIA GeForce RTX 4090",
+    "visible_devices": "GPU-f7b9ffec-17f1-168f-ecdc-c0f5c4eacf4b",
+    "free_gib_before_load": 23.25067138671875,
+    "total_gib": 23.64288330078125,
+    "torch": "2.6.0+cu124",
+    "cuda": "12.4",
+    "load_seconds": 6.014328196644783,
+    "dtype": "bfloat16",
+    "deterministic_algorithms": true,
+    "cpu_threads": 4,
+    "tf32": false,
+    "attention": "sdpa",
+    "memory_fraction": 0.4
+  }
+}

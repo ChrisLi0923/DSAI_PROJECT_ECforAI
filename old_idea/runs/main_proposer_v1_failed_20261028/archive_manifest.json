@@ -1,0 +1,70 @@
+{
+  "reason": "All four retries repeated an existing prompt; proposer protocol will change, so a fresh run is required.",
+  "record_counts": [
+    [
+      "candidate",
+      "search/B/11",
+      12
+    ],
+    [
+      "hardware",
+      "session",
+      1
+    ],
+    [
+      "proposal",
+      "initialization/11",
+      3
+    ],
+    [
+      "proposal",
+      "search/B/11",
+      8
+    ],
+    [
+      "proposer",
+      "initialization/11",
+      3
+    ],
+    [
+      "proposer",
+      "search/B/11",
+      16
+    ],
+    [
+      "stage",
+      "INCOMPLETE",
+      1
+    ],
+    [
+      "stage",
+      "loading_model",
+      1
+    ],
+    [
+      "stage",
+      "pilot",
+      1
+    ],
+    [
+      "stage",
+      "search",
+      1
+    ],
+    [
+      "target",
+      "pilot",
+      600
+    ],
+    [
+      "target",
+      "search/B/11",
+      7680
+    ]
+  ],
+  "all_records_sha256": "e512fd61484ff629a6f1c425b8deff9c96dff382c4219147bfe88acca86e4f20",
+  "original_path": "/home/hli/dsai/runs/main",
+  "new_path": "/home/hli/dsai/runs/main_proposer_v1_failed_20261028",
+  "use_in_final_comparisons": false,
+  "final_test_inference_performed": false
+}

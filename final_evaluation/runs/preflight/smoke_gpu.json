@@ -1,0 +1,9 @@
+{
+  "index": 3,
+  "uuid": "GPU-44a70774-4e6e-2da2-3a68-26266ac5035c",
+  "name": "NVIDIA GeForce RTX 4090",
+  "total_mib": 24564,
+  "free_mib": 20969,
+  "utilization": 32,
+  "compute_processes": 1
+}

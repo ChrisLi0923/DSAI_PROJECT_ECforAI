@@ -1,0 +1,21 @@
+{
+  "completed": true,
+  "frozen_hash_matches": true,
+  "frozen_source_hashes_match": true,
+  "manifest_isolation_verified": true,
+  "reproduced_frozen_exports": 96,
+  "final_response_matrix": [
+    1000,
+    5
+  ],
+  "all_search_budgets_4096": true,
+  "matched_initial_populations": true,
+  "freeze_precedes_first_final_attempt": true,
+  "new_final_attempts": 5000,
+  "all_final_attempts_complete": true,
+  "earlier_studies_preserved": true,
+  "new_model_calls_during_review": 0,
+  "new_search_or_selection": false,
+  "all_G1_G2_primary_answers_equal_selected_ordered_triple": true,
+  "frozen_source_config_and_final_manifest_chain_matches": true
+}

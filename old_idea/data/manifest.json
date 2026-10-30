@@ -1,0 +1,31 @@
+{
+  "data_config": {
+    "dataset": "allenai/ai2_arc",
+    "revision": "210d026faf9955653af8916fad021475a3f00453",
+    "split_seed": 20261027,
+    "pilot_n": 100,
+    "search_n": 128,
+    "validation_n": 100
+  },
+  "counts": {
+    "pilot": 100,
+    "search": 128,
+    "validation": 100,
+    "test": 1109
+  },
+  "hashes": {
+    "pilot": "c8626b5799308799c70bc76a6463c3d0512d3c42d728a839195364a8537f7e95",
+    "search": "37bad0611103c3fb88bdc8f18ed60744e29b05ac9963530eec56a66b51a6d52c",
+    "validation": "d4fe0d0faea5b4cc2eebbd6c77d19fbcaed25f30d86047b9afdaea5a19e6a343",
+    "test": "3c70215ab40799d763521c4d1d80582a7d3afb506049b651b29240642359dc9b"
+  },
+  "rejected": 137,
+  "screening_reasons": {
+    "option_position_reference": 28,
+    "possible_missing_media": 94,
+    "requires_four_distinct_labels": 13,
+    "duplicate_options": 4,
+    "duplicate_source_question": 1
+  },
+  "policy": "Test-priority exact content/ID deduplication; no test inference before prompt freeze."
+}

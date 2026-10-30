@@ -1,0 +1,72 @@
+
+Launch/resume: 2026-10-28T00:12:34+08:00
+Frozen protocol, data and package verification passed.
+index, uuid, name, memory.free [MiB], utilization.gpu [%]
+2, GPU-d33b074a-05c8-31c7-8080-8c9dea9275ed, NVIDIA GeForce RTX 4090, 20969 MiB, 31 %
+2026-10-28T00:12:35+08:00 Waiting for GPU 2 to be free; currently 20969 MiB free. No inference started.
+2026-10-28T00:13:05+08:00 Waiting for GPU 2 to be free; currently 20969 MiB free. No inference started.
+
+Launch/resume: 2026-10-28T00:13:54+08:00
+Frozen protocol, data and package verification passed.
+index, uuid, name, memory.free [MiB], utilization.gpu [%]
+2, GPU-d33b074a-05c8-31c7-8080-8c9dea9275ed, NVIDIA GeForce RTX 4090, 20969 MiB, 37 %
+2026-10-28T00:13:54+08:00 Waiting for GPU 2 to be free; currently 20969 MiB free. No inference started.
+
+Launch/resume: 2026-10-28T00:15:45+08:00
+Frozen protocol, data and package verification passed.
+index, uuid, name, memory.free [MiB], utilization.gpu [%]
+2, GPU-d33b074a-05c8-31c7-8080-8c9dea9275ed, NVIDIA GeForce RTX 4090, 20969 MiB, 39 %
+2026-10-28T00:15:45+08:00 Waiting for GPU 2 to be free; currently 20969 MiB free. No inference started.
+2026-10-28T00:16:15+08:00 Waiting for GPU 2 to be free; currently 20969 MiB free. No inference started.
+
+Launch/resume: 2026-10-28T00:17:07+08:00
+Frozen protocol, data and package verification passed.
+index, uuid, name, memory.free [MiB], utilization.gpu [%]
+2, GPU-d33b074a-05c8-31c7-8080-8c9dea9275ed, NVIDIA GeForce RTX 4090, 20969 MiB, 37 %
+2026-10-28T00:17:08+08:00 Waiting for GPU 2 to be free; currently 20969 MiB free. No inference started.
+2026-10-28T00:17:38+08:00 Waiting for GPU 2 to be free; currently 20969 MiB free. No inference started.
+2026-10-28T00:18:08+08:00 Waiting for GPU 2 to be free; currently 20969 MiB free. No inference started.
+
+Launch/resume: 2026-10-28T00:25:21+08:00
+Frozen protocol, data and package verification passed.
+2026-10-27T16:25:22.318193+00:00 Selected GPU: {"selected_at_utc": "2026-10-27T16:25:22.318193+00:00", "policy": "shared", "requested": "any", "minimum_free_gib": 16, "device": {"index": 2, "uuid": "GPU-d33b074a-05c8-31c7-8080-8c9dea9275ed", "name": "NVIDIA GeForce RTX 4090", "total_mib": 24564, "free_mib": 20969, "utilization": 39, "compute_processes": 1}, "notice": "Availability is a snapshot, not a reservation; no automatic GPU migration."}
+GPU selection fixed for this launch: GPU-d33b074a-05c8-31c7-8080-8c9dea9275ed (policy=shared)
+Frozen protocol, data and package verification passed.
+index, uuid, name, memory.free [MiB], utilization.gpu [%]
+2, GPU-d33b074a-05c8-31c7-8080-8c9dea9275ed, NVIDIA GeForce RTX 4090, 20969 MiB, 38 %
+2026-10-28 00:25:23,145 INFO Stage: loading_model
+Sliding Window Attention is enabled but not implemented for `sdpa`; unexpected results may be encountered.
+Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]Loading checkpoint shards:  50%|█████     | 1/2 [00:01<00:01,  1.99s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:03<00:00,  1.46s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:03<00:00,  1.54s/it]
+2026-10-28 00:25:31,346 INFO Stage: pilot
+2026-10-28 00:25:44,018 INFO Stage: search
+2026-10-28 00:26:06,097 INFO search/B/11 candidate 1/20 robust=0.7031
+2026-10-28 00:26:20,304 INFO search/B/11 candidate 2/20 robust=0.7422
+2026-10-28 00:26:33,818 INFO search/B/11 candidate 3/20 robust=0.7344
+2026-10-28 00:26:46,829 INFO search/B/11 candidate 4/20 robust=0.7500
+2026-10-28 00:27:02,066 INFO search/B/11 candidate 5/20 robust=0.7344
+2026-10-28 00:27:18,241 INFO search/B/11 candidate 6/20 robust=0.7266
+2026-10-28 00:27:36,434 INFO search/B/11 candidate 7/20 robust=0.7266
+2026-10-28 00:27:53,036 INFO search/B/11 candidate 8/20 robust=0.7344
+2026-10-28 00:28:16,486 INFO search/B/11 candidate 9/20 robust=0.7109
+2026-10-28 00:28:33,094 INFO search/B/11 candidate 10/20 robust=0.7266
+2026-10-28 00:28:48,943 INFO search/B/11 candidate 11/20 robust=0.7344
+2026-10-28 00:29:12,195 INFO search/B/11 candidate 12/20 robust=0.7109
+2026-10-28 00:29:23,207 INFO Stage: INCOMPLETE
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/home/hli/dsai/robust_prompt/workflow.py", line 210, in <module>
+    if __name__=='__main__': main()
+                             ^^^^^^
+  File "/home/hli/dsai/robust_prompt/workflow.py", line 207, in main
+    result=run(read_json(args.config),args.run_dir,args.data_dir,args.allow_long_run)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/hli/dsai/robust_prompt/workflow.py", line 153, in run
+    shortlists[f'{condition}/{seed}']=run_search(condition,seed,config,splits['search'],evaluator,proposer,store)
+                                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/hli/dsai/robust_prompt/workflow.py", line 88, in run_search
+    prompt=proposer.propose(parents,operation,seed*100000+index*10,
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/hli/dsai/robust_prompt/model.py", line 144, in propose
+    raise RuntimeError(f'Proposer failed {self.max_attempts} valid/diverse edit attempts for {key}; diagnostic stop, no manual fallback.')
+RuntimeError: Proposer failed 4 valid/diverse edit attempts for proposal/B/11/12; diagnostic stop, no manual fallback.

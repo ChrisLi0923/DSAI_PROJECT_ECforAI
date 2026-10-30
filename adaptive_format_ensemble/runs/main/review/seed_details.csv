@@ -1,0 +1,11 @@
+id,correct,questions,mean_calls,different_predictions_from_fixed_triple,rescued_single_errors,spoiled_single_correct
+random/seed11/cap3,397,486,2.185185185185185,0,22,15
+guided/seed11/cap3,397,486,3.0041152263374484,0,22,15
+random/seed29/cap3,397,486,2.1893004115226335,0,22,15
+guided/seed29/cap3,397,486,3.0,0,22,15
+random/seed47/cap3,397,486,2.185185185185185,0,22,15
+guided/seed47/cap3,395,486,2.549382716049383,15,22,17
+random/seed71/cap3,397,486,2.185185185185185,0,22,15
+guided/seed71/cap3,397,486,2.185185185185185,0,22,15
+random/seed101/cap3,396,486,2.345679012345679,9,21,15
+guided/seed101/cap3,397,486,2.185185185185185,0,22,15

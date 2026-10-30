@@ -1,0 +1,447 @@
+[
+  {
+    "condition": "B",
+    "seed": 11,
+    "index": 0,
+    "prompt": "Solve the science multiple-choice question carefully. Choose the single best answer based on its content, regardless of layout or option order.",
+    "score": 0.5,
+    "objective": "robust",
+    "parents": [],
+    "operation": "initial",
+    "groups": 2,
+    "calls": 10
+  },
+  {
+    "condition": "B",
+    "seed": 11,
+    "index": 1,
+    "prompt": "Solve the science multiple-choice question. Identify the single best answer provided, focusing solely on the content within each option, without regard to their layout or the order they appear in. Respond with just the uppercase letter of your chosen answer.",
+    "score": 0.5,
+    "objective": "robust",
+    "parents": [],
+    "operation": "initial",
+    "groups": 2,
+    "calls": 10
+  },
+  {
+    "condition": "B",
+    "seed": 11,
+    "index": 2,
+    "prompt": "Solve the science multiple-choice question. Identify the single best answer provided. Focus solely on the content within each option and ignore their layout or the order they appear in. Respond with just the uppercase letter of your chosen answer.",
+    "score": 0.5,
+    "objective": "robust",
+    "parents": [
+      "Solve the science multiple-choice question carefully. Choose the single best answer based on its content, regardless of layout or option order.",
+      "Solve the science multiple-choice question. Identify the single best answer provided, focusing solely on the content within each option, without regard to their layout or the order they appear in. Respond with just the uppercase letter of your chosen answer."
+    ],
+    "operation": "random",
+    "groups": 2,
+    "calls": 10
+  },
+  {
+    "condition": "B",
+    "seed": 11,
+    "index": 3,
+    "prompt": "Solve the science multiple-choice question. Focus on the content within each option, ignoring their layout or order. Respond with just the uppercase letter of your chosen answer.",
+    "score": 0.5,
+    "objective": "robust",
+    "parents": [
+      "Solve the science multiple-choice question. Identify the single best answer provided, focusing solely on the content within each option, without regard to their layout or the order they appear in. Respond with just the uppercase letter of your chosen answer.",
+      "Solve the science multiple-choice question carefully. Choose the single best answer based on its content, regardless of layout or option order."
+    ],
+    "operation": "random",
+    "groups": 2,
+    "calls": 10
+  },
+  {
+    "condition": "C",
+    "seed": 11,
+    "index": 0,
+    "prompt": "Solve the science multiple-choice question carefully. Choose the single best answer based on its content, regardless of layout or option order.",
+    "score": 1.0,
+    "objective": "original",
+    "parents": [],
+    "operation": "initial",
+    "groups": 2,
+    "calls": 2
+  },
+  {
+    "condition": "C",
+    "seed": 11,
+    "index": 1,
+    "prompt": "Solve the science multiple-choice question. Identify the single best answer provided, focusing solely on the content within each option, without regard to their layout or the order they appear in. Respond with just the uppercase letter of your chosen answer.",
+    "score": 1.0,
+    "objective": "original",
+    "parents": [],
+    "operation": "initial",
+    "groups": 2,
+    "calls": 2
+  },
+  {
+    "condition": "C",
+    "seed": 11,
+    "index": 2,
+    "prompt": "Solve the science multiple-choice question. Identify the single uppercase letter of the correct answer without considering layout, option sequence, or any specific details provided. Answer with just one letter.",
+    "score": 1.0,
+    "objective": "original",
+    "parents": [
+      "Solve the science multiple-choice question carefully. Choose the single best answer based on its content, regardless of layout or option order."
+    ],
+    "operation": "mutation",
+    "groups": 2,
+    "calls": 2
+  },
+  {
+    "condition": "C",
+    "seed": 11,
+    "index": 3,
+    "prompt": "Solve the science multiple-choice question. Select the single best answer from the options presented, ignoring their layout and order. Provide your response with just the uppercase letter of the chosen answer.",
+    "score": 1.0,
+    "objective": "original",
+    "parents": [
+      "Solve the science multiple-choice question carefully. Choose the single best answer based on its content, regardless of layout or option order.",
+      "Solve the science multiple-choice question. Identify the single best answer provided, focusing solely on the content within each option, without regard to their layout or the order they appear in. Respond with just the uppercase letter of your chosen answer."
+    ],
+    "operation": "crossover",
+    "groups": 2,
+    "calls": 2
+  },
+  {
+    "condition": "C",
+    "seed": 11,
+    "index": 4,
+    "prompt": "Solve this science multiple-choice question. Focus solely on the answer options given without being influenced by their layout or the order they appear in. Respond with just the uppercase letter of your chosen answer.",
+    "score": 1.0,
+    "objective": "original",
+    "parents": [
+      "Solve the science multiple-choice question carefully. Choose the single best answer based on its content, regardless of layout or option order."
+    ],
+    "operation": "mutation",
+    "groups": 2,
+    "calls": 2
+  },
+  {
+    "condition": "C",
+    "seed": 11,
+    "index": 5,
+    "prompt": "Solve the science multiple-choice question. The single best answer is provided, respond with just the uppercase letter of your choice. Ignore layout and option order.",
+    "score": 1.0,
+    "objective": "original",
+    "parents": [
+      "Solve the science multiple-choice question carefully. Choose the single best answer based on its content, regardless of layout or option order.",
+      "Solve the science multiple-choice question. Identify the single best answer provided, focusing solely on the content within each option, without regard to their layout or the order they appear in. Respond with just the uppercase letter of your chosen answer."
+    ],
+    "operation": "crossover",
+    "groups": 2,
+    "calls": 2
+  },
+  {
+    "condition": "C",
+    "seed": 11,
+    "index": 6,
+    "prompt": "Solve the science multiple-choice question carefully. Focus on the content presented in each option and select the single best answer marked with a capital letter without reading any specific example or referring to the answer layout.",
+    "score": 1.0,
+    "objective": "original",
+    "parents": [
+      "Solve the science multiple-choice question carefully. Choose the single best answer based on its content, regardless of layout or option order."
+    ],
+    "operation": "mutation",
+    "groups": 2,
+    "calls": 2
+  },
+  {
+    "condition": "C",
+    "seed": 11,
+    "index": 7,
+    "prompt": "Solve the science multiple-choice question. Focus on the content of each option for your answer, ignoring any differences in layout or option order. Respond with just the uppercase letter of your choice.",
+    "score": 1.0,
+    "objective": "original",
+    "parents": [
+      "Solve the science multiple-choice question carefully. Choose the single best answer based on its content, regardless of layout or option order.",
+      "Solve the science multiple-choice question. Identify the single best answer provided, focusing solely on the content within each option, without regard to their layout or the order they appear in. Respond with just the uppercase letter of your chosen answer."
+    ],
+    "operation": "crossover",
+    "groups": 2,
+    "calls": 2
+  },
+  {
+    "condition": "C",
+    "seed": 11,
+    "index": 8,
+    "prompt": "Solve the science multiple-choice question carefully. Choose the single best uppercase answer letter among A, B, C, D without looking at example facts or specific question details. Focus solely on each option’s content.",
+    "score": 1.0,
+    "objective": "original",
+    "parents": [
+      "Solve the science multiple-choice question carefully. Choose the single best answer based on its content, regardless of layout or option order."
+    ],
+    "operation": "mutation",
+    "groups": 2,
+    "calls": 2
+  },
+  {
+    "condition": "C",
+    "seed": 11,
+    "index": 9,
+    "prompt": "Solve the science multiple-choice question. Select the single best answer among those provided, ignoring their layout and option order. Respond with just the uppercase letter of your choice.",
+    "score": 1.0,
+    "objective": "original",
+    "parents": [
+      "Solve the science multiple-choice question carefully. Choose the single best answer based on its content, regardless of layout or option order.",
+      "Solve the science multiple-choice question. Identify the single best answer provided, focusing solely on the content within each option, without regard to their layout or the order they appear in. Respond with just the uppercase letter of your chosen answer."
+    ],
+    "operation": "crossover",
+    "groups": 2,
+    "calls": 2
+  },
+  {
+    "condition": "C",
+    "seed": 11,
+    "index": 10,
+    "prompt": "Solve the science multiple-choice question carefully. Identify the single best answer without being influenced by layout or option order. Respond with just the uppercase letter of your chosen answer.",
+    "score": 1.0,
+    "objective": "original",
+    "parents": [
+      "Solve the science multiple-choice question carefully. Choose the single best answer based on its content, regardless of layout or option order."
+    ],
+    "operation": "mutation",
+    "groups": 2,
+    "calls": 2
+  },
+  {
+    "condition": "C",
+    "seed": 11,
+    "index": 11,
+    "prompt": "Solve the science multiple-choice question. Identify the single best answer provided based on content alone, ignoring layout and option order. Answer with just the uppercase letter of your choice.",
+    "score": 1.0,
+    "objective": "original",
+    "parents": [
+      "Solve the science multiple-choice question carefully. Choose the single best answer based on its content, regardless of layout or option order.",
+      "Solve the science multiple-choice question. Identify the single best answer provided, focusing solely on the content within each option, without regard to their layout or the order they appear in. Respond with just the uppercase letter of your chosen answer."
+    ],
+    "operation": "crossover",
+    "groups": 2,
+    "calls": 2
+  },
+  {
+    "condition": "C",
+    "seed": 11,
+    "index": 12,
+    "prompt": "Solve the science multiple-choice question. Presently just return the uppercase letter of the best answer found without providing any explanations or additional information.",
+    "score": 1.0,
+    "objective": "original",
+    "parents": [
+      "Solve the science multiple-choice question carefully. Choose the single best answer based on its content, regardless of layout or option order."
+    ],
+    "operation": "mutation",
+    "groups": 2,
+    "calls": 2
+  },
+  {
+    "condition": "C",
+    "seed": 11,
+    "index": 13,
+    "prompt": "Solve the science multiple-choice question. Identify the single best answer provided by its content alone, ignoring its position in the options or its layout. Answer with just the uppercase letter of your choice.",
+    "score": 1.0,
+    "objective": "original",
+    "parents": [
+      "Solve the science multiple-choice question carefully. Choose the single best answer based on its content, regardless of layout or option order.",
+      "Solve the science multiple-choice question. Identify the single best answer provided, focusing solely on the content within each option, without regard to their layout or the order they appear in. Respond with just the uppercase letter of your chosen answer."
+    ],
+    "operation": "crossover",
+    "groups": 2,
+    "calls": 2
+  },
+  {
+    "condition": "C",
+    "seed": 11,
+    "index": 14,
+    "prompt": "Solve the science multiple-choice question. Identify the single uppercase letter corresponding to the most accurate answer without referencing the layout or option sequence. Select only one letter from A, B, C, or D.",
+    "score": 1.0,
+    "objective": "original",
+    "parents": [
+      "Solve the science multiple-choice question carefully. Choose the single best answer based on its content, regardless of layout or option order."
+    ],
+    "operation": "mutation",
+    "groups": 2,
+    "calls": 2
+  },
+  {
+    "condition": "C",
+    "seed": 11,
+    "index": 15,
+    "prompt": "Solve the science multiple-choice question. Select the single correct answer by its letter only (A, B, C, or D), ignoring any differences in layout or option sequence. Respond with just the uppercase letter.",
+    "score": 1.0,
+    "objective": "original",
+    "parents": [
+      "Solve the science multiple-choice question carefully. Choose the single best answer based on its content, regardless of layout or option order.",
+      "Solve the science multiple-choice question. Identify the single best answer provided, focusing solely on the content within each option, without regard to their layout or the order they appear in. Respond with just the uppercase letter of your chosen answer."
+    ],
+    "operation": "crossover",
+    "groups": 2,
+    "calls": 2
+  },
+  {
+    "condition": "C",
+    "seed": 11,
+    "index": 16,
+    "prompt": "Solve the science multiple-choice question carefully. Choose the single best answer, presented as a capital letter only, without considering its position or arrangement. Focus solely on the content provided.",
+    "score": 1.0,
+    "objective": "original",
+    "parents": [
+      "Solve the science multiple-choice question carefully. Choose the single best answer based on its content, regardless of layout or option order."
+    ],
+    "operation": "mutation",
+    "groups": 2,
+    "calls": 2
+  },
+  {
+    "condition": "C",
+    "seed": 11,
+    "index": 17,
+    "prompt": "Solve the science multiple-choice question. Select the single best answer from the options provided, ignoring any differences in layout or the sequence of the answers. Provide your response with just the uppercase letter of your chosen answer.",
+    "score": 1.0,
+    "objective": "original",
+    "parents": [
+      "Solve the science multiple-choice question carefully. Choose the single best answer based on its content, regardless of layout or option order.",
+      "Solve the science multiple-choice question. Identify the single best answer provided, focusing solely on the content within each option, without regard to their layout or the order they appear in. Respond with just the uppercase letter of your chosen answer."
+    ],
+    "operation": "crossover",
+    "groups": 2,
+    "calls": 2
+  },
+  {
+    "condition": "C",
+    "seed": 11,
+    "index": 18,
+    "prompt": "Solve the science multiple-choice question. Identify the single correct uppercase letter option among all choices, without referencing the layout or the specific answer order.",
+    "score": 1.0,
+    "objective": "original",
+    "parents": [
+      "Solve the science multiple-choice question carefully. Choose the single best answer based on its content, regardless of layout or option order."
+    ],
+    "operation": "mutation",
+    "groups": 2,
+    "calls": 2
+  },
+  {
+    "condition": "C",
+    "seed": 11,
+    "index": 19,
+    "prompt": "Solve the science multiple-choice question. Select the single best answer provided; focus solely on the content within each option, ignoring their layout or order. Respond with just the uppercase letter of your chosen answer.",
+    "score": 1.0,
+    "objective": "original",
+    "parents": [
+      "Solve the science multiple-choice question carefully. Choose the single best answer based on its content, regardless of layout or option order.",
+      "Solve the science multiple-choice question. Identify the single best answer provided, focusing solely on the content within each option, without regard to their layout or the order they appear in. Respond with just the uppercase letter of your chosen answer."
+    ],
+    "operation": "crossover",
+    "groups": 2,
+    "calls": 2
+  },
+  {
+    "condition": "D",
+    "seed": 11,
+    "index": 0,
+    "prompt": "Solve the science multiple-choice question carefully. Choose the single best answer based on its content, regardless of layout or option order.",
+    "score": 0.9,
+    "objective": "average",
+    "parents": [],
+    "operation": "initial",
+    "groups": 2,
+    "calls": 10
+  },
+  {
+    "condition": "D",
+    "seed": 11,
+    "index": 1,
+    "prompt": "Solve the science multiple-choice question. Identify the single best answer provided, focusing solely on the content within each option, without regard to their layout or the order they appear in. Respond with just the uppercase letter of your chosen answer.",
+    "score": 0.9,
+    "objective": "average",
+    "parents": [],
+    "operation": "initial",
+    "groups": 2,
+    "calls": 10
+  },
+  {
+    "condition": "D",
+    "seed": 11,
+    "index": 2,
+    "prompt": "Solve the science multiple-choice question. Identify the single uppercase letter of the correct answer without considering layout, option sequence, or any specific details provided. Answer with just one letter.",
+    "score": 1.0,
+    "objective": "average",
+    "parents": [
+      "Solve the science multiple-choice question carefully. Choose the single best answer based on its content, regardless of layout or option order."
+    ],
+    "operation": "mutation",
+    "groups": 2,
+    "calls": 10
+  },
+  {
+    "condition": "D",
+    "seed": 11,
+    "index": 3,
+    "prompt": "Solve the science multiple-choice question. Select the single uppercase letter corresponding to the correct answer, ignoring layout, option sequence, and any specific details given. Respond with just one letter.",
+    "score": 0.9,
+    "objective": "average",
+    "parents": [
+      "Solve the science multiple-choice question. Identify the single uppercase letter of the correct answer without considering layout, option sequence, or any specific details provided. Answer with just one letter.",
+      "Solve the science multiple-choice question carefully. Choose the single best answer based on its content, regardless of layout or option order."
+    ],
+    "operation": "crossover",
+    "groups": 2,
+    "calls": 10
+  },
+  {
+    "condition": "E",
+    "seed": 11,
+    "index": 0,
+    "prompt": "Solve the science multiple-choice question carefully. Choose the single best answer based on its content, regardless of layout or option order.",
+    "score": 0.5,
+    "objective": "robust",
+    "parents": [],
+    "operation": "initial",
+    "groups": 2,
+    "calls": 10
+  },
+  {
+    "condition": "E",
+    "seed": 11,
+    "index": 1,
+    "prompt": "Solve the science multiple-choice question. Identify the single best answer provided, focusing solely on the content within each option, without regard to their layout or the order they appear in. Respond with just the uppercase letter of your chosen answer.",
+    "score": 0.5,
+    "objective": "robust",
+    "parents": [],
+    "operation": "initial",
+    "groups": 2,
+    "calls": 10
+  },
+  {
+    "condition": "E",
+    "seed": 11,
+    "index": 2,
+    "prompt": "Solve the science multiple-choice question. Identify the single uppercase letter of the correct answer without considering layout, option sequence, or any specific details provided. Answer with just one letter.",
+    "score": 1.0,
+    "objective": "robust",
+    "parents": [
+      "Solve the science multiple-choice question carefully. Choose the single best answer based on its content, regardless of layout or option order."
+    ],
+    "operation": "mutation",
+    "groups": 2,
+    "calls": 10
+  },
+  {
+    "condition": "E",
+    "seed": 11,
+    "index": 3,
+    "prompt": "Solve the science multiple-choice question. Select the single uppercase letter corresponding to the correct answer, ignoring layout, option sequence, and any specific details given. Respond with just one letter.",
+    "score": 0.5,
+    "objective": "robust",
+    "parents": [
+      "Solve the science multiple-choice question. Identify the single uppercase letter of the correct answer without considering layout, option sequence, or any specific details provided. Answer with just one letter.",
+      "Solve the science multiple-choice question carefully. Choose the single best answer based on its content, regardless of layout or option order."
+    ],
+    "operation": "crossover",
+    "groups": 2,
+    "calls": 10
+  }
+]

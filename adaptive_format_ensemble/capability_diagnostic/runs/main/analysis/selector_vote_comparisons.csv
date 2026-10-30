@@ -1,0 +1,5 @@
+split,comparison,n,correct,accuracy,rescues,spoils,net_correct,accuracy_difference,invalid,difference,lower,upper,unit,conditional
+search,reference_plus_selected_selector_minus_vote,1500,1210,0.8066666666666666,44,41,3,0.0020000000000000018,0,0.002,-0.01,0.014,whole question paired bootstrap,fitted selectors fixed; no retraining uncertainty
+search,five_plus_selected_selector_minus_vote,1500,1219,0.8126666666666666,77,42,35,0.023333333333333317,0,0.023333333333333334,0.009333333333333334,0.03668333333333324,whole question paired bootstrap,fitted selectors fixed; no retraining uncertainty
+validation,reference_plus_selected_selector_minus_vote,489,395,0.8077709611451943,13,11,2,0.004089979550102263,0,0.00408997955010225,-0.016359918200409,0.022494887525562373,whole question paired bootstrap,fitted selectors fixed; no retraining uncertainty
+validation,five_plus_selected_selector_minus_vote,489,395,0.8077709611451943,22,14,8,0.01635991820040905,0,0.016359918200409,-0.006134969325153374,0.0408997955010225,whole question paired bootstrap,fitted selectors fixed; no retraining uncertainty

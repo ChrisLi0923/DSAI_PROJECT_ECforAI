@@ -1,0 +1,20 @@
+{
+  "new_final_calls": 5000,
+  "historical_search_validation_calls_reused": 5005,
+  "measured_singleton_cache_requests_per_second": 5.6160746778685,
+  "projected_final_inference_seconds": 890.3015516698359,
+  "projected_search_wall_seconds": 4232.63747215271,
+  "projected_search_process_cpu_seconds": 281.84894479999997,
+  "planned_total_minutes": [
+    100,
+    130
+  ],
+  "limitations": [
+    "early search timing, archive and validation overhead may grow",
+    "FULL SQLite fsync dominates measured wall time",
+    "small ten-request model throughput sample",
+    "future shared GPU and disk contention",
+    "model load, retries and downtime additional"
+  ],
+  "scope": "One bounded five-seed repair experiment; no final outcomes consulted."
+}

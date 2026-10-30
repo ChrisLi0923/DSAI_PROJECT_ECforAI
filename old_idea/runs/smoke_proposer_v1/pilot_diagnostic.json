@@ -1,0 +1,21 @@
+{
+  "evidence": "real-model smoke",
+  "passed": false,
+  "stop_reasons": [
+    "robust_score_near_zero"
+  ],
+  "questions": 2,
+  "invalid_rate": 0.0,
+  "robust_rate": 0.0,
+  "semantic_flip_group_rate": 1.0,
+  "semantic_flip_group_denominator": 2,
+  "repeat_disagreement_rate": 0.0,
+  "repeat_valid_pairs": 2,
+  "repeat_raw_disagreement_rate": 0.0,
+  "thresholds": {
+    "max_invalid_rate": 0.05,
+    "max_repeat_disagreement": 0.01,
+    "min_semantic_flip_group_rate": 0.02,
+    "min_robust_rate": 0.02
+  }
+}

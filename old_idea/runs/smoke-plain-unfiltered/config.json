@@ -1,0 +1,41 @@
+{
+  "mode": "smoke",
+  "model": {
+    "name": "Qwen/Qwen2.5-3B-Instruct",
+    "revision": "aa8e72537993ba99e69dfaafa59ed015b17504d1",
+    "batch_size": 16,
+    "target_max_tokens": 8,
+    "proposer_max_tokens": 160,
+    "max_input_tokens": 1536,
+    "min_free_gib": 14,
+    "memory_fraction": 0.5,
+    "inference_limit_seconds": 270
+  },
+  "data": {
+    "dataset": "allenai/ai2_arc",
+    "revision": "210d026faf9955653af8916fad021475a3f00453",
+    "split_seed": 20261027,
+    "pilot_n": 100,
+    "search_n": 128,
+    "validation_n": 100
+  },
+  "search": {
+    "seeds": [
+      11
+    ],
+    "population": 2,
+    "target_calls_per_method_seed": 40,
+    "validation_shortlist": 2,
+    "max_proposal_attempts": 4
+  },
+  "pilot_thresholds": {
+    "max_invalid_rate": 0.05,
+    "max_repeat_disagreement": 0.01,
+    "min_semantic_flip_group_rate": 0.02,
+    "min_robust_rate": 0.02
+  },
+  "analysis": {
+    "bootstrap_replicates": 100,
+    "seed": 9182
+  }
+}

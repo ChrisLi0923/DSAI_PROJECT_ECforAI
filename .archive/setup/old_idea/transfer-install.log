@@ -1,0 +1,6 @@
+Collecting hf_transfer==0.1.9
+  Downloading hf_transfer-0.1.9-cp38-abi3-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (1.7 kB)
+Downloading hf_transfer-0.1.9-cp38-abi3-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (3.6 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 3.6/3.6 MB 252.5 kB/s  0:00:14
+Installing collected packages: hf_transfer
+Successfully installed hf_transfer-0.1.9

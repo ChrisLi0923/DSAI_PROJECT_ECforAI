@@ -1,0 +1,6 @@
+{
+  "validation_and_selected_diagnostic_wall_seconds": 7.802029646933079,
+  "validation_policy_evaluations": 42378,
+  "validation_question_policy_replays": 20722842,
+  "selected_search_diagnostic_replays": 49152
+}

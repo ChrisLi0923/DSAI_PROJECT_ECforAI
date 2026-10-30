@@ -1,0 +1,22 @@
+{
+  "planned_calls": 6267,
+  "smoke_calls_reused": 12,
+  "remaining_calls": 6255,
+  "extra_verification_calls": 0,
+  "measured_smoke_input_tokens": 1806,
+  "measured_smoke_output_tokens": 24,
+  "measured_generation_seconds": 2.0365734100341797,
+  "measured_generation_seconds_per_call": 0.16971445083618164,
+  "planned_input_tokens": 957833,
+  "planned_mean_input_tokens": 152.83756183181745,
+  "planned_max_input_tokens": 246,
+  "estimated_output_tokens": 12534.0,
+  "input_length_scale": 1.015531972304435,
+  "estimated_remaining_generation_minutes": 17.967534515314643,
+  "observed_checkpoint_extrapolation_minutes": 3.7307868544012313,
+  "planned_wall_minutes_range": [
+    31.207817780630638,
+    47.05697846548858
+  ],
+  "exclusions": "Twelve singleton calls across all evidence lengths, only three per condition. Includes 30-80% timing margin and3-8min loading/CPU allowance. Excludes future job contention, retries, downtime and new experiments; token outputs may vary."
+}

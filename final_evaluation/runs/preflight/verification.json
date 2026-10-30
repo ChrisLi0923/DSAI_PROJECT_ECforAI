@@ -1,0 +1,119 @@
+{
+  "passed": true,
+  "fingerprint": {
+    "files": {
+      "evaluation/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "evaluation/analysis.py": "45b77ec6e388c3d8237375e4f847a1822688e8c148bf2e294dece7311774a24c",
+      "evaluation/cache.py": "2ed64cd999eea445f8176e633da71eb21327c3a7fd65684317b6067d30673b8a",
+      "evaluation/common.py": "f8a55c255450ac4bd3246a601458a77c5f64d75e90cb4db5125a7dfa561e05a3",
+      "evaluation/data.py": "ae94b2c98828de3f089f7a576b2fe187646950b141a4c4d9a91a35356d1665de",
+      "evaluation/documents.py": "d96557c28cfe1f41dfaa74e9c797e5497edf592267ce1d1cb5a8ec1d6103eb1d",
+      "evaluation/gpu.py": "d3080390873e3ea6a469c24965d0e3ffa50b791edb60180618fdc3788e83ea3b",
+      "evaluation/history.py": "a9b27fb2a072ee77057da62f1c7c6057f16cacb6a3b3376aa3dd4dc3a5a0cb62",
+      "evaluation/package.py": "3f20cabfc92cbc9feee3c2d8b9c77f51fb09b92081e02e4504748c032a15732b",
+      "evaluation/replay.py": "3ce68c8f9859d026b22263949fcbfd79149a94b44d076ebe4726602801e64142",
+      "evaluation/report.py": "2bfb08bb6cc61c513abc275268aebf0d975233b5d7980b8a0ff5af14b3db0e49",
+      "evaluation/workflow.py": "c01fc27434df4392eb3e32851fed5c77fad52ecc12756b9741888335a2319fad",
+      "reused/__init__.py": "e130e35a14d9a1cd59b8546fd551ebdd03cf3d54f28fba47303f0840cd3ebf8c",
+      "reused/core.py": "4aa04aad63adff953899297048b779fece5db948797b256414a21b5b14335b55",
+      "reused/gpu_select.py": "ab7dff4c088f6311d3275d1e7e8253a4fafc148493babd3a68da1121b2932d25",
+      "reused/model.py": "81b751a6d8f24f103c5ae76bd4c2ba1e90ee42b1f90c36fd5399ecab3020fbf8",
+      "reused/storage.py": "808da4b91759088430898e7f654c552d825bc59289671fbb48b3099e4efa564d",
+      "afe/__init__.py": "78b972ae7e1877d1b47d7a90e5b075818edcf51c686810e4804ff02724ad439c",
+      "afe/cache.py": "44590d7ade9e8077e59b8e868abd0b381400d5b78e2505c4d1eb07184e25030a",
+      "afe/policy.py": "29b3919d9229ca23f7e254e579e01aad6f9423089d8e123be0948e04b3fc0dbf",
+      "scripts/check_launch.py": "74c708c18523065c3fbb93bd739c022ed189929bd0316ef442c3f538402ae2ea",
+      "scripts/estimate.py": "aad2968b640c033199436b02f72878b188884e1a7cfa2e8006044cc9132605ed",
+      "scripts/launch_tmux.py": "634bd468e334690803148aef137efa611c914cd85726055adcab249425eaf546",
+      "scripts/model_smoke.py": "251414e4c840b08539be53c0531f5d3b6d02f39aedb445fc27f05184deedb969",
+      "scripts/prepare.py": "000ccea7680d7ea8ecd5ff46fedea7ba926004aa6f3b99b4b1cc916017f91afd",
+      "scripts/prepare_references.py": "d3de619afd1b42afc3f8be3f939f04b51e7fa8a58879a3ee742d62a4bacaed89",
+      "scripts/reproduce.py": "90448b916d944f591d350a3c798ed49548f11d5a8c1c4c4f0efab32a29e83c91",
+      "scripts/run_main.sh": "257ee004da19aef606f7725d2c8c01a54b8a4dddbdd840362a94d4c1d140c52f",
+      "scripts/verify.py": "9f25a6e48ee4dda1f0d70f8a0966ce121231fad140c98a329c4d1c09755d9f17",
+      "tests/test_final.py": "43071fbcb911df255b8a91b678be4e993c4ff3839ea4b6dc44c97eaa0fe598b4",
+      "configs/main.json": "78e7e4a4a216ae7199edc7dcbbbfe9766f479e2b50aa2a4bb3a4fb0367c207fd",
+      "configs/starting_state.json": "944ca8de99c8037e49b155279e0a86bd250d1949438aaba6c5fe4881c779a52b"
+    },
+    "config": {
+      "version": 1,
+      "model": {
+        "name": "Qwen/Qwen2.5-3B-Instruct",
+        "revision": "aa8e72537993ba99e69dfaafa59ed015b17504d1",
+        "batch_size": 1,
+        "target_max_tokens": 8,
+        "proposer_max_tokens": 160,
+        "max_input_tokens": 1536,
+        "min_free_gib": 18,
+        "memory_fraction": 0.4
+      },
+      "search_seeds": [
+        11,
+        29,
+        47,
+        71,
+        101
+      ],
+      "validation_call_allowance": 3.0,
+      "utility_call_penalty": 0.01,
+      "bootstrap": {
+        "replicates": 2000,
+        "seed": 301050,
+        "unit": "whole source question",
+        "fitted_seeds": "keep all five seeds inside each question; average within question before differences",
+        "scope": "conditional on these fitted policies; no future-search uncertainty"
+      },
+      "primary_methodological": [
+        "G2",
+        "G1"
+      ],
+      "primary_practical": [
+        "ordered_triple",
+        "fixed_three"
+      ],
+      "secondary": [
+        [
+          "G1",
+          "G0"
+        ],
+        [
+          "ordered_triple",
+          "original"
+        ],
+        [
+          "ordered_triple",
+          "best_single"
+        ],
+        [
+          "G1",
+          "ordered_triple"
+        ],
+        [
+          "G2",
+          "ordered_triple"
+        ]
+      ],
+      "final_questions": 1000,
+      "planned_main_calls": 5000,
+      "stop_after_final": true
+    },
+    "manifest_sha256": "8ada6495653326db842f53ffcc002bdf2d7d1de8b9327d03c870795a0520e782",
+    "policies_sha256": "b7d5e60e24421cbb941852761b6ecd3a7e32190a267d55742c55b702d8986255",
+    "references_sha256": "ccc9656489df74d18a637ecd017d766b3bbab54317baba7d393d1a80aa0d6f51",
+    "historical_summary_sha256": "a68357b54863863d7d9b61b7afcc9dbc45fca322c4a92141f57f6647e8508ca0",
+    "requirements_sha256": "ee79223871d751f3fce9a50163663d93573d82a40d424d78f0d360f0b7f1b203",
+    "packages": {
+      "numpy": "2.2.5",
+      "torch": "2.6.0+cu124",
+      "transformers": "4.51.3",
+      "pyarrow": "26.0.0",
+      "matplotlib": "3.10.1",
+      "python-docx": "1.2.0",
+      "reportlab": "4.4.3",
+      "pypdf": "6.1.3"
+    }
+  },
+  "freeze_sha256": "f253a58bfd21621c98db5e1e1659639e171ca4116fe348c428b02f7b01dfefe7",
+  "wall_seconds": 6.437915913760662,
+  "reserved_model_calls": 0
+}

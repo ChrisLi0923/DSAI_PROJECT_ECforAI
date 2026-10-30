@@ -1,0 +1,776 @@
+{
+  "exports": [
+    {
+      "id": "original",
+      "method": "original",
+      "seed": 0,
+      "policy": {
+        "format": 0,
+        "predicate": "never",
+        "yes": null,
+        "no": null
+      },
+      "origin": "predeclared original layout, fixed manual instruction"
+    },
+    {
+      "id": "best_single",
+      "method": "best_single",
+      "seed": 0,
+      "target_calls": 3.0,
+      "policy": {
+        "format": 4,
+        "predicate": "never",
+        "yes": null,
+        "no": null
+      },
+      "validation_accuracy": 0.7914110429447853,
+      "validation_calls": 1.0,
+      "cap_feasible": true,
+      "validation_utility": 0.7814110429447853,
+      "search_accuracy": 0.755859375,
+      "search_calls": 1.0,
+      "search_utility": 0.745859375,
+      "search_validation_accuracy_gap": -0.03555166794478526,
+      "archived_id": "single/seed0/cap3",
+      "archive_source": "/home/hli/dsai/adaptive_format_ensemble/followup_active_utility/runs/main/FROZEN.json",
+      "archive_source_sha256": "41195399dd46cb79c07823bb5b13d705bef3e2f2448c5243bbb614302cf2d19b"
+    },
+    {
+      "id": "fixed_three",
+      "method": "fixed_three",
+      "seed": 0,
+      "target_calls": 3.0,
+      "policy": {
+        "format": 0,
+        "predicate": "never",
+        "yes": null,
+        "no": {
+          "format": 3,
+          "predicate": "never",
+          "yes": null,
+          "no": {
+            "format": 4,
+            "predicate": "never",
+            "yes": null,
+            "no": null
+          }
+        }
+      },
+      "validation_accuracy": 0.8077709611451943,
+      "validation_calls": 3.0,
+      "cap_feasible": true,
+      "validation_utility": 0.7777709611451943,
+      "search_accuracy": 0.791015625,
+      "search_calls": 3.0,
+      "search_utility": 0.761015625,
+      "search_validation_accuracy_gap": -0.01675533614519431,
+      "archived_id": "fixed_three/seed0/cap3",
+      "archive_source": "/home/hli/dsai/adaptive_format_ensemble/followup_active_utility/runs/main/FROZEN.json",
+      "archive_source_sha256": "41195399dd46cb79c07823bb5b13d705bef3e2f2448c5243bbb614302cf2d19b"
+    },
+    {
+      "id": "ordered_triple",
+      "method": "ordered_triple",
+      "seed": 0,
+      "target_calls": 3.0,
+      "policy": {
+        "format": 4,
+        "predicate": "agreement2",
+        "yes": null,
+        "no": {
+          "format": 3,
+          "predicate": "agreement2",
+          "yes": null,
+          "no": {
+            "format": 0,
+            "predicate": "agreement2",
+            "yes": null,
+            "no": null
+          }
+        }
+      },
+      "validation_accuracy": 0.8077709611451943,
+      "validation_calls": 2.2065439672801634,
+      "cap_feasible": true,
+      "validation_utility": 0.7857055214723927,
+      "search_accuracy": 0.791015625,
+      "search_calls": 2.240234375,
+      "search_utility": 0.76861328125,
+      "search_validation_accuracy_gap": -0.01675533614519431,
+      "archived_id": "ordered_triple/seed0/cap3",
+      "archive_source": "/home/hli/dsai/adaptive_format_ensemble/followup_active_utility/runs/main/FROZEN.json",
+      "archive_source_sha256": "41195399dd46cb79c07823bb5b13d705bef3e2f2448c5243bbb614302cf2d19b"
+    },
+    {
+      "id": "G0/seed11",
+      "method": "G0",
+      "seed": 11,
+      "target_calls": 3.0,
+      "policy": {
+        "format": 3,
+        "predicate": "last_diff",
+        "yes": {
+          "format": 4,
+          "predicate": "last_diff",
+          "yes": {
+            "format": 0,
+            "predicate": "remaining1",
+            "yes": null,
+            "no": null
+          },
+          "no": {
+            "format": 2,
+            "predicate": "last_diff",
+            "yes": {
+              "format": 0,
+              "predicate": "remaining1",
+              "yes": null,
+              "no": {
+                "format": 1,
+                "predicate": "unanimous",
+                "yes": null,
+                "no": null
+              }
+            },
+            "no": {
+              "format": 1,
+              "predicate": "invalid",
+              "yes": {
+                "format": 0,
+                "predicate": "invalid",
+                "yes": null,
+                "no": null
+              },
+              "no": {
+                "format": 0,
+                "predicate": "remaining1",
+                "yes": null,
+                "no": null
+              }
+            }
+          }
+        },
+        "no": {
+          "format": 0,
+          "predicate": "last_diff",
+          "yes": {
+            "format": 4,
+            "predicate": "never",
+            "yes": null,
+            "no": null
+          },
+          "no": null
+        }
+      },
+      "validation_accuracy": 0.8077709611451943,
+      "validation_calls": 2.214723926380368,
+      "cap_feasible": true,
+      "validation_utility": 0.7856237218813906,
+      "search_accuracy": 0.791015625,
+      "search_calls": 2.26171875,
+      "search_utility": 0.7683984375,
+      "search_validation_accuracy_gap": -0.01675533614519431,
+      "archived_id": "G0/seed11/cap3",
+      "archive_source": "/home/hli/dsai/adaptive_format_ensemble/followup_active_utility/runs/main/FROZEN.json",
+      "archive_source_sha256": "41195399dd46cb79c07823bb5b13d705bef3e2f2448c5243bbb614302cf2d19b"
+    },
+    {
+      "id": "G0/seed29",
+      "method": "G0",
+      "seed": 29,
+      "target_calls": 3.0,
+      "policy": {
+        "format": 3,
+        "predicate": "agreement2",
+        "yes": {
+          "format": 4,
+          "predicate": "remaining1",
+          "yes": {
+            "format": 0,
+            "predicate": "invalid",
+            "yes": null,
+            "no": {
+              "format": 1,
+              "predicate": "remaining1",
+              "yes": {
+                "format": 2,
+                "predicate": "invalid",
+                "yes": null,
+                "no": null
+              },
+              "no": null
+            }
+          },
+          "no": null
+        },
+        "no": {
+          "format": 4,
+          "predicate": "agreement2",
+          "yes": null,
+          "no": {
+            "format": 0,
+            "predicate": "margin2",
+            "yes": {
+              "format": 2,
+              "predicate": "margin2",
+              "yes": {
+                "format": 1,
+                "predicate": "margin2",
+                "yes": null,
+                "no": null
+              },
+              "no": {
+                "format": 1,
+                "predicate": "unanimous",
+                "yes": null,
+                "no": null
+              }
+            },
+            "no": null
+          }
+        }
+      },
+      "validation_accuracy": 0.8077709611451943,
+      "validation_calls": 2.2065439672801634,
+      "cap_feasible": true,
+      "validation_utility": 0.7857055214723927,
+      "search_accuracy": 0.791015625,
+      "search_calls": 2.240234375,
+      "search_utility": 0.76861328125,
+      "search_validation_accuracy_gap": -0.01675533614519431,
+      "archived_id": "G0/seed29/cap3",
+      "archive_source": "/home/hli/dsai/adaptive_format_ensemble/followup_active_utility/runs/main/FROZEN.json",
+      "archive_source_sha256": "41195399dd46cb79c07823bb5b13d705bef3e2f2448c5243bbb614302cf2d19b"
+    },
+    {
+      "id": "G0/seed47",
+      "method": "G0",
+      "seed": 47,
+      "target_calls": 3.0,
+      "policy": {
+        "format": 3,
+        "predicate": "never",
+        "yes": null,
+        "no": {
+          "format": 4,
+          "predicate": "agreement2",
+          "yes": null,
+          "no": {
+            "format": 0,
+            "predicate": "unanimous",
+            "yes": null,
+            "no": null
+          }
+        }
+      },
+      "validation_accuracy": 0.8077709611451943,
+      "validation_calls": 2.2065439672801634,
+      "cap_feasible": true,
+      "validation_utility": 0.7857055214723927,
+      "search_accuracy": 0.791015625,
+      "search_calls": 2.240234375,
+      "search_utility": 0.76861328125,
+      "search_validation_accuracy_gap": -0.01675533614519431,
+      "archived_id": "G0/seed47/cap3",
+      "archive_source": "/home/hli/dsai/adaptive_format_ensemble/followup_active_utility/runs/main/FROZEN.json",
+      "archive_source_sha256": "41195399dd46cb79c07823bb5b13d705bef3e2f2448c5243bbb614302cf2d19b"
+    },
+    {
+      "id": "G0/seed71",
+      "method": "G0",
+      "seed": 71,
+      "target_calls": 3.0,
+      "policy": {
+        "format": 0,
+        "predicate": "agreement2",
+        "yes": null,
+        "no": {
+          "format": 3,
+          "predicate": "last_diff",
+          "yes": {
+            "format": 4,
+            "predicate": "unanimous",
+            "yes": {
+              "format": 1,
+              "predicate": "last_diff",
+              "yes": null,
+              "no": null
+            },
+            "no": null
+          },
+          "no": null
+        }
+      },
+      "validation_accuracy": 0.8077709611451943,
+      "validation_calls": 2.214723926380368,
+      "cap_feasible": true,
+      "validation_utility": 0.7856237218813906,
+      "search_accuracy": 0.791015625,
+      "search_calls": 2.26171875,
+      "search_utility": 0.7683984375,
+      "search_validation_accuracy_gap": -0.01675533614519431,
+      "archived_id": "G0/seed71/cap3",
+      "archive_source": "/home/hli/dsai/adaptive_format_ensemble/followup_active_utility/runs/main/FROZEN.json",
+      "archive_source_sha256": "41195399dd46cb79c07823bb5b13d705bef3e2f2448c5243bbb614302cf2d19b"
+    },
+    {
+      "id": "G0/seed101",
+      "method": "G0",
+      "seed": 101,
+      "target_calls": 3.0,
+      "policy": {
+        "format": 3,
+        "predicate": "agreement2",
+        "yes": {
+          "format": 2,
+          "predicate": "invalid",
+          "yes": {
+            "format": 4,
+            "predicate": "invalid",
+            "yes": {
+              "format": 0,
+              "predicate": "unanimous",
+              "yes": null,
+              "no": null
+            },
+            "no": null
+          },
+          "no": {
+            "format": 4,
+            "predicate": "remaining1",
+            "yes": {
+              "format": 0,
+              "predicate": "never",
+              "yes": {
+                "format": 1,
+                "predicate": "margin2",
+                "yes": null,
+                "no": null
+              },
+              "no": {
+                "format": 1,
+                "predicate": "margin2",
+                "yes": null,
+                "no": null
+              }
+            },
+            "no": null
+          }
+        },
+        "no": {
+          "format": 4,
+          "predicate": "remaining1",
+          "yes": null,
+          "no": {
+            "format": 0,
+            "predicate": "never",
+            "yes": null,
+            "no": null
+          }
+        }
+      },
+      "validation_accuracy": 0.8077709611451943,
+      "validation_calls": 3.0,
+      "cap_feasible": true,
+      "validation_utility": 0.7777709611451943,
+      "search_accuracy": 0.791015625,
+      "search_calls": 3.0,
+      "search_utility": 0.761015625,
+      "search_validation_accuracy_gap": -0.01675533614519431,
+      "archived_id": "G0/seed101/cap3",
+      "archive_source": "/home/hli/dsai/adaptive_format_ensemble/followup_active_utility/runs/main/FROZEN.json",
+      "archive_source_sha256": "41195399dd46cb79c07823bb5b13d705bef3e2f2448c5243bbb614302cf2d19b"
+    },
+    {
+      "id": "G1/seed11",
+      "method": "G1",
+      "seed": 11,
+      "target_calls": 3.0,
+      "policy": {
+        "format": 3,
+        "predicate": "last_diff",
+        "yes": {
+          "format": 4,
+          "predicate": "margin2",
+          "yes": {
+            "format": 0,
+            "predicate": "margin2",
+            "yes": null,
+            "no": {
+              "format": 1,
+              "predicate": "unanimous",
+              "yes": null,
+              "no": null
+            }
+          },
+          "no": null
+        },
+        "no": {
+          "format": 4,
+          "predicate": "last_diff",
+          "yes": {
+            "format": 0,
+            "predicate": "remaining1",
+            "yes": null,
+            "no": null
+          },
+          "no": null
+        }
+      },
+      "validation_accuracy": 0.8077709611451943,
+      "validation_calls": 2.2065439672801634,
+      "cap_feasible": true,
+      "validation_utility": 0.7857055214723927,
+      "search_accuracy": 0.791015625,
+      "search_calls": 2.240234375,
+      "search_utility": 0.76861328125,
+      "search_validation_accuracy_gap": -0.01675533614519431,
+      "archived_id": "G1/seed11/cap3",
+      "archive_source": "/home/hli/dsai/adaptive_format_ensemble/followup_active_utility/runs/main/FROZEN.json",
+      "archive_source_sha256": "41195399dd46cb79c07823bb5b13d705bef3e2f2448c5243bbb614302cf2d19b"
+    },
+    {
+      "id": "G1/seed29",
+      "method": "G1",
+      "seed": 29,
+      "target_calls": 3.0,
+      "policy": {
+        "format": 3,
+        "predicate": "margin2",
+        "yes": {
+          "format": 0,
+          "predicate": "remaining1",
+          "yes": {
+            "format": 2,
+            "predicate": "never",
+            "yes": null,
+            "no": null
+          },
+          "no": null
+        },
+        "no": {
+          "format": 4,
+          "predicate": "agreement2",
+          "yes": null,
+          "no": {
+            "format": 0,
+            "predicate": "unanimous",
+            "yes": null,
+            "no": null
+          }
+        }
+      },
+      "validation_accuracy": 0.8077709611451943,
+      "validation_calls": 2.2065439672801634,
+      "cap_feasible": true,
+      "validation_utility": 0.7857055214723927,
+      "search_accuracy": 0.791015625,
+      "search_calls": 2.240234375,
+      "search_utility": 0.76861328125,
+      "search_validation_accuracy_gap": -0.01675533614519431,
+      "archived_id": "G1/seed29/cap3",
+      "archive_source": "/home/hli/dsai/adaptive_format_ensemble/followup_active_utility/runs/main/FROZEN.json",
+      "archive_source_sha256": "41195399dd46cb79c07823bb5b13d705bef3e2f2448c5243bbb614302cf2d19b"
+    },
+    {
+      "id": "G1/seed47",
+      "method": "G1",
+      "seed": 47,
+      "target_calls": 3.0,
+      "policy": {
+        "format": 3,
+        "predicate": "never",
+        "yes": null,
+        "no": {
+          "format": 4,
+          "predicate": "unanimous",
+          "yes": null,
+          "no": {
+            "format": 0,
+            "predicate": "unanimous",
+            "yes": {
+              "format": 2,
+              "predicate": "remaining1",
+              "yes": null,
+              "no": {
+                "format": 1,
+                "predicate": "invalid",
+                "yes": null,
+                "no": null
+              }
+            },
+            "no": null
+          }
+        }
+      },
+      "validation_accuracy": 0.8077709611451943,
+      "validation_calls": 2.2065439672801634,
+      "cap_feasible": true,
+      "validation_utility": 0.7857055214723927,
+      "search_accuracy": 0.791015625,
+      "search_calls": 2.240234375,
+      "search_utility": 0.76861328125,
+      "search_validation_accuracy_gap": -0.01675533614519431,
+      "archived_id": "G1/seed47/cap3",
+      "archive_source": "/home/hli/dsai/adaptive_format_ensemble/followup_active_utility/runs/main/FROZEN.json",
+      "archive_source_sha256": "41195399dd46cb79c07823bb5b13d705bef3e2f2448c5243bbb614302cf2d19b"
+    },
+    {
+      "id": "G1/seed71",
+      "method": "G1",
+      "seed": 71,
+      "target_calls": 3.0,
+      "policy": {
+        "format": 3,
+        "predicate": "never",
+        "yes": null,
+        "no": {
+          "format": 4,
+          "predicate": "agreement2",
+          "yes": null,
+          "no": {
+            "format": 0,
+            "predicate": "agreement2",
+            "yes": null,
+            "no": null
+          }
+        }
+      },
+      "validation_accuracy": 0.8077709611451943,
+      "validation_calls": 2.2065439672801634,
+      "cap_feasible": true,
+      "validation_utility": 0.7857055214723927,
+      "search_accuracy": 0.791015625,
+      "search_calls": 2.240234375,
+      "search_utility": 0.76861328125,
+      "search_validation_accuracy_gap": -0.01675533614519431,
+      "archived_id": "G1/seed71/cap3",
+      "archive_source": "/home/hli/dsai/adaptive_format_ensemble/followup_active_utility/runs/main/FROZEN.json",
+      "archive_source_sha256": "41195399dd46cb79c07823bb5b13d705bef3e2f2448c5243bbb614302cf2d19b"
+    },
+    {
+      "id": "G1/seed101",
+      "method": "G1",
+      "seed": 101,
+      "target_calls": 3.0,
+      "policy": {
+        "format": 3,
+        "predicate": "never",
+        "yes": null,
+        "no": {
+          "format": 4,
+          "predicate": "unanimous",
+          "yes": null,
+          "no": {
+            "format": 0,
+            "predicate": "remaining1",
+            "yes": null,
+            "no": null
+          }
+        }
+      },
+      "validation_accuracy": 0.8077709611451943,
+      "validation_calls": 2.2065439672801634,
+      "cap_feasible": true,
+      "validation_utility": 0.7857055214723927,
+      "search_accuracy": 0.791015625,
+      "search_calls": 2.240234375,
+      "search_utility": 0.76861328125,
+      "search_validation_accuracy_gap": -0.01675533614519431,
+      "archived_id": "G1/seed101/cap3",
+      "archive_source": "/home/hli/dsai/adaptive_format_ensemble/followup_active_utility/runs/main/FROZEN.json",
+      "archive_source_sha256": "41195399dd46cb79c07823bb5b13d705bef3e2f2448c5243bbb614302cf2d19b"
+    },
+    {
+      "id": "G2/seed11",
+      "method": "G2",
+      "seed": 11,
+      "target_calls": 3.0,
+      "policy": {
+        "format": 4,
+        "predicate": "margin2",
+        "yes": null,
+        "no": {
+          "format": 3,
+          "predicate": "agreement2",
+          "yes": null,
+          "no": {
+            "format": 0,
+            "predicate": "remaining1",
+            "yes": null,
+            "no": null
+          }
+        }
+      },
+      "validation_accuracy": 0.8077709611451943,
+      "validation_calls": 2.2065439672801634,
+      "cap_feasible": true,
+      "validation_utility": 0.7857055214723927,
+      "search_accuracy": 0.791015625,
+      "search_calls": 2.240234375,
+      "search_utility": 0.76861328125,
+      "search_validation_accuracy_gap": -0.01675533614519431,
+      "archived_id": "G2/seed11/cap3",
+      "archive_source": "/home/hli/dsai/adaptive_format_ensemble/followup_active_utility/runs/main/FROZEN.json",
+      "archive_source_sha256": "41195399dd46cb79c07823bb5b13d705bef3e2f2448c5243bbb614302cf2d19b"
+    },
+    {
+      "id": "G2/seed29",
+      "method": "G2",
+      "seed": 29,
+      "target_calls": 3.0,
+      "policy": {
+        "format": 3,
+        "predicate": "agreement2",
+        "yes": null,
+        "no": {
+          "format": 4,
+          "predicate": "margin2",
+          "yes": null,
+          "no": {
+            "format": 0,
+            "predicate": "remaining1",
+            "yes": null,
+            "no": null
+          }
+        }
+      },
+      "validation_accuracy": 0.8077709611451943,
+      "validation_calls": 2.2065439672801634,
+      "cap_feasible": true,
+      "validation_utility": 0.7857055214723927,
+      "search_accuracy": 0.791015625,
+      "search_calls": 2.240234375,
+      "search_utility": 0.76861328125,
+      "search_validation_accuracy_gap": -0.01675533614519431,
+      "archived_id": "G2/seed29/cap3",
+      "archive_source": "/home/hli/dsai/adaptive_format_ensemble/followup_active_utility/runs/main/FROZEN.json",
+      "archive_source_sha256": "41195399dd46cb79c07823bb5b13d705bef3e2f2448c5243bbb614302cf2d19b"
+    },
+    {
+      "id": "G2/seed47",
+      "method": "G2",
+      "seed": 47,
+      "target_calls": 3.0,
+      "policy": {
+        "format": 3,
+        "predicate": "never",
+        "yes": null,
+        "no": {
+          "format": 0,
+          "predicate": "agreement2",
+          "yes": null,
+          "no": {
+            "format": 4,
+            "predicate": "remaining1",
+            "yes": {
+              "format": 1,
+              "predicate": "invalid",
+              "yes": {
+                "format": 2,
+                "predicate": "invalid",
+                "yes": null,
+                "no": null
+              },
+              "no": {
+                "format": 2,
+                "predicate": "margin2",
+                "yes": null,
+                "no": null
+              }
+            },
+            "no": null
+          }
+        }
+      },
+      "validation_accuracy": 0.8077709611451943,
+      "validation_calls": 2.214723926380368,
+      "cap_feasible": true,
+      "validation_utility": 0.7856237218813906,
+      "search_accuracy": 0.791015625,
+      "search_calls": 2.26171875,
+      "search_utility": 0.7683984375,
+      "search_validation_accuracy_gap": -0.01675533614519431,
+      "archived_id": "G2/seed47/cap3",
+      "archive_source": "/home/hli/dsai/adaptive_format_ensemble/followup_active_utility/runs/main/FROZEN.json",
+      "archive_source_sha256": "41195399dd46cb79c07823bb5b13d705bef3e2f2448c5243bbb614302cf2d19b"
+    },
+    {
+      "id": "G2/seed71",
+      "method": "G2",
+      "seed": 71,
+      "target_calls": 3.0,
+      "policy": {
+        "format": 3,
+        "predicate": "margin2",
+        "yes": null,
+        "no": {
+          "format": 4,
+          "predicate": "last_diff",
+          "yes": {
+            "format": 0,
+            "predicate": "last_diff",
+            "yes": null,
+            "no": null
+          },
+          "no": null
+        }
+      },
+      "validation_accuracy": 0.8077709611451943,
+      "validation_calls": 2.2065439672801634,
+      "cap_feasible": true,
+      "validation_utility": 0.7857055214723927,
+      "search_accuracy": 0.791015625,
+      "search_calls": 2.240234375,
+      "search_utility": 0.76861328125,
+      "search_validation_accuracy_gap": -0.01675533614519431,
+      "archived_id": "G2/seed71/cap3",
+      "archive_source": "/home/hli/dsai/adaptive_format_ensemble/followup_active_utility/runs/main/FROZEN.json",
+      "archive_source_sha256": "41195399dd46cb79c07823bb5b13d705bef3e2f2448c5243bbb614302cf2d19b"
+    },
+    {
+      "id": "G2/seed101",
+      "method": "G2",
+      "seed": 101,
+      "target_calls": 3.0,
+      "policy": {
+        "format": 4,
+        "predicate": "never",
+        "yes": null,
+        "no": {
+          "format": 0,
+          "predicate": "margin2",
+          "yes": null,
+          "no": {
+            "format": 3,
+            "predicate": "unanimous",
+            "yes": {
+              "format": 1,
+              "predicate": "remaining1",
+              "yes": null,
+              "no": null
+            },
+            "no": null
+          }
+        }
+      },
+      "validation_accuracy": 0.8077709611451943,
+      "validation_calls": 2.2372188139059306,
+      "cap_feasible": true,
+      "validation_utility": 0.785398773006135,
+      "search_accuracy": 0.791015625,
+      "search_calls": 2.232421875,
+      "search_utility": 0.76869140625,
+      "search_validation_accuracy_gap": -0.01675533614519431,
+      "archived_id": "G2/seed101/cap3",
+      "archive_source": "/home/hli/dsai/adaptive_format_ensemble/followup_active_utility/runs/main/FROZEN.json",
+      "archive_source_sha256": "41195399dd46cb79c07823bb5b13d705bef3e2f2448c5243bbb614302cf2d19b"
+    }
+  ],
+  "archive_source": "/home/hli/dsai/adaptive_format_ensemble/followup_active_utility/runs/main/FROZEN.json",
+  "archive_file_sha256": "41195399dd46cb79c07823bb5b13d705bef3e2f2448c5243bbb614302cf2d19b",
+  "archive_freeze_sha256": "11186bb7bb9a875fdf9ac2e5c99e36fd44c2056d7b64d7e339e12437d1bd6ddd",
+  "selection_record_sha256": "0f517404cd4d75045a9dd89b57e2f4502c2784091fa996e026e7419c157388be",
+  "validation_selection_rule": "highest accuracy under mean-call cap; then calls, size, policy hash; if infeasible lowest calls then accuracy,size,hash",
+  "scope": "All five already fitted seeds at the primary three-call validation allowance, no seed selection using any final pool. Comparisons finalized after exploratory studies and before this reserve evaluation."
+}

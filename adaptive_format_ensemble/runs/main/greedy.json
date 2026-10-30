@@ -1,0 +1,82 @@
+{
+  "policies": [
+    {
+      "format": 0,
+      "predicate": "never",
+      "yes": null,
+      "no": null
+    },
+    {
+      "format": 1,
+      "predicate": "never",
+      "yes": null,
+      "no": null
+    },
+    {
+      "format": 2,
+      "predicate": "unanimous",
+      "yes": null,
+      "no": {
+        "format": 1,
+        "predicate": "never",
+        "yes": null,
+        "no": {
+          "format": 4,
+          "predicate": "never",
+          "yes": null,
+          "no": {
+            "format": 3,
+            "predicate": "invalid",
+            "yes": null,
+            "no": {
+              "format": 0,
+              "predicate": "never",
+              "yes": null,
+              "no": null
+            }
+          }
+        }
+      }
+    },
+    {
+      "format": 3,
+      "predicate": "never",
+      "yes": null,
+      "no": null
+    },
+    {
+      "format": 4,
+      "predicate": "last_diff",
+      "yes": null,
+      "no": {
+        "format": 3,
+        "predicate": "agreement2",
+        "yes": null,
+        "no": {
+          "format": 0,
+          "predicate": "last_diff",
+          "yes": null,
+          "no": {
+            "format": 1,
+            "predicate": "never",
+            "yes": null,
+            "no": null
+          }
+        }
+      }
+    },
+    {
+      "format": 2,
+      "predicate": "never",
+      "yes": null,
+      "no": null
+    },
+    {
+      "format": 4,
+      "predicate": "never",
+      "yes": null,
+      "no": null
+    }
+  ],
+  "seconds": 0.4680333063006401
+}

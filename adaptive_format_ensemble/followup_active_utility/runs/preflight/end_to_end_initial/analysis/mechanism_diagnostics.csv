@@ -1,0 +1,6 @@
+method,seed,mutations,zero_visit_fraction,random_fallback_fraction,legacy_global_fallback_fraction,fallback_reasons,prediction_change_fraction,call_change_fraction,exploration_fraction,accepted_offspring,trial_probes,probes_per_accepted_offspring,mean_trial_utility_delta,positive_trial_utility_fraction,mean_accepted_utility_delta
+G0,191,20,0.35,0.0,0.0,{},0.2,0.3,0.0,20,20,1.0,-0.0356875,0.0,-0.0356875
+G1,191,20,0.0,0.0,0.0,{},0.55,0.45,0.0,20,20,1.0,-0.04643750000000001,0.1,-0.04643750000000001
+G2,191,6,0.0,0.0,0.0,{},0.5,0.5,0.0,6,34,5.666666666666667,-0.005257352941176476,0.11764705882352941,0.061458333333333316
+G3,191,20,0.3,0.0,0.35,"{""legacy_insufficient_local_failures"": 7}",0.2,0.35,0.0,20,20,1.0,-0.042499999999999996,0.0,-0.042499999999999996
+hill,191,6,0.0,0.0,0.0,{},0.5,0.5,0.0,0,34,,-0.1285294117647059,0.0,0.0

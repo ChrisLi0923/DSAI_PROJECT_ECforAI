@@ -1,0 +1,12 @@
+Sliding Window Attention is enabled but not implemented for `sdpa`; unexpected results may be encountered.
+Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]Loading checkpoint shards:  50%|█████     | 1/2 [00:02<00:02,  2.03s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:03<00:00,  1.54s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:03<00:00,  1.61s/it]
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/home/hli/dsai/adaptive_format_ensemble/afe/smoke.py", line 68, in <module>
+    if __name__=='__main__': smoke()
+                             ^^^^^^^
+  File "/home/hli/dsai/adaptive_format_ensemble/afe/smoke.py", line 65, in smoke
+    if not passed: raise RuntimeError('Live/replay discrepancy retained for investigation; main launch blocked')
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+RuntimeError: Live/replay discrepancy retained for investigation; main launch blocked

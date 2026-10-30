@@ -1,0 +1,13 @@
+label,index,operation,search_score,validation_robust
+B/11,8,random,0.734375,0.68
+C/11,17,crossover,0.875,0.67
+D/11,9,crossover,0.8609375,0.68
+E/11,17,crossover,0.7734375,0.66
+B/29,5,random,0.765625,0.65
+C/29,42,mutation,0.890625,0.66
+D/29,19,crossover,0.86875,0.67
+E/29,3,initial,0.75,0.65
+B/47,16,random,0.765625,0.67
+C/47,31,crossover,0.890625,0.66
+D/47,18,mutation,0.8640624999999998,0.7
+E/47,6,mutation,0.765625,0.65

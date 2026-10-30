@@ -1,0 +1,13 @@
+comparison,metric,estimate,ci_low,ci_high,numerator,denominator,question_groups,bootstrap_valid_replicates
+E minus B,original_accuracy,0.0,0.0,0.0,0.0,2.0,2,100
+E minus B,seen_average_accuracy,0.0,0.0,0.0,0.0,2.0,2,100
+E minus B,seen_all_correct,0.0,0.0,0.0,0.0,2.0,2,100
+D minus C,original_accuracy,0.0,0.0,0.0,0.0,2.0,2,100
+D minus C,seen_average_accuracy,0.0,0.0,0.0,0.0,2.0,2,100
+D minus C,seen_all_correct,0.0,0.0,0.0,0.0,2.0,2,100
+E minus D,original_accuracy,0.0,0.0,0.0,0.0,2.0,2,100
+E minus D,seen_average_accuracy,0.0,0.0,0.0,0.0,2.0,2,100
+E minus D,seen_all_correct,0.0,0.0,0.0,0.0,2.0,2,100
+E minus A,original_accuracy,0.0,0.0,0.0,0.0,2.0,2,100
+E minus A,seen_average_accuracy,0.0,0.0,0.0,0.0,2.0,2,100
+E minus A,seen_all_correct,0.0,0.0,0.0,0.0,2.0,2,100

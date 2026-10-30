@@ -1,93 +1,62 @@
-# Evolutionary Prompt Optimization for Format-Robust Small Language Models
+# Evolutionary Computation for LLM Question Answering
 
-Course project due **Friday, 30 October 2026**; target completion **Thursday night, 29 October, Asia/Shanghai**. Frozen Qwen2.5-3B-Instruct on screened ARC-Challenge. This is an incremental, controlled **EvoPrompt-style** study; no positive outcome is assumed.
+DSAI6707 Advanced Computational Intelligence course project. All six stages are complete. **No further model inference or method tuning is planned.**
 
-The implementation covers the full pilot → checkpoint → searches → validation selection → prompt freeze → final test → analysis workflow. **The main experiment is not launched during preparation.** Software checks and the tiny real-model smoke are distinct from pilot/final evidence. Verified protocol v2: 33 software checks, a 30-instruction proposer regression, and a 102-second real-model pipeline smoke. See [verification](docs/verification.md).
+Start with **[EXPERIMENTS.md](EXPERIMENTS.md)**: one chronological guide to every study, control, diagnostic, dataset, result and evidence location.
 
-## Activate
+| Order | Experiment | Directory |
+|---|---|---|
+| 1 | Evolve instructions for presentation robustness | [old_idea/](old_idea/) |
+| 2 | Evolve adaptive format-query policies | [adaptive_format_ensemble/](adaptive_format_ensemble/) |
+| 3 | Active-node and utility-guided mutation | [followup_active_utility/](adaptive_format_ensemble/followup_active_utility/) |
+| 4 | Data-size, selector, reasoning and evidence diagnostics | [capability_diagnostic/](adaptive_format_ensemble/capability_diagnostic/) |
+| 5 | Fixed BM25 retrieval pilot | [retrieval_pilot/](adaptive_format_ensemble/retrieval_pilot/) |
+| 6 | Frozen evaluation on the reserved 1,000 questions | [final_evaluation/](final_evaluation/) |
+
+## Reading the repository
+
+Existing experiment paths are retained so recorded configurations and source hashes stay meaningful:
+
+- Implementation: `robust_prompt/`, `afe/`, `repair/`, `diagnostic/`, `pilot/` or `evaluation/`.
+- Settings and dependencies: `configs/`, `requirements-lock.txt` and recorded environment files.
+- Question splits and provenance: `data/`.
+- Completed evidence: `runs/main/COMPLETE.json`, frozen policies, `runs/main/analysis/` and `runs/main/review/`.
+- Verification and exploratory preparation: `tests/`, `runs/preflight/` and named smoke/failed-run directories. These are separate from final results.
+
+Narrative reports, proposals, literature reviews, course paperwork and submission documents are preserved under **[.archive/](.archive/README.md)**, outside the main experiment view. Historical project READMEs remain unchanged; the restoration tool recreates their original document links. This README and EXPERIMENTS.md are the current navigation guides.
+
+The final result is **79.2% accuracy at 2.204 requested calls per question** for simple ordered stopping, versus 79.2% at three calls for fixed voting. All fitted evolutionary policies returned the same answers on this final pool. Utility guidance added no observed benefit. This conclusion is limited to the tested model, format pool and fitted policies.
+
+## Restore records after cloning
+
+Raw SQLite caches, including search checkpoints, are included as lossless `.sqlite.gz` files. Large JSONL records are compressed too. The experiment host retains uncompressed originals. Byte counts and SHA-256 checksums are in [.archive/organization.json](.archive/organization.json).
+
+```bash
+git clone https://github.com/ChrisLi0923/DSAI_PROJECT_ECforAI.git
+cd DSAI_PROJECT_ECforAI
+python3 tools/restore_artifacts.py
+python3 tools/check_repository.py
+```
+
+These commands restore and verify files with **zero model calls**. Allow roughly 1.3 GB for restored experimental records, in addition to the checkout. To restore only the final response matrix:
+
+```bash
+python3 tools/restore_artifacts.py --project final_evaluation
+```
+
+Processed CSV/JSON results can be read without restoring databases. Analysis needs Python 3.11 and recorded per-project dependencies. Environments and model weights are not committed. Original launch scripts contain original-host paths and are retained as historical entry points, not portable setup commands.
+
+## Reproduce final analysis without a model
+
+On the original host:
 
 ```bash
 cd /home/hli/dsai
-source /home/hli/anaconda3/etc/profile.d/conda.sh
-conda activate dsai
+final_evaluation/.venv/bin/python tools/restore_artifacts.py --project final_evaluation
+final_evaluation/.venv/bin/python final_evaluation/scripts/reproduce.py \
+  --output /tmp/dsai-final-cpu-reproduction
 ```
 
-Isolated environment: `/home/hli/anaconda3/envs/dsai`. Recreate with `bash scripts/setup.sh`; pinned dependencies are in requirements-lock.txt and Conda packages in conda-explicit.txt. Setup only downloads assets/prepares data. It does not run an experiment.
+Use a new output directory each time. The command checks the frozen source/configuration/package fingerprint, replays saved responses, recomputes paired statistics and writes a separate report. It does not refit policies or generate responses. On another host, install [final_evaluation/requirements-lock.txt](final_evaluation/requirements-lock.txt); document rendering also uses DejaVu fonts and `pdftoppm`. Frozen checks reject silently changed versions.
 
-## Start the resumable main workflow in tmux
-
-```bash
-tmux new-session -s dsai 'bash /home/hli/dsai/scripts/run_long.sh'
-```
-
-By default the script polls **all GPUs** and selects one with no compute processes, utilization at most 10%, and at least 14 GiB free. It exposes only that GPU to the model, retains the 50% PyTorch allocator limit, and verifies frozen code/config/data/packages. It preserves other jobs. No background job or tmux session is created by the agent.
-
-To permit sharing an already-used GPU, run inside tmux:
-
-```bash
-bash /home/hli/dsai/scripts/run_long.sh --share
-```
-
-Shared mode requires at least **16 GiB free**, prefers a GPU without compute processes, then lower utilization and more free memory. To explicitly share physical GPU 2:
-
-```bash
-bash /home/hli/dsai/scripts/run_long.sh --share --gpu 2
-```
-
-A selection is a snapshot, not a reservation. Sharing can slow both workloads and free memory can change. The allocator limit does not reserve memory or isolate jobs. The launcher revalidates the frozen files before inference; the model rechecks free memory before loading. Each launch stays on one device, with no migration during inference. Selection history is saved in runs/main/gpu_selection.json.
-
-Detach: **Ctrl-b**, then **d**. Reattach:
-
-```bash
-tmux attach-session -t dsai
-```
-
-Logs and monitoring:
-
-```bash
-tail -f /home/hli/dsai/runs/main/logs/workflow.log
-bash /home/hli/dsai/scripts/monitor.sh
-```
-
-Resume by rerunning the same script in tmux:
-
-```bash
-bash /home/hli/dsai/scripts/run_long.sh
-```
-
-Completed records are reused. Concurrent launch is refused. Code/config/data/package changes are refused. A changed protocol needs a new run directory. Retry attempts are retained separately from nominal completed-request budgets. **Only `runs/main/COMPLETE.json` marks final completion.** A pilot diagnostic stop exits before search/test; an incomplete run has no final empirical result.
-
-## Recovery protocol v2
-
-The original main run stopped after 12 candidates when four proposer retries copied an existing prompt. All records are preserved at runs/main_proposer_v1_failed_20261028. Protocol v2 adds seeded reasoning emphasis and explicit rejection feedback, retaining validity checks and four attempts. All conditions/seeds restart under the same revised proposer. Start with the command above; do not copy old predictions into the fresh main run. No final-test data informed the change. See [recovery verification](docs/verification.md).
-
-## Frozen study
-
-| Condition | Search fitness / process |
-|---|---|
-| A | Fixed manual instruction |
-| B | Random proposals, robust selection |
-| C | Genetic search, original accuracy |
-| D | Same genetic search, five-presentation average accuracy |
-| E | Same genetic search, fraction of groups correct in all five presentations |
-
-Five seen formats: vertical baseline, inline, bullets, two cyclic option rotations. Canonical option indices preserve answer identity when letters change. Identical-input repeats run separately and never enter robustness scores. Three predeclared formats are withheld from search/selection and inferred only after every final prompt is frozen. Invalid outputs count incorrect; raw responses and tokens are retained.
-
-Disjoint pools: **100 pilot / 128 search / 100 selection-validation / 1,109 screened official-test questions**. Test data receive duplicate-removal priority. The local proposer and initial populations are shared consistently; three search seeds and equal target-call budgets are used. C may evaluate more candidates. Matching calls does not match tokens, proposer effort, or runtime. See [full protocol](docs/protocol.md), [budget and runtime](docs/feasibility.md), and configs/main.json.
-
-**GPU availability:** default mode polls all devices every 30 seconds. `--share` permits existing workloads when the 16 GiB free-memory threshold is met. An existing waiting launcher must be cancelled with Ctrl+C before restarting in a different mode. GPU waiting time is additional and unbounded; shared-GPU contention can also increase runtime.
-
-Measured inference estimate: **2.8–4.0 hours**; allow roughly **3–5 hours** for overhead and variability. See [exclusions and limits](docs/feasibility.md). The archived v1 full pilot passed, but v2 repeats the mandatory 100-question gate before searching.
-
-## Outputs and writing
-
-After completion, runs/main/analysis/ contains actual metric/cost tables, whole-question bootstrap intervals, separate search-seed variation, paired comparisons, layout/order analyses, changed examples, PNG/PDF figures, and a factual results_summary.md. Raw incremental records are in records.sqlite. No conclusions are filled in ahead of the results.
-
-```bash
-/home/hli/anaconda3/envs/dsai/bin/python -m pytest -q
-/home/hli/anaconda3/envs/dsai/bin/python -m robust_prompt.analysis /home/hli/dsai/runs/main
-```
-
-The second command accepts completed runs only. Deliverables: [one-page proposal](docs/proposal.pdf), [literature/version notes](docs/literature.md), [report scaffold](docs/report.md), [change log](CHANGELOG.md). Data and derived previews credit Clark et al./AI2; the dataset card lists CC BY-SA 4.0.
-
-Limits: one model/dataset, conservative heuristic screening, limited human spot-check, finite formats/pool/budget, and conditional bootstrap uncertainty. Full pilot feasibility and final findings remain pending until the user-run workflow finishes. The TARE version conflict is documented; its empirical claims are not relied upon.
+The original submission ZIP remains local; Git contains its constituent source, reports and results separately. No course submission or external publication has been performed.

@@ -1,0 +1,7814 @@
+{
+  "config": {
+    "population": 32,
+    "generations": 5,
+    "seeds": [
+      29
+    ]
+  },
+  "seed": 29,
+  "guided": true,
+  "generation": 5,
+  "population": [
+    {
+      "format": 0,
+      "predicate": "never",
+      "yes": {
+        "format": 1,
+        "predicate": "never",
+        "yes": null,
+        "no": null
+      },
+      "no": null
+    },
+    {
+      "format": 0,
+      "predicate": "never",
+      "yes": null,
+      "no": {
+        "format": 4,
+        "predicate": "last_diff",
+        "yes": null,
+        "no": null
+      }
+    },
+    {
+      "format": 0,
+      "predicate": "never",
+      "yes": {
+        "format": 1,
+        "predicate": "never",
+        "yes": {
+          "format": 3,
+          "predicate": "agreement2",
+          "yes": {
+            "format": 2,
+            "predicate": "agreement2",
+            "yes": {
+              "format": 4,
+              "predicate": "unanimous",
+              "yes": null,
+              "no": null
+            },
+            "no": null
+          },
+          "no": {
+            "format": 4,
+            "predicate": "margin2",
+            "yes": null,
+            "no": {
+              "format": 2,
+              "predicate": "unanimous",
+              "yes": null,
+              "no": null
+            }
+          }
+        },
+        "no": null
+      },
+      "no": null
+    },
+    {
+      "format": 0,
+      "predicate": "never",
+      "yes": {
+        "format": 1,
+        "predicate": "never",
+        "yes": {
+          "format": 2,
+          "predicate": "agreement2",
+          "yes": {
+            "format": 3,
+            "predicate": "agreement2",
+            "yes": {
+              "format": 4,
+              "predicate": "unanimous",
+              "yes": null,
+              "no": null
+            },
+            "no": null
+          },
+          "no": {
+            "format": 4,
+            "predicate": "never",
+            "yes": {
+              "format": 3,
+              "predicate": "invalid",
+              "yes": null,
+              "no": null
+            },
+            "no": {
+              "format": 3,
+              "predicate": "last_diff",
+              "yes": null,
+              "no": null
+            }
+          }
+        },
+        "no": null
+      },
+      "no": null
+    },
+    {
+      "format": 0,
+      "predicate": "never",
+      "yes": {
+        "format": 1,
+        "predicate": "never",
+        "yes": {
+          "format": 2,
+          "predicate": "agreement2",
+          "yes": {
+            "format": 3,
+            "predicate": "agreement2",
+            "yes": {
+              "format": 4,
+              "predicate": "unanimous",
+              "yes": null,
+              "no": null
+            },
+            "no": null
+          },
+          "no": {
+            "format": 4,
+            "predicate": "never",
+            "yes": {
+              "format": 3,
+              "predicate": "invalid",
+              "yes": null,
+              "no": null
+            },
+            "no": {
+              "format": 3,
+              "predicate": "last_diff",
+              "yes": null,
+              "no": null
+            }
+          }
+        },
+        "no": null
+      },
+      "no": null
+    },
+    {
+      "format": 0,
+      "predicate": "never",
+      "yes": {
+        "format": 1,
+        "predicate": "never",
+        "yes": {
+          "format": 2,
+          "predicate": "agreement2",
+          "yes": {
+            "format": 3,
+            "predicate": "agreement2",
+            "yes": {
+              "format": 4,
+              "predicate": "unanimous",
+              "yes": null,
+              "no": null
+            },
+            "no": null
+          },
+          "no": {
+            "format": 4,
+            "predicate": "never",
+            "yes": {
+              "format": 3,
+              "predicate": "invalid",
+              "yes": null,
+              "no": null
+            },
+            "no": {
+              "format": 3,
+              "predicate": "last_diff",
+              "yes": null,
+              "no": null
+            }
+          }
+        },
+        "no": null
+      },
+      "no": null
+    },
+    {
+      "format": 0,
+      "predicate": "never",
+      "yes": {
+        "format": 1,
+        "predicate": "never",
+        "yes": {
+          "format": 2,
+          "predicate": "agreement2",
+          "yes": {
+            "format": 3,
+            "predicate": "agreement2",
+            "yes": {
+              "format": 4,
+              "predicate": "unanimous",
+              "yes": null,
+              "no": null
+            },
+            "no": null
+          },
+          "no": {
+            "format": 4,
+            "predicate": "never",
+            "yes": {
+              "format": 3,
+              "predicate": "invalid",
+              "yes": null,
+              "no": null
+            },
+            "no": {
+              "format": 3,
+              "predicate": "last_diff",
+              "yes": null,
+              "no": null
+            }
+          }
+        },
+        "no": null
+      },
+      "no": null
+    },
+    {
+      "format": 0,
+      "predicate": "never",
+      "yes": {
+        "format": 1,
+        "predicate": "never",
+        "yes": {
+          "format": 2,
+          "predicate": "agreement2",
+          "yes": {
+            "format": 3,
+            "predicate": "agreement2",
+            "yes": {
+              "format": 4,
+              "predicate": "unanimous",
+              "yes": null,
+              "no": null
+            },
+            "no": null
+          },
+          "no": {
+            "format": 4,
+            "predicate": "never",
+            "yes": {
+              "format": 3,
+              "predicate": "invalid",
+              "yes": null,
+              "no": null
+            },
+            "no": {
+              "format": 3,
+              "predicate": "last_diff",
+              "yes": null,
+              "no": null
+            }
+          }
+        },
+        "no": null
+      },
+      "no": null
+    },
+    {
+      "format": 0,
+      "predicate": "margin2",
+      "yes": null,
+      "no": null
+    },
+    {
+      "format": 0,
+      "predicate": "margin2",
+      "yes": null,
+      "no": null
+    },
+    {
+      "format": 0,
+      "predicate": "never",
+      "yes": {
+        "format": 1,
+        "predicate": "never",
+        "yes": {
+          "format": 2,
+          "predicate": "agreement2",
+          "yes": {
+            "format": 3,
+            "predicate": "agreement2",
+            "yes": {
+              "format": 4,
+              "predicate": "unanimous",
+              "yes": null,
+              "no": null
+            },
+            "no": null
+          },
+          "no": {
+            "format": 4,
+            "predicate": "never",
+            "yes": {
+              "format": 3,
+              "predicate": "invalid",
+              "yes": null,
+              "no": null
+            },
+            "no": {
+              "format": 3,
+              "predicate": "unanimous",
+              "yes": null,
+              "no": null
+            }
+          }
+        },
+        "no": null
+      },
+      "no": null
+    },
+    {
+      "format": 0,
+      "predicate": "never",
+      "yes": {
+        "format": 1,
+        "predicate": "never",
+        "yes": {
+          "format": 2,
+          "predicate": "agreement2",
+          "yes": {
+            "format": 3,
+            "predicate": "agreement2",
+            "yes": {
+              "format": 4,
+              "predicate": "unanimous",
+              "yes": null,
+              "no": null
+            },
+            "no": null
+          },
+          "no": {
+            "format": 4,
+            "predicate": "never",
+            "yes": {
+              "format": 3,
+              "predicate": "invalid",
+              "yes": null,
+              "no": null
+            },
+            "no": {
+              "format": 3,
+              "predicate": "unanimous",
+              "yes": null,
+              "no": null
+            }
+          }
+        },
+        "no": null
+      },
+      "no": null
+    },
+    {
+      "format": 0,
+      "predicate": "never",
+      "yes": {
+        "format": 1,
+        "predicate": "never",
+        "yes": {
+          "format": 4,
+          "predicate": "agreement2",
+          "yes": {
+            "format": 3,
+            "predicate": "agreement2",
+            "yes": {
+              "format": 2,
+              "predicate": "unanimous",
+              "yes": null,
+              "no": null
+            },
+            "no": null
+          },
+          "no": {
+            "format": 2,
+            "predicate": "never",
+            "yes": {
+              "format": 3,
+              "predicate": "invalid",
+              "yes": null,
+              "no": null
+            },
+            "no": {
+              "format": 3,
+              "predicate": "unanimous",
+              "yes": null,
+              "no": null
+            }
+          }
+        },
+        "no": null
+      },
+      "no": null
+    },
+    {
+      "format": 0,
+      "predicate": "never",
+      "yes": {
+        "format": 3,
+        "predicate": "remaining1",
+        "yes": null,
+        "no": null
+      },
+      "no": null
+    },
+    {
+      "format": 0,
+      "predicate": "never",
+      "yes": {
+        "format": 3,
+        "predicate": "remaining1",
+        "yes": null,
+        "no": null
+      },
+      "no": null
+    },
+    {
+      "format": 0,
+      "predicate": "never",
+      "yes": {
+        "format": 1,
+        "predicate": "never",
+        "yes": {
+          "format": 2,
+          "predicate": "agreement2",
+          "yes": {
+            "format": 3,
+            "predicate": "agreement2",
+            "yes": {
+              "format": 4,
+              "predicate": "remaining1",
+              "yes": null,
+              "no": null
+            },
+            "no": null
+          },
+          "no": null
+        },
+        "no": null
+      },
+      "no": null
+    },
+    {
+      "format": 0,
+      "predicate": "never",
+      "yes": {
+        "format": 1,
+        "predicate": "never",
+        "yes": {
+          "format": 2,
+          "predicate": "agreement2",
+          "yes": {
+            "format": 3,
+            "predicate": "agreement2",
+            "yes": {
+              "format": 4,
+              "predicate": "remaining1",
+              "yes": null,
+              "no": null
+            },
+            "no": null
+          },
+          "no": null
+        },
+        "no": null
+      },
+      "no": null
+    },
+    {
+      "format": 0,
+      "predicate": "never",
+      "yes": {
+        "format": 1,
+        "predicate": "never",
+        "yes": {
+          "format": 2,
+          "predicate": "agreement2",
+          "yes": {
+            "format": 3,
+            "predicate": "agreement2",
+            "yes": {
+              "format": 4,
+              "predicate": "unanimous",
+              "yes": null,
+              "no": null
+            },
+            "no": null
+          },
+          "no": {
+            "format": 3,
+            "predicate": "invalid",
+            "yes": null,
+            "no": null
+          }
+        },
+        "no": {
+          "format": 4,
+          "predicate": "margin2",
+          "yes": null,
+          "no": null
+        }
+      },
+      "no": null
+    },
+    {
+      "format": 0,
+      "predicate": "never",
+      "yes": {
+        "format": 1,
+        "predicate": "never",
+        "yes": {
+          "format": 2,
+          "predicate": "agreement2",
+          "yes": {
+            "format": 3,
+            "predicate": "agreement2",
+            "yes": {
+              "format": 4,
+              "predicate": "unanimous",
+              "yes": null,
+              "no": null
+            },
+            "no": null
+          },
+          "no": {
+            "format": 4,
+            "predicate": "never",
+            "yes": {
+              "format": 3,
+              "predicate": "invalid",
+              "yes": null,
+              "no": null
+            },
+            "no": null
+          }
+        },
+        "no": null
+      },
+      "no": null
+    },
+    {
+      "format": 0,
+      "predicate": "never",
+      "yes": {
+        "format": 1,
+        "predicate": "never",
+        "yes": {
+          "format": 2,
+          "predicate": "agreement2",
+          "yes": {
+            "format": 3,
+            "predicate": "agreement2",
+            "yes": {
+              "format": 4,
+              "predicate": "unanimous",
+              "yes": null,
+              "no": null
+            },
+            "no": null
+          },
+          "no": {
+            "format": 4,
+            "predicate": "never",
+            "yes": {
+              "format": 3,
+              "predicate": "invalid",
+              "yes": null,
+              "no": null
+            },
+            "no": null
+          }
+        },
+        "no": null
+      },
+      "no": null
+    },
+    {
+      "format": 0,
+      "predicate": "never",
+      "yes": {
+        "format": 1,
+        "predicate": "never",
+        "yes": {
+          "format": 2,
+          "predicate": "agreement2",
+          "yes": {
+            "format": 3,
+            "predicate": "agreement2",
+            "yes": {
+              "format": 4,
+              "predicate": "unanimous",
+              "yes": null,
+              "no": null
+            },
+            "no": null
+          },
+          "no": {
+            "format": 4,
+            "predicate": "margin2",
+            "yes": null,
+            "no": {
+              "format": 3,
+              "predicate": "unanimous",
+              "yes": null,
+              "no": null
+            }
+          }
+        },
+        "no": null
+      },
+      "no": null
+    },
+    {
+      "format": 0,
+      "predicate": "never",
+      "yes": {
+        "format": 1,
+        "predicate": "never",
+        "yes": {
+          "format": 2,
+          "predicate": "agreement2",
+          "yes": {
+            "format": 3,
+            "predicate": "agreement2",
+            "yes": {
+              "format": 4,
+              "predicate": "unanimous",
+              "yes": null,
+              "no": null
+            },
+            "no": null
+          },
+          "no": {
+            "format": 4,
+            "predicate": "margin2",
+            "yes": null,
+            "no": {
+              "format": 3,
+              "predicate": "unanimous",
+              "yes": null,
+              "no": null
+            }
+          }
+        },
+        "no": null
+      },
+      "no": null
+    },
+    {
+      "format": 0,
+      "predicate": "never",
+      "yes": {
+        "format": 3,
+        "predicate": "remaining1",
+        "yes": null,
+        "no": {
+          "format": 4,
+          "predicate": "unanimous",
+          "yes": null,
+          "no": {
+            "format": 1,
+            "predicate": "unanimous",
+            "yes": null,
+            "no": null
+          }
+        }
+      },
+      "no": null
+    },
+    {
+      "format": 0,
+      "predicate": "never",
+      "yes": {
+        "format": 3,
+        "predicate": "agreement2",
+        "yes": null,
+        "no": {
+          "format": 4,
+          "predicate": "unanimous",
+          "yes": null,
+          "no": {
+            "format": 1,
+            "predicate": "unanimous",
+            "yes": null,
+            "no": null
+          }
+        }
+      },
+      "no": null
+    },
+    {
+      "format": 0,
+      "predicate": "never",
+      "yes": {
+        "format": 1,
+        "predicate": "never",
+        "yes": {
+          "format": 4,
+          "predicate": "unanimous",
+          "yes": {
+            "format": 3,
+            "predicate": "never",
+            "yes": {
+              "format": 2,
+              "predicate": "agreement2",
+              "yes": null,
+              "no": null
+            },
+            "no": {
+              "format": 2,
+              "predicate": "agreement2",
+              "yes": null,
+              "no": null
+            }
+          },
+          "no": {
+            "format": 2,
+            "predicate": "never",
+            "yes": null,
+            "no": {
+              "format": 3,
+              "predicate": "agreement2",
+              "yes": null,
+              "no": null
+            }
+          }
+        },
+        "no": null
+      },
+      "no": null
+    },
+    {
+      "format": 0,
+      "predicate": "never",
+      "yes": {
+        "format": 1,
+        "predicate": "never",
+        "yes": {
+          "format": 3,
+          "predicate": "agreement2",
+          "yes": {
+            "format": 2,
+            "predicate": "agreement2",
+            "yes": {
+              "format": 4,
+              "predicate": "unanimous",
+              "yes": null,
+              "no": null
+            },
+            "no": null
+          },
+          "no": {
+            "format": 4,
+            "predicate": "margin2",
+            "yes": null,
+            "no": null
+          }
+        },
+        "no": null
+      },
+      "no": null
+    },
+    {
+      "format": 0,
+      "predicate": "never",
+      "yes": {
+        "format": 4,
+        "predicate": "never",
+        "yes": null,
+        "no": {
+          "format": 1,
+          "predicate": "never",
+          "yes": {
+            "format": 2,
+            "predicate": "never",
+            "yes": {
+              "format": 3,
+              "predicate": "unanimous",
+              "yes": null,
+              "no": null
+            },
+            "no": null
+          },
+          "no": {
+            "format": 3,
+            "predicate": "margin2",
+            "yes": null,
+            "no": {
+              "format": 2,
+              "predicate": "agreement2",
+              "yes": null,
+              "no": null
+            }
+          }
+        }
+      },
+      "no": null
+    },
+    {
+      "format": 0,
+      "predicate": "never",
+      "yes": {
+        "format": 1,
+        "predicate": "never",
+        "yes": {
+          "format": 4,
+          "predicate": "unanimous",
+          "yes": {
+            "format": 3,
+            "predicate": "never",
+            "yes": {
+              "format": 2,
+              "predicate": "agreement2",
+              "yes": null,
+              "no": null
+            },
+            "no": {
+              "format": 2,
+              "predicate": "last_diff",
+              "yes": null,
+              "no": null
+            }
+          },
+          "no": {
+            "format": 2,
+            "predicate": "never",
+            "yes": null,
+            "no": {
+              "format": 3,
+              "predicate": "agreement2",
+              "yes": null,
+              "no": null
+            }
+          }
+        },
+        "no": null
+      },
+      "no": null
+    },
+    {
+      "format": 0,
+      "predicate": "never",
+      "yes": {
+        "format": 1,
+        "predicate": "never",
+        "yes": {
+          "format": 2,
+          "predicate": "agreement2",
+          "yes": {
+            "format": 3,
+            "predicate": "agreement2",
+            "yes": {
+              "format": 4,
+              "predicate": "unanimous",
+              "yes": null,
+              "no": null
+            },
+            "no": null
+          },
+          "no": {
+            "format": 4,
+            "predicate": "margin2",
+            "yes": null,
+            "no": {
+              "format": 3,
+              "predicate": "unanimous",
+              "yes": null,
+              "no": null
+            }
+          }
+        },
+        "no": {
+          "format": 4,
+          "predicate": "margin2",
+          "yes": null,
+          "no": null
+        }
+      },
+      "no": null
+    },
+    {
+      "format": 0,
+      "predicate": "never",
+      "yes": {
+        "format": 1,
+        "predicate": "never",
+        "yes": {
+          "format": 2,
+          "predicate": "agreement2",
+          "yes": {
+            "format": 3,
+            "predicate": "agreement2",
+            "yes": {
+              "format": 4,
+              "predicate": "unanimous",
+              "yes": null,
+              "no": null
+            },
+            "no": null
+          },
+          "no": {
+            "format": 4,
+            "predicate": "margin2",
+            "yes": null,
+            "no": {
+              "format": 3,
+              "predicate": "unanimous",
+              "yes": null,
+              "no": null
+            }
+          }
+        },
+        "no": {
+          "format": 4,
+          "predicate": "margin2",
+          "yes": null,
+          "no": null
+        }
+      },
+      "no": null
+    },
+    {
+      "format": 0,
+      "predicate": "never",
+      "yes": {
+        "format": 1,
+        "predicate": "never",
+        "yes": {
+          "format": 3,
+          "predicate": "agreement2",
+          "yes": {
+            "format": 2,
+            "predicate": "agreement2",
+            "yes": {
+              "format": 4,
+              "predicate": "unanimous",
+              "yes": null,
+              "no": null
+            },
+            "no": null
+          },
+          "no": null
+        },
+        "no": null
+      },
+      "no": null
+    },
+    {
+      "format": 0,
+      "predicate": "margin2",
+      "yes": {
+        "format": 3,
+        "predicate": "invalid",
+        "yes": null,
+        "no": {
+          "format": 1,
+          "predicate": "agreement2",
+          "yes": null,
+          "no": {
+            "format": 2,
+            "predicate": "never",
+            "yes": null,
+            "no": {
+              "format": 4,
+              "predicate": "never",
+              "yes": null,
+              "no": null
+            }
+          }
+        }
+      },
+      "no": null
+    }
+  ],
+  "scores": [
+    [
+      0.748046875,
+      1.0
+    ],
+    [
+      0.83203125,
+      2.0
+    ],
+    [
+      0.748046875,
+      1.0
+    ],
+    [
+      0.748046875,
+      1.0
+    ],
+    [
+      0.748046875,
+      1.0
+    ],
+    [
+      0.748046875,
+      1.0
+    ],
+    [
+      0.748046875,
+      1.0
+    ],
+    [
+      0.748046875,
+      1.0
+    ],
+    [
+      0.748046875,
+      1.0
+    ],
+    [
+      0.748046875,
+      1.0
+    ],
+    [
+      0.748046875,
+      1.0
+    ],
+    [
+      0.748046875,
+      1.0
+    ],
+    [
+      0.748046875,
+      1.0
+    ],
+    [
+      0.748046875,
+      1.0
+    ],
+    [
+      0.748046875,
+      1.0
+    ],
+    [
+      0.748046875,
+      1.0
+    ],
+    [
+      0.748046875,
+      1.0
+    ],
+    [
+      0.748046875,
+      1.0
+    ],
+    [
+      0.748046875,
+      1.0
+    ],
+    [
+      0.748046875,
+      1.0
+    ],
+    [
+      0.748046875,
+      1.0
+    ],
+    [
+      0.748046875,
+      1.0
+    ],
+    [
+      0.748046875,
+      1.0
+    ],
+    [
+      0.748046875,
+      1.0
+    ],
+    [
+      0.748046875,
+      1.0
+    ],
+    [
+      0.748046875,
+      1.0
+    ],
+    [
+      0.748046875,
+      1.0
+    ],
+    [
+      0.748046875,
+      1.0
+    ],
+    [
+      0.748046875,
+      1.0
+    ],
+    [
+      0.748046875,
+      1.0
+    ],
+    [
+      0.748046875,
+      1.0
+    ],
+    [
+      0.748046875,
+      1.0
+    ]
+  ],
+  "archive": {
+    "de8a9d6d4b84da14be184c8e8c39a1a89660837f55be887db22f2e6e0d877d70": {
+      "format": 0,
+      "predicate": "never",
+      "yes": null,
+      "no": null
+    },
+    "86d5fada9290045948001bc32a814273b657f7d72a6e499e8f481ca936f1e643": {
+      "format": 1,
+      "predicate": "never",
+      "yes": null,
+      "no": null
+    },
+    "11eea74f9f07a016b8cca40e3d7022a987306c0e47465ee276ab40f9c6dc5673": {
+      "format": 2,
+      "predicate": "never",
+      "yes": null,
+      "no": null
+    },
+    "159b367d85dc807519054d70e9efec1083813418163d44dcd1149029fbcbe81f": {
+      "format": 3,
+      "predicate": "never",
+      "yes": null,
+      "no": null
+    },
+    "c9ae45b77b713fcc7fd7641e385b9924313180cf1387d82f23064f552f98299e": {
+      "format": 4,
+      "predicate": "never",
+      "yes": null,
+      "no": null
+    },
+    "8628251c3badf6d86df525f89d5a53da2190bc0fa13af5113ea7a8a942c43b12": {
+      "format": 0,
+      "predicate": "agreement2",
+      "yes": null,
+      "no": {
+        "format": 1,
+        "predicate": "agreement2",
+        "yes": null,
+        "no": {
+          "format": 2,
+          "predicate": "agreement2",
+          "yes": null,
+          "no": {
+            "format": 3,
+            "predicate": "agreement2",
+            "yes": null,
+            "no": {
+              "format": 4,
+              "predicate": "agreement2",
+              "yes": null,
+              "no": null
+            }
+          }
+        }
+      }
+    },
+    "fff45e36ef7a1f35e86af76ce54b2b2aa3f0664eb7d82d10aef53002c06e3343": {
+      "format": 0,
+      "predicate": "never",
+      "yes": null,
+      "no": {
+        "format": 1,
+        "predicate": "never",
+        "yes": null,
+        "no": {
+          "format": 2,
+          "predicate": "never",
+          "yes": null,
+          "no": {
+            "format": 3,
+            "predicate": "never",
+            "yes": null,
+            "no": {
+              "format": 4,
+              "predicate": "never",
+              "yes": null,
+              "no": null
+            }
+          }
+        }
+      }
+    },
+    "0cc5eaea4028b2d0a62b40d03addc551c69af76acf8893245b8d5073116bf88c": {
+      "format": 4,
+      "predicate": "agreement2",
+      "yes": null,
+      "no": {
+        "format": 2,
+        "predicate": "agreement2",
+        "yes": {
+          "format": 1,
+          "predicate": "margin2",
+          "yes": null,
+          "no": {
+            "format": 0,
+            "predicate": "never",
+            "yes": null,
+            "no": null
+          }
+        },
+        "no": null
+      }
+    },
+    "b262c20381922e5864fb0128e2edb4319cbeb3c27db4ca83748907f83a1fe86a": {
+      "format": 3,
+      "predicate": "invalid",
+      "yes": {
+        "format": 4,
+        "predicate": "never",
+        "yes": {
+          "format": 1,
+          "predicate": "unanimous",
+          "yes": null,
+          "no": {
+            "format": 0,
+            "predicate": "last_diff",
+            "yes": {
+              "format": 2,
+              "predicate": "invalid",
+              "yes": null,
+              "no": null
+            },
+            "no": {
+              "format": 2,
+              "predicate": "never",
+              "yes": null,
+              "no": null
+            }
+          }
+        },
+        "no": null
+      },
+      "no": {
+        "format": 1,
+        "predicate": "never",
+        "yes": null,
+        "no": null
+      }
+    },
+    "08e5c11bb8a16e11715af6793b9954d952fd8f0865dbeab8b792706dae89863d": {
+      "format": 3,
+      "predicate": "margin2",
+      "yes": {
+        "format": 0,
+        "predicate": "remaining1",
+        "yes": {
+          "format": 2,
+          "predicate": "never",
+          "yes": null,
+          "no": null
+        },
+        "no": null
+      },
+      "no": null
+    },
+    "7f9c88cd3b16afde22b97eb0fba813b8dc9c59b00d0e2b108301e855d19198f8": {
+      "format": 3,
+      "predicate": "unanimous",
+      "yes": null,
+      "no": {
+        "format": 4,
+        "predicate": "invalid",
+        "yes": {
+          "format": 2,
+          "predicate": "unanimous",
+          "yes": null,
+          "no": {
+            "format": 0,
+            "predicate": "remaining1",
+            "yes": null,
+            "no": {
+              "format": 1,
+              "predicate": "margin2",
+              "yes": null,
+              "no": null
+            }
+          }
+        },
+        "no": {
+          "format": 2,
+          "predicate": "unanimous",
+          "yes": null,
+          "no": null
+        }
+      }
+    },
+    "b7828b0f0922a93c247b87de02871e1e81b6aab8f1c414b680eaf105ba3bf4dd": {
+      "format": 0,
+      "predicate": "never",
+      "yes": {
+        "format": 1,
+        "predicate": "never",
+        "yes": {
+          "format": 2,
+          "predicate": "agreement2",
+          "yes": {
+            "format": 3,
+            "predicate": "agreement2",
+            "yes": {
+              "format": 4,
+              "predicate": "unanimous",
+              "yes": null,
+              "no": null
+            },
+            "no": null
+          },
+          "no": null
+        },
+        "no": null
+      },
+      "no": null
+    },
+    "42833aabcd2c0d5f72261589952c283a2dc90cc2c935bab8256651ac8c14b13b": {
+      "format": 1,
+      "predicate": "invalid",
+      "yes": {
+        "format": 2,
+        "predicate": "unanimous",
+        "yes": null,
+        "no": null
+      },
+      "no": null
+    },
+    "eed49b40641bfce9d8eaf4c40086fb330655912efcf6e1789d04ac0c69405a4f": {
+      "format": 4,
+      "predicate": "unanimous",
+      "yes": {
+        "format": 1,
+        "predicate": "never",
+        "yes": {
+          "format": 3,
+          "predicate": "agreement2",
+          "yes": {
+            "format": 2,
+            "predicate": "invalid",
+            "yes": null,
+            "no": null
+          },
+          "no": {
+            "format": 2,
+            "predicate": "margin2",
+            "yes": null,
+            "no": {
+              "format": 0,
+              "predicate": "margin2",
+              "yes": null,
+              "no": null
+            }
+          }
+        },
+        "no": {
+          "format": 2,
+          "predicate": "agreement2",
+          "yes": null,
+          "no": {
+            "format": 0,
+            "predicate": "remaining1",
+            "yes": null,
+            "no": null
+          }
+        }
+      },
+      "no": null
+    },
+    "0c8458e44cf0ae5d517a69466ccdd3b089bb3fb03e4a65dbec4b2a88f977baa9": {
+      "format": 4,
+      "predicate": "margin2",
+      "yes": null,
+      "no": {
+        "format": 0,
+        "predicate": "invalid",
+        "yes": null,
+        "no": {
+          "format": 1,
+          "predicate": "margin2",
+          "yes": {
+            "format": 2,
+            "predicate": "never",
+            "yes": {
+              "format": 3,
+              "predicate": "never",
+              "yes": null,
+              "no": null
+            },
+            "no": {
+              "format": 3,
+              "predicate": "unanimous",
+              "yes": null,
+              "no": null
+            }
+          },
+          "no": null
+        }
+      }
+    },
+    "9968955ee2f778f28932c8053b61a6f96a81e42894c51c092e7130cb069fa5ee": {
+      "format": 3,
+      "predicate": "agreement2",
+      "yes": {
+        "format": 4,
+        "predicate": "remaining1",
+        "yes": null,
+        "no": null
+      },
+      "no": null
+    },
+    "1d2e51eb1cc0365b17d7d2f23a4743df62ad48048af3704a2bdfa867e04c9f00": {
+      "format": 2,
+      "predicate": "unanimous",
+      "yes": null,
+      "no": {
+        "format": 1,
+        "predicate": "remaining1",
+        "yes": null,
+        "no": {
+          "format": 3,
+          "predicate": "invalid",
+          "yes": null,
+          "no": null
+        }
+      }
+    },
+    "3def186b66294f2e1a9b857aa58e429f616054a215b03322a145cf1e9243c7b8": {
+      "format": 1,
+      "predicate": "margin2",
+      "yes": null,
+      "no": {
+        "format": 3,
+        "predicate": "last_diff",
+        "yes": null,
+        "no": null
+      }
+    },
+    "174c3e2f8b1a78cc6d33ef044efb605ef70192892f77ce295a88337f17db988e": {
+      "format": 2,
+      "predicate": "unanimous",
+      "yes": {
+        "format": 1,
+        "predicate": "never",
+        "yes": {
+          "format": 4,
+          "predicate": "agreement2",
+          "yes": {
+            "format": 0,
+            "predicate": "never",
+            "yes": {
+              "format": 3,
+              "predicate": "unanimous",
+              "yes": null,
+              "no": null
+            },
+            "no": null
+          },
+          "no": null
+        },
+        "no": {
+          "format": 3,
+          "predicate": "never",
+          "yes": {
+            "format": 0,
+            "predicate": "invalid",
+            "yes": {
+              "format": 4,
+              "predicate": "never",
+              "yes": null,
+              "no": null
+            },
+            "no": {
+              "format": 4,
+              "predicate": "invalid",
+              "yes": null,
+              "no": null
+            }
+          },
+          "no": null
+        }
+      },
+      "no": {
+        "format": 3,
+        "predicate": "never",
+        "yes": null,
+        "no": {
+          "format": 1,
+          "predicate": "unanimous",
+          "yes": {
+            "format": 0,
+            "predicate": "last_diff",
+            "yes": null,
+            "no": null
+          },
+          "no": {
+            "format": 4,
+            "predicate": "remaining1",
+            "yes": {
+              "format": 0,
+              "predicate": "margin2",
+              "yes": null,
+              "no": null
+            },
+            "no": null
+          }
+        }
+      }
+    },
+    "8daad1b1858d801871e66b8eac381662e38d7c739d557d72a9a62678a761fd96": {
+      "format": 4,
+      "predicate": "last_diff",
+      "yes": {
+        "format": 0,
+        "predicate": "unanimous",
+        "yes": {
+          "format": 1,
+          "predicate": "margin2",
+          "yes": {
+            "format": 3,
+            "predicate": "last_diff",
+            "yes": null,
+            "no": {
+              "format": 2,
+              "predicate": "invalid",
+              "yes": null,
+              "no": null
+            }
+          },
+          "no": {
+            "format": 2,
+            "predicate": "never",
+            "yes": null,
+            "no": null
+          }
+        },
+        "no": null
+      },
+      "no": null
+    },
+    "5a6d84e982562662c99064e583eadffa881a78a3fbec11d63ef4c4d1cee66863": {
+      "format": 4,
+      "predicate": "remaining1",
+      "yes": {
+        "format": 2,
+        "predicate": "margin2",
+        "yes": {
+          "format": 1,
+          "predicate": "agreement2",
+          "yes": null,
+          "no": {
+            "format": 0,
+            "predicate": "agreement2",
+            "yes": {
+              "format": 3,
+              "predicate": "unanimous",
+              "yes": null,
+              "no": null
+            },
+            "no": null
+          }
+        },
+        "no": {
+          "format": 1,
+          "predicate": "unanimous",
+          "yes": {
+            "format": 0,
+            "predicate": "agreement2",
+            "yes": null,
+            "no": null
+          },
+          "no": null
+        }
+      },
+      "no": null
+    },
+    "95d541c0f3d2c8c13e8a43995163c19bf68394bda04887bc98e4bc34530c5044": {
+      "format": 3,
+      "predicate": "agreement2",
+      "yes": null,
+      "no": {
+        "format": 4,
+        "predicate": "remaining1",
+        "yes": null,
+        "no": null
+      }
+    },
+    "9c2750647dd6c46ad0aa3246c3fbe7a3f6fa2fda639109ab5c89dae2ffd98865": {
+      "format": 4,
+      "predicate": "last_diff",
+      "yes": {
+        "format": 2,
+        "predicate": "unanimous",
+        "yes": null,
+        "no": {
+          "format": 3,
+          "predicate": "invalid",
+          "yes": {
+            "format": 0,
+            "predicate": "invalid",
+            "yes": {
+              "format": 1,
+              "predicate": "never",
+              "yes": null,
+              "no": null
+            },
+            "no": {
+              "format": 1,
+              "predicate": "last_diff",
+              "yes": null,
+              "no": null
+            }
+          },
+          "no": null
+        }
+      },
+      "no": {
+        "format": 1,
+        "predicate": "margin2",
+        "yes": {
+          "format": 0,
+          "predicate": "invalid",
+          "yes": {
+            "format": 2,
+            "predicate": "unanimous",
+            "yes": {
+              "format": 3,
+              "predicate": "invalid",
+              "yes": null,
+              "no": null
+            },
+            "no": {
+              "format": 3,
+              "predicate": "agreement2",
+              "yes": null,
+              "no": null
+            }
+          },
+          "no": null
+        },
+        "no": null
+      }
+    },
+    "7487e56c27df66461bda8992a7d6bbfd37e039c611a864eeb6fe1a277cbc4eec": {
+      "format": 2,
+      "predicate": "last_diff",
+      "yes": null,
+      "no": {
+        "format": 0,
+        "predicate": "unanimous",
+        "yes": {
+          "format": 3,
+          "predicate": "last_diff",
+          "yes": {
+            "format": 1,
+            "predicate": "agreement2",
+            "yes": {
+              "format": 4,
+              "predicate": "never",
+              "yes": null,
+              "no": null
+            },
+            "no": {
+              "format": 4,
+              "predicate": "unanimous",
+              "yes": null,
+              "no": null
+            }
+          },
+          "no": {
+            "format": 4,
+            "predicate": "agreement2",
+            "yes": null,
+            "no": null
+          }
+        },
+        "no": {
+          "format": 4,
+          "predicate": "last_diff",
+          "yes": null,
+          "no": null
+        }
+      }
+    },
+    "67fb036555bf5608cc08bb2dad2036e734e7d68d392c4e05313cf38ececc7bd0": {
+      "format": 1,
+      "predicate": "remaining1",
+      "yes": {
+        "format": 2,
+        "predicate": "unanimous",
+        "yes": null,
+        "no": null
+      },
+      "no": {
+        "format": 0,
+        "predicate": "agreement2",
+        "yes": {
+          "format": 4,
+          "predicate": "last_diff",
+          "yes": null,
+          "no": {
+            "format": 2,
+            "predicate": "unanimous",
+            "yes": null,
+            "no": {
+              "format": 3,
+              "predicate": "invalid",
+              "yes": null,
+              "no": null
+            }
+          }
+        },
+        "no": {
+          "format": 2,
+          "predicate": "agreement2",
+          "yes": {
+            "format": 4,
+            "predicate": "last_diff",
+            "yes": {
+              "format": 3,
+              "predicate": "unanimous",
+              "yes": null,
+              "no": null
+            },
+            "no": null
+          },
+          "no": null
+        }
+      }
+    },
+    "8e4f087684b8cd3d807705dd32db766057fae57df73be38a8ec3c778528fec53": {
+      "format": 1,
+      "predicate": "agreement2",
+      "yes": null,
+      "no": {
+        "format": 4,
+        "predicate": "last_diff",
+        "yes": {
+          "format": 3,
+          "predicate": "never",
+          "yes": {
+            "format": 2,
+            "predicate": "remaining1",
+            "yes": null,
+            "no": null
+          },
+          "no": null
+        },
+        "no": {
+          "format": 0,
+          "predicate": "agreement2",
+          "yes": {
+            "format": 2,
+            "predicate": "last_diff",
+            "yes": null,
+            "no": {
+              "format": 3,
+              "predicate": "unanimous",
+              "yes": null,
+              "no": null
+            }
+          },
+          "no": {
+            "format": 3,
+            "predicate": "unanimous",
+            "yes": null,
+            "no": null
+          }
+        }
+      }
+    },
+    "220428ea6901cfe265a8b537c6295a0c0998705699cf9dd2b2bc53ae73966241": {
+      "format": 2,
+      "predicate": "agreement2",
+      "yes": {
+        "format": 1,
+        "predicate": "last_diff",
+        "yes": {
+          "format": 4,
+          "predicate": "unanimous",
+          "yes": {
+            "format": 0,
+            "predicate": "margin2",
+            "yes": null,
+            "no": {
+              "format": 3,
+              "predicate": "unanimous",
+              "yes": null,
+              "no": null
+            }
+          },
+          "no": null
+        },
+        "no": null
+      },
+      "no": {
+        "format": 3,
+        "predicate": "margin2",
+        "yes": {
+          "format": 1,
+          "predicate": "invalid",
+          "yes": {
+            "format": 0,
+            "predicate": "remaining1",
+            "yes": null,
+            "no": {
+              "format": 4,
+              "predicate": "invalid",
+              "yes": null,
+              "no": null
+            }
+          },
+          "no": {
+            "format": 4,
+            "predicate": "margin2",
+            "yes": {
+              "format": 0,
+              "predicate": "agreement2",
+              "yes": null,
+              "no": null
+            },
+            "no": null
+          }
+        },
+        "no": {
+          "format": 0,
+          "predicate": "never",
+          "yes": null,
+          "no": {
+            "format": 4,
+            "predicate": "invalid",
+            "yes": null,
+            "no": {
+              "format": 1,
+              "predicate": "unanimous",
+              "yes": null,
+              "no": null
+            }
+          }
+        }
+      }
+    },
+    "e38981d41dd907cc2c76f044071baecd29d9acad9d4b2743014e6bda7e89cbb7": {
+      "format": 4,
+      "predicate": "remaining1",
+      "yes": null,
+      "no": null
+    },
+    "ca5ee1a2e4b85ade8e049b92bdb5202f89d82bd19c8f4c5dd273923538ef9e5c": {
+      "format": 3,
+      "predicate": "margin2",
+      "yes": {
+        "format": 0,
+        "predicate": "remaining1",
+        "yes": {
+          "format": 2,
+          "predicate": "never",
+          "yes": null,
+          "no": null
+        },
+        "no": {
+          "format": 2,
+          "predicate": "invalid",
+          "yes": {
+            "format": 1,
+            "predicate": "agreement2",
+            "yes": {
+              "format": 4,
+              "predicate": "remaining1",
+              "yes": null,
+              "no": null
+            },
+            "no": null
+          },
+          "no": {
+            "format": 1,
+            "predicate": "last_diff",
+            "yes": null,
+            "no": {
+              "format": 4,
+              "predicate": "remaining1",
+              "yes": null,
+              "no": null
+            }
+          }
+        }
+      },
+      "no": null
+    },
+    "1920e71449eb36cb320210ed5ca0f61203e70fc65906e50c882f4f7abb85ca01": {
+      "format": 2,
+      "predicate": "last_diff",
+      "yes": {
+        "format": 0,
+        "predicate": "unanimous",
+        "yes": {
+          "format": 1,
+          "predicate": "margin2",
+          "yes": {
+            "format": 3,
+            "predicate": "last_diff",
+            "yes": null,
+            "no": {
+              "format": 4,
+              "predicate": "invalid",
+              "yes": null,
+              "no": null
+            }
+          },
+          "no": {
+            "format": 3,
+            "predicate": "never",
+            "yes": null,
+            "no": null
+          }
+        },
+        "no": null
+      },
+      "no": null
+    },
+    "59fec9000a041e1ec56fa4f432e07e1c81f3439b31dfc9aaeecff6fa47267e30": {
+      "format": 3,
+      "predicate": "margin2",
+      "yes": {
+        "format": 0,
+        "predicate": "remaining1",
+        "yes": {
+          "format": 2,
+          "predicate": "unanimous",
+          "yes": null,
+          "no": null
+        },
+        "no": null
+      },
+      "no": null
+    },
+    "56bb2dc0fa243598a3ca97e01d2a11b9ac9a4bee6218c1c682e4d319b0dc9ca5": {
+      "format": 3,
+      "predicate": "agreement2",
+      "yes": null,
+      "no": {
+        "format": 4,
+        "predicate": "remaining1",
+        "yes": {
+          "format": 2,
+          "predicate": "remaining1",
+          "yes": null,
+          "no": null
+        },
+        "no": null
+      }
+    },
+    "77e3969403f954e1939551cfc5c3ab424b054f5ea32e25601c97eae347d853cf": {
+      "format": 3,
+      "predicate": "never",
+      "yes": null,
+      "no": {
+        "format": 0,
+        "predicate": "unanimous",
+        "yes": {
+          "format": 4,
+          "predicate": "agreement2",
+          "yes": {
+            "format": 1,
+            "predicate": "unanimous",
+            "yes": null,
+            "no": {
+              "format": 2,
+              "predicate": "last_diff",
+              "yes": null,
+              "no": null
+            }
+          },
+          "no": {
+            "format": 1,
+            "predicate": "last_diff",
+            "yes": {
+              "format": 2,
+              "predicate": "margin2",
+              "yes": null,
+              "no": null
+            },
+            "no": null
+          }
+        },
+        "no": {
+          "format": 4,
+          "predicate": "never",
+          "yes": {
+            "format": 1,
+            "predicate": "agreement2",
+            "yes": null,
+            "no": null
+          },
+          "no": null
+        }
+      }
+    },
+    "220bad0587dd5ff66e7d29fdea2022d756b70ffabeb0de731f40bb6b8d00921a": {
+      "format": 2,
+      "predicate": "never",
+      "yes": {
+        "format": 3,
+        "predicate": "margin2",
+        "yes": {
+          "format": 0,
+          "predicate": "invalid",
+          "yes": {
+            "format": 1,
+            "predicate": "invalid",
+            "yes": {
+              "format": 4,
+              "predicate": "agreement2",
+              "yes": null,
+              "no": null
+            },
+            "no": {
+              "format": 4,
+              "predicate": "unanimous",
+              "yes": null,
+              "no": null
+            }
+          },
+          "no": {
+            "format": 4,
+            "predicate": "last_diff",
+            "yes": {
+              "format": 1,
+              "predicate": "agreement2",
+              "yes": null,
+              "no": null
+            },
+            "no": null
+          }
+        },
+        "no": null
+      },
+      "no": null
+    },
+    "8a4e09b14ddee6bd5fa8296be067ccd78ea23342822c1768f5479de9af56f96f": {
+      "format": 4,
+      "predicate": "last_diff",
+      "yes": {
+        "format": 2,
+        "predicate": "unanimous",
+        "yes": null,
+        "no": {
+          "format": 3,
+          "predicate": "invalid",
+          "yes": null,
+          "no": null
+        }
+      },
+      "no": {
+        "format": 1,
+        "predicate": "margin2",
+        "yes": {
+          "format": 0,
+          "predicate": "invalid",
+          "yes": {
+            "format": 2,
+            "predicate": "unanimous",
+            "yes": {
+              "format": 3,
+              "predicate": "invalid",
+              "yes": null,
+              "no": null
+            },
+            "no": {
+              "format": 3,
+              "predicate": "agreement2",
+              "yes": null,
+              "no": null
+            }
+          },
+          "no": null
+        },
+        "no": null
+      }
+    },
+    "95656c38c0b3db26c803eaefdf4fba23a54f69360b7bc1db50938c1669166623": {
+      "format": 0,
+      "predicate": "never",
+      "yes": null,
+      "no": {
+        "format": 4,
+        "predicate": "invalid",
+        "yes": null,
+        "no": {
+          "format": 1,
+          "predicate": "never",
+          "yes": {
+            "format": 3,
+            "predicate": "last_diff",
+            "yes": {
+              "format": 2,
+              "predicate": "invalid",
+              "yes": null,
+              "no": null
+            },
+            "no": null
+          },
+          "no": null
+        }
+      }
+    },
+    "fb14329815e7f8c46031d5926946a72cf40dab91bc12554efd64e7aa8a09eea5": {
+      "format": 4,
+      "predicate": "remaining1",
+      "yes": {
+        "format": 2,
+        "predicate": "margin2",
+        "yes": {
+          "format": 1,
+          "predicate": "agreement2",
+          "yes": {
+            "format": 0,
+            "predicate": "last_diff",
+            "yes": null,
+            "no": null
+          },
+          "no": {
+            "format": 0,
+            "predicate": "agreement2",
+            "yes": {
+              "format": 3,
+              "predicate": "unanimous",
+              "yes": null,
+              "no": null
+            },
+            "no": null
+          }
+        },
+        "no": {
+          "format": 1,
+          "predicate": "unanimous",
+          "yes": {
+            "format": 0,
+            "predicate": "agreement2",
+            "yes": null,
+            "no": null
+          },
+          "no": null
+        }
+      },
+      "no": null
+    },
+    "fb4e58ce966e988255cbec72c110d4ed2f679a8a91e54b6e027dd9f55f73dfe8": {
+      "format": 2,
+      "predicate": "unanimous",
+      "yes": null,
+      "no": {
+        "format": 4,
+        "predicate": "remaining1",
+        "yes": {
+          "format": 0,
+          "predicate": "never",
+          "yes": null,
+          "no": null
+        },
+        "no": {
+          "format": 3,
+          "predicate": "invalid",
+          "yes": null,
+          "no": null
+        }
+      }
+    },
+    "b96c485ca4e40e2ab818740617553a1f2274234c9479b8bb3fa79441a9e64d52": {
+      "format": 1,
+      "predicate": "agreement2",
+      "yes": {
+        "format": 0,
+        "predicate": "invalid",
+        "yes": null,
+        "no": null
+      },
+      "no": {
+        "format": 0,
+        "predicate": "invalid",
+        "yes": null,
+        "no": {
+          "format": 2,
+          "predicate": "last_diff",
+          "yes": null,
+          "no": null
+        }
+      }
+    },
+    "8186c002066fa9e1bde89ca6963f273d71e80150f0347534c9f68fb40350a1dd": {
+      "format": 2,
+      "predicate": "never",
+      "yes": {
+        "format": 3,
+        "predicate": "last_diff",
+        "yes": null,
+        "no": null
+      },
+      "no": null
+    },
+    "01f568553d978a10607759eaa28e48d583db85e6682edd436240ef7a334e8563": {
+      "format": 4,
+      "predicate": "unanimous",
+      "yes": {
+        "format": 1,
+        "predicate": "never",
+        "yes": null,
+        "no": {
+          "format": 2,
+          "predicate": "agreement2",
+          "yes": null,
+          "no": null
+        }
+      },
+      "no": null
+    },
+    "574873e95e2788957000e07be8c2c3b35e8e401f3fcaa921ea0f06e6f52da5dd": {
+      "format": 2,
+      "predicate": "unanimous",
+      "yes": null,
+      "no": {
+        "format": 1,
+        "predicate": "remaining1",
+        "yes": null,
+        "no": {
+          "format": 3,
+          "predicate": "invalid",
+          "yes": null,
+          "no": {
+            "format": 4,
+            "predicate": "last_diff",
+            "yes": null,
+            "no": {
+              "format": 0,
+              "predicate": "invalid",
+              "yes": null,
+              "no": null
+            }
+          }
+        }
+      }
+    },
+    "7aa803b36c9a42b11314a97969bdda6b56ffdfd752da06bc07d8efa31455c31d": {
+      "format": 4,
+      "predicate": "unanimous",
+      "yes": {
+        "format": 1,
+        "predicate": "never",
+        "yes": {
+          "format": 3,
+          "predicate": "agreement2",
+          "yes": {
+            "format": 2,
+            "predicate": "invalid",
+            "yes": null,
+            "no": null
+          },
+          "no": {
+            "format": 2,
+            "predicate": "margin2",
+            "yes": null,
+            "no": {
+              "format": 0,
+              "predicate": "margin2",
+              "yes": null,
+              "no": null
+            }
+          }
+        },
+        "no": {
+          "format": 2,
+          "predicate": "agreement2",
+          "yes": {
+            "format": 0,
+            "predicate": "unanimous",
+            "yes": null,
+            "no": {
+              "format": 3,
+              "predicate": "invalid",
+              "yes": null,
+              "no": null
+            }
+          },
+          "no": {
+            "format": 0,
+            "predicate": "remaining1",
+            "yes": null,
+            "no": null
+          }
+        }
+      },
+      "no": null
+    },
+    "da471d3202d161c18a0a01fc24494eba25896e7a864f9e9b05e6b9aceca63908": {
+      "format": 3,
+      "predicate": "invalid",
+      "yes": null,
+      "no": {
+        "format": 4,
+        "predicate": "invalid",
+        "yes": {
+          "format": 2,
+          "predicate": "unanimous",
+          "yes": null,
+          "no": {
+            "format": 0,
+            "predicate": "remaining1",
+            "yes": null,
+            "no": {
+              "format": 1,
+              "predicate": "margin2",
+              "yes": null,
+              "no": null
+            }
+          }
+        },
+        "no": {
+          "format": 2,
+          "predicate": "unanimous",
+          "yes": null,
+          "no": null
+        }
+      }
+    },
+    "e43d590f8a180d3bf156226c4166a771eaf1610a6e9d4b86bab9e9aaf9eddde2": {
+      "format": 4,
+      "predicate": "margin2",
+      "yes": null,
+      "no": {
+        "format": 0,
+        "predicate": "invalid",
+        "yes": null,
+        "no": {
+          "format": 1,
+          "predicate": "margin2",
+          "yes": {
+            "format": 2,
+            "predicate": "never",
+            "yes": {
+              "format": 3,
+              "predicate": "unanimous",
+              "yes": null,
+              "no": null
+            },
+            "no": {
+              "format": 3,
+              "predicate": "unanimous",
+              "yes": null,
+              "no": null
+            }
+          },
+          "no": null
+        }
+      }
+    },
+    "371f4f96fa8fb1d10ac6991fe265ea8cc261dd2dc1ed1ac7b760a661470349f5": {
+      "format": 2,
+      "predicate": "unanimous",
+      "yes": null,
+      "no": null
+    },
+    "d9ef445477bcadfa52ecefe54a7b4c4134602542dc8fae13c9c947bdaba88733": {
+      "format": 3,
+      "predicate": "margin2",
+      "yes": {
+        "format": 0,
+        "predicate": "remaining1",
+        "yes": {
+          "format": 2,
+          "predicate": "never",
+          "yes": {
+            "format": 4,
+            "predicate": "agreement2",
+            "yes": {
+              "format": 1,
+              "predicate": "last_diff",
+              "yes": null,
+              "no": null
+            },
+            "no": {
+              "format": 1,
+              "predicate": "agreement2",
+              "yes": null,
+              "no": null
+            }
+          },
+          "no": null
+        },
+        "no": {
+          "format": 4,
+          "predicate": "unanimous",
+          "yes": null,
+          "no": null
+        }
+      },
+      "no": null
+    },
+    "2e7dd40f51d7a7f8f401f0e22d2f982328bc6ec6856b6444bbb8afe15156940f": {
+      "format": 0,
+      "predicate": "agreement2",
+      "yes": null,
+      "no": {
+        "format": 1,
+        "predicate": "margin2",
+        "yes": null,
+        "no": {
+          "format": 2,
+          "predicate": "agreement2",
+          "yes": null,
+          "no": {
+            "format": 3,
+            "predicate": "agreement2",
+            "yes": null,
+            "no": {
+              "format": 4,
+              "predicate": "agreement2",
+              "yes": null,
+              "no": null
+            }
+          }
+        }
+      }
+    },
+    "2deed7eb76e8f97d0b417b2dd45611519e12cfdd29f7417fa5a7cb209c9456b1": {
+      "format": 4,
+      "predicate": "margin2",
+      "yes": null,
+      "no": null
+    },
+    "dac68ed55d6a22114040da9bd02ffc302a1dcb6c12df2bda3fa58e8326d0404a": {
+      "format": 4,
+      "predicate": "last_diff",
+      "yes": {
+        "format": 2,
+        "predicate": "unanimous",
+        "yes": null,
+        "no": {
+          "format": 3,
+          "predicate": "invalid",
+          "yes": {
+            "format": 0,
+            "predicate": "invalid",
+            "yes": {
+              "format": 1,
+              "predicate": "never",
+              "yes": null,
+              "no": null
+            },
+            "no": {
+              "format": 1,
+              "predicate": "last_diff",
+              "yes": null,
+              "no": null
+            }
+          },
+          "no": null
+        }
+      },
+      "no": {
+        "format": 1,
+        "predicate": "margin2",
+        "yes": {
+          "format": 0,
+          "predicate": "invalid",
+          "yes": {
+            "format": 2,
+            "predicate": "unanimous",
+            "yes": {
+              "format": 3,
+              "predicate": "invalid",
+              "yes": null,
+              "no": null
+            },
+            "no": {
+              "format": 3,
+              "predicate": "agreement2",
+              "yes": null,
+              "no": null
+            }
+          },
+          "no": {
+            "format": 2,
+            "predicate": "never",
+            "yes": null,
+            "no": null
+          }
+        },
+        "no": null
+      }
+    },
+    "147ad000687ba2eda7cd30fe71e029730091e3d641c012e950756508fe02808e": {
+      "format": 4,
+      "predicate": "last_diff",
+      "yes": {
+        "format": 0,
+        "predicate": "margin2",
+        "yes": {
+          "format": 3,
+          "predicate": "remaining1",
+          "yes": {
+            "format": 1,
+            "predicate": "invalid",
+            "yes": {
+              "format": 2,
+              "predicate": "invalid",
+              "yes": null,
+              "no": null
+            },
+            "no": null
+          },
+          "no": null
+        },
+        "no": null
+      },
+      "no": {
+        "format": 1,
+        "predicate": "margin2",
+        "yes": {
+          "format": 0,
+          "predicate": "invalid",
+          "yes": {
+            "format": 2,
+            "predicate": "unanimous",
+            "yes": {
+              "format": 3,
+              "predicate": "invalid",
+              "yes": null,
+              "no": null
+            },
+            "no": {
+              "format": 3,
+              "predicate": "agreement2",
+              "yes": null,
+              "no": null
+            }
+          },
+          "no": null
+        },
+        "no": null
+      }
+    },
+    "eb0832f61ea3bf11e82e31b3c9f12a921d804d81eb51503c3ee1334244e0fa2f": {
+      "format": 4,
+      "predicate": "remaining1",
+      "yes": {
+        "format": 2,
+        "predicate": "remaining1",
+        "yes": {
+          "format": 1,
+          "predicate": "agreement2",
+          "yes": null,
+          "no": {
+            "format": 0,
+            "predicate": "agreement2",
+            "yes": {
+              "format": 3,
+              "predicate": "unanimous",
+              "yes": null,
+              "no": null
+            },
+            "no": null
+          }
+        },
+        "no": {
+          "format": 1,
+          "predicate": "unanimous",
+          "yes": {
+            "format": 0,
+            "predicate": "agreement2",
+            "yes": null,
+            "no": null
+          },
+          "no": null
+        }
+      },
+      "no": null
+    },
+    "dc83ea677db72f6598d7b330ff15a86d3fe33cc53938337a063f20d7268eb111": {
+      "format": 4,
+      "predicate": "last_diff",
+      "yes": {
+        "format": 0,
+        "predicate": "unanimous",
+        "yes": {
+          "format": 1,
+          "predicate": "margin2",
+          "yes": {
+            "format": 3,
+            "predicate": "last_diff",
+            "yes": null,
+            "no": null
+          },
+          "no": {
+            "format": 2,
+            "predicate": "never",
+            "yes": null,
+            "no": null
+          }
+        },
+        "no": null
+      },
+      "no": {
+        "format": 2,
+        "predicate": "remaining1",
+        "yes": null,
+        "no": null
+      }
+    },
+    "4f6356a950532d82cae11c66dd8dc96de330bf695fd148e6afa0164bef77eacd": {
+      "format": 4,
+      "predicate": "agreement2",
+      "yes": null,
+      "no": {
+        "format": 2,
+        "predicate": "never",
+        "yes": {
+          "format": 1,
+          "predicate": "agreement2",
+          "yes": {
+            "format": 3,
+            "predicate": "never",
+            "yes": null,
+            "no": {
+              "format": 0,
+              "predicate": "unanimous",
+              "yes": null,
+              "no": null
+            }
+          },
+          "no": {
+            "format": 3,
+            "predicate": "remaining1",
+            "yes": null,
+            "no": {
+              "format": 0,
+              "predicate": "never",
+              "yes": null,
+              "no": null
+            }
+          }
+        },
+        "no": {
+          "format": 0,
+          "predicate": "remaining1",
+          "yes": {
+            "format": 3,
+            "predicate": "never",
+            "yes": {
+              "format": 1,
+              "predicate": "invalid",
+              "yes": null,
+              "no": null
+            },
+            "no": {
+              "format": 1,
+              "predicate": "agreement2",
+              "yes": null,
+              "no": null
+            }
+          },
+          "no": {
+            "format": 3,
+            "predicate": "agreement2",
+            "yes": null,
+            "no": null
+          }
+        }
+      }
+    },
+    "7bd8adbadbd622b9240c23c81f6ffb6a0d2adc2f4ad6324e3daf1e70d3cb1a0b": {
+      "format": 4,
+      "predicate": "remaining1",
+      "yes": {
+        "format": 2,
+        "predicate": "margin2",
+        "yes": {
+          "format": 1,
+          "predicate": "agreement2",
+          "yes": null,
+          "no": {
+            "format": 0,
+            "predicate": "agreement2",
+            "yes": {
+              "format": 3,
+              "predicate": "unanimous",
+              "yes": null,
+              "no": null
+            },
+            "no": null
+          }
+        },
+        "no": {
+          "format": 1,
+          "predicate": "unanimous",
+          "yes": {
+            "format": 0,
+            "predicate": "agreement2",
+            "yes": null,
+            "no": null
+          },
+          "no": {
+            "format": 3,
+            "predicate": "remaining1",
+            "yes": {
+              "format": 0,
+              "predicate": "last_diff",
+              "yes": null,
+              "no": null
+            },
+            "no": null
+          }
+        }
+      },
+      "no": null
+    },
+    "b71ff2f9326f01fa76e9862c65ddb25fc2974044e2e1d8190bc88ae648117d99": {
+      "format": 2,
+      "predicate": "never",
+      "yes": null,
+      "no": {
+        "format": 0,
+        "predicate": "agreement2",
+        "yes": {
+          "format": 3,
+          "predicate": "agreement2",
+          "yes": null,
+          "no": null
+        },
+        "no": null
+      }
+    },
+    "f3d6624952d834554f6903e1e75c60cc5d52d0d5acec4f3f1be3633061d02feb": {
+      "format": 2,
+      "predicate": "last_diff",
+      "yes": null,
+      "no": null
+    },
+    "045ba2542d267bf4c476d54667e102527987bc9200fae7218bc4917a8111ca3f": {
+      "format": 0,
+      "predicate": "never",
+      "yes": {
+        "format": 1,
+        "predicate": "never",
+        "yes": {
+          "format": 2,
+          "predicate": "agreement2",
+          "yes": {
+            "format": 3,
+            "predicate": "agreement2",
+            "yes": {
+              "format": 4,
+              "predicate": "unanimous",
+              "yes": null,
+              "no": null
+            },
+            "no": null
+          },
+          "no": {
+            "format": 4,
+            "predicate": "never",
+            "yes": {
+              "format": 3,
+              "predicate": "invalid",
+              "yes": null,
+              "no": null
+            },
+            "no": {
+              "format": 3,
+              "predicate": "last_diff",
+              "yes": null,
+              "no": null
+            }
+          }
+        },
+        "no": null
+      },
+      "no": null
+    },
+    "85c48b9a7cc815f68bec587d967fbebbb1cce61e3c7499740d7356b822ef1dda": {
+      "format": 0,
+      "predicate": "never",
+      "yes": null,
+      "no": {
+        "format": 3,
+        "predicate": "agreement2",
+        "yes": {
+          "format": 1,
+          "predicate": "never",
+          "yes": {
+            "format": 2,
+            "predicate": "invalid",
+            "yes": null,
+            "no": {
+              "format": 4,
+              "predicate": "last_diff",
+              "yes": null,
+              "no": null
+            }
+          },
+          "no": {
+            "format": 2,
+            "predicate": "margin2",
+            "yes": {
+              "format": 4,
+              "predicate": "last_diff",
+              "yes": null,
+              "no": null
+            },
+            "no": {
+              "format": 4,
+              "predicate": "never",
+              "yes": null,
+              "no": null
+            }
+          }
+        },
+        "no": null
+      }
+    },
+    "70ba9a87a0a6daef0de705bb4cc7b354aff45614374fef1ccdefbe23a45b3587": {
+      "format": 4,
+      "predicate": "last_diff",
+      "yes": {
+        "format": 3,
+        "predicate": "remaining1",
+        "yes": null,
+        "no": null
+      },
+      "no": null
+    },
+    "d7545e97a9c2d73cad0419405d49622a17842b984213b9ad003d7136badfab49": {
+      "format": 4,
+      "predicate": "never",
+      "yes": null,
+      "no": {
+        "format": 2,
+        "predicate": "never",
+        "yes": {
+          "format": 1,
+          "predicate": "unanimous",
+          "yes": {
+            "format": 0,
+            "predicate": "unanimous",
+            "yes": {
+              "format": 3,
+              "predicate": "margin2",
+              "yes": null,
+              "no": null
+            },
+            "no": {
+              "format": 3,
+              "predicate": "margin2",
+              "yes": null,
+              "no": null
+            }
+          },
+          "no": {
+            "format": 0,
+            "predicate": "agreement2",
+            "yes": {
+              "format": 3,
+              "predicate": "last_diff",
+              "yes": null,
+              "no": null
+            },
+            "no": null
+          }
+        },
+        "no": {
+          "format": 1,
+          "predicate": "agreement2",
+          "yes": null,
+          "no": null
+        }
+      }
+    },
+    "0d576ec8b4f6f2cc18c84f582ebd83f27fb30a4efd24db967ad2023c95ec9518": {
+      "format": 4,
+      "predicate": "last_diff",
+      "yes": {
+        "format": 2,
+        "predicate": "unanimous",
+        "yes": null,
+        "no": {
+          "format": 3,
+          "predicate": "invalid",
+          "yes": {
+            "format": 0,
+            "predicate": "invalid",
+            "yes": {
+              "format": 1,
+              "predicate": "never",
+              "yes": null,
+              "no": null
+            },
+            "no": {
+              "format": 1,
+              "predicate": "remaining1",
+              "yes": null,
+              "no": null
+            }
+          },
+          "no": null
+        }
+      },
+      "no": null
+    },
+    "fcb6983946d2ef579dff56fad948a83de268d76773c8d362a76eee1869362ae9": {
+      "format": 2,
+      "predicate": "never",
+      "yes": null,
+      "no": {
+        "format": 3,
+        "predicate": "invalid",
+        "yes": {
+          "format": 0,
+          "predicate": "invalid",
+          "yes": {
+            "format": 1,
+            "predicate": "never",
+            "yes": {
+              "format": 4,
+              "predicate": "unanimous",
+              "yes": null,
+              "no": null
+            },
+            "no": null
+          },
+          "no": {
+            "format": 4,
+            "predicate": "remaining1",
+            "yes": null,
+            "no": {
+              "format": 1,
+              "predicate": "invalid",
+              "yes": null,
+              "no": null
+            }
+          }
+        },
+        "no": {
+          "format": 0,
+          "predicate": "invalid",
+          "yes": null,
+          "no": {
+            "format": 1,
+            "predicate": "agreement2",
+            "yes": {
+              "format": 4,
+              "predicate": "last_diff",
+              "yes": null,
+              "no": null
+            },
+            "no": null
+          }
+        }
+      }
+    },
+    "a63b4d7ebef06f50f2f83e9714327a0fa0351d992c73e43e3edd09ac8ec35484": {
+      "format": 4,
+      "predicate": "last_diff",
+      "yes": {
+        "format": 2,
+        "predicate": "remaining1",
+        "yes": null,
+        "no": {
+          "format": 3,
+          "predicate": "invalid",
+          "yes": {
+            "format": 0,
+            "predicate": "invalid",
+            "yes": {
+              "format": 1,
+              "predicate": "never",
+              "yes": null,
+              "no": null
+            },
+            "no": {
+              "format": 1,
+              "predicate": "last_diff",
+              "yes": null,
+              "no": null
+            }
+          },
+          "no": null
+        }
+      },
+      "no": {
+        "format": 1,
+        "predicate": "margin2",
+        "yes": {
+          "format": 0,
+          "predicate": "invalid",
+          "yes": {
+            "format": 2,
+            "predicate": "unanimous",
+            "yes": {
+              "format": 3,
+              "predicate": "invalid",
+              "yes": null,
+              "no": null
+            },
+            "no": {
+              "format": 3,
+              "predicate": "agreement2",
+              "yes": null,
+              "no": null
+            }
+          },
+          "no": null
+        },
+        "no": null
+      }
+    },
+    "6a33dab9fa456ae95e7d6127c8175f610b6a605ae6f194668cf313641f3aa419": {
+      "format": 4,
+      "predicate": "unanimous",
+      "yes": {
+        "format": 1,
+        "predicate": "never",
+        "yes": {
+          "format": 3,
+          "predicate": "agreement2",
+          "yes": {
+            "format": 2,
+            "predicate": "invalid",
+            "yes": {
+              "format": 0,
+              "predicate": "margin2",
+              "yes": null,
+              "no": null
+            },
+            "no": null
+          },
+          "no": {
+            "format": 2,
+            "predicate": "margin2",
+            "yes": null,
+            "no": {
+              "format": 0,
+              "predicate": "margin2",
+              "yes": null,
+              "no": null
+            }
+          }
+        },
+        "no": {
+          "format": 2,
+          "predicate": "agreement2",
+          "yes": {
+            "format": 0,
+            "predicate": "unanimous",
+            "yes": null,
+            "no": {
+              "format": 3,
+              "predicate": "invalid",
+              "yes": null,
+              "no": null
+            }
+          },
+          "no": {
+            "format": 0,
+            "predicate": "remaining1",
+            "yes": null,
+            "no": null
+          }
+        }
+      },
+      "no": null
+    },
+    "9a4f2d23069fc07ff45e28804fd046cd1b7276cb35158ae743437a204d40deba": {
+      "format": 4,
+      "predicate": "agreement2",
+      "yes": null,
+      "no": null
+    },
+    "d7877cb5fcdfe8dc6019263577a7cd0eba483b00fb5fe7384f45062c180f0aaa": {
+      "format": 2,
+      "predicate": "never",
+      "yes": null,
+      "no": {
+        "format": 3,
+        "predicate": "agreement2",
+        "yes": {
+          "format": 4,
+          "predicate": "invalid",
+          "yes": null,
+          "no": {
+            "format": 0,
+            "predicate": "remaining1",
+            "yes": {
+              "format": 1,
+              "predicate": "margin2",
+              "yes": null,
+              "no": null
+            },
+            "no": {
+              "format": 1,
+              "predicate": "last_diff",
+              "yes": null,
+              "no": null
+            }
+          }
+        },
+        "no": {
+          "format": 1,
+          "predicate": "invalid",
+          "yes": null,
+          "no": null
+        }
+      }
+    },
+    "82adc9a32c04f47f9c616f278e941afb077b012627bdfc8eda75228b95fe855e": {
+      "format": 2,
+      "predicate": "last_diff",
+      "yes": null,
+      "no": {
+        "format": 1,
+        "predicate": "never",
+        "yes": null,
+        "no": {
+          "format": 0,
+          "predicate": "agreement2",
+          "yes": null,
+          "no": {
+            "format": 3,
+            "predicate": "margin2",
+            "yes": null,
+            "no": null
+          }
+        }
+      }
+    },
+    "3742366bd5a2c1c20dce1be659f3ddce8b6dd024d45d7523b8faab12303ee124": {
+      "format": 4,
+      "predicate": "last_diff",
+      "yes": {
+        "format": 2,
+        "predicate": "unanimous",
+        "yes": null,
+        "no": null
+      },
+      "no": {
+        "format": 1,
+        "predicate": "margin2",
+        "yes": {
+          "format": 0,
+          "predicate": "invalid",
+          "yes": {
+            "format": 2,
+            "predicate": "unanimous",
+            "yes": {
+              "format": 3,
+              "predicate": "invalid",
+              "yes": null,
+              "no": null
+            },
+            "no": {
+              "format": 3,
+              "predicate": "agreement2",
+              "yes": null,
+              "no": null
+            }
+          },
+          "no": null
+        },
+        "no": null
+      }
+    },
+    "a131c1e9f7be43f725126873c87267eb67718a9ae691c580bcd7b1a32990164e": {
+      "format": 2,
+      "predicate": "never",
+      "yes": {
+        "format": 3,
+        "predicate": "remaining1",
+        "yes": {
+          "format": 4,
+          "predicate": "invalid",
+          "yes": null,
+          "no": null
+        },
+        "no": null
+      },
+      "no": null
+    },
+    "687f8152a9d16ca63d727d55c13eff0cffed94c7492f22bb3efdcd00caed6ee8": {
+      "format": 4,
+      "predicate": "last_diff",
+      "yes": {
+        "format": 2,
+        "predicate": "unanimous",
+        "yes": null,
+        "no": {
+          "format": 3,
+          "predicate": "invalid",
+          "yes": {
+            "format": 0,
+            "predicate": "invalid",
+            "yes": {
+              "format": 1,
+              "predicate": "never",
+              "yes": null,
+              "no": null
+            },
+            "no": {
+              "format": 1,
+              "predicate": "last_diff",
+              "yes": null,
+              "no": null
+            }
+          },
+          "no": null
+        }
+      },
+      "no": {
+        "format": 1,
+        "predicate": "margin2",
+        "yes": {
+          "format": 0,
+          "predicate": "invalid",
+          "yes": {
+            "format": 2,
+            "predicate": "unanimous",
+            "yes": {
+              "format": 3,
+              "predicate": "invalid",
+              "yes": null,
+              "no": null
+            },
+            "no": {
+              "format": 3,
+              "predicate": "agreement2",
+              "yes": null,
+              "no": null
+            }
+          },
+          "no": {
+            "format": 2,
+            "predicate": "invalid",
+            "yes": {
+              "format": 3,
+              "predicate": "agreement2",
+              "yes": null,
+              "no": null
+            },
+            "no": null
+          }
+        },
+        "no": null
+      }
+    },
+    "368dca7884551521a64818c103549dcd4611121c853ce8e6f3bd15d630871bba": {
+      "format": 4,
+      "predicate": "unanimous",
+      "yes": {
+        "format": 1,
+        "predicate": "never",
+        "yes": {
+          "format": 3,
+          "predicate": "agreement2",
+          "yes": {
+            "format": 2,
+            "predicate": "invalid",
+            "yes": {
+              "format": 0,
+              "predicate": "margin2",
+              "yes": null,
+              "no": null
+            },
+            "no": {
+              "format": 0,
+              "predicate": "unanimous",
+              "yes": null,
+              "no": null
+            }
+          },
+          "no": {
+            "format": 2,
+            "predicate": "margin2",
+            "yes": null,
+            "no": {
+              "format": 0,
+              "predicate": "margin2",
+              "yes": null,
+              "no": null
+            }
+          }
+        },
+        "no": null
+      },
+      "no": null
+    },
+    "9bba4d0d1c2095de6047d40821a1f405670e7ba761b64cdaadcff0882bbafa34": {
+      "format": 4,
+      "predicate": "remaining1",
+      "yes": {
+        "format": 2,
+        "predicate": "margin2",
+        "yes": {
+          "format": 1,
+          "predicate": "agreement2",
+          "yes": null,
+          "no": {
+            "format": 0,
+            "predicate": "agreement2",
+            "yes": {
+              "format": 3,
+              "predicate": "unanimous",
+              "yes": null,
+              "no": null
+            },
+            "no": null
+          }
+        },
+        "no": {
+          "format": 1,
+          "predicate": "unanimous",
+          "yes": null,
+          "no": null
+        }
+      },
+      "no": null
+    },
+    "95d1bc5cacee72a218924193e6533c07db581fa16fa70336aa2a5993f880a41f": {
+      "format": 0,
+      "predicate": "never",
+      "yes": null,
+      "no": {
+        "format": 4,
+        "predicate": "margin2",
+        "yes": {
+          "format": 1,
+          "predicate": "remaining1",
+          "yes": null,
+          "no": {
+            "format": 2,
+            "predicate": "agreement2",
+            "yes": null,
+            "no": null
+          }
+        },
+        "no": null
+      }
+    },
+    "133c2a7f5da8b61f0614704b51481a1e4c3c112eb81a5c2b698cacd995e38a10": {
+      "format": 0,
+      "predicate": "never",
+      "yes": {
+        "format": 3,
+        "predicate": "remaining1",
+        "yes": null,
+        "no": null
+      },
+      "no": null
+    },
+    "81f6dab6b5e8de11ab24e8f0721211ee5aa7250af46d8fd20e528bfc6b665fc2": {
+      "format": 4,
+      "predicate": "last_diff",
+      "yes": {
+        "format": 0,
+        "predicate": "unanimous",
+        "yes": {
+          "format": 1,
+          "predicate": "margin2",
+          "yes": {
+            "format": 3,
+            "predicate": "last_diff",
+            "yes": null,
+            "no": null
+          },
+          "no": {
+            "format": 2,
+            "predicate": "never",
+            "yes": null,
+            "no": null
+          }
+        },
+        "no": null
+      },
+      "no": {
+        "format": 2,
+        "predicate": "invalid",
+        "yes": null,
+        "no": null
+      }
+    },
+    "4c84de6472402570a918b875aed4844786fa32d47c5aed532c19c6df5a40d203": {
+      "format": 4,
+      "predicate": "unanimous",
+      "yes": null,
+      "no": null
+    },
+    "e39f1a3d5126e853d011990707bfdfd6544396989d851f5de847ffad8d6703da": {
+      "format": 4,
+      "predicate": "last_diff",
+      "yes": {
+        "format": 2,
+        "predicate": "unanimous",
+        "yes": null,
+        "no": {
+          "format": 3,
+          "predicate": "invalid",
+          "yes": {
+            "format": 0,
+            "predicate": "invalid",
+            "yes": {
+              "format": 1,
+              "predicate": "never",
+              "yes": null,
+              "no": null
+            },
+            "no": {
+              "format": 1,
+              "predicate": "remaining1",
+              "yes": null,
+              "no": null
+            }
+          },
+          "no": null
+        }
+      },
+      "no": {
+        "format": 1,
+        "predicate": "margin2",
+        "yes": {
+          "format": 3,
+          "predicate": "invalid",
+          "yes": {
+            "format": 0,
+            "predicate": "invalid",
+            "yes": null,
+            "no": {
+              "format": 2,
+              "predicate": "last_diff",
+              "yes": null,
+              "no": null
+            }
+          },
+          "no": null
+        },
+        "no": null
+      }
+    },
+    "cda35cc7d359670919db7f1190259df5fbec8345814e619d2efe0c05a35cd219": {
+      "format": 4,
+      "predicate": "unanimous",
+      "yes": {
+        "format": 1,
+        "predicate": "never",
+        "yes": null,
+        "no": null
+      },
+      "no": {
+        "format": 1,
+        "predicate": "agreement2",
+        "yes": {
+          "format": 2,
+          "predicate": "margin2",
+          "yes": {
+            "format": 0,
+            "predicate": "invalid",
+            "yes": null,
+            "no": {
+              "format": 3,
+              "predicate": "last_diff",
+              "yes": null,
+              "no": null
+            }
+          },
+          "no": {
+            "format": 3,
+            "predicate": "never",
+            "yes": {
+              "format": 0,
+              "predicate": "agreement2",
+              "yes": null,
+              "no": null
+            },
+            "no": {
+              "format": 0,
+              "predicate": "margin2",
+              "yes": null,
+              "no": null
+            }
+          }
+        },
+        "no": null
+      }
+    },
+    "651d56db1a35eb4728c1fb373e98d8c224693182673ce238ab9b92ac0150c1bf": {
+      "format": 4,
+      "predicate": "remaining1",
+      "yes": {
+        "format": 2,
+        "predicate": "margin2",
+        "yes": {
+          "format": 1,
+          "predicate": "agreement2",
+          "yes": null,
+          "no": {
+            "format": 0,
+            "predicate": "agreement2",
+            "yes": {
+              "format": 3,
+              "predicate": "unanimous",
+              "yes": null,
+              "no": null
+            },
+            "no": {
+              "format": 3,
+              "predicate": "never",
+              "yes": null,
+              "no": null
+            }
+          }
+        },
+        "no": {
+          "format": 1,
+          "predicate": "unanimous",
+          "yes": {
+            "format": 0,
+            "predicate": "agreement2",
+            "yes": null,
+            "no": null
+          },
+          "no": null
+        }
+      },
+      "no": null
+    },
+    "142b94a29ede13d84a7658d946aa5a2059516482c4248cc090be3f2e52ddca4a": {
+      "format": 0,
+      "predicate": "never",
+      "yes": {
+        "format": 1,
+        "predicate": "never",
+        "yes": {
+          "format": 2,
+          "predicate": "agreement2",
+          "yes": {
+            "format": 3,
+            "predicate": "agreement2",
+            "yes": {
+              "format": 4,
+              "predicate": "remaining1",
+              "yes": null,
+              "no": null
+            },
+            "no": null
+          },
+          "no": null
+        },
+        "no": null
+      },
+      "no": null
+    },
+    "4396b517d1fb98ce1f44a950bc643c54193950390eef7b8cfb4999552e5a5c91": {
+      "format": 4,
+      "predicate": "unanimous",
+      "yes": {
+        "format": 2,
+        "predicate": "never",
+        "yes": {
+          "format": 3,
+          "predicate": "agreement2",
+          "yes": {
+            "format": 0,
+            "predicate": "invalid",
+            "yes": null,
+            "no": null
+          },
+          "no": {
+            "format": 0,
+            "predicate": "margin2",
+            "yes": null,
+            "no": {
+              "format": 1,
+              "predicate": "margin2",
+              "yes": null,
+              "no": null
+            }
+          }
+        },
+        "no": {
+          "format": 0,
+          "predicate": "agreement2",
+          "yes": {
+            "format": 1,
+            "predicate": "unanimous",
+            "yes": null,
+            "no": {
+              "format": 3,
+              "predicate": "invalid",
+              "yes": null,
+              "no": null
+            }
+          },
+          "no": {
+            "format": 1,
+            "predicate": "remaining1",
+            "yes": null,
+            "no": null
+          }
+        }
+      },
+      "no": null
+    },
+    "30666e0c1a9b853c6abc5db03827b2d25eddc3875c11ded8287427682e9b904b": {
+      "format": 4,
+      "predicate": "remaining1",
+      "yes": {
+        "format": 2,
+        "predicate": "margin2",
+        "yes": {
+          "format": 1,
+          "predicate": "agreement2",
+          "yes": {
+            "format": 3,
+            "predicate": "last_diff",
+            "yes": null,
+            "no": null
+          },
+          "no": {
+            "format": 0,
+            "predicate": "agreement2",
+            "yes": {
+              "format": 3,
+              "predicate": "unanimous",
+              "yes": null,
+              "no": null
+            },
+            "no": null
+          }
+        },
+        "no": {
+          "format": 0,
+          "predicate": "agreement2",
+          "yes": {
+            "format": 1,
+            "predicate": "unanimous",
+            "yes": null,
+            "no": {
+              "format": 3,
+              "predicate": "invalid",
+              "yes": null,
+              "no": null
+            }
+          },
+          "no": {
+            "format": 1,
+            "predicate": "remaining1",
+            "yes": null,
+            "no": null
+          }
+        }
+      },
+      "no": null
+    },
+    "5fc86ce0341d593ce9663f5dc6322fbe48d7ce23c497dc4874117745da7ca8a9": {
+      "format": 3,
+      "predicate": "unanimous",
+      "yes": {
+        "format": 1,
+        "predicate": "never",
+        "yes": {
+          "format": 0,
+          "predicate": "agreement2",
+          "yes": {
+            "format": 2,
+            "predicate": "invalid",
+            "yes": {
+              "format": 4,
+              "predicate": "margin2",
+              "yes": null,
+              "no": null
+            },
+            "no": null
+          },
+          "no": {
+            "format": 2,
+            "predicate": "margin2",
+            "yes": null,
+            "no": {
+              "format": 4,
+              "predicate": "margin2",
+              "yes": null,
+              "no": null
+            }
+          }
+        },
+        "no": {
+          "format": 2,
+          "predicate": "agreement2",
+          "yes": {
+            "format": 0,
+            "predicate": "unanimous",
+            "yes": null,
+            "no": {
+              "format": 4,
+              "predicate": "invalid",
+              "yes": null,
+              "no": null
+            }
+          },
+          "no": {
+            "format": 0,
+            "predicate": "remaining1",
+            "yes": null,
+            "no": null
+          }
+        }
+      },
+      "no": null
+    },
+    "1a74be02cc172cee52fcc19ef19e37d7ff908b02bcd12ed5fe3241d432441f4a": {
+      "format": 0,
+      "predicate": "never",
+      "yes": {
+        "format": 1,
+        "predicate": "never",
+        "yes": {
+          "format": 2,
+          "predicate": "agreement2",
+          "yes": {
+            "format": 3,
+            "predicate": "agreement2",
+            "yes": {
+              "format": 4,
+              "predicate": "unanimous",
+              "yes": null,
+              "no": null
+            },
+            "no": null
+          },
+          "no": {
+            "format": 4,
+            "predicate": "margin2",
+            "yes": null,
+            "no": {
+              "format": 3,
+              "predicate": "unanimous",
+              "yes": null,
+              "no": null
+            }
+          }
+        },
+        "no": null
+      },
+      "no": null
+    },
+    "ec11aec6d83b0e83676794317f5f29d140f473d77418d78b6193e08a704e300f": {
+      "format": 4,
+      "predicate": "never",
+      "yes": null,
+      "no": {
+        "format": 2,
+        "predicate": "unanimous",
+        "yes": null,
+        "no": null
+      }
+    },
+    "059fc9bc3565e3afbf7a8f5c6b81e0acdc5afb6219db10ec2fd3c920237faa54": {
+      "format": 0,
+      "predicate": "margin2",
+      "yes": null,
+      "no": null
+    },
+    "bcb24a192ac52ff13842a555d6ef18939703788aaae3753265dd3b0448808257": {
+      "format": 4,
+      "predicate": "last_diff",
+      "yes": {
+        "format": 0,
+        "predicate": "remaining1",
+        "yes": null,
+        "no": null
+      },
+      "no": null
+    },
+    "11fdd7466380e99c60eac512959f4882f352d18cb575eaf9c027e1eb64739cac": {
+      "format": 4,
+      "predicate": "agreement2",
+      "yes": null,
+      "no": {
+        "format": 2,
+        "predicate": "agreement2",
+        "yes": {
+          "format": 1,
+          "predicate": "margin2",
+          "yes": null,
+          "no": {
+            "format": 0,
+            "predicate": "never",
+            "yes": null,
+            "no": null
+          }
+        },
+        "no": {
+          "format": 3,
+          "predicate": "agreement2",
+          "yes": {
+            "format": 1,
+            "predicate": "invalid",
+            "yes": null,
+            "no": {
+              "format": 0,
+              "predicate": "invalid",
+              "yes": null,
+              "no": null
+            }
+          },
+          "no": null
+        }
+      }
+    },
+    "cb9f2ce2a9e925577876b2b3954108d1191f0d5a3af6d434d286feca238ab16c": {
+      "format": 3,
+      "predicate": "margin2",
+      "yes": {
+        "format": 0,
+        "predicate": "unanimous",
+        "yes": null,
+        "no": {
+          "format": 1,
+          "predicate": "last_diff",
+          "yes": {
+            "format": 4,
+            "predicate": "agreement2",
+            "yes": null,
+            "no": {
+              "format": 2,
+              "predicate": "invalid",
+              "yes": null,
+              "no": null
+            }
+          },
+          "no": null
+        }
+      },
+      "no": {
+        "format": 4,
+        "predicate": "last_diff",
+        "yes": null,
+        "no": {
+          "format": 1,
+          "predicate": "never",
+          "yes": {
+            "format": 0,
+            "predicate": "unanimous",
+            "yes": {
+              "format": 2,
+              "predicate": "never",
+              "yes": null,
+              "no": null
+            },
+            "no": null
+          },
+          "no": null
+        }
+      }
+    },
+    "559ad8697b09e68b12a8362a7a186703a5331b164a4a47d48871c565387e79b3": {
+      "format": 4,
+      "predicate": "last_diff",
+      "yes": {
+        "format": 0,
+        "predicate": "unanimous",
+        "yes": {
+          "format": 1,
+          "predicate": "margin2",
+          "yes": {
+            "format": 3,
+            "predicate": "last_diff",
+            "yes": null,
+            "no": null
+          },
+          "no": {
+            "format": 2,
+            "predicate": "remaining1",
+            "yes": null,
+            "no": null
+          }
+        },
+        "no": null
+      },
+      "no": {
+        "format": 2,
+        "predicate": "remaining1",
+        "yes": null,
+        "no": null
+      }
+    },
+    "86fbe64e90a21038820db8af6f86bc1670867c137793ed5b5cbe9a2db38f900c": {
+      "format": 0,
+      "predicate": "never",
+      "yes": {
+        "format": 1,
+        "predicate": "never",
+        "yes": {
+          "format": 2,
+          "predicate": "agreement2",
+          "yes": {
+            "format": 3,
+            "predicate": "agreement2",
+            "yes": {
+              "format": 4,
+              "predicate": "unanimous",
+              "yes": null,
+              "no": null
+            },
+            "no": null
+          },
+          "no": {
+            "format": 4,
+            "predicate": "margin2",
+            "yes": null,
+            "no": {
+              "format": 3,
+              "predicate": "unanimous",
+              "yes": null,
+              "no": null
+            }
+          }
+        },
+        "no": {
+          "format": 4,
+          "predicate": "margin2",
+          "yes": null,
+          "no": null
+        }
+      },
+      "no": null
+    },
+    "6152e6da7771a770562ff63cc4ac7e097cf5d91e1b1f0b0afcb97fb28f4b6645": {
+      "format": 4,
+      "predicate": "agreement2",
+      "yes": null,
+      "no": {
+        "format": 2,
+        "predicate": "agreement2",
+        "yes": {
+          "format": 1,
+          "predicate": "margin2",
+          "yes": null,
+          "no": {
+            "format": 0,
+            "predicate": "never",
+            "yes": null,
+            "no": {
+              "format": 3,
+              "predicate": "never",
+              "yes": null,
+              "no": null
+            }
+          }
+        },
+        "no": null
+      }
+    },
+    "0163fc02796a01ce09dd2b5ca173c2a8bd02c423ae773350a314627d120c7913": {
+      "format": 4,
+      "predicate": "unanimous",
+      "yes": {
+        "format": 3,
+        "predicate": "never",
+        "yes": null,
+        "no": {
+          "format": 2,
+          "predicate": "agreement2",
+          "yes": null,
+          "no": null
+        }
+      },
+      "no": null
+    },
+    "85841a6c72b4ce84b7e876c6670eda7bcd48996fdad0322eb8aef77c0b04eb0a": {
+      "format": 0,
+      "predicate": "never",
+      "yes": {
+        "format": 1,
+        "predicate": "never",
+        "yes": {
+          "format": 4,
+          "predicate": "unanimous",
+          "yes": {
+            "format": 3,
+            "predicate": "never",
+            "yes": {
+              "format": 2,
+              "predicate": "agreement2",
+              "yes": null,
+              "no": null
+            },
+            "no": {
+              "format": 2,
+              "predicate": "last_diff",
+              "yes": null,
+              "no": null
+            }
+          },
+          "no": {
+            "format": 2,
+            "predicate": "never",
+            "yes": null,
+            "no": {
+              "format": 3,
+              "predicate": "agreement2",
+              "yes": null,
+              "no": null
+            }
+          }
+        },
+        "no": null
+      },
+      "no": null
+    },
+    "1e9296d395617e6ee41a92e567143a65d256311aa6f0e3aca23040ce3a14720b": {
+      "format": 0,
+      "predicate": "never",
+      "yes": null,
+      "no": {
+        "format": 2,
+        "predicate": "unanimous",
+        "yes": null,
+        "no": null
+      }
+    },
+    "02ae3593740f8a438995716f979baabd5a9d8c39e3ce426f66f173308bfb0450": {
+      "format": 0,
+      "predicate": "never",
+      "yes": {
+        "format": 1,
+        "predicate": "never",
+        "yes": null,
+        "no": null
+      },
+      "no": null
+    },
+    "b2efc0cfa104a5455237915dbe882a97a4908fe5955d0bda231e6f74c033c05d": {
+      "format": 4,
+      "predicate": "last_diff",
+      "yes": {
+        "format": 0,
+        "predicate": "never",
+        "yes": null,
+        "no": null
+      },
+      "no": {
+        "format": 0,
+        "predicate": "unanimous",
+        "yes": {
+          "format": 1,
+          "predicate": "invalid",
+          "yes": {
+            "format": 2,
+            "predicate": "unanimous",
+            "yes": {
+              "format": 3,
+              "predicate": "never",
+              "yes": null,
+              "no": null
+            },
+            "no": {
+              "format": 3,
+              "predicate": "last_diff",
+              "yes": null,
+              "no": null
+            }
+          },
+          "no": {
+            "format": 2,
+            "predicate": "margin2",
+            "yes": null,
+            "no": null
+          }
+        },
+        "no": {
+          "format": 1,
+          "predicate": "agreement2",
+          "yes": {
+            "format": 2,
+            "predicate": "agreement2",
+            "yes": {
+              "format": 3,
+              "predicate": "remaining1",
+              "yes": null,
+              "no": null
+            },
+            "no": null
+          },
+          "no": {
+            "format": 2,
+            "predicate": "unanimous",
+            "yes": {
+              "format": 3,
+              "predicate": "never",
+              "yes": null,
+              "no": null
+            },
+            "no": {
+              "format": 3,
+              "predicate": "invalid",
+              "yes": null,
+              "no": null
+            }
+          }
+        }
+      }
+    },
+    "18f77589515a853d6cc89aa1955400811ee9ac7f0b2e42ba5a6d171e4358c16a": {
+      "format": 0,
+      "predicate": "never",
+      "yes": {
+        "format": 1,
+        "predicate": "never",
+        "yes": {
+          "format": 2,
+          "predicate": "agreement2",
+          "yes": {
+            "format": 3,
+            "predicate": "agreement2",
+            "yes": {
+              "format": 4,
+              "predicate": "unanimous",
+              "yes": null,
+              "no": null
+            },
+            "no": null
+          },
+          "no": {
+            "format": 4,
+            "predicate": "never",
+            "yes": {
+              "format": 3,
+              "predicate": "invalid",
+              "yes": null,
+              "no": null
+            },
+            "no": null
+          }
+        },
+        "no": null
+      },
+      "no": null
+    },
+    "f9a577f184f56e507580adb8a095c9725d37ceadb3e14fc851d2f3a86079b3df": {
+      "format": 0,
+      "predicate": "never",
+      "yes": null,
+      "no": {
+        "format": 4,
+        "predicate": "last_diff",
+        "yes": null,
+        "no": null
+      }
+    },
+    "1b483575aa7f9b8c95175983b0d2989e966c789cd83fa7b455573fcc2b37e953": {
+      "format": 0,
+      "predicate": "never",
+      "yes": {
+        "format": 3,
+        "predicate": "remaining1",
+        "yes": null,
+        "no": {
+          "format": 4,
+          "predicate": "unanimous",
+          "yes": null,
+          "no": {
+            "format": 1,
+            "predicate": "unanimous",
+            "yes": null,
+            "no": null
+          }
+        }
+      },
+      "no": null
+    },
+    "c3572c50f448609b022db192d6cc5756799f8349d8bd1c3877dd8f58c4c234a3": {
+      "format": 0,
+      "predicate": "never",
+      "yes": {
+        "format": 4,
+        "predicate": "never",
+        "yes": null,
+        "no": null
+      },
+      "no": null
+    },
+    "5d97cb5a1257133b8052477a46c4fb3d308321d2a842ba3dcefecd8ee1ddc1c0": {
+      "format": 4,
+      "predicate": "never",
+      "yes": null,
+      "no": {
+        "format": 2,
+        "predicate": "invalid",
+        "yes": null,
+        "no": null
+      }
+    },
+    "df55e1cda99f26ae1614c921cfcb884a594360c71b1b64eb950f92998f0b1519": {
+      "format": 0,
+      "predicate": "never",
+      "yes": {
+        "format": 1,
+        "predicate": "never",
+        "yes": {
+          "format": 2,
+          "predicate": "agreement2",
+          "yes": {
+            "format": 3,
+            "predicate": "agreement2",
+            "yes": {
+              "format": 4,
+              "predicate": "unanimous",
+              "yes": null,
+              "no": null
+            },
+            "no": null
+          },
+          "no": {
+            "format": 4,
+            "predicate": "never",
+            "yes": {
+              "format": 3,
+              "predicate": "invalid",
+              "yes": null,
+              "no": null
+            },
+            "no": {
+              "format": 3,
+              "predicate": "last_diff",
+              "yes": null,
+              "no": null
+            }
+          }
+        },
+        "no": {
+          "format": 3,
+          "predicate": "invalid",
+          "yes": null,
+          "no": {
+            "format": 2,
+            "predicate": "invalid",
+            "yes": {
+              "format": 4,
+              "predicate": "remaining1",
+              "yes": null,
+              "no": null
+            },
+            "no": {
+              "format": 4,
+              "predicate": "unanimous",
+              "yes": null,
+              "no": null
+            }
+          }
+        }
+      },
+      "no": null
+    },
+    "07604a6f6ea4bdf637f2d857717de3efc0cb28eff4bf2052010b8768d290359b": {
+      "format": 0,
+      "predicate": "never",
+      "yes": {
+        "format": 1,
+        "predicate": "never",
+        "yes": {
+          "format": 2,
+          "predicate": "agreement2",
+          "yes": {
+            "format": 3,
+            "predicate": "agreement2",
+            "yes": {
+              "format": 4,
+              "predicate": "unanimous",
+              "yes": null,
+              "no": null
+            },
+            "no": null
+          },
+          "no": {
+            "format": 4,
+            "predicate": "never",
+            "yes": {
+              "format": 3,
+              "predicate": "invalid",
+              "yes": null,
+              "no": null
+            },
+            "no": {
+              "format": 3,
+              "predicate": "unanimous",
+              "yes": null,
+              "no": null
+            }
+          }
+        },
+        "no": null
+      },
+      "no": null
+    },
+    "8e7d7e0caf7afe2f7015f17bb1f6e30c3889682a5d19c93cfddd8497d571e4c3": {
+      "format": 0,
+      "predicate": "never",
+      "yes": {
+        "format": 1,
+        "predicate": "never",
+        "yes": {
+          "format": 3,
+          "predicate": "agreement2",
+          "yes": {
+            "format": 2,
+            "predicate": "agreement2",
+            "yes": {
+              "format": 4,
+              "predicate": "unanimous",
+              "yes": null,
+              "no": null
+            },
+            "no": null
+          },
+          "no": null
+        },
+        "no": null
+      },
+      "no": null
+    },
+    "0e41087d4611eb23591aa44a51698afa80b0f97230400d27a0537842a54cca9f": {
+      "format": 4,
+      "predicate": "never",
+      "yes": {
+        "format": 1,
+        "predicate": "never",
+        "yes": {
+          "format": 2,
+          "predicate": "agreement2",
+          "yes": {
+            "format": 3,
+            "predicate": "agreement2",
+            "yes": {
+              "format": 0,
+              "predicate": "unanimous",
+              "yes": null,
+              "no": null
+            },
+            "no": null
+          },
+          "no": {
+            "format": 0,
+            "predicate": "never",
+            "yes": {
+              "format": 3,
+              "predicate": "invalid",
+              "yes": null,
+              "no": null
+            },
+            "no": {
+              "format": 3,
+              "predicate": "last_diff",
+              "yes": null,
+              "no": null
+            }
+          }
+        },
+        "no": null
+      },
+      "no": null
+    },
+    "f5301a2dc376acfdfe8aa6247caa1772027df8cd780cecd5bee400d1004ced57": {
+      "format": 0,
+      "predicate": "never",
+      "yes": {
+        "format": 4,
+        "predicate": "invalid",
+        "yes": null,
+        "no": {
+          "format": 2,
+          "predicate": "margin2",
+          "yes": {
+            "format": 1,
+            "predicate": "never",
+            "yes": {
+              "format": 3,
+              "predicate": "agreement2",
+              "yes": null,
+              "no": null
+            },
+            "no": null
+          },
+          "no": {
+            "format": 3,
+            "predicate": "agreement2",
+            "yes": {
+              "format": 1,
+              "predicate": "invalid",
+              "yes": null,
+              "no": null
+            },
+            "no": {
+              "format": 1,
+              "predicate": "invalid",
+              "yes": null,
+              "no": null
+            }
+          }
+        }
+      },
+      "no": null
+    },
+    "3d5456275e0eb6b3594120d9367fb35fcedd66136bd12fdce76937775d797f31": {
+      "format": 4,
+      "predicate": "last_diff",
+      "yes": {
+        "format": 0,
+        "predicate": "unanimous",
+        "yes": {
+          "format": 1,
+          "predicate": "margin2",
+          "yes": {
+            "format": 3,
+            "predicate": "last_diff",
+            "yes": null,
+            "no": null
+          },
+          "no": {
+            "format": 2,
+            "predicate": "never",
+            "yes": {
+              "format": 3,
+              "predicate": "agreement2",
+              "yes": null,
+              "no": null
+            },
+            "no": null
+          }
+        },
+        "no": null
+      },
+      "no": {
+        "format": 2,
+        "predicate": "remaining1",
+        "yes": null,
+        "no": null
+      }
+    },
+    "1df5d536fcf9e0f05a9c12b24b2ae82caf66722ad7832c7c384fd01fed231ae4": {
+      "format": 4,
+      "predicate": "unanimous",
+      "yes": {
+        "format": 1,
+        "predicate": "never",
+        "yes": null,
+        "no": {
+          "format": 2,
+          "predicate": "agreement2",
+          "yes": null,
+          "no": {
+            "format": 3,
+            "predicate": "unanimous",
+            "yes": null,
+            "no": {
+              "format": 0,
+              "predicate": "remaining1",
+              "yes": null,
+              "no": null
+            }
+          }
+        }
+      },
+      "no": null
+    },
+    "5471c026e6c2a5df401d04224c299f3479087e79b2afb3c15dfd32c4129d0747": {
+      "format": 4,
+      "predicate": "margin2",
+      "yes": null,
+      "no": {
+        "format": 2,
+        "predicate": "agreement2",
+        "yes": {
+          "format": 3,
+          "predicate": "remaining1",
+          "yes": {
+            "format": 0,
+            "predicate": "margin2",
+            "yes": null,
+            "no": null
+          },
+          "no": {
+            "format": 0,
+            "predicate": "never",
+            "yes": null,
+            "no": null
+          }
+        },
+        "no": null
+      }
+    },
+    "14df01ed02da4fd648d600bce85d51000606bf15edcc8d83552165ec4947fab0": {
+      "format": 0,
+      "predicate": "never",
+      "yes": {
+        "format": 1,
+        "predicate": "never",
+        "yes": {
+          "format": 2,
+          "predicate": "agreement2",
+          "yes": {
+            "format": 3,
+            "predicate": "agreement2",
+            "yes": {
+              "format": 4,
+              "predicate": "unanimous",
+              "yes": null,
+              "no": null
+            },
+            "no": null
+          },
+          "no": {
+            "format": 3,
+            "predicate": "invalid",
+            "yes": null,
+            "no": null
+          }
+        },
+        "no": {
+          "format": 4,
+          "predicate": "margin2",
+          "yes": null,
+          "no": null
+        }
+      },
+      "no": null
+    },
+    "f6174dc1412ddefd36bb3ea5e40373a0967d6540acc91b75affcca70f9b6b7df": {
+      "format": 0,
+      "predicate": "never",
+      "yes": null,
+      "no": {
+        "format": 4,
+        "predicate": "margin2",
+        "yes": {
+          "format": 2,
+          "predicate": "unanimous",
+          "yes": null,
+          "no": {
+            "format": 3,
+            "predicate": "never",
+            "yes": null,
+            "no": {
+              "format": 1,
+              "predicate": "remaining1",
+              "yes": null,
+              "no": null
+            }
+          }
+        },
+        "no": {
+          "format": 3,
+          "predicate": "invalid",
+          "yes": null,
+          "no": {
+            "format": 2,
+            "predicate": "invalid",
+            "yes": null,
+            "no": null
+          }
+        }
+      }
+    },
+    "6024f4ea11e0831d526a606aaa5b174e24871cef6c36e142dd7a3ea71abd9f5a": {
+      "format": 0,
+      "predicate": "never",
+      "yes": {
+        "format": 1,
+        "predicate": "never",
+        "yes": {
+          "format": 3,
+          "predicate": "agreement2",
+          "yes": {
+            "format": 2,
+            "predicate": "agreement2",
+            "yes": {
+              "format": 4,
+              "predicate": "unanimous",
+              "yes": null,
+              "no": null
+            },
+            "no": null
+          },
+          "no": {
+            "format": 4,
+            "predicate": "margin2",
+            "yes": null,
+            "no": null
+          }
+        },
+        "no": null
+      },
+      "no": null
+    },
+    "ae5032a8d164ccb1cb09defcefe5bca8acef20d30190975685e35a0168e771cb": {
+      "format": 3,
+      "predicate": "never",
+      "yes": {
+        "format": 0,
+        "predicate": "remaining1",
+        "yes": null,
+        "no": null
+      },
+      "no": null
+    },
+    "f9f190a91737d0a784addf34ab5adee0d262c0b7bb2f7327bbfd8014be0b454a": {
+      "format": 0,
+      "predicate": "never",
+      "yes": {
+        "format": 1,
+        "predicate": "never",
+        "yes": {
+          "format": 2,
+          "predicate": "agreement2",
+          "yes": {
+            "format": 3,
+            "predicate": "agreement2",
+            "yes": {
+              "format": 4,
+              "predicate": "agreement2",
+              "yes": null,
+              "no": null
+            },
+            "no": null
+          },
+          "no": {
+            "format": 4,
+            "predicate": "never",
+            "yes": {
+              "format": 3,
+              "predicate": "invalid",
+              "yes": null,
+              "no": null
+            },
+            "no": null
+          }
+        },
+        "no": null
+      },
+      "no": null
+    },
+    "cbd242323e7dd0010ecb1499ab1eb26152184f28eecaa31c89a35fd53b829fda": {
+      "format": 0,
+      "predicate": "never",
+      "yes": {
+        "format": 4,
+        "predicate": "unanimous",
+        "yes": null,
+        "no": {
+          "format": 3,
+          "predicate": "last_diff",
+          "yes": {
+            "format": 1,
+            "predicate": "invalid",
+            "yes": {
+              "format": 2,
+              "predicate": "agreement2",
+              "yes": null,
+              "no": null
+            },
+            "no": null
+          },
+          "no": {
+            "format": 1,
+            "predicate": "remaining1",
+            "yes": {
+              "format": 2,
+              "predicate": "remaining1",
+              "yes": null,
+              "no": null
+            },
+            "no": null
+          }
+        }
+      },
+      "no": null
+    },
+    "fcc874ffb49264345a1a0c78aa10b5e20523b7854b50e0e988a44ac56a00d2cc": {
+      "format": 0,
+      "predicate": "never",
+      "yes": {
+        "format": 1,
+        "predicate": "never",
+        "yes": {
+          "format": 2,
+          "predicate": "agreement2",
+          "yes": {
+            "format": 3,
+            "predicate": "agreement2",
+            "yes": {
+              "format": 4,
+              "predicate": "unanimous",
+              "yes": null,
+              "no": null
+            },
+            "no": null
+          },
+          "no": null
+        },
+        "no": {
+          "format": 4,
+          "predicate": "margin2",
+          "yes": {
+            "format": 2,
+            "predicate": "agreement2",
+            "yes": {
+              "format": 3,
+              "predicate": "never",
+              "yes": null,
+              "no": null
+            },
+            "no": {
+              "format": 3,
+              "predicate": "remaining1",
+              "yes": null,
+              "no": null
+            }
+          },
+          "no": {
+            "format": 2,
+            "predicate": "unanimous",
+            "yes": {
+              "format": 3,
+              "predicate": "never",
+              "yes": null,
+              "no": null
+            },
+            "no": null
+          }
+        }
+      },
+      "no": null
+    },
+    "6c030986ba04b0de6e0a166790aefb1e03c12079f8071ae93551f54e80c179ef": {
+      "format": 0,
+      "predicate": "never",
+      "yes": {
+        "format": 4,
+        "predicate": "never",
+        "yes": null,
+        "no": {
+          "format": 1,
+          "predicate": "never",
+          "yes": {
+            "format": 2,
+            "predicate": "never",
+            "yes": {
+              "format": 3,
+              "predicate": "unanimous",
+              "yes": null,
+              "no": null
+            },
+            "no": null
+          },
+          "no": {
+            "format": 3,
+            "predicate": "margin2",
+            "yes": null,
+            "no": {
+              "format": 2,
+              "predicate": "agreement2",
+              "yes": null,
+              "no": null
+            }
+          }
+        }
+      },
+      "no": null
+    },
+    "de034d5cb12409c44fcf9b9e09e4fe408d78196056cd1b414adb05bb6549249f": {
+      "format": 0,
+      "predicate": "never",
+      "yes": {
+        "format": 1,
+        "predicate": "never",
+        "yes": {
+          "format": 2,
+          "predicate": "agreement2",
+          "yes": {
+            "format": 3,
+            "predicate": "agreement2",
+            "yes": null,
+            "no": null
+          },
+          "no": {
+            "format": 4,
+            "predicate": "margin2",
+            "yes": {
+              "format": 3,
+              "predicate": "agreement2",
+              "yes": null,
+              "no": null
+            },
+            "no": {
+              "format": 3,
+              "predicate": "unanimous",
+              "yes": null,
+              "no": null
+            }
+          }
+        },
+        "no": {
+          "format": 4,
+          "predicate": "margin2",
+          "yes": null,
+          "no": null
+        }
+      },
+      "no": null
+    },
+    "9c31012427edbe8828b37e69fae0beda3590ab956f03f156bc17e59eda1a3c79": {
+      "format": 0,
+      "predicate": "margin2",
+      "yes": {
+        "format": 3,
+        "predicate": "invalid",
+        "yes": null,
+        "no": {
+          "format": 1,
+          "predicate": "agreement2",
+          "yes": null,
+          "no": {
+            "format": 2,
+            "predicate": "never",
+            "yes": null,
+            "no": {
+              "format": 4,
+              "predicate": "never",
+              "yes": null,
+              "no": null
+            }
+          }
+        }
+      },
+      "no": null
+    },
+    "5f81339e8188d51dc11660835d6424b0208d8df89aff28f09e11db60d2396224": {
+      "format": 0,
+      "predicate": "never",
+      "yes": {
+        "format": 1,
+        "predicate": "never",
+        "yes": {
+          "format": 4,
+          "predicate": "unanimous",
+          "yes": {
+            "format": 3,
+            "predicate": "never",
+            "yes": {
+              "format": 2,
+              "predicate": "agreement2",
+              "yes": null,
+              "no": null
+            },
+            "no": {
+              "format": 2,
+              "predicate": "agreement2",
+              "yes": null,
+              "no": null
+            }
+          },
+          "no": {
+            "format": 2,
+            "predicate": "never",
+            "yes": null,
+            "no": {
+              "format": 3,
+              "predicate": "agreement2",
+              "yes": null,
+              "no": null
+            }
+          }
+        },
+        "no": null
+      },
+      "no": null
+    },
+    "ebd6c9410af5e2cb8e19834049ac022842cd7a01a8ff2c48d2df2055017b9b1f": {
+      "format": 0,
+      "predicate": "never",
+      "yes": {
+        "format": 1,
+        "predicate": "never",
+        "yes": {
+          "format": 2,
+          "predicate": "agreement2",
+          "yes": {
+            "format": 4,
+            "predicate": "unanimous",
+            "yes": null,
+            "no": {
+              "format": 3,
+              "predicate": "unanimous",
+              "yes": null,
+              "no": null
+            }
+          },
+          "no": {
+            "format": 4,
+            "predicate": "margin2",
+            "yes": null,
+            "no": {
+              "format": 3,
+              "predicate": "unanimous",
+              "yes": null,
+              "no": null
+            }
+          }
+        },
+        "no": {
+          "format": 4,
+          "predicate": "margin2",
+          "yes": null,
+          "no": null
+        }
+      },
+      "no": {
+        "format": 4,
+        "predicate": "agreement2",
+        "yes": {
+          "format": 1,
+          "predicate": "never",
+          "yes": {
+            "format": 2,
+            "predicate": "last_diff",
+            "yes": {
+              "format": 3,
+              "predicate": "margin2",
+              "yes": null,
+              "no": null
+            },
+            "no": {
+              "format": 3,
+              "predicate": "never",
+              "yes": null,
+              "no": null
+            }
+          },
+          "no": null
+        },
+        "no": {
+          "format": 1,
+          "predicate": "last_diff",
+          "yes": {
+            "format": 3,
+            "predicate": "last_diff",
+            "yes": null,
+            "no": null
+          },
+          "no": null
+        }
+      }
+    },
+    "fffdce5d3c8a18753c16923bdb86725d73a2045ef6d5205f34e81a5fdab437ee": {
+      "format": 0,
+      "predicate": "never",
+      "yes": {
+        "format": 1,
+        "predicate": "never",
+        "yes": {
+          "format": 2,
+          "predicate": "agreement2",
+          "yes": {
+            "format": 3,
+            "predicate": "agreement2",
+            "yes": {
+              "format": 4,
+              "predicate": "unanimous",
+              "yes": null,
+              "no": null
+            },
+            "no": null
+          },
+          "no": {
+            "format": 4,
+            "predicate": "never",
+            "yes": {
+              "format": 3,
+              "predicate": "invalid",
+              "yes": null,
+              "no": null
+            },
+            "no": null
+          }
+        },
+        "no": null
+      },
+      "no": {
+        "format": 4,
+        "predicate": "never",
+        "yes": null,
+        "no": {
+          "format": 3,
+          "predicate": "unanimous",
+          "yes": null,
+          "no": {
+            "format": 1,
+            "predicate": "invalid",
+            "yes": null,
+            "no": {
+              "format": 2,
+              "predicate": "invalid",
+              "yes": null,
+              "no": null
+            }
+          }
+        }
+      }
+    },
+    "c43de41859fa59a6e77045c9285de17d602e82d3c3f9ef1c5c53749d9861e8e0": {
+      "format": 0,
+      "predicate": "never",
+      "yes": {
+        "format": 4,
+        "predicate": "never",
+        "yes": null,
+        "no": null
+      },
+      "no": {
+        "format": 3,
+        "predicate": "invalid",
+        "yes": null,
+        "no": {
+          "format": 2,
+          "predicate": "unanimous",
+          "yes": {
+            "format": 4,
+            "predicate": "unanimous",
+            "yes": null,
+            "no": null
+          },
+          "no": null
+        }
+      }
+    },
+    "1fe53b05dd58dfa62bda916964b285ec84ace7f4f40adce56162344dd7906e2c": {
+      "format": 0,
+      "predicate": "never",
+      "yes": {
+        "format": 3,
+        "predicate": "agreement2",
+        "yes": null,
+        "no": {
+          "format": 4,
+          "predicate": "unanimous",
+          "yes": null,
+          "no": {
+            "format": 1,
+            "predicate": "unanimous",
+            "yes": null,
+            "no": null
+          }
+        }
+      },
+      "no": null
+    },
+    "8949af93714a55d54bc0a6f697eca38b67bcade556a28b394c205c1cd1fe715d": {
+      "format": 0,
+      "predicate": "never",
+      "yes": {
+        "format": 1,
+        "predicate": "never",
+        "yes": {
+          "format": 2,
+          "predicate": "agreement2",
+          "yes": {
+            "format": 3,
+            "predicate": "margin2",
+            "yes": null,
+            "no": null
+          },
+          "no": null
+        },
+        "no": null
+      },
+      "no": {
+        "format": 4,
+        "predicate": "margin2",
+        "yes": null,
+        "no": {
+          "format": 1,
+          "predicate": "remaining1",
+          "yes": null,
+          "no": null
+        }
+      }
+    },
+    "bc28956c8130ccee6af0cf3e979408ee59875f079d00b83d70d97d5e85d69056": {
+      "format": 0,
+      "predicate": "never",
+      "yes": {
+        "format": 1,
+        "predicate": "never",
+        "yes": {
+          "format": 4,
+          "predicate": "agreement2",
+          "yes": {
+            "format": 3,
+            "predicate": "agreement2",
+            "yes": {
+              "format": 2,
+              "predicate": "unanimous",
+              "yes": null,
+              "no": null
+            },
+            "no": null
+          },
+          "no": {
+            "format": 2,
+            "predicate": "never",
+            "yes": {
+              "format": 3,
+              "predicate": "invalid",
+              "yes": null,
+              "no": null
+            },
+            "no": {
+              "format": 3,
+              "predicate": "last_diff",
+              "yes": null,
+              "no": null
+            }
+          }
+        },
+        "no": null
+      },
+      "no": null
+    },
+    "fe14c55a9a558d47f33413eeae8043416e8db4ab6d377f5163713755179d6f9a": {
+      "format": 0,
+      "predicate": "never",
+      "yes": {
+        "format": 1,
+        "predicate": "never",
+        "yes": {
+          "format": 3,
+          "predicate": "agreement2",
+          "yes": {
+            "format": 2,
+            "predicate": "agreement2",
+            "yes": {
+              "format": 4,
+              "predicate": "unanimous",
+              "yes": null,
+              "no": null
+            },
+            "no": null
+          },
+          "no": {
+            "format": 4,
+            "predicate": "margin2",
+            "yes": null,
+            "no": {
+              "format": 2,
+              "predicate": "unanimous",
+              "yes": null,
+              "no": null
+            }
+          }
+        },
+        "no": null
+      },
+      "no": null
+    },
+    "10ff069ba0e4856cff6a55f1150edf74166bbf4000c62c8f77c8951f640b3dde": {
+      "format": 0,
+      "predicate": "never",
+      "yes": {
+        "format": 1,
+        "predicate": "never",
+        "yes": {
+          "format": 4,
+          "predicate": "agreement2",
+          "yes": {
+            "format": 3,
+            "predicate": "agreement2",
+            "yes": {
+              "format": 2,
+              "predicate": "unanimous",
+              "yes": null,
+              "no": null
+            },
+            "no": null
+          },
+          "no": {
+            "format": 2,
+            "predicate": "never",
+            "yes": {
+              "format": 3,
+              "predicate": "invalid",
+              "yes": null,
+              "no": null
+            },
+            "no": {
+              "format": 3,
+              "predicate": "unanimous",
+              "yes": null,
+              "no": null
+            }
+          }
+        },
+        "no": null
+      },
+      "no": null
+    },
+    "76cbdb0e75a31e6649c00526c1411f81455c05a9736f7a36b7a24aaa25b81b32": {
+      "format": 4,
+      "predicate": "never",
+      "yes": {
+        "format": 1,
+        "predicate": "never",
+        "yes": {
+          "format": 2,
+          "predicate": "agreement2",
+          "yes": {
+            "format": 3,
+            "predicate": "agreement2",
+            "yes": {
+              "format": 0,
+              "predicate": "unanimous",
+              "yes": null,
+              "no": null
+            },
+            "no": null
+          },
+          "no": {
+            "format": 0,
+            "predicate": "margin2",
+            "yes": null,
+            "no": {
+              "format": 3,
+              "predicate": "unanimous",
+              "yes": null,
+              "no": null
+            }
+          }
+        },
+        "no": null
+      },
+      "no": null
+    },
+    "30f05ae86173671006525667cfc65a00363c65a82844250f8180c42dc08f7f95": {
+      "format": 0,
+      "predicate": "never",
+      "yes": {
+        "format": 1,
+        "predicate": "never",
+        "yes": {
+          "format": 3,
+          "predicate": "agreement2",
+          "yes": {
+            "format": 2,
+            "predicate": "agreement2",
+            "yes": {
+              "format": 4,
+              "predicate": "unanimous",
+              "yes": null,
+              "no": null
+            },
+            "no": null
+          },
+          "no": null
+        },
+        "no": null
+      },
+      "no": {
+        "format": 4,
+        "predicate": "unanimous",
+        "yes": {
+          "format": 1,
+          "predicate": "unanimous",
+          "yes": null,
+          "no": {
+            "format": 3,
+            "predicate": "margin2",
+            "yes": {
+              "format": 2,
+              "predicate": "last_diff",
+              "yes": null,
+              "no": null
+            },
+            "no": {
+              "format": 2,
+              "predicate": "never",
+              "yes": null,
+              "no": null
+            }
+          }
+        },
+        "no": null
+      }
+    },
+    "bff89a53f471c9197d101b1e7513a7fb857a07ef7de4e84411cc8f167d983f78": {
+      "format": 0,
+      "predicate": "never",
+      "yes": {
+        "format": 1,
+        "predicate": "never",
+        "yes": {
+          "format": 2,
+          "predicate": "agreement2",
+          "yes": {
+            "format": 3,
+            "predicate": "agreement2",
+            "yes": {
+              "format": 4,
+              "predicate": "unanimous",
+              "yes": null,
+              "no": null
+            },
+            "no": null
+          },
+          "no": {
+            "format": 4,
+            "predicate": "invalid",
+            "yes": {
+              "format": 3,
+              "predicate": "invalid",
+              "yes": null,
+              "no": null
+            },
+            "no": {
+              "format": 3,
+              "predicate": "last_diff",
+              "yes": null,
+              "no": null
+            }
+          }
+        },
+        "no": null
+      },
+      "no": null
+    }
+  },
+  "rng": [
+    3,
+    [
+      2788848234,
+      791333762,
+      3009302940,
+      2782598175,
+      1003642064,
+      3868096013,
+      2370506132,
+      113051896,
+      2390177864,
+      628040488,
+      1332049676,
+      1054939079,
+      2959608390,
+      1747502522,
+      616023631,
+      3508164334,
+      500903178,
+      3639835018,
+      2001528520,
+      1034295544,
+      2485598740,
+      2418529753,
+      974328809,
+      2640055655,
+      2396777503,
+      2058224144,
+      1704991358,
+      2741504624,
+      3883560068,
+      1765622935,
+      4216767422,
+      1638594330,
+      3391093908,
+      2106407171,
+      3424270298,
+      3857768705,
+      1521741374,
+      3128400358,
+      2646319213,
+      2061534472,
+      1841301036,
+      648347559,
+      1077945056,
+      3485512766,
+      1713846784,
+      1149092044,
+      3826294538,
+      186353041,
+      1808117256,
+      2594146487,
+      73310864,
+      1311600810,
+      1173558481,
+      433154167,
+      516062764,
+      3236087765,
+      3433059689,
+      257582039,
+      2642987489,
+      1896537442,
+      4073159559,
+      706065812,
+      2015721562,
+      3575749609,
+      2471498804,
+      1380624820,
+      3474215139,
+      2909826593,
+      3520312525,
+      308448445,
+      3802413702,
+      4141429498,
+      2924424299,
+      3522402564,
+      2504572672,
+      2057175646,
+      100670522,
+      989429517,
+      995047401,
+      755240759,
+      933643608,
+      3082056518,
+      226387222,
+      3644568679,
+      395265298,
+      4151297055,
+      2869615251,
+      3772125360,
+      1271951601,
+      3686206961,
+      2985460512,
+      1200591062,
+      2210701477,
+      3417534663,
+      2448831331,
+      3247551225,
+      1904608544,
+      106785490,
+      2683121262,
+      83183960,
+      3856571868,
+      3716172309,
+      1592295400,
+      1328110748,
+      2460755335,
+      1710012257,
+      3681497929,
+      2952096762,
+      2936961910,
+      2633860565,
+      3272648742,
+      1441798329,
+      487597030,
+      65546618,
+      265631811,
+      1220719625,
+      1641941770,
+      3900844784,
+      1766601857,
+      1141741891,
+      2095935815,
+      2572698773,
+      3981067548,
+      405875922,
+      1971053429,
+      236147215,
+      2666549791,
+      2814297557,
+      1211009934,
+      4041801188,
+      4193640044,
+      1345800767,
+      835223203,
+      3157177291,
+      4021051917,
+      4051581041,
+      2499279246,
+      1777336857,
+      2051517660,
+      2170634630,
+      2539298826,
+      4187992920,
+      3948734702,
+      4217593924,
+      1987107020,
+      544459676,
+      3245619747,
+      2963965147,
+      1559425705,
+      1065980982,
+      1966619722,
+      2485542428,
+      4075528733,
+      2148804368,
+      2080294260,
+      1291094627,
+      2995479023,
+      375474296,
+      2515637221,
+      2460844035,
+      3165321463,
+      2396346689,
+      1490566433,
+      2160326079,
+      3907539861,
+      2480386283,
+      2821531999,
+      1784859310,
+      1419042999,
+      2334690175,
+      1408793925,
+      3476080417,
+      695012612,
+      2042051940,
+      919266471,
+      2678123866,
+      179344484,
+      2737260275,
+      1559021649,
+      2797065858,
+      1647076084,
+      1062422181,
+      354325870,
+      1747607977,
+      2799694370,
+      1852953230,
+      2240976556,
+      585371005,
+      2197805068,
+      262179394,
+      1323925487,
+      1181559628,
+      1863026822,
+      2581549919,
+      3073786200,
+      146618213,
+      324116375,
+      2431481317,
+      834455593,
+      1933831781,
+      2272459839,
+      1499063841,
+      1191768236,
+      615105325,
+      1235887689,
+      4055308297,
+      2510522313,
+      883425930,
+      4077505622,
+      2287170799,
+      822260877,
+      901150915,
+      1817491085,
+      3981742321,
+      3880241149,
+      3540023448,
+      4140472966,
+      3040584693,
+      631586570,
+      1258431957,
+      3282436197,
+      2592007229,
+      4028186611,
+      3418739776,
+      378645647,
+      2140239518,
+      326936763,
+      1151168597,
+      1917955088,
+      353351042,
+      757342060,
+      1977770864,
+      3903372637,
+      3309321381,
+      2116927019,
+      3210260455,
+      3158194181,
+      3842864903,
+      3965567150,
+      3625612854,
+      54869981,
+      2363666546,
+      3593248273,
+      2183368647,
+      2197551151,
+      2962344233,
+      128488329,
+      689243266,
+      1776020668,
+      3833607854,
+      3702687396,
+      1640157129,
+      481915735,
+      1441615949,
+      1263421976,
+      244207296,
+      697432361,
+      3565362350,
+      3984958184,
+      2455781528,
+      1240234125,
+      4282844317,
+      3940370482,
+      338657750,
+      292657105,
+      2988755393,
+      3289061203,
+      4027377181,
+      1679775365,
+      3021859924,
+      2808802291,
+      814788484,
+      2847732311,
+      3967606171,
+      2991458186,
+      2205834650,
+      2246183776,
+      239573761,
+      2712337730,
+      2311472924,
+      152812019,
+      1595235620,
+      1238155398,
+      262272621,
+      2000272364,
+      83086558,
+      2546628788,
+      1270208130,
+      1370794218,
+      1786207119,
+      2686392715,
+      1684860924,
+      1154199522,
+      1925100202,
+      880321060,
+      1647718927,
+      2806681682,
+      2693298841,
+      454269760,
+      2988164742,
+      1390175616,
+      216267203,
+      489610939,
+      2920164762,
+      185729237,
+      3054904562,
+      971379123,
+      1058141537,
+      2723173089,
+      3848017177,
+      808209662,
+      3208783028,
+      4012992662,
+      3142658696,
+      1699465041,
+      746456709,
+      21622129,
+      655648833,
+      2646550278,
+      241173843,
+      3534171910,
+      772302026,
+      2206531740,
+      1445791237,
+      2777628031,
+      1629849905,
+      843303025,
+      1002417268,
+      3463393236,
+      1595499251,
+      2137207417,
+      3072235459,
+      1092816600,
+      4203246804,
+      1764375717,
+      362545984,
+      2608644267,
+      623107854,
+      3874199284,
+      2364191827,
+      1530311683,
+      895893789,
+      1893471577,
+      4200578337,
+      1873514091,
+      643045999,
+      3541190028,
+      3280527925,
+      1052848505,
+      3087842178,
+      2271608266,
+      2515576786,
+      2040523634,
+      2233462424,
+      1876945443,
+      3251677422,
+      3734257981,
+      3801265953,
+      3637145800,
+      3307455720,
+      2610571523,
+      1410673668,
+      2522911177,
+      2844945592,
+      2288899896,
+      3022807996,
+      2290387603,
+      3688217374,
+      2522631478,
+      3389916970,
+      1261484636,
+      25342860,
+      3350583584,
+      2799363606,
+      533718732,
+      2134658965,
+      2346758764,
+      2388002509,
+      1563319299,
+      281884310,
+      1456470501,
+      775065189,
+      4138775945,
+      3722006206,
+      2940913600,
+      419900941,
+      452415413,
+      2404486965,
+      718769340,
+      1293964332,
+      3775365711,
+      1532360264,
+      3438435701,
+      1097188047,
+      981752257,
+      2553176049,
+      2230087183,
+      1783337858,
+      1843467262,
+      1293305275,
+      1983711830,
+      3363114655,
+      1841475441,
+      2158186730,
+      1027373317,
+      1539454494,
+      1897599177,
+      3384316265,
+      1404514790,
+      3346200582,
+      453403355,
+      3683889135,
+      251302984,
+      738324148,
+      2424974728,
+      998396967,
+      241252798,
+      2291675573,
+      2025181557,
+      3913868783,
+      3341925580,
+      165188495,
+      4001303968,
+      1089688708,
+      419363587,
+      1335313937,
+      2867604082,
+      2499008637,
+      2827329972,
+      2449588531,
+      774951390,
+      874138510,
+      2239793673,
+      868067067,
+      1603685932,
+      592378036,
+      1371415745,
+      3714342931,
+      710235755,
+      1065668747,
+      2331116669,
+      3325721437,
+      3943444273,
+      2769511471,
+      247472434,
+      3796135371,
+      1489417913,
+      1983149078,
+      2376293001,
+      1098038529,
+      2154461568,
+      3749290890,
+      949296410,
+      3600750175,
+      2416443275,
+      550824755,
+      3370109223,
+      3777158502,
+      692177587,
+      4151645030,
+      3381448421,
+      1485791283,
+      2315569401,
+      4091446718,
+      1270510556,
+      305022804,
+      3240372518,
+      1353864450,
+      2311394970,
+      1979733296,
+      1952667358,
+      4192770429,
+      174639503,
+      401179341,
+      1121641041,
+      2454871382,
+      930948053,
+      2620367805,
+      2362328691,
+      2648655288,
+      2572787161,
+      1929466938,
+      2031289351,
+      2314825298,
+      3588224281,
+      414653705,
+      3007009988,
+      1071419604,
+      2622826786,
+      1894607376,
+      2736838112,
+      196777796,
+      905380944,
+      2689144938,
+      883516039,
+      3450896917,
+      691288366,
+      4190919985,
+      941115999,
+      535867136,
+      1346669910,
+      1483358286,
+      4287098303,
+      1706528760,
+      2690246740,
+      1075049421,
+      3810503444,
+      3438398213,
+      3557749692,
+      788627331,
+      3370933070,
+      3748588301,
+      3390758889,
+      605872529,
+      3278816539,
+      4111637684,
+      5787798,
+      703929917,
+      2125105234,
+      2294822504,
+      1574695884,
+      1144413386,
+      882718751,
+      2646023190,
+      2354353225,
+      3888701145,
+      237059949,
+      3337778159,
+      4165962145,
+      2305447055,
+      2573567616,
+      2177472191,
+      1808291511,
+      124545249,
+      1955656222,
+      808163230,
+      284322138,
+      992801106,
+      1605987500,
+      2465174879,
+      764279804,
+      1014074297,
+      3243277745,
+      3913966835,
+      2294608525,
+      3651123398,
+      3228035158,
+      4242530014,
+      2976926117,
+      1046837039,
+      2664149508,
+      602183264,
+      1548355295,
+      4162087616,
+      756376595,
+      328496567,
+      4242433070,
+      4089149446,
+      970733203,
+      1003551474,
+      544431294,
+      1783943081,
+      1738536287,
+      2114976651,
+      3955763772,
+      1872655102,
+      3486501077,
+      3970799141,
+      554340336,
+      2108924625,
+      2126269737,
+      3799102809,
+      988537721,
+      4132792701,
+      279455489,
+      271338278,
+      955029624,
+      2242224575,
+      3450149437,
+      1763203181,
+      1031362591,
+      1499801567,
+      71244624,
+      1465141651,
+      1931291252,
+      1925559277,
+      242098075,
+      3248100792,
+      2702192296,
+      896971858,
+      1577359564,
+      904396933,
+      3061469469,
+      563152825,
+      3742590315,
+      1504152143,
+      502243022,
+      539999650,
+      1436848169,
+      290053943,
+      1672330189,
+      56261325,
+      3845030487,
+      3237767319,
+      635803661,
+      2282415223,
+      3383900258,
+      2188151588,
+      832095795,
+      1209068707,
+      3213159427,
+      583764907,
+      2405171753,
+      4145686646,
+      2761528435,
+      836447115,
+      166204217,
+      2742459358,
+      2897378563,
+      2863499527,
+      2545497374,
+      2285525682,
+      2843799332,
+      3622917946,
+      83
+    ],
+    null
+  ],
+  "audits": [
+    {
+      "generation": 0,
+      "slot": 0,
+      "operation": "structure",
+      "path": [
+        "no"
+      ],
+      "source": "search"
+    },
+    {
+      "generation": 0,
+      "slot": 1,
+      "operation": "structure",
+      "path": [
+        "yes",
+        "no"
+      ],
+      "source": "search",
+      "fallback": true,
+      "reaching": 0,
+      "failure_examples": 213
+    },
+    {
+      "generation": 0,
+      "slot": 2,
+      "operation": "format",
+      "path": [],
+      "source": "search",
+      "fallback": false,
+      "reaching": 512,
+      "failure_examples": 170
+    },
+    {
+      "generation": 0,
+      "slot": 3,
+      "operation": "predicate",
+      "path": [
+        "yes",
+        "yes"
+      ],
+      "source": "search"
+    },
+    {
+      "generation": 0,
+      "slot": 4,
+      "operation": "structure",
+      "path": [
+        "no",
+        "yes"
+      ],
+      "source": "search",
+      "fallback": true,
+      "reaching": 0,
+      "failure_examples": 170
+    },
+    {
+      "generation": 0,
+      "slot": 5,
+      "operation": "structure",
+      "path": [
+        "no"
+      ],
+      "source": "search",
+      "fallback": false,
+      "reaching": 512,
+      "failure_examples": 213
+    },
+    {
+      "generation": 0,
+      "slot": 6,
+      "operation": "structure",
+      "path": [
+        "yes"
+      ],
+      "source": "search"
+    },
+    {
+      "generation": 0,
+      "slot": 7,
+      "operation": "structure",
+      "path": [
+        "yes"
+      ],
+      "source": "search",
+      "fallback": true,
+      "reaching": 0,
+      "failure_examples": 171
+    },
+    {
+      "generation": 0,
+      "slot": 8,
+      "operation": "structure",
+      "path": [
+        "no",
+        "yes",
+        "yes",
+        "yes",
+        "no"
+      ],
+      "source": "search"
+    },
+    {
+      "generation": 0,
+      "slot": 9,
+      "operation": "structure",
+      "path": [
+        "no"
+      ],
+      "source": "search",
+      "fallback": false,
+      "reaching": 512,
+      "failure_examples": 129
+    },
+    {
+      "generation": 0,
+      "slot": 10,
+      "operation": "structure",
+      "path": [
+        "yes",
+        "yes",
+        "yes"
+      ],
+      "source": "search",
+      "fallback": true,
+      "reaching": 0,
+      "failure_examples": 170
+    },
+    {
+      "generation": 0,
+      "slot": 11,
+      "operation": "structure",
+      "path": [
+        "yes",
+        "no",
+        "yes",
+        "yes",
+        "no"
+      ],
+      "source": "search"
+    },
+    {
+      "generation": 0,
+      "slot": 12,
+      "operation": "format",
+      "path": [
+        "no"
+      ],
+      "source": "search",
+      "fallback": false,
+      "reaching": 512,
+      "failure_examples": 214
+    },
+    {
+      "generation": 0,
+      "slot": 13,
+      "operation": "structure",
+      "path": [],
+      "source": "search"
+    },
+    {
+      "generation": 0,
+      "slot": 14,
+      "operation": "predicate",
+      "path": [],
+      "source": "search"
+    },
+    {
+      "generation": 0,
+      "slot": 15,
+      "operation": "structure",
+      "path": [
+        "no",
+        "yes"
+      ],
+      "source": "search"
+    },
+    {
+      "generation": 0,
+      "slot": 16,
+      "operation": "format",
+      "path": [],
+      "source": "search",
+      "fallback": false,
+      "reaching": 512,
+      "failure_examples": 213
+    },
+    {
+      "generation": 0,
+      "slot": 17,
+      "operation": "structure",
+      "path": [
+        "yes"
+      ],
+      "source": "search",
+      "fallback": true,
+      "reaching": 0,
+      "failure_examples": 171
+    },
+    {
+      "generation": 0,
+      "slot": 18,
+      "operation": "structure",
+      "path": [
+        "yes",
+        "yes",
+        "yes",
+        "no",
+        "no"
+      ],
+      "source": "search"
+    },
+    {
+      "generation": 0,
+      "slot": 19,
+      "operation": "structure",
+      "path": [
+        "yes"
+      ],
+      "source": "search"
+    },
+    {
+      "generation": 0,
+      "slot": 20,
+      "operation": "structure",
+      "path": [
+        "yes",
+        "yes"
+      ],
+      "source": "search"
+    },
+    {
+      "generation": 0,
+      "slot": 21,
+      "operation": "structure",
+      "path": [
+        "no",
+        "no",
+        "no"
+      ],
+      "source": "search",
+      "fallback": false,
+      "reaching": 512,
+      "failure_examples": 214
+    },
+    {
+      "generation": 0,
+      "slot": 22,
+      "operation": "structure",
+      "path": [
+        "yes",
+        "no",
+        "yes"
+      ],
+      "source": "search",
+      "fallback": true,
+      "reaching": 0,
+      "failure_examples": 170
+    },
+    {
+      "generation": 0,
+      "slot": 23,
+      "operation": "predicate",
+      "path": [],
+      "source": "search"
+    },
+    {
+      "generation": 0,
+      "slot": 24,
+      "operation": "predicate",
+      "path": [],
+      "source": "search"
+    },
+    {
+      "generation": 0,
+      "slot": 25,
+      "operation": "structure",
+      "path": [
+        "yes",
+        "no",
+        "no"
+      ],
+      "source": "search"
+    },
+    {
+      "generation": 0,
+      "slot": 26,
+      "operation": "structure",
+      "path": [
+        "no",
+        "no",
+        "yes",
+        "yes"
+      ],
+      "source": "search",
+      "fallback": true,
+      "reaching": 0,
+      "failure_examples": 171
+    },
+    {
+      "generation": 0,
+      "slot": 27,
+      "operation": "predicate",
+      "path": [],
+      "source": "search"
+    },
+    {
+      "generation": 0,
+      "slot": 28,
+      "operation": "structure",
+      "path": [
+        "yes",
+        "yes",
+        "yes"
+      ],
+      "source": "search",
+      "fallback": true,
+      "reaching": 0,
+      "failure_examples": 213
+    },
+    {
+      "generation": 0,
+      "slot": 29,
+      "operation": "predicate",
+      "path": [
+        "no"
+      ],
+      "source": "search"
+    },
+    {
+      "generation": 0,
+      "slot": 30,
+      "operation": "structure",
+      "path": [],
+      "source": "search",
+      "fallback": false,
+      "reaching": 512,
+      "failure_examples": 129
+    },
+    {
+      "generation": 0,
+      "slot": 31,
+      "operation": "format",
+      "path": [],
+      "source": "search",
+      "fallback": false,
+      "reaching": 512,
+      "failure_examples": 213
+    },
+    {
+      "generation": 1,
+      "slot": 0,
+      "operation": "structure",
+      "path": [
+        "yes",
+        "no",
+        "yes",
+        "no",
+        "no"
+      ],
+      "source": "search"
+    },
+    {
+      "generation": 1,
+      "slot": 1,
+      "operation": "structure",
+      "path": [
+        "yes"
+      ],
+      "source": "search"
+    },
+    {
+      "generation": 1,
+      "slot": 2,
+      "operation": "structure",
+      "path": [
+        "yes"
+      ],
+      "source": "search",
+      "fallback": true,
+      "reaching": 0,
+      "failure_examples": 128
+    },
+    {
+      "generation": 1,
+      "slot": 3,
+      "operation": "predicate",
+      "path": [
+        "yes"
+      ],
+      "source": "search"
+    },
+    {
+      "generation": 1,
+      "slot": 4,
+      "operation": "structure",
+      "path": [
+        "no"
+      ],
+      "source": "search",
+      "fallback": false,
+      "reaching": 512,
+      "failure_examples": 170
+    },
+    {
+      "generation": 1,
+      "slot": 5,
+      "operation": "structure",
+      "path": [],
+      "source": "search",
+      "fallback": false,
+      "reaching": 512,
+      "failure_examples": 129
+    },
+    {
+      "generation": 1,
+      "slot": 6,
+      "operation": "structure",
+      "path": [
+        "no",
+        "yes",
+        "yes",
+        "yes",
+        "yes"
+      ],
+      "source": "search"
+    },
+    {
+      "generation": 1,
+      "slot": 7,
+      "operation": "structure",
+      "path": [
+        "yes",
+        "no",
+        "no"
+      ],
+      "source": "search",
+      "fallback": true,
+      "reaching": 0,
+      "failure_examples": 170
+    },
+    {
+      "generation": 1,
+      "slot": 8,
+      "operation": "structure",
+      "path": [
+        "no",
+        "yes",
+        "yes"
+      ],
+      "source": "search"
+    },
+    {
+      "generation": 1,
+      "slot": 9,
+      "operation": "structure",
+      "path": [
+        "yes"
+      ],
+      "source": "search"
+    },
+    {
+      "generation": 1,
+      "slot": 10,
+      "operation": "structure",
+      "path": [
+        "yes",
+        "yes",
+        "no"
+      ],
+      "source": "search",
+      "fallback": true,
+      "reaching": 0,
+      "failure_examples": 129
+    },
+    {
+      "generation": 1,
+      "slot": 11,
+      "operation": "structure",
+      "path": [
+        "no"
+      ],
+      "source": "search",
+      "fallback": false,
+      "reaching": 512,
+      "failure_examples": 129
+    },
+    {
+      "generation": 1,
+      "slot": 12,
+      "operation": "structure",
+      "path": [
+        "yes"
+      ],
+      "source": "search",
+      "fallback": true,
+      "reaching": 0,
+      "failure_examples": 170
+    },
+    {
+      "generation": 1,
+      "slot": 13,
+      "operation": "structure",
+      "path": [
+        "no"
+      ],
+      "source": "search",
+      "fallback": false,
+      "reaching": 512,
+      "failure_examples": 170
+    },
+    {
+      "generation": 1,
+      "slot": 14,
+      "operation": "format",
+      "path": [
+        "yes",
+        "no",
+        "yes",
+        "no"
+      ],
+      "source": "search",
+      "fallback": true,
+      "reaching": 0,
+      "failure_examples": 128
+    },
+    {
+      "generation": 1,
+      "slot": 15,
+      "operation": "structure",
+      "path": [
+        "no"
+      ],
+      "source": "search"
+    },
+    {
+      "generation": 1,
+      "slot": 16,
+      "operation": "predicate",
+      "path": [
+        "yes",
+        "no",
+        "yes",
+        "no"
+      ],
+      "source": "search"
+    },
+    {
+      "generation": 1,
+      "slot": 17,
+      "operation": "structure",
+      "path": [
+        "no"
+      ],
+      "source": "search",
+      "fallback": false,
+      "reaching": 512,
+      "failure_examples": 171
+    },
+    {
+      "generation": 1,
+      "slot": 18,
+      "operation": "predicate",
+      "path": [
+        "yes"
+      ],
+      "source": "search"
+    },
+    {
+      "generation": 1,
+      "slot": 19,
+      "operation": "structure",
+      "path": [
+        "yes",
+        "yes",
+        "yes",
+        "yes"
+      ],
+      "source": "search",
+      "fallback": true,
+      "reaching": 0,
+      "failure_examples": 170
+    },
+    {
+      "generation": 1,
+      "slot": 20,
+      "operation": "predicate",
+      "path": [],
+      "source": "search"
+    },
+    {
+      "generation": 1,
+      "slot": 21,
+      "operation": "structure",
+      "path": [
+        "yes",
+        "yes",
+        "yes",
+        "no",
+        "no"
+      ],
+      "source": "search"
+    },
+    {
+      "generation": 1,
+      "slot": 22,
+      "operation": "structure",
+      "path": [
+        "no",
+        "yes",
+        "no",
+        "no"
+      ],
+      "source": "search"
+    },
+    {
+      "generation": 1,
+      "slot": 23,
+      "operation": "structure",
+      "path": [
+        "no"
+      ],
+      "source": "search",
+      "fallback": false,
+      "reaching": 512,
+      "failure_examples": 171
+    },
+    {
+      "generation": 1,
+      "slot": 24,
+      "operation": "structure",
+      "path": [],
+      "source": "search",
+      "fallback": false,
+      "reaching": 512,
+      "failure_examples": 170
+    },
+    {
+      "generation": 1,
+      "slot": 25,
+      "operation": "structure",
+      "path": [
+        "yes",
+        "no"
+      ],
+      "source": "search"
+    },
+    {
+      "generation": 1,
+      "slot": 26,
+      "operation": "structure",
+      "path": [
+        "no"
+      ],
+      "source": "search"
+    },
+    {
+      "generation": 1,
+      "slot": 27,
+      "operation": "structure",
+      "path": [
+        "yes"
+      ],
+      "source": "search",
+      "fallback": true,
+      "reaching": 0,
+      "failure_examples": 171
+    },
+    {
+      "generation": 1,
+      "slot": 28,
+      "operation": "format",
+      "path": [
+        "yes",
+        "no",
+        "yes"
+      ],
+      "source": "search",
+      "fallback": true,
+      "reaching": 0,
+      "failure_examples": 128
+    },
+    {
+      "generation": 1,
+      "slot": 29,
+      "operation": "structure",
+      "path": [
+        "yes",
+        "yes",
+        "yes",
+        "no",
+        "no"
+      ],
+      "source": "search"
+    },
+    {
+      "generation": 1,
+      "slot": 30,
+      "operation": "structure",
+      "path": [
+        "yes"
+      ],
+      "source": "search"
+    },
+    {
+      "generation": 1,
+      "slot": 31,
+      "operation": "structure",
+      "path": [
+        "no",
+        "yes",
+        "no"
+      ],
+      "source": "search",
+      "fallback": false,
+      "reaching": 341,
+      "failure_examples": 85
+    },
+    {
+      "generation": 2,
+      "slot": 0,
+      "operation": "structure",
+      "path": [
+        "yes",
+        "yes",
+        "yes",
+        "no"
+      ],
+      "source": "search",
+      "fallback": true,
+      "reaching": 0,
+      "failure_examples": 170
+    },
+    {
+      "generation": 2,
+      "slot": 1,
+      "operation": "structure",
+      "path": [
+        "yes",
+        "no",
+        "yes"
+      ],
+      "source": "search"
+    },
+    {
+      "generation": 2,
+      "slot": 2,
+      "operation": "structure",
+      "path": [
+        "no"
+      ],
+      "source": "search"
+    },
+    {
+      "generation": 2,
+      "slot": 3,
+      "operation": "structure",
+      "path": [
+        "no"
+      ],
+      "source": "search",
+      "fallback": false,
+      "reaching": 512,
+      "failure_examples": 129
+    },
+    {
+      "generation": 2,
+      "slot": 4,
+      "operation": "format",
+      "path": [
+        "yes"
+      ],
+      "source": "search",
+      "fallback": true,
+      "reaching": 0,
+      "failure_examples": 129
+    },
+    {
+      "generation": 2,
+      "slot": 5,
+      "operation": "structure",
+      "path": [
+        "yes",
+        "yes",
+        "no",
+        "yes",
+        "yes"
+      ],
+      "source": "search"
+    },
+    {
+      "generation": 2,
+      "slot": 6,
+      "operation": "structure",
+      "path": [
+        "yes",
+        "yes",
+        "no",
+        "yes",
+        "yes"
+      ],
+      "source": "search"
+    },
+    {
+      "generation": 2,
+      "slot": 7,
+      "operation": "predicate",
+      "path": [
+        "no"
+      ],
+      "source": "search"
+    },
+    {
+      "generation": 2,
+      "slot": 8,
+      "operation": "structure",
+      "path": [
+        "yes"
+      ],
+      "source": "search"
+    },
+    {
+      "generation": 2,
+      "slot": 9,
+      "operation": "structure",
+      "path": [
+        "no"
+      ],
+      "source": "search",
+      "fallback": false,
+      "reaching": 512,
+      "failure_examples": 170
+    },
+    {
+      "generation": 2,
+      "slot": 10,
+      "operation": "structure",
+      "path": [
+        "no"
+      ],
+      "source": "search"
+    },
+    {
+      "generation": 2,
+      "slot": 11,
+      "operation": "structure",
+      "path": [
+        "no",
+        "no"
+      ],
+      "source": "search"
+    },
+    {
+      "generation": 2,
+      "slot": 12,
+      "operation": "format",
+      "path": [],
+      "source": "search",
+      "fallback": false,
+      "reaching": 512,
+      "failure_examples": 129
+    },
+    {
+      "generation": 2,
+      "slot": 13,
+      "operation": "structure",
+      "path": [],
+      "source": "search"
+    },
+    {
+      "generation": 2,
+      "slot": 14,
+      "operation": "structure",
+      "path": [
+        "yes",
+        "yes",
+        "no",
+        "no"
+      ],
+      "source": "search",
+      "fallback": true,
+      "reaching": 0,
+      "failure_examples": 170
+    },
+    {
+      "generation": 2,
+      "slot": 15,
+      "operation": "structure",
+      "path": [
+        "yes"
+      ],
+      "source": "search"
+    },
+    {
+      "generation": 2,
+      "slot": 16,
+      "operation": "structure",
+      "path": [
+        "yes"
+      ],
+      "source": "search"
+    },
+    {
+      "generation": 2,
+      "slot": 17,
+      "operation": "structure",
+      "path": [
+        "yes",
+        "yes",
+        "yes",
+        "yes"
+      ],
+      "source": "search",
+      "fallback": true,
+      "reaching": 0,
+      "failure_examples": 129
+    },
+    {
+      "generation": 2,
+      "slot": 18,
+      "operation": "structure",
+      "path": [
+        "no"
+      ],
+      "source": "search"
+    },
+    {
+      "generation": 2,
+      "slot": 19,
+      "operation": "format",
+      "path": [
+        "yes"
+      ],
+      "source": "search",
+      "fallback": true,
+      "reaching": 0,
+      "failure_examples": 170
+    },
+    {
+      "generation": 2,
+      "slot": 20,
+      "operation": "structure",
+      "path": [
+        "yes",
+        "yes",
+        "yes"
+      ],
+      "source": "search",
+      "fallback": true,
+      "reaching": 0,
+      "failure_examples": 170
+    },
+    {
+      "generation": 2,
+      "slot": 21,
+      "operation": "format",
+      "path": [],
+      "source": "search",
+      "fallback": false,
+      "reaching": 512,
+      "failure_examples": 170
+    },
+    {
+      "generation": 2,
+      "slot": 22,
+      "operation": "structure",
+      "path": [
+        "yes",
+        "yes",
+        "no"
+      ],
+      "source": "search",
+      "fallback": true,
+      "reaching": 0,
+      "failure_examples": 129
+    },
+    {
+      "generation": 2,
+      "slot": 23,
+      "operation": "structure",
+      "path": [
+        "no"
+      ],
+      "source": "search",
+      "fallback": false,
+      "reaching": 512,
+      "failure_examples": 170
+    },
+    {
+      "generation": 2,
+      "slot": 24,
+      "operation": "structure",
+      "path": [],
+      "source": "search",
+      "fallback": false,
+      "reaching": 512,
+      "failure_examples": 214
+    },
+    {
+      "generation": 2,
+      "slot": 25,
+      "operation": "structure",
+      "path": [
+        "yes",
+        "yes",
+        "yes",
+        "no"
+      ],
+      "source": "search"
+    },
+    {
+      "generation": 2,
+      "slot": 26,
+      "operation": "format",
+      "path": [
+        "yes"
+      ],
+      "source": "search",
+      "fallback": true,
+      "reaching": 0,
+      "failure_examples": 170
+    },
+    {
+      "generation": 2,
+      "slot": 27,
+      "operation": "structure",
+      "path": [
+        "no",
+        "no"
+      ],
+      "source": "search",
+      "fallback": false,
+      "reaching": 214,
+      "failure_examples": 86
+    },
+    {
+      "generation": 2,
+      "slot": 28,
+      "operation": "structure",
+      "path": [],
+      "source": "search",
+      "fallback": false,
+      "reaching": 512,
+      "failure_examples": 171
+    },
+    {
+      "generation": 2,
+      "slot": 29,
+      "operation": "structure",
+      "path": [
+        "no"
+      ],
+      "source": "search"
+    },
+    {
+      "generation": 2,
+      "slot": 30,
+      "operation": "structure",
+      "path": [
+        "yes",
+        "yes",
+        "no",
+        "yes",
+        "yes"
+      ],
+      "source": "search"
+    },
+    {
+      "generation": 2,
+      "slot": 31,
+      "operation": "predicate",
+      "path": [
+        "yes",
+        "yes",
+        "no"
+      ],
+      "source": "search"
+    },
+    {
+      "generation": 3,
+      "slot": 0,
+      "operation": "structure",
+      "path": [
+        "yes",
+        "no",
+        "yes"
+      ],
+      "source": "search"
+    },
+    {
+      "generation": 3,
+      "slot": 1,
+      "operation": "structure",
+      "path": [
+        "no",
+        "yes",
+        "no",
+        "no"
+      ],
+      "source": "search",
+      "fallback": true,
+      "reaching": 0,
+      "failure_examples": 128
+    },
+    {
+      "generation": 3,
+      "slot": 2,
+      "operation": "structure",
+      "path": [
+        "yes",
+        "yes",
+        "no",
+        "yes",
+        "yes"
+      ],
+      "source": "search"
+    },
+    {
+      "generation": 3,
+      "slot": 3,
+      "operation": "format",
+      "path": [
+        "yes"
+      ],
+      "source": "search",
+      "fallback": true,
+      "reaching": 0,
+      "failure_examples": 170
+    },
+    {
+      "generation": 3,
+      "slot": 4,
+      "operation": "structure",
+      "path": [
+        "yes"
+      ],
+      "source": "search"
+    },
+    {
+      "generation": 3,
+      "slot": 5,
+      "operation": "structure",
+      "path": [
+        "yes",
+        "yes"
+      ],
+      "source": "search",
+      "fallback": true,
+      "reaching": 0,
+      "failure_examples": 129
+    },
+    {
+      "generation": 3,
+      "slot": 6,
+      "operation": "format",
+      "path": [],
+      "source": "search",
+      "fallback": false,
+      "reaching": 512,
+      "failure_examples": 128
+    },
+    {
+      "generation": 3,
+      "slot": 7,
+      "operation": "structure",
+      "path": [
+        "yes",
+        "yes"
+      ],
+      "source": "search"
+    },
+    {
+      "generation": 3,
+      "slot": 8,
+      "operation": "structure",
+      "path": [
+        "no"
+      ],
+      "source": "search",
+      "fallback": false,
+      "reaching": 512,
+      "failure_examples": 128
+    },
+    {
+      "generation": 3,
+      "slot": 9,
+      "operation": "structure",
+      "path": [
+        "yes",
+        "yes",
+        "no",
+        "no"
+      ],
+      "source": "search"
+    },
+    {
+      "generation": 3,
+      "slot": 10,
+      "operation": "structure",
+      "path": [
+        "yes"
+      ],
+      "source": "search"
+    },
+    {
+      "generation": 3,
+      "slot": 11,
+      "operation": "structure",
+      "path": [
+        "no"
+      ],
+      "source": "search",
+      "fallback": false,
+      "reaching": 512,
+      "failure_examples": 129
+    },
+    {
+      "generation": 3,
+      "slot": 12,
+      "operation": "structure",
+      "path": [
+        "no"
+      ],
+      "source": "search"
+    },
+    {
+      "generation": 3,
+      "slot": 13,
+      "operation": "structure",
+      "path": [
+        "yes",
+        "no"
+      ],
+      "source": "search",
+      "fallback": true,
+      "reaching": 0,
+      "failure_examples": 129
+    },
+    {
+      "generation": 3,
+      "slot": 14,
+      "operation": "structure",
+      "path": [
+        "yes"
+      ],
+      "source": "search",
+      "fallback": true,
+      "reaching": 0,
+      "failure_examples": 129
+    },
+    {
+      "generation": 3,
+      "slot": 15,
+      "operation": "predicate",
+      "path": [
+        "no"
+      ],
+      "source": "search"
+    },
+    {
+      "generation": 3,
+      "slot": 16,
+      "operation": "structure",
+      "path": [
+        "yes",
+        "no"
+      ],
+      "source": "search",
+      "fallback": true,
+      "reaching": 0,
+      "failure_examples": 129
+    },
+    {
+      "generation": 3,
+      "slot": 17,
+      "operation": "predicate",
+      "path": [
+        "yes",
+        "yes",
+        "no",
+        "no"
+      ],
+      "source": "search"
+    },
+    {
+      "generation": 3,
+      "slot": 18,
+      "operation": "format",
+      "path": [],
+      "source": "search",
+      "fallback": false,
+      "reaching": 512,
+      "failure_examples": 129
+    },
+    {
+      "generation": 3,
+      "slot": 19,
+      "operation": "structure",
+      "path": [
+        "yes",
+        "yes",
+        "yes",
+        "yes",
+        "no"
+      ],
+      "source": "search"
+    },
+    {
+      "generation": 3,
+      "slot": 20,
+      "operation": "format",
+      "path": [
+        "yes",
+        "yes"
+      ],
+      "source": "search",
+      "fallback": true,
+      "reaching": 0,
+      "failure_examples": 129
+    },
+    {
+      "generation": 3,
+      "slot": 21,
+      "operation": "predicate",
+      "path": [],
+      "source": "search"
+    },
+    {
+      "generation": 3,
+      "slot": 22,
+      "operation": "format",
+      "path": [],
+      "source": "search",
+      "fallback": false,
+      "reaching": 512,
+      "failure_examples": 129
+    },
+    {
+      "generation": 3,
+      "slot": 23,
+      "operation": "format",
+      "path": [],
+      "source": "search",
+      "fallback": false,
+      "reaching": 512,
+      "failure_examples": 170
+    },
+    {
+      "generation": 3,
+      "slot": 24,
+      "operation": "predicate",
+      "path": [
+        "no"
+      ],
+      "source": "search"
+    },
+    {
+      "generation": 3,
+      "slot": 25,
+      "operation": "structure",
+      "path": [
+        "yes",
+        "no"
+      ],
+      "source": "search"
+    },
+    {
+      "generation": 3,
+      "slot": 26,
+      "operation": "structure",
+      "path": [
+        "yes",
+        "yes",
+        "no"
+      ],
+      "source": "search"
+    },
+    {
+      "generation": 3,
+      "slot": 27,
+      "operation": "structure",
+      "path": [
+        "yes"
+      ],
+      "source": "search",
+      "fallback": true,
+      "reaching": 0,
+      "failure_examples": 129
+    },
+    {
+      "generation": 3,
+      "slot": 28,
+      "operation": "format",
+      "path": [],
+      "source": "search",
+      "fallback": false,
+      "reaching": 512,
+      "failure_examples": 129
+    },
+    {
+      "generation": 3,
+      "slot": 29,
+      "operation": "structure",
+      "path": [
+        "yes",
+        "yes",
+        "no",
+        "yes"
+      ],
+      "source": "search",
+      "fallback": true,
+      "reaching": 0,
+      "failure_examples": 128
+    },
+    {
+      "generation": 3,
+      "slot": 30,
+      "operation": "structure",
+      "path": [
+        "yes",
+        "no",
+        "no"
+      ],
+      "source": "search",
+      "fallback": true,
+      "reaching": 0,
+      "failure_examples": 170
+    },
+    {
+      "generation": 3,
+      "slot": 31,
+      "operation": "structure",
+      "path": [
+        "no"
+      ],
+      "source": "search",
+      "fallback": false,
+      "reaching": 512,
+      "failure_examples": 170
+    },
+    {
+      "generation": 4,
+      "slot": 0,
+      "operation": "structure",
+      "path": [
+        "yes",
+        "yes",
+        "no"
+      ],
+      "source": "search",
+      "fallback": true,
+      "reaching": 0,
+      "failure_examples": 129
+    },
+    {
+      "generation": 4,
+      "slot": 1,
+      "operation": "structure",
+      "path": [
+        "no"
+      ],
+      "source": "search",
+      "fallback": false,
+      "reaching": 512,
+      "failure_examples": 129
+    },
+    {
+      "generation": 4,
+      "slot": 2,
+      "operation": "structure",
+      "path": [
+        "yes",
+        "no"
+      ],
+      "source": "search"
+    },
+    {
+      "generation": 4,
+      "slot": 3,
+      "operation": "structure",
+      "path": [
+        "yes",
+        "yes",
+        "no"
+      ],
+      "source": "search",
+      "fallback": true,
+      "reaching": 0,
+      "failure_examples": 129
+    },
+    {
+      "generation": 4,
+      "slot": 4,
+      "operation": "format",
+      "path": [],
+      "source": "search",
+      "fallback": false,
+      "reaching": 512,
+      "failure_examples": 129
+    },
+    {
+      "generation": 4,
+      "slot": 5,
+      "operation": "format",
+      "path": [],
+      "source": "search",
+      "fallback": false,
+      "reaching": 512,
+      "failure_examples": 129
+    },
+    {
+      "generation": 4,
+      "slot": 6,
+      "operation": "predicate",
+      "path": [
+        "yes",
+        "yes",
+        "yes",
+        "yes"
+      ],
+      "source": "search"
+    },
+    {
+      "generation": 4,
+      "slot": 7,
+      "operation": "structure",
+      "path": [
+        "yes"
+      ],
+      "source": "search",
+      "fallback": true,
+      "reaching": 0,
+      "failure_examples": 129
+    },
+    {
+      "generation": 4,
+      "slot": 8,
+      "operation": "structure",
+      "path": [
+        "yes",
+        "yes",
+        "yes",
+        "yes",
+        "no"
+      ],
+      "source": "search"
+    },
+    {
+      "generation": 4,
+      "slot": 9,
+      "operation": "structure",
+      "path": [
+        "yes",
+        "no"
+      ],
+      "source": "search",
+      "fallback": true,
+      "reaching": 0,
+      "failure_examples": 129
+    },
+    {
+      "generation": 4,
+      "slot": 10,
+      "operation": "structure",
+      "path": [
+        "yes",
+        "yes",
+        "yes",
+        "yes",
+        "yes"
+      ],
+      "source": "search"
+    },
+    {
+      "generation": 4,
+      "slot": 11,
+      "operation": "structure",
+      "path": [
+        "yes",
+        "no"
+      ],
+      "source": "search",
+      "fallback": true,
+      "reaching": 0,
+      "failure_examples": 129
+    },
+    {
+      "generation": 4,
+      "slot": 12,
+      "operation": "structure",
+      "path": [
+        "yes",
+        "yes",
+        "no",
+        "yes"
+      ],
+      "source": "search",
+      "fallback": true,
+      "reaching": 0,
+      "failure_examples": 129
+    },
+    {
+      "generation": 4,
+      "slot": 13,
+      "operation": "structure",
+      "path": [
+        "yes",
+        "yes",
+        "no"
+      ],
+      "source": "search"
+    },
+    {
+      "generation": 4,
+      "slot": 14,
+      "operation": "structure",
+      "path": [
+        "yes"
+      ],
+      "source": "search",
+      "fallback": true,
+      "reaching": 0,
+      "failure_examples": 129
+    },
+    {
+      "generation": 4,
+      "slot": 15,
+      "operation": "structure",
+      "path": [
+        "no"
+      ],
+      "source": "search"
+    },
+    {
+      "generation": 4,
+      "slot": 16,
+      "operation": "structure",
+      "path": [
+        "yes",
+        "yes",
+        "no",
+        "no",
+        "yes"
+      ],
+      "source": "search"
+    },
+    {
+      "generation": 4,
+      "slot": 17,
+      "operation": "structure",
+      "path": [
+        "yes",
+        "yes",
+        "yes",
+        "yes",
+        "no"
+      ],
+      "source": "search"
+    },
+    {
+      "generation": 4,
+      "slot": 18,
+      "operation": "structure",
+      "path": [
+        "yes",
+        "no"
+      ],
+      "source": "search"
+    },
+    {
+      "generation": 4,
+      "slot": 19,
+      "operation": "structure",
+      "path": [
+        "yes",
+        "yes",
+        "yes",
+        "yes",
+        "yes"
+      ],
+      "source": "search"
+    },
+    {
+      "generation": 4,
+      "slot": 20,
+      "operation": "structure",
+      "path": [
+        "no"
+      ],
+      "source": "search",
+      "fallback": false,
+      "reaching": 512,
+      "failure_examples": 129
+    },
+    {
+      "generation": 4,
+      "slot": 21,
+      "operation": "structure",
+      "path": [
+        "no"
+      ],
+      "source": "search",
+      "fallback": false,
+      "reaching": 512,
+      "failure_examples": 129
+    },
+    {
+      "generation": 4,
+      "slot": 22,
+      "operation": "structure",
+      "path": [
+        "no"
+      ],
+      "source": "search",
+      "fallback": false,
+      "reaching": 512,
+      "failure_examples": 129
+    },
+    {
+      "generation": 4,
+      "slot": 23,
+      "operation": "predicate",
+      "path": [
+        "yes"
+      ],
+      "source": "search"
+    },
+    {
+      "generation": 4,
+      "slot": 24,
+      "operation": "structure",
+      "path": [
+        "no"
+      ],
+      "source": "search",
+      "fallback": false,
+      "reaching": 512,
+      "failure_examples": 129
+    },
+    {
+      "generation": 4,
+      "slot": 25,
+      "operation": "format",
+      "path": [
+        "yes",
+        "yes"
+      ],
+      "source": "search",
+      "fallback": true,
+      "reaching": 0,
+      "failure_examples": 129
+    },
+    {
+      "generation": 4,
+      "slot": 26,
+      "operation": "format",
+      "path": [
+        "yes",
+        "yes"
+      ],
+      "source": "search",
+      "fallback": true,
+      "reaching": 0,
+      "failure_examples": 129
+    },
+    {
+      "generation": 4,
+      "slot": 27,
+      "operation": "structure",
+      "path": [
+        "yes",
+        "yes",
+        "no",
+        "yes",
+        "yes"
+      ],
+      "source": "search"
+    },
+    {
+      "generation": 4,
+      "slot": 28,
+      "operation": "format",
+      "path": [
+        "yes",
+        "yes"
+      ],
+      "source": "search",
+      "fallback": true,
+      "reaching": 0,
+      "failure_examples": 129
+    },
+    {
+      "generation": 4,
+      "slot": 29,
+      "operation": "format",
+      "path": [],
+      "source": "search",
+      "fallback": false,
+      "reaching": 512,
+      "failure_examples": 129
+    },
+    {
+      "generation": 4,
+      "slot": 30,
+      "operation": "structure",
+      "path": [
+        "no"
+      ],
+      "source": "search",
+      "fallback": false,
+      "reaching": 512,
+      "failure_examples": 129
+    },
+    {
+      "generation": 4,
+      "slot": 31,
+      "operation": "predicate",
+      "path": [
+        "yes",
+        "yes",
+        "no"
+      ],
+      "source": "search"
+    }
+  ],
+  "evaluations": 192,
+  "seconds": 0.23024985939264297
+}

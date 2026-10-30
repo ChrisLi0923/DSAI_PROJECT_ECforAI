@@ -1,0 +1,36 @@
+{
+  "cache_generation": {
+    "search": {
+      "completed_unique_calls": 40,
+      "executed_here_calls": 0,
+      "input_tokens": 3991,
+      "output_tokens": 80,
+      "inference_seconds": 6.220726177096367,
+      "invalid_outputs": 0,
+      "reused_previous_calls": 40,
+      "note": "Generation tokens/time are historical source costs, not newly executed follow-up inference."
+    },
+    "validation": {
+      "completed_unique_calls": 40,
+      "executed_here_calls": 0,
+      "input_tokens": 4086,
+      "output_tokens": 80,
+      "inference_seconds": 5.730184331536293,
+      "invalid_outputs": 0,
+      "reused_previous_calls": 40,
+      "note": "Generation tokens/time are historical source costs, not newly executed follow-up inference."
+    },
+    "test": {
+      "completed_unique_calls": 20,
+      "executed_here_calls": 0,
+      "input_tokens": 2434,
+      "output_tokens": 40,
+      "inference_seconds": 2.9877596721053123,
+      "invalid_outputs": 0,
+      "reused_previous_calls": 20,
+      "note": "Generation tokens/time are historical source costs, not newly executed follow-up inference."
+    }
+  },
+  "attempts": [],
+  "attempt_caveat": "Interrupted uncommitted batches may have executed; nominal completed calls differ from physical attempts."
+}

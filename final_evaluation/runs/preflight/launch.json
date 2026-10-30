@@ -1,0 +1,20 @@
+{
+  "target": "dsai:1:final-evaluation-1030-225427",
+  "command": "bash /home/hli/dsai/final_evaluation/scripts/run_main.sh",
+  "argv": [
+    "tmux",
+    "new-window",
+    "-d",
+    "-P",
+    "-F",
+    "#{session_name}:#{window_index}:#{window_name}",
+    "-t",
+    "dsai:",
+    "-n",
+    "final-evaluation-1030-225427",
+    "bash /home/hli/dsai/final_evaluation/scripts/run_main.sh"
+  ],
+  "unix": 1793372067.0424004,
+  "gpu_snapshot": "GPU-44a70774-4e6e-2da2-3a68-26266ac5035c",
+  "previous_windows": "0: bash* (1 panes) [91x10] [layout a11d,91x10,0,0,0] @0 (active)\n"
+}

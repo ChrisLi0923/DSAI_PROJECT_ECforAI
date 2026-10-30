@@ -1,0 +1,6 @@
+id,raw_scored_evaluations,question_policy_replays,policy_evaluation_equivalents,unique_scored_policies,archived_candidates,replay_seconds,full_generations,partial_generation_offspring,step,seconds,cpu_seconds,initial_population_hash,roles,attempt_statuses
+G0_191,48,384,48,23,22,0.010719835758209229,2,4,20,4.008035026490688,0.09379158600000004,b98bc0f5b6da1b3a446a2d769db5855a04ed284c6917040f3550eccbd84edae6,"{""base"": 20, ""initial"": 8, ""trial"": 20}","{""complete"": 48}"
+G1_191,48,384,48,22,21,0.013963066041469574,2,4,20,3.9431849345564842,0.12502170700000015,b98bc0f5b6da1b3a446a2d769db5855a04ed284c6917040f3550eccbd84edae6,"{""base"": 20, ""initial"": 8, ""trial"": 20}","{""complete"": 48}"
+G2_191,48,384,48,36,11,0.014233030378818512,0,6,6,2.7480824813246727,0.08146164700000025,b98bc0f5b6da1b3a446a2d769db5855a04ed284c6917040f3550eccbd84edae6,"{""base"": 6, ""initial"": 8, ""trial"": 34}","{""complete"": 48}"
+G3_191,48,384,48,21,19,0.009864546358585358,2,4,20,3.9464843422174454,0.08517517800000007,b98bc0f5b6da1b3a446a2d769db5855a04ed284c6917040f3550eccbd84edae6,"{""base"": 20, ""initial"": 8, ""trial"": 20}","{""complete"": 48}"
+hill_191,48,384,48,20,8,0.012008428573608398,0,0,6,2.7227941676974297,0.07481244600000014,b98bc0f5b6da1b3a446a2d769db5855a04ed284c6917040f3550eccbd84edae6,"{""base"": 6, ""initial"": 8, ""trial"": 34}","{""complete"": 48}"

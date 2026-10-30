@@ -1,0 +1,10 @@
+{
+  "version": 1,
+  "model": {"name": "Qwen/Qwen2.5-3B-Instruct", "revision": "aa8e72537993ba99e69dfaafa59ed015b17504d1", "batch_size": 1, "target_max_tokens": 8, "proposer_max_tokens": 160, "max_input_tokens": 1536, "min_free_gib": 18, "memory_fraction": 0.4},
+  "strategy_max_tokens": 128,
+  "data": {"search_n": 1500, "reserve_n": 1000, "reserve_seed": 301030, "addition_seed": 301031, "fact_n": 300, "fact_seed": 301032, "unrelated_seed": 301033, "repeat_n": 64, "repeat_seed": 301034},
+  "selector": {"lambdas": [0.0001, 0.001, 0.01, 0.1], "folds": 5, "cv_seed": 301035, "max_iter": 160, "tolerance": 0.000001},
+  "learning": {"sizes": [128, 256, 512, 1000, 1500], "seeds": [11, 29, 47, 71, 101]},
+  "analysis": {"bootstrap_replicates": 2000, "bootstrap_seed": 301036, "review_seed": 301037, "review_per_category": 6, "minimum_practical_accuracy_gain": 0.005},
+  "strategy_selection": {"count": 2, "rule": "Rank all strategy pairs by descending search accuracy of canonical plurality on the reference three formats plus that pair; then descending mean standalone accuracy of the two strategies; then ascending mean total requested tokens of the five-response ensemble; then lexicographic pair names. Select the first pair. No oracle or validation outcomes enter selection."}
+}

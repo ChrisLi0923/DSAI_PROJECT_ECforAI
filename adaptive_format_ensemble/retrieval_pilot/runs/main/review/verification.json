@@ -1,0 +1,21 @@
+{
+  "complete": true,
+  "freeze_source_config_package_hashes_match": true,
+  "report_hash_matches": true,
+  "historical_outputs_unchanged": true,
+  "sqlite_integrity": "ok",
+  "response_records": 16212,
+  "new_calls": 6267,
+  "all_attempts_complete": true,
+  "all_cache_keys_parsers_raw_hashes_verified": true,
+  "all_new_messages_match_fixed_wrapper_and_public_corpus_evidence": true,
+  "validation_after_search_designation": true,
+  "search_selection_reproduced": "R1",
+  "reproduced_method_split_results": 12,
+  "paired_accuracy_call_token_intervals_reproduced": true,
+  "annotation_presence_and_hits_reproduced": true,
+  "reserve_unqueried": 1000,
+  "model_calls_during_review": 0,
+  "refitting_or_reselection": false,
+  "additional_experiment_launched": false
+}

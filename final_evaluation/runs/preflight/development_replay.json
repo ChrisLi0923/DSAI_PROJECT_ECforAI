@@ -1,0 +1,140 @@
+{
+  "passed": true,
+  "development_validation": [
+    {
+      "id": "original",
+      "n": 489,
+      "accuracy": 0.7791411042944786,
+      "calls": 1.0,
+      "legal_no_repeated_queries": true
+    },
+    {
+      "id": "best_single",
+      "n": 489,
+      "accuracy": 0.7914110429447853,
+      "calls": 1.0,
+      "legal_no_repeated_queries": true
+    },
+    {
+      "id": "fixed_three",
+      "n": 489,
+      "accuracy": 0.8077709611451943,
+      "calls": 3.0,
+      "legal_no_repeated_queries": true
+    },
+    {
+      "id": "ordered_triple",
+      "n": 489,
+      "accuracy": 0.8077709611451943,
+      "calls": 2.2065439672801634,
+      "legal_no_repeated_queries": true
+    },
+    {
+      "id": "G0/seed11",
+      "n": 489,
+      "accuracy": 0.8077709611451943,
+      "calls": 2.214723926380368,
+      "legal_no_repeated_queries": true
+    },
+    {
+      "id": "G0/seed29",
+      "n": 489,
+      "accuracy": 0.8077709611451943,
+      "calls": 2.2065439672801634,
+      "legal_no_repeated_queries": true
+    },
+    {
+      "id": "G0/seed47",
+      "n": 489,
+      "accuracy": 0.8077709611451943,
+      "calls": 2.2065439672801634,
+      "legal_no_repeated_queries": true
+    },
+    {
+      "id": "G0/seed71",
+      "n": 489,
+      "accuracy": 0.8077709611451943,
+      "calls": 2.214723926380368,
+      "legal_no_repeated_queries": true
+    },
+    {
+      "id": "G0/seed101",
+      "n": 489,
+      "accuracy": 0.8077709611451943,
+      "calls": 3.0,
+      "legal_no_repeated_queries": true
+    },
+    {
+      "id": "G1/seed11",
+      "n": 489,
+      "accuracy": 0.8077709611451943,
+      "calls": 2.2065439672801634,
+      "legal_no_repeated_queries": true
+    },
+    {
+      "id": "G1/seed29",
+      "n": 489,
+      "accuracy": 0.8077709611451943,
+      "calls": 2.2065439672801634,
+      "legal_no_repeated_queries": true
+    },
+    {
+      "id": "G1/seed47",
+      "n": 489,
+      "accuracy": 0.8077709611451943,
+      "calls": 2.2065439672801634,
+      "legal_no_repeated_queries": true
+    },
+    {
+      "id": "G1/seed71",
+      "n": 489,
+      "accuracy": 0.8077709611451943,
+      "calls": 2.2065439672801634,
+      "legal_no_repeated_queries": true
+    },
+    {
+      "id": "G1/seed101",
+      "n": 489,
+      "accuracy": 0.8077709611451943,
+      "calls": 2.2065439672801634,
+      "legal_no_repeated_queries": true
+    },
+    {
+      "id": "G2/seed11",
+      "n": 489,
+      "accuracy": 0.8077709611451943,
+      "calls": 2.2065439672801634,
+      "legal_no_repeated_queries": true
+    },
+    {
+      "id": "G2/seed29",
+      "n": 489,
+      "accuracy": 0.8077709611451943,
+      "calls": 2.2065439672801634,
+      "legal_no_repeated_queries": true
+    },
+    {
+      "id": "G2/seed47",
+      "n": 489,
+      "accuracy": 0.8077709611451943,
+      "calls": 2.214723926380368,
+      "legal_no_repeated_queries": true
+    },
+    {
+      "id": "G2/seed71",
+      "n": 489,
+      "accuracy": 0.8077709611451943,
+      "calls": 2.2065439672801634,
+      "legal_no_repeated_queries": true
+    },
+    {
+      "id": "G2/seed101",
+      "n": 489,
+      "accuracy": 0.8077709611451943,
+      "calls": 2.2372188139059306,
+      "legal_no_repeated_queries": true
+    }
+  ],
+  "exact_prior_export_prediction_cost_checks": 18,
+  "scope": "Focused replay of19 selected methods, not a historical full audit. No refitting, selection or reserve scoring."
+}

@@ -1,0 +1,38 @@
+{
+  "status": "passed",
+  "model_inference_calls": 0,
+  "database_open_mode": "read-only",
+  "target_records_verified": 301953,
+  "candidate_scores_verified": 480,
+  "validation_selections_verified": 12,
+  "complete_final_prompts": 13,
+  "question_groups_per_final_prompt": 1109,
+  "checks": [
+    "frozen protocol/config/data/packages",
+    "SQLite integrity",
+    "all raw target records reparsed",
+    "all rendered inputs and option identity mappings",
+    "split and template isolation",
+    "candidate scores and equal target budgets",
+    "shared initialization",
+    "validation-only top-three selection",
+    "complete final groups",
+    "all metric numerators and denominators",
+    "validation precedes final inference",
+    "all attempt records complete"
+  ],
+  "limitations": [
+    "Audit verifies recorded inputs and scoring, not gold-answer correctness or complete human semantic preservation.",
+    "CPU statistical analyses reuse the already observed test; they do not create a fresh confirmatory experiment."
+  ],
+  "sha256": {
+    "COMPLETE.json": "0a3782711d003d6b6514468882c555c6702fc8153c429d43c641d6afdaa503ad",
+    "config.json": "75f7cb62653fe56a0b781f85b029565eaf81a0c5f949c6b8e1a2af7c6a80bcaf",
+    "reproducibility.json": "8d53f3a39985e06eb5b6bfe648ce23afd7c65f5f66a6b5eca95d3b78b05a27d2",
+    "frozen_prompts.json": "477169438f11d7b406f796ee56ab38f82f89b803d0f6980c556d934319852b60",
+    "records.sqlite": "1877c3c5c9f1ecd9f7f412a0729b08816f37b227ea939f0303a391aa7c8a5d75",
+    "analysis/metrics.csv": "41717ffee60c449903bbe8d99d94055ece435c3f7ccb3f129eb7b22da637b4a9",
+    "analysis/paired_comparisons.csv": "7a556a2680c2ece6f69e54308a01944c0792df8d25876f92daf0238641465cee",
+    "analysis/costs.csv": "6286ae05a0bfb02bae9301d775233c22135f2255b822884be1ecabbe88778301"
+  }
+}

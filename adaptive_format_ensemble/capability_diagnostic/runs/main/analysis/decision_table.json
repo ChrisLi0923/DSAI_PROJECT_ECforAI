@@ -1,0 +1,27 @@
+[
+  {
+    "possibility": "Existing correct alternatives can be exploited",
+    "finding": "Existing validation reference errors partition into 51 with a correct alternative and 43 without one. Full-five selector gain over the reference: -0.41 percentage points.",
+    "next_step": "Oracle potential alone does not establish useful aggregation; no automatic redesign."
+  },
+  {
+    "possibility": "New instructions elicit useful answers",
+    "finding": "Best selected standalone validation change: -13.91 points; best frozen expanded ensemble change: +0.00 points, charged all requested responses.",
+    "next_step": "No practical validation gain at the predeclared 0.5-point descriptive threshold."
+  },
+  {
+    "possibility": "Relevant evidence is missing",
+    "finding": "Supporting-minus-no-evidence change +4.00 points; supporting-minus-unrelated +4.67 points.",
+    "next_step": "Investigate real retrieval separately; this diagnostic supplied privileged facts."
+  },
+  {
+    "possibility": "Limited search data constrains this selector",
+    "finding": "reference_three: 128 to 1500, mean change +0.57 points; all_five: 128 to 1500, mean change +1.68 points",
+    "next_step": "Larger development pools may help this selector; not proof for evolution."
+  },
+  {
+    "possibility": "No useful benefit",
+    "finding": "At least one descriptive probe warrants cautious follow-up.",
+    "next_step": "Stop after this diagnostic. Any future method needs unused confirmatory questions."
+  }
+]

@@ -1,0 +1,147 @@
+                                                                              DSAI6707 | Advanced Computational Intelligence
+
+                                             PROJECT 1
+                           Evolutionary Computation for Emerging AI
+                               Individual Research Project ·40% of Final Course Grade
+     Course                                                    DSAI6707 Advanced Computational Intelligence
+     Project Type                                              Individual
+     Submission Deadline                                       15 November 2026
+
+
+1. Project Overview
+This project asks you to connect the evolutionary computation techniques studied in this course (e.g., Genetic
+Algorithms, Particle Swarm Optimization, Differential Evolution, and Multi-objective Evolutionary Optimization)
+with emerging directions in artificial intelligence. You should select a frontier topic, understand the state of the
+art through a focused literature review, identify a meaningful research opportunity, and develop and
+experimentally evaluate an innovative solution. The interaction may go in either direction: evolutionary
+computation may be used to enhance emerging AI technologies, or modern AI techniques may be used to improve
+evolutionary algorithms. Hybrid approaches are also welcome.
+
+2. Learning and Research Objectives
+The project is intended to move beyond implementing a standard evolutionary algorithm on a conventional benchmark.
+By completing the project, you should demonstrate the ability to:
+•   understand and critically analyze recent research at the intersection of evolutionary computation and emerging AI;
+•   formulate a clear and meaningful research problem;
+•   design or adapt computational intelligence techniques to address that problem;
+•   introduce a reasonable degree of innovation based on existing work; and
+•   conduct rigorous comparative experiments and draw evidence-based conclusions.
+
+3. Suggested Research Directions
+The following topics are examples for inspiration rather than an exhaustive list. You are encouraged to explore other
+frontier directions when they have a clear connection to evolutionary computation.
+•   Evolutionary LLM architecture search
+•   Evolutionary prompt engineering
+•   Automatic algorithm design, discovery, or configuration
+•   LLM-assisted evolutionary computation
+•   Transformer-based or learned optimizers
+•   Evolutionary multi-agent systems
+•   Evolutionary fine-tuning and model adaptation & merging
+•   Self-evolving AI systems
+•   Multi-objective optimization for modern AI systems
+•   Evolutionary optimization of agents or world models
+
+4. Expected Research Depth
+This is an open-ended research project. There is no single correct solution. A strong project should first establish what
+has already been achieved in the selected area and then build on that understanding to make a meaningful technical
+contribution.
+Simply applying an off-the-shelf GA/PSO/DE implementation to a new dataset or task is generally insufficient for a
+high mark. Innovation may arise from, for example, problem formulation, representation, fitness/objective design,
+
+                                                           1
+                                                                                    DSAI6707 | Advanced Computational Intelligence
+search operators, selection mechanisms, multi-objective formulation, interaction with an LLM/agent/model, or a new
+integration of existing techniques.
+
+5. Literature Review Requirements
+You must conduct a focused review of recent literature to establish the state of the art, identify limitations or gaps, and
+motivate your proposed work.
+•      Review at least 20 relevant papers published within the most recent three years (2024–2026).
+•      The review should synthesize the literature by themes, methods, trends, strengths, limitations, or research gaps. It
+       should not be a collection of paper-by-paper summaries.
+•      The literature review should directly support the motivation and design of your proposed method.
+
+6. Experimental Requirements
+Experimental comparison is mandatory. Your experiments should provide convincing evidence about whether and
+why the proposed approach works.
+•      Include appropriate baselines, including relevant existing methods and/or conventional evolutionary approaches
+       where applicable.
+•      Use meaningful quantitative evaluation metrics that match the research problem.
+•      For stochastic algorithms, conduct multiple independent runs where computationally feasible and report
+       appropriate statistics (e.g., mean and standard deviation).
+•      Experimental settings, datasets/tasks, model configurations, hyperparameters, and evaluation procedures should
+       be described clearly enough to support reproducibility.
+
+7. Required Deliverables
+Submit all of the following by the deadline 15 November 2026:
+1. Project Report (PDF): A self-contained research report covering the problem and motivation, literature review,
+   methodology, experimental setup, results and analysis, discussion, conclusion, and references.
+2. Source Code: Complete implementation used in the project, together with a README explaining environment
+   setup, dependencies, data preparation, execution, and evaluation.
+3. Experimental Data and Results: Raw or processed results sufficient to support the findings reported in the
+   project, including relevant logs, result files, or evaluation outputs.
+4. Supplementary Materials (if applicable): Additional configurations, prompts, visualizations, videos, model
+   outputs, or other materials that help demonstrate or reproduce the work.
+
+8. Assessment
+The project contributes 40% of the final course grade. Assessment will consider both the quality of the research idea
+and the quality of its execution. In particular, projects will be judged with reference to the following dimensions:
+    Assessment Dimension                                          What Will Be Considered
+                                                                  Significance, clarity, relevance, and understanding of the selected
+    Research Problem & Motivation
+                                                                  frontier topic.
+                                                                  Coverage of recent work, critical synthesis, and identification of
+    Literature Review
+                                                                  meaningful research gaps.
+                                                                  Originality, technical depth, appropriateness of the EC–AI
+    Innovation & Technical Design
+                                                                  integration, and quality of the proposed method.
+                                                                  Quality of baselines, rigor of comparisons, completeness of
+    Experimental Evaluation
+                                                                  experiments, and depth of analysis.
+                                                                  How completely and convincingly the proposed research idea is
+    Overall Completion & Research Quality
+                                                                  implemented and validated.
+                                                                  Clarity of presentation, quality of implementation and documentation,
+    Report, Code & Reproducibility
+                                                                  and reproducibility of the reported results.
+Important: Innovation and completion are central to the final assessment.
+
+
+                                                              2
+                                                                           DSAI6707 | Advanced Computational Intelligence
+9. Reference Papers
+The following papers illustrate representative research directions at the intersection of evolutionary computation and
+emerging AI. They are provided as starting points rather than an exhaustive reading list. You are strongly encouraged
+to explore recent literature beyond these examples and identify your own research direction.
+[1] X. Wu, S.-H. Wu, J. Wu, L. Feng, and K. C. Tan, “Evolutionary computation in the era of large language model:
+Survey and roadmap,” IEEE Transactions on Evolutionary Computation, vol. 29, no. 2, pp. 534–554, 2025.
+[2] C. Fernando, D. S. Banarse, H. Michalewski, S. Osindero, and T. Rocktäschel, “Promptbreeder: Self-referential
+self-improvement via prompt evolution,” in Proceedings of the 41st International Conference on Machine Learning
+(ICML), 2024, pp. 13481–13544.
+[3] R. T. Lange, Y. Tian, and Y. Tang, “Large language models as evolution strategies,” arXiv preprint
+arXiv:2402.18381, 2024.
+[4] X. Wu, Y. Zhou, and K. C. Tan, “Building LLMs like LEGO: Two-dimensional architecture reassembly of large
+language models,” in Proceedings of the 64th Annual Meeting of the Association for Computational Linguistics
+(ACL), 2026, pp. 44939–44956.
+[5] T. Akiba, M. Shing, Y. Tang, Q. Sun, and D. Ha, “Evolutionary optimization of model merging recipes,” Nature
+Machine Intelligence, vol. 7, pp. 195–204, 2025.
+[6] H. Qiu, X. Wu, L. Feng, and K. C. Tan, “Fine-grained model merging via modular expert recombination,” arXiv
+preprint arXiv:2602.06552, 2026.
+[7] Y. Wang, C. Peng, X. Wu, S.-H. Wu, and Z.-H. Zhan, “How to guide LLM generation: Dual-surrogate guided
+search for automated heuristic design,” arXiv preprint arXiv:2607.13911, 2026.
+[8] F. Liu et al., “A systematic survey on large language models for algorithm design,” ACM Computing Surveys, vol.
+58, no. 8, Art. no. 218, pp. 1–32, 2026.
+[9] Y. J. Ma, W. Liang, G. Wang, D.-A. Huang, O. Bastani, D. Jayaraman, Y. Zhu, L. Fan, and A. Anandkumar,
+“Eureka: Human-level reward design via coding large language models,” in International Conference on Learning
+Representations (ICLR), 2024.
+[10] S. Hu, C. Lu, and J. Clune, “Automated design of agentic systems,” in International Conference on Learning
+Representations (ICLR), 2025.
+[11] S. S. Li, R. Xin, Y. Wang, T. Xiao, R. Shao, Z. Hao, M. Sclar, F. Brahman, P. W. Koh, and Y. Tsvetkov,
+“EvoLM: Self-evolving language models through co-evolved discriminative rubrics,” in International Conference on
+Learning Representations (ICLR), 2026.
+
+
+
+
+                                                          3
+

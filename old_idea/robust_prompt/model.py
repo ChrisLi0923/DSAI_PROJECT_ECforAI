@@ -1,0 +1,181 @@
+from __future__ import annotations
+import os
+import re
+import time
+from .core import *
+
+class LocalModel:
+    def __init__(self, config):
+        import torch
+        from transformers import AutoModelForCausalLM, AutoTokenizer
+        self.torch=torch; self.config=config; self.inference_seconds=0
+        if not torch.cuda.is_available() or torch.cuda.device_count()!=1:
+            raise RuntimeError('Expose exactly one GPU with CUDA_VISIBLE_DEVICES; CPU fallback is forbidden.')
+        free,total=torch.cuda.mem_get_info()
+        if free < config['min_free_gib']*2**30:
+            raise RuntimeError(f'Only {free/2**30:.1f} GiB free; need {config["min_free_gib"]}. Other jobs are preserved.')
+        torch.cuda.set_per_process_memory_fraction(config['memory_fraction'],0)
+        torch.set_num_threads(4)
+        torch.manual_seed(0); torch.cuda.manual_seed_all(0)
+        torch.use_deterministic_algorithms(True)
+        torch.backends.cudnn.benchmark=False
+        torch.backends.cuda.matmul.allow_tf32=False
+        self.tokenizer=AutoTokenizer.from_pretrained(config['name'], revision=config['revision'])
+        self.tokenizer.padding_side='left'
+        self.tokenizer.pad_token=self.tokenizer.eos_token
+        start=time.perf_counter()
+        self.model=AutoModelForCausalLM.from_pretrained(config['name'],revision=config['revision'],
+            torch_dtype=torch.bfloat16,attn_implementation='sdpa',device_map={'':'cuda:0'})
+        self.model.eval(); self.model.requires_grad_(False)
+        self.load_seconds=time.perf_counter()-start
+        self.hardware={'gpu':torch.cuda.get_device_name(0),'visible_devices':os.getenv('CUDA_VISIBLE_DEVICES'),
+            'free_gib_before_load':free/2**30,'total_gib':total/2**30,'torch':torch.__version__,
+            'cuda':torch.version.cuda,'load_seconds':self.load_seconds,'dtype':'bfloat16',
+            'deterministic_algorithms':True,'cpu_threads':4,'tf32':False,'attention':'sdpa','memory_fraction':config['memory_fraction']}
+
+    def generate(self, messages, proposer=False, seed=0):
+        torch=self.torch
+        if self.inference_seconds > self.config.get('inference_limit_seconds',float('inf')):
+            raise RuntimeError('Short smoke inference limit reached; full workflow was not launched')
+        rendered=[self.tokenizer.apply_chat_template(m,tokenize=False,add_generation_prompt=True) for m in messages]
+        encoded=self.tokenizer(rendered,padding=True,return_tensors='pt',add_special_tokens=False)
+        if encoded['input_ids'].shape[1] > self.config['max_input_tokens']:
+            raise RuntimeError('Input exceeds predeclared limit; truncation forbidden')
+        inputs=encoded.to('cuda')
+        input_lengths=inputs['attention_mask'].sum(1).tolist()
+        torch.manual_seed(seed); torch.cuda.manual_seed_all(seed)
+        options={'max_new_tokens':self.config['proposer_max_tokens'] if proposer else self.config['target_max_tokens'],
+                 'do_sample':proposer,'pad_token_id':self.tokenizer.pad_token_id}
+        if proposer: options.update(temperature=0.85,top_p=0.95)
+        else: options.update(temperature=None,top_p=None,top_k=None)
+        torch.cuda.synchronize(); start=time.perf_counter()
+        with torch.inference_mode(): outputs=self.model.generate(**inputs,**options)
+        torch.cuda.synchronize(); elapsed=time.perf_counter()-start
+        self.inference_seconds+=elapsed
+        generated=outputs[:,inputs['input_ids'].shape[1]:].tolist()
+        results=[]
+        eos_ids=self.model.generation_config.eos_token_id
+        eos_set=set(eos_ids if isinstance(eos_ids,list) else [eos_ids]) | {self.tokenizer.eos_token_id}
+        for toks, n in zip(generated,input_lengths):
+            # Count any configured EOS exactly once, excluding subsequent batch padding.
+            stop=next((i for i,t in enumerate(toks) if t in eos_set),None)
+            if stop is not None: toks=toks[:stop+1]
+            results.append({'raw':self.tokenizer.decode(toks,skip_special_tokens=True,clean_up_tokenization_spaces=False),
+                            'raw_with_special_tokens':self.tokenizer.decode(toks,skip_special_tokens=False,clean_up_tokenization_spaces=False),
+                            'output_token_ids':toks,
+                            'input_tokens':n,'output_tokens':len(toks),'seconds':elapsed/len(messages),
+                            'padded_input_tokens':inputs['input_ids'].shape[1],
+                            'finish_reason':'eos' if stop is not None else 'length'})
+        return results
+
+class Evaluator:
+    def __init__(self, model, store, batch_size):
+        self.model=model; self.store=store; self.batch_size=batch_size
+    def evaluate(self,prompt,questions,templates,scope,budget=None):
+        if ('search/' in scope or 'validation/' in scope or 'pilot' == scope) and set(templates)&set(WITHHELD):
+            raise ValueError('held-out template leakage')
+        jobs=[]; results=[]
+        for q in questions:
+            for template in templates:
+                key='target/'+digest([scope,prompt,q['id'],template])
+                old=self.store.get(key)
+                if old is not None: results.append(old); continue
+                text,mapping=render(q,template)
+                jobs.append((key,q,template,text,mapping))
+        if budget is not None and self.store.count('target',scope)+len(jobs)>budget:
+            raise RuntimeError('target call budget exceeded')
+        for i in range(0,len(jobs),self.batch_size):
+            batch=jobs[i:i+self.batch_size]
+            messages=[[{'role':'system','content':prompt+'\n'+CONTRACT},
+                       {'role':'user','content':j[3]}] for j in batch]
+            attempt=self.store.begin('target',scope,len(batch))
+            try:
+                outputs=self.model.generate(messages)
+                rows=[]
+                for (key,q,template,text,mapping),output in zip(batch,outputs,strict=True):
+                    record={**output,**parse(output['raw'],mapping),'qid':q['id'],'template':template,
+                            'gold':q['gold'],'mapping':mapping,'prompt':prompt,'input_text':text,'scope':scope}
+                    record['correct']=record['valid'] and record['identity']==q['gold']
+                    rows.append((key,'target',scope,record)); results.append(record)
+                self.store.many(rows); self.store.finish(attempt)
+            except BaseException as e:
+                self.store.finish(attempt,'failed',{'error':repr(e)})
+                raise
+        return results
+
+PROPOSER_POLICY = 'seeded_focus_rejection_feedback_v2'
+EDIT_FOCI = (
+    'Identify the scientific principle relevant to the question before comparing choices.',
+    'Eliminate choices that contradict the question and compare the remaining alternatives.',
+    'Pay attention to negation, qualifiers, and exactly what the question asks.',
+    'Evaluate each option by meaning, independently of its displayed position.',
+    'Resolve the answer content first, then map it to its current displayed letter.',
+    'Use causal reasoning and distinguish causes from effects when relevant.',
+    'Check units, quantities, and physical plausibility when relevant.',
+    'Read the whole question and all choices before committing to an answer.',
+    'Contrast the most plausible alternatives using evidence from the question.',
+    'Use concise scientific reasoning and avoid unsupported assumptions.',
+    'Check that the chosen answer directly addresses the question rather than a nearby fact.',
+    'Ignore decorative layout differences while retaining all question and option content.',
+)
+
+
+def instruction_rejection_reasons(instruction, existing):
+    reasons = []
+    if not 20 <= len(instruction.split()) <= 100 or len(instruction) > 850:
+        reasons.append('length_outside_bounds')
+    if normalize(instruction) in {normalize(x) for x in existing}:
+        reasons.append('duplicate_existing_instruction')
+    if '\n' in instruction or re.search(r'[<>`]|^\s*[\"\']', instruction):
+        reasons.append('not_single_plain_paragraph')
+    if re.search(r'\b(?:parents?|crossover|mutation|instructions?|prompts?|rewrite|craft|paragraph|word count|YOUR INSTRUCTION)\b', instruction, re.I) or re.search(r'\b\d+\s*(?:to|-)\s*\d+\s*words\b', instruction, re.I):
+        reasons.append('meta_instruction_or_word_count')
+    return reasons
+
+
+class Proposer:
+    def __init__(self,model,store,max_attempts=4):
+        self.model=model; self.store=store; self.max_attempts=max_attempts
+    def propose(self,parents,operation,seed,key,scope,existing):
+        old=self.store.get(key)
+        if old: return old['instruction']
+        if operation not in ('mutation','crossover','random'): raise ValueError(operation)
+        goal={'mutation':'Improve and rewrite the supplied text using a different reasoning approach.',
+              'crossover':'Combine useful ideas from BOTH supplied texts into a coherent new paragraph with fresh wording.',
+              'random':'Independently invent a fresh paragraph. Supplied texts illustrate the task only; do not optimize against scores.'}[operation]
+        request=(goal+'\nWrite a reusable instruction for science multiple-choice questions. '
+                 'It must work across layouts and option orders, contain no question-specific facts or examples, '
+                 'and ask for one displayed uppercase answer letter only. Use 20 to 100 words for YOUR edit. '
+                 'Your output will be a system message to the question-answering model: address that model directly. '
+                 'Tell it to solve the question, never to write or edit instructions. Never mention prompts, instructions, editing, or word counts in the output. '
+                 'Do not copy a supplied paragraph. Apply the requested reasoning emphasis and use fresh wording. '
+                 'Output only the new instruction as one plain-text paragraph: no tags, headings, labels, quotes, or Markdown.\nSupplied texts:\n'+'\n'.join(parents))
+        previous=None
+        for attempt_n in range(self.max_attempts):
+            attempt_key=key+f'/attempt/{attempt_n}'
+            saved=self.store.get(attempt_key)
+            focus=EDIT_FOCI[int(digest([seed,attempt_n])[:16],16) % len(EDIT_FOCI)]
+            attempt_request=request+'\nReasoning emphasis for this edit: '+focus
+            if previous is not None:
+                reasons=previous.get('rejection_reasons') or instruction_rejection_reasons(previous['raw'].strip(),existing)
+                attempt_request+=('\nThe previous output was rejected for: '+', '.join(reasons)+
+                    '. Produce a different whole paragraph. A different random seed alone is insufficient. '
+                    'Keep the science-QA task and use the new reasoning emphasis.\nPrevious rejected output:\n'+previous['raw'])
+            if saved is None:
+                attempt=self.store.begin('proposer',scope,1)
+                try:
+                    output=self.model.generate([[{'role':'system','content':'You write concise, general instruction text for a separate model. Return only that instruction paragraph.'},
+                                                  {'role':'user','content':attempt_request}]],True,seed+attempt_n)[0]
+                    instruction=output['raw'].strip()
+                    reasons=instruction_rejection_reasons(instruction,existing)
+                    saved={**output,'instruction':instruction,'accepted':not reasons,'rejection_reasons':reasons,
+                           'operation':operation,'policy':PROPOSER_POLICY,'focus':focus,'request':attempt_request,
+                           'seed':seed+attempt_n,'parents':parents,'scope':scope,'attempt':attempt_n}
+                    self.store.put(attempt_key,'proposer',scope,saved); self.store.finish(attempt)
+                except BaseException as e:
+                    self.store.finish(attempt,'failed',{'error':repr(e)}); raise
+            if saved['accepted']:
+                self.store.put(key,'proposal',scope,saved)
+                return saved['instruction']
+            previous=saved
+        raise RuntimeError(f'Proposer failed {self.max_attempts} valid/diverse edit attempts for {key}; diagnostic stop, no manual fallback. Last reasons: {previous.get("rejection_reasons")}')

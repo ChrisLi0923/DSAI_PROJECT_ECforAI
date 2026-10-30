@@ -1,0 +1,20 @@
+{
+  "complete": true,
+  "protocol_and_strategy_freezes_match": true,
+  "frozen_sources_config_packages_match": true,
+  "report_hash_matches": true,
+  "historical_outputs_unchanged": true,
+  "sqlite_integrity": "ok",
+  "responses": 16087,
+  "new_calls": 11082,
+  "all_attempts_complete": true,
+  "all_response_keys_parsers_raw_hashes_verified": true,
+  "reserve_unqueried": 1000,
+  "strategy_validation_after_search_freeze": true,
+  "reproduced_method_split_results": 38,
+  "nested_subset_isolation": true,
+  "evidence_paired_intervals_reproduced": true,
+  "model_calls_during_review": 0,
+  "refitting_or_new_selection": false,
+  "additional_experiment_launched": false
+}

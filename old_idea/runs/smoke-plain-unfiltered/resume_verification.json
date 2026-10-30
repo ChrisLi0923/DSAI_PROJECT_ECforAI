@@ -1,0 +1,15 @@
+{
+  "check": "completed real-model smoke resume",
+  "before": [
+    312,
+    25,
+    77
+  ],
+  "after": [
+    312,
+    25,
+    77
+  ],
+  "new_inference_attempts": 0,
+  "seconds": 0.1929890215396881
+}

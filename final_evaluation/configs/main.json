@@ -1,0 +1,14 @@
+{
+  "version": 1,
+  "model": {"name": "Qwen/Qwen2.5-3B-Instruct", "revision": "aa8e72537993ba99e69dfaafa59ed015b17504d1", "batch_size": 1, "target_max_tokens": 8, "proposer_max_tokens": 160, "max_input_tokens": 1536, "min_free_gib": 18, "memory_fraction": 0.4},
+  "search_seeds": [11, 29, 47, 71, 101],
+  "validation_call_allowance": 3.0,
+  "utility_call_penalty": 0.01,
+  "bootstrap": {"replicates": 2000, "seed": 301050, "unit": "whole source question", "fitted_seeds": "keep all five seeds inside each question; average within question before differences", "scope": "conditional on these fitted policies; no future-search uncertainty"},
+  "primary_methodological": ["G2", "G1"],
+  "primary_practical": ["ordered_triple", "fixed_three"],
+  "secondary": [["G1", "G0"], ["ordered_triple", "original"], ["ordered_triple", "best_single"], ["G1", "ordered_triple"], ["G2", "ordered_triple"]],
+  "final_questions": 1000,
+  "planned_main_calls": 5000,
+  "stop_after_final": true
+}

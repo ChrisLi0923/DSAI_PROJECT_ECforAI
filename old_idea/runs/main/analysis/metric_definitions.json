@@ -1,0 +1,33 @@
+{
+  "seen_formats": [
+    "original",
+    "inline",
+    "bullets",
+    "rotate1",
+    "rotate2"
+  ],
+  "withheld_formats": [
+    "table",
+    "choices_first",
+    "reverse"
+  ],
+  "seen_layout": [
+    "inline",
+    "bullets"
+  ],
+  "seen_order": [
+    "rotate1",
+    "rotate2"
+  ],
+  "withheld_layout": [
+    "table",
+    "choices_first"
+  ],
+  "withheld_order": [
+    "reverse"
+  ],
+  "repeat_excluded_from_fitness": true,
+  "accuracy_denominator": "all requested responses; invalid counts incorrect",
+  "semantic_flip_and_transition_denominator": "original-variant pairs where both outputs are valid",
+  "robustness_denominator": "all whole question groups; any invalid presentation fails its group"
+}

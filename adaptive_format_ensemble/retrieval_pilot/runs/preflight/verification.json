@@ -1,0 +1,92 @@
+{
+  "passed": true,
+  "fingerprint": {
+    "files": {
+      "pilot/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "pilot/analysis.py": "70d29cc901732bf7763ac9f6f385d37e26de97e2b98468482493724a35263f44",
+      "pilot/cache.py": "2c16959a8c3017eab66c8027a33e67966691701858f2ddbe89e40187316bd709",
+      "pilot/common.py": "d293925ea8f5ceacd45ceaea64c87d8f9a5f8a435c8fac36849928ccec41dc73",
+      "pilot/data.py": "a8cb473ceedd2d6e27c2dc443c4f0485b646314d9a2b704f343131d1a2ee7a06",
+      "pilot/document.py": "b8daa7f15114ed6b7a20d64a1620b440f69d30ba18bd81458887f418db128f33",
+      "pilot/gpu.py": "d3080390873e3ea6a469c24965d0e3ffa50b791edb60180618fdc3788e83ea3b",
+      "pilot/prompts.py": "4df551b5e67d6ee6346cb091c2476bcfdba06c8c6d1fbf81e77c1046f1078493",
+      "pilot/retriever.py": "9b3f990e5132bb6bdd6f394e5facaff99c62e0aab5466976175f5a429ccc0f42",
+      "pilot/stats.py": "cc2e460c616e307ee6f96b1f97535e62ed807f3d5733bd4a088b3247e87e64bb",
+      "pilot/workflow.py": "ef67749e8d9a2c334e5b2d2097ec54f67edc0497056a934013d9b9c0d6b5706a",
+      "reused/__init__.py": "e130e35a14d9a1cd59b8546fd551ebdd03cf3d54f28fba47303f0840cd3ebf8c",
+      "reused/core.py": "4aa04aad63adff953899297048b779fece5db948797b256414a21b5b14335b55",
+      "reused/gpu_select.py": "ab7dff4c088f6311d3275d1e7e8253a4fafc148493babd3a68da1121b2932d25",
+      "reused/model.py": "81b751a6d8f24f103c5ae76bd4c2ba1e90ee42b1f90c36fd5399ecab3020fbf8",
+      "reused/storage.py": "808da4b91759088430898e7f654c552d825bc59289671fbb48b3099e4efa564d",
+      "afe/__init__.py": "78b972ae7e1877d1b47d7a90e5b075818edcf51c686810e4804ff02724ad439c",
+      "afe/cache.py": "44590d7ade9e8077e59b8e868abd0b381400d5b78e2505c4d1eb07184e25030a",
+      "afe/policy.py": "29b3919d9229ca23f7e254e579e01aad6f9423089d8e123be0948e04b3fc0dbf",
+      "scripts/check_launch.py": "0477b6c222dbb499b2496353388aa472aaf25ac2c7385981d21c0513da17dcca",
+      "scripts/estimate.py": "082747442628ee32b301cf59f6c964977d11b6a70d3496d5c840aae2569fc743",
+      "scripts/launch_tmux.py": "e59d3171f2c0c2bef9e62296319b4bce8147f30eebf80d4c6084a827b4dbeee9",
+      "scripts/model_smoke.py": "9180659b354019d832a35596b78e60b8e2870a626049914ee136d1c2cf5d85ef",
+      "scripts/prepare.py": "a8bf9a3f3db4e5a5b713eb945a68e4aea13513c2bee0a7b3576d221572b0c9b2",
+      "scripts/run_main.sh": "4e83735d04defed3fbf4d54255fb9cce027497b2bd7e17a5107ec4d3a38bc34c",
+      "scripts/verify.py": "2cc3130726aac47e7852ebd34cc011446dd443463a40d9fa3d9201aa9e0af9fd",
+      "tests/test_pilot.py": "d249d0d9a167b2ce8c55d68f7b29e5fe87ae80511afbd26961de1659451f275b",
+      "configs/main.json": "0f77c1ee5105e2206a412b2c1359bcc34297209ee7f9e8cc305ba4c5294cb705"
+    },
+    "config": {
+      "version": 1,
+      "model": {
+        "name": "Qwen/Qwen2.5-3B-Instruct",
+        "revision": "aa8e72537993ba99e69dfaafa59ed015b17504d1",
+        "batch_size": 1,
+        "target_max_tokens": 8,
+        "proposer_max_tokens": 160,
+        "max_input_tokens": 1536,
+        "min_free_gib": 18,
+        "memory_fraction": 0.4
+      },
+      "retrieval": {
+        "algorithm": "BM25",
+        "k1": 1.5,
+        "b": 0.75,
+        "top_k": 3,
+        "idf": "log(1 + (N - df + 0.5)/(df + 0.5))",
+        "query_tf": "linear count",
+        "tokenizer": "Unicode NFKC and casefold; words with internal apostrophes; no stopword removal or stemming",
+        "query": "question stem plus all option texts sorted by normalized text; no added displayed letters",
+        "ties": "ascending stable document ID"
+      },
+      "selection": {
+        "candidates": [
+          "R1",
+          "R3"
+        ],
+        "rule": "Highest search correct-question count; then lower mean total requested tokens; then condition name lexicographically. Freeze before generating any validation R0/R1/R3 response."
+      },
+      "analysis": {
+        "bootstrap_replicates": 2000,
+        "bootstrap_seed": 301041,
+        "review_seed": 301042,
+        "review_per_category": 5,
+        "practical_accuracy_gain": 0.005,
+        "allowed_accuracy_loss_for_potential_cost_tradeoff": 0.01,
+        "minimum_token_saving_fraction": 0.15
+      },
+      "control": {
+        "seed": 301043,
+        "description": "On the exact historical 300 search IDs, choose an independently seeded corpus fact outside the retrieved top three, in the lower half of BM25 scores and with content-word Jaccard <=0.1 to the query; minimize word-length distance to top one and use seeded stable-ID ties. An independent annotation-only audit must find no supporting-fact matches; annotations do not rank or choose the control."
+      }
+    },
+    "data_manifest_sha256": "deb9b3fd01c0f211c2e6a81beb4f618cc942845db3a55bdd85ab6bab8c72cbfd",
+    "packages": {
+      "numpy": "2.2.5",
+      "torch": "2.6.0+cu124",
+      "transformers": "4.51.3",
+      "pyarrow": "26.0.0",
+      "matplotlib": "3.10.1",
+      "huggingface_hub": "0.30.2"
+    },
+    "environment": "/home/hli/dsai/adaptive_format_ensemble/capability_diagnostic/.venv/bin/python",
+    "requirements_sha256": "8cd6d13e5d1a262a0586080c32fd7709a4a35a5286eed95818dfaee8e02472a6"
+  },
+  "protocol_sha256": "a57a0dedda4bf875f37a865db8f01b7f03d178f91e5576b9a802379440ea5fad",
+  "wall_seconds": 9.655975870788097
+}

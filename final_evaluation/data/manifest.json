@@ -1,0 +1,24 @@
+{
+  "dataset": "allenai/openbookqa",
+  "revision": "388097ea7776314e93a529163e0fea805b8a6454",
+  "source": "newly held-out screened subset of the official OpenBookQA TRAINING split; not official test",
+  "n": 1000,
+  "final_hash": "361ca31dacce2c25e79fcdca6af149cb64f3eec1168053cfd9263b4576df5ddb",
+  "source_reserve_path": "/home/hli/dsai/adaptive_format_ensemble/capability_diagnostic/data/reserve.json",
+  "source_reserve_file_sha256": "0d7c796bf03d4ffcd72a5780bf2060cabb48c3e75c5b9f762166104672e78258",
+  "source_manifest_sha256": "f6ed4504b0dc242dc2164ead90118a8c4f9ff629fc882dae4800dc0f48017472",
+  "source_train_sha256": "98148f8a54e62eb862346a75192d5fb824d6cbb68f2f59aecd793d39ecb5cd8b",
+  "reserve_seed": 301030,
+  "integrity_sha256": "78c402d5283691c3287da6a64f341a5447af9040a0014fd6e9b197566e5ddc27",
+  "eligibility_sha256": "29929efebf239a7d580466cb08476c6339d22c9a16b2582ce79c49ff08b61ad7",
+  "methods_sha256": "b7d5e60e24421cbb941852761b6ecd3a7e32190a267d55742c55b702d8986255",
+  "counts": {
+    "reserved": 1000,
+    "eligible_before_generation": 1000,
+    "excluded": 0,
+    "final": 1000
+  },
+  "planned_main_calls": 5000,
+  "created_unix": 1793370046.4762485,
+  "limits": "Exact ID, normalized stems/options and known query/scoring history establish project isolation, not absence of paraphrases or LLM pretraining exposure. No exclusions after predictions."
+}

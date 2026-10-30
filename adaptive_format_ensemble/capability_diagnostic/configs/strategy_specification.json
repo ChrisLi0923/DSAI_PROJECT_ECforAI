@@ -1,0 +1,16 @@
+{
+  "strategies": {
+    "principle": "Solve the science multiple-choice question carefully. Choose the single best answer based on its content, regardless of layout or option order.\nFirst briefly state the scientific principle relevant to the question, then choose the best option. Use no more than 40 words before your answer. End with a separate line exactly FINAL: X, replacing X with one uppercase displayed option letter A, B, C, or D. Do not write anything after that line.",
+    "elimination": "Solve the science multiple-choice question carefully. Choose the single best answer based on its content, regardless of layout or option order.\nBriefly compare and eliminate the alternatives, then choose the best option. Use no more than 40 words before your answer. End with a separate line exactly FINAL: X, replacing X with one uppercase displayed option letter A, B, C, or D. Do not write anything after that line.",
+    "content": "Solve the science multiple-choice question carefully. Choose the single best answer based on its content, regardless of layout or option order.\nSelect the answer by its content first. Return exactly two lines. First write SELECTED_TEXT: followed by the exact complete text of the selected option, without quotation marks. Then write FINAL: X, replacing X with its uppercase displayed option letter A, B, C, or D. Do not write any explanation or other text."
+  },
+  "evidence_wrapper": "\n\nScience note (consider its relevance when answering):\n{fact}",
+  "strategy_max_tokens": 128,
+  "selection_rule": {
+    "count": 2,
+    "rule": "Rank all strategy pairs by descending search accuracy of canonical plurality on the reference three formats plus that pair; then descending mean standalone accuracy of the two strategies; then ascending mean total requested tokens of the five-response ensemble; then lexicographic pair names. Select the first pair. No oracle or validation outcomes enter selection."
+  },
+  "parsing": "One FINAL: X marker at end, on its own line or sentence suffix. Content must uniquely match normalized exact option text; one conventional displayed-letter prefix may be removed and is separately recorded and checked for agreement. Any text/prefix/final-letter conflict is invalid. No labels or judge repair outputs.",
+  "canonical_ties": "lowest original option index; no valid candidates = -1",
+  "oracle_scope": "finite specified response bank only; never a model-wide capability ceiling"
+}

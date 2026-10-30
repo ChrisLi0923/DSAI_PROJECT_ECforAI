@@ -1,0 +1,33 @@
+{
+  "passed": true,
+  "unix": 1793197467.1256607,
+  "evidence": "Synthetic/CPU software checks; real-model evidence is separate",
+  "output_tail": "_fontconfig_pattern.py:89: PyparsingDeprecationWarning: 'resetCache' deprecated - use 'reset_cache'\n    parser.resetCache()\n\ntests/test_integrity.py::test_synthetic_entire_workflow_and_reports\n  /home/hli/anaconda3/envs/dsai/lib/python3.11/site-packages/matplotlib/_mathtext.py:45: PyparsingDeprecationWarning: 'enablePackrat' deprecated - use 'enable_packrat'\n    ParserElement.enablePackrat()\n\n-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html\n12 passed, 14 warnings in 5.52s\n",
+  "verified_files": {
+    "afe/gpu.py": "aee2763d5c35bcffb575deb5bf2f0dccba9c862898346d3bd33b5c23e75c4ce4",
+    "afe/search.py": "56b5ff821a282f663dfbd4480d51f2286d03b8fe70034b44d8bdc5e5b093da0b",
+    "afe/data.py": "2eece377a1d611374e18cf508b627f2c119d3ee0a3ae97f142c9cd791cbcfb16",
+    "afe/smoke.py": "ee049f8926ac23a177afe6f7f4c7cb69e628c58f90964bb6d713d71f50fc2518",
+    "afe/feasibility.py": "0e394dab84818af4a7e3004563acf888e90b237a372beb70242e5ca6fbb13de2",
+    "afe/__init__.py": "78b972ae7e1877d1b47d7a90e5b075818edcf51c686810e4804ff02724ad439c",
+    "afe/cache.py": "44590d7ade9e8077e59b8e868abd0b381400d5b78e2505c4d1eb07184e25030a",
+    "afe/workflow.py": "9ccba4c087eb04ac73c7a2b6f7915d21f04141f1922164f004ccc85986b6cb93",
+    "afe/devcheck.py": "2195a6769ec3967141fbba924279ee927dc83bac92b78deb177673eb8b9e4ed2",
+    "afe/document.py": "b8daa7f15114ed6b7a20d64a1620b440f69d30ba18bd81458887f418db128f33",
+    "afe/policy.py": "29b3919d9229ca23f7e254e579e01aad6f9423089d8e123be0948e04b3fc0dbf",
+    "afe/analysis.py": "5d33ddd29658b5a3c7d43ec87e25bfc3ab5d10abb70c535310e932f7487cfc6c",
+    "reused/core.py": "4aa04aad63adff953899297048b779fece5db948797b256414a21b5b14335b55",
+    "reused/model.py": "81b751a6d8f24f103c5ae76bd4c2ba1e90ee42b1f90c36fd5399ecab3020fbf8",
+    "reused/gpu_select.py": "ab7dff4c088f6311d3275d1e7e8253a4fafc148493babd3a68da1121b2932d25",
+    "reused/__init__.py": "e130e35a14d9a1cd59b8546fd551ebdd03cf3d54f28fba47303f0840cd3ebf8c",
+    "reused/storage.py": "808da4b91759088430898e7f654c552d825bc59289671fbb48b3099e4efa564d",
+    "configs/runtime_estimate.json": "827bcb13b6a646d53d04a0add0448137dec05db6cbcbcfc82d58e533b1e9f4cf",
+    "configs/main.json": "073bf42a165c12da54ff28198bba87ae8c47604ba29b25aacf3bde4a853b7c78",
+    "scripts/verify.py": "48d1735a16b92778ee5fb6a586b2b88ecc1e92a9253a2380be011f5fc4b76cdc",
+    "scripts/check_launch.py": "fa4cfa877b076d7c1869580ab2be03cdbab7d2b2d14bc50a1d65f6e265f714d7",
+    "scripts/run_main.sh": "c9ca3b20b24b313699b27f0b4eab10373b951190e050338f9dea63a8c0ca1008",
+    "scripts/launch_tmux.py": "9d2829d28533ef2589ca1ecd342f48c56e9e0bf5c2c0037fd69618eec346b9bd",
+    "scripts/download_data.py": "44ee45fa8c0b10642f43dfe7cff87b8e09a8e4b08d45b7c2b5ed8486db0740d9",
+    "tests/test_integrity.py": "b611ebb2d64334e1730b1e74d12b4b88144e37e6267cdaa319312bf85e8fab63"
+  }
+}

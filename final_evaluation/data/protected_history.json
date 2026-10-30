@@ -1,0 +1,17 @@
+{
+  "/home/hli/dsai/DSAI6707_Project_1.pdf": "e0499aa840364d8afbf9db1b121102c56ee04566bea2d3ac075edb93e16dfeda",
+  "/home/hli/dsai/old_idea/docs/proposal.md": "e61411818ce24df6b70e20691705b811dfac1bc32e89b72ccd6bacdca8cd59d5",
+  "/home/hli/dsai/old_idea/docs/proposal.pdf": "c212542c38d965be33e55601e87037e759c0dac28391043d60218d8c7d176ecf",
+  "/home/hli/dsai/old_idea/docs/report.md": "11fec94baae8b3458a9d61bfbcc7d337169a4c72856ab50fedaef2d8b272d556",
+  "/home/hli/dsai/old_idea/runs/main/COMPLETE.json": "0a3782711d003d6b6514468882c555c6702fc8153c429d43c641d6afdaa503ad",
+  "/home/hli/dsai/old_idea/runs/main/review/integrity_audit.json": "62b5038c70c0f23f087592f41a044be213d70b8b03e14f9361924af9965d2b11",
+  "/home/hli/dsai/adaptive_format_ensemble/runs/main/COMPLETE.json": "02c6907a0155d531402da590bce7238dccdb147a118246dae836b5dd6dd411cd",
+  "/home/hli/dsai/adaptive_format_ensemble/runs/main/review/verification.json": "da5b73bca9538991cf525e6baca002d8cae8957fd34ce62359a6b0ae36a01704",
+  "/home/hli/dsai/adaptive_format_ensemble/followup_active_utility/runs/main/FROZEN.json": "41195399dd46cb79c07823bb5b13d705bef3e2f2448c5243bbb614302cf2d19b",
+  "/home/hli/dsai/adaptive_format_ensemble/followup_active_utility/runs/main/COMPLETE.json": "80ff4b3095d8561f14900ec285ed439acd9a6db6d74661c0ea2c7dcdf57408c3",
+  "/home/hli/dsai/adaptive_format_ensemble/followup_active_utility/runs/main/review/verification.json": "b045a2bdace74538a3fb1529501ab7ecc7bb28d095d9d18d4b15a56d18c3f0a3",
+  "/home/hli/dsai/adaptive_format_ensemble/capability_diagnostic/runs/main/COMPLETE.json": "53ead5a830efd25e1eafc115435cec7652342e9b52da9bef50c11f6aa4b74c91",
+  "/home/hli/dsai/adaptive_format_ensemble/capability_diagnostic/runs/main/review/verification.json": "65608a627e787801f4df487c3e693a7e2c65be4704ced7952ce96469ccac2574",
+  "/home/hli/dsai/adaptive_format_ensemble/retrieval_pilot/runs/main/COMPLETE.json": "0326ac487606d40f6cfbca4b229df2d2ab391c16e2bb26956ee76ae27bb4007e",
+  "/home/hli/dsai/adaptive_format_ensemble/retrieval_pilot/runs/main/review/verification.json": "ea46f4dc933bf7bb983156bd59b36a739852711f771922360edf9d4e95948e49"
+}

@@ -1,0 +1,9218 @@
+[
+  {
+    "id": "obqa/train/12-579",
+    "source": "train",
+    "question": "Something is coming out of clouds on a dark day, so it is likely",
+    "options": [
+      "birds",
+      "dust",
+      "precipitation",
+      "angels"
+    ],
+    "source_labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "gold": 2
+  },
+  {
+    "id": "obqa/train/10-119",
+    "source": "train",
+    "question": "A cat finds it easiest to get a grip when climbing up",
+    "options": [
+      "plastic pole",
+      "carpeted pole",
+      "icy pole",
+      "metal pole"
+    ],
+    "source_labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "gold": 1
+  },
+  {
+    "id": "obqa/train/10-283",
+    "source": "train",
+    "question": "As the flower size increases, what will it attract more of?",
+    "options": [
+      "monarchs",
+      "grass",
+      "carnivores",
+      "toy butterfly"
+    ],
+    "source_labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "gold": 0
+  },
+  {
+    "id": "obqa/train/11-531",
+    "source": "train",
+    "question": "Which of the following would likely use a compass to reach their destination?",
+    "options": [
+      "a taxi driver",
+      "a middle-schooler",
+      "a dog",
+      "a 1700's pirate"
+    ],
+    "source_labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "gold": 3
+  },
+  {
+    "id": "obqa/train/14-1457",
+    "source": "train",
+    "question": "Items are all ultimately compromised of which?",
+    "options": [
+      "Cells",
+      "Molecules",
+      "Air",
+      "Nerves"
+    ],
+    "source_labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "gold": 1
+  },
+  {
+    "id": "obqa/train/13-485",
+    "source": "train",
+    "question": "A pepper would be hottest if it was",
+    "options": [
+      "defecated into a bottle by a yeti",
+      "frozen in a commercial freezer",
+      "left it in the sun",
+      "eaten by a super model"
+    ],
+    "source_labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "gold": 2
+  },
+  {
+    "id": "obqa/train/12-978",
+    "source": "train",
+    "question": "To prepare hamburgers and hot dogs for eating you need",
+    "options": [
+      "glitter",
+      "a firepit",
+      "snowmen",
+      "arsenic"
+    ],
+    "source_labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "gold": 1
+  },
+  {
+    "id": "obqa/train/14-1420",
+    "source": "train",
+    "question": "If someone has a bag of old sandwich wrappers, they way that they can do damage to the area they live in is to",
+    "options": [
+      "recycle them",
+      "re-purpose them",
+      "discard them",
+      "reuse them"
+    ],
+    "source_labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "gold": 2
+  },
+  {
+    "id": "obqa/train/13-579",
+    "source": "train",
+    "question": "Guavas with many leaves",
+    "options": [
+      "are mature",
+      "haven't grown",
+      "are immature",
+      "are birds"
+    ],
+    "source_labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "gold": 0
+  },
+  {
+    "id": "obqa/train/1365",
+    "source": "train",
+    "question": "Trees grow growth-rings one time each year; so which of these is correct?",
+    "options": [
+      "a tree with nine rings is nine years old",
+      "a tree with six rings is seven years old",
+      "a tree with eight rings is five years old",
+      "telling how old a tree is is impossible based on rings"
+    ],
+    "source_labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "gold": 0
+  },
+  {
+    "id": "obqa/train/10-436",
+    "source": "train",
+    "question": "Gravitational force never affects",
+    "options": [
+      "balloons",
+      "stars",
+      "sunshine",
+      "air"
+    ],
+    "source_labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "gold": 2
+  },
+  {
+    "id": "obqa/train/852",
+    "source": "train",
+    "question": "When the game console's power cable was attached to the wall, electricity ended up in",
+    "options": [
+      "the plug",
+      "the power cable",
+      "the wall",
+      "the game console"
+    ],
+    "source_labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "gold": 3
+  },
+  {
+    "id": "obqa/train/10-316",
+    "source": "train",
+    "question": "Tidal motion can be used to",
+    "options": [
+      "activate turbines on shore",
+      "rock you to sleep",
+      "smash waves on rocks",
+      "light a dark pathway"
+    ],
+    "source_labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "gold": 0
+  },
+  {
+    "id": "obqa/train/8-392",
+    "source": "train",
+    "question": "which of these indicate non-living tree?",
+    "options": [
+      "it stands tall with flowers",
+      "none of these",
+      "it is fresh and green with strong roots",
+      "it lies horizontally on the park grounds"
+    ],
+    "source_labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "gold": 3
+  },
+  {
+    "id": "obqa/train/14-176",
+    "source": "train",
+    "question": "Cells can make up components of prisons, jails, holding areas and",
+    "options": [
+      "lifeforms",
+      "space stone",
+      "blue jeans",
+      "filtered water"
+    ],
+    "source_labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "gold": 0
+  },
+  {
+    "id": "obqa/train/13-311",
+    "source": "train",
+    "question": "An example of conservation is",
+    "options": [
+      "jogging",
+      "reducing ethanol use",
+      "hiking",
+      "raking leaves"
+    ],
+    "source_labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "gold": 1
+  },
+  {
+    "id": "obqa/train/14-307",
+    "source": "train",
+    "question": "A kitten is born and a person who is petting it can know that it",
+    "options": [
+      "broke through shell",
+      "was hatched",
+      "was an egg",
+      "came out breathing"
+    ],
+    "source_labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "gold": 3
+  },
+  {
+    "id": "obqa/train/13-89",
+    "source": "train",
+    "question": "the phases of the moon change the appearance of what?",
+    "options": [
+      "mars",
+      "astral night light",
+      "earth",
+      "sun"
+    ],
+    "source_labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "gold": 1
+  },
+  {
+    "id": "obqa/train/12-183",
+    "source": "train",
+    "question": "When pollution levels get higher, the gas in the atmosphere",
+    "options": [
+      "raises temps",
+      "dries up",
+      "melts away",
+      "cools earth"
+    ],
+    "source_labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "gold": 0
+  },
+  {
+    "id": "obqa/train/7-994",
+    "source": "train",
+    "question": "A thermal conductor is made of",
+    "options": [
+      "types of rubber",
+      "types of wire",
+      "electrodes",
+      "that which conducts"
+    ],
+    "source_labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "gold": 3
+  },
+  {
+    "id": "obqa/train/11-614",
+    "source": "train",
+    "question": "A grass snake may make its home in",
+    "options": [
+      "a jungle",
+      "a desert",
+      "a neighborhood",
+      "a swamp"
+    ],
+    "source_labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "gold": 2
+  },
+  {
+    "id": "obqa/train/12-693",
+    "source": "train",
+    "question": "A change to the environment can be",
+    "options": [
+      "a toad finding a home",
+      "turtles eating small pellets",
+      "birds swimming in a pond",
+      "flowers poking through snow"
+    ],
+    "source_labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "gold": 3
+  },
+  {
+    "id": "obqa/train/14-701",
+    "source": "train",
+    "question": "Driving during a snow storm or strong thunderstorm is a bad idea because bad weather makes it",
+    "options": [
+      "harder to see",
+      "Easier to see",
+      "able to fly",
+      "glasses"
+    ],
+    "source_labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "gold": 0
+  },
+  {
+    "id": "obqa/train/14-912",
+    "source": "train",
+    "question": "What absorbs nutrients from soil into themselves through their roots?",
+    "options": [
+      "flour",
+      "power plants",
+      "animals",
+      "flora"
+    ],
+    "source_labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "gold": 3
+  },
+  {
+    "id": "obqa/train/9-836",
+    "source": "train",
+    "question": "which of these can be considered a stage in the water cycle?",
+    "options": [
+      "all of these",
+      "the combination of nails and hammers",
+      "the presence of H20",
+      "the combination of chlorine and gas"
+    ],
+    "source_labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "gold": 2
+  },
+  {
+    "id": "obqa/train/52",
+    "source": "train",
+    "question": "The creation of gypsum from anhydrite is an example of what?",
+    "options": [
+      "chemical change",
+      "volcanic activity",
+      "biological change",
+      "mechanical change"
+    ],
+    "source_labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "gold": 0
+  },
+  {
+    "id": "obqa/train/11-579",
+    "source": "train",
+    "question": "The motion of a ball's motion when touching a concrete sidewalk will be countered due to",
+    "options": [
+      "abrasion",
+      "lipids",
+      "dairy",
+      "thinking"
+    ],
+    "source_labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "gold": 0
+  },
+  {
+    "id": "obqa/train/14-139",
+    "source": "train",
+    "question": "As bacterial resistance to antibiotics rises, the ability of medical professionals to",
+    "options": [
+      "prescribe anti-anxiety and sleep aids will increase",
+      "treat non-bacterial infections in humans will decrease",
+      "treat bacterial-related conditions in humans will decrease",
+      "treat problems of the digestive system in humans will increase"
+    ],
+    "source_labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "gold": 2
+  },
+  {
+    "id": "obqa/train/11-397",
+    "source": "train",
+    "question": "Where is it most likely to rain?",
+    "options": [
+      "in the state of New Mexico",
+      "at a seaside resort",
+      "at a cabin in the desert",
+      "on one's wedding day"
+    ],
+    "source_labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "gold": 1
+  },
+  {
+    "id": "obqa/train/7-296",
+    "source": "train",
+    "question": "An attraction may be magnetic if",
+    "options": [
+      "two metals are placed together",
+      "substances find one another irresistible",
+      "nickel is in a metal rod",
+      "iron and nickel are in a bowl"
+    ],
+    "source_labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "gold": 1
+  },
+  {
+    "id": "obqa/train/11-209",
+    "source": "train",
+    "question": "A person can create the most friction by rolling a ball over",
+    "options": [
+      "glass",
+      "gravel",
+      "ice",
+      "marble"
+    ],
+    "source_labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "gold": 1
+  },
+  {
+    "id": "obqa/train/13-760",
+    "source": "train",
+    "question": "The everglades where nearly wiped out by",
+    "options": [
+      "the sun",
+      "builders",
+      "sea cows",
+      "alligators"
+    ],
+    "source_labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "gold": 1
+  },
+  {
+    "id": "obqa/train/1187",
+    "source": "train",
+    "question": "After extensive logging activity, a forest had less",
+    "options": [
+      "water",
+      "soil",
+      "carbon dioxide",
+      "biodiversity"
+    ],
+    "source_labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "gold": 3
+  },
+  {
+    "id": "obqa/train/1537",
+    "source": "train",
+    "question": "The mantle is a layer of the Earth; what is something other than a layer?",
+    "options": [
+      "crust",
+      "inner core",
+      "outer core",
+      "lava pit"
+    ],
+    "source_labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "gold": 3
+  },
+  {
+    "id": "obqa/train/11-699",
+    "source": "train",
+    "question": "A person wanting to pay airfare will ride",
+    "options": [
+      "through clouds",
+      "on seas",
+      "across rails",
+      "on tracks"
+    ],
+    "source_labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "gold": 0
+  },
+  {
+    "id": "obqa/train/11-75",
+    "source": "train",
+    "question": "A storm ravages a town for a week straight, complete with deluges of rain. If someone in that town needs a source of water, it is",
+    "options": [
+      "everywhere",
+      "missing",
+      "in short supply",
+      "rare"
+    ],
+    "source_labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "gold": 0
+  },
+  {
+    "id": "obqa/train/11-339",
+    "source": "train",
+    "question": "Which is most considered a part of the skeletal system?",
+    "options": [
+      "the gums",
+      "the femur",
+      "the skin",
+      "the lemur"
+    ],
+    "source_labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "gold": 1
+  },
+  {
+    "id": "obqa/train/825",
+    "source": "train",
+    "question": "Decomposition is important for",
+    "options": [
+      "water",
+      "medicine",
+      "sunlight",
+      "food"
+    ],
+    "source_labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "gold": 3
+  },
+  {
+    "id": "obqa/train/14-1116",
+    "source": "train",
+    "question": "Butterflies will often times have coloring that at look like eyes on their wings for",
+    "options": [
+      "to look pretty",
+      "fun",
+      "to see flowers",
+      "protection"
+    ],
+    "source_labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "gold": 3
+  },
+  {
+    "id": "obqa/train/7-905",
+    "source": "train",
+    "question": "For a hungry hawk chasing a mouse, if the mouse darts away, the hawk must",
+    "options": [
+      "adjust speed",
+      "run after it",
+      "find other prey",
+      "take a break"
+    ],
+    "source_labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "gold": 0
+  },
+  {
+    "id": "obqa/train/11-334",
+    "source": "train",
+    "question": "Which form of travel causes the most pollution?",
+    "options": [
+      "bicycling",
+      "skiiing",
+      "driving",
+      "walking"
+    ],
+    "source_labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "gold": 2
+  },
+  {
+    "id": "obqa/train/14-995",
+    "source": "train",
+    "question": "When fish travel in the opposite direction of flow they are going to",
+    "options": [
+      "spawn",
+      "party",
+      "site see",
+      "start over"
+    ],
+    "source_labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "gold": 0
+  },
+  {
+    "id": "obqa/train/773",
+    "source": "train",
+    "question": "Which cannot be an example of crop rotation?",
+    "options": [
+      "planting tomatoes one year and alfalfa the next",
+      "planting zucchini one year and beans the next",
+      "planting bell peppers one year and hot peppers the next",
+      "planting corn one year and lelttuce the next"
+    ],
+    "source_labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "gold": 2
+  },
+  {
+    "id": "obqa/train/10-587",
+    "source": "train",
+    "question": "Molecular bounds are broken by",
+    "options": [
+      "ice",
+      "combining vulotile ingredients",
+      "soap and water",
+      "force"
+    ],
+    "source_labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "gold": 1
+  },
+  {
+    "id": "obqa/train/10-105",
+    "source": "train",
+    "question": "What will be more available in an area when rain is common?",
+    "options": [
+      "dirt",
+      "air",
+      "h2o",
+      "fire"
+    ],
+    "source_labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "gold": 2
+  },
+  {
+    "id": "obqa/train/13-946",
+    "source": "train",
+    "question": "A balance is used to measure the what of  a substance?",
+    "options": [
+      "depth",
+      "height",
+      "tall",
+      "heaviness"
+    ],
+    "source_labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "gold": 3
+  },
+  {
+    "id": "obqa/train/11-587",
+    "source": "train",
+    "question": "A cow will gain energy from eating",
+    "options": [
+      "dandelions",
+      "eggs",
+      "frogs",
+      "birds"
+    ],
+    "source_labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "gold": 0
+  },
+  {
+    "id": "obqa/train/10-977",
+    "source": "train",
+    "question": "Woody organisms that produce plants like oak tree seeds and leaves are a source of energy for",
+    "options": [
+      "decomposed waste",
+      "consumers like deer",
+      "other producers",
+      "producer organisms"
+    ],
+    "source_labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "gold": 1
+  },
+  {
+    "id": "obqa/train/10-642",
+    "source": "train",
+    "question": "What are made of nerve cells?",
+    "options": [
+      "bones",
+      "sensory system",
+      "nervous breakdowns",
+      "food"
+    ],
+    "source_labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "gold": 1
+  },
+  {
+    "id": "obqa/train/10-454",
+    "source": "train",
+    "question": "Meadow vales are",
+    "options": [
+      "carnivores",
+      "hard of hearing",
+      "very large",
+      "potatoes"
+    ],
+    "source_labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "gold": 1
+  },
+  {
+    "id": "obqa/train/10-219",
+    "source": "train",
+    "question": "A boy wants to feed a gecko so he gives it",
+    "options": [
+      "waxworms",
+      "dog food",
+      "chickens",
+      "markers"
+    ],
+    "source_labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "gold": 0
+  },
+  {
+    "id": "obqa/train/13-305",
+    "source": "train",
+    "question": "pushing on the pedals of a bike cause that bike to gain",
+    "options": [
+      "a lightshow",
+      "new tires",
+      "kinetic motion",
+      "extra weight"
+    ],
+    "source_labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "gold": 2
+  },
+  {
+    "id": "obqa/train/12-910",
+    "source": "train",
+    "question": "the contents of which of these will attract a natural honey producer to it?",
+    "options": [
+      "a tree bark",
+      "a tree trunk",
+      "a colorful hibiscus",
+      "a green leaf"
+    ],
+    "source_labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "gold": 2
+  },
+  {
+    "id": "obqa/train/10-805",
+    "source": "train",
+    "question": "An organism is a source of what kind of matter?",
+    "options": [
+      "biotic",
+      "inanimate",
+      "dead",
+      "live action"
+    ],
+    "source_labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "gold": 0
+  },
+  {
+    "id": "obqa/train/11-530",
+    "source": "train",
+    "question": "A hang-glider that is soaring runs into gales head-on. The gales",
+    "options": [
+      "sinks the glider",
+      "speeds the glider",
+      "crashes the glider",
+      "slow the glider"
+    ],
+    "source_labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "gold": 3
+  },
+  {
+    "id": "obqa/train/12-444",
+    "source": "train",
+    "question": "A pollution source in a county may be",
+    "options": [
+      "compost pile",
+      "grass seeds",
+      "recycling center",
+      "trash heap"
+    ],
+    "source_labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "gold": 3
+  },
+  {
+    "id": "obqa/train/13-32",
+    "source": "train",
+    "question": "If a person recycles a wooden stool, they could buy that same material again as a",
+    "options": [
+      "plastic cup",
+      "metal rod",
+      "gold trophy",
+      "yellow pencil"
+    ],
+    "source_labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "gold": 3
+  },
+  {
+    "id": "obqa/train/1210",
+    "source": "train",
+    "question": "A knife refuses to stick to a blanket due to",
+    "options": [
+      "luck",
+      "gravity",
+      "lack of magnetism",
+      "tension."
+    ],
+    "source_labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "gold": 2
+  },
+  {
+    "id": "obqa/train/1544",
+    "source": "train",
+    "question": "Water vapor cooling",
+    "options": [
+      "will thoroughly evaporate into the air",
+      "will quickly become ice",
+      "becomes steam in the atmosphere",
+      "becomes droplets of h2o on a boiling pot's lid"
+    ],
+    "source_labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "gold": 3
+  },
+  {
+    "id": "obqa/train/14-638",
+    "source": "train",
+    "question": "Something that could cause harm to an animal could be",
+    "options": [
+      "affection",
+      "hugs",
+      "love",
+      "punches"
+    ],
+    "source_labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "gold": 3
+  },
+  {
+    "id": "obqa/train/12-714",
+    "source": "train",
+    "question": "A large oak can create",
+    "options": [
+      "water with salt",
+      "other oak creatures",
+      "watermelons",
+      "kites"
+    ],
+    "source_labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "gold": 1
+  },
+  {
+    "id": "obqa/train/14-287",
+    "source": "train",
+    "question": "Sparrows gain lift with more grace than a vulture due to",
+    "options": [
+      "mental capacity",
+      "will power",
+      "feather color",
+      "size"
+    ],
+    "source_labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "gold": 3
+  },
+  {
+    "id": "obqa/train/14-566",
+    "source": "train",
+    "question": "Which can be fully toggled back and forth",
+    "options": [
+      "steam and rain",
+      "batter and cake",
+      "wood and ash",
+      "food and feces"
+    ],
+    "source_labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "gold": 0
+  },
+  {
+    "id": "obqa/train/13-925",
+    "source": "train",
+    "question": "How should John proceed with eating the fish he just caught?",
+    "options": [
+      "biting right into it raw",
+      "hold the fish up the sunlight",
+      "putting his boot on a fire spit",
+      "striking flint over kindling and placing the fish above it"
+    ],
+    "source_labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "gold": 3
+  },
+  {
+    "id": "obqa/train/8-324",
+    "source": "train",
+    "question": "After the chickens were let into the field, the population of worms",
+    "options": [
+      "decreased",
+      "increased",
+      "exploded",
+      "fluctuated"
+    ],
+    "source_labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "gold": 0
+  },
+  {
+    "id": "obqa/train/9-379",
+    "source": "train",
+    "question": "What is a greenhouse?",
+    "options": [
+      "A place for foreign plants",
+      "A house painted green",
+      "A secret Army base",
+      "The opposite of the White House"
+    ],
+    "source_labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "gold": 0
+  },
+  {
+    "id": "obqa/train/14-987",
+    "source": "train",
+    "question": "If a thing is going between liquid and solid, it is likely to",
+    "options": [
+      "visit a school",
+      "be a door",
+      "become less heavy",
+      "measure consistently"
+    ],
+    "source_labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "gold": 3
+  },
+  {
+    "id": "obqa/train/11-305",
+    "source": "train",
+    "question": "A creature's habitat, if it has flippers and carries a home with it, is likely",
+    "options": [
+      "mountainous",
+      "arid",
+      "salty",
+      "dry"
+    ],
+    "source_labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "gold": 2
+  },
+  {
+    "id": "obqa/train/12-769",
+    "source": "train",
+    "question": "A human can, merely by pushing on it, cause a visible alteration in the shape of a",
+    "options": [
+      "manly sculpture",
+      "inhumanly tall building",
+      "plastic dinner container",
+      "standard burning sun"
+    ],
+    "source_labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "gold": 2
+  },
+  {
+    "id": "obqa/train/10-680",
+    "source": "train",
+    "question": "An animal species' population may decrease because of",
+    "options": [
+      "construction activity",
+      "mating",
+      "more food",
+      "growth"
+    ],
+    "source_labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "gold": 0
+  },
+  {
+    "id": "obqa/train/14-389",
+    "source": "train",
+    "question": "During the rainy season in a city, the amount of sunlight in the city will",
+    "options": [
+      "stay the same",
+      "decrease",
+      "expand",
+      "increase"
+    ],
+    "source_labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "gold": 1
+  },
+  {
+    "id": "obqa/train/14-1256",
+    "source": "train",
+    "question": "Swords are drawn to",
+    "options": [
+      "the devil",
+      "magnets",
+      "people",
+      "trees"
+    ],
+    "source_labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "gold": 1
+  },
+  {
+    "id": "obqa/train/7-447",
+    "source": "train",
+    "question": "A planet rotating causes cycles of day and night on that planet, like on",
+    "options": [
+      "Orion",
+      "the Moon",
+      "Jupiter",
+      "Pluto"
+    ],
+    "source_labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "gold": 2
+  },
+  {
+    "id": "obqa/train/8-115",
+    "source": "train",
+    "question": "Which of the following can be found on the moon?",
+    "options": [
+      "Non-volcanic Mountains",
+      "Life-filled Oceans",
+      "Volcanic Mountains",
+      "Multiple Land Masses"
+    ],
+    "source_labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "gold": 0
+  },
+  {
+    "id": "obqa/train/9-365",
+    "source": "train",
+    "question": "A deer eats lots of grass, but the deer is unable to create more food for itself, because in the food chain, the deer is unable to be",
+    "options": [
+      "a producer",
+      "a consumer",
+      "a manager",
+      "a creator"
+    ],
+    "source_labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "gold": 0
+  },
+  {
+    "id": "obqa/train/11-594",
+    "source": "train",
+    "question": "Which is the correct relationship?",
+    "options": [
+      "the moon orbits the sun which orbits the Earth",
+      "the moon orbits the Earth which orbits the sun",
+      "Earth orbits the moon which orbits the Earth",
+      "Earth orbits the sun which orbits the moon"
+    ],
+    "source_labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "gold": 1
+  },
+  {
+    "id": "obqa/train/10-1114",
+    "source": "train",
+    "question": "The quickness of this animal is a key change that allows it to escape attacks from feasting animals:",
+    "options": [
+      "the praying mantis",
+      "the potato bug",
+      "antelope",
+      "the eagle"
+    ],
+    "source_labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "gold": 2
+  },
+  {
+    "id": "obqa/train/12-577",
+    "source": "train",
+    "question": "What one animal commonly associated with America and is the animal on a one dollar bill would eat the long eared animal on a cartoon commonly eating a carrot and saying What's up doc??",
+    "options": [
+      "Jackal",
+      "Wolf",
+      "Eagle",
+      "Bear"
+    ],
+    "source_labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "gold": 2
+  },
+  {
+    "id": "obqa/train/10-136",
+    "source": "train",
+    "question": "transpiration happens in the leaves of what?",
+    "options": [
+      "rocks",
+      "shrubbery",
+      "cars",
+      "animals"
+    ],
+    "source_labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "gold": 1
+  },
+  {
+    "id": "obqa/train/12-597",
+    "source": "train",
+    "question": "What statement is true?",
+    "options": [
+      "whales need oxygen",
+      "whales need fishing",
+      "whales need mercury",
+      "whales need boats"
+    ],
+    "source_labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "gold": 0
+  },
+  {
+    "id": "obqa/train/13-675",
+    "source": "train",
+    "question": "The largest amount of natural illumination will likely occur for a Floridian in",
+    "options": [
+      "space",
+      "june",
+      "october",
+      "january"
+    ],
+    "source_labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "gold": 1
+  },
+  {
+    "id": "obqa/train/14-541",
+    "source": "train",
+    "question": "The cell of a plant when photosynthesizing may most require",
+    "options": [
+      "access to roofless space",
+      "a complete vacuum in space",
+      "a room with blackened windows",
+      "dark basement living quarters"
+    ],
+    "source_labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "gold": 0
+  },
+  {
+    "id": "obqa/train/10-502",
+    "source": "train",
+    "question": "The earth receives uneven amounts of UV rays due to",
+    "options": [
+      "height",
+      "distance",
+      "it's axis",
+      "width"
+    ],
+    "source_labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "gold": 2
+  },
+  {
+    "id": "obqa/train/12-225",
+    "source": "train",
+    "question": "what is a simple way to determine the age a tree?",
+    "options": [
+      "by counting its branches",
+      "by counting its round inner markings",
+      "by counting its leaves",
+      "by counting its roots"
+    ],
+    "source_labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "gold": 1
+  },
+  {
+    "id": "obqa/train/7-172",
+    "source": "train",
+    "question": "Gravity effects water most when it is",
+    "options": [
+      "on a curved surface",
+      "full of marine life",
+      "flowing rapidly with waves",
+      "in the ocean or lake"
+    ],
+    "source_labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "gold": 0
+  },
+  {
+    "id": "obqa/train/12-511",
+    "source": "train",
+    "question": "If a puppy is given only water for a very long time, it will",
+    "options": [
+      "starve",
+      "need to hydrate",
+      "dehydrate",
+      "be thirsty"
+    ],
+    "source_labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "gold": 0
+  },
+  {
+    "id": "obqa/train/14-825",
+    "source": "train",
+    "question": "Our only star provides us with energy that is",
+    "options": [
+      "temporary",
+      "inferior",
+      "expensive",
+      "reusable"
+    ],
+    "source_labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "gold": 3
+  },
+  {
+    "id": "obqa/train/10-777",
+    "source": "train",
+    "question": "A metal rod is sitting outside and soaks up a lot of energy from a star, so the metal",
+    "options": [
+      "cries",
+      "wiggles",
+      "sears",
+      "dies"
+    ],
+    "source_labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "gold": 2
+  },
+  {
+    "id": "obqa/train/12-683",
+    "source": "train",
+    "question": "Which of the following is more accurate?",
+    "options": [
+      "ice has greater mass when carved",
+      "ice has greater mass when crushed",
+      "ice disappears instantly when carved",
+      "ice has approximately equivalent mass when carved"
+    ],
+    "source_labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "gold": 3
+  },
+  {
+    "id": "obqa/train/11-35",
+    "source": "train",
+    "question": "When a dog adjusts its temperature",
+    "options": [
+      "it pants",
+      "it finds water",
+      "it sweats",
+      "it shirts"
+    ],
+    "source_labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "gold": 0
+  },
+  {
+    "id": "obqa/train/9-400",
+    "source": "train",
+    "question": "What is an example of runoff?",
+    "options": [
+      "A farm being irrigated",
+      "Water running from a farm into Lake Huron",
+      "Rainwater soaking into the ground",
+      "Water condensing to form dew"
+    ],
+    "source_labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "gold": 1
+  },
+  {
+    "id": "obqa/train/12-173",
+    "source": "train",
+    "question": "on which of these days would it be least convenient to take fast drive?",
+    "options": [
+      "a really sleety day",
+      "a really hot day",
+      "a really clear day",
+      "a really cloudy day"
+    ],
+    "source_labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "gold": 0
+  },
+  {
+    "id": "obqa/train/13-86",
+    "source": "train",
+    "question": "If a park becomes more and more arid, the animals there will probably",
+    "options": [
+      "start increasing in population",
+      "have more food available",
+      "have less to drink",
+      "start becoming more friendly"
+    ],
+    "source_labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "gold": 2
+  },
+  {
+    "id": "obqa/train/10-870",
+    "source": "train",
+    "question": "dead organisms are the source of what for decomposers?",
+    "options": [
+      "place to sleep",
+      "art",
+      "friendship",
+      "sustenance"
+    ],
+    "source_labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "gold": 3
+  },
+  {
+    "id": "obqa/train/7-555",
+    "source": "train",
+    "question": "Pulse rate increases",
+    "options": [
+      "the quicker the pace of a runner",
+      "when a person falls asleep",
+      "as a runner slows down",
+      "while holding yoga poses"
+    ],
+    "source_labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "gold": 0
+  },
+  {
+    "id": "obqa/train/13-937",
+    "source": "train",
+    "question": "Feces on the ground is an indicator of a nearby",
+    "options": [
+      "organic being",
+      "fish",
+      "plush animal",
+      "deceased animal"
+    ],
+    "source_labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "gold": 0
+  },
+  {
+    "id": "obqa/train/10-555",
+    "source": "train",
+    "question": "You can find what on the crust of earth",
+    "options": [
+      "clouds",
+      "stars",
+      "air",
+      "worms"
+    ],
+    "source_labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "gold": 3
+  },
+  {
+    "id": "obqa/train/13-329",
+    "source": "train",
+    "question": "he sun rising and setting causes cycles of",
+    "options": [
+      "evolution",
+      "available luminance",
+      "dancing",
+      "cooking"
+    ],
+    "source_labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "gold": 1
+  },
+  {
+    "id": "obqa/train/10-891",
+    "source": "train",
+    "question": "A person going home would head",
+    "options": [
+      "to a cow",
+      "to a moon",
+      "to a jail",
+      "to a duplex"
+    ],
+    "source_labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "gold": 3
+  },
+  {
+    "id": "obqa/train/9-90",
+    "source": "train",
+    "question": "A ramp can move a person to what level?",
+    "options": [
+      "a pulley",
+      "handicapped",
+      "a higher one",
+      "darker level"
+    ],
+    "source_labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "gold": 2
+  },
+  {
+    "id": "obqa/train/10-572",
+    "source": "train",
+    "question": "What does pencil lead contain?",
+    "options": [
+      "aluminum",
+      "stable carbon",
+      "sunlight",
+      "mineral water"
+    ],
+    "source_labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "gold": 1
+  },
+  {
+    "id": "obqa/train/10-393",
+    "source": "train",
+    "question": "If it's been twelve weeks since you put on shorts, and you notice today the hours of light and dark are just about equal, how long will it be until Winter?",
+    "options": [
+      "just over a year",
+      "around thirteen weeks or so",
+      "when G.R.R. Martin says it's here",
+      "when the groundhog sees its shadow"
+    ],
+    "source_labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "gold": 1
+  },
+  {
+    "id": "obqa/train/12-1143",
+    "source": "train",
+    "question": "Which would be most effective way of being detected after the sun has set?",
+    "options": [
+      "having water",
+      "having reflectors",
+      "having signs",
+      "having books"
+    ],
+    "source_labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "gold": 1
+  },
+  {
+    "id": "obqa/train/11-33",
+    "source": "train",
+    "question": "A lily wants to spread its genetic material around and so relies upon",
+    "options": [
+      "beads",
+      "assistance",
+      "shopping",
+      "patients"
+    ],
+    "source_labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "gold": 1
+  },
+  {
+    "id": "obqa/train/14-1134",
+    "source": "train",
+    "question": "If a species of animal is endangered or going extinct, it's because too many of them have stopped",
+    "options": [
+      "mating",
+      "hugging",
+      "nothing",
+      "dying"
+    ],
+    "source_labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "gold": 0
+  },
+  {
+    "id": "obqa/train/14-240",
+    "source": "train",
+    "question": "Adding something poisonous to an environment and harming it is called what?",
+    "options": [
+      "dirtying",
+      "liking",
+      "cleaning",
+      "observing"
+    ],
+    "source_labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "gold": 0
+  },
+  {
+    "id": "obqa/train/172",
+    "source": "train",
+    "question": "Compared to a regular swimmer, a scuba diver deals with more",
+    "options": [
+      "heat",
+      "pressure",
+      "water",
+      "air"
+    ],
+    "source_labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "gold": 1
+  },
+  {
+    "id": "obqa/train/13-773",
+    "source": "train",
+    "question": "a producer is a source of energy for",
+    "options": [
+      "shoes",
+      "poetry",
+      "external food eaters",
+      "rubber"
+    ],
+    "source_labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "gold": 2
+  },
+  {
+    "id": "obqa/train/10-5",
+    "source": "train",
+    "question": "Large trees block sunlight from reaching what?",
+    "options": [
+      "mountains",
+      "oceans",
+      "clouds",
+      "lower areas"
+    ],
+    "source_labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "gold": 3
+  },
+  {
+    "id": "obqa/train/8-421",
+    "source": "train",
+    "question": "A car is stuck in a ditch, and requires the passengers of the vehicle to get out and push it back onto the road. Two of the three passengers push the car, and they struggle to gain any ground, but when the third passenger helps them",
+    "options": [
+      "the car struggles to move",
+      "the car gains ground rapidly",
+      "the car is stuck",
+      "the car is too heavy to push"
+    ],
+    "source_labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "gold": 1
+  },
+  {
+    "id": "obqa/train/14-955",
+    "source": "train",
+    "question": "to determine how firm a certain mineral may be a person can:",
+    "options": [
+      "measure the weight of it",
+      "attempt to leave a mark on it",
+      "crush it to see the inside",
+      "see if it can bounce"
+    ],
+    "source_labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "gold": 1
+  },
+  {
+    "id": "obqa/train/13-972",
+    "source": "train",
+    "question": "A pendant whipping indicates",
+    "options": [
+      "bulk air movement",
+      "patriotic magnets",
+      "a still atmosphere",
+      "aliens are attacking"
+    ],
+    "source_labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "gold": 0
+  },
+  {
+    "id": "obqa/train/13-127",
+    "source": "train",
+    "question": "You shiver when your body temperature drops, which happens when it is",
+    "options": [
+      "Pants",
+      "Chilly",
+      "Hot",
+      "Funny"
+    ],
+    "source_labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "gold": 1
+  },
+  {
+    "id": "obqa/train/10-118",
+    "source": "train",
+    "question": "Imagine a huge rabies epidemic, where all the cats in the world died, which species would over run the earth?",
+    "options": [
+      "Rodents",
+      "Pachyderms",
+      "Butterflys",
+      "Homo sapiens"
+    ],
+    "source_labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "gold": 0
+  },
+  {
+    "id": "obqa/train/10-462",
+    "source": "train",
+    "question": "Explosions destroy",
+    "options": [
+      "Air",
+      "communities",
+      "darkness",
+      "Sunlight"
+    ],
+    "source_labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "gold": 1
+  },
+  {
+    "id": "obqa/train/14-1381",
+    "source": "train",
+    "question": "Feeling is when a living thing senses through what?",
+    "options": [
+      "sight",
+      "smell",
+      "contact",
+      "taste"
+    ],
+    "source_labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "gold": 2
+  },
+  {
+    "id": "obqa/train/792",
+    "source": "train",
+    "question": "Using a metal kitchen tool on a cheese can create",
+    "options": [
+      "milk",
+      "blue cheese",
+      "melted cheese",
+      "small pieces"
+    ],
+    "source_labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "gold": 3
+  },
+  {
+    "id": "obqa/train/12-804",
+    "source": "train",
+    "question": "If a thing has both seeds and reproductive dust, it is",
+    "options": [
+      "a producer",
+      "a meat source",
+      "a consumer",
+      "a marine mammal"
+    ],
+    "source_labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "gold": 0
+  },
+  {
+    "id": "obqa/train/11-412",
+    "source": "train",
+    "question": "A solution could be",
+    "options": [
+      "pebbles and soil",
+      "peas and corn",
+      "juice and vodka",
+      "toothpaste and bristles"
+    ],
+    "source_labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "gold": 2
+  },
+  {
+    "id": "obqa/train/10-1009",
+    "source": "train",
+    "question": "A sandbar is in the shallow portion of water where",
+    "options": [
+      "water is bloody",
+      "water is harder",
+      "water is falling",
+      "water adjusts things"
+    ],
+    "source_labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "gold": 3
+  },
+  {
+    "id": "obqa/train/12-1090",
+    "source": "train",
+    "question": "What requires nutrients to grow and gets nutrients with use of beak apparatus?",
+    "options": [
+      "dirt",
+      "birds",
+      "computers",
+      "metals"
+    ],
+    "source_labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "gold": 1
+  },
+  {
+    "id": "obqa/train/1977",
+    "source": "train",
+    "question": "Materials like ethanol are used to produce electricity by _____.",
+    "options": [
+      "hydroelectric power",
+      "renewable energy",
+      "burning",
+      "carbon fixation"
+    ],
+    "source_labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "gold": 2
+  },
+  {
+    "id": "obqa/train/867",
+    "source": "train",
+    "question": "Where is December warmest?",
+    "options": [
+      "Nebraska",
+      "Canada",
+      "Papua New Guinea",
+      "Israel"
+    ],
+    "source_labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "gold": 2
+  },
+  {
+    "id": "obqa/train/11-655",
+    "source": "train",
+    "question": "Which would be a good example of conservation?",
+    "options": [
+      "smoke stacks",
+      "littering",
+      "shorter showers",
+      "car travel"
+    ],
+    "source_labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "gold": 2
+  },
+  {
+    "id": "obqa/train/10-418",
+    "source": "train",
+    "question": "Water vapor cooling causes it to what?",
+    "options": [
+      "electrify",
+      "warm up",
+      "deliquesce",
+      "smell"
+    ],
+    "source_labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "gold": 2
+  },
+  {
+    "id": "obqa/train/13-811",
+    "source": "train",
+    "question": "oceans contains most of earth 's",
+    "options": [
+      "wet sustenance",
+      "trees",
+      "clouds",
+      "shoes"
+    ],
+    "source_labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "gold": 0
+  },
+  {
+    "id": "obqa/train/13-507",
+    "source": "train",
+    "question": "An adaptation that humans have created through the help of science is",
+    "options": [
+      "freckles",
+      "feces",
+      "eye color",
+      "flying"
+    ],
+    "source_labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "gold": 3
+  },
+  {
+    "id": "obqa/train/12-509",
+    "source": "train",
+    "question": "Which is most harmful to a human?",
+    "options": [
+      "dynamite going off",
+      "reading email",
+      "balloons popping",
+      "opening a soda"
+    ],
+    "source_labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "gold": 0
+  },
+  {
+    "id": "obqa/train/10-614",
+    "source": "train",
+    "question": "Which of the following would be an example of tool use in the animal kingdom?",
+    "options": [
+      "a wolf using its sense of smell to track down prey",
+      "a crow displacing water with rocks to get good",
+      "a giant whale filtering plankton from water",
+      "An anteater using its long tongue to catch ants"
+    ],
+    "source_labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "gold": 1
+  },
+  {
+    "id": "obqa/train/12-851",
+    "source": "train",
+    "question": "If a deer eats a berry plant, the plant eats",
+    "options": [
+      "a berry juice slurry",
+      "large slices of meat",
+      "its self created nutriment",
+      "small bugs that glow"
+    ],
+    "source_labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "gold": 2
+  },
+  {
+    "id": "obqa/train/13-778",
+    "source": "train",
+    "question": "What substance found in rocks shares it's name with an object which can take wrinkles from an item worn on the body to cover the skin from the elements?",
+    "options": [
+      "Iron",
+      "Stove",
+      "Copper",
+      "Steamer"
+    ],
+    "source_labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "gold": 0
+  },
+  {
+    "id": "obqa/train/12-124",
+    "source": "train",
+    "question": "What pattern best describes most migration?",
+    "options": [
+      "west to east",
+      "north to south",
+      "east to west",
+      "south to north"
+    ],
+    "source_labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "gold": 1
+  },
+  {
+    "id": "obqa/train/14-1084",
+    "source": "train",
+    "question": "Plants and trees suck up carbon dioxide, so if trees are cut down, carbon levels will",
+    "options": [
+      "cry",
+      "fly",
+      "escalate",
+      "go down"
+    ],
+    "source_labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "gold": 2
+  },
+  {
+    "id": "obqa/train/12-463",
+    "source": "train",
+    "question": "A sky that is mostly this color will likely be precipitating:",
+    "options": [
+      "yellow",
+      "gold",
+      "blue",
+      "gray"
+    ],
+    "source_labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "gold": 3
+  },
+  {
+    "id": "obqa/train/896",
+    "source": "train",
+    "question": "A refrigerator",
+    "options": [
+      "requires an electrical outlet to work",
+      "requires an ice maker to work",
+      "requires AA batteries to work",
+      "requires a crisper to work"
+    ],
+    "source_labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "gold": 0
+  },
+  {
+    "id": "obqa/train/8-248",
+    "source": "train",
+    "question": "An animal can do some essential things without being taught or ever seeing it done",
+    "options": [
+      "we are unaware",
+      "that is negative",
+      "that is affirmative",
+      "all of these"
+    ],
+    "source_labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "gold": 2
+  },
+  {
+    "id": "obqa/train/11-21",
+    "source": "train",
+    "question": "Where would a river flow downwards?",
+    "options": [
+      "at the zoo",
+      "on the mountainside",
+      "on the prairie",
+      "on flat land"
+    ],
+    "source_labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "gold": 1
+  },
+  {
+    "id": "obqa/train/13-40",
+    "source": "train",
+    "question": "Bears instinctively know when its time to hibernate because who passes it on to them?",
+    "options": [
+      "soup",
+      "their pants",
+      "Their parents",
+      "porridge"
+    ],
+    "source_labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "gold": 2
+  },
+  {
+    "id": "obqa/train/13-804",
+    "source": "train",
+    "question": "One way to retain your own thermal energy is to",
+    "options": [
+      "sit in snow",
+      "wear fluffy socks",
+      "sleep in freezers",
+      "bathe in ice"
+    ],
+    "source_labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "gold": 1
+  },
+  {
+    "id": "obqa/train/14-1225",
+    "source": "train",
+    "question": "A caterpillar is a part one of the mundane four stage life cycle of",
+    "options": [
+      "a machine",
+      "a company",
+      "an engine",
+      "a colorful invertebrate"
+    ],
+    "source_labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "gold": 3
+  },
+  {
+    "id": "obqa/train/11-588",
+    "source": "train",
+    "question": "Which would increase atmospheric carbon by the lowest degree?",
+    "options": [
+      "trees",
+      "humans",
+      "cattle",
+      "dogs"
+    ],
+    "source_labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "gold": 0
+  },
+  {
+    "id": "obqa/train/11-478",
+    "source": "train",
+    "question": "A plane takes off from the ground, lights blazing, and flies into the sky. As the plane ascends and travels to its destination,",
+    "options": [
+      "the lights are brighter",
+      "the lights appear duller",
+      "the lights are closer",
+      "the lights are bigger"
+    ],
+    "source_labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "gold": 1
+  },
+  {
+    "id": "obqa/train/12-774",
+    "source": "train",
+    "question": "Candy disintegrates in",
+    "options": [
+      "sand",
+      "a pool",
+      "a dry bowl",
+      "the fridge"
+    ],
+    "source_labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "gold": 1
+  },
+  {
+    "id": "obqa/train/10-685",
+    "source": "train",
+    "question": "What can cause animals to leave an environment?",
+    "options": [
+      "grass",
+      "abundant food",
+      "earth tremors",
+      "natural winds"
+    ],
+    "source_labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "gold": 2
+  },
+  {
+    "id": "obqa/train/114",
+    "source": "train",
+    "question": "Deer are less safe in the woods because wolves",
+    "options": [
+      "have fur",
+      "howl",
+      "have claws",
+      "have tails"
+    ],
+    "source_labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "gold": 2
+  },
+  {
+    "id": "obqa/train/10-20",
+    "source": "train",
+    "question": "An iron horseshoe with red stripes is held over a paperclip and",
+    "options": [
+      "melts it",
+      "drops it",
+      "burns it",
+      "yanks it"
+    ],
+    "source_labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "gold": 3
+  },
+  {
+    "id": "obqa/train/13-176",
+    "source": "train",
+    "question": "Down feathers are a thermal energy what?",
+    "options": [
+      "cold",
+      "freezers",
+      "igniters",
+      "protectors"
+    ],
+    "source_labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "gold": 3
+  },
+  {
+    "id": "obqa/train/12-1057",
+    "source": "train",
+    "question": "If a log is cold it is in",
+    "options": [
+      "an oven",
+      "a fire",
+      "a toaster",
+      "a tundra"
+    ],
+    "source_labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "gold": 3
+  },
+  {
+    "id": "obqa/train/1361",
+    "source": "train",
+    "question": "Jim found birds living among",
+    "options": [
+      "gravel",
+      "space",
+      "cactus",
+      "ocean floor"
+    ],
+    "source_labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "gold": 2
+  },
+  {
+    "id": "obqa/train/11-333",
+    "source": "train",
+    "question": "A whitetail that lives in a forest will be required to adapt to",
+    "options": [
+      "long sleeves",
+      "harsh precipitation",
+      "silly anecdotes",
+      "boring movies"
+    ],
+    "source_labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "gold": 1
+  },
+  {
+    "id": "obqa/train/11-645",
+    "source": "train",
+    "question": "The more that worms make their way through compost, the more",
+    "options": [
+      "bees in skies",
+      "vitamins in dirt",
+      "trees in fields",
+      "snakes on planes"
+    ],
+    "source_labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "gold": 1
+  },
+  {
+    "id": "obqa/train/7-167",
+    "source": "train",
+    "question": "A balloon is filled with Helium, and then is opened and pressed up to someone's mouth to make a voice high, why does it do this?",
+    "options": [
+      "gas fills the new area",
+      "gas easily is dispersed",
+      "gas moves around freely",
+      "gas is lighter than air"
+    ],
+    "source_labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "gold": 0
+  },
+  {
+    "id": "obqa/train/11-237",
+    "source": "train",
+    "question": "An area of dirt contains large amounts of talc. That means that talc is able to be found in",
+    "options": [
+      "strawberries that grow elsewhere",
+      "strawberries that grow there",
+      "shark's stomachs under water",
+      "underwater caves in France"
+    ],
+    "source_labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "gold": 1
+  },
+  {
+    "id": "obqa/train/14-935",
+    "source": "train",
+    "question": "A creature lives in a portion of forested area, and only is able to live in that area. A group of bipeds begin to make their own homes in that space. The creature which originally lived there is most likely to",
+    "options": [
+      "share their space",
+      "sell that space",
+      "lose their space",
+      "fight for space"
+    ],
+    "source_labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "gold": 2
+  },
+  {
+    "id": "obqa/train/12-1165",
+    "source": "train",
+    "question": "A fallen tree may provide what?",
+    "options": [
+      "Hope",
+      "Happiness",
+      "Love",
+      "Thriving life"
+    ],
+    "source_labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "gold": 3
+  },
+  {
+    "id": "obqa/train/10-1054",
+    "source": "train",
+    "question": "An example of feeling could be",
+    "options": [
+      "the sun on the leaves of a plant",
+      "clothes on the thighs",
+      "water running in a river",
+      "air blowing trees around"
+    ],
+    "source_labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "gold": 1
+  },
+  {
+    "id": "obqa/train/12-694",
+    "source": "train",
+    "question": "Special plant tissues transport what throughout the plant?",
+    "options": [
+      "dirt",
+      "manganese",
+      "animals",
+      "rage"
+    ],
+    "source_labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "gold": 1
+  },
+  {
+    "id": "obqa/train/9-654",
+    "source": "train",
+    "question": "An example of a mixture is",
+    "options": [
+      "light",
+      "a molecule",
+      "terra cotta",
+      "gold"
+    ],
+    "source_labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "gold": 2
+  },
+  {
+    "id": "obqa/train/1466",
+    "source": "train",
+    "question": "Organic matter in soil can be increased by",
+    "options": [
+      "digging up flowers from the soil",
+      "skunks spraying their scent on the soil",
+      "the dead body of a mouse breaking down",
+      "animals eating crops planted in the soil"
+    ],
+    "source_labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "gold": 2
+  },
+  {
+    "id": "obqa/train/13-174",
+    "source": "train",
+    "question": "soil is formed by",
+    "options": [
+      "plastic bottles breaking down",
+      "falling from the sky",
+      "the fumes from car exhaust",
+      "animals stepping on dead leaves and crushing it into bits"
+    ],
+    "source_labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "gold": 3
+  },
+  {
+    "id": "obqa/train/10-673",
+    "source": "train",
+    "question": "A person wants to make some tomato plants grow, so they get",
+    "options": [
+      "older",
+      "dirt",
+      "corn",
+      "married"
+    ],
+    "source_labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "gold": 1
+  },
+  {
+    "id": "obqa/train/14-1326",
+    "source": "train",
+    "question": "reproduction is when an organism passes genetic information from itself to its what?",
+    "options": [
+      "feet",
+      "child support",
+      "brain",
+      "younglings"
+    ],
+    "source_labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "gold": 3
+  },
+  {
+    "id": "obqa/train/12-73",
+    "source": "train",
+    "question": "An example of a fossil could be a",
+    "options": [
+      "dino track",
+      "animal eye",
+      "human heart",
+      "abandoned nest"
+    ],
+    "source_labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "gold": 0
+  },
+  {
+    "id": "obqa/train/14-45",
+    "source": "train",
+    "question": "Some animals escape predators by moving how?",
+    "options": [
+      "slowly",
+      "happily",
+      "briskly",
+      "steadily"
+    ],
+    "source_labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "gold": 2
+  },
+  {
+    "id": "obqa/train/13-660",
+    "source": "train",
+    "question": "Rabbits with white fur are hardest to detect in",
+    "options": [
+      "a forest in Spring",
+      "The middle of a well-lit street",
+      "Mexico in the Winter",
+      "the arctic in Winter"
+    ],
+    "source_labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "gold": 3
+  },
+  {
+    "id": "obqa/train/13-377",
+    "source": "train",
+    "question": "Obstacles that might impede a dune are",
+    "options": [
+      "God",
+      "emotions",
+      "cacti",
+      "cancers"
+    ],
+    "source_labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "gold": 2
+  },
+  {
+    "id": "obqa/train/12-796",
+    "source": "train",
+    "question": "What might be created with brass?",
+    "options": [
+      "a tree",
+      "Light placers",
+      "A Cotton dress",
+      "Tennis shoes"
+    ],
+    "source_labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "gold": 1
+  },
+  {
+    "id": "obqa/train/11-327",
+    "source": "train",
+    "question": "Which is likeliest to harm an organism?",
+    "options": [
+      "a naval mine",
+      "a short drizzle",
+      "eating a meal",
+      "a light breeze"
+    ],
+    "source_labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "gold": 0
+  },
+  {
+    "id": "obqa/train/10-652",
+    "source": "train",
+    "question": "Once the grounds frost over and the air grows chilled",
+    "options": [
+      "beaches are opened",
+      "humans go naked",
+      "birds lay eggs",
+      "roses die"
+    ],
+    "source_labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "gold": 3
+  },
+  {
+    "id": "obqa/train/10-565",
+    "source": "train",
+    "question": "A couple having a baby want to guess if the child will share the same eye color as mother and father so they",
+    "options": [
+      "chart the likelihood",
+      "pray for peace",
+      "take a vacation",
+      "inject a dye"
+    ],
+    "source_labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "gold": 0
+  },
+  {
+    "id": "obqa/train/13-330",
+    "source": "train",
+    "question": "On what surface does a braking car have the most trouble?",
+    "options": [
+      "gravel",
+      "oil slick",
+      "sand",
+      "asphalt"
+    ],
+    "source_labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "gold": 1
+  },
+  {
+    "id": "obqa/train/14-1270",
+    "source": "train",
+    "question": "Self-absorbed people most love",
+    "options": [
+      "engaging in empathy",
+      "a lake's reflection",
+      "putting others first",
+      "thinking of others"
+    ],
+    "source_labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "gold": 1
+  },
+  {
+    "id": "obqa/train/11-375",
+    "source": "train",
+    "question": "An area of land has more rainfall, producing more plants of various species. The plant boom causes",
+    "options": [
+      "a hydrogen explosion",
+      "a boosted ecosystem",
+      "a crying child",
+      "an extreme drought"
+    ],
+    "source_labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "gold": 1
+  },
+  {
+    "id": "obqa/train/11-131",
+    "source": "train",
+    "question": "A person seeking out natural resources would start looking",
+    "options": [
+      "in a closet",
+      "in a pond",
+      "in a spaceship",
+      "in a satellite"
+    ],
+    "source_labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "gold": 1
+  },
+  {
+    "id": "obqa/train/8-137",
+    "source": "train",
+    "question": "I use a knife to chip away at what to make a sculpture",
+    "options": [
+      "A slab of rock",
+      "A bucket of sand",
+      "A glass of water",
+      "A bag of air"
+    ],
+    "source_labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "gold": 0
+  },
+  {
+    "id": "obqa/train/8-78",
+    "source": "train",
+    "question": "a student leaves a nail line on a mineral sample, so that mineral can be described as what?",
+    "options": [
+      "a mineral",
+      "a soft mineral",
+      "a liquid mineral",
+      "a mineral melt"
+    ],
+    "source_labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "gold": 1
+  },
+  {
+    "id": "obqa/train/12-817",
+    "source": "train",
+    "question": "If a person restores a garden complete with oaks, then they have replaced",
+    "options": [
+      "concrete",
+      "jelly",
+      "steam",
+      "a resource"
+    ],
+    "source_labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "gold": 3
+  },
+  {
+    "id": "obqa/train/10-824",
+    "source": "train",
+    "question": "The excretory system removes waste from what?",
+    "options": [
+      "fire",
+      "persons insides",
+      "oceans",
+      "body of paragraph"
+    ],
+    "source_labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "gold": 1
+  },
+  {
+    "id": "obqa/train/12-1140",
+    "source": "train",
+    "question": "If a cat has a body temp that is below average, it is in",
+    "options": [
+      "good health",
+      "a good place",
+      "danger",
+      "safe ranges"
+    ],
+    "source_labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "gold": 2
+  },
+  {
+    "id": "obqa/train/14-11",
+    "source": "train",
+    "question": "If the days are more chilled than before, and yet still avoid freezing degrees, a likely assumption is that",
+    "options": [
+      "daylight lasts longer",
+      "daylight has lessened",
+      "daylight is brighter",
+      "nights are shorter"
+    ],
+    "source_labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "gold": 1
+  },
+  {
+    "id": "obqa/train/14-1442",
+    "source": "train",
+    "question": "It is very difficult for carrots to grow in",
+    "options": [
+      "topsoil",
+      "Kansas",
+      "peat",
+      "adobe"
+    ],
+    "source_labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "gold": 3
+  },
+  {
+    "id": "obqa/train/8-319",
+    "source": "train",
+    "question": "What can be used more than one time?",
+    "options": [
+      "coal",
+      "soda bottle",
+      "gas",
+      "oil"
+    ],
+    "source_labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "gold": 1
+  },
+  {
+    "id": "obqa/train/10-177",
+    "source": "train",
+    "question": "Flowers provide substance for many animals like",
+    "options": [
+      "Whales",
+      "Seals",
+      "Dolphins",
+      "squirrels"
+    ],
+    "source_labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "gold": 3
+  },
+  {
+    "id": "obqa/train/12-914",
+    "source": "train",
+    "question": "Why did the chicken cross the road?",
+    "options": [
+      "to side with the foxes",
+      "to be made into chicken of the sea tuna fish",
+      "their habitat was flooded",
+      "because they crossed an evil sorcerer"
+    ],
+    "source_labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "gold": 2
+  },
+  {
+    "id": "obqa/train/12-75",
+    "source": "train",
+    "question": "If a creature is building a soft space for sitting and roosting, it is likely",
+    "options": [
+      "a chickadee",
+      "a rabbit",
+      "a ferret",
+      "a dog"
+    ],
+    "source_labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "gold": 0
+  },
+  {
+    "id": "obqa/train/13-323",
+    "source": "train",
+    "question": "wind is used for producing",
+    "options": [
+      "cupcakes",
+      "smores",
+      "excited particle flowing",
+      "plants"
+    ],
+    "source_labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "gold": 2
+  },
+  {
+    "id": "obqa/train/14-1458",
+    "source": "train",
+    "question": "If a liquid disappears then that liquid probably did what?",
+    "options": [
+      "gasify",
+      "condense",
+      "melted",
+      "solidified"
+    ],
+    "source_labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "gold": 0
+  },
+  {
+    "id": "obqa/train/14-1125",
+    "source": "train",
+    "question": "If something is in an ecosystem, it could be",
+    "options": [
+      "invisible",
+      "vacuum of space",
+      "lacking life",
+      "alien"
+    ],
+    "source_labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "gold": 2
+  },
+  {
+    "id": "obqa/train/12-792",
+    "source": "train",
+    "question": "Calculating a short distance can be accomplished with a",
+    "options": [
+      "yard stick",
+      "thought",
+      "touch",
+      "a penny"
+    ],
+    "source_labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "gold": 0
+  },
+  {
+    "id": "obqa/train/14-155",
+    "source": "train",
+    "question": "Water will become vapor quicker in",
+    "options": [
+      "Jupiter",
+      "Earth",
+      "Mercury",
+      "Neptune"
+    ],
+    "source_labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "gold": 2
+  },
+  {
+    "id": "obqa/train/8-447",
+    "source": "train",
+    "question": "You can let someone know you are at the door thanks to a",
+    "options": [
+      "lemonade",
+      "cars",
+      "grass.",
+      "power plant"
+    ],
+    "source_labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "gold": 3
+  },
+  {
+    "id": "obqa/train/14-629",
+    "source": "train",
+    "question": "Foxes eat",
+    "options": [
+      "wolves",
+      "mice",
+      "man",
+      "bears"
+    ],
+    "source_labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "gold": 1
+  },
+  {
+    "id": "obqa/train/14-1349",
+    "source": "train",
+    "question": "Paper suitable for recycling is often used to produce",
+    "options": [
+      "aluminum cans",
+      "plastic bottles",
+      "cellulose nanofibers",
+      "glass bottles"
+    ],
+    "source_labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "gold": 2
+  },
+  {
+    "id": "obqa/train/10-1137",
+    "source": "train",
+    "question": "All organism require food to satiate themselves, grow big and strong, and also",
+    "options": [
+      "heal",
+      "make money",
+      "have fun",
+      "cry"
+    ],
+    "source_labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "gold": 0
+  },
+  {
+    "id": "obqa/train/10-1185",
+    "source": "train",
+    "question": "A coral plant will thrive in",
+    "options": [
+      "depths",
+      "jungles",
+      "arctic",
+      "shallows"
+    ],
+    "source_labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "gold": 3
+  },
+  {
+    "id": "obqa/train/14-25",
+    "source": "train",
+    "question": "Blocking a river creates homes for",
+    "options": [
+      "satellites",
+      "fish",
+      "rocks",
+      "mermaids"
+    ],
+    "source_labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "gold": 1
+  },
+  {
+    "id": "obqa/train/11-120",
+    "source": "train",
+    "question": "A tree must die",
+    "options": [
+      "for newspapers to go to print",
+      "for bakeries to have a yeast supply",
+      "for restaurants to have stryofoam containers",
+      "for schools to have chalk"
+    ],
+    "source_labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "gold": 0
+  },
+  {
+    "id": "obqa/train/11-697",
+    "source": "train",
+    "question": "A navigator may be in charge of",
+    "options": [
+      "shoveling a sidewalk",
+      "clearing a tree",
+      "conducting a car",
+      "riding a bike"
+    ],
+    "source_labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "gold": 2
+  },
+  {
+    "id": "obqa/train/12-31",
+    "source": "train",
+    "question": "If a person wants to save the environment, a thing they can try is",
+    "options": [
+      "using more Styrofoam",
+      "buying more stuff",
+      "reusing plastic dishware",
+      "burning more plastic"
+    ],
+    "source_labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "gold": 2
+  },
+  {
+    "id": "obqa/train/10-852",
+    "source": "train",
+    "question": "Herbivores like to dine on",
+    "options": [
+      "gravel",
+      "other herbivores",
+      "crustaceans",
+      "chlorophyll"
+    ],
+    "source_labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "gold": 3
+  },
+  {
+    "id": "obqa/train/12-1125",
+    "source": "train",
+    "question": "As a lake increases in size, there are more",
+    "options": [
+      "English Premier Leagues",
+      "catfish",
+      "airplanes",
+      "volcanoes"
+    ],
+    "source_labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "gold": 1
+  },
+  {
+    "id": "obqa/train/10-1189",
+    "source": "train",
+    "question": "Toasting already-baked bread requires using",
+    "options": [
+      "unprocessed gluten mix",
+      "a thermal conductor",
+      "a snowboard",
+      "an energetic stream"
+    ],
+    "source_labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "gold": 1
+  },
+  {
+    "id": "obqa/train/13-580",
+    "source": "train",
+    "question": "One way to remember the method of Scientific Classification is",
+    "options": [
+      "run",
+      "dive",
+      "swim",
+      "make a sentence"
+    ],
+    "source_labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "gold": 3
+  },
+  {
+    "id": "obqa/train/14-919",
+    "source": "train",
+    "question": "Which Disney character was a herbivore?",
+    "options": [
+      "Pluto",
+      "Cheshire Cat",
+      "Bambi",
+      "Simba"
+    ],
+    "source_labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "gold": 2
+  },
+  {
+    "id": "obqa/train/10-493",
+    "source": "train",
+    "question": "rock from deep down creates what as it becomes less hot",
+    "options": [
+      "vitamins",
+      "cracks",
+      "minerals",
+      "holes"
+    ],
+    "source_labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "gold": 2
+  },
+  {
+    "id": "obqa/train/14-499",
+    "source": "train",
+    "question": "Which likely would suffer in the arctic?",
+    "options": [
+      "a polar bear",
+      "a lion",
+      "a penguin",
+      "a walrus"
+    ],
+    "source_labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "gold": 1
+  },
+  {
+    "id": "obqa/train/7-700",
+    "source": "train",
+    "question": "It changes from winter to spring because of a",
+    "options": [
+      "moon",
+      "cloud",
+      "star",
+      "sky"
+    ],
+    "source_labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "gold": 2
+  },
+  {
+    "id": "obqa/train/12-674",
+    "source": "train",
+    "question": "On continents nearer the north pole than the south, winter months such as November see",
+    "options": [
+      "the most daylight",
+      "the longest daylight",
+      "growing daylight hours",
+      "short daylight"
+    ],
+    "source_labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "gold": 3
+  },
+  {
+    "id": "obqa/train/14-1404",
+    "source": "train",
+    "question": "Reflectors are used to reflect light on",
+    "options": [
+      "cardboard",
+      "paint",
+      "buses",
+      "birds"
+    ],
+    "source_labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "gold": 2
+  },
+  {
+    "id": "obqa/train/12-907",
+    "source": "train",
+    "question": "If you miss seeing a full moon, how long will you have to wait until you get another chance?",
+    "options": [
+      "7 days",
+      "a month",
+      "a week",
+      "168 hours"
+    ],
+    "source_labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "gold": 1
+  },
+  {
+    "id": "obqa/train/10-655",
+    "source": "train",
+    "question": "A species' habitat is those places where it can find food, shelter, protection and",
+    "options": [
+      "predators to escape",
+      "rivers to cross",
+      "mountains to climb",
+      "mates for reproduction"
+    ],
+    "source_labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "gold": 3
+  },
+  {
+    "id": "obqa/train/13-575",
+    "source": "train",
+    "question": "the moon 's surface contains many",
+    "options": [
+      "trees",
+      "oceans",
+      "smoothies",
+      "ground bumps"
+    ],
+    "source_labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "gold": 3
+  },
+  {
+    "id": "obqa/train/13-23",
+    "source": "train",
+    "question": "if a student asked a teacher about the size of a certain item, what could be an indicator?",
+    "options": [
+      "the volume of the item",
+      "the color of the item",
+      "the luster of the item",
+      "the depth of the item"
+    ],
+    "source_labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "gold": 0
+  },
+  {
+    "id": "obqa/train/11-632",
+    "source": "train",
+    "question": "A plant that needs to expand will be able to have an endless resource in",
+    "options": [
+      "dirt",
+      "pesticides",
+      "pay",
+      "beans"
+    ],
+    "source_labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "gold": 0
+  },
+  {
+    "id": "obqa/train/11-698",
+    "source": "train",
+    "question": "Losing which of these would make it hard for a wolf to satisfy hunger?",
+    "options": [
+      "tail",
+      "eyebrow",
+      "eyelash",
+      "snout"
+    ],
+    "source_labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "gold": 3
+  },
+  {
+    "id": "obqa/train/12-835",
+    "source": "train",
+    "question": "Which of these items plays an integral role in the survival of many types of flora?",
+    "options": [
+      "bee",
+      "cat",
+      "dog",
+      "mouse"
+    ],
+    "source_labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "gold": 0
+  },
+  {
+    "id": "obqa/train/11-199",
+    "source": "train",
+    "question": "A plant needing to photosynthesize will want to be placed nearest to a",
+    "options": [
+      "fridge",
+      "bed",
+      "skylight",
+      "basement"
+    ],
+    "source_labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "gold": 2
+  },
+  {
+    "id": "obqa/train/11-521",
+    "source": "train",
+    "question": "A pot of cold water, with heat now applied, may be noted to have reached its boiling point when",
+    "options": [
+      "bubbles are seen",
+      "food is cold",
+      "water is warm",
+      "salt is added"
+    ],
+    "source_labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "gold": 0
+  },
+  {
+    "id": "obqa/train/8-301",
+    "source": "train",
+    "question": "examples of pollution include all but",
+    "options": [
+      "acid rain",
+      "smog",
+      "chemical run-off",
+      "laundry soup"
+    ],
+    "source_labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "gold": 3
+  },
+  {
+    "id": "obqa/train/9-157",
+    "source": "train",
+    "question": "I can use a microscope to",
+    "options": [
+      "Look at an elephant",
+      "Look at the sun shine",
+      "Watch a mouse eat food",
+      "see the pores in a plant"
+    ],
+    "source_labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "gold": 3
+  },
+  {
+    "id": "obqa/train/14-510",
+    "source": "train",
+    "question": "Which relationship is most true?",
+    "options": [
+      "hawks EAT lizards EAT beetles EAT grass",
+      "hawks EAT bears EAT beetles EAT dogs",
+      "hawks EAT cats EAT beetles EAT air",
+      "bears EAT lizards EAT horses EAT grass"
+    ],
+    "source_labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "gold": 0
+  },
+  {
+    "id": "obqa/train/12-97",
+    "source": "train",
+    "question": "Which of the following would be the most impactful to an ecosystem?",
+    "options": [
+      "an 8.1 earthquake",
+      "a tree falling",
+      "a light rainfall",
+      "a minor snowstorm"
+    ],
+    "source_labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "gold": 0
+  },
+  {
+    "id": "obqa/train/11-459",
+    "source": "train",
+    "question": "A girl wants to use a renewable resource to build a house, so she uses",
+    "options": [
+      "glass shards",
+      "rubber pipes",
+      "log portions",
+      "plastic spoons"
+    ],
+    "source_labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "gold": 2
+  },
+  {
+    "id": "obqa/train/9-965",
+    "source": "train",
+    "question": "What do predators live near in the same environment?",
+    "options": [
+      "Their future Prey",
+      "Their water source",
+      "Their offspring",
+      "Their dens"
+    ],
+    "source_labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "gold": 0
+  },
+  {
+    "id": "obqa/train/14-1367",
+    "source": "train",
+    "question": "Mammals can breathe thanks to",
+    "options": [
+      "organisms with roots",
+      "volcanoes",
+      "rainbows",
+      "oxygen tanks"
+    ],
+    "source_labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "gold": 0
+  },
+  {
+    "id": "obqa/train/12-578",
+    "source": "train",
+    "question": "as an evergreen matures and grows, it's leaves tend to",
+    "options": [
+      "increase in number",
+      "change color",
+      "shed",
+      "shrink"
+    ],
+    "source_labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "gold": 0
+  },
+  {
+    "id": "obqa/train/302",
+    "source": "train",
+    "question": "After a long time, a paw print may end up",
+    "options": [
+      "in water",
+      "on a tree",
+      "in a building",
+      "underground"
+    ],
+    "source_labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "gold": 3
+  },
+  {
+    "id": "obqa/train/9-383",
+    "source": "train",
+    "question": "An example of refraction is",
+    "options": [
+      "The light that comes from the TV",
+      "The light from a fire",
+      "Turning the light on",
+      "Pickles seemingly bigger in the jar"
+    ],
+    "source_labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "gold": 3
+  },
+  {
+    "id": "obqa/train/8-30",
+    "source": "train",
+    "question": "a toaster converts electricity into radiant waves for",
+    "options": [
+      "browning bagels",
+      "roasting meats",
+      "toasting corn",
+      "burning cheese"
+    ],
+    "source_labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "gold": 0
+  },
+  {
+    "id": "obqa/train/13-986",
+    "source": "train",
+    "question": "What is a source of oxygen through photosynthesis?",
+    "options": [
+      "lakes",
+      "car engines",
+      "sunflowers",
+      "people"
+    ],
+    "source_labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "gold": 2
+  },
+  {
+    "id": "obqa/train/10-180",
+    "source": "train",
+    "question": "A person with a vitamin D deficiency who is allergic to sunlight could",
+    "options": [
+      "look at pictures",
+      "drink more water",
+      "bathe more often",
+      "eat more cheese"
+    ],
+    "source_labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "gold": 3
+  },
+  {
+    "id": "obqa/train/14-1341",
+    "source": "train",
+    "question": "Which is least likely to need to take in air?",
+    "options": [
+      "a cat",
+      "a canary",
+      "a bear",
+      "a zooplankton"
+    ],
+    "source_labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "gold": 3
+  },
+  {
+    "id": "obqa/train/10-296",
+    "source": "train",
+    "question": "A seismometer will be able to tell someone",
+    "options": [
+      "how wet a storm made the ground",
+      "how badly things were shaking",
+      "how loud a siren was",
+      "how fast a cheetah is"
+    ],
+    "source_labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "gold": 1
+  },
+  {
+    "id": "obqa/train/13-995",
+    "source": "train",
+    "question": "Gas will rise when what happens to it?",
+    "options": [
+      "blazing temps",
+      "cooling",
+      "melting",
+      "freezing"
+    ],
+    "source_labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "gold": 0
+  },
+  {
+    "id": "obqa/train/10-351",
+    "source": "train",
+    "question": "A student waiting for class to be over, in the last minute until the bell rings",
+    "options": [
+      "watches a UFO",
+      "works at factories",
+      "counts down portions",
+      "sleeps at home"
+    ],
+    "source_labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "gold": 2
+  },
+  {
+    "id": "obqa/train/1683",
+    "source": "train",
+    "question": "The doorbell was pushed, but sound failed to emit. What might cause this?",
+    "options": [
+      "atmospheric pressure",
+      "Batteries dead",
+      "storm",
+      "temperature"
+    ],
+    "source_labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "gold": 1
+  },
+  {
+    "id": "obqa/train/10-3",
+    "source": "train",
+    "question": "A person hits two drumsticks together and",
+    "options": [
+      "they light up",
+      "they fall apart",
+      "the insides quake",
+      "they burn"
+    ],
+    "source_labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "gold": 2
+  },
+  {
+    "id": "obqa/train/12-411",
+    "source": "train",
+    "question": "If an oak seed is placed in a compost pile in a garden, the garden's ecosystem will",
+    "options": [
+      "be negatively disrupted forever",
+      "be made much worse",
+      "be altered in damaging ways",
+      "adjust in positive ways"
+    ],
+    "source_labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "gold": 3
+  },
+  {
+    "id": "obqa/train/10-354",
+    "source": "train",
+    "question": "A chemical change is likely to happen in which body part?",
+    "options": [
+      "stomach",
+      "heart",
+      "leg",
+      "ear"
+    ],
+    "source_labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "gold": 0
+  },
+  {
+    "id": "obqa/train/11-615",
+    "source": "train",
+    "question": "A person can know if they need a down vest by checking the",
+    "options": [
+      "thermograph",
+      "tunnels",
+      "graveyard shift",
+      "sidewalk"
+    ],
+    "source_labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "gold": 0
+  },
+  {
+    "id": "obqa/train/13-351",
+    "source": "train",
+    "question": "A sugar cube in vinegar will",
+    "options": [
+      "disappear",
+      "explode",
+      "start to fly",
+      "become hard"
+    ],
+    "source_labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "gold": 0
+  },
+  {
+    "id": "obqa/train/14-1346",
+    "source": "train",
+    "question": "If I want to avoid too much ultraviolet rays I can",
+    "options": [
+      "wear a bikini",
+      "wear shorts",
+      "wear nothing",
+      "wear thick socks"
+    ],
+    "source_labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "gold": 3
+  },
+  {
+    "id": "obqa/train/12-711",
+    "source": "train",
+    "question": "in order for a person's burger to make it successfully into the toilet, which of these must be functional?",
+    "options": [
+      "the respiratory system",
+      "the digestive system",
+      "the circulatory system",
+      "the destructive system"
+    ],
+    "source_labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "gold": 1
+  },
+  {
+    "id": "obqa/train/8-306",
+    "source": "train",
+    "question": "Which life form is most likely to have changed its position?",
+    "options": [
+      "pine",
+      "carrot",
+      "aloe",
+      "tortoise"
+    ],
+    "source_labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "gold": 3
+  },
+  {
+    "id": "obqa/train/12-290",
+    "source": "train",
+    "question": "Which of the following is most likely to occur?",
+    "options": [
+      "an archaeologist finds an ancient crustacean in magma",
+      "an archaeologist finds an ancient crustacean in limestone",
+      "an archaeologist finds an ancient human in limestone",
+      "an archaeologist finds an ancient human in magma"
+    ],
+    "source_labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "gold": 1
+  },
+  {
+    "id": "obqa/train/13-516",
+    "source": "train",
+    "question": "An example of reproduction is",
+    "options": [
+      "sleeping",
+      "mestrual vessel releasing",
+      "skipping",
+      "snacking"
+    ],
+    "source_labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "gold": 1
+  },
+  {
+    "id": "obqa/train/11-392",
+    "source": "train",
+    "question": "A bird species may decide to relocate to hotter areas when weather",
+    "options": [
+      "sears",
+      "cools",
+      "warms",
+      "burns"
+    ],
+    "source_labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "gold": 1
+  },
+  {
+    "id": "obqa/train/10-403",
+    "source": "train",
+    "question": "If weather is stormy there is a greater chance of what?",
+    "options": [
+      "drought",
+      "waterfalls",
+      "sky water",
+      "fire"
+    ],
+    "source_labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "gold": 2
+  },
+  {
+    "id": "obqa/train/10-1084",
+    "source": "train",
+    "question": "Diverting overflow from a reservoir through pipes generates",
+    "options": [
+      "The Colorado River",
+      "hydropower",
+      "The Hoover Dam",
+      "solar power"
+    ],
+    "source_labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "gold": 1
+  },
+  {
+    "id": "obqa/train/14-815",
+    "source": "train",
+    "question": "A suit of armor pulls which of these to it easily?",
+    "options": [
+      "a stick",
+      "a paper leaflet",
+      "a fridge decoration",
+      "a wooden cog"
+    ],
+    "source_labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "gold": 2
+  },
+  {
+    "id": "obqa/train/9-556",
+    "source": "train",
+    "question": "if a student needs to travel with their lunch for long distances, which of these would have the freshest meal?",
+    "options": [
+      "a student with freshly cooked food",
+      "a student with food containing preservatives",
+      "raw uncooked fish meal",
+      "a student with uncooked beef"
+    ],
+    "source_labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "gold": 1
+  },
+  {
+    "id": "obqa/train/7-662",
+    "source": "train",
+    "question": "Things that are shiny can reflect light, so all of these will aside from",
+    "options": [
+      "dog tag",
+      "ring",
+      "outlet",
+      "confetti"
+    ],
+    "source_labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "gold": 2
+  },
+  {
+    "id": "obqa/train/13-816",
+    "source": "train",
+    "question": "which of these would have a better chance at thriving?",
+    "options": [
+      "a woman starving every day",
+      "mosquito on mars in space",
+      "a man without money to eat",
+      "a spider with an abundance of prey in web"
+    ],
+    "source_labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "gold": 3
+  },
+  {
+    "id": "obqa/train/10-1021",
+    "source": "train",
+    "question": "Cameras",
+    "options": [
+      "can take snapshots of friends wearing snapbacks",
+      "can be used for their microscopic properties",
+      "can be used for solving mysteries",
+      "can take friends on an adventure"
+    ],
+    "source_labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "gold": 0
+  },
+  {
+    "id": "obqa/train/14-540",
+    "source": "train",
+    "question": "Which of the following items can perform photosynthesis?",
+    "options": [
+      "a flying wasp",
+      "a speedy cheetah",
+      "wet dirt",
+      "a yellow tulip"
+    ],
+    "source_labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "gold": 3
+  },
+  {
+    "id": "obqa/train/13-234",
+    "source": "train",
+    "question": "Stepping in a lake causes",
+    "options": [
+      "tsunamis",
+      "ripples",
+      "typhoons",
+      "earthquakes"
+    ],
+    "source_labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "gold": 1
+  },
+  {
+    "id": "obqa/train/791",
+    "source": "train",
+    "question": "Who famously explicated the science of dropping something?",
+    "options": [
+      "Galileo",
+      "Newton",
+      "Einstein",
+      "Rutherford"
+    ],
+    "source_labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "gold": 1
+  },
+  {
+    "id": "obqa/train/13-818",
+    "source": "train",
+    "question": "Rubber will keep",
+    "options": [
+      "heat from spreading",
+      "Balls from bouncing",
+      "Wheels from rolling",
+      "pucks from sliding."
+    ],
+    "source_labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "gold": 0
+  },
+  {
+    "id": "obqa/train/12-666",
+    "source": "train",
+    "question": "When the Earth is tilted on its axis, as it always is, certain tilts will make it summer one once continent",
+    "options": [
+      "and birds fly around the moon",
+      "and beans grow on the other side",
+      "and another's celebrating Halloween",
+      "and a desert on another"
+    ],
+    "source_labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "gold": 2
+  },
+  {
+    "id": "obqa/train/11-234",
+    "source": "train",
+    "question": "What can an individual do to REDUCE their pollution levels?",
+    "options": [
+      "buy and sell bikes to commuters",
+      "go on a biking tour of the country",
+      "go on a biking tour of the city",
+      "replace their driving to work with biking"
+    ],
+    "source_labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "gold": 3
+  },
+  {
+    "id": "obqa/train/10-289",
+    "source": "train",
+    "question": "Which of the following will help my non-electric lawnmower run?",
+    "options": [
+      "UV rays",
+      "a cloudy day",
+      "dinosaur remains",
+      "an AC current"
+    ],
+    "source_labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "gold": 2
+  },
+  {
+    "id": "obqa/train/14-43",
+    "source": "train",
+    "question": "Whitetail are found in what kind of habitat",
+    "options": [
+      "the ocean",
+      "temperate",
+      "arctic",
+      "dessert"
+    ],
+    "source_labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "gold": 1
+  },
+  {
+    "id": "obqa/train/13-1",
+    "source": "train",
+    "question": "If a thing is being drawn to another thing of the same material, they are probably",
+    "options": [
+      "quartz",
+      "plastic",
+      "diamond",
+      "iron"
+    ],
+    "source_labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "gold": 3
+  },
+  {
+    "id": "obqa/train/14-339",
+    "source": "train",
+    "question": "See evaporation in action by",
+    "options": [
+      "leaving two mason jars out with different levels of gatorade",
+      "run for city council",
+      "take a walk on the sun",
+      "become a human bug"
+    ],
+    "source_labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "gold": 0
+  },
+  {
+    "id": "obqa/train/11-112",
+    "source": "train",
+    "question": "Great lakes may have come to be thanks to",
+    "options": [
+      "many visitors",
+      "ice pillars",
+      "large mice",
+      "snow clouds"
+    ],
+    "source_labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "gold": 1
+  },
+  {
+    "id": "obqa/train/1404",
+    "source": "train",
+    "question": "A rainy environment results in",
+    "options": [
+      "more overcast days",
+      "more sunny days",
+      "less overcast days",
+      "a dry environment"
+    ],
+    "source_labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "gold": 0
+  },
+  {
+    "id": "obqa/train/14-1235",
+    "source": "train",
+    "question": "Which are all likely enabled by rock folding?",
+    "options": [
+      "oak trees, waterfalls, TVs",
+      "rivers, lightning bolts, fire",
+      "the Himalayas, spelunking, and valleys",
+      "cats, prairies, dogs, birds"
+    ],
+    "source_labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "gold": 2
+  },
+  {
+    "id": "obqa/train/12-784",
+    "source": "train",
+    "question": "How is a location of lower elevation affected by flooding as opposed to a higher location?",
+    "options": [
+      "It is more affected by the flood",
+      "It is more resistant than a higher place",
+      "The lower area is drier",
+      "It is impossible to flood a lower elevation location"
+    ],
+    "source_labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "gold": 0
+  },
+  {
+    "id": "obqa/train/12-821",
+    "source": "train",
+    "question": "If a person is avoiding sugar, they will stop eating",
+    "options": [
+      "meat",
+      "eggs",
+      "butter",
+      "bread"
+    ],
+    "source_labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "gold": 3
+  },
+  {
+    "id": "obqa/train/12-90",
+    "source": "train",
+    "question": "Bread makers only run if you have",
+    "options": [
+      "an extension cord",
+      "adamantium claws",
+      "a power cord",
+      "dirt and gravel"
+    ],
+    "source_labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "gold": 2
+  },
+  {
+    "id": "obqa/train/14-714",
+    "source": "train",
+    "question": "Which is hotter?",
+    "options": [
+      "the snow on one's car",
+      "a recently used iron",
+      "a rainbow sherbet cone",
+      "a cup of iced tea"
+    ],
+    "source_labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "gold": 1
+  },
+  {
+    "id": "obqa/train/12-541",
+    "source": "train",
+    "question": "Digestion is when stomach acid breaks down",
+    "options": [
+      "a pizza",
+      "a house",
+      "a rock",
+      "a car"
+    ],
+    "source_labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "gold": 0
+  },
+  {
+    "id": "obqa/train/14",
+    "source": "train",
+    "question": "What sense is associated with an animal's ingestion?",
+    "options": [
+      "taste",
+      "hearing",
+      "vision",
+      "touch"
+    ],
+    "source_labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "gold": 0
+  },
+  {
+    "id": "obqa/train/13-207",
+    "source": "train",
+    "question": "Which promotes the creation of serotonin?",
+    "options": [
+      "Jupiter",
+      "Venus",
+      "the Sun",
+      "the Moon"
+    ],
+    "source_labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "gold": 2
+  },
+  {
+    "id": "obqa/train/11-562",
+    "source": "train",
+    "question": "A dog needs to be able to sense something visually, so it makes sure it can",
+    "options": [
+      "read",
+      "view",
+      "walk",
+      "hear"
+    ],
+    "source_labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "gold": 1
+  },
+  {
+    "id": "obqa/train/14-159",
+    "source": "train",
+    "question": "In December in the northern hemisphere you need",
+    "options": [
+      "short shorts",
+      "cooling fans",
+      "suntan lotion",
+      "mittens"
+    ],
+    "source_labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "gold": 3
+  },
+  {
+    "id": "obqa/train/8-95",
+    "source": "train",
+    "question": "Humans are",
+    "options": [
+      "Air",
+      "Sunlight",
+      "Water",
+      "Plants"
+    ],
+    "source_labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "gold": 2
+  },
+  {
+    "id": "obqa/train/12-485",
+    "source": "train",
+    "question": "If an apple tree wanted to spread it's seeds via another entity, it would",
+    "options": [
+      "plant trees",
+      "feed birds",
+      "attract birds",
+      "drop seeds"
+    ],
+    "source_labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "gold": 2
+  },
+  {
+    "id": "obqa/train/11-165",
+    "source": "train",
+    "question": "A dog outside could be shuddering uncontrollably. Which of these could be related?",
+    "options": [
+      "they were scared by their own shadow",
+      "they ate too much food",
+      "white precipitation is falling and it's windy",
+      "they are very tired"
+    ],
+    "source_labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "gold": 2
+  },
+  {
+    "id": "obqa/train/11-679",
+    "source": "train",
+    "question": "A light that is turned on will be connected to wiring, which will",
+    "options": [
+      "be shredded",
+      "feel toasty",
+      "be wooden",
+      "be icy"
+    ],
+    "source_labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "gold": 1
+  },
+  {
+    "id": "obqa/train/10-236",
+    "source": "train",
+    "question": "A man is at the beach and is napping in the sun. He falls into a deep sleep and forgets to wake up. After hours of this, he",
+    "options": [
+      "may flood beaches",
+      "may make whiskey",
+      "may cease existence",
+      "may file lawsuit"
+    ],
+    "source_labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "gold": 2
+  },
+  {
+    "id": "obqa/train/12-464",
+    "source": "train",
+    "question": "Who is likeliest to overuse hot water?",
+    "options": [
+      "a rabbit",
+      "a squirrel",
+      "a bird",
+      "the Johnson family"
+    ],
+    "source_labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "gold": 3
+  },
+  {
+    "id": "obqa/train/564",
+    "source": "train",
+    "question": "It would be unexpected to see a mouse with",
+    "options": [
+      "eggs",
+      "ears",
+      "teeth",
+      "a tail"
+    ],
+    "source_labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "gold": 0
+  },
+  {
+    "id": "obqa/train/11-446",
+    "source": "train",
+    "question": "Jupiter's larger mass and orbit contribute to the formation of this area of debris:",
+    "options": [
+      "Inner Solar System",
+      "Oort Cloud",
+      "Kuiper Belt",
+      "Asteroid Belt"
+    ],
+    "source_labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "gold": 3
+  },
+  {
+    "id": "obqa/train/1232",
+    "source": "train",
+    "question": "Winter in the northern hemisphere is occurring on",
+    "options": [
+      "the day after July 4th",
+      "two days before April 23rd",
+      "the day after November 30th",
+      "the day before Halloween"
+    ],
+    "source_labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "gold": 2
+  },
+  {
+    "id": "obqa/train/14-134",
+    "source": "train",
+    "question": "a decline in the number of predators often leads to",
+    "options": [
+      "a rise in the number of prey",
+      "an increase in breeding between predators",
+      "a decline in the number of prey",
+      "a decrease in breeding between prey"
+    ],
+    "source_labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "gold": 0
+  },
+  {
+    "id": "obqa/train/13-177",
+    "source": "train",
+    "question": "The count of rings in a pine has a one to one relationship with the number of years it has",
+    "options": [
+      "shrunk",
+      "produced pine cones",
+      "had mistletoe",
+      "grown"
+    ],
+    "source_labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "gold": 3
+  },
+  {
+    "id": "obqa/train/14-118",
+    "source": "train",
+    "question": "What material can be used to transmit power to a light bulb?",
+    "options": [
+      "plastic",
+      "metal",
+      "wood",
+      "cloth"
+    ],
+    "source_labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "gold": 1
+  },
+  {
+    "id": "obqa/train/10-1173",
+    "source": "train",
+    "question": "What is used to catch prey by some birds?",
+    "options": [
+      "a bill",
+      "fire",
+      "nets",
+      "cups"
+    ],
+    "source_labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "gold": 0
+  },
+  {
+    "id": "obqa/train/1366",
+    "source": "train",
+    "question": "Pressing your appendages against an object can allow one to",
+    "options": [
+      "sense differences in atomic structure",
+      "sense differences in color",
+      "sense differences in atomic value",
+      "sense differences in material makeup"
+    ],
+    "source_labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "gold": 3
+  },
+  {
+    "id": "obqa/train/12-719",
+    "source": "train",
+    "question": "The below surface pebbles of the columbia river are of non rough edges because of?",
+    "options": [
+      "rough rocks",
+      "river movement",
+      "smoothness",
+      "fish movement"
+    ],
+    "source_labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "gold": 1
+  },
+  {
+    "id": "obqa/train/13-520",
+    "source": "train",
+    "question": "Slurping down your urine shows you're",
+    "options": [
+      "bed-wetting",
+      "recycling",
+      "menstruating",
+      "preserving wetlands"
+    ],
+    "source_labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "gold": 1
+  },
+  {
+    "id": "obqa/train/14-1412",
+    "source": "train",
+    "question": "This organ will help in providing nutrients to your body",
+    "options": [
+      "lungs",
+      "esophagus",
+      "kidney",
+      "bladder"
+    ],
+    "source_labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "gold": 1
+  },
+  {
+    "id": "obqa/train/12-200",
+    "source": "train",
+    "question": "If the stars in the sky above your home vary from month to month,",
+    "options": [
+      "that is a new phenomenon",
+      "that is expected due to the axis",
+      "that is very scary",
+      "that is rare and unusual"
+    ],
+    "source_labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "gold": 1
+  },
+  {
+    "id": "obqa/train/12-988",
+    "source": "train",
+    "question": "Adding salt to liquid decreases what?",
+    "options": [
+      "light",
+      "energy",
+      "magnetism",
+      "thawing temp"
+    ],
+    "source_labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "gold": 3
+  },
+  {
+    "id": "obqa/train/9-139",
+    "source": "train",
+    "question": "What does the digestive system break down into simple substances?",
+    "options": [
+      "metals",
+      "stones",
+      "plastic food",
+      "nutriment"
+    ],
+    "source_labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "gold": 3
+  },
+  {
+    "id": "obqa/train/13-557",
+    "source": "train",
+    "question": "Friction might be",
+    "options": [
+      "Breathing",
+      "rubbing knees",
+      "Running",
+      "Rainbows"
+    ],
+    "source_labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "gold": 1
+  },
+  {
+    "id": "obqa/train/12-942",
+    "source": "train",
+    "question": "A person with a pet amphibian will likely feed it",
+    "options": [
+      "meal worms",
+      "deer",
+      "steak",
+      "wax"
+    ],
+    "source_labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "gold": 0
+  },
+  {
+    "id": "obqa/train/14-34",
+    "source": "train",
+    "question": "A tiger with a stubby tail most likely",
+    "options": [
+      "has children with long tails",
+      "had ancestors with that trait",
+      "has siblings with long tails",
+      "had parents with long tails"
+    ],
+    "source_labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "gold": 1
+  },
+  {
+    "id": "obqa/train/11-280",
+    "source": "train",
+    "question": "A way to reproduce is to",
+    "options": [
+      "plant dishes",
+      "produce ovum",
+      "make money",
+      "litter carpet"
+    ],
+    "source_labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "gold": 1
+  },
+  {
+    "id": "obqa/train/13-771",
+    "source": "train",
+    "question": "which one of these would ensure the least amount of risk to make contact with?",
+    "options": [
+      "an electric wire wrapped in water",
+      "an electric wire wrapped in metal",
+      "an electric wire wrapped in steel",
+      "an electric wire wrapped in thick cotton"
+    ],
+    "source_labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "gold": 3
+  },
+  {
+    "id": "obqa/train/10-621",
+    "source": "train",
+    "question": "A moth can adjust its",
+    "options": [
+      "age",
+      "ancestry",
+      "shape",
+      "genus"
+    ],
+    "source_labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "gold": 2
+  },
+  {
+    "id": "obqa/train/14-169",
+    "source": "train",
+    "question": "The animals that never migrate never do so because they were born",
+    "options": [
+      "with the instinct",
+      "are too lazy",
+      "seventeen",
+      "without the instinct"
+    ],
+    "source_labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "gold": 3
+  },
+  {
+    "id": "obqa/train/12-1007",
+    "source": "train",
+    "question": "which pairs would likely be consumed by squirrel families?",
+    "options": [
+      "bones and feathers",
+      "turkey and rocks",
+      "cardboard and sand",
+      "peanuts and crackers"
+    ],
+    "source_labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "gold": 3
+  },
+  {
+    "id": "obqa/train/14-920",
+    "source": "train",
+    "question": "An herbivore will",
+    "options": [
+      "eat a little meat daily",
+      "never eat any plants",
+      "eat meat now and then",
+      "only eat things that grow out of the ground"
+    ],
+    "source_labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "gold": 3
+  },
+  {
+    "id": "obqa/train/11-218",
+    "source": "train",
+    "question": "Which of the following would you use to most efficiently transport heat?",
+    "options": [
+      "empty water bottle",
+      "cotton T-Shirt",
+      "baseball cap",
+      "empty soda can"
+    ],
+    "source_labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "gold": 3
+  },
+  {
+    "id": "obqa/train/10-1171",
+    "source": "train",
+    "question": "The national symbol for the US would most likely eat",
+    "options": [
+      "roaches",
+      "birds",
+      "mosquitoes",
+      "salmon"
+    ],
+    "source_labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "gold": 3
+  },
+  {
+    "id": "obqa/train/14-135",
+    "source": "train",
+    "question": "If our earth is anything, it is this",
+    "options": [
+      "alien",
+      "nearest to Pluto",
+      "frozen solid",
+      "mountainous"
+    ],
+    "source_labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "gold": 3
+  },
+  {
+    "id": "obqa/train/14-356",
+    "source": "train",
+    "question": "If you're stranded on a desert for a week without clothes, you're likely to",
+    "options": [
+      "evaporate",
+      "find a forest",
+      "freeze",
+      "perish"
+    ],
+    "source_labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "gold": 3
+  },
+  {
+    "id": "obqa/train/1514",
+    "source": "train",
+    "question": "An example of breaking down is",
+    "options": [
+      "cutting an apple into slices",
+      "putting a jigsaw puzzle together",
+      "mixing cake ingredients together",
+      "applying coats of paint onto a wall"
+    ],
+    "source_labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "gold": 0
+  },
+  {
+    "id": "obqa/train/11-134",
+    "source": "train",
+    "question": "Which is the most accurate statement?",
+    "options": [
+      "Brittney can receive minerals by standing in the sunlight",
+      "Ted can receive calories by standing in sunlight",
+      "Jeff can receive protein from sunlight",
+      "Kelly can receive vitamins by soaking up sunny rays"
+    ],
+    "source_labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "gold": 3
+  },
+  {
+    "id": "obqa/train/10-1042",
+    "source": "train",
+    "question": "If I am out in the sun all day I should",
+    "options": [
+      "go naked",
+      "drink wine",
+      "avoid it occasionally",
+      "wear a coat"
+    ],
+    "source_labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "gold": 2
+  },
+  {
+    "id": "obqa/train/14-1114",
+    "source": "train",
+    "question": "As water increases in an environment the number of aquatic animals such as zooplankton, nekton, and benthos will",
+    "options": [
+      "on the up",
+      "fall",
+      "stagnate",
+      "face extinction"
+    ],
+    "source_labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "gold": 0
+  },
+  {
+    "id": "obqa/train/12-1038",
+    "source": "train",
+    "question": "the central object of our solar system is also",
+    "options": [
+      "the smallest object in the solar system",
+      "the coldest heavenly body",
+      "the farthest star from us",
+      "the closest star from us"
+    ],
+    "source_labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "gold": 3
+  },
+  {
+    "id": "obqa/train/1962",
+    "source": "train",
+    "question": "Measuring is a way to collect data; what is an example of this?",
+    "options": [
+      "pouring water into a gallon jug to save for later",
+      "pouring milk into a half cup to see how much is left",
+      "making sure that a blanket is warm enough for the night",
+      "noticing how long a cat's tail is"
+    ],
+    "source_labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "gold": 1
+  },
+  {
+    "id": "obqa/train/7-721",
+    "source": "train",
+    "question": "If a room is going to be humid, or dry, depends on how much water vapor is in the air, so if a room wants to be humid",
+    "options": [
+      "run a bath",
+      "use a dehumidifier",
+      "open a window",
+      "hope it rains"
+    ],
+    "source_labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "gold": 0
+  },
+  {
+    "id": "obqa/train/12-1146",
+    "source": "train",
+    "question": "A person puts a potato in some embers on the edge of a campfire and the potato gets hot. The embers are",
+    "options": [
+      "good for food",
+      "a cool source",
+      "meant to sleep",
+      "a exothermic reaction"
+    ],
+    "source_labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "gold": 3
+  },
+  {
+    "id": "obqa/train/12-1015",
+    "source": "train",
+    "question": "A ceramic dish from the dishwasher will be",
+    "options": [
+      "dirty",
+      "cold",
+      "clear",
+      "warm"
+    ],
+    "source_labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "gold": 3
+  },
+  {
+    "id": "obqa/train/11-728",
+    "source": "train",
+    "question": "An area of dirt may have rivets in it depending on",
+    "options": [
+      "if soil is piled up",
+      "if there is more soil",
+      "if soil has been altered",
+      "if soil has been added"
+    ],
+    "source_labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "gold": 2
+  },
+  {
+    "id": "obqa/train/1827",
+    "source": "train",
+    "question": "What shows that the Earth being tilted on its axis causes ones side of the Earth to receive less energy from the Sun than the other side?",
+    "options": [
+      "summer in the USA, winter in Australia",
+      "snow will be on the North Pole instead of the South Pole",
+      "seasonal changes take place",
+      "some countries are warmer than others"
+    ],
+    "source_labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "gold": 0
+  },
+  {
+    "id": "obqa/train/14-668",
+    "source": "train",
+    "question": "What kind of impact does exercise have on a humans health?",
+    "options": [
+      "terrible",
+      "low",
+      "skyrocketing",
+      "bad"
+    ],
+    "source_labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "gold": 2
+  },
+  {
+    "id": "obqa/train/11-322",
+    "source": "train",
+    "question": "What would provide the most nutrients?",
+    "options": [
+      "a used popcorn bucket",
+      "an empty can of corn",
+      "a dead strawberry bush",
+      "a pickled jicama root"
+    ],
+    "source_labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "gold": 3
+  },
+  {
+    "id": "obqa/train/10-570",
+    "source": "train",
+    "question": "When a squid moves forward, water is",
+    "options": [
+      "pushed directly behind it",
+      "pushed up and below it",
+      "evaporated by salt water",
+      "pushed in front of it"
+    ],
+    "source_labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "gold": 0
+  },
+  {
+    "id": "obqa/train/12-959",
+    "source": "train",
+    "question": "What are the source of fruit?",
+    "options": [
+      "wood",
+      "plant diagrams",
+      "green life",
+      "housing"
+    ],
+    "source_labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "gold": 2
+  },
+  {
+    "id": "obqa/train/13-766",
+    "source": "train",
+    "question": "looking directly at an eclipse of the Sun causes harm to the",
+    "options": [
+      "trees",
+      "clouds",
+      "rocks",
+      "organic light receptacle"
+    ],
+    "source_labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "gold": 3
+  },
+  {
+    "id": "obqa/train/1283",
+    "source": "train",
+    "question": "A magnifying glass would be useless in viewing?",
+    "options": [
+      "tadpole",
+      "ant",
+      "sand grain",
+      "elephant"
+    ],
+    "source_labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "gold": 3
+  },
+  {
+    "id": "obqa/train/11-197",
+    "source": "train",
+    "question": "Needing to predict planting and harvesting times and when certain food animals would hibernate, early humans learned repeating weather patterns, star formations and time intervals to realize that",
+    "options": [
+      "the sky is usually blue at night",
+      "most plants take a year to grow",
+      "one year consists of 365 days and nights",
+      "the sun is still for 12 months a year"
+    ],
+    "source_labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "gold": 2
+  },
+  {
+    "id": "obqa/train/14-990",
+    "source": "train",
+    "question": "A koala's home can be destroyed because of",
+    "options": [
+      "affection",
+      "magic",
+      "my heart",
+      "exploding hot liquid"
+    ],
+    "source_labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "gold": 3
+  },
+  {
+    "id": "obqa/train/9-45",
+    "source": "train",
+    "question": "A pupa creates cocoons in a stage of the life cycle, and eventually the insect will",
+    "options": [
+      "adjust",
+      "shrink",
+      "burn",
+      "collect"
+    ],
+    "source_labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "gold": 0
+  },
+  {
+    "id": "obqa/train/9-81",
+    "source": "train",
+    "question": "Lamps that convert electricity into light and heat are known as",
+    "options": [
+      "incadescent",
+      "flourescent",
+      "led",
+      "candle"
+    ],
+    "source_labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "gold": 0
+  },
+  {
+    "id": "obqa/train/14-1190",
+    "source": "train",
+    "question": "Weathering is the eventual reason that",
+    "options": [
+      "ferns can have sustenance",
+      "lighthouse make visible light",
+      "dogs always eat homework",
+      "cats can hunt prey"
+    ],
+    "source_labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "gold": 0
+  },
+  {
+    "id": "obqa/train/14-1506",
+    "source": "train",
+    "question": "A bulldozer alters the area of",
+    "options": [
+      "skyscrapers",
+      "the stock market",
+      "air",
+      "water"
+    ],
+    "source_labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "gold": 0
+  },
+  {
+    "id": "obqa/train/11-157",
+    "source": "train",
+    "question": "A person eating a watermelon slice will perhaps want to take time during eating to",
+    "options": [
+      "plant a garden",
+      "build a house",
+      "remove black pips",
+      "climb a mountain"
+    ],
+    "source_labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "gold": 2
+  },
+  {
+    "id": "obqa/train/13-957",
+    "source": "train",
+    "question": "the sun transfers solar energy from itself to the Earth through",
+    "options": [
+      "electricity",
+      "water",
+      "rocks",
+      "sunradiation"
+    ],
+    "source_labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "gold": 3
+  },
+  {
+    "id": "obqa/train/13-501",
+    "source": "train",
+    "question": "If a day goes by and night falls surprisingly quickly",
+    "options": [
+      "it is likely freezing",
+      "summer is just beginning",
+      "the beaches are opening",
+      "summer solstice is being celebrated"
+    ],
+    "source_labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "gold": 0
+  },
+  {
+    "id": "obqa/train/14-1158",
+    "source": "train",
+    "question": "Snowy means a large amount of what?",
+    "options": [
+      "roads",
+      "rivers",
+      "ice particles",
+      "winds"
+    ],
+    "source_labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "gold": 2
+  },
+  {
+    "id": "obqa/train/9-344",
+    "source": "train",
+    "question": "When a person gets hurt physically, the person feels pain because there are",
+    "options": [
+      "magic receptors",
+      "electric reactions",
+      "making nervous",
+      "loud nerves"
+    ],
+    "source_labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "gold": 1
+  },
+  {
+    "id": "obqa/train/14-461",
+    "source": "train",
+    "question": "Plants expel a gas that",
+    "options": [
+      "is poisonous to humans",
+      "is used to make balloons rise into the air",
+      "humans exhale as well",
+      "our circulatory system spreads to our body from our lungs"
+    ],
+    "source_labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "gold": 3
+  },
+  {
+    "id": "obqa/train/9-598",
+    "source": "train",
+    "question": "Chemical reactions can be the cause of new formations of which?",
+    "options": [
+      "Temperatures",
+      "Shapes",
+      "Colors",
+      "Substances"
+    ],
+    "source_labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "gold": 3
+  },
+  {
+    "id": "obqa/train/10-333",
+    "source": "train",
+    "question": "A light can be turned on if the",
+    "options": [
+      "circuit is complete",
+      "light is unplugged",
+      "house is destroyed",
+      "power is out"
+    ],
+    "source_labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "gold": 0
+  },
+  {
+    "id": "obqa/train/14-172",
+    "source": "train",
+    "question": "When the sun is set it is called what?",
+    "options": [
+      "sleep time",
+      "noon",
+      "morning",
+      "dawn"
+    ],
+    "source_labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "gold": 0
+  },
+  {
+    "id": "obqa/train/10-414",
+    "source": "train",
+    "question": "A person wants their yard to be a wonderful ecosystem for local wildlife. They consider doing a few things in order to facilitate this, but ultimately decide that the best way to make a great impact is to",
+    "options": [
+      "make some more money",
+      "plant a wet rope",
+      "plant a blue spruce",
+      "sing to their flowers"
+    ],
+    "source_labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "gold": 2
+  },
+  {
+    "id": "obqa/train/7-149",
+    "source": "train",
+    "question": "If electrical current is running",
+    "options": [
+      "the wire may be hot to the touch",
+      "the wire may be cool to the touch",
+      "the wire is automatically grounded",
+      "the wire is automatically water safe"
+    ],
+    "source_labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "gold": 0
+  },
+  {
+    "id": "obqa/train/12-649",
+    "source": "train",
+    "question": "if a farmer needed the plants in the garden to multiply, which of these could help?",
+    "options": [
+      "introduction of cactus plants",
+      "introduction of grasshoppers to the garden",
+      "introduction of Bombyliidae to the garden",
+      "introduction of weevils in the garden"
+    ],
+    "source_labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "gold": 2
+  },
+  {
+    "id": "obqa/train/9-111",
+    "source": "train",
+    "question": "The instance of which of the following colliding and causing death is considered to happen?",
+    "options": [
+      "Trees",
+      "Buildings",
+      "Animals",
+      "Electronics"
+    ],
+    "source_labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "gold": 1
+  },
+  {
+    "id": "obqa/train/14-1289",
+    "source": "train",
+    "question": "if something is outside during the day then that something will receive what?",
+    "options": [
+      "astral beams",
+      "steam",
+      "gratitude",
+      "night light"
+    ],
+    "source_labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "gold": 0
+  },
+  {
+    "id": "obqa/train/7-531",
+    "source": "train",
+    "question": "Seasons are caused by",
+    "options": [
+      "weather patterns",
+      "earth's movement pattern",
+      "weather changes",
+      "weather cycles"
+    ],
+    "source_labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "gold": 1
+  },
+  {
+    "id": "obqa/train/10-1154",
+    "source": "train",
+    "question": "Compost, small rocks, and organic material make up",
+    "options": [
+      "air",
+      "stone",
+      "land",
+      "water"
+    ],
+    "source_labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "gold": 2
+  },
+  {
+    "id": "obqa/train/10-598",
+    "source": "train",
+    "question": "What happens when man moves into new environment but reproduction ceases to happen?",
+    "options": [
+      "native species go wild",
+      "native species grow large",
+      "native species loses dwindle",
+      "native species thrive more"
+    ],
+    "source_labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "gold": 2
+  },
+  {
+    "id": "obqa/train/12-212",
+    "source": "train",
+    "question": "What could be an example of a thermal conductor",
+    "options": [
+      "a penny",
+      "grass",
+      "a wood block",
+      "cotton"
+    ],
+    "source_labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "gold": 0
+  },
+  {
+    "id": "obqa/train/11-267",
+    "source": "train",
+    "question": "A living thing will expire if access to this is removed for a time.",
+    "options": [
+      "balloons with helium gas",
+      "their favorite new shoes",
+      "a comfortable sitting chair",
+      "ability to experience respiration"
+    ],
+    "source_labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "gold": 3
+  },
+  {
+    "id": "obqa/train/1395",
+    "source": "train",
+    "question": "when a person pushes a bike pedal it will make the bike",
+    "options": [
+      "speed to a halt",
+      "slow down very slowly",
+      "has zero effect at all",
+      "accelerate it forward rapidly"
+    ],
+    "source_labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "gold": 3
+  },
+  {
+    "id": "obqa/train/14-166",
+    "source": "train",
+    "question": "Which type of vegetation could you find in areas with low rainfall?",
+    "options": [
+      "sunflowers",
+      "cacti",
+      "rose bushes",
+      "palm trees"
+    ],
+    "source_labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "gold": 1
+  },
+  {
+    "id": "obqa/train/9-1109",
+    "source": "train",
+    "question": "What eat other animals?",
+    "options": [
+      "herbivores",
+      "bacteria",
+      "flesh eaters",
+      "giraffes"
+    ],
+    "source_labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "gold": 2
+  },
+  {
+    "id": "obqa/train/14-617",
+    "source": "train",
+    "question": "Which would least refract light?",
+    "options": [
+      "a cardboard box",
+      "a bottle",
+      "a gem",
+      "a diamond"
+    ],
+    "source_labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "gold": 0
+  },
+  {
+    "id": "obqa/train/9-782",
+    "source": "train",
+    "question": "Poison causes harm to which of the following?",
+    "options": [
+      "a Tree",
+      "a robot",
+      "a house",
+      "a car"
+    ],
+    "source_labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "gold": 0
+  },
+  {
+    "id": "obqa/train/10-1214",
+    "source": "train",
+    "question": "Which ingredient may cause chemical change?",
+    "options": [
+      "almonds",
+      "milk",
+      "citrus juice",
+      "olive oil"
+    ],
+    "source_labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "gold": 2
+  },
+  {
+    "id": "obqa/train/11-703",
+    "source": "train",
+    "question": "Which of the following would be considered nonliving?",
+    "options": [
+      "a hair still on your head",
+      "a rabbit hopping along",
+      "a fallen palm leaf",
+      "a human jogging down a track"
+    ],
+    "source_labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "gold": 2
+  },
+  {
+    "id": "obqa/train/10-11",
+    "source": "train",
+    "question": "An example of a fossil is the bones of what kind of animal?",
+    "options": [
+      "toy",
+      "live",
+      "programmed",
+      "wiped out"
+    ],
+    "source_labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "gold": 3
+  },
+  {
+    "id": "obqa/train/12-207",
+    "source": "train",
+    "question": "If a raptor loses weight, then it will have an easier time",
+    "options": [
+      "eating a goldfish cracker",
+      "building a small house",
+      "circling way up there",
+      "leaving home at night"
+    ],
+    "source_labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "gold": 2
+  },
+  {
+    "id": "obqa/train/14-397",
+    "source": "train",
+    "question": "A person may find themselves shading their eyes in the evening if they are driving",
+    "options": [
+      "from north to east",
+      "from west to east",
+      "from west to south",
+      "from east to west"
+    ],
+    "source_labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "gold": 3
+  },
+  {
+    "id": "obqa/train/14-571",
+    "source": "train",
+    "question": "In the natural world, camouflage is used by animals to",
+    "options": [
+      "stand out among their piers",
+      "avoid being a meal",
+      "look stylish for others",
+      "stay warm in the winter"
+    ],
+    "source_labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "gold": 1
+  },
+  {
+    "id": "obqa/train/9-744",
+    "source": "train",
+    "question": "If a tree in your backyard rots away for is knocked over by the wind, you can just",
+    "options": [
+      "plant another",
+      "Draw one",
+      "climb one",
+      "do nothing"
+    ],
+    "source_labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "gold": 0
+  },
+  {
+    "id": "obqa/train/1286",
+    "source": "train",
+    "question": "The sun causes what to happen to water at a more rapid pace when heat is added?",
+    "options": [
+      "water volume maintains exactly",
+      "water levels rise as moisture is held in the water",
+      "the heat makes the water boil as it reaches higher temperatures",
+      "heat causes the water to lose volume as moisture is pulled into the air"
+    ],
+    "source_labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "gold": 3
+  },
+  {
+    "id": "obqa/train/1045",
+    "source": "train",
+    "question": "Where would a greenhouse best be used?",
+    "options": [
+      "Bahamas",
+      "Nebraska",
+      "Florida",
+      "Mexico"
+    ],
+    "source_labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "gold": 1
+  },
+  {
+    "id": "obqa/train/14-930",
+    "source": "train",
+    "question": "Gravity lessens as you go",
+    "options": [
+      "alongside a friendly black hole",
+      "away from a planet",
+      "closer to a planet",
+      "closer to the sun"
+    ],
+    "source_labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "gold": 1
+  },
+  {
+    "id": "obqa/train/14-1044",
+    "source": "train",
+    "question": "Which is the best thing to do for an environment?",
+    "options": [
+      "growing roses and weeding",
+      "introducing a new species",
+      "planting trees to replace fallen ones",
+      "spreading trash and garbage"
+    ],
+    "source_labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "gold": 2
+  },
+  {
+    "id": "obqa/train/7-267",
+    "source": "train",
+    "question": "Flowers will reproduce more if",
+    "options": [
+      "dragonflies reproduce more often",
+      "pollinators visit them sparingly",
+      "they are planted in premium fertilizer",
+      "more bees make a pit stop at them"
+    ],
+    "source_labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "gold": 3
+  },
+  {
+    "id": "obqa/train/9-698",
+    "source": "train",
+    "question": "The further a ship sails away from a light house",
+    "options": [
+      "the less they will be guided by it's beam",
+      "the more they will be guided by it's beam",
+      "the more likely the ship is to sail successfully",
+      "rough ocean waters will decrease"
+    ],
+    "source_labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "gold": 0
+  },
+  {
+    "id": "obqa/train/13-228",
+    "source": "train",
+    "question": "A cylinder with lenses can even make Uranus appear to be",
+    "options": [
+      "farther",
+      "closer",
+      "scaled down",
+      "smaller"
+    ],
+    "source_labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "gold": 1
+  },
+  {
+    "id": "obqa/train/7-256",
+    "source": "train",
+    "question": "Animals may relocate to a new environment if their old environment",
+    "options": [
+      "experienced a large hurricane",
+      "experienced a serious thunderstorm",
+      "had a few arid days",
+      "had little rainfall for a week"
+    ],
+    "source_labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "gold": 0
+  },
+  {
+    "id": "obqa/train/11-449",
+    "source": "train",
+    "question": "Robotics would have great difficulty in existing if these had yet to be invented.",
+    "options": [
+      "pots",
+      "cats",
+      "desktops",
+      "paper towels"
+    ],
+    "source_labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "gold": 2
+  },
+  {
+    "id": "obqa/train/13-780",
+    "source": "train",
+    "question": "The below surface pebbles of the rio grande are of non rough edges because of?",
+    "options": [
+      "fish movement",
+      "rough rocks",
+      "smoothness",
+      "fluid moving"
+    ],
+    "source_labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "gold": 3
+  },
+  {
+    "id": "obqa/train/14-1073",
+    "source": "train",
+    "question": "Pushing a little kid on a swing is easy because they are light. It will require more strength to push when",
+    "options": [
+      "when he loses weight",
+      "when he eats chicken",
+      "seventy four plus five",
+      "he's older and heavier"
+    ],
+    "source_labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "gold": 3
+  },
+  {
+    "id": "obqa/train/13-1006",
+    "source": "train",
+    "question": "a retailer gets an order of aluminum delivered weekly. Where is the aluminum likely coming from?",
+    "options": [
+      "it is coming from a school",
+      "it is coming from a mystery place",
+      "it is coming from santa claus",
+      "it is coming from a merchant"
+    ],
+    "source_labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "gold": 3
+  },
+  {
+    "id": "obqa/train/14-1177",
+    "source": "train",
+    "question": "An example of an electrical conductor could be",
+    "options": [
+      "wood",
+      "ice",
+      "coin",
+      "rubber"
+    ],
+    "source_labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "gold": 2
+  },
+  {
+    "id": "obqa/train/11-472",
+    "source": "train",
+    "question": "As dry soil becomes more and more broken up, it will always contain more",
+    "options": [
+      "water",
+      "calcium",
+      "oxygen",
+      "rocks"
+    ],
+    "source_labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "gold": 2
+  },
+  {
+    "id": "obqa/train/14-754",
+    "source": "train",
+    "question": "Which relationship is likely true?",
+    "options": [
+      "sharks eat seaweed",
+      "cats eat grass",
+      "dogs eat light",
+      "ospreys eat perch"
+    ],
+    "source_labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "gold": 3
+  },
+  {
+    "id": "obqa/train/11-347",
+    "source": "train",
+    "question": "Solar energy comes from the sun and does which positive thing?",
+    "options": [
+      "electrocutes birds",
+      "starves babies",
+      "freezes water",
+      "sustains mammals"
+    ],
+    "source_labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "gold": 3
+  },
+  {
+    "id": "obqa/train/14-565",
+    "source": "train",
+    "question": "A living thing requires what to grow?",
+    "options": [
+      "support",
+      "nutriment",
+      "toys",
+      "plastic"
+    ],
+    "source_labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "gold": 1
+  },
+  {
+    "id": "obqa/train/8-436",
+    "source": "train",
+    "question": "A waste product of human respiration",
+    "options": [
+      "is a vital resource to pigs",
+      "is a vital resource to daffodils",
+      "is a vital resource to oceans",
+      "is a vital resource to bees"
+    ],
+    "source_labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "gold": 1
+  },
+  {
+    "id": "obqa/train/13-762",
+    "source": "train",
+    "question": "Nectar is used to attract pollinators to what?",
+    "options": [
+      "flora",
+      "animals",
+      "soil",
+      "hives"
+    ],
+    "source_labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "gold": 0
+  },
+  {
+    "id": "obqa/train/899",
+    "source": "train",
+    "question": "On a rainy day the clouds are",
+    "options": [
+      "low",
+      "small",
+      "white",
+      "gray"
+    ],
+    "source_labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "gold": 3
+  },
+  {
+    "id": "obqa/train/11-695",
+    "source": "train",
+    "question": "Where would an arctic hare be least likely to be seen by a predator?",
+    "options": [
+      "sitting on the dirt",
+      "on a sand dune",
+      "on a grass lawn",
+      "on a hill covered in deep, white, cold stuff"
+    ],
+    "source_labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "gold": 3
+  },
+  {
+    "id": "obqa/train/14-245",
+    "source": "train",
+    "question": "Which would you use a graduated cylinder for?",
+    "options": [
+      "to measure bone shards",
+      "to measure a solid",
+      "to measure a dog",
+      "to measure grape kool-aid"
+    ],
+    "source_labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "gold": 3
+  },
+  {
+    "id": "obqa/train/10-505",
+    "source": "train",
+    "question": "The moon is bright in the night sky, especially when full because",
+    "options": [
+      "Earth shines",
+      "stars absorb it",
+      "sunlight brightens it",
+      "batteries power it"
+    ],
+    "source_labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "gold": 2
+  },
+  {
+    "id": "obqa/train/13-374",
+    "source": "train",
+    "question": "Which of the following is more likely to create sound?",
+    "options": [
+      "Someone making their hand vibrate really quickly",
+      "Someone holding a violin",
+      "An owl soaring overhead",
+      "Someone dragging a bow on a string"
+    ],
+    "source_labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "gold": 3
+  },
+  {
+    "id": "obqa/train/11-100",
+    "source": "train",
+    "question": "Your immune system would be less effective if you didn't get enough of this",
+    "options": [
+      "fake vitamin C",
+      "green gummy bears",
+      "unconscious time",
+      "computer time"
+    ],
+    "source_labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "gold": 2
+  },
+  {
+    "id": "obqa/train/11-440",
+    "source": "train",
+    "question": "What would be passed down from parents to their children?",
+    "options": [
+      "hobbies enjoyed",
+      "head size",
+      "number of friends",
+      "sports played"
+    ],
+    "source_labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "gold": 1
+  },
+  {
+    "id": "obqa/train/11-748",
+    "source": "train",
+    "question": "A lizard has young",
+    "options": [
+      "in shells",
+      "frozen",
+      "alive",
+      "in corpses"
+    ],
+    "source_labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "gold": 0
+  },
+  {
+    "id": "obqa/train/13-803",
+    "source": "train",
+    "question": "a paper clip is often made of ferromagnetic",
+    "options": [
+      "hard shiny material",
+      "cake",
+      "water",
+      "rubber"
+    ],
+    "source_labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "gold": 0
+  },
+  {
+    "id": "obqa/train/8-37",
+    "source": "train",
+    "question": "with which could you tell the exact size of an object?",
+    "options": [
+      "a plain stick with irregular shape",
+      "a plastic tape with graduated markings",
+      "a thermometer with mercury in it",
+      "a metal cooking spoon"
+    ],
+    "source_labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "gold": 1
+  },
+  {
+    "id": "obqa/train/8-462",
+    "source": "train",
+    "question": "nutrients from food and water are necessary to an organism's",
+    "options": [
+      "friendships",
+      "habitat",
+      "survival",
+      "caloric needs"
+    ],
+    "source_labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "gold": 2
+  },
+  {
+    "id": "obqa/train/7-30",
+    "source": "train",
+    "question": "The moon's surface",
+    "options": [
+      "is smooth on the entire surface",
+      "contains large cavities cause by explosions",
+      "contains an internal core of cheese",
+      "is filled with lakes"
+    ],
+    "source_labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "gold": 1
+  },
+  {
+    "id": "obqa/train/10-1008",
+    "source": "train",
+    "question": "the strength of a hurricane will increase when",
+    "options": [
+      "it hits the arctic circle",
+      "it meets a tornado",
+      "it from South Africa to Mexico",
+      "it travels around Antarctica"
+    ],
+    "source_labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "gold": 2
+  },
+  {
+    "id": "obqa/train/13-823",
+    "source": "train",
+    "question": "What can cause a forest fire?",
+    "options": [
+      "littering cans and food wrappers",
+      "an overheating car engine",
+      "a combination of snow and rain",
+      "sudden electrostatic discharge from a cloud"
+    ],
+    "source_labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "gold": 3
+  },
+  {
+    "id": "obqa/train/12-406",
+    "source": "train",
+    "question": "If we cut down trees from the rainforest what will suffer more?",
+    "options": [
+      "Buildings",
+      "Cars",
+      "Space",
+      "Cats"
+    ],
+    "source_labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "gold": 3
+  },
+  {
+    "id": "obqa/train/14-1433",
+    "source": "train",
+    "question": "When an animal gets any kind of illness, his physical health will",
+    "options": [
+      "inevitably be worse",
+      "get better",
+      "fly away",
+      "nothing"
+    ],
+    "source_labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "gold": 0
+  },
+  {
+    "id": "obqa/train/9-200",
+    "source": "train",
+    "question": "If the sun has set it is",
+    "options": [
+      "easy to cook a meal",
+      "time to eat breakfast",
+      "necessary to wear a coat",
+      "harder to see outside"
+    ],
+    "source_labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "gold": 3
+  },
+  {
+    "id": "obqa/train/581",
+    "source": "train",
+    "question": "The cultivation of a range of crop types in a specific order has a positive impact on",
+    "options": [
+      "soil quality",
+      "water quality",
+      "air quality",
+      "atmospheric conditions"
+    ],
+    "source_labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "gold": 0
+  },
+  {
+    "id": "obqa/train/336",
+    "source": "train",
+    "question": "Which has renewable resources?",
+    "options": [
+      "natural gas formations",
+      "oil well",
+      "plastic bag",
+      "Pacific Ocean"
+    ],
+    "source_labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "gold": 3
+  },
+  {
+    "id": "obqa/train/13-107",
+    "source": "train",
+    "question": "If a beach is experiencing sneaker waves, which are very dangerous, it is likely due to",
+    "options": [
+      "our sun",
+      "luna",
+      "our trees",
+      "our skies"
+    ],
+    "source_labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "gold": 1
+  },
+  {
+    "id": "obqa/train/10-288",
+    "source": "train",
+    "question": "An example of a true combination of mixed substances is",
+    "options": [
+      "corn with butter",
+      "sand and pebbles",
+      "cream and coffee",
+      "dirt and sand"
+    ],
+    "source_labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "gold": 2
+  },
+  {
+    "id": "obqa/train/12-808",
+    "source": "train",
+    "question": "During the summer solstice the Earth is actually what in relation to the red giant?",
+    "options": [
+      "Dying",
+      "Feeling sick",
+      "Unhappy",
+      "far away"
+    ],
+    "source_labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "gold": 3
+  },
+  {
+    "id": "obqa/train/8-446",
+    "source": "train",
+    "question": "Which form can be made into a triangle?",
+    "options": [
+      "ice",
+      "steam",
+      "water",
+      "salt water"
+    ],
+    "source_labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "gold": 0
+  },
+  {
+    "id": "obqa/train/10-13",
+    "source": "train",
+    "question": "What are formed by natural geological processes?",
+    "options": [
+      "animals",
+      "lifeless matter",
+      "air flow",
+      "companies"
+    ],
+    "source_labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "gold": 1
+  },
+  {
+    "id": "obqa/train/14-1444",
+    "source": "train",
+    "question": "Which sustains life yet stopped growing?",
+    "options": [
+      "air",
+      "a bush",
+      "a rock",
+      "a felled tree"
+    ],
+    "source_labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "gold": 3
+  },
+  {
+    "id": "obqa/train/14-768",
+    "source": "train",
+    "question": "People are switching from coal to wind to",
+    "options": [
+      "do nothing at all",
+      "heat and cool Mars",
+      "sing songs to birds",
+      "producing heat for dwellings"
+    ],
+    "source_labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "gold": 3
+  },
+  {
+    "id": "obqa/train/10-774",
+    "source": "train",
+    "question": "Carbon dioxide can be found in what goes through the",
+    "options": [
+      "neck",
+      "ears",
+      "eyes",
+      "brain"
+    ],
+    "source_labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "gold": 0
+  },
+  {
+    "id": "obqa/train/14-750",
+    "source": "train",
+    "question": "Which likely would taste most similarly to sugar?",
+    "options": [
+      "tobacco",
+      "meat",
+      "a tangerine",
+      "rice"
+    ],
+    "source_labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "gold": 2
+  },
+  {
+    "id": "obqa/train/12-1056",
+    "source": "train",
+    "question": "The lungs give O2 to the",
+    "options": [
+      "bloodstream",
+      "neighbor",
+      "ozone",
+      "poor"
+    ],
+    "source_labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "gold": 0
+  },
+  {
+    "id": "obqa/train/12-882",
+    "source": "train",
+    "question": "A filament that is in a glass container will be this when a switch is flipped to cause glass to glow:",
+    "options": [
+      "dark",
+      "toasty",
+      "cold",
+      "icy"
+    ],
+    "source_labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "gold": 1
+  },
+  {
+    "id": "obqa/train/10-439",
+    "source": "train",
+    "question": "What do hawks eat?",
+    "options": [
+      "lizard droppings",
+      "bearded dragons",
+      "cows",
+      "grass"
+    ],
+    "source_labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "gold": 1
+  },
+  {
+    "id": "obqa/train/12-218",
+    "source": "train",
+    "question": "in the presence heat, which of these comes about?",
+    "options": [
+      "a piece of gum",
+      "a slurpy at the cafeteria",
+      "an ice cream cone",
+      "a large metamorphic rock"
+    ],
+    "source_labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "gold": 3
+  },
+  {
+    "id": "obqa/train/7-460",
+    "source": "train",
+    "question": "Small, usually red plastic squares are often placed on transporters such as bicycles in order to",
+    "options": [
+      "create light",
+      "show color",
+      "identify drivers",
+      "shine light"
+    ],
+    "source_labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "gold": 3
+  },
+  {
+    "id": "obqa/train/13-91",
+    "source": "train",
+    "question": "Wide tree rings mean",
+    "options": [
+      "happiness",
+      "thriving",
+      "money",
+      "magic"
+    ],
+    "source_labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "gold": 1
+  },
+  {
+    "id": "obqa/train/7-392",
+    "source": "train",
+    "question": "A thing's position is altered when",
+    "options": [
+      "the thing adjusts its location",
+      "the thing is in position",
+      "thing feels moved emotionally",
+      "things are considering moving"
+    ],
+    "source_labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "gold": 0
+  },
+  {
+    "id": "obqa/train/14-1422",
+    "source": "train",
+    "question": "Which likely would win in a race?",
+    "options": [
+      "a slug",
+      "a sardine",
+      "an Olympic swimmer",
+      "an orca"
+    ],
+    "source_labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "gold": 3
+  },
+  {
+    "id": "obqa/train/7-681",
+    "source": "train",
+    "question": "Bees are attracted to",
+    "options": [
+      "a sugar rich liquid plants produce",
+      "the scent of flower stamens",
+      "a oxygen rich liquid plants produce",
+      "the magnetic field flowers give off"
+    ],
+    "source_labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "gold": 0
+  },
+  {
+    "id": "obqa/train/10-585",
+    "source": "train",
+    "question": "A light bulb turns on when it receives energy from",
+    "options": [
+      "a cable",
+      "an oven",
+      "gasoline",
+      "a person"
+    ],
+    "source_labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "gold": 0
+  },
+  {
+    "id": "obqa/train/14-615",
+    "source": "train",
+    "question": "If a habitat that supports itself is flourishing, improvements may still be made by",
+    "options": [
+      "burying small oak pips",
+      "using pesticides fairly regularly",
+      "setting uncontrolled wild fires",
+      "setting out mouse traps"
+    ],
+    "source_labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "gold": 0
+  },
+  {
+    "id": "obqa/train/11-168",
+    "source": "train",
+    "question": "A person using a compass knows that the needle points north, so the person wanting to go south will",
+    "options": [
+      "walk towards where the needle points",
+      "walk opposite where the needle points",
+      "walk away from the compass",
+      "forget to use the compass"
+    ],
+    "source_labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "gold": 1
+  },
+  {
+    "id": "obqa/train/10-294",
+    "source": "train",
+    "question": "Fibrous tissue contracts to",
+    "options": [
+      "show for the ladies",
+      "rest and repair itself",
+      "get other muscles out of the way",
+      "stretch out an arm"
+    ],
+    "source_labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "gold": 3
+  },
+  {
+    "id": "obqa/train/12-1174",
+    "source": "train",
+    "question": "Corn would likely provide nutrients to",
+    "options": [
+      "a rock",
+      "a ice",
+      "a waterfall",
+      "a raven"
+    ],
+    "source_labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "gold": 3
+  },
+  {
+    "id": "obqa/train/13-1060",
+    "source": "train",
+    "question": "What requires nutrients for survival?",
+    "options": [
+      "sand",
+      "plastic",
+      "metal",
+      "an anaconda"
+    ],
+    "source_labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "gold": 3
+  },
+  {
+    "id": "obqa/train/9-767",
+    "source": "train",
+    "question": "When cutting down rain forests, it is important to keep in mind air quality. When too many trees are cut down in a given area, there may be decrease in the air's",
+    "options": [
+      "quality",
+      "carbon dioxide",
+      "helium amounts",
+      "carbin dioyide levels"
+    ],
+    "source_labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "gold": 0
+  },
+  {
+    "id": "obqa/train/1420",
+    "source": "train",
+    "question": "How many times does an equinox occur in the first half of the year",
+    "options": [
+      "three times",
+      "once",
+      "twice",
+      "four times"
+    ],
+    "source_labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "gold": 1
+  },
+  {
+    "id": "obqa/train/11-294",
+    "source": "train",
+    "question": "If a person has a respiratory system then they are able to remove from a room",
+    "options": [
+      "time of day",
+      "all warmth",
+      "the paint color",
+      "breathable gas"
+    ],
+    "source_labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "gold": 3
+  },
+  {
+    "id": "obqa/train/12-416",
+    "source": "train",
+    "question": "Which is a positive impact on the bio environment?",
+    "options": [
+      "dumping toxic waste in rivers",
+      "contaminating the ground with poison",
+      "building cars in large numbers",
+      "making sure trash is reused for new reasons"
+    ],
+    "source_labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "gold": 3
+  },
+  {
+    "id": "obqa/train/10-741",
+    "source": "train",
+    "question": "A person gently tosses a ball to a friend who misses the catch so the ball will",
+    "options": [
+      "meet the dirt",
+      "fall down dead",
+      "reach a cloud",
+      "reach new heights"
+    ],
+    "source_labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "gold": 0
+  },
+  {
+    "id": "obqa/train/11-648",
+    "source": "train",
+    "question": "Two bears, one weighing 200 pounds and another weighing 150 pounds are about to enter winter. The bear with the most weight will be",
+    "options": [
+      "better able to fly",
+      "more likely to starve",
+      "better suited to survive",
+      "more likely to hurt"
+    ],
+    "source_labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "gold": 2
+  },
+  {
+    "id": "obqa/train/10-854",
+    "source": "train",
+    "question": "the color of an object can be discovered by",
+    "options": [
+      "seeing it",
+      "touching it",
+      "sniffing it",
+      "licking it"
+    ],
+    "source_labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "gold": 0
+  },
+  {
+    "id": "obqa/train/1766",
+    "source": "train",
+    "question": "The rhino population is smaller than before because",
+    "options": [
+      "cars crashed into rhinos",
+      "lions have become more effective at hunting rhinos",
+      "global warming has increased temperatures",
+      "people use parts for health remedies"
+    ],
+    "source_labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "gold": 3
+  },
+  {
+    "id": "obqa/train/13-664",
+    "source": "train",
+    "question": "Cows only eat what?",
+    "options": [
+      "flora",
+      "animals",
+      "water",
+      "bugs"
+    ],
+    "source_labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "gold": 0
+  },
+  {
+    "id": "obqa/train/8-174",
+    "source": "train",
+    "question": "I left a statue outside  away from water for 100 years, when I come back it is significantly smaller, why?",
+    "options": [
+      "The Wind",
+      "Birds",
+      "Tiny Trolls",
+      "Ants"
+    ],
+    "source_labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "gold": 0
+  },
+  {
+    "id": "obqa/train/13-1045",
+    "source": "train",
+    "question": "What is most likely to set the woods alight?",
+    "options": [
+      "lightning bugs",
+      "a flood",
+      "a storm",
+      "hot red peppers"
+    ],
+    "source_labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "gold": 2
+  },
+  {
+    "id": "obqa/train/7-1002",
+    "source": "train",
+    "question": "Changes to the earth can be done as a result of",
+    "options": [
+      "high temps",
+      "mild weather",
+      "large storms",
+      "snowing clouds"
+    ],
+    "source_labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "gold": 0
+  },
+  {
+    "id": "obqa/train/10-564",
+    "source": "train",
+    "question": "An example of an adult animal laying eggs is all aside from",
+    "options": [
+      "penguins",
+      "snakes",
+      "turtles",
+      "kittens"
+    ],
+    "source_labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "gold": 3
+  },
+  {
+    "id": "obqa/train/10-532",
+    "source": "train",
+    "question": "A boy leaves a circuit in the wall open, then when he goes to turn on the lights",
+    "options": [
+      "it fails",
+      "it succeeds",
+      "it shines",
+      "it works"
+    ],
+    "source_labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "gold": 0
+  },
+  {
+    "id": "obqa/train/1640",
+    "source": "train",
+    "question": "Chimpanzees dig for insects with sticks; what is another example of using tools?",
+    "options": [
+      "birds using twigs to build nests",
+      "otters using rocks to open clams",
+      "anteaters using their tongue to catch ants",
+      "koalas using their pouch to hold infants"
+    ],
+    "source_labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "gold": 1
+  },
+  {
+    "id": "obqa/train/12-936",
+    "source": "train",
+    "question": "If someone wants to see if breath is moist, they can",
+    "options": [
+      "watch some grass grow",
+      "breathe on a tissue",
+      "hold in a sneeze",
+      "look at paint dry"
+    ],
+    "source_labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "gold": 1
+  },
+  {
+    "id": "obqa/train/12-50",
+    "source": "train",
+    "question": "Which of the following will most likely to be true?",
+    "options": [
+      "focused light beams like lasers can endanger pilots",
+      "napkins can endanger pilots",
+      "sweaters can endanger pilots",
+      "teddy bears can endanger pilots"
+    ],
+    "source_labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "gold": 0
+  },
+  {
+    "id": "obqa/train/1950",
+    "source": "train",
+    "question": "What shows that crumpling is to change something from being smooth into a compacted shape by physical force?",
+    "options": [
+      "folding a piece of paper into a shape",
+      "crushing a can in your hand",
+      "squishing a smooth bug",
+      "ripping up a piece of paper"
+    ],
+    "source_labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "gold": 1
+  },
+  {
+    "id": "obqa/train/12-37",
+    "source": "train",
+    "question": "A source of heat might be",
+    "options": [
+      "rubbing noses",
+      "swimming in Antartica",
+      "touching ice",
+      "sitting in freezers"
+    ],
+    "source_labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "gold": 0
+  },
+  {
+    "id": "obqa/train/14-1387",
+    "source": "train",
+    "question": "If a large inanimate thing is moving across arctic seas, it is likely",
+    "options": [
+      "freshwater fish",
+      "oily stones",
+      "hardened dampness",
+      "old sheep"
+    ],
+    "source_labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "gold": 2
+  },
+  {
+    "id": "obqa/train/10-188",
+    "source": "train",
+    "question": "Cans can be taken to a place known as",
+    "options": [
+      "the ocean",
+      "scrap yard",
+      "shot with BBs",
+      "buried"
+    ],
+    "source_labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "gold": 1
+  },
+  {
+    "id": "obqa/train/13-121",
+    "source": "train",
+    "question": "the breaking down of food into simple substances occurs in the",
+    "options": [
+      "hair",
+      "shoes",
+      "inner sustenance canals",
+      "beach"
+    ],
+    "source_labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "gold": 2
+  },
+  {
+    "id": "obqa/train/9-928",
+    "source": "train",
+    "question": "Freezing point refers to:",
+    "options": [
+      "the temperature below which gas turns to liquid",
+      "the temperature above which liquid stops being liquid",
+      "the temperature below which solid turns to liquid",
+      "the temperature below which liquid stops being liquid"
+    ],
+    "source_labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "gold": 3
+  },
+  {
+    "id": "obqa/train/14-277",
+    "source": "train",
+    "question": "A thing which may be found at a special location for reusing materials is a",
+    "options": [
+      "fresh cat litter",
+      "new brick house",
+      "rusted aluminum tray",
+      "old used wax"
+    ],
+    "source_labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "gold": 2
+  },
+  {
+    "id": "obqa/train/13-795",
+    "source": "train",
+    "question": "A consumer is unable to produce its own what?",
+    "options": [
+      "offspring",
+      "children",
+      "emotions",
+      "sustenance"
+    ],
+    "source_labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "gold": 3
+  },
+  {
+    "id": "obqa/train/12-228",
+    "source": "train",
+    "question": "Why is it fall one month and spring another month?",
+    "options": [
+      "the moon has different phases",
+      "the earth is revolving",
+      "solar flares appear in cycles",
+      "the earth is in a different place in its orbit"
+    ],
+    "source_labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "gold": 3
+  },
+  {
+    "id": "obqa/train/11-151",
+    "source": "train",
+    "question": "Which of the following would be considered a predator?",
+    "options": [
+      "grizzly bear",
+      "moose",
+      "salmon",
+      "lobster"
+    ],
+    "source_labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "gold": 0
+  },
+  {
+    "id": "obqa/train/10-1005",
+    "source": "train",
+    "question": "Soil is produced naturally when, over a period of many years",
+    "options": [
+      "stones are rock solid",
+      "stones are blown up",
+      "stones are vaporized by storms",
+      "stones are worn down"
+    ],
+    "source_labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "gold": 3
+  },
+  {
+    "id": "obqa/train/9-388",
+    "source": "train",
+    "question": "The population of rabbits in an area increases. That could have been caused by",
+    "options": [
+      "More predators have been moving into the area",
+      "The rabbits are becoming infertile",
+      "Hunters are trapping the rabbits",
+      "More precipitation falling lately"
+    ],
+    "source_labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "gold": 3
+  },
+  {
+    "id": "obqa/train/8-487",
+    "source": "train",
+    "question": "Crickets live in forests in",
+    "options": [
+      "Rotting Trees",
+      "In the desert",
+      "In the snow",
+      "The sunlight"
+    ],
+    "source_labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "gold": 0
+  },
+  {
+    "id": "obqa/train/11-83",
+    "source": "train",
+    "question": "A bee will be able to make a hive of golden liquid if they have access to",
+    "options": [
+      "tumbleweeds",
+      "plastic flowers",
+      "products of flowers",
+      "painted colors"
+    ],
+    "source_labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "gold": 2
+  },
+  {
+    "id": "obqa/train/7-750",
+    "source": "train",
+    "question": "A flower may consider its entire point in living to be",
+    "options": [
+      "propagating the animal kingdom",
+      "making new flowers bloom",
+      "feeding bees and making honey",
+      "spreading its genetic components around"
+    ],
+    "source_labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "gold": 3
+  },
+  {
+    "id": "obqa/train/7-197",
+    "source": "train",
+    "question": "To be environmentally friendly",
+    "options": [
+      "use your feet to pedal somewhere",
+      "hop in a sedan",
+      "put the pedal to the metal in a truck",
+      "ride a motorcycle around town"
+    ],
+    "source_labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "gold": 0
+  },
+  {
+    "id": "obqa/train/722",
+    "source": "train",
+    "question": "Coal and oil directly removed from the ground are",
+    "options": [
+      "directly consumed",
+      "thrown away",
+      "made into products",
+      "stored underground"
+    ],
+    "source_labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "gold": 2
+  },
+  {
+    "id": "obqa/train/14-1415",
+    "source": "train",
+    "question": "Which is taught?",
+    "options": [
+      "walking upright",
+      "red hair",
+      "avoiding unpleasant smells",
+      "mopping the floor"
+    ],
+    "source_labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "gold": 3
+  },
+  {
+    "id": "obqa/train/12-535",
+    "source": "train",
+    "question": "A boy is playing with his toy boat in his wading pool. His mother comes along and sprays more water into the pool.",
+    "options": [
+      "the boat flies",
+      "the boat swims",
+      "the boat drowns",
+      "the boat rises"
+    ],
+    "source_labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "gold": 3
+  },
+  {
+    "id": "obqa/train/12-496",
+    "source": "train",
+    "question": "A baby chick hatches and recognizes the mother bird above it from",
+    "options": [
+      "the worms it ate",
+      "the birds it discovered",
+      "the warmth it provided",
+      "the leaves it saw"
+    ],
+    "source_labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "gold": 2
+  },
+  {
+    "id": "obqa/train/7-659",
+    "source": "train",
+    "question": "Ripping a paper in half",
+    "options": [
+      "alters the shape of the paper",
+      "leaves the paper unchanged",
+      "enlarges the piece of paper",
+      "makes the paper into its gas form"
+    ],
+    "source_labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "gold": 0
+  },
+  {
+    "id": "obqa/train/9-708",
+    "source": "train",
+    "question": "Seeds can be found inside an object often seen on",
+    "options": [
+      "Saturday",
+      "Valentine's Day",
+      "April Fool's Day",
+      "Halloween"
+    ],
+    "source_labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "gold": 3
+  },
+  {
+    "id": "obqa/train/14-1180",
+    "source": "train",
+    "question": "Which three events are likely to occur once per day?",
+    "options": [
+      "3 cycles of day, 3 cycles of night, and birds chirping as the sun rises",
+      "a cycle of day, a cycle of night, and a motorcycle",
+      "a cycle of day, a cycle of night, and birds chirping as the sun rises",
+      "a cycle of day, a cycle of night, and birds flying"
+    ],
+    "source_labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "gold": 2
+  },
+  {
+    "id": "obqa/train/11-314",
+    "source": "train",
+    "question": "Which is likely to be digested?",
+    "options": [
+      "metal",
+      "water",
+      "hush puppies",
+      "pain"
+    ],
+    "source_labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "gold": 2
+  },
+  {
+    "id": "obqa/train/12-1112",
+    "source": "train",
+    "question": "A way in which seeds are frequently spread is",
+    "options": [
+      "pigs rolling in mud",
+      "floors being swept clean",
+      "people eating deli ham",
+      "voles consuming oak pips"
+    ],
+    "source_labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "gold": 3
+  },
+  {
+    "id": "obqa/train/7-521",
+    "source": "train",
+    "question": "A disperser is able to",
+    "options": [
+      "leave things",
+      "break things",
+      "redirect things",
+      "shorten things"
+    ],
+    "source_labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "gold": 2
+  },
+  {
+    "id": "obqa/train/1806",
+    "source": "train",
+    "question": "What is an example of humans building houses in a ecosystem and causing change in the environment as a result?",
+    "options": [
+      "a dog house is placed in a fenced in back yard",
+      "a birdbath is placed in a park with a low squirrel population",
+      "a city is built over a park and deer lose their home",
+      "a small house is built in the forest and animals are fed there"
+    ],
+    "source_labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "gold": 2
+  },
+  {
+    "id": "obqa/train/12-38",
+    "source": "train",
+    "question": "Jack rabbits move very fast to avoid",
+    "options": [
+      "squirrel",
+      "mice",
+      "snails",
+      "hawks"
+    ],
+    "source_labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "gold": 3
+  },
+  {
+    "id": "obqa/train/12-744",
+    "source": "train",
+    "question": "What type of product can be made from the moving winds?",
+    "options": [
+      "snow",
+      "electricity",
+      "wood",
+      "bananas"
+    ],
+    "source_labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "gold": 1
+  },
+  {
+    "id": "obqa/train/9-1150",
+    "source": "train",
+    "question": "What causes the pull of gravity on a planet?",
+    "options": [
+      "people",
+      "plants",
+      "kilograms",
+      "air"
+    ],
+    "source_labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "gold": 2
+  },
+  {
+    "id": "obqa/train/10-886",
+    "source": "train",
+    "question": "Heat energy has been added to",
+    "options": [
+      "red velvet cupcakes",
+      "Greek yogurt",
+      "ceviche",
+      "Caesar salad"
+    ],
+    "source_labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "gold": 0
+  },
+  {
+    "id": "obqa/train/10-395",
+    "source": "train",
+    "question": "Which place are we likely to find algae?",
+    "options": [
+      "white clouds in the sky",
+      "a small hidden puddle",
+      "an old tall building",
+      "a field of grass"
+    ],
+    "source_labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "gold": 1
+  },
+  {
+    "id": "obqa/train/14-1463",
+    "source": "train",
+    "question": "What might you use for heat?",
+    "options": [
+      "an ice cube",
+      "a mini flashlight",
+      "snow",
+      "glaciers"
+    ],
+    "source_labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "gold": 1
+  },
+  {
+    "id": "obqa/train/12-669",
+    "source": "train",
+    "question": "You would use a lever to move a",
+    "options": [
+      "feather",
+      "grain of sand",
+      "drop of water",
+      "safe"
+    ],
+    "source_labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "gold": 3
+  },
+  {
+    "id": "obqa/train/7-754",
+    "source": "train",
+    "question": "The melting point of a duck would be",
+    "options": [
+      "higher than the body temps",
+      "lower than a refrigerator",
+      "higher than the sun's",
+      "lower than a freezer's"
+    ],
+    "source_labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "gold": 0
+  },
+  {
+    "id": "obqa/train/12-328",
+    "source": "train",
+    "question": "If a bird is avoiding detection by a cat simply by sitting still, it probably is also utilizing",
+    "options": [
+      "eruptions",
+      "merging with background",
+      "flames",
+      "blending paint"
+    ],
+    "source_labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "gold": 1
+  },
+  {
+    "id": "obqa/train/14-881",
+    "source": "train",
+    "question": "Ligers are less likely to thrive when there is",
+    "options": [
+      "massive antelope herds",
+      "famine",
+      "abundant food",
+      "readily available prey"
+    ],
+    "source_labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "gold": 1
+  },
+  {
+    "id": "obqa/train/9-1156",
+    "source": "train",
+    "question": "A screw will increase in temperature when set in the sun's path, why?",
+    "options": [
+      "heating element",
+      "building device",
+      "conduction",
+      "convection"
+    ],
+    "source_labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "gold": 2
+  },
+  {
+    "id": "obqa/train/14-1511",
+    "source": "train",
+    "question": "Birds will have different kinds of beaks depending on the",
+    "options": [
+      "organisms they hunt",
+      "computer",
+      "groceries",
+      "seven"
+    ],
+    "source_labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "gold": 0
+  },
+  {
+    "id": "obqa/train/13-655",
+    "source": "train",
+    "question": "two females are incapable of",
+    "options": [
+      "conjuring kin",
+      "talk",
+      "dance",
+      "jog together"
+    ],
+    "source_labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "gold": 0
+  },
+  {
+    "id": "obqa/train/13-266",
+    "source": "train",
+    "question": "Wax is on some plant leaves for what reason?",
+    "options": [
+      "stay moist for warm weather",
+      "keep water available for predators",
+      "keep the hydration inside",
+      "creation of toxins in the cells"
+    ],
+    "source_labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "gold": 2
+  },
+  {
+    "id": "obqa/train/7-514",
+    "source": "train",
+    "question": "what is a mammal's parenting behavior?",
+    "options": [
+      "they give nutrition to their young",
+      "they lack care for their young",
+      "mammals eat their young",
+      "mammals have zero offspring"
+    ],
+    "source_labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "gold": 0
+  },
+  {
+    "id": "obqa/train/9-1013",
+    "source": "train",
+    "question": "which of these would make an ideal object to drive in with a hammer?",
+    "options": [
+      "an iron nail",
+      "a metal nail",
+      "a steel nail",
+      "all of these"
+    ],
+    "source_labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "gold": 3
+  },
+  {
+    "id": "obqa/train/12-1168",
+    "source": "train",
+    "question": "What can help you sleep soundly?",
+    "options": [
+      "torture",
+      "anxiety",
+      "ear plugs",
+      "stress"
+    ],
+    "source_labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "gold": 2
+  },
+  {
+    "id": "obqa/train/10-167",
+    "source": "train",
+    "question": "A person using a compass can find their way when they are lost",
+    "options": [
+      "in time",
+      "in play",
+      "in space",
+      "on water"
+    ],
+    "source_labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "gold": 3
+  },
+  {
+    "id": "obqa/train/13-699",
+    "source": "train",
+    "question": "Dropping butter into a boiling water would cause it to",
+    "options": [
+      "hoover",
+      "grow",
+      "liquefy",
+      "refreeze"
+    ],
+    "source_labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "gold": 2
+  },
+  {
+    "id": "obqa/train/14-1462",
+    "source": "train",
+    "question": "Over your head is dark though it is only afternoon on a summer's day. Lacking an eclipse of the sun, a viable reason for this darkness is",
+    "options": [
+      "the sky lacks clouds",
+      "the sun is shining",
+      "its about to storm",
+      "clouds are completely absent"
+    ],
+    "source_labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "gold": 2
+  },
+  {
+    "id": "obqa/train/7-836",
+    "source": "train",
+    "question": "Bats hunt through echolocation because",
+    "options": [
+      "bats can only hear echoes",
+      "echoes are a form of sound",
+      "their chirps are sent back after bouncing",
+      "they enjoy listening to echoes"
+    ],
+    "source_labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "gold": 2
+  },
+  {
+    "id": "obqa/train/10-485",
+    "source": "train",
+    "question": "A flashlight converts chemical energy into what kind of energy?",
+    "options": [
+      "light snacks",
+      "greens",
+      "food",
+      "illumination"
+    ],
+    "source_labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "gold": 3
+  },
+  {
+    "id": "obqa/train/14-1354",
+    "source": "train",
+    "question": "Which likely could replace the sun in our solar system?",
+    "options": [
+      "another star",
+      "the moon",
+      "Jupiter",
+      "Venus"
+    ],
+    "source_labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "gold": 0
+  },
+  {
+    "id": "obqa/train/9-293",
+    "source": "train",
+    "question": "An example of a circuit would be",
+    "options": [
+      "Rock climbing",
+      "running a mile",
+      "dimming a bulb",
+      "swimming a lap"
+    ],
+    "source_labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "gold": 2
+  },
+  {
+    "id": "obqa/train/10-584",
+    "source": "train",
+    "question": "High tide is a stage in the",
+    "options": [
+      "food chain of the monarch butterfly",
+      "moon tugging on saltwater",
+      "timeline of all humanity",
+      "life cycle of land mammals"
+    ],
+    "source_labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "gold": 1
+  },
+  {
+    "id": "obqa/train/13-79",
+    "source": "train",
+    "question": "When will the humidity increase in relation to bodies of water?",
+    "options": [
+      "when you get closer",
+      "when you are shooting",
+      "when you get farther",
+      "when you are laughing"
+    ],
+    "source_labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "gold": 0
+  },
+  {
+    "id": "obqa/train/7-1182",
+    "source": "train",
+    "question": "How does refraction affect the look of things",
+    "options": [
+      "They look black",
+      "They appear same",
+      "They just disappear",
+      "They appear different"
+    ],
+    "source_labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "gold": 3
+  },
+  {
+    "id": "obqa/train/12-964",
+    "source": "train",
+    "question": "If a plant is moved from a basement to a field",
+    "options": [
+      "it will need darkness",
+      "it will be too dark",
+      "it will receive nutriment",
+      "it will now suffocate"
+    ],
+    "source_labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "gold": 2
+  },
+  {
+    "id": "obqa/train/12-1006",
+    "source": "train",
+    "question": "The pine farms experience destruction yearly due to",
+    "options": [
+      "a water bottle",
+      "rubbing two sticks",
+      "abrupt electric discharge",
+      "loose gas cans"
+    ],
+    "source_labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "gold": 2
+  },
+  {
+    "id": "obqa/train/14-59",
+    "source": "train",
+    "question": "A thing that is weathered from a large item to tiny items has existed for an amount of time over between",
+    "options": [
+      "a week and a month",
+      "a month and a decade",
+      "a day and some weeks",
+      "a minute and an hour"
+    ],
+    "source_labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "gold": 1
+  },
+  {
+    "id": "obqa/train/10-60",
+    "source": "train",
+    "question": "Why did the roadrunner cross the desert road?",
+    "options": [
+      "to evade a polar bear",
+      "to evade a coyote",
+      "to dodge a tsunami",
+      "to outrun an avalanche"
+    ],
+    "source_labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "gold": 1
+  },
+  {
+    "id": "obqa/train/1195",
+    "source": "train",
+    "question": "The celestial object closest to Earth is",
+    "options": [
+      "Mercury and Venus are equally closest",
+      "the object the Earth orbits",
+      "the third planet from the Sun",
+      "the large object that illuminates a night sky"
+    ],
+    "source_labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "gold": 3
+  },
+  {
+    "id": "obqa/train/7-499",
+    "source": "train",
+    "question": "Roads need repaved in spring because",
+    "options": [
+      "they are cold",
+      "road need it",
+      "they are lumpy",
+      "ice ruins them"
+    ],
+    "source_labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "gold": 3
+  },
+  {
+    "id": "obqa/train/10-212",
+    "source": "train",
+    "question": "A river rushes and pebbles are smacked around one another until",
+    "options": [
+      "they are wet",
+      "they are clear",
+      "they are rough",
+      "they are velvety"
+    ],
+    "source_labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "gold": 3
+  },
+  {
+    "id": "obqa/train/1738",
+    "source": "train",
+    "question": "How do some octopus hide?",
+    "options": [
+      "using clear ink to spread smell",
+      "hiding in dark, inky caves",
+      "expelling dark fluid for cover",
+      "using ink to paint camouflage"
+    ],
+    "source_labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "gold": 2
+  },
+  {
+    "id": "obqa/train/12-516",
+    "source": "train",
+    "question": "Which beverage can you thank Louis Pasteur for making possible?",
+    "options": [
+      "iced tea",
+      "water",
+      "ginger ale",
+      "strawberry milk"
+    ],
+    "source_labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "gold": 3
+  },
+  {
+    "id": "obqa/train/12-1108",
+    "source": "train",
+    "question": "If a patch of land gets six inches of rainfall each month, then that is the amount of the",
+    "options": [
+      "storm",
+      "quiet",
+      "gathered moisture",
+      "puddles"
+    ],
+    "source_labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "gold": 2
+  },
+  {
+    "id": "obqa/train/7-697",
+    "source": "train",
+    "question": "Since June is cold and wet in Australia, it makes sense that at the same time",
+    "options": [
+      "Michigan would experience a heat wave",
+      "Florida would be raining",
+      "winter would be raging in Colorado",
+      "everywhere in the world is cold"
+    ],
+    "source_labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "gold": 0
+  },
+  {
+    "id": "obqa/train/10-204",
+    "source": "train",
+    "question": "A crane starts off weighing thirty pounds, then later weighs twenty pounds. When travelling, the crane will fly",
+    "options": [
+      "taller",
+      "better",
+      "slower",
+      "louder"
+    ],
+    "source_labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "gold": 1
+  },
+  {
+    "id": "obqa/train/7-449",
+    "source": "train",
+    "question": "The reason that ducks are such excellent swimmers is because",
+    "options": [
+      "ducks have a space between their toes",
+      "ducks are buoyant and resilient",
+      "ducks have wide feet",
+      "ducks have extra foot skin"
+    ],
+    "source_labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "gold": 3
+  },
+  {
+    "id": "obqa/train/10-690",
+    "source": "train",
+    "question": "Lake Ontario formed from",
+    "options": [
+      "construction workers",
+      "mechanical weathering",
+      "tectonic shifts",
+      "asteroids"
+    ],
+    "source_labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "gold": 1
+  },
+  {
+    "id": "obqa/train/14-323",
+    "source": "train",
+    "question": "Which of these uses shelter for protection against weather?",
+    "options": [
+      "a planet",
+      "a centipede",
+      "a rock",
+      "an ocean"
+    ],
+    "source_labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "gold": 1
+  },
+  {
+    "id": "obqa/train/9-923",
+    "source": "train",
+    "question": "coal is a resource that",
+    "options": [
+      "constructs with difficulty",
+      "makes everything sanitary",
+      "shines in light",
+      "cools the air"
+    ],
+    "source_labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "gold": 0
+  }
+]

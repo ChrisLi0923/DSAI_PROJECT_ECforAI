@@ -1,0 +1,1109 @@
+[
+  {
+    "id": "single/seed0/cap1",
+    "method": "single",
+    "seed": 0,
+    "target_calls": 1.0,
+    "validation_accuracy": 0.7914110429447853,
+    "validation_calls": 1.0,
+    "policy": {
+      "format": 4,
+      "predicate": "never",
+      "yes": null,
+      "no": null
+    }
+  },
+  {
+    "id": "single/seed0/cap2",
+    "method": "single",
+    "seed": 0,
+    "target_calls": 2.0,
+    "validation_accuracy": 0.7914110429447853,
+    "validation_calls": 1.0,
+    "policy": {
+      "format": 4,
+      "predicate": "never",
+      "yes": null,
+      "no": null
+    }
+  },
+  {
+    "id": "single/seed0/cap3",
+    "method": "single",
+    "seed": 0,
+    "target_calls": 3.0,
+    "validation_accuracy": 0.7914110429447853,
+    "validation_calls": 1.0,
+    "policy": {
+      "format": 4,
+      "predicate": "never",
+      "yes": null,
+      "no": null
+    }
+  },
+  {
+    "id": "fixed_three/seed0/cap1",
+    "method": "fixed_three",
+    "seed": 0,
+    "target_calls": 1.0,
+    "validation_accuracy": 0.8077709611451943,
+    "validation_calls": 3.0,
+    "policy": {
+      "format": 0,
+      "predicate": "never",
+      "yes": null,
+      "no": {
+        "format": 3,
+        "predicate": "never",
+        "yes": null,
+        "no": {
+          "format": 4,
+          "predicate": "never",
+          "yes": null,
+          "no": null
+        }
+      }
+    }
+  },
+  {
+    "id": "fixed_three/seed0/cap2",
+    "method": "fixed_three",
+    "seed": 0,
+    "target_calls": 2.0,
+    "validation_accuracy": 0.8077709611451943,
+    "validation_calls": 3.0,
+    "policy": {
+      "format": 0,
+      "predicate": "never",
+      "yes": null,
+      "no": {
+        "format": 3,
+        "predicate": "never",
+        "yes": null,
+        "no": {
+          "format": 4,
+          "predicate": "never",
+          "yes": null,
+          "no": null
+        }
+      }
+    }
+  },
+  {
+    "id": "fixed_three/seed0/cap3",
+    "method": "fixed_three",
+    "seed": 0,
+    "target_calls": 3.0,
+    "validation_accuracy": 0.8077709611451943,
+    "validation_calls": 3.0,
+    "policy": {
+      "format": 0,
+      "predicate": "never",
+      "yes": null,
+      "no": {
+        "format": 3,
+        "predicate": "never",
+        "yes": null,
+        "no": {
+          "format": 4,
+          "predicate": "never",
+          "yes": null,
+          "no": null
+        }
+      }
+    }
+  },
+  {
+    "id": "fixed_full/seed0/cap1",
+    "method": "fixed_full",
+    "seed": 0,
+    "target_calls": 1.0,
+    "validation_accuracy": 0.7852760736196319,
+    "validation_calls": 5.0,
+    "policy": {
+      "format": 0,
+      "predicate": "never",
+      "yes": null,
+      "no": {
+        "format": 1,
+        "predicate": "never",
+        "yes": null,
+        "no": {
+          "format": 2,
+          "predicate": "never",
+          "yes": null,
+          "no": {
+            "format": 3,
+            "predicate": "never",
+            "yes": null,
+            "no": {
+              "format": 4,
+              "predicate": "never",
+              "yes": null,
+              "no": null
+            }
+          }
+        }
+      }
+    }
+  },
+  {
+    "id": "fixed_full/seed0/cap2",
+    "method": "fixed_full",
+    "seed": 0,
+    "target_calls": 2.0,
+    "validation_accuracy": 0.7852760736196319,
+    "validation_calls": 5.0,
+    "policy": {
+      "format": 0,
+      "predicate": "never",
+      "yes": null,
+      "no": {
+        "format": 1,
+        "predicate": "never",
+        "yes": null,
+        "no": {
+          "format": 2,
+          "predicate": "never",
+          "yes": null,
+          "no": {
+            "format": 3,
+            "predicate": "never",
+            "yes": null,
+            "no": {
+              "format": 4,
+              "predicate": "never",
+              "yes": null,
+              "no": null
+            }
+          }
+        }
+      }
+    }
+  },
+  {
+    "id": "fixed_full/seed0/cap3",
+    "method": "fixed_full",
+    "seed": 0,
+    "target_calls": 3.0,
+    "validation_accuracy": 0.7852760736196319,
+    "validation_calls": 5.0,
+    "policy": {
+      "format": 0,
+      "predicate": "never",
+      "yes": null,
+      "no": {
+        "format": 1,
+        "predicate": "never",
+        "yes": null,
+        "no": {
+          "format": 2,
+          "predicate": "never",
+          "yes": null,
+          "no": {
+            "format": 3,
+            "predicate": "never",
+            "yes": null,
+            "no": {
+              "format": 4,
+              "predicate": "never",
+              "yes": null,
+              "no": null
+            }
+          }
+        }
+      }
+    }
+  },
+  {
+    "id": "fixed_subset/seed0/cap1",
+    "method": "fixed_subset",
+    "seed": 0,
+    "target_calls": 1.0,
+    "validation_accuracy": 0.7914110429447853,
+    "validation_calls": 1.0,
+    "policy": {
+      "format": 4,
+      "predicate": "never",
+      "yes": null,
+      "no": null
+    }
+  },
+  {
+    "id": "fixed_subset/seed0/cap2",
+    "method": "fixed_subset",
+    "seed": 0,
+    "target_calls": 2.0,
+    "validation_accuracy": 0.7914110429447853,
+    "validation_calls": 1.0,
+    "policy": {
+      "format": 4,
+      "predicate": "never",
+      "yes": null,
+      "no": null
+    }
+  },
+  {
+    "id": "fixed_subset/seed0/cap3",
+    "method": "fixed_subset",
+    "seed": 0,
+    "target_calls": 3.0,
+    "validation_accuracy": 0.8077709611451943,
+    "validation_calls": 3.0,
+    "policy": {
+      "format": 0,
+      "predicate": "never",
+      "yes": null,
+      "no": {
+        "format": 3,
+        "predicate": "never",
+        "yes": null,
+        "no": {
+          "format": 4,
+          "predicate": "never",
+          "yes": null,
+          "no": null
+        }
+      }
+    }
+  },
+  {
+    "id": "agreement/seed0/cap1",
+    "method": "agreement",
+    "seed": 0,
+    "target_calls": 1.0,
+    "validation_accuracy": 0.7770961145194274,
+    "validation_calls": 2.096114519427403,
+    "policy": {
+      "format": 0,
+      "predicate": "agreement2",
+      "yes": null,
+      "no": {
+        "format": 1,
+        "predicate": "agreement2",
+        "yes": null,
+        "no": {
+          "format": 2,
+          "predicate": "agreement2",
+          "yes": null,
+          "no": {
+            "format": 3,
+            "predicate": "agreement2",
+            "yes": null,
+            "no": {
+              "format": 4,
+              "predicate": "agreement2",
+              "yes": null,
+              "no": null
+            }
+          }
+        }
+      }
+    }
+  },
+  {
+    "id": "agreement/seed0/cap2",
+    "method": "agreement",
+    "seed": 0,
+    "target_calls": 2.0,
+    "validation_accuracy": 0.7770961145194274,
+    "validation_calls": 2.096114519427403,
+    "policy": {
+      "format": 0,
+      "predicate": "agreement2",
+      "yes": null,
+      "no": {
+        "format": 1,
+        "predicate": "agreement2",
+        "yes": null,
+        "no": {
+          "format": 2,
+          "predicate": "agreement2",
+          "yes": null,
+          "no": {
+            "format": 3,
+            "predicate": "agreement2",
+            "yes": null,
+            "no": {
+              "format": 4,
+              "predicate": "agreement2",
+              "yes": null,
+              "no": null
+            }
+          }
+        }
+      }
+    }
+  },
+  {
+    "id": "agreement/seed0/cap3",
+    "method": "agreement",
+    "seed": 0,
+    "target_calls": 3.0,
+    "validation_accuracy": 0.7770961145194274,
+    "validation_calls": 2.096114519427403,
+    "policy": {
+      "format": 0,
+      "predicate": "agreement2",
+      "yes": null,
+      "no": {
+        "format": 1,
+        "predicate": "agreement2",
+        "yes": null,
+        "no": {
+          "format": 2,
+          "predicate": "agreement2",
+          "yes": null,
+          "no": {
+            "format": 3,
+            "predicate": "agreement2",
+            "yes": null,
+            "no": {
+              "format": 4,
+              "predicate": "agreement2",
+              "yes": null,
+              "no": null
+            }
+          }
+        }
+      }
+    }
+  },
+  {
+    "id": "greedy/seed0/cap1",
+    "method": "greedy",
+    "seed": 0,
+    "target_calls": 1.0,
+    "validation_accuracy": 0.7914110429447853,
+    "validation_calls": 1.0,
+    "policy": {
+      "format": 4,
+      "predicate": "never",
+      "yes": null,
+      "no": null
+    }
+  },
+  {
+    "id": "greedy/seed0/cap2",
+    "method": "greedy",
+    "seed": 0,
+    "target_calls": 2.0,
+    "validation_accuracy": 0.7914110429447853,
+    "validation_calls": 1.0,
+    "policy": {
+      "format": 4,
+      "predicate": "never",
+      "yes": null,
+      "no": null
+    }
+  },
+  {
+    "id": "greedy/seed0/cap3",
+    "method": "greedy",
+    "seed": 0,
+    "target_calls": 3.0,
+    "validation_accuracy": 0.8077709611451943,
+    "validation_calls": 2.294478527607362,
+    "policy": {
+      "format": 4,
+      "predicate": "last_diff",
+      "yes": null,
+      "no": {
+        "format": 3,
+        "predicate": "agreement2",
+        "yes": null,
+        "no": {
+          "format": 0,
+          "predicate": "last_diff",
+          "yes": null,
+          "no": {
+            "format": 1,
+            "predicate": "never",
+            "yes": null,
+            "no": null
+          }
+        }
+      }
+    }
+  },
+  {
+    "id": "random/seed11/cap1",
+    "method": "random",
+    "seed": 11,
+    "target_calls": 1.0,
+    "validation_accuracy": 0.7914110429447853,
+    "validation_calls": 1.0,
+    "policy": {
+      "format": 4,
+      "predicate": "agreement2",
+      "yes": null,
+      "no": null
+    }
+  },
+  {
+    "id": "random/seed11/cap2",
+    "method": "random",
+    "seed": 11,
+    "target_calls": 2.0,
+    "validation_accuracy": 0.7914110429447853,
+    "validation_calls": 1.0,
+    "policy": {
+      "format": 4,
+      "predicate": "agreement2",
+      "yes": null,
+      "no": null
+    }
+  },
+  {
+    "id": "random/seed11/cap3",
+    "method": "random",
+    "seed": 11,
+    "target_calls": 3.0,
+    "validation_accuracy": 0.8077709611451943,
+    "validation_calls": 2.214723926380368,
+    "policy": {
+      "format": 3,
+      "predicate": "last_diff",
+      "yes": {
+        "format": 4,
+        "predicate": "last_diff",
+        "yes": {
+          "format": 0,
+          "predicate": "remaining1",
+          "yes": null,
+          "no": null
+        },
+        "no": {
+          "format": 2,
+          "predicate": "last_diff",
+          "yes": {
+            "format": 0,
+            "predicate": "remaining1",
+            "yes": null,
+            "no": {
+              "format": 1,
+              "predicate": "unanimous",
+              "yes": null,
+              "no": null
+            }
+          },
+          "no": {
+            "format": 1,
+            "predicate": "invalid",
+            "yes": {
+              "format": 0,
+              "predicate": "invalid",
+              "yes": null,
+              "no": null
+            },
+            "no": {
+              "format": 0,
+              "predicate": "remaining1",
+              "yes": null,
+              "no": null
+            }
+          }
+        }
+      },
+      "no": {
+        "format": 0,
+        "predicate": "last_diff",
+        "yes": {
+          "format": 4,
+          "predicate": "never",
+          "yes": null,
+          "no": null
+        },
+        "no": null
+      }
+    }
+  },
+  {
+    "id": "guided/seed11/cap1",
+    "method": "guided",
+    "seed": 11,
+    "target_calls": 1.0,
+    "validation_accuracy": 0.7914110429447853,
+    "validation_calls": 1.0,
+    "policy": {
+      "format": 4,
+      "predicate": "margin2",
+      "yes": null,
+      "no": null
+    }
+  },
+  {
+    "id": "guided/seed11/cap2",
+    "method": "guided",
+    "seed": 11,
+    "target_calls": 2.0,
+    "validation_accuracy": 0.7914110429447853,
+    "validation_calls": 1.0,
+    "policy": {
+      "format": 4,
+      "predicate": "margin2",
+      "yes": null,
+      "no": null
+    }
+  },
+  {
+    "id": "guided/seed11/cap3",
+    "method": "guided",
+    "seed": 11,
+    "target_calls": 3.0,
+    "validation_accuracy": 0.8077709611451943,
+    "validation_calls": 3.0,
+    "policy": {
+      "format": 3,
+      "predicate": "never",
+      "yes": null,
+      "no": {
+        "format": 4,
+        "predicate": "last_diff",
+        "yes": {
+          "format": 0,
+          "predicate": "invalid",
+          "yes": null,
+          "no": null
+        },
+        "no": {
+          "format": 2,
+          "predicate": "invalid",
+          "yes": {
+            "format": 0,
+            "predicate": "remaining1",
+            "yes": {
+              "format": 1,
+              "predicate": "margin2",
+              "yes": null,
+              "no": null
+            },
+            "no": null
+          },
+          "no": null
+        }
+      }
+    }
+  },
+  {
+    "id": "random/seed29/cap1",
+    "method": "random",
+    "seed": 29,
+    "target_calls": 1.0,
+    "validation_accuracy": 0.7914110429447853,
+    "validation_calls": 1.0,
+    "policy": {
+      "format": 4,
+      "predicate": "margin2",
+      "yes": null,
+      "no": null
+    }
+  },
+  {
+    "id": "random/seed29/cap2",
+    "method": "random",
+    "seed": 29,
+    "target_calls": 2.0,
+    "validation_accuracy": 0.7914110429447853,
+    "validation_calls": 1.0,
+    "policy": {
+      "format": 4,
+      "predicate": "margin2",
+      "yes": null,
+      "no": null
+    }
+  },
+  {
+    "id": "random/seed29/cap3",
+    "method": "random",
+    "seed": 29,
+    "target_calls": 3.0,
+    "validation_accuracy": 0.8077709611451943,
+    "validation_calls": 2.2065439672801634,
+    "policy": {
+      "format": 3,
+      "predicate": "agreement2",
+      "yes": {
+        "format": 4,
+        "predicate": "remaining1",
+        "yes": {
+          "format": 0,
+          "predicate": "invalid",
+          "yes": null,
+          "no": {
+            "format": 1,
+            "predicate": "remaining1",
+            "yes": {
+              "format": 2,
+              "predicate": "invalid",
+              "yes": null,
+              "no": null
+            },
+            "no": null
+          }
+        },
+        "no": null
+      },
+      "no": {
+        "format": 4,
+        "predicate": "agreement2",
+        "yes": null,
+        "no": {
+          "format": 0,
+          "predicate": "margin2",
+          "yes": {
+            "format": 2,
+            "predicate": "margin2",
+            "yes": {
+              "format": 1,
+              "predicate": "margin2",
+              "yes": null,
+              "no": null
+            },
+            "no": {
+              "format": 1,
+              "predicate": "unanimous",
+              "yes": null,
+              "no": null
+            }
+          },
+          "no": null
+        }
+      }
+    }
+  },
+  {
+    "id": "guided/seed29/cap1",
+    "method": "guided",
+    "seed": 29,
+    "target_calls": 1.0,
+    "validation_accuracy": 0.7914110429447853,
+    "validation_calls": 1.0,
+    "policy": {
+      "format": 4,
+      "predicate": "last_diff",
+      "yes": null,
+      "no": null
+    }
+  },
+  {
+    "id": "guided/seed29/cap2",
+    "method": "guided",
+    "seed": 29,
+    "target_calls": 2.0,
+    "validation_accuracy": 0.7914110429447853,
+    "validation_calls": 1.0,
+    "policy": {
+      "format": 4,
+      "predicate": "last_diff",
+      "yes": null,
+      "no": null
+    }
+  },
+  {
+    "id": "guided/seed29/cap3",
+    "method": "guided",
+    "seed": 29,
+    "target_calls": 3.0,
+    "validation_accuracy": 0.8077709611451943,
+    "validation_calls": 3.0,
+    "policy": {
+      "format": 3,
+      "predicate": "margin2",
+      "yes": {
+        "format": 1,
+        "predicate": "never",
+        "yes": null,
+        "no": null
+      },
+      "no": {
+        "format": 4,
+        "predicate": "remaining1",
+        "yes": {
+          "format": 2,
+          "predicate": "unanimous",
+          "yes": {
+            "format": 0,
+            "predicate": "unanimous",
+            "yes": {
+              "format": 1,
+              "predicate": "last_diff",
+              "yes": null,
+              "no": null
+            },
+            "no": null
+          },
+          "no": null
+        },
+        "no": {
+          "format": 0,
+          "predicate": "invalid",
+          "yes": null,
+          "no": null
+        }
+      }
+    }
+  },
+  {
+    "id": "random/seed47/cap1",
+    "method": "random",
+    "seed": 47,
+    "target_calls": 1.0,
+    "validation_accuracy": 0.7914110429447853,
+    "validation_calls": 1.0,
+    "policy": {
+      "format": 4,
+      "predicate": "margin2",
+      "yes": null,
+      "no": null
+    }
+  },
+  {
+    "id": "random/seed47/cap2",
+    "method": "random",
+    "seed": 47,
+    "target_calls": 2.0,
+    "validation_accuracy": 0.7914110429447853,
+    "validation_calls": 1.0,
+    "policy": {
+      "format": 4,
+      "predicate": "margin2",
+      "yes": null,
+      "no": null
+    }
+  },
+  {
+    "id": "random/seed47/cap3",
+    "method": "random",
+    "seed": 47,
+    "target_calls": 3.0,
+    "validation_accuracy": 0.8077709611451943,
+    "validation_calls": 2.2065439672801634,
+    "policy": {
+      "format": 3,
+      "predicate": "never",
+      "yes": null,
+      "no": {
+        "format": 4,
+        "predicate": "agreement2",
+        "yes": null,
+        "no": {
+          "format": 0,
+          "predicate": "unanimous",
+          "yes": null,
+          "no": null
+        }
+      }
+    }
+  },
+  {
+    "id": "guided/seed47/cap1",
+    "method": "guided",
+    "seed": 47,
+    "target_calls": 1.0,
+    "validation_accuracy": 0.7914110429447853,
+    "validation_calls": 1.0,
+    "policy": {
+      "format": 4,
+      "predicate": "margin2",
+      "yes": null,
+      "no": null
+    }
+  },
+  {
+    "id": "guided/seed47/cap2",
+    "method": "guided",
+    "seed": 47,
+    "target_calls": 2.0,
+    "validation_accuracy": 0.7914110429447853,
+    "validation_calls": 1.0,
+    "policy": {
+      "format": 4,
+      "predicate": "margin2",
+      "yes": null,
+      "no": null
+    }
+  },
+  {
+    "id": "guided/seed47/cap3",
+    "method": "guided",
+    "seed": 47,
+    "target_calls": 3.0,
+    "validation_accuracy": 0.7995910020449898,
+    "validation_calls": 2.6196319018404908,
+    "policy": {
+      "format": 3,
+      "predicate": "agreement2",
+      "yes": null,
+      "no": {
+        "format": 4,
+        "predicate": "last_diff",
+        "yes": {
+          "format": 0,
+          "predicate": "unanimous",
+          "yes": null,
+          "no": {
+            "format": 1,
+            "predicate": "unanimous",
+            "yes": {
+              "format": 2,
+              "predicate": "agreement2",
+              "yes": null,
+              "no": null
+            },
+            "no": {
+              "format": 2,
+              "predicate": "last_diff",
+              "yes": null,
+              "no": null
+            }
+          }
+        },
+        "no": null
+      }
+    }
+  },
+  {
+    "id": "random/seed71/cap1",
+    "method": "random",
+    "seed": 71,
+    "target_calls": 1.0,
+    "validation_accuracy": 0.7914110429447853,
+    "validation_calls": 1.0,
+    "policy": {
+      "format": 4,
+      "predicate": "never",
+      "yes": null,
+      "no": null
+    }
+  },
+  {
+    "id": "random/seed71/cap2",
+    "method": "random",
+    "seed": 71,
+    "target_calls": 2.0,
+    "validation_accuracy": 0.7914110429447853,
+    "validation_calls": 1.0,
+    "policy": {
+      "format": 4,
+      "predicate": "never",
+      "yes": null,
+      "no": null
+    }
+  },
+  {
+    "id": "random/seed71/cap3",
+    "method": "random",
+    "seed": 71,
+    "target_calls": 3.0,
+    "validation_accuracy": 0.8077709611451943,
+    "validation_calls": 2.214723926380368,
+    "policy": {
+      "format": 0,
+      "predicate": "agreement2",
+      "yes": null,
+      "no": {
+        "format": 3,
+        "predicate": "last_diff",
+        "yes": {
+          "format": 4,
+          "predicate": "unanimous",
+          "yes": {
+            "format": 1,
+            "predicate": "last_diff",
+            "yes": null,
+            "no": null
+          },
+          "no": null
+        },
+        "no": null
+      }
+    }
+  },
+  {
+    "id": "guided/seed71/cap1",
+    "method": "guided",
+    "seed": 71,
+    "target_calls": 1.0,
+    "validation_accuracy": 0.7914110429447853,
+    "validation_calls": 1.0,
+    "policy": {
+      "format": 4,
+      "predicate": "unanimous",
+      "yes": null,
+      "no": null
+    }
+  },
+  {
+    "id": "guided/seed71/cap2",
+    "method": "guided",
+    "seed": 71,
+    "target_calls": 2.0,
+    "validation_accuracy": 0.7914110429447853,
+    "validation_calls": 1.0,
+    "policy": {
+      "format": 4,
+      "predicate": "unanimous",
+      "yes": null,
+      "no": null
+    }
+  },
+  {
+    "id": "guided/seed71/cap3",
+    "method": "guided",
+    "seed": 71,
+    "target_calls": 3.0,
+    "validation_accuracy": 0.8077709611451943,
+    "validation_calls": 2.214723926380368,
+    "policy": {
+      "format": 0,
+      "predicate": "unanimous",
+      "yes": null,
+      "no": {
+        "format": 3,
+        "predicate": "last_diff",
+        "yes": {
+          "format": 4,
+          "predicate": "agreement2",
+          "yes": null,
+          "no": null
+        },
+        "no": null
+      }
+    }
+  },
+  {
+    "id": "random/seed101/cap1",
+    "method": "random",
+    "seed": 101,
+    "target_calls": 1.0,
+    "validation_accuracy": 0.7914110429447853,
+    "validation_calls": 1.0,
+    "policy": {
+      "format": 4,
+      "predicate": "unanimous",
+      "yes": null,
+      "no": null
+    }
+  },
+  {
+    "id": "random/seed101/cap2",
+    "method": "random",
+    "seed": 101,
+    "target_calls": 2.0,
+    "validation_accuracy": 0.7914110429447853,
+    "validation_calls": 1.0,
+    "policy": {
+      "format": 4,
+      "predicate": "unanimous",
+      "yes": null,
+      "no": null
+    }
+  },
+  {
+    "id": "random/seed101/cap3",
+    "method": "random",
+    "seed": 101,
+    "target_calls": 3.0,
+    "validation_accuracy": 0.803680981595092,
+    "validation_calls": 2.445807770961145,
+    "policy": {
+      "format": 4,
+      "predicate": "never",
+      "yes": null,
+      "no": {
+        "format": 2,
+        "predicate": "margin2",
+        "yes": null,
+        "no": {
+          "format": 3,
+          "predicate": "last_diff",
+          "yes": null,
+          "no": {
+            "format": 0,
+            "predicate": "invalid",
+            "yes": {
+              "format": 1,
+              "predicate": "last_diff",
+              "yes": null,
+              "no": null
+            },
+            "no": {
+              "format": 1,
+              "predicate": "invalid",
+              "yes": null,
+              "no": null
+            }
+          }
+        }
+      }
+    }
+  },
+  {
+    "id": "guided/seed101/cap1",
+    "method": "guided",
+    "seed": 101,
+    "target_calls": 1.0,
+    "validation_accuracy": 0.7914110429447853,
+    "validation_calls": 1.0,
+    "policy": {
+      "format": 4,
+      "predicate": "last_diff",
+      "yes": null,
+      "no": null
+    }
+  },
+  {
+    "id": "guided/seed101/cap2",
+    "method": "guided",
+    "seed": 101,
+    "target_calls": 2.0,
+    "validation_accuracy": 0.7914110429447853,
+    "validation_calls": 1.0,
+    "policy": {
+      "format": 4,
+      "predicate": "last_diff",
+      "yes": null,
+      "no": null
+    }
+  },
+  {
+    "id": "guided/seed101/cap3",
+    "method": "guided",
+    "seed": 101,
+    "target_calls": 3.0,
+    "validation_accuracy": 0.8077709611451943,
+    "validation_calls": 2.2065439672801634,
+    "policy": {
+      "format": 3,
+      "predicate": "never",
+      "yes": {
+        "format": 1,
+        "predicate": "invalid",
+        "yes": null,
+        "no": {
+          "format": 0,
+          "predicate": "invalid",
+          "yes": {
+            "format": 4,
+            "predicate": "remaining1",
+            "yes": null,
+            "no": null
+          },
+          "no": null
+        }
+      },
+      "no": {
+        "format": 4,
+        "predicate": "agreement2",
+        "yes": null,
+        "no": {
+          "format": 0,
+          "predicate": "margin2",
+          "yes": null,
+          "no": null
+        }
+      }
+    }
+  }
+]

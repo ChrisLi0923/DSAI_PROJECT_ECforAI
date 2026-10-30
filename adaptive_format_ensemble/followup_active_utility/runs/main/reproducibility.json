@@ -1,0 +1,171 @@
+{
+  "config": {
+    "model": {
+      "name": "Qwen/Qwen2.5-3B-Instruct",
+      "revision": "aa8e72537993ba99e69dfaafa59ed015b17504d1",
+      "batch_size": 1,
+      "target_max_tokens": 8,
+      "proposer_max_tokens": 160,
+      "max_input_tokens": 1536,
+      "min_free_gib": 18,
+      "memory_fraction": 0.4
+    },
+    "targets": [
+      1.0,
+      2.0,
+      3.0
+    ],
+    "protocol_version": 1,
+    "study": "Study 2 post-study active-node/decision-utility repair",
+    "search": {
+      "seeds": [
+        11,
+        29,
+        47,
+        71,
+        101
+      ],
+      "population": 32,
+      "policy_evaluation_budget": 4096,
+      "max_trial_edits": 8,
+      "random_exploration": 0.2,
+      "utility_call_penalty": 0.01,
+      "hill_restart_after": 8,
+      "variants": [
+        "G0",
+        "G1",
+        "G2",
+        "G3",
+        "hill"
+      ]
+    },
+    "analysis": {
+      "primary_cap": 3.0,
+      "bootstrap_replicates": 2000,
+      "bootstrap_seed": 291029,
+      "comparisons": [
+        [
+          "G1",
+          "G0"
+        ],
+        [
+          "G2",
+          "G1"
+        ],
+        [
+          "G2",
+          "G3"
+        ],
+        [
+          "G2",
+          "ordered_triple"
+        ],
+        [
+          "G2",
+          "hill"
+        ],
+        [
+          "G2",
+          "legacy_greedy"
+        ]
+      ],
+      "metrics": [
+        "accuracy",
+        "calls",
+        "utility",
+        "tokens",
+        "invalid"
+      ],
+      "unit": "whole_question",
+      "seed_aggregation": "average_fitted_seeds_within_question",
+      "interval_scope": "conditional_on_fitted_policies",
+      "test_frontier": "descriptive_only"
+    },
+    "new_final": {
+      "requested_n": 1000,
+      "reservation_seed": 20261029,
+      "source": "newly held-out official training subset"
+    }
+  },
+  "files": {
+    "repair/__init__.py": "e17ed58e7cb7895f089db0cb4574171139f55f58b8d212d71637b740c014ca03",
+    "repair/analysis.py": "2b11ced950616589d7c89736a155ca5af90b4cf4bf60ed124c95b57bd66339cb",
+    "repair/baselines.py": "90a783ac568ce5a1e0680d7c13d12984c73375cf1d0b46e70595ea5afa7981ce",
+    "repair/cache.py": "deb06c2035caf584f72d69bb66b1a6bf342c41a9db23735a0226b4c305e9beb6",
+    "repair/data.py": "fef8efd89d76e7eca5baf8540d1e49a9de5e3775cbaa268a3fe55a932e0512ef",
+    "repair/gpu.py": "aee2763d5c35bcffb575deb5bf2f0dccba9c862898346d3bd33b5c23e75c4ce4",
+    "repair/ledger.py": "47489e6aee1d98700ca10044174e0bf223799925f5f91e64d1c27b6b35f1b2c6",
+    "repair/operators.py": "129175bfc7c206de818c8be506df113e16fb1d2fb618edfbb54374e3e1abfcfe",
+    "repair/replay.py": "3ce68c8f9859d026b22263949fcbfd79149a94b44d076ebe4726602801e64142",
+    "repair/search.py": "a3dd06fcc7585cd209611da2c95f53b2fea98758cea01f5459eea1725fcf7ed8",
+    "repair/workflow.py": "a22a054dc7c537e560b4b87c4fd5820829629f5fb6013996467158633a45bc47",
+    "afe/__init__.py": "78b972ae7e1877d1b47d7a90e5b075818edcf51c686810e4804ff02724ad439c",
+    "afe/cache.py": "44590d7ade9e8077e59b8e868abd0b381400d5b78e2505c4d1eb07184e25030a",
+    "afe/document.py": "b8daa7f15114ed6b7a20d64a1620b440f69d30ba18bd81458887f418db128f33",
+    "afe/legacy_search.py": "56b5ff821a282f663dfbd4480d51f2286d03b8fe70034b44d8bdc5e5b093da0b",
+    "afe/policy.py": "29b3919d9229ca23f7e254e579e01aad6f9423089d8e123be0948e04b3fc0dbf",
+    "reused/__init__.py": "e130e35a14d9a1cd59b8546fd551ebdd03cf3d54f28fba47303f0840cd3ebf8c",
+    "reused/core.py": "4aa04aad63adff953899297048b779fece5db948797b256414a21b5b14335b55",
+    "reused/gpu_select.py": "ab7dff4c088f6311d3275d1e7e8253a4fafc148493babd3a68da1121b2932d25",
+    "reused/model.py": "81b751a6d8f24f103c5ae76bd4c2ba1e90ee42b1f90c36fd5399ecab3020fbf8",
+    "reused/storage.py": "808da4b91759088430898e7f654c552d825bc59289671fbb48b3099e4efa564d",
+    "configs/main.json": "88a67e78b366fb5be139cb1c5fa17a80f1a094e16b2cb5ccb0e8edcfd82a397c",
+    "configs/runtime_estimate.json": "a0c89bedc6b0eca5837323c84ef0b2f72ea207efe9fdd35d51f2123a07da91ff",
+    "configs/starting_state.json": "07d25b8a69f0fc5109dd08cf6a4b5460816a915b26b744fa89458696a25fd3ac",
+    "scripts/benchmark.py": "d2f80d8e01fe6d8586ecf0875210cd8c816473ebb39d33fb893c5da2b70c8b79",
+    "scripts/check_launch.py": "c295efe2854fe254a5b86f5d1490ae3d9177c2a5742c3ea24beb8b9c908010dc",
+    "scripts/launch_tmux.py": "4ab17e9d00f1ff6e4ab36120b57804cb47be84282f096c29c656be9dfa0b839b",
+    "scripts/run_main.sh": "ddb470334c6e9e9e0eae8c243e69628e6b853d4e816b1dd8f51e933a60a726ce",
+    "scripts/smoke.py": "36d419e4b1eb1ec42760baf5206172c051c513ed1ba5ca2d32b2d7753dbc223c",
+    "scripts/verify.py": "e8d163019e4fd6a99b19e5de96ccf1439e1ce13743d09b6f0fc7a5821be74e75",
+    "tests/test_repair.py": "afa0a0d14e583307b15758c39005b631820028c11b9098cda8533dc8472354dc",
+    "docs/course_brief.txt": "bcd5819c1cb48fed0fe0a5ff1c64f35a6025a8b7ad93137e38500aa562cf155c",
+    "docs/course_checklist.md": "4ad90d002f39b3adc8bf4a63701970ddaa318c030811161b4b68ae3a9b372f0a",
+    "docs/literature.md": "2150440796a6b49eaeb5885639f0fdee5e113b397ed6cd83bee057558de9ccae",
+    "docs/protocol.md": "271d0414b36b333b5480dfa56a249966ddc63bf19ef298e39cc66ffbd9841820",
+    "docs/verification.md": "d3a2ad50be450a5c2714530f9416b2b39aa178abf2e02624d06a1e79e97518b6"
+  },
+  "data_manifest": {
+    "dataset": "allenai/openbookqa",
+    "revision": "388097ea7776314e93a529163e0fea805b8a6454",
+    "source_split": "train",
+    "description": "Newly held-out subset of the official OpenBookQA training split; not the official test split",
+    "source_train_sha256": "98148f8a54e62eb862346a75192d5fb824d6cbb68f2f59aecd793d39ecb5cd8b",
+    "eligible_unused_before_reservation": 4146,
+    "requested_final": 1000,
+    "reserved_final": 1000,
+    "reservation_seed": 20261029,
+    "counts": {
+      "search": 512,
+      "validation": 489,
+      "test": 1000
+    },
+    "hashes": {
+      "search": "ca804c557d9d881a3010b18dbb32d61a6b8e430efc71aa80c03990768bcfd643",
+      "validation": "c4e5bf5039214971e03ae48ba2a5cb381e433aa7469f7e5af893a0c32e9b1256",
+      "test": "f79ec810385024c3c2d0ed9a0ac7889071aa8c2b9e672a224cdd01a3db4f36ed"
+    },
+    "history_inventory_hash": "403cf7ff1ea83a25a4bb06aafa676622432d099d3cd6468d4d817439fa5c0cf2",
+    "exclusion_counts": {
+      "previous_normalized_question_stem": 640,
+      "previous_question_option_content": 599,
+      "previous_split_or_query_id": 576,
+      "possible_missing_media": 38,
+      "option_position_reference": 30,
+      "duplicate_remaining_source_question": 96,
+      "duplicate_options": 3,
+      "relative_option_reference": 4
+    },
+    "limits": "Exact IDs, normalized stems and unordered question-option content only; semantic paraphrases and pretraining overlap are not guaranteed absent. Reading/filtering raw source data is not a model query.",
+    "final_previews": "Created only after policy freeze; final performance unseen during preparation."
+  },
+  "manual_instruction_hash": "7e61b322804b6ccbc48154a891244f081ff4cb58604ae21c2b90c59c18536445",
+  "packages": {
+    "torch": "2.6.0+cu124",
+    "transformers": "4.51.3",
+    "numpy": "2.2.5",
+    "pyarrow": "26.0.0",
+    "matplotlib": "3.10.1"
+  },
+  "previous_greedy_hash": "b0f3cb93870cdf6a0ef97e088c5bf9a2e5702c6433bb5a1f2c90fcb16754a2ab"
+}

@@ -1,0 +1,21 @@
+{
+  "root_files_sha256": {
+    "data-prepare.log": "b89c5bf3fde4e53906e374c882d30df1e5c49c2845202f13bb5f91f33ef4e5ff",
+    "packages-install.log": "2ce4491134adfe19849cf150a88c0f3644181699862bd5e4f55ae8242ab0f243",
+    "README.md": "0ecf1688065e72b7593a923f1fae0c524a3d46c236628649dc22f63fd7cc865d",
+    "environment.yml": "e1e8ded25dd19b331190d14672b53b81d71cf359bafa05354bf28823bc17afd2",
+    "assets-prepare.log": "2946cb759d8264a5ebfc407e7b82af04f277fa75372c563b63b31e3995106ebc",
+    "final-dependencies.log": "c1732a8ca8c73a37ecae524c9a7c6e0e149dbbc63c51fee879986e3e6ef52b73",
+    "requirements-lock.txt": "5dc450f831f9b81a2c396d3047640848eadec291f58cf6720fe46e776bb3947d",
+    "CHANGELOG.md": "38975bd433602bbeb613a91b419f8fbc112a3adaf42e87e16106ee951d2d03ea",
+    "requirements.txt": "8887c2cce842fed40f43a06f149c29b2aa045c022111398224cb5febf5e89167",
+    "conda-explicit.txt": "da24c42e270e75cf1439cbaef6d4ebc91316e5778cec9602c0f96e67d8e490bc",
+    ".gitignore": "1f42a531d2d8301e3ef6d662b63335edf976ac4bad62f5cb2d73a0964c2289f2",
+    "pyproject.toml": "598a288c27d7e40f898726676100a356cfc3c32d694de096b652d80580cfeae7",
+    "xet-install.log": "6207ddbebfd625a9c324e835cb8b2e8dfca48ad2260a0939924fdb8acedcb2f9",
+    "torch-install.log": "8cc4acf8ee99f64e76f3030db6753d9094d5b7246c92361939d773c074bf4470",
+    "jinja-install.log": "2c759f0c1411c27f6aaac8881a15895da9665b347234595c04148d27dbda0b5f",
+    "transfer-install.log": "056b624455c3ffccef6d0396f64730c7b835a44475616b9c9074dc12647cfea7"
+  },
+  "note": "Files moved without content changes; compatibility symlinks preserve original absolute paths. Completed results preserved."
+}

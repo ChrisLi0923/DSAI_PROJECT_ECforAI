@@ -1,0 +1,15 @@
+{
+  "check": "protocol v2 completed-run resume",
+  "before": [
+    312,
+    25,
+    77
+  ],
+  "after": [
+    312,
+    25,
+    77
+  ],
+  "new_inference_attempts": 0,
+  "seconds": 0.18779533356428146
+}

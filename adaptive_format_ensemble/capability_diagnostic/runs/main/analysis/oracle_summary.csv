@@ -1,0 +1,7 @@
+split,label,bank,n,covered,accuracy,additional_covered_over_five
+search,original_five,"['original', 'inline', 'bullets', 'rotate1', 'rotate2']",1500,1369,0.9126666666666666,0
+search,five_plus_available,"['original', 'inline', 'bullets', 'rotate1', 'rotate2', 'content', 'elimination', 'principle']",1500,1413,0.942,44
+search,five_plus_selected,"['original', 'inline', 'bullets', 'rotate1', 'rotate2', 'elimination', 'principle']",1500,1407,0.938,38
+validation,original_five,"['original', 'inline', 'bullets', 'rotate1', 'rotate2']",489,446,0.9120654396728016,0
+validation,five_plus_available,"['original', 'inline', 'bullets', 'rotate1', 'rotate2', 'elimination', 'principle']",489,451,0.9222903885480572,5
+validation,five_plus_selected,"['original', 'inline', 'bullets', 'rotate1', 'rotate2', 'elimination', 'principle']",489,451,0.9222903885480572,5

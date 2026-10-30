@@ -1,0 +1,20 @@
+{
+  "target": "dsai:1:retrieval-pilot-1030-150757",
+  "command": "bash /home/hli/dsai/adaptive_format_ensemble/retrieval_pilot/scripts/run_main.sh",
+  "argv": [
+    "tmux",
+    "new-window",
+    "-d",
+    "-P",
+    "-F",
+    "#{session_name}:#{window_index}:#{window_name}",
+    "-t",
+    "dsai:",
+    "-n",
+    "retrieval-pilot-1030-150757",
+    "bash /home/hli/dsai/adaptive_format_ensemble/retrieval_pilot/scripts/run_main.sh"
+  ],
+  "gpu_snapshot": "GPU-f7b9ffec-17f1-168f-ecdc-c0f5c4eacf4b",
+  "previous_windows": "0: bash* (1 panes) [104x17] [layout c27d,104x17,0,0,0] @0 (active)\n",
+  "unix": 1793344077.9569185
+}

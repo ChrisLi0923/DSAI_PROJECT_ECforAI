@@ -1,0 +1,76 @@
+{
+  "selected": {
+    "A/manual": {
+      "condition": "A",
+      "seed": null,
+      "prompt": "Solve the science multiple-choice question carefully. Choose the single best answer based on its content, regardless of layout or option order.",
+      "selection": "fixed manual"
+    },
+    "B/11": {
+      "condition": "B",
+      "seed": 11,
+      "index": 0,
+      "prompt": "Solve the science multiple-choice question carefully. Choose the single best answer based on its content, regardless of layout or option order.",
+      "score": 0.5,
+      "objective": "robust",
+      "parents": [],
+      "operation": "initial",
+      "groups": 2,
+      "calls": 10,
+      "validation_robust": 1.0
+    },
+    "C/11": {
+      "condition": "C",
+      "seed": 11,
+      "index": 0,
+      "prompt": "Solve the science multiple-choice question carefully. Choose the single best answer based on its content, regardless of layout or option order.",
+      "score": 1.0,
+      "objective": "original",
+      "parents": [],
+      "operation": "initial",
+      "groups": 2,
+      "calls": 2,
+      "validation_robust": 1.0
+    },
+    "D/11": {
+      "condition": "D",
+      "seed": 11,
+      "index": 0,
+      "prompt": "Solve the science multiple-choice question carefully. Choose the single best answer based on its content, regardless of layout or option order.",
+      "score": 0.9,
+      "objective": "average",
+      "parents": [],
+      "operation": "initial",
+      "groups": 2,
+      "calls": 10,
+      "validation_robust": 1.0
+    },
+    "E/11": {
+      "condition": "E",
+      "seed": 11,
+      "index": 0,
+      "prompt": "Solve the science multiple-choice question carefully. Choose the single best answer based on its content, regardless of layout or option order.",
+      "score": 0.5,
+      "objective": "robust",
+      "parents": [],
+      "operation": "initial",
+      "groups": 2,
+      "calls": 10,
+      "validation_robust": 1.0
+    }
+  },
+  "config_sha256": "8083eb8545f6e0439809cb3d015675965ecb25b607a102bef04ea61a904d55c9",
+  "seen": [
+    "original",
+    "inline",
+    "bullets",
+    "rotate1",
+    "rotate2"
+  ],
+  "withheld": [
+    "table",
+    "choices_first",
+    "reverse"
+  ],
+  "policy": "All prompts frozen before first final-test inference; no test-guided selection."
+}

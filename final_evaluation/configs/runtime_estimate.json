@@ -1,0 +1,17 @@
+{
+  "planned_main_calls": 5000,
+  "development_smoke_extra_calls": 10,
+  "measured_generation_seconds_per_call": 0.17616261839866637,
+  "measured_smoke_input_tokens": 964,
+  "measured_smoke_output_tokens": 20,
+  "planned_input_tokens": 500784,
+  "maximum_input_tokens": 172,
+  "input_length_scale": 1.0389709543568464,
+  "model_minutes": 15.25232031330528,
+  "checkpoint_extrapolation_minutes": 3.3648903171221414,
+  "planned_wall_minutes_range": [
+    28.271513288034274,
+    41.649258071726614
+  ],
+  "exclusions": "Ten development-only calls, not a precise capacity forecast. Includes input scaling,25–70% inference/I-O margin and5–10min CPU/render/package allowance. Excludes future GPU contention, retries, downtime and new experiments. Reserve prompts tokenized only; no outcomes generated."
+}

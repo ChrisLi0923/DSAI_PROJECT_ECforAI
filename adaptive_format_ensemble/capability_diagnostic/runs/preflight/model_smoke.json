@@ -1,0 +1,1183 @@
+{
+  "passed": true,
+  "calls": 12,
+  "extra_nonreusable_verification_calls": 0,
+  "all_calls_reused_by_main": true,
+  "wall_seconds": 10.97326173633337,
+  "new_calls_this_invocation": 0,
+  "syntax_only_pre_freeze_reparse": true,
+  "inference_seconds": 10.491009257733822,
+  "strategy_calls": 6,
+  "strategy_seconds": 9.596846342086792,
+  "strategy_input_tokens": 808,
+  "strategy_output_tokens": 125,
+  "strategy_input_range": [
+    131,
+    138
+  ],
+  "strategy_output_range": [
+    12,
+    45
+  ],
+  "strategy_mean_seconds": 1.5994743903477986,
+  "hardware": {
+    "gpu": "NVIDIA GeForce RTX 4090",
+    "visible_devices": "GPU-f7b9ffec-17f1-168f-ecdc-c0f5c4eacf4b",
+    "free_gib_before_load": 20.0987548828125,
+    "total_gib": 23.64288330078125,
+    "torch": "2.6.0+cu124",
+    "cuda": "12.4",
+    "load_seconds": 6.124474495649338,
+    "dtype": "bfloat16",
+    "deterministic_algorithms": true,
+    "cpu_threads": 4,
+    "tf32": false,
+    "attention": "sdpa",
+    "memory_fraction": 0.4
+  },
+  "responses": [
+    {
+      "raw": "The scientific principle is related to cloud physics and precipitation formation: FINAL: C",
+      "raw_with_special_tokens": "The scientific principle is related to cloud physics and precipitation formation: FINAL: C<|im_end|>",
+      "output_token_ids": [
+        785,
+        12344,
+        17508,
+        374,
+        5435,
+        311,
+        9437,
+        21321,
+        323,
+        59950,
+        18003,
+        25,
+        66959,
+        25,
+        356,
+        151645
+      ],
+      "input_tokens": 134,
+      "output_tokens": 16,
+      "seconds": 1.4654716327786446,
+      "padded_input_tokens": 134,
+      "finish_reason": "eos",
+      "letter": "C",
+      "identity": 2,
+      "valid": true,
+      "parse_status": "valid",
+      "text_letter_conflict": false,
+      "text_identity": null,
+      "letter_identity": 2,
+      "key": "d5829c10eed0f76fd8c63ca074af9fcd1b6a56f2858f68e42330aa73a5191a0c",
+      "qid": "obqa/train/12-579",
+      "condition": "principle",
+      "split": "search",
+      "mapping": {
+        "A": 0,
+        "B": 1,
+        "C": 2,
+        "D": 3
+      },
+      "request_identity": {
+        "schema": "capability-1",
+        "model": {
+          "name": "Qwen/Qwen2.5-3B-Instruct",
+          "revision": "aa8e72537993ba99e69dfaafa59ed015b17504d1",
+          "batch_size": 1,
+          "target_max_tokens": 8,
+          "proposer_max_tokens": 160,
+          "max_input_tokens": 1536,
+          "min_free_gib": 18,
+          "memory_fraction": 0.4
+        },
+        "tokenizer_revision": "aa8e72537993ba99e69dfaafa59ed015b17504d1",
+        "question": {
+          "id": "obqa/train/12-579",
+          "source": "train",
+          "question": "Something is coming out of clouds on a dark day, so it is likely",
+          "options": [
+            "birds",
+            "dust",
+            "precipitation",
+            "angels"
+          ]
+        },
+        "messages": [
+          {
+            "role": "system",
+            "content": "Solve the science multiple-choice question carefully. Choose the single best answer based on its content, regardless of layout or option order.\nFirst briefly state the scientific principle relevant to the question, then choose the best option. Use no more than 40 words before your answer. End with a separate line exactly FINAL: X, replacing X with one uppercase displayed option letter A, B, C, or D. Do not write anything after that line."
+          },
+          {
+            "role": "user",
+            "content": "Something is coming out of clouds on a dark day, so it is likely\nA. birds\nB. dust\nC. precipitation\nD. angels"
+          }
+        ],
+        "instruction_hash": "5a5595556c7b6eb1b29da3632d4f8844740267ee82483ff57c3e58e6b5c4a86e",
+        "rendered_input": "Something is coming out of clouds on a dark day, so it is likely\nA. birds\nB. dust\nC. precipitation\nD. angels",
+        "format": "original",
+        "permutation": {
+          "A": 0,
+          "B": 1,
+          "C": 2,
+          "D": 3
+        },
+        "decoding": {
+          "do_sample": false,
+          "seed": 0,
+          "max_new_tokens": 128,
+          "batch_size": 1,
+          "dtype": "bfloat16",
+          "attention": "sdpa",
+          "deterministic": true,
+          "padding_side": "left"
+        }
+      },
+      "created_unix": 1793293447.5850148,
+      "max_new_tokens": 128,
+      "truncated": false,
+      "raw_sha256": "9df09ad501b17e54057a9da03f158bd37d7efc58a8e59b81ec2e833739365160",
+      "text_prefix_letter": null,
+      "text_match_status": null
+    },
+    {
+      "raw": "Dark days often bring precipitation from clouds, unlike birds, dust, or angels. FINAL: C",
+      "raw_with_special_tokens": "Dark days often bring precipitation from clouds, unlike birds, dust, or angels. FINAL: C<|im_end|>",
+      "output_token_ids": [
+        25830,
+        2849,
+        3545,
+        4446,
+        59950,
+        504,
+        29514,
+        11,
+        19836,
+        19654,
+        11,
+        15797,
+        11,
+        476,
+        45868,
+        13,
+        66959,
+        25,
+        356,
+        151645
+      ],
+      "input_tokens": 131,
+      "output_tokens": 20,
+      "seconds": 1.4741658419370651,
+      "padded_input_tokens": 131,
+      "finish_reason": "eos",
+      "letter": "C",
+      "identity": 2,
+      "valid": true,
+      "parse_status": "valid",
+      "text_letter_conflict": false,
+      "text_identity": null,
+      "letter_identity": 2,
+      "key": "eff9b34420f9d4e0449cf722f35ef83386876f9f0a0de20e22e0a948ae2539fa",
+      "qid": "obqa/train/12-579",
+      "condition": "elimination",
+      "split": "search",
+      "mapping": {
+        "A": 0,
+        "B": 1,
+        "C": 2,
+        "D": 3
+      },
+      "request_identity": {
+        "schema": "capability-1",
+        "model": {
+          "name": "Qwen/Qwen2.5-3B-Instruct",
+          "revision": "aa8e72537993ba99e69dfaafa59ed015b17504d1",
+          "batch_size": 1,
+          "target_max_tokens": 8,
+          "proposer_max_tokens": 160,
+          "max_input_tokens": 1536,
+          "min_free_gib": 18,
+          "memory_fraction": 0.4
+        },
+        "tokenizer_revision": "aa8e72537993ba99e69dfaafa59ed015b17504d1",
+        "question": {
+          "id": "obqa/train/12-579",
+          "source": "train",
+          "question": "Something is coming out of clouds on a dark day, so it is likely",
+          "options": [
+            "birds",
+            "dust",
+            "precipitation",
+            "angels"
+          ]
+        },
+        "messages": [
+          {
+            "role": "system",
+            "content": "Solve the science multiple-choice question carefully. Choose the single best answer based on its content, regardless of layout or option order.\nBriefly compare and eliminate the alternatives, then choose the best option. Use no more than 40 words before your answer. End with a separate line exactly FINAL: X, replacing X with one uppercase displayed option letter A, B, C, or D. Do not write anything after that line."
+          },
+          {
+            "role": "user",
+            "content": "Something is coming out of clouds on a dark day, so it is likely\nA. birds\nB. dust\nC. precipitation\nD. angels"
+          }
+        ],
+        "instruction_hash": "f88703bb9b9df779499880b55556fa203b65425f994594cb5f4b07050cc60a52",
+        "rendered_input": "Something is coming out of clouds on a dark day, so it is likely\nA. birds\nB. dust\nC. precipitation\nD. angels",
+        "format": "original",
+        "permutation": {
+          "A": 0,
+          "B": 1,
+          "C": 2,
+          "D": 3
+        },
+        "decoding": {
+          "do_sample": false,
+          "seed": 0,
+          "max_new_tokens": 128,
+          "batch_size": 1,
+          "dtype": "bfloat16",
+          "attention": "sdpa",
+          "deterministic": true,
+          "padding_side": "left"
+        }
+      },
+      "created_unix": 1793293449.0985968,
+      "max_new_tokens": 128,
+      "truncated": false,
+      "raw_sha256": "6ccf8311cc71ec691fc3a6f873b6fb15daac6612ad822f3db56ccf190add53e6",
+      "text_prefix_letter": null,
+      "text_match_status": null
+    },
+    {
+      "raw": "SELECTED_TEXT: C. precipitation\nFINAL: C",
+      "raw_with_special_tokens": "SELECTED_TEXT: C. precipitation\nFINAL: C<|im_end|>",
+      "output_token_ids": [
+        4858,
+        1479,
+        10243,
+        25,
+        356,
+        13,
+        59950,
+        198,
+        98848,
+        25,
+        356,
+        151645
+      ],
+      "input_tokens": 136,
+      "output_tokens": 12,
+      "seconds": 0.8826259821653366,
+      "padded_input_tokens": 136,
+      "finish_reason": "eos",
+      "letter": "C",
+      "identity": 2,
+      "valid": true,
+      "parse_status": "valid",
+      "text_letter_conflict": false,
+      "text_identity": 2,
+      "letter_identity": 2,
+      "key": "c1342c1bc08bcf3367d27e6b69c966dc7523b4a686f1e7dc07363984a5c7f141",
+      "qid": "obqa/train/12-579",
+      "condition": "content",
+      "split": "search",
+      "mapping": {
+        "A": 0,
+        "B": 1,
+        "C": 2,
+        "D": 3
+      },
+      "request_identity": {
+        "schema": "capability-1",
+        "model": {
+          "name": "Qwen/Qwen2.5-3B-Instruct",
+          "revision": "aa8e72537993ba99e69dfaafa59ed015b17504d1",
+          "batch_size": 1,
+          "target_max_tokens": 8,
+          "proposer_max_tokens": 160,
+          "max_input_tokens": 1536,
+          "min_free_gib": 18,
+          "memory_fraction": 0.4
+        },
+        "tokenizer_revision": "aa8e72537993ba99e69dfaafa59ed015b17504d1",
+        "question": {
+          "id": "obqa/train/12-579",
+          "source": "train",
+          "question": "Something is coming out of clouds on a dark day, so it is likely",
+          "options": [
+            "birds",
+            "dust",
+            "precipitation",
+            "angels"
+          ]
+        },
+        "messages": [
+          {
+            "role": "system",
+            "content": "Solve the science multiple-choice question carefully. Choose the single best answer based on its content, regardless of layout or option order.\nSelect the answer by its content first. Return exactly two lines. First write SELECTED_TEXT: followed by the exact complete text of the selected option, without quotation marks. Then write FINAL: X, replacing X with its uppercase displayed option letter A, B, C, or D. Do not write any explanation or other text."
+          },
+          {
+            "role": "user",
+            "content": "Something is coming out of clouds on a dark day, so it is likely\nA. birds\nB. dust\nC. precipitation\nD. angels"
+          }
+        ],
+        "instruction_hash": "da1a1c504b62935f6ab43d0fa32caad6e6e2346fce06e4b87a6e73839cd40b58",
+        "rendered_input": "Something is coming out of clouds on a dark day, so it is likely\nA. birds\nB. dust\nC. precipitation\nD. angels",
+        "format": "original",
+        "permutation": {
+          "A": 0,
+          "B": 1,
+          "C": 2,
+          "D": 3
+        },
+        "decoding": {
+          "do_sample": false,
+          "seed": 0,
+          "max_new_tokens": 128,
+          "batch_size": 1,
+          "dtype": "bfloat16",
+          "attention": "sdpa",
+          "deterministic": true,
+          "padding_side": "left"
+        }
+      },
+      "created_unix": 1793293450.018152,
+      "max_new_tokens": 128,
+      "truncated": false,
+      "raw_sha256": "27480b44084dcf937102ec9f0499e2372d0e9f4a269d8dae5b9868de04c2f68d",
+      "text_prefix_letter": "C",
+      "text_match_status": "single_display_label_prefix_removed"
+    },
+    {
+      "raw": "The principle is friction: objects move more easily over surfaces with higher friction. FINAL: B",
+      "raw_with_special_tokens": "The principle is friction: objects move more easily over surfaces with higher friction. FINAL: B<|im_end|>",
+      "output_token_ids": [
+        785,
+        17508,
+        374,
+        38576,
+        25,
+        6171,
+        3271,
+        803,
+        6707,
+        916,
+        26431,
+        448,
+        5080,
+        38576,
+        13,
+        66959,
+        25,
+        425,
+        151645
+      ],
+      "input_tokens": 136,
+      "output_tokens": 19,
+      "seconds": 1.4189544469118118,
+      "padded_input_tokens": 136,
+      "finish_reason": "eos",
+      "letter": "B",
+      "identity": 1,
+      "valid": true,
+      "parse_status": "valid",
+      "text_letter_conflict": false,
+      "text_identity": null,
+      "letter_identity": 1,
+      "key": "a740a08b4b53e71a115cc99424978880df66f3c8ec17ff475681b3cd3b56a91d",
+      "qid": "obqa/train/10-119",
+      "condition": "principle",
+      "split": "search",
+      "mapping": {
+        "A": 0,
+        "B": 1,
+        "C": 2,
+        "D": 3
+      },
+      "request_identity": {
+        "schema": "capability-1",
+        "model": {
+          "name": "Qwen/Qwen2.5-3B-Instruct",
+          "revision": "aa8e72537993ba99e69dfaafa59ed015b17504d1",
+          "batch_size": 1,
+          "target_max_tokens": 8,
+          "proposer_max_tokens": 160,
+          "max_input_tokens": 1536,
+          "min_free_gib": 18,
+          "memory_fraction": 0.4
+        },
+        "tokenizer_revision": "aa8e72537993ba99e69dfaafa59ed015b17504d1",
+        "question": {
+          "id": "obqa/train/10-119",
+          "source": "train",
+          "question": "A cat finds it easiest to get a grip when climbing up",
+          "options": [
+            "plastic pole",
+            "carpeted pole",
+            "icy pole",
+            "metal pole"
+          ]
+        },
+        "messages": [
+          {
+            "role": "system",
+            "content": "Solve the science multiple-choice question carefully. Choose the single best answer based on its content, regardless of layout or option order.\nFirst briefly state the scientific principle relevant to the question, then choose the best option. Use no more than 40 words before your answer. End with a separate line exactly FINAL: X, replacing X with one uppercase displayed option letter A, B, C, or D. Do not write anything after that line."
+          },
+          {
+            "role": "user",
+            "content": "A cat finds it easiest to get a grip when climbing up\nA. plastic pole\nB. carpeted pole\nC. icy pole\nD. metal pole"
+          }
+        ],
+        "instruction_hash": "5a5595556c7b6eb1b29da3632d4f8844740267ee82483ff57c3e58e6b5c4a86e",
+        "rendered_input": "A cat finds it easiest to get a grip when climbing up\nA. plastic pole\nB. carpeted pole\nC. icy pole\nD. metal pole",
+        "format": "original",
+        "permutation": {
+          "A": 0,
+          "B": 1,
+          "C": 2,
+          "D": 3
+        },
+        "decoding": {
+          "do_sample": false,
+          "seed": 0,
+          "max_new_tokens": 128,
+          "batch_size": 1,
+          "dtype": "bfloat16",
+          "attention": "sdpa",
+          "deterministic": true,
+          "padding_side": "left"
+        }
+      },
+      "created_unix": 1793293451.47425,
+      "max_new_tokens": 128,
+      "truncated": false,
+      "raw_sha256": "af90797d73a669dfa5d1aa752f2581642ef8a6ae314a6823c3ce43c759bdd65c",
+      "text_prefix_letter": null,
+      "text_match_status": null
+    },
+    {
+      "raw": "Climbing up an icy pole is most challenging due to slippery conditions; plastic poles are smooth but not as slippery as ice. Carpeted poles offer better traction. Metal poles can be slippery if wet. FINAL: D",
+      "raw_with_special_tokens": "Climbing up an icy pole is most challenging due to slippery conditions; plastic poles are smooth but not as slippery as ice. Carpeted poles offer better traction. Metal poles can be slippery if wet. FINAL: D<|im_end|>",
+      "output_token_ids": [
+        34,
+        4659,
+        7132,
+        705,
+        458,
+        65904,
+        25026,
+        374,
+        1429,
+        17003,
+        4152,
+        311,
+        70572,
+        4682,
+        26,
+        12188,
+        50779,
+        525,
+        10876,
+        714,
+        537,
+        438,
+        70572,
+        438,
+        9853,
+        13,
+        71208,
+        291,
+        50779,
+        3010,
+        2664,
+        46855,
+        13,
+        19206,
+        50779,
+        646,
+        387,
+        70572,
+        421,
+        14401,
+        13,
+        66959,
+        25,
+        422,
+        151645
+      ],
+      "input_tokens": 133,
+      "output_tokens": 45,
+      "seconds": 3.371820755302906,
+      "padded_input_tokens": 133,
+      "finish_reason": "eos",
+      "letter": "D",
+      "identity": 3,
+      "valid": true,
+      "parse_status": "valid",
+      "text_letter_conflict": false,
+      "text_identity": null,
+      "letter_identity": 3,
+      "key": "623873015a4549482b55de4c68957657ee27fba7ba4f9874277fd0725747c339",
+      "qid": "obqa/train/10-119",
+      "condition": "elimination",
+      "split": "search",
+      "mapping": {
+        "A": 0,
+        "B": 1,
+        "C": 2,
+        "D": 3
+      },
+      "request_identity": {
+        "schema": "capability-1",
+        "model": {
+          "name": "Qwen/Qwen2.5-3B-Instruct",
+          "revision": "aa8e72537993ba99e69dfaafa59ed015b17504d1",
+          "batch_size": 1,
+          "target_max_tokens": 8,
+          "proposer_max_tokens": 160,
+          "max_input_tokens": 1536,
+          "min_free_gib": 18,
+          "memory_fraction": 0.4
+        },
+        "tokenizer_revision": "aa8e72537993ba99e69dfaafa59ed015b17504d1",
+        "question": {
+          "id": "obqa/train/10-119",
+          "source": "train",
+          "question": "A cat finds it easiest to get a grip when climbing up",
+          "options": [
+            "plastic pole",
+            "carpeted pole",
+            "icy pole",
+            "metal pole"
+          ]
+        },
+        "messages": [
+          {
+            "role": "system",
+            "content": "Solve the science multiple-choice question carefully. Choose the single best answer based on its content, regardless of layout or option order.\nBriefly compare and eliminate the alternatives, then choose the best option. Use no more than 40 words before your answer. End with a separate line exactly FINAL: X, replacing X with one uppercase displayed option letter A, B, C, or D. Do not write anything after that line."
+          },
+          {
+            "role": "user",
+            "content": "A cat finds it easiest to get a grip when climbing up\nA. plastic pole\nB. carpeted pole\nC. icy pole\nD. metal pole"
+          }
+        ],
+        "instruction_hash": "f88703bb9b9df779499880b55556fa203b65425f994594cb5f4b07050cc60a52",
+        "rendered_input": "A cat finds it easiest to get a grip when climbing up\nA. plastic pole\nB. carpeted pole\nC. icy pole\nD. metal pole",
+        "format": "original",
+        "permutation": {
+          "A": 0,
+          "B": 1,
+          "C": 2,
+          "D": 3
+        },
+        "decoding": {
+          "do_sample": false,
+          "seed": 0,
+          "max_new_tokens": 128,
+          "batch_size": 1,
+          "dtype": "bfloat16",
+          "attention": "sdpa",
+          "deterministic": true,
+          "padding_side": "left"
+        }
+      },
+      "created_unix": 1793293454.8827782,
+      "max_new_tokens": 128,
+      "truncated": false,
+      "raw_sha256": "fe692586f104ce765883b09aed40e026abbfc9f36fee277c95aea7a94dc93c5b",
+      "text_prefix_letter": null,
+      "text_match_status": null
+    },
+    {
+      "raw": "SELECTED_TEXT: A. plastic pole\nFINAL: A",
+      "raw_with_special_tokens": "SELECTED_TEXT: A. plastic pole\nFINAL: A<|im_end|>",
+      "output_token_ids": [
+        4858,
+        1479,
+        10243,
+        25,
+        362,
+        13,
+        12188,
+        25026,
+        198,
+        98848,
+        25,
+        362,
+        151645
+      ],
+      "input_tokens": 138,
+      "output_tokens": 13,
+      "seconds": 0.9838076829910278,
+      "padded_input_tokens": 138,
+      "finish_reason": "eos",
+      "letter": "A",
+      "identity": 0,
+      "valid": true,
+      "parse_status": "valid",
+      "text_letter_conflict": false,
+      "text_identity": 0,
+      "letter_identity": 0,
+      "key": "5b8d0f4887b9d94259751da0204cc7c38a633147a5dd21a7c9cce86243247d20",
+      "qid": "obqa/train/10-119",
+      "condition": "content",
+      "split": "search",
+      "mapping": {
+        "A": 0,
+        "B": 1,
+        "C": 2,
+        "D": 3
+      },
+      "request_identity": {
+        "schema": "capability-1",
+        "model": {
+          "name": "Qwen/Qwen2.5-3B-Instruct",
+          "revision": "aa8e72537993ba99e69dfaafa59ed015b17504d1",
+          "batch_size": 1,
+          "target_max_tokens": 8,
+          "proposer_max_tokens": 160,
+          "max_input_tokens": 1536,
+          "min_free_gib": 18,
+          "memory_fraction": 0.4
+        },
+        "tokenizer_revision": "aa8e72537993ba99e69dfaafa59ed015b17504d1",
+        "question": {
+          "id": "obqa/train/10-119",
+          "source": "train",
+          "question": "A cat finds it easiest to get a grip when climbing up",
+          "options": [
+            "plastic pole",
+            "carpeted pole",
+            "icy pole",
+            "metal pole"
+          ]
+        },
+        "messages": [
+          {
+            "role": "system",
+            "content": "Solve the science multiple-choice question carefully. Choose the single best answer based on its content, regardless of layout or option order.\nSelect the answer by its content first. Return exactly two lines. First write SELECTED_TEXT: followed by the exact complete text of the selected option, without quotation marks. Then write FINAL: X, replacing X with its uppercase displayed option letter A, B, C, or D. Do not write any explanation or other text."
+          },
+          {
+            "role": "user",
+            "content": "A cat finds it easiest to get a grip when climbing up\nA. plastic pole\nB. carpeted pole\nC. icy pole\nD. metal pole"
+          }
+        ],
+        "instruction_hash": "da1a1c504b62935f6ab43d0fa32caad6e6e2346fce06e4b87a6e73839cd40b58",
+        "rendered_input": "A cat finds it easiest to get a grip when climbing up\nA. plastic pole\nB. carpeted pole\nC. icy pole\nD. metal pole",
+        "format": "original",
+        "permutation": {
+          "A": 0,
+          "B": 1,
+          "C": 2,
+          "D": 3
+        },
+        "decoding": {
+          "do_sample": false,
+          "seed": 0,
+          "max_new_tokens": 128,
+          "batch_size": 1,
+          "dtype": "bfloat16",
+          "attention": "sdpa",
+          "deterministic": true,
+          "padding_side": "left"
+        }
+      },
+      "created_unix": 1793293455.9030397,
+      "max_new_tokens": 128,
+      "truncated": false,
+      "raw_sha256": "2336a05f08ad2b088cb6a7e3a14f7d54ca61ab95d6e3751508016cf0c29b9b08",
+      "text_prefix_letter": "A",
+      "text_match_status": "single_display_label_prefix_removed"
+    },
+    {
+      "raw": "D",
+      "raw_with_special_tokens": "D<|im_end|>",
+      "output_token_ids": [
+        35,
+        151645
+      ],
+      "input_tokens": 110,
+      "output_tokens": 2,
+      "seconds": 0.14743278920650482,
+      "padded_input_tokens": 110,
+      "finish_reason": "eos",
+      "letter": "D",
+      "identity": 3,
+      "valid": true,
+      "parse_status": "valid",
+      "text_letter_conflict": false,
+      "key": "da67ed232b41d288a776ad7605c9d445c4ac4911fae9905016aa4df2c7b72c3f",
+      "qid": "obqa/train/12-988",
+      "condition": "supporting",
+      "split": "search",
+      "mapping": {
+        "A": 0,
+        "B": 1,
+        "C": 2,
+        "D": 3
+      },
+      "request_identity": {
+        "schema": "capability-1",
+        "model": {
+          "name": "Qwen/Qwen2.5-3B-Instruct",
+          "revision": "aa8e72537993ba99e69dfaafa59ed015b17504d1",
+          "batch_size": 1,
+          "target_max_tokens": 8,
+          "proposer_max_tokens": 160,
+          "max_input_tokens": 1536,
+          "min_free_gib": 18,
+          "memory_fraction": 0.4
+        },
+        "tokenizer_revision": "aa8e72537993ba99e69dfaafa59ed015b17504d1",
+        "question": {
+          "id": "obqa/train/12-988",
+          "source": "train",
+          "question": "Adding salt to liquid decreases what?",
+          "options": [
+            "light",
+            "energy",
+            "magnetism",
+            "thawing temp"
+          ]
+        },
+        "messages": [
+          {
+            "role": "system",
+            "content": "Solve the science multiple-choice question carefully. Choose the single best answer based on its content, regardless of layout or option order.\nReturn exactly one uppercase displayed option letter (A, B, C, or D). Do not add any other text."
+          },
+          {
+            "role": "user",
+            "content": "Adding salt to liquid decreases what?\nA. light\nB. energy\nC. magnetism\nD. thawing temp\n\nScience note (consider its relevance when answering):\nadding salt to a liquid decreases the melting point of that liquid"
+          }
+        ],
+        "instruction_hash": "80be7c3dea1a8786955ef9ec4df45585cd2c10acbf34afbdbd2d6ad7e6f2571e",
+        "rendered_input": "Adding salt to liquid decreases what?\nA. light\nB. energy\nC. magnetism\nD. thawing temp\n\nScience note (consider its relevance when answering):\nadding salt to a liquid decreases the melting point of that liquid",
+        "format": "original",
+        "permutation": {
+          "A": 0,
+          "B": 1,
+          "C": 2,
+          "D": 3
+        },
+        "decoding": {
+          "do_sample": false,
+          "seed": 0,
+          "max_new_tokens": 8,
+          "batch_size": 1,
+          "dtype": "bfloat16",
+          "attention": "sdpa",
+          "deterministic": true,
+          "padding_side": "left"
+        }
+      },
+      "created_unix": 1793293456.0873199,
+      "max_new_tokens": 8,
+      "truncated": false,
+      "raw_sha256": "3f39d5c348e5b79d06e842c114e6cc571583bbf44e4b0ebfda1a01ec05745d43"
+    },
+    {
+      "raw": "D",
+      "raw_with_special_tokens": "D<|im_end|>",
+      "output_token_ids": [
+        35,
+        151645
+      ],
+      "input_tokens": 110,
+      "output_tokens": 2,
+      "seconds": 0.14568669348955154,
+      "padded_input_tokens": 110,
+      "finish_reason": "eos",
+      "letter": "D",
+      "identity": 3,
+      "valid": true,
+      "parse_status": "valid",
+      "text_letter_conflict": false,
+      "key": "ae9b31f4a906c377d2cde528d499e7920552f3b7d6b2e0c9d66d2c508de1278c",
+      "qid": "obqa/train/12-988",
+      "condition": "unrelated",
+      "split": "search",
+      "mapping": {
+        "A": 0,
+        "B": 1,
+        "C": 2,
+        "D": 3
+      },
+      "request_identity": {
+        "schema": "capability-1",
+        "model": {
+          "name": "Qwen/Qwen2.5-3B-Instruct",
+          "revision": "aa8e72537993ba99e69dfaafa59ed015b17504d1",
+          "batch_size": 1,
+          "target_max_tokens": 8,
+          "proposer_max_tokens": 160,
+          "max_input_tokens": 1536,
+          "min_free_gib": 18,
+          "memory_fraction": 0.4
+        },
+        "tokenizer_revision": "aa8e72537993ba99e69dfaafa59ed015b17504d1",
+        "question": {
+          "id": "obqa/train/12-988",
+          "source": "train",
+          "question": "Adding salt to liquid decreases what?",
+          "options": [
+            "light",
+            "energy",
+            "magnetism",
+            "thawing temp"
+          ]
+        },
+        "messages": [
+          {
+            "role": "system",
+            "content": "Solve the science multiple-choice question carefully. Choose the single best answer based on its content, regardless of layout or option order.\nReturn exactly one uppercase displayed option letter (A, B, C, or D). Do not add any other text."
+          },
+          {
+            "role": "user",
+            "content": "Adding salt to liquid decreases what?\nA. light\nB. energy\nC. magnetism\nD. thawing temp\n\nScience note (consider its relevance when answering):\nAn example of protecting the environment is reducing the amount of waste"
+          }
+        ],
+        "instruction_hash": "80be7c3dea1a8786955ef9ec4df45585cd2c10acbf34afbdbd2d6ad7e6f2571e",
+        "rendered_input": "Adding salt to liquid decreases what?\nA. light\nB. energy\nC. magnetism\nD. thawing temp\n\nScience note (consider its relevance when answering):\nAn example of protecting the environment is reducing the amount of waste",
+        "format": "original",
+        "permutation": {
+          "A": 0,
+          "B": 1,
+          "C": 2,
+          "D": 3
+        },
+        "decoding": {
+          "do_sample": false,
+          "seed": 0,
+          "max_new_tokens": 8,
+          "batch_size": 1,
+          "dtype": "bfloat16",
+          "attention": "sdpa",
+          "deterministic": true,
+          "padding_side": "left"
+        }
+      },
+      "created_unix": 1793293456.2696126,
+      "max_new_tokens": 8,
+      "truncated": false,
+      "raw_sha256": "3f39d5c348e5b79d06e842c114e6cc571583bbf44e4b0ebfda1a01ec05745d43"
+    },
+    {
+      "raw": "D",
+      "raw_with_special_tokens": "D<|im_end|>",
+      "output_token_ids": [
+        35,
+        151645
+      ],
+      "input_tokens": 126,
+      "output_tokens": 2,
+      "seconds": 0.15267015248537064,
+      "padded_input_tokens": 126,
+      "finish_reason": "eos",
+      "letter": "D",
+      "identity": 3,
+      "valid": true,
+      "parse_status": "valid",
+      "text_letter_conflict": false,
+      "key": "d661fe02fa8f0712f5b816800afe49bf11b5ffb679f141dc6608915b7f50bcdc",
+      "qid": "obqa/train/13-952",
+      "condition": "supporting",
+      "split": "search",
+      "mapping": {
+        "A": 0,
+        "B": 1,
+        "C": 2,
+        "D": 3
+      },
+      "request_identity": {
+        "schema": "capability-1",
+        "model": {
+          "name": "Qwen/Qwen2.5-3B-Instruct",
+          "revision": "aa8e72537993ba99e69dfaafa59ed015b17504d1",
+          "batch_size": 1,
+          "target_max_tokens": 8,
+          "proposer_max_tokens": 160,
+          "max_input_tokens": 1536,
+          "min_free_gib": 18,
+          "memory_fraction": 0.4
+        },
+        "tokenizer_revision": "aa8e72537993ba99e69dfaafa59ed015b17504d1",
+        "question": {
+          "id": "obqa/train/13-952",
+          "source": "train",
+          "question": "A bobsled moves much faster as it leaves the concrete an touches the",
+          "options": [
+            "sand",
+            "grass",
+            "sun",
+            "ice"
+          ]
+        },
+        "messages": [
+          {
+            "role": "system",
+            "content": "Solve the science multiple-choice question carefully. Choose the single best answer based on its content, regardless of layout or option order.\nReturn exactly one uppercase displayed option letter (A, B, C, or D). Do not add any other text."
+          },
+          {
+            "role": "user",
+            "content": "A bobsled moves much faster as it leaves the concrete an touches the\nA. sand\nB. grass\nC. sun\nD. ice\n\nScience note (consider its relevance when answering):\nas the smoothness of something increases , the friction of that something will decrease when its surface moves against another surface"
+          }
+        ],
+        "instruction_hash": "80be7c3dea1a8786955ef9ec4df45585cd2c10acbf34afbdbd2d6ad7e6f2571e",
+        "rendered_input": "A bobsled moves much faster as it leaves the concrete an touches the\nA. sand\nB. grass\nC. sun\nD. ice\n\nScience note (consider its relevance when answering):\nas the smoothness of something increases , the friction of that something will decrease when its surface moves against another surface",
+        "format": "original",
+        "permutation": {
+          "A": 0,
+          "B": 1,
+          "C": 2,
+          "D": 3
+        },
+        "decoding": {
+          "do_sample": false,
+          "seed": 0,
+          "max_new_tokens": 8,
+          "batch_size": 1,
+          "dtype": "bfloat16",
+          "attention": "sdpa",
+          "deterministic": true,
+          "padding_side": "left"
+        }
+      },
+      "created_unix": 1793293456.4588408,
+      "max_new_tokens": 8,
+      "truncated": false,
+      "raw_sha256": "3f39d5c348e5b79d06e842c114e6cc571583bbf44e4b0ebfda1a01ec05745d43"
+    },
+    {
+      "raw": "D",
+      "raw_with_special_tokens": "D<|im_end|>",
+      "output_token_ids": [
+        35,
+        151645
+      ],
+      "input_tokens": 125,
+      "output_tokens": 2,
+      "seconds": 0.14506608992815018,
+      "padded_input_tokens": 125,
+      "finish_reason": "eos",
+      "letter": "D",
+      "identity": 3,
+      "valid": true,
+      "parse_status": "valid",
+      "text_letter_conflict": false,
+      "key": "5590d76dbe0a52a2d2921c007e1866a53c69b971952ef5f12b367da30590f79c",
+      "qid": "obqa/train/13-952",
+      "condition": "unrelated",
+      "split": "search",
+      "mapping": {
+        "A": 0,
+        "B": 1,
+        "C": 2,
+        "D": 3
+      },
+      "request_identity": {
+        "schema": "capability-1",
+        "model": {
+          "name": "Qwen/Qwen2.5-3B-Instruct",
+          "revision": "aa8e72537993ba99e69dfaafa59ed015b17504d1",
+          "batch_size": 1,
+          "target_max_tokens": 8,
+          "proposer_max_tokens": 160,
+          "max_input_tokens": 1536,
+          "min_free_gib": 18,
+          "memory_fraction": 0.4
+        },
+        "tokenizer_revision": "aa8e72537993ba99e69dfaafa59ed015b17504d1",
+        "question": {
+          "id": "obqa/train/13-952",
+          "source": "train",
+          "question": "A bobsled moves much faster as it leaves the concrete an touches the",
+          "options": [
+            "sand",
+            "grass",
+            "sun",
+            "ice"
+          ]
+        },
+        "messages": [
+          {
+            "role": "system",
+            "content": "Solve the science multiple-choice question carefully. Choose the single best answer based on its content, regardless of layout or option order.\nReturn exactly one uppercase displayed option letter (A, B, C, or D). Do not add any other text."
+          },
+          {
+            "role": "user",
+            "content": "A bobsled moves much faster as it leaves the concrete an touches the\nA. sand\nB. grass\nC. sun\nD. ice\n\nScience note (consider its relevance when answering):\nas the sale of a product decreases , the amount of money made by the person selling that product will decrease"
+          }
+        ],
+        "instruction_hash": "80be7c3dea1a8786955ef9ec4df45585cd2c10acbf34afbdbd2d6ad7e6f2571e",
+        "rendered_input": "A bobsled moves much faster as it leaves the concrete an touches the\nA. sand\nB. grass\nC. sun\nD. ice\n\nScience note (consider its relevance when answering):\nas the sale of a product decreases , the amount of money made by the person selling that product will decrease",
+        "format": "original",
+        "permutation": {
+          "A": 0,
+          "B": 1,
+          "C": 2,
+          "D": 3
+        },
+        "decoding": {
+          "do_sample": false,
+          "seed": 0,
+          "max_new_tokens": 8,
+          "batch_size": 1,
+          "dtype": "bfloat16",
+          "attention": "sdpa",
+          "deterministic": true,
+          "padding_side": "left"
+        }
+      },
+      "created_unix": 1793293456.6409464,
+      "max_new_tokens": 8,
+      "truncated": false,
+      "raw_sha256": "3f39d5c348e5b79d06e842c114e6cc571583bbf44e4b0ebfda1a01ec05745d43"
+    },
+    {
+      "raw": "C",
+      "raw_with_special_tokens": "C<|im_end|>",
+      "output_token_ids": [
+        34,
+        151645
+      ],
+      "input_tokens": 106,
+      "output_tokens": 2,
+      "seconds": 0.15816354751586914,
+      "padded_input_tokens": 106,
+      "finish_reason": "eos",
+      "letter": "C",
+      "identity": 2,
+      "valid": true,
+      "parse_status": "valid",
+      "text_letter_conflict": false,
+      "key": "6cf660799add72fcf3f5d734ca4c1ea8bbc2c2bfeba521a18f3c54cfc66077b2",
+      "qid": "obqa/train/12-964",
+      "condition": "repeat",
+      "split": "search",
+      "mapping": {
+        "A": 0,
+        "B": 1,
+        "C": 2,
+        "D": 3
+      },
+      "request_identity": {
+        "schema": 1,
+        "model": {
+          "name": "Qwen/Qwen2.5-3B-Instruct",
+          "revision": "aa8e72537993ba99e69dfaafa59ed015b17504d1",
+          "batch_size": 1,
+          "target_max_tokens": 8,
+          "proposer_max_tokens": 160,
+          "max_input_tokens": 1536,
+          "min_free_gib": 18,
+          "memory_fraction": 0.4
+        },
+        "tokenizer_revision": "aa8e72537993ba99e69dfaafa59ed015b17504d1",
+        "instruction_hash": "7e61b322804b6ccbc48154a891244f081ff4cb58604ae21c2b90c59c18536445",
+        "question": {
+          "id": "obqa/train/12-964",
+          "question": "If a plant is moved from a basement to a field",
+          "options": [
+            "it will need darkness",
+            "it will be too dark",
+            "it will receive nutriment",
+            "it will now suffocate"
+          ],
+          "source": "train"
+        },
+        "rendered_input": "If a plant is moved from a basement to a field\nA. it will need darkness\nB. it will be too dark\nC. it will receive nutriment\nD. it will now suffocate",
+        "format": "original",
+        "permutation": {
+          "A": 0,
+          "B": 1,
+          "C": 2,
+          "D": 3
+        },
+        "decoding": {
+          "do_sample": false,
+          "seed": 0,
+          "max_new_tokens": 8,
+          "padding_side": "left",
+          "chat_template_revision": "aa8e72537993ba99e69dfaafa59ed015b17504d1"
+        }
+      },
+      "created_unix": 1793293456.835737,
+      "max_new_tokens": 8,
+      "truncated": false,
+      "raw_sha256": "6b23c0d5f35d1b11f9b683f0b0a617355deb11277d91ae091d399c655b87940d"
+    },
+    {
+      "raw": "D",
+      "raw_with_special_tokens": "D<|im_end|>",
+      "output_token_ids": [
+        35,
+        151645
+      ],
+      "input_tokens": 114,
+      "output_tokens": 2,
+      "seconds": 0.14514364302158356,
+      "padded_input_tokens": 114,
+      "finish_reason": "eos",
+      "letter": "D",
+      "identity": 3,
+      "valid": true,
+      "parse_status": "valid",
+      "text_letter_conflict": false,
+      "key": "c3d84ea5c5896028c5b8a1e3e4698d69e7f9c0e63026c3af9246bc88a43e8363",
+      "qid": "obqa/train/9-388",
+      "condition": "repeat",
+      "split": "search",
+      "mapping": {
+        "A": 0,
+        "B": 1,
+        "C": 2,
+        "D": 3
+      },
+      "request_identity": {
+        "schema": 1,
+        "model": {
+          "name": "Qwen/Qwen2.5-3B-Instruct",
+          "revision": "aa8e72537993ba99e69dfaafa59ed015b17504d1",
+          "batch_size": 1,
+          "target_max_tokens": 8,
+          "proposer_max_tokens": 160,
+          "max_input_tokens": 1536,
+          "min_free_gib": 18,
+          "memory_fraction": 0.4
+        },
+        "tokenizer_revision": "aa8e72537993ba99e69dfaafa59ed015b17504d1",
+        "instruction_hash": "7e61b322804b6ccbc48154a891244f081ff4cb58604ae21c2b90c59c18536445",
+        "question": {
+          "id": "obqa/train/9-388",
+          "question": "The population of rabbits in an area increases. That could have been caused by",
+          "options": [
+            "More predators have been moving into the area",
+            "The rabbits are becoming infertile",
+            "Hunters are trapping the rabbits",
+            "More precipitation falling lately"
+          ],
+          "source": "train"
+        },
+        "rendered_input": "The population of rabbits in an area increases. That could have been caused by\nA. More predators have been moving into the area\nB. The rabbits are becoming infertile\nC. Hunters are trapping the rabbits\nD. More precipitation falling lately",
+        "format": "original",
+        "permutation": {
+          "A": 0,
+          "B": 1,
+          "C": 2,
+          "D": 3
+        },
+        "decoding": {
+          "do_sample": false,
+          "seed": 0,
+          "max_new_tokens": 8,
+          "padding_side": "left",
+          "chat_template_revision": "aa8e72537993ba99e69dfaafa59ed015b17504d1"
+        }
+      },
+      "created_unix": 1793293457.01726,
+      "max_new_tokens": 8,
+      "truncated": false,
+      "raw_sha256": "3f39d5c348e5b79d06e842c114e6cc571583bbf44e4b0ebfda1a01ec05745d43"
+    }
+  ]
+}

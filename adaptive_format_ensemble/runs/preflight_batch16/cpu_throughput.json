@@ -1,0 +1,8 @@
+{
+  "exploratory_questions": 64,
+  "evaluations": 192,
+  "evolution_seconds": 0.17353390157222748,
+  "greedy_seconds": 0.08282198011875153,
+  "greedy_policies": 8,
+  "extrapolation_limit": "512-question replay is more costly; archive validation and JSON checkpoint overhead additional."
+}

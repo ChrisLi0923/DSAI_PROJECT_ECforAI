@@ -1,0 +1,73 @@
+2026-10-27 23:49:57,015 INFO Stage: loading_model
+Sliding Window Attention is enabled but not implemented for `sdpa`; unexpected results may be encountered.
+Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]Loading checkpoint shards:  50%|█████     | 1/2 [00:01<00:01,  1.96s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:03<00:00,  1.45s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:03<00:00,  1.53s/it]
+2026-10-27 23:50:05,430 INFO Stage: pilot
+2026-10-27 23:50:06,136 INFO Smoke records pilot gate outcome but bypasses it ONLY in smoke mode: {'passed': False, 'stop_reasons': ['robust_score_near_zero'], 'questions': 2, 'invalid_rate': 0.0, 'robust_rate': 0.0, 'semantic_flip_group_rate': 1.0, 'semantic_flip_group_denominator': 2, 'repeat_disagreement_rate': 0.0, 'repeat_valid_pairs': 2, 'repeat_raw_disagreement_rate': 0.0, 'thresholds': {'max_invalid_rate': 0.05, 'max_repeat_disagreement': 0.01, 'min_semantic_flip_group_rate': 0.02, 'min_robust_rate': 0.02}}
+2026-10-27 23:50:06,154 INFO Stage: search
+2026-10-27 23:50:08,717 INFO search/B/11 candidate 1/4 robust=0.5000
+2026-10-27 23:50:08,918 INFO search/B/11 candidate 2/4 robust=0.5000
+2026-10-27 23:50:12,219 INFO search/B/11 candidate 3/4 robust=0.5000
+2026-10-27 23:50:14,817 INFO search/B/11 candidate 4/4 robust=0.5000
+2026-10-27 23:50:15,008 INFO search/C/11 candidate 1/20 original=1.0000
+2026-10-27 23:50:15,197 INFO search/C/11 candidate 2/20 original=1.0000
+2026-10-27 23:50:20,557 INFO search/C/11 candidate 3/20 original=1.0000
+2026-10-27 23:50:23,642 INFO search/C/11 candidate 4/20 original=1.0000
+2026-10-27 23:50:27,080 INFO search/C/11 candidate 5/20 original=1.0000
+2026-10-27 23:50:29,951 INFO search/C/11 candidate 6/20 original=1.0000
+2026-10-27 23:50:33,110 INFO search/C/11 candidate 7/20 original=1.0000
+2026-10-27 23:50:35,835 INFO search/C/11 candidate 8/20 original=1.0000
+2026-10-27 23:50:38,771 INFO search/C/11 candidate 9/20 original=1.0000
+2026-10-27 23:50:41,644 INFO search/C/11 candidate 10/20 original=1.0000
+2026-10-27 23:50:44,726 INFO search/C/11 candidate 11/20 original=1.0000
+2026-10-27 23:50:47,595 INFO search/C/11 candidate 12/20 original=1.0000
+2026-10-27 23:50:51,040 INFO search/C/11 candidate 13/20 original=1.0000
+2026-10-27 23:50:53,778 INFO search/C/11 candidate 14/20 original=1.0000
+2026-10-27 23:50:58,104 INFO search/C/11 candidate 15/20 original=0.5000
+2026-10-27 23:51:01,134 INFO search/C/11 candidate 16/20 original=1.0000
+2026-10-27 23:51:04,154 INFO search/C/11 candidate 17/20 original=1.0000
+2026-10-27 23:51:07,244 INFO search/C/11 candidate 18/20 original=1.0000
+2026-10-27 23:51:11,338 INFO search/C/11 candidate 19/20 original=1.0000
+2026-10-27 23:51:13,843 INFO search/C/11 candidate 20/20 original=1.0000
+2026-10-27 23:51:14,044 INFO search/D/11 candidate 1/4 average=0.9000
+2026-10-27 23:51:14,246 INFO search/D/11 candidate 2/4 average=0.9000
+2026-10-27 23:51:19,642 INFO search/D/11 candidate 3/4 average=0.9000
+2026-10-27 23:51:22,749 INFO search/D/11 candidate 4/4 average=0.9000
+2026-10-27 23:51:22,950 INFO search/E/11 candidate 1/4 robust=0.5000
+2026-10-27 23:51:23,151 INFO search/E/11 candidate 2/4 robust=0.5000
+2026-10-27 23:51:28,563 INFO search/E/11 candidate 3/4 robust=0.5000
+2026-10-27 23:51:31,666 INFO search/E/11 candidate 4/4 robust=0.5000
+2026-10-27 23:51:31,684 INFO Stage: selection_validation
+2026-10-27 23:51:33,301 INFO Stage: final_evaluation
+2026-10-27 23:51:33,691 INFO Final evaluation complete: A/manual
+2026-10-27 23:51:34,063 INFO Final evaluation complete: B/11
+2026-10-27 23:51:34,437 INFO Final evaluation complete: C/11
+2026-10-27 23:51:34,801 INFO Final evaluation complete: D/11
+2026-10-27 23:51:35,172 INFO Final evaluation complete: E/11
+2026-10-27 23:51:35,329 INFO Stage: analysis
+2026-10-27 23:51:36,147 INFO Stage: complete
+{
+  "evidence": "tiny real-model smoke; not pilot or final results",
+  "target_calls": 312,
+  "target_seconds": 8.0632061883807,
+  "target_calls_per_second": 38.694285214931064,
+  "target_input_tokens": 38855,
+  "target_output_tokens": 624,
+  "proposer_calls": 25,
+  "proposer_seconds": 78.1254872083664,
+  "proposer_input_tokens": 4093,
+  "proposer_output_tokens": 1095,
+  "proposer_seconds_per_call": 3.125019488334656,
+  "proposer_accepted": 25,
+  "unique_accepted_instructions": 21,
+  "accepted_operations": {
+    "random": 3,
+    "mutation": 11,
+    "crossover": 11
+  },
+  "pairwise_word_jaccard_distance_min": 0.0,
+  "pairwise_word_jaccard_distance_mean": 0.6718440474573556,
+  "candidate_count": 32,
+  "total_wall_seconds": 99.47941435873508,
+  "completed": true,
+  "selection_count": 4
+}

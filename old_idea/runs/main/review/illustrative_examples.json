@@ -1,0 +1,170 @@
+[
+  {
+    "selection_rule": "First two sorted IDs: original correct and variant valid but wrong",
+    "template": "choices_first",
+    "question": {
+      "id": "ACTAAP_2007_7_3",
+      "source": "test",
+      "question": "A student is investigating the temperature at which evaporation takes place. Which statement best shows that evaporation has taken place?",
+      "options": [
+        "Rain falls from the sky.",
+        "The sky is clear of clouds.",
+        "Water droplets appear on the grass.",
+        "Water droplets disappear from the grass."
+      ],
+      "source_labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "gold": 3
+    },
+    "original": {
+      "qid": "ACTAAP_2007_7_3",
+      "template": "original",
+      "correct": true,
+      "valid": true,
+      "identity": 3,
+      "letter": "D",
+      "raw": "D"
+    },
+    "variant": {
+      "qid": "ACTAAP_2007_7_3",
+      "template": "choices_first",
+      "correct": false,
+      "valid": true,
+      "identity": 2,
+      "letter": "C",
+      "raw": "C"
+    },
+    "original_input": "A student is investigating the temperature at which evaporation takes place. Which statement best shows that evaporation has taken place?\nA. Rain falls from the sky.\nB. The sky is clear of clouds.\nC. Water droplets appear on the grass.\nD. Water droplets disappear from the grass.",
+    "variant_input": "Choices:\nA. Rain falls from the sky.\nB. The sky is clear of clouds.\nC. Water droplets appear on the grass.\nD. Water droplets disappear from the grass.\nQuestion: A student is investigating the temperature at which evaporation takes place. Which statement best shows that evaporation has taken place?"
+  },
+  {
+    "selection_rule": "First two sorted IDs: original correct and variant valid but wrong",
+    "template": "choices_first",
+    "question": {
+      "id": "ACTAAP_2009_7_8",
+      "source": "test",
+      "question": "Which of the following statements is a scientific hypothesis?",
+      "options": [
+        "Flossing has proven to be an effective method of improving oral health.",
+        "Many infectious diseases, such as gum disease, are caused by microorganisms.",
+        "In general, any method that reduces bacteria in the mouth will improve oral health.",
+        "An individual who flosses daily will be less likely to get gum disease than one who flosses weekly."
+      ],
+      "source_labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "gold": 3
+    },
+    "original": {
+      "qid": "ACTAAP_2009_7_8",
+      "template": "original",
+      "correct": true,
+      "valid": true,
+      "identity": 3,
+      "letter": "D",
+      "raw": "D"
+    },
+    "variant": {
+      "qid": "ACTAAP_2009_7_8",
+      "template": "choices_first",
+      "correct": false,
+      "valid": true,
+      "identity": 1,
+      "letter": "B",
+      "raw": "B"
+    },
+    "original_input": "Which of the following statements is a scientific hypothesis?\nA. Flossing has proven to be an effective method of improving oral health.\nB. Many infectious diseases, such as gum disease, are caused by microorganisms.\nC. In general, any method that reduces bacteria in the mouth will improve oral health.\nD. An individual who flosses daily will be less likely to get gum disease than one who flosses weekly.",
+    "variant_input": "Choices:\nA. Flossing has proven to be an effective method of improving oral health.\nB. Many infectious diseases, such as gum disease, are caused by microorganisms.\nC. In general, any method that reduces bacteria in the mouth will improve oral health.\nD. An individual who flosses daily will be less likely to get gum disease than one who flosses weekly.\nQuestion: Which of the following statements is a scientific hypothesis?"
+  },
+  {
+    "selection_rule": "First two sorted IDs: original correct and variant valid but wrong",
+    "template": "rotate1",
+    "question": {
+      "id": "ACTAAP_2014_7_13",
+      "source": "test",
+      "question": "People often use a mixture of salt and water to clean contact lenses. Which statement best describes this mixture?",
+      "options": [
+        "Salt is the solvent and water is the solute.",
+        "Salt is the solute and water is the solvent.",
+        "Salt is the solvent and water is the solution.",
+        "Salt is the solution and water is the solvent."
+      ],
+      "source_labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "gold": 1
+    },
+    "original": {
+      "qid": "ACTAAP_2014_7_13",
+      "template": "original",
+      "correct": true,
+      "valid": true,
+      "identity": 1,
+      "letter": "B",
+      "raw": "B"
+    },
+    "variant": {
+      "qid": "ACTAAP_2014_7_13",
+      "template": "rotate1",
+      "correct": false,
+      "valid": true,
+      "identity": 0,
+      "letter": "D",
+      "raw": "D"
+    },
+    "original_input": "People often use a mixture of salt and water to clean contact lenses. Which statement best describes this mixture?\nA. Salt is the solvent and water is the solute.\nB. Salt is the solute and water is the solvent.\nC. Salt is the solvent and water is the solution.\nD. Salt is the solution and water is the solvent.",
+    "variant_input": "People often use a mixture of salt and water to clean contact lenses. Which statement best describes this mixture?\nA. Salt is the solute and water is the solvent.\nB. Salt is the solvent and water is the solution.\nC. Salt is the solution and water is the solvent.\nD. Salt is the solvent and water is the solute."
+  },
+  {
+    "selection_rule": "First two sorted IDs: original correct and variant valid but wrong",
+    "template": "rotate1",
+    "question": {
+      "id": "ACTAAP_2015_7_9",
+      "source": "test",
+      "question": "Which planet in the solar system has the longest year?",
+      "options": [
+        "The planet closest to the Sun.",
+        "The planet with the longest day.",
+        "The planet with the most moons.",
+        "The planet farthest from the Sun."
+      ],
+      "source_labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "gold": 3
+    },
+    "original": {
+      "qid": "ACTAAP_2015_7_9",
+      "template": "original",
+      "correct": true,
+      "valid": true,
+      "identity": 3,
+      "letter": "D",
+      "raw": "D"
+    },
+    "variant": {
+      "qid": "ACTAAP_2015_7_9",
+      "template": "rotate1",
+      "correct": false,
+      "valid": true,
+      "identity": 0,
+      "letter": "D",
+      "raw": "D"
+    },
+    "original_input": "Which planet in the solar system has the longest year?\nA. The planet closest to the Sun.\nB. The planet with the longest day.\nC. The planet with the most moons.\nD. The planet farthest from the Sun.",
+    "variant_input": "Which planet in the solar system has the longest year?\nA. The planet with the longest day.\nB. The planet with the most moons.\nC. The planet farthest from the Sun.\nD. The planet closest to the Sun."
+  }
+]

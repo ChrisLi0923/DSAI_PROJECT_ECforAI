@@ -1,0 +1,112 @@
+{
+  "G0_191": {
+    "raw_scored_evaluations": 48,
+    "question_policy_replays": 384,
+    "policy_evaluation_equivalents": 48,
+    "roles": {
+      "base": 20,
+      "initial": 8,
+      "trial": 20
+    },
+    "unique_scored_policies": 23,
+    "archived_candidates": 22,
+    "attempt_statuses": {
+      "complete": 48
+    },
+    "replay_seconds": 0.010719835758209229,
+    "full_generations": 2,
+    "partial_generation_offspring": 4,
+    "step": 20,
+    "seconds": 4.008035026490688,
+    "cpu_seconds": 0.09379158600000004,
+    "initial_population_hash": "b98bc0f5b6da1b3a446a2d769db5855a04ed284c6917040f3550eccbd84edae6"
+  },
+  "G1_191": {
+    "raw_scored_evaluations": 48,
+    "question_policy_replays": 384,
+    "policy_evaluation_equivalents": 48,
+    "roles": {
+      "base": 20,
+      "initial": 8,
+      "trial": 20
+    },
+    "unique_scored_policies": 22,
+    "archived_candidates": 21,
+    "attempt_statuses": {
+      "complete": 48
+    },
+    "replay_seconds": 0.013963066041469574,
+    "full_generations": 2,
+    "partial_generation_offspring": 4,
+    "step": 20,
+    "seconds": 3.9431849345564842,
+    "cpu_seconds": 0.12502170700000015,
+    "initial_population_hash": "b98bc0f5b6da1b3a446a2d769db5855a04ed284c6917040f3550eccbd84edae6"
+  },
+  "G2_191": {
+    "raw_scored_evaluations": 48,
+    "question_policy_replays": 384,
+    "policy_evaluation_equivalents": 48,
+    "roles": {
+      "base": 6,
+      "initial": 8,
+      "trial": 34
+    },
+    "unique_scored_policies": 36,
+    "archived_candidates": 11,
+    "attempt_statuses": {
+      "complete": 48
+    },
+    "replay_seconds": 0.014233030378818512,
+    "full_generations": 0,
+    "partial_generation_offspring": 6,
+    "step": 6,
+    "seconds": 2.7480824813246727,
+    "cpu_seconds": 0.08146164700000025,
+    "initial_population_hash": "b98bc0f5b6da1b3a446a2d769db5855a04ed284c6917040f3550eccbd84edae6"
+  },
+  "G3_191": {
+    "raw_scored_evaluations": 48,
+    "question_policy_replays": 384,
+    "policy_evaluation_equivalents": 48,
+    "roles": {
+      "base": 20,
+      "initial": 8,
+      "trial": 20
+    },
+    "unique_scored_policies": 21,
+    "archived_candidates": 19,
+    "attempt_statuses": {
+      "complete": 48
+    },
+    "replay_seconds": 0.009864546358585358,
+    "full_generations": 2,
+    "partial_generation_offspring": 4,
+    "step": 20,
+    "seconds": 3.9464843422174454,
+    "cpu_seconds": 0.08517517800000007,
+    "initial_population_hash": "b98bc0f5b6da1b3a446a2d769db5855a04ed284c6917040f3550eccbd84edae6"
+  },
+  "hill_191": {
+    "raw_scored_evaluations": 48,
+    "question_policy_replays": 384,
+    "policy_evaluation_equivalents": 48,
+    "roles": {
+      "base": 6,
+      "initial": 8,
+      "trial": 34
+    },
+    "unique_scored_policies": 20,
+    "archived_candidates": 8,
+    "attempt_statuses": {
+      "complete": 48
+    },
+    "replay_seconds": 0.012008428573608398,
+    "full_generations": 0,
+    "partial_generation_offspring": 0,
+    "step": 6,
+    "seconds": 2.7227941676974297,
+    "cpu_seconds": 0.07481244600000014,
+    "initial_population_hash": "b98bc0f5b6da1b3a446a2d769db5855a04ed284c6917040f3550eccbd84edae6"
+  }
+}

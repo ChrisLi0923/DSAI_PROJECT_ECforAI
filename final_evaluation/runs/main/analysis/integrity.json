@@ -1,0 +1,19 @@
+{
+  "matrix_shape": [
+    1000,
+    5
+  ],
+  "unique_question_ids": 1000,
+  "requested_main_calls": 5000,
+  "raw_invalid": 1,
+  "raw_truncated": 0,
+  "fixed_vote_and_ordered_predictions_identical": true,
+  "fixed_vote_vs_ordered_answer_differences": 0,
+  "all_method_question_ids_identical": true,
+  "all_policies_legal_no_repeats": true,
+  "frozen_source_config_matches": true,
+  "freeze_precedes_first_generation_attempt": true,
+  "attempt_statuses": {
+    "complete": 5000
+  }
+}

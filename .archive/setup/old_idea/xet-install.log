@@ -1,0 +1,6 @@
+Collecting hf_xet==1.1.10
+  Downloading hf_xet-1.1.10-cp37-abi3-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (4.7 kB)
+Downloading hf_xet-1.1.10-cp37-abi3-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (3.2 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 3.2/3.2 MB 1.5 MB/s  0:00:02
+Installing collected packages: hf_xet
+Successfully installed hf_xet-1.1.10

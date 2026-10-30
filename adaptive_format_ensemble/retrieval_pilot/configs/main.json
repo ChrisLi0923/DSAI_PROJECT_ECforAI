@@ -1,0 +1,8 @@
+{
+  "version": 1,
+  "model": {"name": "Qwen/Qwen2.5-3B-Instruct", "revision": "aa8e72537993ba99e69dfaafa59ed015b17504d1", "batch_size": 1, "target_max_tokens": 8, "proposer_max_tokens": 160, "max_input_tokens": 1536, "min_free_gib": 18, "memory_fraction": 0.4},
+  "retrieval": {"algorithm": "BM25", "k1": 1.5, "b": 0.75, "top_k": 3, "idf": "log(1 + (N - df + 0.5)/(df + 0.5))", "query_tf": "linear count", "tokenizer": "Unicode NFKC and casefold; words with internal apostrophes; no stopword removal or stemming", "query": "question stem plus all option texts sorted by normalized text; no added displayed letters", "ties": "ascending stable document ID"},
+  "selection": {"candidates": ["R1", "R3"], "rule": "Highest search correct-question count; then lower mean total requested tokens; then condition name lexicographically. Freeze before generating any validation R0/R1/R3 response."},
+  "analysis": {"bootstrap_replicates": 2000, "bootstrap_seed": 301041, "review_seed": 301042, "review_per_category": 5, "practical_accuracy_gain": 0.005, "allowed_accuracy_loss_for_potential_cost_tradeoff": 0.01, "minimum_token_saving_fraction": 0.15},
+  "control": {"seed": 301043, "description": "On the exact historical 300 search IDs, choose an independently seeded corpus fact outside the retrieved top three, in the lower half of BM25 scores and with content-word Jaccard <=0.1 to the query; minimize word-length distance to top one and use seeded stable-ID ties. An independent annotation-only audit must find no supporting-fact matches; annotations do not rank or choose the control."}
+}

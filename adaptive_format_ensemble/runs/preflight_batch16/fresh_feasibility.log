@@ -1,0 +1,54 @@
+Sliding Window Attention is enabled but not implemented for `sdpa`; unexpected results may be encountered.
+Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]Loading checkpoint shards:  50%|█████     | 1/2 [00:01<00:01,  1.95s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:03<00:00,  1.45s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:03<00:00,  1.52s/it]
+cache split=development completed_new=16/260
+cache split=development completed_new=32/260
+cache split=development completed_new=48/260
+cache split=development completed_new=64/260
+cache split=development completed_new=80/260
+cache split=development completed_new=96/260
+cache split=development completed_new=112/260
+cache split=development completed_new=128/260
+cache split=development completed_new=144/260
+cache split=development completed_new=160/260
+cache split=development completed_new=176/260
+cache split=development completed_new=192/260
+cache split=development completed_new=208/260
+cache split=development completed_new=224/260
+cache split=development completed_new=240/260
+cache split=development completed_new=256/260
+cache split=development completed_new=260/260
+{
+  "questions": 64,
+  "format_accuracy": {
+    "original": 0.8125,
+    "inline": 0.75,
+    "bullets": 0.796875,
+    "rotate1": 0.765625,
+    "rotate2": 0.796875
+  },
+  "full_vote": {
+    "accuracy": 0.78125,
+    "mean_calls": 5.0
+  },
+  "three_vote": {
+    "accuracy": 0.796875,
+    "mean_calls": 3.0
+  },
+  "agreement": {
+    "accuracy": 0.796875,
+    "mean_calls": 2.109375
+  },
+  "oracle_coverage_DIAGNOSTIC_ONLY": 0.9375,
+  "oracle_headroom": 0.125,
+  "invalid_rate": 0.0,
+  "gate": {
+    "passed": true,
+    "predeclared_min_oracle_headroom": 0.03,
+    "max_agreement_calls": 4.5,
+    "max_invalid": 0.05
+  },
+  "evidence": "Fresh OpenBookQA development only; no final-test predictions",
+  "inference_seconds_this_pass": 3.9674889147281647,
+  "wall_seconds_this_pass": 4.758062332868576,
+  "questions_per_second_generation_only": 61.1817238084363
+}

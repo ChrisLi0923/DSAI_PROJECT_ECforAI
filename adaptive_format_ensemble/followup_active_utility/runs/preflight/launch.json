@@ -1,0 +1,20 @@
+{
+  "target": "dsai:1:utility-repair-1029-210502",
+  "launch_command": "bash /home/hli/dsai/adaptive_format_ensemble/followup_active_utility/scripts/run_main.sh",
+  "argv": [
+    "tmux",
+    "new-window",
+    "-d",
+    "-P",
+    "-F",
+    "#{session_name}:#{window_index}:#{window_name}",
+    "-t",
+    "dsai:",
+    "-n",
+    "utility-repair-1029-210502",
+    "bash /home/hli/dsai/adaptive_format_ensemble/followup_active_utility/scripts/run_main.sh"
+  ],
+  "unix": 1793279102.2868915,
+  "gpu_snapshot": "GPU-d33b074a-05c8-31c7-8080-8c9dea9275ed",
+  "previous_windows": "0: bash* (1 panes) [153x22] [layout b13d,153x22,0,0,0] @0 (active)\n"
+}

@@ -1,0 +1,35 @@
+[
+  {
+    "cap": 3.0,
+    "comparison": "G2-minus-G1",
+    "metric": "accuracy",
+    "difference": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "a_achieved_calls": 1.0,
+    "b_achieved_calls": 1.0,
+    "scope": "whole-question paired bootstrap conditional on fitted policies"
+  },
+  {
+    "cap": 3.0,
+    "comparison": "G2-minus-G1",
+    "metric": "calls",
+    "difference": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "a_achieved_calls": 1.0,
+    "b_achieved_calls": 1.0,
+    "scope": "whole-question paired bootstrap conditional on fitted policies"
+  },
+  {
+    "cap": 3.0,
+    "comparison": "G2-minus-G1",
+    "metric": "utility",
+    "difference": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "a_achieved_calls": 1.0,
+    "b_achieved_calls": 1.0,
+    "scope": "whole-question paired bootstrap conditional on fitted policies"
+  }
+]

@@ -1,0 +1,42 @@
+{
+  "repository": "https://github.com/allenai/OpenBookQA",
+  "repository_revision": "b51971646e9371a61508d9953fc706645e194a71",
+  "script_url": "https://raw.githubusercontent.com/allenai/OpenBookQA/b51971646e9371a61508d9953fc706645e194a71/scripts/download_and_prepare_data.sh",
+  "script_sha256": "c913668c36f9ffd032213c4dc906809d1d0ffd36f4aebf783477f27ce6c6e8e5",
+  "archive_url": "https://s3-us-west-2.amazonaws.com/ai2-website/data/OpenBookQA-V1-Sep2018.zip",
+  "archive_sha256": "82368cf05df2e3b309c17d162e10b888b4d768fad6e171e0a041954c8553be46",
+  "archive_bytes": 1446098,
+  "http_headers": {
+    "x-amz-id-2": "haYb+PUhIA5m41VLYqSji0YO4gNX6SBqY96Hl85kVP4eHjy6VEm3IBl0Ls665+ZUrR266h+03Y0=",
+    "x-amz-request-id": "HV82Z51VPHMNXJKR",
+    "Date": "Fri, 30 Oct 2026 06:50:30 GMT",
+    "Last-Modified": "Tue, 09 Oct 2018 17:45:09 GMT",
+    "ETag": "\"e07b3b2714762fb7b7cdc32a5ea0aa25\"",
+    "x-amz-version-id": "SJXTuRkUGotGLCcLWhRkLtnY1qLw54s8",
+    "Accept-Ranges": "bytes",
+    "Content-Type": "application/zip",
+    "Content-Length": "1446098",
+    "Server": "AmazonS3",
+    "Connection": "close"
+  },
+  "corpus_member": "OpenBookQA-V1-Sep2018/Data/Main/openbook.txt",
+  "raw_corpus_sha256": "42daf7849bd9ad1096599279e8875038fe8bf55e35c4757d67ec5a2f51ad795c",
+  "archive_members": [
+    "OpenBookQA-V1-Sep2018/",
+    "OpenBookQA-V1-Sep2018/Data/",
+    "OpenBookQA-V1-Sep2018/Data/Additional/",
+    "OpenBookQA-V1-Sep2018/Data/Additional/test_complete.jsonl",
+    "OpenBookQA-V1-Sep2018/Data/Additional/train_complete.jsonl",
+    "OpenBookQA-V1-Sep2018/Data/Additional/crowdsourced-facts.txt",
+    "OpenBookQA-V1-Sep2018/Data/Additional/dev_complete.jsonl",
+    "OpenBookQA-V1-Sep2018/Data/Main/",
+    "OpenBookQA-V1-Sep2018/Data/Main/train.jsonl",
+    "OpenBookQA-V1-Sep2018/Data/Main/test.jsonl",
+    "OpenBookQA-V1-Sep2018/Data/Main/train.tsv",
+    "OpenBookQA-V1-Sep2018/Data/Main/dev.tsv",
+    "OpenBookQA-V1-Sep2018/Data/Main/dev.jsonl",
+    "OpenBookQA-V1-Sep2018/Data/Main/openbook.txt",
+    "OpenBookQA-V1-Sep2018/Data/Main/test.tsv"
+  ],
+  "extraction": "Only Data/Main/openbook.txt extracted; no Q/A examples or annotations indexed."
+}

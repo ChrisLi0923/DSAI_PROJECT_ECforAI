@@ -1,0 +1,28 @@
+{
+  "unix": 1793293770.6587267,
+  "pid": 723635,
+  "alive_verified_in_host_namespace": true,
+  "target": "dsai:1:capability-1030-010738",
+  "stage": "search_generation",
+  "committed_responses": 5568,
+  "completed_main_format_work_units": 551,
+  "failed_or_interrupted_generation_attempts": 0,
+  "log_bytes": 3002,
+  "hardware": {
+    "gpu": "NVIDIA GeForce RTX 4090",
+    "visible_devices": "GPU-d33b074a-05c8-31c7-8080-8c9dea9275ed",
+    "free_gib_before_load": 20.0987548828125,
+    "total_gib": 23.64288330078125,
+    "torch": "2.6.0+cu124",
+    "cuda": "12.4",
+    "load_seconds": 6.055966347455978,
+    "dtype": "bfloat16",
+    "deterministic_algorithms": true,
+    "cpu_threads": 4,
+    "tf32": false,
+    "attention": "sdpa",
+    "memory_fraction": 0.4
+  },
+  "old_artifacts_unchanged": true,
+  "final_diagnostic_complete": false
+}

@@ -1,0 +1,114 @@
+{
+  "guidance_choices": 2410,
+  "fallback_choices": 1649,
+  "zero_reaching_choices": 1616,
+  "illustrative_query_paths": {
+    "(3, 4, 0)": 90,
+    "(3, 4)": 396
+  },
+  "seed_details": [
+    {
+      "id": "random/seed11/cap3",
+      "correct": 397,
+      "questions": 486,
+      "mean_calls": 2.185185185185185,
+      "different_predictions_from_fixed_triple": 0,
+      "rescued_single_errors": 22,
+      "spoiled_single_correct": 15
+    },
+    {
+      "id": "guided/seed11/cap3",
+      "correct": 397,
+      "questions": 486,
+      "mean_calls": 3.0041152263374484,
+      "different_predictions_from_fixed_triple": 0,
+      "rescued_single_errors": 22,
+      "spoiled_single_correct": 15
+    },
+    {
+      "id": "random/seed29/cap3",
+      "correct": 397,
+      "questions": 486,
+      "mean_calls": 2.1893004115226335,
+      "different_predictions_from_fixed_triple": 0,
+      "rescued_single_errors": 22,
+      "spoiled_single_correct": 15
+    },
+    {
+      "id": "guided/seed29/cap3",
+      "correct": 397,
+      "questions": 486,
+      "mean_calls": 3.0,
+      "different_predictions_from_fixed_triple": 0,
+      "rescued_single_errors": 22,
+      "spoiled_single_correct": 15
+    },
+    {
+      "id": "random/seed47/cap3",
+      "correct": 397,
+      "questions": 486,
+      "mean_calls": 2.185185185185185,
+      "different_predictions_from_fixed_triple": 0,
+      "rescued_single_errors": 22,
+      "spoiled_single_correct": 15
+    },
+    {
+      "id": "guided/seed47/cap3",
+      "correct": 395,
+      "questions": 486,
+      "mean_calls": 2.549382716049383,
+      "different_predictions_from_fixed_triple": 15,
+      "rescued_single_errors": 22,
+      "spoiled_single_correct": 17
+    },
+    {
+      "id": "random/seed71/cap3",
+      "correct": 397,
+      "questions": 486,
+      "mean_calls": 2.185185185185185,
+      "different_predictions_from_fixed_triple": 0,
+      "rescued_single_errors": 22,
+      "spoiled_single_correct": 15
+    },
+    {
+      "id": "guided/seed71/cap3",
+      "correct": 397,
+      "questions": 486,
+      "mean_calls": 2.185185185185185,
+      "different_predictions_from_fixed_triple": 0,
+      "rescued_single_errors": 22,
+      "spoiled_single_correct": 15
+    },
+    {
+      "id": "random/seed101/cap3",
+      "correct": 396,
+      "questions": 486,
+      "mean_calls": 2.345679012345679,
+      "different_predictions_from_fixed_triple": 9,
+      "rescued_single_errors": 21,
+      "spoiled_single_correct": 15
+    },
+    {
+      "id": "guided/seed101/cap3",
+      "correct": 397,
+      "questions": 486,
+      "mean_calls": 2.185185185185185,
+      "different_predictions_from_fixed_triple": 0,
+      "rescued_single_errors": 22,
+      "spoiled_single_correct": 15
+    }
+  ],
+  "checks": {
+    "complete": true,
+    "frozen_hash_matches": true,
+    "frozen_source_hashes_match": true,
+    "all_48_frozen_replays_match": true,
+    "complete_test_matrix_rows": 2430,
+    "freeze_precedes_first_test_generation": true,
+    "attempt_statuses": {
+      "complete": 7435
+    },
+    "new_model_calls": 0,
+    "search_or_selection_rerun": false
+  }
+}

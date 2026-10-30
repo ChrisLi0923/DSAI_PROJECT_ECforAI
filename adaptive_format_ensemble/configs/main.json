@@ -1,0 +1,59 @@
+{
+  "protocol_version": 2,
+  "model": {
+    "name": "Qwen/Qwen2.5-3B-Instruct",
+    "revision": "aa8e72537993ba99e69dfaafa59ed015b17504d1",
+    "batch_size": 1,
+    "target_max_tokens": 8,
+    "proposer_max_tokens": 160,
+    "max_input_tokens": 1536,
+    "min_free_gib": 18,
+    "memory_fraction": 0.4
+  },
+  "search": {
+    "seeds": [
+      11,
+      29,
+      47,
+      71,
+      101
+    ],
+    "population": 32,
+    "generations": 40
+  },
+  "targets": [
+    1.0,
+    2.0,
+    3.0
+  ],
+  "greedy_penalties": [
+    0.0,
+    0.01,
+    0.025,
+    0.05,
+    0.1,
+    0.2,
+    0.5
+  ],
+  "analysis": {
+    "bootstrap_replicates": 2000,
+    "bootstrap_seed": 9182,
+    "comparisons": [
+      "guided-random",
+      "guided-greedy",
+      "guided-fixed_subset",
+      "guided-agreement",
+      "guided-single"
+    ],
+    "unit": "whole_question",
+    "seed_variation": "separate",
+    "interval_scope": "conditional_on_fitted_policies",
+    "test_frontier": "descriptive_only",
+    "cost_matching": {
+      "basis": "validation_achieved_calls",
+      "max_absolute_difference": 0.15,
+      "pair_seeds": true,
+      "test_costs": "report_achieved_no_rematching"
+    }
+  }
+}

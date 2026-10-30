@@ -1,0 +1,34 @@
+{
+  "dataset": "allenai/openbookqa",
+  "revision": "388097ea7776314e93a529163e0fea805b8a6454",
+  "source_split": "train",
+  "description": "Newly held-out subset of the official OpenBookQA training split; not the official test split",
+  "source_train_sha256": "98148f8a54e62eb862346a75192d5fb824d6cbb68f2f59aecd793d39ecb5cd8b",
+  "eligible_unused_before_reservation": 4146,
+  "requested_final": 1000,
+  "reserved_final": 1000,
+  "reservation_seed": 20261029,
+  "counts": {
+    "search": 512,
+    "validation": 489,
+    "test": 1000
+  },
+  "hashes": {
+    "search": "ca804c557d9d881a3010b18dbb32d61a6b8e430efc71aa80c03990768bcfd643",
+    "validation": "c4e5bf5039214971e03ae48ba2a5cb381e433aa7469f7e5af893a0c32e9b1256",
+    "test": "f79ec810385024c3c2d0ed9a0ac7889071aa8c2b9e672a224cdd01a3db4f36ed"
+  },
+  "history_inventory_hash": "403cf7ff1ea83a25a4bb06aafa676622432d099d3cd6468d4d817439fa5c0cf2",
+  "exclusion_counts": {
+    "previous_normalized_question_stem": 640,
+    "previous_question_option_content": 599,
+    "previous_split_or_query_id": 576,
+    "possible_missing_media": 38,
+    "option_position_reference": 30,
+    "duplicate_remaining_source_question": 96,
+    "duplicate_options": 3,
+    "relative_option_reference": 4
+  },
+  "limits": "Exact IDs, normalized stems and unordered question-option content only; semantic paraphrases and pretraining overlap are not guaranteed absent. Reading/filtering raw source data is not a model query.",
+  "final_previews": "Created only after policy freeze; final performance unseen during preparation."
+}

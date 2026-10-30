@@ -1,0 +1,33 @@
+Sliding Window Attention is enabled but not implemented for `sdpa`; unexpected results may be encountered.
+Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]Loading checkpoint shards:  50%|█████     | 1/2 [00:01<00:01,  1.95s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:03<00:00,  1.46s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:03<00:00,  1.54s/it]
+INFO:root:Accepted new instruction 1/30
+INFO:root:Accepted new instruction 2/30
+INFO:root:Accepted new instruction 3/30
+INFO:root:Accepted new instruction 4/30
+INFO:root:Accepted new instruction 5/30
+INFO:root:Accepted new instruction 6/30
+INFO:root:Accepted new instruction 7/30
+INFO:root:Accepted new instruction 8/30
+INFO:root:Accepted new instruction 9/30
+INFO:root:Accepted new instruction 10/30
+INFO:root:Accepted new instruction 11/30
+INFO:root:Accepted new instruction 12/30
+INFO:root:Accepted new instruction 13/30
+INFO:root:Accepted new instruction 14/30
+INFO:root:Accepted new instruction 15/30
+INFO:root:Accepted new instruction 16/30
+INFO:root:Accepted new instruction 17/30
+INFO:root:Accepted new instruction 18/30
+INFO:root:Accepted new instruction 19/30
+INFO:root:Accepted new instruction 20/30
+INFO:root:Accepted new instruction 21/30
+INFO:root:Accepted new instruction 22/30
+INFO:root:Accepted new instruction 23/30
+INFO:root:Accepted new instruction 24/30
+INFO:root:Accepted new instruction 25/30
+INFO:root:Accepted new instruction 26/30
+INFO:root:Accepted new instruction 27/30
+INFO:root:Accepted new instruction 28/30
+INFO:root:Accepted new instruction 29/30
+INFO:root:Accepted new instruction 30/30
+{'evidence': 'real-model proposer regression only; no target or test-question inference', 'accepted_new_instructions': 30, 'previous_distinct_candidates': 12, 'calls': 31, 'rejected_attempts': 1, 'inference_seconds': 105.26574133336544, 'target_calls': 0, 'first_attempt_reproduces_old_parents_and_seed': True, 'hardware': {'gpu': 'NVIDIA GeForce RTX 4090', 'visible_devices': 'GPU-d33b074a-05c8-31c7-8080-8c9dea9275ed', 'free_gib_before_load': 20.0987548828125, 'total_gib': 23.64288330078125, 'torch': '2.6.0+cu124', 'cuda': '12.4', 'load_seconds': 5.854434169828892, 'dtype': 'bfloat16', 'deterministic_algorithms': True, 'cpu_threads': 4, 'tf32': False, 'attention': 'sdpa', 'memory_fraction': 0.5}, 'input_tokens': 8726, 'output_tokens': 1419}

@@ -1,0 +1,13 @@
+condition,metric,seed_count,mean,sd,min,max
+B,original_accuracy,1,1.0,,1.0,1.0
+B,seen_average_accuracy,1,1.0,,1.0,1.0
+B,seen_all_correct,1,1.0,,1.0,1.0
+C,original_accuracy,1,1.0,,1.0,1.0
+C,seen_average_accuracy,1,1.0,,1.0,1.0
+C,seen_all_correct,1,1.0,,1.0,1.0
+D,original_accuracy,1,1.0,,1.0,1.0
+D,seen_average_accuracy,1,1.0,,1.0,1.0
+D,seen_all_correct,1,1.0,,1.0,1.0
+E,original_accuracy,1,1.0,,1.0,1.0
+E,seen_average_accuracy,1,1.0,,1.0,1.0
+E,seen_all_correct,1,1.0,,1.0,1.0

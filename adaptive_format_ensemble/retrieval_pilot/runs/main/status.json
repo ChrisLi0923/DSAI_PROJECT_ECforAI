@@ -1,0 +1,14 @@
+{
+  "stage": "complete",
+  "unix": 1793345268.3813555,
+  "pid": 774997,
+  "session_wall_seconds": 1189.7991342544556,
+  "session_cpu_seconds": 988.467009303,
+  "protocol_sha256": "a57a0dedda4bf875f37a865db8f01b7f03d178f91e5576b9a802379440ea5fad",
+  "selection_sha256": "d37385705e5bb00b596dc7c3d24a0e41a79cdf2e3d99d6feb3db70d59f9b501a",
+  "new_calls": 6267,
+  "prior_outputs_unchanged": true,
+  "reserved_questions_queried": 0,
+  "additional_experiment_launched": false,
+  "report_sha256": "811c0de22dd10a3c8de650db150937e9c5f883bf1e0a9aeaacc89e5f20eab8a0"
+}

@@ -1,0 +1,50 @@
+role,method,baseline,metric,difference,lower,upper,question_count,unit,scope,difference_fraction,relative_reduction_percent
+primary_methodological,G2,G1,accuracy,0.0,0.0,0.0,1000,percentage points,conditional on these fitted policies; no future-search uncertainty,0.0,
+primary_methodological,G2,G1,calls,0.005199999999999962,-0.0040000000000000435,0.013804999999999937,1000,calls,conditional on these fitted policies; no future-search uncertainty,,-0.2359346642468222
+primary_methodological,G2,G1,utility,-5.200000000001663e-05,-0.0001380500000000169,3.999999999998445e-05,1000,utility,conditional on these fitted policies; no future-search uncertainty,,
+primary_methodological,G2,G1,input_tokens,0.5294000000000002,-0.3939599999999997,1.3965049999999999,1000,input_tokens,conditional on these fitted policies; no future-search uncertainty,,-0.24320549807971492
+primary_methodological,G2,G1,output_tokens,0.010199999999999924,-0.008200000000000068,0.027599999999999923,1000,output_tokens,conditional on these fitted policies; no future-search uncertainty,,-0.23134497618507427
+primary_methodological,G2,G1,tokens,0.5395999999999999,-0.40039999999999976,1.4252849999999992,1000,tokens,conditional on these fitted policies; no future-search uncertainty,,-0.24297003399599248
+primary_methodological,G2,G1,invalid,0.0,0.0,0.0,1000,percentage points,conditional on these fitted policies; no future-search uncertainty,0.0,
+primary_practical,ordered_triple,fixed_three,accuracy,0.0,0.0,0.0,1000,percentage points,conditional on these fitted policies; no future-search uncertainty,0.0,
+primary_practical,ordered_triple,fixed_three,calls,-0.796,-0.821,-0.77,1000,calls,conditional on these fitted policies; no future-search uncertainty,,26.533333333333335
+primary_practical,ordered_triple,fixed_three,utility,0.007960000000000007,0.007700000000000006,0.008210000000000007,1000,utility,conditional on these fitted policies; no future-search uncertainty,,
+primary_practical,ordered_triple,fixed_three,input_tokens,-78.588,-81.12565,-75.97865,1000,input_tokens,conditional on these fitted policies; no future-search uncertainty,,26.526341371209462
+primary_practical,ordered_triple,fixed_three,output_tokens,-1.592,-1.642,-1.54,1000,output_tokens,conditional on these fitted policies; no future-search uncertainty,,26.528911848025327
+primary_practical,ordered_triple,fixed_three,tokens,-80.18,-82.76382500000001,-77.52470000000001,1000,tokens,conditional on these fitted policies; no future-search uncertainty,,26.526392404016345
+primary_practical,ordered_triple,fixed_three,invalid,0.0,0.0,0.0,1000,percentage points,conditional on these fitted policies; no future-search uncertainty,0.0,
+secondary,G1,G0,accuracy,0.0,0.0,0.0,1000,percentage points,conditional on these fitted policies; no future-search uncertainty,0.0,
+secondary,G1,G0,calls,-0.15920000000000015,-0.17320000000000013,-0.14440000000000014,1000,calls,conditional on these fitted policies; no future-search uncertainty,,6.73662830060935
+secondary,G1,G0,utility,0.0015920000000000844,0.0014440000000000826,0.0017320000000000861,1000,utility,conditional on these fitted policies; no future-search uncertainty,,
+secondary,G1,G0,input_tokens,-15.727799999999998,-17.132254999999997,-14.23552,1000,input_tokens,conditional on these fitted policies; no future-search uncertainty,,6.738450702173658
+secondary,G1,G0,output_tokens,-0.3180000000000003,-0.34560000000000024,-0.28840000000000027,1000,output_tokens,conditional on these fitted policies; no future-search uncertainty,,6.727311191030257
+secondary,G1,G0,tokens,-16.0458,-17.476674999999997,-14.527489999999998,1000,tokens,conditional on these fitted policies; no future-search uncertainty,,6.738229578030226
+secondary,G1,G0,invalid,0.0,0.0,0.0,1000,percentage points,conditional on these fitted policies; no future-search uncertainty,0.0,
+secondary,ordered_triple,original,accuracy,2.8000000000000003,0.8999999999999999,4.6,1000,percentage points,conditional on these fitted policies; no future-search uncertainty,0.028,
+secondary,ordered_triple,original,calls,1.204,1.179,1.23,1000,calls,conditional on these fitted policies; no future-search uncertainty,,-120.39999999999999
+secondary,ordered_triple,original,utility,0.01595999999999999,-0.0031010000000000087,0.03383074999999999,1000,utility,conditional on these fitted policies; no future-search uncertainty,,
+secondary,ordered_triple,original,input_tokens,118.921,116.31295,121.531475,1000,input_tokens,conditional on these fitted policies; no future-search uncertainty,,-120.42023188699307
+secondary,ordered_triple,original,output_tokens,2.409,2.359,2.461,1000,output_tokens,conditional on these fitted policies; no future-search uncertainty,,-120.44999999999999
+secondary,ordered_triple,original,tokens,121.33,118.665975,123.989675,1000,tokens,conditional on these fitted policies; no future-search uncertainty,,-120.42082278795097
+secondary,ordered_triple,original,invalid,0.0,0.0,0.0,1000,percentage points,conditional on these fitted policies; no future-search uncertainty,0.0,
+secondary,ordered_triple,best_single,accuracy,2.5,0.6,4.3999999999999995,1000,percentage points,conditional on these fitted policies; no future-search uncertainty,0.025,
+secondary,ordered_triple,best_single,calls,1.204,1.179,1.23,1000,calls,conditional on these fitted policies; no future-search uncertainty,,-120.39999999999999
+secondary,ordered_triple,best_single,utility,0.01295999999999999,-0.005901000000000006,0.032030499999999996,1000,utility,conditional on these fitted policies; no future-search uncertainty,,
+secondary,ordered_triple,best_single,input_tokens,118.921,116.314975,121.53335,1000,input_tokens,conditional on these fitted policies; no future-search uncertainty,,-120.42023188699307
+secondary,ordered_triple,best_single,output_tokens,2.408,2.358,2.46,1000,output_tokens,conditional on these fitted policies; no future-search uncertainty,,-120.33983008495753
+secondary,ordered_triple,best_single,tokens,121.329,118.668925,123.9896,1000,tokens,conditional on these fitted policies; no future-search uncertainty,,-120.4186351185041
+secondary,ordered_triple,best_single,invalid,-0.1,-0.3,0.0,1000,percentage points,conditional on these fitted policies; no future-search uncertainty,-0.001,
+secondary,G1,ordered_triple,accuracy,0.0,0.0,0.0,1000,percentage points,conditional on these fitted policies; no future-search uncertainty,0.0,
+secondary,G1,ordered_triple,calls,0.0,0.0,0.0,1000,calls,conditional on these fitted policies; no future-search uncertainty,,-0.0
+secondary,G1,ordered_triple,utility,7.682743330406083e-17,7.349676423018537e-17,8.004708007547378e-17,1000,utility,conditional on these fitted policies; no future-search uncertainty,,
+secondary,G1,ordered_triple,input_tokens,0.0,0.0,0.0,1000,input_tokens,conditional on these fitted policies; no future-search uncertainty,,-0.0
+secondary,G1,ordered_triple,output_tokens,0.0,0.0,0.0,1000,output_tokens,conditional on these fitted policies; no future-search uncertainty,,-0.0
+secondary,G1,ordered_triple,tokens,0.0,0.0,0.0,1000,tokens,conditional on these fitted policies; no future-search uncertainty,,-0.0
+secondary,G1,ordered_triple,invalid,0.0,0.0,0.0,1000,percentage points,conditional on these fitted policies; no future-search uncertainty,0.0,
+secondary,G2,ordered_triple,accuracy,0.0,0.0,0.0,1000,percentage points,conditional on these fitted policies; no future-search uncertainty,0.0,
+secondary,G2,ordered_triple,calls,0.005199999999999962,-0.0040000000000000435,0.013804999999999937,1000,calls,conditional on these fitted policies; no future-search uncertainty,,-0.2359346642468222
+secondary,G2,ordered_triple,utility,-5.19999999999398e-05,-0.00013804999999994066,4.0000000000061396e-05,1000,utility,conditional on these fitted policies; no future-search uncertainty,,
+secondary,G2,ordered_triple,input_tokens,0.5294000000000002,-0.3939599999999997,1.3965049999999999,1000,input_tokens,conditional on these fitted policies; no future-search uncertainty,,-0.24320549807971492
+secondary,G2,ordered_triple,output_tokens,0.010199999999999924,-0.008200000000000068,0.027599999999999923,1000,output_tokens,conditional on these fitted policies; no future-search uncertainty,,-0.23134497618507427
+secondary,G2,ordered_triple,tokens,0.5395999999999999,-0.40039999999999976,1.4252849999999992,1000,tokens,conditional on these fitted policies; no future-search uncertainty,,-0.24297003399599248
+secondary,G2,ordered_triple,invalid,0.0,0.0,0.0,1000,percentage points,conditional on these fitted policies; no future-search uncertainty,0.0,

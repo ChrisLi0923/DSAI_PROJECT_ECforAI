@@ -1,0 +1,101 @@
+[
+  {
+    "cap": "3.0",
+    "comparison": "G1-minus-G0",
+    "metric": "accuracy",
+    "difference": "0.0",
+    "lo": "0.0",
+    "hi": "0.0",
+    "a_achieved_calls": "2.18",
+    "b_achieved_calls": "2.348",
+    "scope": "whole-question paired bootstrap conditional on fitted policies"
+  },
+  {
+    "cap": "3.0",
+    "comparison": "G1-minus-G0",
+    "metric": "calls",
+    "difference": "-0.16800000000000015",
+    "lo": "-0.18160500000000016",
+    "hi": "-0.15460000000000013",
+    "a_achieved_calls": "2.18",
+    "b_achieved_calls": "2.348",
+    "scope": "whole-question paired bootstrap conditional on fitted policies"
+  },
+  {
+    "cap": "3.0",
+    "comparison": "G1-minus-G0",
+    "metric": "utility",
+    "difference": "0.001680000000000088",
+    "lo": "0.001546000000000086",
+    "hi": "0.0018160500000000924",
+    "a_achieved_calls": "2.18",
+    "b_achieved_calls": "2.348",
+    "scope": "whole-question paired bootstrap conditional on fitted policies"
+  },
+  {
+    "cap": "3.0",
+    "comparison": "G2-minus-G1",
+    "metric": "accuracy",
+    "difference": "0.0",
+    "lo": "0.0",
+    "hi": "0.0",
+    "a_achieved_calls": "2.1864",
+    "b_achieved_calls": "2.18",
+    "scope": "whole-question paired bootstrap conditional on fitted policies"
+  },
+  {
+    "cap": "3.0",
+    "comparison": "G2-minus-G1",
+    "metric": "calls",
+    "difference": "0.006399999999999966",
+    "lo": "-0.002405000000000037",
+    "hi": "0.01579999999999997",
+    "a_achieved_calls": "2.1864",
+    "b_achieved_calls": "2.18",
+    "scope": "whole-question paired bootstrap conditional on fitted policies"
+  },
+  {
+    "cap": "3.0",
+    "comparison": "G2-minus-G1",
+    "metric": "utility",
+    "difference": "-6.400000000001657e-05",
+    "lo": "-0.00015800000000001598",
+    "hi": "2.40499999999842e-05",
+    "a_achieved_calls": "2.1864",
+    "b_achieved_calls": "2.18",
+    "scope": "whole-question paired bootstrap conditional on fitted policies"
+  },
+  {
+    "cap": "3.0",
+    "comparison": "G2-minus-G3",
+    "metric": "accuracy",
+    "difference": "0.0",
+    "lo": "0.0",
+    "hi": "0.0",
+    "a_achieved_calls": "2.1864",
+    "b_achieved_calls": "2.1881999999999997",
+    "scope": "whole-question paired bootstrap conditional on fitted policies"
+  },
+  {
+    "cap": "3.0",
+    "comparison": "G2-minus-G3",
+    "metric": "calls",
+    "difference": "-0.001800000000000037",
+    "lo": "-0.007000000000000037",
+    "hi": "0.003399999999999953",
+    "a_achieved_calls": "2.1864",
+    "b_achieved_calls": "2.1881999999999997",
+    "scope": "whole-question paired bootstrap conditional on fitted policies"
+  },
+  {
+    "cap": "3.0",
+    "comparison": "G2-minus-G3",
+    "metric": "utility",
+    "difference": "1.8000000000000634e-05",
+    "lo": "-3.400000000000008e-05",
+    "hi": "7.000000000000258e-05",
+    "a_achieved_calls": "2.1864",
+    "b_achieved_calls": "2.1881999999999997",
+    "scope": "whole-question paired bootstrap conditional on fitted policies"
+  }
+]

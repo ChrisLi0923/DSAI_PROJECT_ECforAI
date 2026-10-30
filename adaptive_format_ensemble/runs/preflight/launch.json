@@ -1,0 +1,19 @@
+{
+  "tmux_target": "dsai:1:format-ensemble-1028-222508",
+  "launch_argv": [
+    "tmux",
+    "new-window",
+    "-d",
+    "-P",
+    "-F",
+    "#{session_name}:#{window_index}:#{window_name}",
+    "-t",
+    "dsai:",
+    "-n",
+    "format-ensemble-1028-222508",
+    "bash /home/hli/dsai/adaptive_format_ensemble/scripts/run_main.sh"
+  ],
+  "command": "bash /home/hli/dsai/adaptive_format_ensemble/scripts/run_main.sh",
+  "unix": 1793197508.467134,
+  "gpu_snapshot": "GPU-d33b074a-05c8-31c7-8080-8c9dea9275ed"
+}

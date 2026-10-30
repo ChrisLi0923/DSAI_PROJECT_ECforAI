@@ -1,0 +1,24 @@
+{
+  "seen_formats": [
+    "original",
+    "inline",
+    "bullets",
+    "rotate1",
+    "rotate2"
+  ],
+  "withheld_formats": [],
+  "seen_layout": [
+    "inline",
+    "bullets"
+  ],
+  "seen_order": [
+    "rotate1",
+    "rotate2"
+  ],
+  "withheld_layout": [],
+  "withheld_order": [],
+  "repeat_excluded_from_fitness": true,
+  "accuracy_denominator": "all requested responses; invalid counts incorrect",
+  "semantic_flip_and_transition_denominator": "original-variant pairs where both outputs are valid",
+  "robustness_denominator": "all whole question groups; any invalid presentation fails its group"
+}

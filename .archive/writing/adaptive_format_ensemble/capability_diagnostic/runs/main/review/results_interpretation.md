@@ -1,0 +1,76 @@
+# Capability diagnostic: clear interpretation
+
+Completed 30 October 2026, 03:39:14, Asia/Shanghai, in 151.6 minutes (about 2 hours 32 minutes). All 11,082 planned new calls completed, alongside 5,005 compatible historical responses. No further experiment was launched. Both completed studies and their follow-up remain unchanged; 1,000 unused reserved questions remain unqueried.
+
+## Main finding
+
+More development data made simple selection somewhat more reliable, but did not beat the inexpensive ordered-triple reference. Three fixed alternative instructions did not improve achieved validation performance. Supplying the annotated supporting fact produced the clearest positive diagnostic signal, although this is privileged evidence and not a working retrieval system. The experiment does not isolate a single dominant cause or establish a model capability ceiling.
+
+## Why the earlier 83.3% was not a ceiling
+
+The earlier follow-up measured 83.3% on its separate 1,000-question final pool. This diagnostic uses 489 previously used validation questions, on which the same reference rule scores 395/489, or 80.78%. The different percentages reflect different question pools and must not be subtracted to infer improvement or decline.
+
+On these validation questions, at least one of the original five responses is correct for 446/489 questions (91.21%). Of the reference's 94 errors, exactly 51 have a correct alternative in that bank and 43 have none. The 51 show selection headroom; the 43 cannot be fixed by merely picking another answer from the same bank. Neither category tells us what this frozen model could answer under every possible instruction or evidence source.
+
+## Can a practical selector recover the correct alternatives?
+
+|Method on the same 489 validation questions|Correct|Accuracy|Mean model calls|
+|---|---:|---:|---:|
+|Existing ordered-triple stopping|395/489|80.78%|2.207|
+|Learned selector, reference three responses|394/489|80.57%|3.000|
+|Learned selector, five responses|393/489|80.37%|5.000|
+|Learned selector, five formats + two strategies|395/489|80.78%|7.000|
+
+The five-response selector beats plain five-response voting (393 versus 384 correct), but remains below the stronger reference (395) and asks more than twice as many times. Its paired improvement over five-response voting is +1.84 percentage points, with a conditional 95% interval from -0.41 to +4.50; this does not establish a reliable gain. The seven-response selector ties the reference in total correct answers while spending seven calls.
+
+Equal accuracy here does not imply identical predictions: the reference-three-plus-two-strategy selector rescues eight reference errors and spoils eight reference successes; the seven-response selector rescues nine and spoils nine. Their corrections cancel their new mistakes. This differs from the earlier G1/G2 follow-up, whose answer vectors actually matched.
+
+## Did we use too little development data?
+
+|Search questions used to train the selector|Three-response selector|Five-response selector|
+|---:|---:|---:|
+|128|80.00%|78.69%|
+|256|80.04%|79.30%|
+|512|80.33%|79.84%|
+|1000|80.57%|79.96%|
+|1500|80.57%|80.37%|
+
+These are means across five nested subset draws, all evaluated on the same validation questions. From 128 to 1,500 training questions, the five-response selector gains 1.68 percentage points on average and the three-response selector gains 0.57. From the more relevant 512 to 1,500 comparison, the gains are only 0.53 and 0.25 points, respectively. The exact old-512 fit and expanded-1500 fit improve from 391 to393 correct for five responses, and391 to394 for three responses.
+
+At 1,500 questions all draws contain the same full training pool, so equal endpoints are expected and are not evidence of five independent successful tests. Small samples can produce less stable fits; one particularly weak 128-question five-response fit contributes substantially to the mean small-to-large gain. Neither learned selector overtakes the 80.78% reference. More data helped this selector modestly; the result does not prove that 512 questions caused the earlier evolutionary method to underperform or that another evolutionary search would improve.
+
+## Did the new instructions help?
+
+The search-only rule selected elimination and principle-first for validation. They score 66.87% and65.44% alone, compared with77.91% for the original single-format instruction. Their fixed expanded ensembles and fitted selectors do not surpass the reference. Content-first scores64.07% on search and was not selected for validation; those search and validation percentages are different pools.
+
+The two new strategies add only five newly covered validation questions to the five-format bank: finite-bank oracle coverage goes from446/489 (91.21%) to451/489 (92.23%). Those five potential corrections did not translate into a net achieved accuracy gain. Disagreement and oracle coverage are therefore not sufficient reasons to prefer a strategy.
+
+Formatting contributes some failures:11/489 elimination outputs and12/489 principle outputs are invalid. No response reached the generation cap. Even optimistically counting every invalid strategy output as correct would leave both below the original-format accuracy, so parsing failures alone cannot explain their deficit. This tests these particular short-output instructions, not every possible reasoning approach. Generated rationales are not direct observations of internal reasoning.
+
+## Did relevant evidence help?
+
+|Condition on the same 300 sampled search questions|Correct|Accuracy|
+|---|---:|---:|
+|Original question, no evidence|240/300|80.00%|
+|Question plus annotated supporting fact|252/300|84.00%|
+|Question plus approximately length-matched unrelated fact|238/300|79.33%|
+
+Supporting facts rescue23 original errors but spoil11 successes, for12 net corrections (+4.00 percentage points). The paired 95% interval is approximately +0.33 to+7.67 points. Compared with unrelated facts, the gain is+4.67 points, with interval+1.00 to+8.67. This is evidence that the content of the supplied note matters in this sample, rather than any note necessarily helping.
+
+An additional exploratory comparison with the stronger ordered-triple reference on these same300 questions gives245/300 (81.67%) for the reference versus252/300 (84.00%) with the supporting fact. That+2.33-point difference has an interval of-1.67 to+6.33, so a gain over the best existing rule is not established. Do not compare84% on these300 search questions directly with80.78% on the489 validation questions.
+
+The correct science fact was handed to the model from the dataset annotation. This is privileged/oracle evidence: no retriever was built or evaluated, and a real retriever may supply irrelevant or missing facts. Some questions/annotations are awkward or ambiguous, so benchmark correctness is not always a perfect measure of scientific understanding. These data support relevant evidence as a possible future direction, not proof that missing evidence is the main cause of every error.
+
+## Stability, cost and limits
+
+All64 repeated identical inputs produced exactly the same raw text and canonical answers as their historical originals. This supports stability for this control sample under singleton settings; it is not a universal determinism guarantee.
+
+New generation consumed 1,335,887 input tokens and 123,066 output tokens, with 2.41 model-generation hours. All11,082 attempts completed; no output was truncated. Requested deployment tokens/calls remain separate from actual cache cost. The CPU analysis timer reports about18 wall seconds/45 process-CPU seconds for calculations, with selection and rendering overhead separate.
+
+This is exploratory development analysis: the validation pool had already been used, learning curves share it, and the many comparisons do not constitute independent confirmatory tests. Paired bootstrap intervals resample whole questions and condition on fitted selectors; they do not include retraining uncertainty. Draw variation is reported separately. The 1,000 reserved questions were not inspected for model performance.
+
+## Defensible conclusion for the project
+
+The earlier tie did not demonstrate a model-wide accuracy ceiling. Some existing errors have correct alternatives, but the tested observable support features did not select them well enough to improve on the cheap ordered rule. Increasing development data produced modest selector gains and greater consistency, without a competitive advantage over that rule. The tested reasoning instructions supplied no net validation benefit. Annotated supporting facts helped the original response, making evidence access the strongest positive exploratory signal, while real retrieval and superiority over the best ensemble remain unproven.
+
+Preserve the evolutionary studies' mixed/negative conclusions. This diagnostic does not establish an evolutionary improvement and does not rescue the novelty or superiority claim for utility guidance. No further search, training, redesign or confirmatory experiment was launched.

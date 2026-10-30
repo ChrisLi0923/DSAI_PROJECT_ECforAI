@@ -1,0 +1,7 @@
+{
+  "evidence": "final empirical experiment",
+  "elapsed_seconds": 8628.48565132916,
+  "wall_span_seconds_including_resume_gaps": 8628.56620669365,
+  "config_sha256": "ff6d16df2e09ace147d09b1fbe747c672673cb3f1ae636ee121f999a02b9a828",
+  "selected_prompts": 13
+}

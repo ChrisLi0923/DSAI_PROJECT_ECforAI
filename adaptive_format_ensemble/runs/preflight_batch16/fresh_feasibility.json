@@ -1,0 +1,438 @@
+{
+  "questions": 64,
+  "format_accuracy": {
+    "original": 0.8125,
+    "inline": 0.75,
+    "bullets": 0.796875,
+    "rotate1": 0.765625,
+    "rotate2": 0.796875
+  },
+  "pairwise": [
+    {
+      "from": "original",
+      "to": "original",
+      "both_wrong": 12,
+      "error_jaccard": 1.0,
+      "rescue_rate": 0.0
+    },
+    {
+      "from": "original",
+      "to": "inline",
+      "both_wrong": 11,
+      "error_jaccard": 0.6470588235294118,
+      "rescue_rate": 0.08333333333333333
+    },
+    {
+      "from": "original",
+      "to": "bullets",
+      "both_wrong": 11,
+      "error_jaccard": 0.7857142857142857,
+      "rescue_rate": 0.08333333333333333
+    },
+    {
+      "from": "original",
+      "to": "rotate1",
+      "both_wrong": 8,
+      "error_jaccard": 0.42105263157894735,
+      "rescue_rate": 0.3333333333333333
+    },
+    {
+      "from": "original",
+      "to": "rotate2",
+      "both_wrong": 6,
+      "error_jaccard": 0.3157894736842105,
+      "rescue_rate": 0.5
+    },
+    {
+      "from": "inline",
+      "to": "original",
+      "both_wrong": 11,
+      "error_jaccard": 0.6470588235294118,
+      "rescue_rate": 0.3125
+    },
+    {
+      "from": "inline",
+      "to": "inline",
+      "both_wrong": 16,
+      "error_jaccard": 1.0,
+      "rescue_rate": 0.0
+    },
+    {
+      "from": "inline",
+      "to": "bullets",
+      "both_wrong": 13,
+      "error_jaccard": 0.8125,
+      "rescue_rate": 0.1875
+    },
+    {
+      "from": "inline",
+      "to": "rotate1",
+      "both_wrong": 11,
+      "error_jaccard": 0.55,
+      "rescue_rate": 0.3125
+    },
+    {
+      "from": "inline",
+      "to": "rotate2",
+      "both_wrong": 9,
+      "error_jaccard": 0.45,
+      "rescue_rate": 0.4375
+    },
+    {
+      "from": "bullets",
+      "to": "original",
+      "both_wrong": 11,
+      "error_jaccard": 0.7857142857142857,
+      "rescue_rate": 0.15384615384615385
+    },
+    {
+      "from": "bullets",
+      "to": "inline",
+      "both_wrong": 13,
+      "error_jaccard": 0.8125,
+      "rescue_rate": 0.0
+    },
+    {
+      "from": "bullets",
+      "to": "bullets",
+      "both_wrong": 13,
+      "error_jaccard": 1.0,
+      "rescue_rate": 0.0
+    },
+    {
+      "from": "bullets",
+      "to": "rotate1",
+      "both_wrong": 9,
+      "error_jaccard": 0.47368421052631576,
+      "rescue_rate": 0.3076923076923077
+    },
+    {
+      "from": "bullets",
+      "to": "rotate2",
+      "both_wrong": 7,
+      "error_jaccard": 0.3684210526315789,
+      "rescue_rate": 0.46153846153846156
+    },
+    {
+      "from": "rotate1",
+      "to": "original",
+      "both_wrong": 8,
+      "error_jaccard": 0.42105263157894735,
+      "rescue_rate": 0.4666666666666667
+    },
+    {
+      "from": "rotate1",
+      "to": "inline",
+      "both_wrong": 11,
+      "error_jaccard": 0.55,
+      "rescue_rate": 0.26666666666666666
+    },
+    {
+      "from": "rotate1",
+      "to": "bullets",
+      "both_wrong": 9,
+      "error_jaccard": 0.47368421052631576,
+      "rescue_rate": 0.4
+    },
+    {
+      "from": "rotate1",
+      "to": "rotate1",
+      "both_wrong": 15,
+      "error_jaccard": 1.0,
+      "rescue_rate": 0.0
+    },
+    {
+      "from": "rotate1",
+      "to": "rotate2",
+      "both_wrong": 8,
+      "error_jaccard": 0.4,
+      "rescue_rate": 0.4666666666666667
+    },
+    {
+      "from": "rotate2",
+      "to": "original",
+      "both_wrong": 6,
+      "error_jaccard": 0.3157894736842105,
+      "rescue_rate": 0.5384615384615384
+    },
+    {
+      "from": "rotate2",
+      "to": "inline",
+      "both_wrong": 9,
+      "error_jaccard": 0.45,
+      "rescue_rate": 0.3076923076923077
+    },
+    {
+      "from": "rotate2",
+      "to": "bullets",
+      "both_wrong": 7,
+      "error_jaccard": 0.3684210526315789,
+      "rescue_rate": 0.46153846153846156
+    },
+    {
+      "from": "rotate2",
+      "to": "rotate1",
+      "both_wrong": 8,
+      "error_jaccard": 0.4,
+      "rescue_rate": 0.38461538461538464
+    },
+    {
+      "from": "rotate2",
+      "to": "rotate2",
+      "both_wrong": 13,
+      "error_jaccard": 1.0,
+      "rescue_rate": 0.0
+    }
+  ],
+  "full_vote": {
+    "accuracy": 0.78125,
+    "mean_calls": 5.0
+  },
+  "three_vote": {
+    "accuracy": 0.796875,
+    "mean_calls": 3.0
+  },
+  "agreement": {
+    "accuracy": 0.796875,
+    "mean_calls": 2.109375
+  },
+  "oracle_coverage_DIAGNOSTIC_ONLY": 0.9375,
+  "oracle_headroom": 0.125,
+  "invalid_rate": 0.0,
+  "gate": {
+    "passed": true,
+    "predeclared_min_oracle_headroom": 0.03,
+    "max_agreement_calls": 4.5,
+    "max_invalid": 0.05
+  },
+  "evidence": "Fresh OpenBookQA development only; no final-test predictions",
+  "inference_seconds_this_pass": 3.9674889147281647,
+  "wall_seconds_this_pass": 4.758062332868576,
+  "cache_costs": {
+    "cache_generation": {
+      "development": {
+        "completed_unique_calls": 320,
+        "executed_here_calls": 320,
+        "reused_preflight_calls": 0,
+        "input_tokens": 31904,
+        "output_tokens": 640,
+        "inference_seconds": 5.23032010346651,
+        "invalid_outputs": 0
+      }
+    },
+    "attempts": [
+      {
+        "id": 1,
+        "kind": "generation",
+        "scope": "development",
+        "n": 16,
+        "started": 1793196588.2511914,
+        "ended": 1793196588.8567555,
+        "status": "complete",
+        "detail": "null"
+      },
+      {
+        "id": 2,
+        "kind": "generation",
+        "scope": "development",
+        "n": 16,
+        "started": 1793196588.8652983,
+        "ended": 1793196589.1291146,
+        "status": "complete",
+        "detail": "null"
+      },
+      {
+        "id": 3,
+        "kind": "generation",
+        "scope": "development",
+        "n": 16,
+        "started": 1793196589.1377084,
+        "ended": 1793196589.4117494,
+        "status": "complete",
+        "detail": "null"
+      },
+      {
+        "id": 4,
+        "kind": "generation",
+        "scope": "development",
+        "n": 12,
+        "started": 1793196589.4203315,
+        "ended": 1793196589.6953244,
+        "status": "complete",
+        "detail": "null"
+      },
+      {
+        "id": 5,
+        "kind": "generation",
+        "scope": "development",
+        "n": 16,
+        "started": 1793197070.0023086,
+        "ended": 1793197070.5873165,
+        "status": "complete",
+        "detail": "null"
+      },
+      {
+        "id": 6,
+        "kind": "generation",
+        "scope": "development",
+        "n": 16,
+        "started": 1793197070.5963035,
+        "ended": 1793197070.8555446,
+        "status": "complete",
+        "detail": "null"
+      },
+      {
+        "id": 7,
+        "kind": "generation",
+        "scope": "development",
+        "n": 16,
+        "started": 1793197070.8647082,
+        "ended": 1793197071.125474,
+        "status": "complete",
+        "detail": "null"
+      },
+      {
+        "id": 8,
+        "kind": "generation",
+        "scope": "development",
+        "n": 16,
+        "started": 1793197071.1344523,
+        "ended": 1793197071.3899295,
+        "status": "complete",
+        "detail": "null"
+      },
+      {
+        "id": 9,
+        "kind": "generation",
+        "scope": "development",
+        "n": 16,
+        "started": 1793197071.398948,
+        "ended": 1793197071.652495,
+        "status": "complete",
+        "detail": "null"
+      },
+      {
+        "id": 10,
+        "kind": "generation",
+        "scope": "development",
+        "n": 16,
+        "started": 1793197071.6614318,
+        "ended": 1793197071.9238262,
+        "status": "complete",
+        "detail": "null"
+      },
+      {
+        "id": 11,
+        "kind": "generation",
+        "scope": "development",
+        "n": 16,
+        "started": 1793197071.9328003,
+        "ended": 1793197072.1834197,
+        "status": "complete",
+        "detail": "null"
+      },
+      {
+        "id": 12,
+        "kind": "generation",
+        "scope": "development",
+        "n": 16,
+        "started": 1793197072.1923358,
+        "ended": 1793197072.4632936,
+        "status": "complete",
+        "detail": "null"
+      },
+      {
+        "id": 13,
+        "kind": "generation",
+        "scope": "development",
+        "n": 16,
+        "started": 1793197072.47231,
+        "ended": 1793197072.714712,
+        "status": "complete",
+        "detail": "null"
+      },
+      {
+        "id": 14,
+        "kind": "generation",
+        "scope": "development",
+        "n": 16,
+        "started": 1793197072.7236462,
+        "ended": 1793197072.9915786,
+        "status": "complete",
+        "detail": "null"
+      },
+      {
+        "id": 15,
+        "kind": "generation",
+        "scope": "development",
+        "n": 16,
+        "started": 1793197073.000466,
+        "ended": 1793197073.2606115,
+        "status": "complete",
+        "detail": "null"
+      },
+      {
+        "id": 16,
+        "kind": "generation",
+        "scope": "development",
+        "n": 16,
+        "started": 1793197073.2695487,
+        "ended": 1793197073.5108163,
+        "status": "complete",
+        "detail": "null"
+      },
+      {
+        "id": 17,
+        "kind": "generation",
+        "scope": "development",
+        "n": 16,
+        "started": 1793197073.519647,
+        "ended": 1793197073.765055,
+        "status": "complete",
+        "detail": "null"
+      },
+      {
+        "id": 18,
+        "kind": "generation",
+        "scope": "development",
+        "n": 16,
+        "started": 1793197073.773885,
+        "ended": 1793197074.0346713,
+        "status": "complete",
+        "detail": "null"
+      },
+      {
+        "id": 19,
+        "kind": "generation",
+        "scope": "development",
+        "n": 16,
+        "started": 1793197074.043444,
+        "ended": 1793197074.294789,
+        "status": "complete",
+        "detail": "null"
+      },
+      {
+        "id": 20,
+        "kind": "generation",
+        "scope": "development",
+        "n": 16,
+        "started": 1793197074.3036861,
+        "ended": 1793197074.5437708,
+        "status": "complete",
+        "detail": "null"
+      },
+      {
+        "id": 21,
+        "kind": "generation",
+        "scope": "development",
+        "n": 4,
+        "started": 1793197074.5525815,
+        "ended": 1793197074.7210734,
+        "status": "complete",
+        "detail": "null"
+      }
+    ],
+    "attempt_caveat": "Interrupted uncommitted batches may have executed; nominal completed calls differ from physical attempts."
+  },
+  "questions_per_second_generation_only": 61.1817238084363
+}

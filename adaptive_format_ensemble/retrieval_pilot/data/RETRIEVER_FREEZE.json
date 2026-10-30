@@ -1,0 +1,21 @@
+{
+  "corpus_manifest_hash": "0ed6a0d1c5ff6019fe90b07ce226693e01f49c2d977d5b36a9a4a9fa656c88b2",
+  "parameters": {
+    "algorithm": "BM25",
+    "k1": 1.5,
+    "b": 0.75,
+    "top_k": 3,
+    "idf": "log(1 + (N - df + 0.5)/(df + 0.5))",
+    "query_tf": "linear count",
+    "tokenizer": "Unicode NFKC and casefold; words with internal apostrophes; no stopword removal or stemming",
+    "query": "question stem plus all option texts sorted by normalized text; no added displayed letters",
+    "ties": "ascending stable document ID"
+  },
+  "query_source_sha256": "9b3f990e5132bb6bdd6f394e5facaff99c62e0aab5466976175f5a429ccc0f42",
+  "control_rule": {
+    "seed": 301043,
+    "description": "On the exact historical 300 search IDs, choose an independently seeded corpus fact outside the retrieved top three, in the lower half of BM25 scores and with content-word Jaccard <=0.1 to the query; minimize word-length distance to top one and use seeded stable-ID ties. An independent annotation-only audit must find no supporting-fact matches; annotations do not rank or choose the control."
+  },
+  "note": "Frozen before computing annotation hit diagnostics or any answering outcomes.",
+  "sha256": "2f9d9214bdb3a791d16c844b758efdb9474c1fb44a9a2284f7f5be550ff0b138"
+}

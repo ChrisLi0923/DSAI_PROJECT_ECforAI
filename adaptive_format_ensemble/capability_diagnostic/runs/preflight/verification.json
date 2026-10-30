@@ -1,0 +1,112 @@
+{
+  "passed": true,
+  "wall_seconds": 9.107788190245628,
+  "fingerprint": {
+    "files": {
+      "diagnostic/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "diagnostic/analysis.py": "05b39886b133a0edbcbf434ca0139b04faa400f76a768ab785e4d843dedf7019",
+      "diagnostic/cache.py": "a6c6c0927f76c28cbf1e47db1fb09ad34ddb4cc3a662b9bab3d4ca5eaa62d4b1",
+      "diagnostic/common.py": "6383841e93af82ecf5d38c42ba6470278c31d89286fd818b4efc34daf7ff7e0e",
+      "diagnostic/data.py": "3a1e1945ab143f9784a53321fa1722394bfbcfb8300b9bac1a016eaa02cfbc4d",
+      "diagnostic/gpu.py": "d3080390873e3ea6a469c24965d0e3ffa50b791edb60180618fdc3788e83ea3b",
+      "diagnostic/prompts.py": "54d91c87aef1895df5d117ef6c06e5355d95dceb3b8aea3f94d51e15fcb31f4e",
+      "diagnostic/replay.py": "3ce68c8f9859d026b22263949fcbfd79149a94b44d076ebe4726602801e64142",
+      "diagnostic/selector.py": "f5c6e120cf3ebec2962f4c1742fcabedec39f1d46934d80ec595911584ece90e",
+      "diagnostic/stats.py": "1012cd29ccbe47281b381ed9564cfc16e2f1c49548d630a58b7e91e7c4c57c6a",
+      "diagnostic/workflow.py": "78f6b0addab90f6d08ac87dc375eca21d7b36c77802c92949bfe51cbf36fb3dd",
+      "reused/__init__.py": "e130e35a14d9a1cd59b8546fd551ebdd03cf3d54f28fba47303f0840cd3ebf8c",
+      "reused/core.py": "4aa04aad63adff953899297048b779fece5db948797b256414a21b5b14335b55",
+      "reused/gpu_select.py": "ab7dff4c088f6311d3275d1e7e8253a4fafc148493babd3a68da1121b2932d25",
+      "reused/model.py": "81b751a6d8f24f103c5ae76bd4c2ba1e90ee42b1f90c36fd5399ecab3020fbf8",
+      "reused/storage.py": "808da4b91759088430898e7f654c552d825bc59289671fbb48b3099e4efa564d",
+      "afe/__init__.py": "78b972ae7e1877d1b47d7a90e5b075818edcf51c686810e4804ff02724ad439c",
+      "afe/cache.py": "44590d7ade9e8077e59b8e868abd0b381400d5b78e2505c4d1eb07184e25030a",
+      "afe/policy.py": "29b3919d9229ca23f7e254e579e01aad6f9423089d8e123be0948e04b3fc0dbf",
+      "scripts/check_launch.py": "1cece7216737c25eac2fb07df4636e84a60dbac8f73a09b6b89b9af43c9208b2",
+      "scripts/estimate.py": "2cb58267432b95f0974a3f433cd91cf3557aa33f810795d8ecba1b5cbdfaab6c",
+      "scripts/launch_tmux.py": "ac7790ea377776afcaeb0ed6f3a767b253f42550d0f9ebc7766258cae81fe010",
+      "scripts/model_smoke.py": "06c0cfb097acbe058d7e8e374bb2d8487f641a695318973d14b74204252aba68",
+      "scripts/prepare.py": "6e6766a94a1c8fb51ddc2cabbd03a2998343ee2e3f4efb274b035b9c754b976f",
+      "scripts/run_main.sh": "478b5a04c54965f3eecf9f2c658b7b9ea05242f6ccc59af470b5b88e8f976fb8",
+      "scripts/verify.py": "cb54d4cb02c9444e8891d973fb8dd70af245cf1618f91893841a58da0aade01a",
+      "tests/test_diagnostic.py": "84210b3a6b8f05c48f82f056b70849266ff25a8c4b734b479c6e95fc1b85c1fd",
+      "configs/main.json": "fdbfe208d74f23ae63b89989ee0162286bb15fdfb6023cd08ee7e1a61fa29aef",
+      "configs/strategy_specification.json": "4a72facfcabbcb54c233688230b14f18611297a15f05b793dda280cfa4389643"
+    },
+    "packages": {
+      "numpy": "2.2.5",
+      "scipy": "1.15.3",
+      "torch": "2.6.0+cu124",
+      "transformers": "4.51.3",
+      "pyarrow": "26.0.0",
+      "matplotlib": "3.10.1",
+      "huggingface_hub": "0.30.2"
+    },
+    "config": {
+      "version": 1,
+      "model": {
+        "name": "Qwen/Qwen2.5-3B-Instruct",
+        "revision": "aa8e72537993ba99e69dfaafa59ed015b17504d1",
+        "batch_size": 1,
+        "target_max_tokens": 8,
+        "proposer_max_tokens": 160,
+        "max_input_tokens": 1536,
+        "min_free_gib": 18,
+        "memory_fraction": 0.4
+      },
+      "strategy_max_tokens": 128,
+      "data": {
+        "search_n": 1500,
+        "reserve_n": 1000,
+        "reserve_seed": 301030,
+        "addition_seed": 301031,
+        "fact_n": 300,
+        "fact_seed": 301032,
+        "unrelated_seed": 301033,
+        "repeat_n": 64,
+        "repeat_seed": 301034
+      },
+      "selector": {
+        "lambdas": [
+          0.0001,
+          0.001,
+          0.01,
+          0.1
+        ],
+        "folds": 5,
+        "cv_seed": 301035,
+        "max_iter": 160,
+        "tolerance": 1e-06
+      },
+      "learning": {
+        "sizes": [
+          128,
+          256,
+          512,
+          1000,
+          1500
+        ],
+        "seeds": [
+          11,
+          29,
+          47,
+          71,
+          101
+        ]
+      },
+      "analysis": {
+        "bootstrap_replicates": 2000,
+        "bootstrap_seed": 301036,
+        "review_seed": 301037,
+        "review_per_category": 6,
+        "minimum_practical_accuracy_gain": 0.005
+      },
+      "strategy_selection": {
+        "count": 2,
+        "rule": "Rank all strategy pairs by descending search accuracy of canonical plurality on the reference three formats plus that pair; then descending mean standalone accuracy of the two strategies; then ascending mean total requested tokens of the five-response ensemble; then lexicographic pair names. Select the first pair. No oracle or validation outcomes enter selection."
+      }
+    },
+    "manifest_sha256": "f6ed4504b0dc242dc2164ead90118a8c4f9ff629fc882dae4800dc0f48017472",
+    "requirements_lock_sha256": "8cd6d13e5d1a262a0586080c32fd7709a4a35a5286eed95818dfaee8e02472a6"
+  }
+}

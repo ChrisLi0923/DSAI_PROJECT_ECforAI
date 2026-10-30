@@ -1,0 +1,17 @@
+{
+  "evidence": "Timing only: tiled development responses, not 512 independent research examples",
+  "examples_per_replay": 512,
+  "generations": 5,
+  "evaluated_slots": 192,
+  "seconds": 0.24721910804510117,
+  "rough_ten_search_extrapolation_seconds": 19.777528643608093,
+  "exclusions": [
+    "fresh cache generation",
+    "validation replay",
+    "greedy",
+    "report",
+    "loading",
+    "contention",
+    "retries"
+  ]
+}

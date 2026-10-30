@@ -1,0 +1,32 @@
+[
+  {
+    "stage": "loading_model",
+    "unix": 1793116462.039052,
+    "session_elapsed_seconds": 0.009700179100036621
+  },
+  {
+    "stage": "pilot",
+    "unix": 1793116470.4197907,
+    "session_elapsed_seconds": 8.390438608825207
+  },
+  {
+    "stage": "search",
+    "unix": 1793116471.1326272,
+    "session_elapsed_seconds": 9.103275313973427
+  },
+  {
+    "stage": "selection_validation",
+    "unix": 1793116554.3409889,
+    "session_elapsed_seconds": 92.31163682043552
+  },
+  {
+    "stage": "final_evaluation",
+    "unix": 1793116555.9700747,
+    "session_elapsed_seconds": 93.94072245806456
+  },
+  {
+    "stage": "analysis",
+    "unix": 1793116558.0034049,
+    "session_elapsed_seconds": 95.97405290603638
+  }
+]

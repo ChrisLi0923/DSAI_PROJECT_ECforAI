@@ -1,0 +1,36 @@
+{
+  "evidence_passes": {
+    "v1_batch16": {
+      "development_unique_generation": {
+        "completed_unique_calls": 320,
+        "executed_here_calls": 320,
+        "reused_preflight_calls": 0,
+        "input_tokens": 31904,
+        "output_tokens": 640,
+        "inference_seconds": 5.23032010346651,
+        "invalid_outputs": 0
+      },
+      "latest_live_verification_calls": 49,
+      "latest_live_input_tokens": 5967,
+      "latest_live_output_tokens": 98,
+      "additional_initial_live_calls": 40,
+      "additional_initial_live_input_tokens": 4887,
+      "additional_initial_live_output_tokens": 80
+    },
+    "v2_singleton": {
+      "development_unique_generation": {
+        "completed_unique_calls": 320,
+        "executed_here_calls": 320,
+        "reused_preflight_calls": 0,
+        "input_tokens": 31904,
+        "output_tokens": 640,
+        "inference_seconds": 44.37123119086027,
+        "invalid_outputs": 0
+      },
+      "latest_live_verification_calls": 48,
+      "latest_live_input_tokens": 5863,
+      "latest_live_output_tokens": 96
+    }
+  },
+  "note": "Main imports the v2 development responses; do not add imported main rows a second time. V1 is archived diagnostic cost. Live verification and repeats are intentional additional physical calls."
+}

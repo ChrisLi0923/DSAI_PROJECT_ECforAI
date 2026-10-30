@@ -1,0 +1,16 @@
+{
+  "passed": true,
+  "date": "2026-10-31",
+  "model_calls": 0,
+  "preserved_original_files": 948,
+  "excluded_ephemeral_files": 138,
+  "lossless_compressed_records": 63,
+  "frozen_final_source_config_files": 32,
+  "protected_history_files": 15,
+  "new_document_links": 73,
+  "publication_files": 959,
+  "publication_bytes": 216755539,
+  "credential_pattern_scan": "passed",
+  "github_100_mib_file_limit": "passed",
+  "scope": "File preservation/packaging only; no historical prediction audit or model inference."
+}

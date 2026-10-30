@@ -1,0 +1,11 @@
+{
+  "added_formats": 4940,
+  "search_strategies": 4500,
+  "validation_strategies": 978,
+  "evidence": 600,
+  "repeats": 64,
+  "total": 11082,
+  "compatible_reused_search_validation_calls": 5005,
+  "existing_reusable_new_diagnostic_calls": 0,
+  "remaining_new_calls_including_selected_validation": 11082
+}
