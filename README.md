@@ -51,7 +51,6 @@ Processed CSV/JSON results can be read without restoring databases. Analysis nee
 On the original host:
 
 ```bash
-cd /home/hli/dsai
 final_evaluation/.venv/bin/python tools/restore_artifacts.py --project final_evaluation
 final_evaluation/.venv/bin/python final_evaluation/scripts/reproduce.py \
   --output /tmp/dsai-final-cpu-reproduction
