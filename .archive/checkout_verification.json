@@ -1,0 +1,38 @@
+{
+  "date": "2026-10-31",
+  "passed": true,
+  "model_calls": 0,
+  "source": "fresh local Git clone of publishing branch; packaging-checker local-only omission correction applied",
+  "final_databases_restored": 4,
+  "cpu_reproduction": "/tmp/dsai-publication-cpu-reproduction-20261031/runs",
+  "exact_original_matches": {
+    "summary.json (excluding remeasured replay timers)": true,
+    "paired_predictions.json": true,
+    "final_matrix.json": true,
+    "paired_comparisons.json": true,
+    "integrity.json": true,
+    "per_seed_metrics.csv": true,
+    "method_summary.csv": true,
+    "paired_comparisons.csv": true,
+    "matched_seed_comparisons.csv": true,
+    "exact_prediction_comparisons.csv": true
+  },
+  "checkout_file_checks": {
+    "passed": true,
+    "date": "2026-10-31",
+    "model_calls": 0,
+    "preserved_original_files": 947,
+    "excluded_ephemeral_files": 138,
+    "declared_local_only_files_absent": 1,
+    "lossless_compressed_records": 63,
+    "frozen_final_source_config_files": 32,
+    "protected_history_files": 15,
+    "new_document_links": 73,
+    "publication_files": 959,
+    "publication_bytes": 216755944,
+    "credential_pattern_scan": "passed",
+    "github_100_mib_file_limit": "passed",
+    "scope": "File preservation/packaging only; no historical prediction audit or model inference."
+  },
+  "notes": "Only CPU replay/statistics/documents. Replay CPU/wall times are remeasured; all scientific summaries, paired predictions and full-precision tables match. No refitting, inference or historical prediction re-audit."
+}

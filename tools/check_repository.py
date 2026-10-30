@@ -42,7 +42,8 @@ def main():
                 size += len(block)
         assert size == r['original_bytes'] and h.hexdigest() == r['original_sha256'], r['original']
 
-    checked = ephemeral = 0
+    checked = ephemeral = local_only_count = 0
+    local_only = {r['path']: r for r in m['local_only']}
     for r in m['original_files']:
         # SQLite shared-memory/empty WAL and advisory locks are runtime files,
         # not scientific records. The packager refuses nonempty WALs.
@@ -50,6 +51,12 @@ def main():
             ephemeral += 1
             continue
         p = preserved_path(r['path'])
+        rel = str(p.relative_to(ROOT))
+        if not p.exists() and rel in local_only:
+            assert local_only[rel]['sha256'] == r['sha256']
+            assert local_only[rel]['bytes'] == r['bytes']
+            local_only_count += 1
+            continue
         if not p.exists() and r['path'] in compressed:
             assert compressed[r['path']]['original_sha256'] == r['sha256']
         else:
@@ -86,6 +93,7 @@ def main():
             assert not secret.search(p.read_bytes()), 'Credential-like content found; inspect privately: ' + str(p.relative_to(ROOT))
     result = {'passed': True, 'date': '2026-10-31', 'model_calls': 0,
               'preserved_original_files': checked, 'excluded_ephemeral_files': ephemeral,
+              'declared_local_only_files_absent': local_only_count,
               'lossless_compressed_records': len(compressed),
               'frozen_final_source_config_files': len(frozen['fingerprint']['files']),
               'protected_history_files': len(protected), 'new_document_links': link_count,

@@ -8,6 +8,7 @@
 - Added a real root .gitignore, replacing the former root compatibility symlink. Explicit publication inventory includes data/results despite historical child ignore rules. Added restoration, preservation, link, frozen-source and credential-pattern checks.
 - File checks verified 948 non-ephemeral originals, all 63 gzip round trips, 32 frozen final source/config files and all 15 protected historical files. Final PDF/completion hashes remain consistent. Eleven focused final-workflow tests passed after reorganization (only existing plotting-library deprecation warnings). No model calls, search, tuning or repeated large prediction audit.
 - Prepared publishing branch publish/organized-experiments-20261031. GitHub authentication is a separate machine-setup requirement; publish status is reported from the actual push result, not inferred from a configured remote.
+- Tested a fresh local Git checkout: restored four final-evaluation databases and original document links; all archived/compressed records passed preservation checks. Corrected the packaging checker to recognize the explicitly omitted redundant local submission ZIP. CPU-only reproduction matched all scientific summaries, paired predictions, full-precision tables and intervals exactly; only newly measured replay runtime differed. Evidence: .archive/checkout_verification.json. Actual noninteractive HTTPS push was blocked by missing GitHub credentials; no remote update was claimed.
 
 ## 28 October 2026
 
