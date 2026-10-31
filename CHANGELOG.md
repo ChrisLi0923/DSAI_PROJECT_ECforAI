@@ -1,5 +1,14 @@
 # Workspace change log
 
+## 31 October 2026 — Publish mechanism diagnostics and clarify current guides
+
+- Incorporated the newer GitHub README commit before editing; retained its history and avoided a force push.
+- Reworked the root README around results, experiment order, file locations and CPU reproduction. Added guides/RESULTS.md, REPOSITORY_MAP.md and REPRODUCIBILITY.md, plus a current OVERVIEW.md for every stage.
+- Added the completed post-hoc mechanism analyses to EXPERIMENTS.md, explicitly distinguishing them from the six model-experiment stages. Preserved numerical results and their exploratory/confirmatory boundaries.
+- Preserved historical project READMEs, frozen Markdown/protocols, the Word report, scientific source/configuration, raw responses, selected policies and completion records. Current overviews clarify which older instructions are historical.
+- Included mechanism source, specification, figures, tables, logs and verification/provenance in the publication inventory. Excluded its temporary files and Python caches. No model calls, new search or method changes.
+- Repository preservation, current-document links, mechanism output/source hashes and clean-checkout publication checks are recorded under .archive/. GitHub push success is verified against the actual remote commit.
+
 ## 31 October 2026 — Organize completed experiments for GitHub
 
 - Added EXPERIMENTS.md covering all six stages, their hypotheses, datasets, methods/controls, numerical results, evidence paths, smokes and failed attempts. Replaced root navigation with the completed experiment sequence and CPU-only restoration/reproduction commands.

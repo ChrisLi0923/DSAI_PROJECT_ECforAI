@@ -1,0 +1,6 @@
+{
+  "timestamp": "2026-10-31T19:24:39.048607+08:00",
+  "error": "AssertionError()",
+  "traceback": "Traceback (most recent call last):\n  File \"/home/hli/dsai/mechanism_diagnostics/src/run.py\", line 50, in <module>\n    try:main()\n        ^^^^^^\n  File \"/home/hli/dsai/mechanism_diagnostics/src/run.py\", line 29, in main\n    m=mutations.analyze(run,x,y,vx,vy)\n      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/hli/dsai/mechanism_diagnostics/src/mutations.py\", line 22, in analyze\n    assert visit is not None\n           ^^^^^^^^^^^^^^^^^\nAssertionError\n",
+  "model_calls": 0
+}

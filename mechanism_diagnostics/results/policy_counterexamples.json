@@ -1,0 +1,223 @@
+{
+  "G0/seed11": {
+    "canonical_format_responses": [
+      -1,
+      -1,
+      -1,
+      -1,
+      0
+    ],
+    "fixed_vote": {
+      "answer": 0,
+      "calls": 3,
+      "asked": [
+        0,
+        3,
+        4
+      ],
+      "queried_answers": [
+        -1,
+        -1,
+        0
+      ]
+    },
+    "policy_result": {
+      "answer": -1,
+      "calls": 2,
+      "asked": [
+        3,
+        0
+      ],
+      "queried_answers": [
+        -1,
+        -1
+      ]
+    },
+    "format_order": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ],
+    "invalid_code": -1
+  },
+  "G0/seed29": {
+    "canonical_format_responses": [
+      1,
+      0,
+      0,
+      -1,
+      1
+    ],
+    "fixed_vote": {
+      "answer": 1,
+      "calls": 3,
+      "asked": [
+        0,
+        3,
+        4
+      ],
+      "queried_answers": [
+        1,
+        -1,
+        1
+      ]
+    },
+    "policy_result": {
+      "answer": 0,
+      "calls": 5,
+      "asked": [
+        3,
+        4,
+        0,
+        2,
+        1
+      ],
+      "queried_answers": [
+        -1,
+        1,
+        1,
+        0,
+        0
+      ]
+    },
+    "format_order": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ],
+    "invalid_code": -1
+  },
+  "G0/seed71": {
+    "canonical_format_responses": [
+      -1,
+      -1,
+      -1,
+      -1,
+      0
+    ],
+    "fixed_vote": {
+      "answer": 0,
+      "calls": 3,
+      "asked": [
+        0,
+        3,
+        4
+      ],
+      "queried_answers": [
+        -1,
+        -1,
+        0
+      ]
+    },
+    "policy_result": {
+      "answer": -1,
+      "calls": 2,
+      "asked": [
+        0,
+        3
+      ],
+      "queried_answers": [
+        -1,
+        -1
+      ]
+    },
+    "format_order": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ],
+    "invalid_code": -1
+  },
+  "G1/seed11": {
+    "canonical_format_responses": [
+      0,
+      -1,
+      -1,
+      -1,
+      -1
+    ],
+    "fixed_vote": {
+      "answer": 0,
+      "calls": 3,
+      "asked": [
+        0,
+        3,
+        4
+      ],
+      "queried_answers": [
+        0,
+        -1,
+        -1
+      ]
+    },
+    "policy_result": {
+      "answer": -1,
+      "calls": 2,
+      "asked": [
+        3,
+        4
+      ],
+      "queried_answers": [
+        -1,
+        -1
+      ]
+    },
+    "format_order": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ],
+    "invalid_code": -1
+  },
+  "G2/seed71": {
+    "canonical_format_responses": [
+      0,
+      -1,
+      -1,
+      -1,
+      -1
+    ],
+    "fixed_vote": {
+      "answer": 0,
+      "calls": 3,
+      "asked": [
+        0,
+        3,
+        4
+      ],
+      "queried_answers": [
+        0,
+        -1,
+        -1
+      ]
+    },
+    "policy_result": {
+      "answer": -1,
+      "calls": 2,
+      "asked": [
+        3,
+        4
+      ],
+      "queried_answers": [
+        -1,
+        -1
+      ]
+    },
+    "format_order": [
+      "original",
+      "inline",
+      "bullets",
+      "rotate1",
+      "rotate2"
+    ],
+    "invalid_code": -1
+  }
+}

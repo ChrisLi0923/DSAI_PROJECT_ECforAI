@@ -1,0 +1,12 @@
+{
+  "passed": true,
+  "recorded_candidate_scores_reproduced": 480,
+  "recorded_parent_lists_reproduced": 432,
+  "validation_selections_reproduced": 12,
+  "needed_target_rows_checked": 171600,
+  "complete_matched_banks": 9,
+  "bootstrap_per_bank": 1000,
+  "canonical_identity_and_correctness_checked": true,
+  "scope_retained_in_identity": true,
+  "C_excluded_from_matched_five_format_analysis": true
+}

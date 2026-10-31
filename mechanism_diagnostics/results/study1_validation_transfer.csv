@@ -1,0 +1,10 @@
+condition,seed,candidate_bank_size,candidates_with_validation,best_initial_candidate,search_winner,validation_selected,search_gain_beyond_initial,paired_initial_searchwinner_validation_available,same_search_objective_validation_delta,validation_robust_delta,search_winner_is_validation_choice
+B,11,20,3,1,1,8,0.0,True,0.0,0.0,False
+B,29,20,3,2,15,5,0.0234375,True,0.010000000000000009,0.010000000000000009,False
+B,47,20,3,1,11,16,0.015625,False,,,False
+D,11,20,3,1,14,9,0.009374999999999911,False,,,False
+D,29,20,3,2,19,19,0.0031250000000001554,True,0.030000000000000027,0.030000000000000027,True
+D,47,20,3,1,13,18,0.0046874999999996225,False,,,False
+E,11,20,3,1,13,17,0.0390625,False,,,False
+E,29,20,3,2,2,3,0.0,True,0.0,0.0,False
+E,47,20,3,1,17,6,0.0234375,False,,,False

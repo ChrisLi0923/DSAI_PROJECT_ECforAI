@@ -1,0 +1,51 @@
+{
+  "passed": true,
+  "timestamp": "2026-10-31T19:41:27.287045+08:00",
+  "model_calls": 0,
+  "new_searches": 0,
+  "protected_files_unchanged": 949,
+  "quick_checks": 7,
+  "study1_matched_candidates": 180,
+  "recorded_scores_reproduced": 480,
+  "recorded_parent_lists_reproduced": 432,
+  "recorded_validation_selections_reproduced": 12,
+  "independent_scalar_pattern_checks": 53125,
+  "charged_evaluations_checked": 61440,
+  "mutation_pairs_accounted": 23142,
+  "final_populations_reproduced": 15,
+  "deterministically_selected_validation_pairs": 300,
+  "missing_body_exclusions_documented": 859,
+  "all_valid_equivalent_frozen_evolved_policies": 15,
+  "invalid_inclusive_equivalent_frozen_evolved_policies": 10,
+  "G2_base_hash_present_only_in_57_recorded_fallback_pools": true,
+  "figure_checks": {
+    "study1_diagnostics": {
+      "png_dimensions": [
+        2445,
+        1565
+      ],
+      "png_sha256": "64c34580742157f116e7755403b0d85d12659322040830e212e770db865f8391",
+      "pdf_sha256": "8c560bb67de47a33b568effff4e938308082dac22f86da75d8bdff8a1bd63d77",
+      "PNG_visually_inspected": true
+    },
+    "mutation_outcomes": {
+      "png_dimensions": [
+        2555,
+        817
+      ],
+      "png_sha256": "702654d6b9ef7a18fc36c501898ad3e145c92da282975c4f37b4e4829ee9d0dc",
+      "pdf_sha256": "6d03e81c2a3e51448318bd58316c847f767435dd4faf0e784dca1b12b3111c62",
+      "PNG_visually_inspected": true
+    },
+    "search_convergence": {
+      "png_dimensions": [
+        2225,
+        839
+      ],
+      "png_sha256": "d27dfaf16ee723d4789440f899c18dd74d3d85a0e1c0150901b5db6fe86e80cd",
+      "pdf_sha256": "7734903e431bf8df72cae5a6c10b6067ab467344cb2158ca6f258ffba27e5255",
+      "PNG_visually_inspected": true
+    }
+  },
+  "verification_seconds": 2.476746827363968
+}

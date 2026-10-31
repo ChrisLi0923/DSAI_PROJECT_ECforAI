@@ -1,0 +1,49 @@
+2026-10-31T19:24:32.417857+08:00 start; inputs hashed; scientific files protected: 949
+Study 1 complete: 480 scores, 432 parents, 12 selections
+Frozen logic complete: 53125 independent pattern comparisons
+2026-10-31T19:24:38.264111+08:00 reading G0 11
+Traceback (most recent call last):
+  File "/home/hli/dsai/mechanism_diagnostics/src/run.py", line 50, in <module>
+    try:main()
+        ^^^^^^
+  File "/home/hli/dsai/mechanism_diagnostics/src/run.py", line 29, in main
+    m=mutations.analyze(run,x,y,vx,vy)
+      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/hli/dsai/mechanism_diagnostics/src/mutations.py", line 22, in analyze
+    assert visit is not None
+           ^^^^^^^^^^^^^^^^^
+AssertionError
+2026-10-31T19:25:44.954383+08:00 start; inputs hashed; scientific files protected: 949
+Study 1 complete: 480 scores, 432 parents, 12 selections
+Frozen logic complete: 53125 independent pattern comparisons
+2026-10-31T19:25:49.428808+08:00 reading G0 11
+2026-10-31T19:25:50.721193+08:00 verified G0 11 4096 charged rows; 2032 mutations; 20 validation pairs
+2026-10-31T19:25:50.767562+08:00 reading G0 29
+2026-10-31T19:25:51.889761+08:00 verified G0 29 4096 charged rows; 2032 mutations; 20 validation pairs
+2026-10-31T19:25:51.943215+08:00 reading G0 47
+2026-10-31T19:25:53.233670+08:00 verified G0 47 4096 charged rows; 2032 mutations; 20 validation pairs
+2026-10-31T19:25:53.288870+08:00 reading G0 71
+2026-10-31T19:25:54.551998+08:00 verified G0 71 4096 charged rows; 2032 mutations; 20 validation pairs
+2026-10-31T19:25:54.610749+08:00 reading G0 101
+2026-10-31T19:25:55.903027+08:00 verified G0 101 4096 charged rows; 2032 mutations; 20 validation pairs
+2026-10-31T19:25:55.965575+08:00 reading G1 11
+2026-10-31T19:25:57.225543+08:00 verified G1 11 4096 charged rows; 2032 mutations; 20 validation pairs
+2026-10-31T19:25:57.291280+08:00 reading G1 29
+2026-10-31T19:25:58.375466+08:00 verified G1 29 4096 charged rows; 2032 mutations; 20 validation pairs
+2026-10-31T19:25:58.442009+08:00 reading G1 47
+2026-10-31T19:25:59.576733+08:00 verified G1 47 4096 charged rows; 2032 mutations; 20 validation pairs
+2026-10-31T19:25:59.648119+08:00 reading G1 71
+2026-10-31T19:26:00.722840+08:00 verified G1 71 4096 charged rows; 2032 mutations; 20 validation pairs
+2026-10-31T19:26:00.794744+08:00 reading G1 101
+2026-10-31T19:26:01.922834+08:00 verified G1 101 4096 charged rows; 2032 mutations; 20 validation pairs
+2026-10-31T19:26:02.000258+08:00 reading G2 11
+2026-10-31T19:26:02.831088+08:00 verified G2 11 4096 charged rows; 556 mutations; 20 validation pairs
+2026-10-31T19:26:02.908963+08:00 reading G2 29
+2026-10-31T19:26:03.726896+08:00 verified G2 29 4096 charged rows; 558 mutations; 20 validation pairs
+2026-10-31T19:26:03.804946+08:00 reading G2 47
+2026-10-31T19:26:04.645256+08:00 verified G2 47 4096 charged rows; 580 mutations; 20 validation pairs
+2026-10-31T19:26:04.723997+08:00 reading G2 71
+2026-10-31T19:26:05.532297+08:00 verified G2 71 4096 charged rows; 577 mutations; 20 validation pairs
+2026-10-31T19:26:05.610478+08:00 reading G2 101
+2026-10-31T19:26:06.425122+08:00 verified G2 101 4096 charged rows; 551 mutations; 20 validation pairs
+2026-10-31T19:26:10.488114+08:00 all core mechanism analyses complete; no models loaded

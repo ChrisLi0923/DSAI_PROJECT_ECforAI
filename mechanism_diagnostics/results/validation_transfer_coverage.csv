@@ -1,0 +1,16 @@
+variant,seed,total_mutation_pairs,pairs_with_both_bodies,missing_base_bodies,sampled_pairs,sampling,final_ordered_population_and_scores_reproduced,partial_generation_offspring
+G0,11,2032,1985,47,20,"even spacing over body-available steps, no validation-outcome selection",True,16
+G0,29,2032,2004,28,20,"even spacing over body-available steps, no validation-outcome selection",True,16
+G0,47,2032,1988,44,20,"even spacing over body-available steps, no validation-outcome selection",True,16
+G0,71,2032,1995,37,20,"even spacing over body-available steps, no validation-outcome selection",True,16
+G0,101,2032,1977,55,20,"even spacing over body-available steps, no validation-outcome selection",True,16
+G1,11,2032,1917,115,20,"even spacing over body-available steps, no validation-outcome selection",True,16
+G1,29,2032,1985,47,20,"even spacing over body-available steps, no validation-outcome selection",True,16
+G1,47,2032,1924,108,20,"even spacing over body-available steps, no validation-outcome selection",True,16
+G1,71,2032,1983,49,20,"even spacing over body-available steps, no validation-outcome selection",True,16
+G1,101,2032,1985,47,20,"even spacing over body-available steps, no validation-outcome selection",True,16
+G2,11,556,484,72,20,"even spacing over body-available steps, no validation-outcome selection",True,12
+G2,29,558,501,57,20,"even spacing over body-available steps, no validation-outcome selection",True,14
+G2,47,580,529,51,20,"even spacing over body-available steps, no validation-outcome selection",True,4
+G2,71,577,524,53,20,"even spacing over body-available steps, no validation-outcome selection",True,1
+G2,101,551,502,49,20,"even spacing over body-available steps, no validation-outcome selection",True,7

@@ -4,6 +4,19 @@ This guide records the DSAI6707 experiments in chronological order. It distingui
 
 **Main finding:** ensembling sometimes improved accuracy and agreement stopping saved requests. Tested guidance did not outperform the strongest simple control. Active-node mutation made edits more consequential and found efficient policies more consistently across the fitted searches. These results do not establish a global capability ceiling or a general failure of evolution.
 
+## Reading this record
+
+This is one course project with two main studies. Stages 3–6 extend or diagnose Study 2. The later mechanism work reuses saved records and is not another model experiment. Use [Results explained](guides/RESULTS.md) for a shorter interpretation and [the repository map](guides/REPOSITORY_MAP.md) for file locations.
+
+- [1. Instruction robustness](#1-instruction-optimization-for-presentation-robustness)
+- [2. Adaptive presentation policies](#2-adaptive-presentation-query-policies)
+- [3. Controlled mutation follow-up](#3-controlled-active-node-and-utility-guided-follow-up)
+- [4. Capability diagnostic](#4-bounded-capability-diagnostic)
+- [5. Retrieval pilot](#5-bounded-retrieval-pilot)
+- [6. Final frozen evaluation](#6-final-frozen-reserved-pool-evaluation)
+- [Later CPU mechanism analyses](#post-hoc-cpu-mechanism-analyses)
+- [Preparation and failed attempts](#preparation-failed-attempts-and-verification)
+
 ## Shared setup
 
 | Item | Setup |
@@ -188,6 +201,26 @@ Exactly 1,000 eligible reserved questions, held out from the **official OpenBook
 
 ![Final accuracy and requested-call trade-off](final_evaluation/runs/main/analysis/accuracy_calls.png)
 
+## Post-hoc CPU mechanism analyses
+
+**Status:** completed on 31 October 2026 at 19:41 Asia/Shanghai. This stage analyzes the existing experiments and does not generate responses, refit policies or select a new method. All results below are post-hoc and exploratory.
+
+**Current guide:** [mechanism_diagnostics/OVERVIEW.md](mechanism_diagnostics/OVERVIEW.md). **Specification:** [analysis_specification.md](mechanism_diagnostics/analysis_specification.md).
+
+| Analysis | Measurement | What it establishes |
+|---|---|---|
+| Study 1 fitness and diversity | Nine B/D/E banks, 20 candidates each; integer-score ties; 1,000 paired question bootstraps per bank | Mean within-bank tie rates: original 24.21%, strict 10.00%, average 5.44%. Strict fitness was not uniquely tied. All 20 answer vectors per bank were distinct but differed on only 3.53–4.04% of responses on average |
+| Actual Study 1 decisions | Reproduced all 480 recorded scores, 432 post-initial parent lists and 12 validation selections | Historical floating-point ranking was preserved. Only three candidates per bank had validation records, so missing transfer evidence remains missing |
+| Frozen-policy logic | All 1,024 valid and 3,125 invalid-inclusive response patterns; independent scalar cross-check | All 15 evolved exports match fixed voting on valid patterns. Ten also match on the full domain; five have invalid-output counterexamples. Costs may differ even when answers match |
+| Search convergence | Every charged slot in 15 recorded searches, 4,096 evaluations each | Median first match to the reference's observed search vector: G0 406 slots, G1 100, G2 89. New answer vectors still appeared late; complete early stagnation is not established |
+| Mutation outcomes and survival | 23,142 base/chosen-child comparisons; all 15 final ordered populations reproduced | G1 increased both helpful and harmful changes. Most accuracy-worsening offspring were rejected; chosen trials and survivors are different stages |
+| G2 trial pools | All 2,822 pools; exact utility numerator | 89.3% contained no utility improvement over base. The base was offered only in 57 random-fallback pools; best-mutant selection need not beat the base |
+| Development transfer | Up to 20 evenly spaced body-available pairs per method/seed, 300 total | Of 15 positive search-accuracy changes, 12 persisted on reused validation and three reversed. This small sample does not show general transfer failure |
+
+**Interpretation:** the repeated final accuracy has a logical explanation for these fitted policies whenever all five outputs are valid. The logs also show limited instruction separation and both beneficial and harmful mutation effects. They do not establish that ties caused failure, that all robustness objectives fail, or that the model reached an overall capability ceiling.
+
+**Evidence:** [full interpretation and evidence table](mechanism_diagnostics/mechanism_analysis.md), [report-ready paragraphs](mechanism_diagnostics/report_insertions.md), [Study 1 figure](mechanism_diagnostics/figures/study1_diagnostics.pdf), [mutation figure](mechanism_diagnostics/figures/mutation_outcomes.pdf), [equivalence table](mechanism_diagnostics/results/policy_equivalence_compact.md), [all supporting tables](mechanism_diagnostics/results/), [provenance](mechanism_diagnostics/provenance.json), [completion and hashes](mechanism_diagnostics/results/COMPLETE.json).
+
 ## Preparation, failed attempts and verification
 
 These records are preserved separately from successful final evidence:
@@ -203,7 +236,7 @@ These records are preserved separately from successful final evidence:
 | Capability/retrieval smoke | Parser contracts, annotation isolation, retrieval invariance, caching/resume | Each diagnostic's `tests/` and `runs/preflight/` |
 | Final preparation | Eleven focused checks; ten fresh development calls with identical raw/canonical outputs | `final_evaluation/tests/`, `final_evaluation/runs/preflight/` |
 
-Successful stages have `runs/main/COMPLETE.json`. Incomplete markers and smoke outputs retain their identities. Reorganization verifies unchanged bytes and compression; it does not rerun the historical large prediction audit or perform inference.
+The six experimental stages have `runs/main/COMPLETE.json`; later mechanism analyses use `mechanism_diagnostics/results/COMPLETE.json`. Incomplete markers and smoke outputs retain their identities. Reorganization verifies unchanged bytes and compression; it does not rerun the historical large prediction audit or perform inference.
 
 ## Course connection, preservation and limits
 

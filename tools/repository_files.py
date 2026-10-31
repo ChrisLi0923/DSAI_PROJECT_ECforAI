@@ -4,7 +4,7 @@ from pathlib import Path
 import os
 
 ROOT = Path(__file__).resolve().parents[1]
-SKIP_DIRS = {'.git', '.venv', '.agents', '.aws', '.codex', '__pycache__', '.pytest_cache', '.cache', 'reproductions'}
+SKIP_DIRS = {'.git', '.venv', '.agents', '.aws', '.codex', '__pycache__', '.pytest_cache', '.cache', 'reproductions', 'tmp'}
 SKIP_NAMES = {'publication_paths.nul', 'publication_manifest.json'}
 
 

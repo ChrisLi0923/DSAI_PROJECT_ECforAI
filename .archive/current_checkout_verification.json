@@ -1,0 +1,28 @@
+{
+  "passed": true,
+  "checkout": "/tmp/dsai-docs-check-3yh9klw6",
+  "method": "Clean export of the staged Git index; environments, local compatibility symlinks and uncompressed caches absent",
+  "checks": {
+    "passed": true,
+    "date": "2026-10-31",
+    "model_calls": 0,
+    "preserved_original_files": 947,
+    "excluded_ephemeral_files": 138,
+    "declared_local_only_files_absent": 1,
+    "lossless_compressed_records": 63,
+    "frozen_final_source_config_files": 32,
+    "protected_history_files": 15,
+    "new_document_links": 242,
+    "current_markdown_guides_checked": 14,
+    "mechanism_outputs_unchanged": 70,
+    "mechanism_source_files_unchanged": 9,
+    "publication_files": 1056,
+    "publication_bytes": 288278482,
+    "credential_pattern_scan": "passed",
+    "github_100_mib_file_limit": "passed",
+    "scope": "File preservation/packaging only; no historical prediction audit or model inference."
+  },
+  "model_calls": 0,
+  "new_searches": 0,
+  "note": "Verified before the self-describing publication receipt was added. Historical scientific artifacts and completed mechanism outputs remain exact."
+}

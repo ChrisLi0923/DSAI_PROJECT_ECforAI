@@ -1,0 +1,16 @@
+condition,stage,decisions,mathematical_ties,historical_float_ties,math_tie_float_split,math_tie_winner_not_earlier_index,B_population_not_used_for_parents
+B,survival_boundary,48,8,8,0,0,True
+B,shortlist_boundary,3,0,0,0,0,False
+B,validation_winner,3,1,1,0,0,False
+C,parent_tournament,288,187,187,0,0,False
+C,survival_boundary,288,62,62,0,0,False
+C,shortlist_boundary,3,3,3,0,0,False
+C,validation_winner,3,0,0,0,0,False
+D,parent_tournament,48,1,0,1,0,False
+D,survival_boundary,48,7,1,6,3,False
+D,shortlist_boundary,3,0,0,0,0,False
+D,validation_winner,3,1,1,0,0,False
+E,parent_tournament,48,13,13,0,0,False
+E,survival_boundary,48,9,9,0,0,False
+E,shortlist_boundary,3,1,1,0,0,False
+E,validation_winner,3,1,1,0,0,False

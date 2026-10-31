@@ -1,0 +1,19 @@
+{
+  "passed": true,
+  "export_count": 17,
+  "valid_patterns": 1024,
+  "invalid_inclusive_patterns": 3125,
+  "independent_scalar_vector_comparisons": 53125,
+  "fixed_triple_formats": [
+    0,
+    3,
+    4
+  ],
+  "ordered_formats": [
+    4,
+    3,
+    0
+  ],
+  "hypothetical_uniform_patterns_not_empirical_probabilities": true,
+  "all_valid_evolutionary_equivalent": true
+}

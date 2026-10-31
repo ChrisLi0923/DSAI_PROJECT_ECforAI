@@ -1,0 +1,13 @@
+condition,seed,candidates,initial_candidates,post_initial_proposals,operations,distinct_instruction_texts,complete_five_format_candidates,best_initial_score,best_search_score,gain_beyond_initial,historical_search_winner,validation_selected_candidate,validation_recorded_candidates,parent_reconstruction_passed,distinct_search_answer_vectors,mean_pairwise_canonical_disagreement,min_pairwise_canonical_disagreement,max_pairwise_canonical_disagreement,mathematical_average_classes_split_by_recorded_float
+B,11,20,4,16,"{""initial"": 4, ""random"": 16}",20,20,0.734375,0.734375,0.0,1,8,3,True,20,0.037088815789473685,0.0140625,0.0578125,[]
+B,29,20,4,16,"{""initial"": 4, ""random"": 16}",20,20,0.7578125,0.78125,0.0234375,15,5,3,True,20,0.03595394736842106,0.0078125,0.0625,[]
+B,47,20,4,16,"{""initial"": 4, ""random"": 16}",20,20,0.75,0.765625,0.015625,11,16,3,True,20,0.03550986842105263,0.0125,0.0640625,[]
+C,11,100,4,96,"{""initial"": 4, ""mutation"": 48, ""crossover"": 48}",100,0,0.8671875,0.875,0.0078125,17,17,3,True,,,,,
+C,29,100,4,96,"{""initial"": 4, ""mutation"": 48, ""crossover"": 48}",100,0,0.8671875,0.890625,0.0234375,42,42,3,True,,,,,
+C,47,100,4,96,"{""initial"": 4, ""mutation"": 48, ""crossover"": 48}",100,0,0.8671875,0.890625,0.0234375,31,31,3,True,,,,,
+D,11,20,4,16,"{""initial"": 4, ""mutation"": 8, ""crossover"": 8}",20,20,0.85625,0.8656249999999999,0.009374999999999911,14,9,3,True,20,0.03576480263157895,0.0125,0.0703125,"[[0, 7, 19], [5, 12, 13, 17], [6, 16]]"
+D,29,20,4,16,"{""initial"": 4, ""mutation"": 8, ""crossover"": 8}",20,20,0.8656249999999999,0.86875,0.0031250000000001554,19,19,3,True,20,0.03528782894736842,0.01875,0.059375,"[[1, 4], [6, 11, 17, 18], [12, 14]]"
+D,47,20,4,16,"{""initial"": 4, ""mutation"": 8, ""crossover"": 8}",20,20,0.8625000000000002,0.8671874999999998,0.0046874999999996225,13,18,3,True,20,0.040378289473684215,0.01875,0.0609375,"[[2, 14], [3, 16], [5, 6, 8], [9, 11]]"
+E,11,20,4,16,"{""initial"": 4, ""mutation"": 8, ""crossover"": 8}",20,20,0.734375,0.7734375,0.0390625,13,17,3,True,20,0.03923519736842106,0.0109375,0.0765625,[]
+E,29,20,4,16,"{""initial"": 4, ""mutation"": 8, ""crossover"": 8}",20,20,0.7578125,0.7578125,0.0,2,3,3,True,20,0.03896381578947369,0.0125,0.0625,[]
+E,47,20,4,16,"{""initial"": 4, ""mutation"": 8, ""crossover"": 8}",20,20,0.75,0.7734375,0.0234375,17,6,3,True,20,0.03833059210526316,0.0109375,0.065625,[]

@@ -1,0 +1,23 @@
+{
+  "timestamp": "2026-10-31T20:56:13.660901+08:00",
+  "starting_commit": "aea9f1660bf2dc831ba3cbc8c53ad94c02ff7232",
+  "remote_commit_preserved": "c712e4061a77e3adef4a404338ba415aa9ab65c7",
+  "new_model_calls": 0,
+  "new_searches": 0,
+  "mechanism_completion_sha256": "edb41c3a139beb9e27103236ac381f6d11573e80b2d373a63880862629af9f8d",
+  "mechanism_provenance_sha256": "eabc7dfb345a49dcf3611a32b8ab8ef544cb2b8fde01a4b6eeeb7a447a5d5b2e",
+  "current_guides": [
+    "adaptive_format_ensemble/OVERVIEW.md",
+    "adaptive_format_ensemble/capability_diagnostic/OVERVIEW.md",
+    "adaptive_format_ensemble/followup_active_utility/OVERVIEW.md",
+    "adaptive_format_ensemble/retrieval_pilot/OVERVIEW.md",
+    "final_evaluation/OVERVIEW.md",
+    "guides/README.md",
+    "guides/REPOSITORY_MAP.md",
+    "guides/REPRODUCIBILITY.md",
+    "guides/RESULTS.md",
+    "mechanism_diagnostics/OVERVIEW.md",
+    "old_idea/OVERVIEW.md"
+  ],
+  "note": "Documentation/navigation and publication only. Historical scientific source, frozen documents, selected methods and numerical outputs preserved."
+}

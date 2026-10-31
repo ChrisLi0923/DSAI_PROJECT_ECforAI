@@ -1,0 +1,15 @@
+{
+  "passed": true,
+  "paired_mutations": 23142,
+  "rescue_spoil_identity_checks": 23142,
+  "zero_visit_masks_checked": 23142,
+  "recorded_chosen_trial_hash_checks": 23142,
+  "survival_instances_reconstructed": 23142,
+  "final_ordered_populations_reproduced": 15,
+  "deterministic_validation_pairs": 300,
+  "search_matrix_policy_checks_for_transfer_pairs": 600,
+  "G2_ranked_utility_and_call_ties_verified": true,
+  "G2_missing_discarded_bodies_preclude_all_size_tiebreak_rechecks": true,
+  "inference_calls": 0,
+  "validation_is_reused_exploratory": true
+}

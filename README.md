@@ -1,61 +1,55 @@
 # Evolutionary Computation for LLM Question Answering
 
-DSAI6707 Advanced Computational Intelligence course project. All six stages are complete. **No further model inference or method tuning is planned.**
+DSAI6707 Advanced Computational Intelligence course project: **two studies on whether evolutionary search improves LLM robustness or the accuracy–cost trade-off.** The experiments and final evaluation are complete. Later mechanism analyses use existing records only.
 
-Start with **[EXPERIMENTS.md](EXPERIMENTS.md)**: one chronological guide to every study, control, diagnostic, dataset, result and evidence location.
+## Start here
 
-| Order | Experiment | Directory |
+| What you need | Read this |
+|---|---|
+| Plain-language findings and their limits | [Results explained](guides/RESULTS.md) |
+| Every experiment, control, dataset and result | [Experiment record](EXPERIMENTS.md) |
+| Where code, configurations, data and figures live | [Repository map](guides/REPOSITORY_MAP.md) |
+| Read or reproduce results without new model calls | [Reproduction guide](guides/REPRODUCIBILITY.md) |
+| Paragraphs and captions for the report | [Post-hoc report additions](mechanism_diagnostics/report_insertions.md) |
+| Preserved reports, proposals and course paperwork | [Hidden document archive](.archive/README.md) |
+
+## Completed work
+
+The first six rows are the original experimental sequence. The last row is a later CPU analysis of those records, not another model experiment.
+
+| Order | Stage | Current guide |
 |---|---|---|
-| 1 | Evolve instructions for presentation robustness | [old_idea/](old_idea/) |
-| 2 | Evolve adaptive format-query policies | [adaptive_format_ensemble/](adaptive_format_ensemble/) |
-| 3 | Active-node and utility-guided mutation | [followup_active_utility/](adaptive_format_ensemble/followup_active_utility/) |
-| 4 | Data-size, selector, reasoning and evidence diagnostics | [capability_diagnostic/](adaptive_format_ensemble/capability_diagnostic/) |
-| 5 | Fixed BM25 retrieval pilot | [retrieval_pilot/](adaptive_format_ensemble/retrieval_pilot/) |
-| 6 | Frozen evaluation on the reserved 1,000 questions | [final_evaluation/](final_evaluation/) |
+| 1 | Study 1: evolve instructions for presentation robustness | [Instruction study](old_idea/OVERVIEW.md) |
+| 2 | Study 2: evolve adaptive format-query policies | [Adaptive policies](adaptive_format_ensemble/OVERVIEW.md) |
+| 3 | Study 2 follow-up: active-node and utility-guided mutation | [Controlled follow-up](adaptive_format_ensemble/followup_active_utility/OVERVIEW.md) |
+| 4 | Development diagnostics: data size, selection, reasoning and facts | [Capability diagnostic](adaptive_format_ensemble/capability_diagnostic/OVERVIEW.md) |
+| 5 | Development diagnostic: automatic fact retrieval | [Retrieval pilot](adaptive_format_ensemble/retrieval_pilot/OVERVIEW.md) |
+| 6 | Final evaluation of frozen policies on the reserved questions | [Final evaluation](final_evaluation/OVERVIEW.md) |
+| Afterward | Fitness, policy-equivalence and mutation mechanism analyses | [Mechanism analyses](mechanism_diagnostics/OVERVIEW.md) |
 
-## Reading the repository
+## Main result
 
-Existing experiment paths are retained so recorded configurations and source hashes stay meaningful:
+On the final **1,000-question held-out OpenBookQA training subset**, simple ordered stopping achieved **79.2% accuracy at 2.204 requested model calls per question**. Fixed three-format voting achieved the same accuracy at three calls. Stopping saved **26.53% of calls with exactly the same answers**.
 
-- Implementation: `robust_prompt/`, `afe/`, `repair/`, `diagnostic/`, `pilot/` or `evaluation/`.
-- Settings and dependencies: `configs/`, `requirements-lock.txt` and recorded environment files.
-- Question splits and provenance: `data/`.
-- Completed evidence: `runs/main/COMPLETE.json`, frozen policies, `runs/main/analysis/` and `runs/main/review/`.
-- Verification and exploratory preparation: `tests/`, `runs/preflight/` and named smoke/failed-run directories. These are separate from final results.
+All 15 fitted G0/G1/G2 policies also returned those same answers. G0 is ordinary mutation, G1 restricts edits to nodes visited by search questions, and G2 adds utility-guided trial selection. G2 showed no additional benefit. The post-hoc logic check explains the answer equality: all 15 frozen policies match fixed voting on every all-valid response pattern; five can differ when invalid outputs occur.
 
-Narrative reports, proposals, literature reviews, course paperwork and submission documents are preserved under **[.archive/](.archive/README.md)**, outside the main experiment view. Historical project READMEs remain unchanged; the restoration tool recreates their original document links. This README and EXPERIMENTS.md are the current navigation guides.
+Study 1's proposed robust fitness also underperformed its controls. These are bounded mixed/negative results. They do not prove that evolution, robustness objectives or retrieval cannot work in other settings. See [the results guide](guides/RESULTS.md) for numbers, explanations and limitations.
 
-The final result is **79.2% accuracy at 2.204 requested calls per question** for simple ordered stopping, versus 79.2% at three calls for fixed voting. All fitted evolutionary policies returned the same answers on this final pool. Utility guidance added no observed benefit. This conclusion is limited to the tested model, format pool and fitted policies.
+## Layout and preservation
 
-## Restore records after cloning
-
-Raw SQLite caches, including search checkpoints, are included as lossless `.sqlite.gz` files. Large JSONL records are compressed too. The experiment host retains uncompressed originals. Byte counts and SHA-256 checksums are in [.archive/organization.json](.archive/organization.json).
-
-```bash
-git clone https://github.com/ChrisLi0923/DSAI_PROJECT_ECforAI.git
-cd DSAI_PROJECT_ECforAI
-python3 tools/restore_artifacts.py
-python3 tools/check_repository.py
+```text
+dsai/
+├── README.md                  # Current entry point
+├── EXPERIMENTS.md             # Complete chronological experiment record
+├── guides/                    # Current results, layout and reproduction guides
+├── old_idea/                  # Study 1 code, configurations and evidence
+├── adaptive_format_ensemble/  # Study 2, controlled follow-up and diagnostics
+├── final_evaluation/          # Frozen final evaluation
+├── mechanism_diagnostics/     # Completed CPU-only post-hoc analyses
+├── tools/                     # Restore, inventory and repository checks
+└── .archive/                  # Preserved writing, paperwork and audit receipts
 ```
 
-These commands restore and verify files with **zero model calls**. Allow roughly 1.3 GB for restored experimental records, in addition to the checkout. To restore only the final response matrix:
+Existing experiment directories keep their recorded names and paths. Each has a current `OVERVIEW.md`; historical `README.md` files retain the instructions and status notes written at that stage. Use the current guides for navigation. Frozen source, policies, raw responses, numerical results and report documents are preserved.
 
-```bash
-python3 tools/restore_artifacts.py --project final_evaluation
-```
-
-Processed CSV/JSON results can be read without restoring databases. Analysis needs Python 3.11 and recorded per-project dependencies. Environments and model weights are not committed. Original launch scripts contain original-host paths and are retained as historical entry points, not portable setup commands.
-
-## Reproduce final analysis without a model
-
-On the original host:
-
-```bash
-final_evaluation/.venv/bin/python tools/restore_artifacts.py --project final_evaluation
-final_evaluation/.venv/bin/python final_evaluation/scripts/reproduce.py \
-  --output /tmp/dsai-final-cpu-reproduction
-```
-
-Use a new output directory each time. The command checks the frozen source/configuration/package fingerprint, replays saved responses, recomputes paired statistics and writes a separate report. It does not refit policies or generate responses. On another host, install [final_evaluation/requirements-lock.txt](final_evaluation/requirements-lock.txt); document rendering also uses DejaVu fonts and `pdftoppm`. Frozen checks reject silently changed versions.
-
-The original submission ZIP remains local; Git contains its constituent source, reports and results separately. No course submission or external publication has been performed.
+CSV/JSON tables and figures are directly readable. Raw SQLite caches are versioned as lossless `.sqlite.gz`; the original host also retains uncompressed copies. Environments, model weights, temporary files and duplicate submission ZIPs are excluded from Git. [Restoration and verification commands](guides/REPRODUCIBILITY.md) perform no model inference.

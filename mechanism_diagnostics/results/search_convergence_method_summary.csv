@@ -1,0 +1,4 @@
+variant,seeds,first_fixed_vector_slot_median,first_fixed_vector_slot_min,first_fixed_vector_slot_max,distinct_answer_vectors_min,distinct_answer_vectors_max,distinct_tree_hashes_min,distinct_tree_hashes_max
+G0,5,406.0,73,3526,59,79,644,795
+G1,5,100.0,34,424,174,193,975,1113
+G2,5,89.0,36,159,113,132,994,1200

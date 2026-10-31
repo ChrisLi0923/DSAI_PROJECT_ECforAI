@@ -1,0 +1,40 @@
+# Post-hoc mechanism analysis specification
+
+Written after inspecting schemas/code and before computing the new diagnostic results, 31 October 2026, Asia/Shanghai. These analyses explain existing experiments; they do not develop/select a method. No model inference, new evolutionary search, optional batch experiment, GPU job or download is permitted.
+
+## Inputs and preservation
+
+Locate the Git root from this directory; do not assume original absolute paths. Record starting commit/status, input SHA-256 hashes, versions and timestamps in provenance.json. Use existing uncompressed databases where present, opened `mode=ro&immutable=1`; otherwise decompress only needed `.sqlite.gz` files into this directory's tmp/. Read compressed JSONL directly. Never invoke historical cache/ledger constructors, which would open writable databases. Hash protected historical inputs before/after. Existing report/Word files remain untouched.
+
+## 1. Study 1
+
+- Analyze complete B/D/E candidate banks, seeds 11/29/47, using exact scope + instruction + source question + format joins. Scope is part of the historical target-cache identity and must not be dropped (batched identical prompts can differ across runs).
+- Five-format order comes from historical SEEN. Verify complete 128 × 5 outcomes per candidate, canonical identities, recorded correctness and historical Python sequential-sum fitness. Check C availability but exclude it from matched five-format comparisons when incomplete.
+- Recompute integer original-correct (0–128), total-five-correct (0–640) and all-five-correct (0–128) counts. Pairwise ties use unordered candidate pairs within the same bank. Count robust ties distinguished by mean accuracy and original-score ties likewise. Record top sets, historical floating-point ties and mathematical ties separately.
+- Reproduce actual parent RNG/tournaments, successive top-four populations, final top-three search shortlist and validation choice. A selection-boundary tie matters only if its score class straddles the retained/excluded boundary. B's maintained population does not control its random parent proposals. No alternate evolutionary trajectory will be simulated.
+- 1,000 whole-question bootstrap resamples per bank. SeedSequence([67071031, condition ASCII code, evolutionary seed]); multinomial question-count weights, shared across all three objectives and candidates in a bank. Bootstrap scores use exact integer totals; ties break by original candidate index. Distinguish mathematical bootstrap winners from historical floating-point winners. Report best-set inclusion/win frequency and retention of the original winner, not independent-run confidence.
+- Behavioral diversity uses full canonical answer vectors with invalid normalized to -1. Pair differences are later-minus-earlier: rescued, spoiled, different-wrong and changed; verify changed = rescued + spoiled + different-wrong. These are descriptive pairs, not independent runs.
+- Plot cumulative recorded best fitness against evaluated-candidate index and gain beyond best of first four. Report true proposal/operation counts. Validation analysis only uses actually recorded complete shortlist responses; never fill missing scores.
+- Outputs: study1_candidates.csv, study1_objective_discrimination.csv, study1_bootstrap.csv, study1_diversity_pairs.csv, study1_run_summary.csv, study1_decisions.csv, study1_validation.csv, study1_verification.json, and study1_diagnostics.png/pdf.
+
+## 2. Frozen-policy logic and recorded search convergence
+
+- Frozen exports are fixed_three, ordered_triple, and all five G0/G1/G2 cap-three policies from final_evaluation/data/methods.json. Normalize invalid/failure to -1. Preserve exact branch predicates, aggregation and tie rules.
+- Enumerate all 4^5 valid patterns and all 5^5 invalid-inclusive patterns. Compare vectorized historical replay against an independent scalar implementation on every pattern, and compare query counts. Uniform enumeration counts are logic-test counts, not empirical pattern probabilities. Save a concrete counterexample for each non-equivalent policy.
+- Analyze G0/G1/G2 × five seeds, using every charged ledger row in rowid order (initial, base, trial, duplicates and any remainder). Report first exact match to fixed-triple search answer vector, cumulative unique answer vectors and syntactic tree hashes, and last new answer/structure. A stored hash supports structure distinctness even when a discarded policy body is unavailable; exhaustive equivalence is claimed only for the frozen exports.
+- Verify 4,096 charged evaluations per run, repeated-hash score/answer/call consistency, source-data hash and a deterministic up-to-20-row sample with available bodies per run.
+- Outputs: policy_equivalence.csv, policy_counterexamples.json, policy_equivalence_table.md, search_convergence.csv, search_convergence_summary.csv, policy_verification.json, and search_convergence.png/pdf.
+
+## 3. Mutation outcomes, survival and transfer
+
+- Join each mutation's base and selected trial by step/evaluation key and verify hashes against the audit. Base may already include crossover. "Chosen offspring" is distinct from generational survival.
+- All G0/G1/G2 mutations: count rescues, spoils, different-wrong changes, total changes, correct-count delta, total-call delta, integer utility delta `100*delta_correct - delta_calls`, and zero-visit status. Verify all identities and recorded deltas.
+- Summaries by method AND seed, then clearly descriptive pooled and seed-mean summaries. No mutation-level inferential significance tests or mutation-count pseudo-replication.
+- G2: count scored trials; compare selected trial and pool maximum against base; separate recorded random exploration from ranked selection. Verify maximum utility/call ranking when not exploring; do not invent missing body-dependent size tie-breaks. Check whether unchanged base was offered. A retain-base-if-no-selected-improvement calculation is local only, not a predicted search trajectory.
+- Reconstruct generational survival from recorded initial/chosen policy bodies, recorded scores and the historical deterministic survival function. Verify final ordered population and scores exactly against ledger state before interpreting. Track selected offspring instances immediately after their generation's survival, flag preexisting duplicate hashes separately. If reconstruction fails, mark unavailable rather than invent outcomes.
+- Development-validation transfer: per method/seed select up to 20 evenly spaced positions in the list of steps with BOTH base and child bodies available in that run's archive. Eligibility uses body availability only; sampling never sees validation outcomes. Use `np.linspace(0, m-1, min(20,m), dtype=int)` (single case index zero). Record all missing-body exclusions. Replay selected pairs on the existing 512-question search matrix and 489-question validation matrix. Record delta accuracy/calls/utility and whether positive search gains persist (>0), disappear (=0) or reverse (<0). These deterministic sample summaries are exploratory on reused validation, not unbiased population estimates or new tests.
+- Outputs: mutation_pairs.csv, mutation_summary_per_seed.csv, mutation_summary.csv, mutation_survival.csv, mutation_survival_summary.csv, g2_trial_pools.csv, g2_summary.csv, validation_transfer_pairs.csv, validation_transfer_summary.csv, validation_transfer_coverage.csv, mutation_verification.json, mutation_outcomes.png/pdf.
+
+## Interpretation and completion
+
+Write mechanism_analysis.md with `Hypothesis | Analysis | Observation | Supported interpretation | What remains unresolved`. Separate exhaustive logical results, measured descriptions and causal claims. Write compact report_insertions.md with post-hoc disclosure, two main figure captions, equivalence table and suggested placement. No outcome-based new selection or further experiments. Quick checks and final verification receipts go in results/. Only this directory is written. Timestamps use Asia/Shanghai. Log wall/CPU runtime and explicit zero model calls.

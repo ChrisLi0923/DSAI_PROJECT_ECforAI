@@ -1,0 +1,308 @@
+{
+  "required_input_records": {
+    "adaptive_format_ensemble/followup_active_utility/afe/__init__.py": {
+      "sha256": "78b972ae7e1877d1b47d7a90e5b075818edcf51c686810e4804ff02724ad439c",
+      "bytes": 56,
+      "compressed": false
+    },
+    "adaptive_format_ensemble/followup_active_utility/afe/cache.py": {
+      "sha256": "44590d7ade9e8077e59b8e868abd0b381400d5b78e2505c4d1eb07184e25030a",
+      "bytes": 4790,
+      "compressed": false
+    },
+    "adaptive_format_ensemble/followup_active_utility/afe/document.py": {
+      "sha256": "b8daa7f15114ed6b7a20d64a1620b440f69d30ba18bd81458887f418db128f33",
+      "bytes": 2713,
+      "compressed": false
+    },
+    "adaptive_format_ensemble/followup_active_utility/afe/legacy_search.py": {
+      "sha256": "56b5ff821a282f663dfbd4480d51f2286d03b8fe70034b44d8bdc5e5b093da0b",
+      "bytes": 4267,
+      "compressed": false
+    },
+    "adaptive_format_ensemble/followup_active_utility/afe/policy.py": {
+      "sha256": "29b3919d9229ca23f7e254e579e01aad6f9423089d8e123be0948e04b3fc0dbf",
+      "bytes": 9497,
+      "compressed": false
+    },
+    "adaptive_format_ensemble/followup_active_utility/configs/main.json": {
+      "sha256": "88a67e78b366fb5be139cb1c5fa17a80f1a094e16b2cb5ccb0e8edcfd82a397c",
+      "bytes": 1637,
+      "compressed": false
+    },
+    "adaptive_format_ensemble/followup_active_utility/data/search.json": {
+      "sha256": "975febf6edc978962974a67c61e3acbd5baae21160ee865ae85f6fba5eb7bcf6",
+      "bytes": 179407,
+      "compressed": false
+    },
+    "adaptive_format_ensemble/followup_active_utility/data/validation.json": {
+      "sha256": "0ac85070d5bf244fc3fe69320b4641bf58b11f566074f9e80f2d695c97d632d0",
+      "bytes": 180805,
+      "compressed": false
+    },
+    "adaptive_format_ensemble/followup_active_utility/repair/__init__.py": {
+      "sha256": "e17ed58e7cb7895f089db0cb4574171139f55f58b8d212d71637b740c014ca03",
+      "bytes": 48,
+      "compressed": false
+    },
+    "adaptive_format_ensemble/followup_active_utility/repair/analysis.py": {
+      "sha256": "2b11ced950616589d7c89736a155ca5af90b4cf4bf60ed124c95b57bd66339cb",
+      "bytes": 19170,
+      "compressed": false
+    },
+    "adaptive_format_ensemble/followup_active_utility/repair/baselines.py": {
+      "sha256": "90a783ac568ce5a1e0680d7c13d12984c73375cf1d0b46e70595ea5afa7981ce",
+      "bytes": 680,
+      "compressed": false
+    },
+    "adaptive_format_ensemble/followup_active_utility/repair/cache.py": {
+      "sha256": "deb06c2035caf584f72d69bb66b1a6bf342c41a9db23735a0226b4c305e9beb6",
+      "bytes": 2184,
+      "compressed": false
+    },
+    "adaptive_format_ensemble/followup_active_utility/repair/data.py": {
+      "sha256": "fef8efd89d76e7eca5baf8540d1e49a9de5e3775cbaa268a3fe55a932e0512ef",
+      "bytes": 7746,
+      "compressed": false
+    },
+    "adaptive_format_ensemble/followup_active_utility/repair/gpu.py": {
+      "sha256": "aee2763d5c35bcffb575deb5bf2f0dccba9c862898346d3bd33b5c23e75c4ce4",
+      "bytes": 1352,
+      "compressed": false
+    },
+    "adaptive_format_ensemble/followup_active_utility/repair/ledger.py": {
+      "sha256": "47489e6aee1d98700ca10044174e0bf223799925f5f91e64d1c27b6b35f1b2c6",
+      "bytes": 4881,
+      "compressed": false
+    },
+    "adaptive_format_ensemble/followup_active_utility/repair/operators.py": {
+      "sha256": "129175bfc7c206de818c8be506df113e16fb1d2fb618edfbb54374e3e1abfcfe",
+      "bytes": 3831,
+      "compressed": false
+    },
+    "adaptive_format_ensemble/followup_active_utility/repair/replay.py": {
+      "sha256": "3ce68c8f9859d026b22263949fcbfd79149a94b44d076ebe4726602801e64142",
+      "bytes": 1573,
+      "compressed": false
+    },
+    "adaptive_format_ensemble/followup_active_utility/repair/search.py": {
+      "sha256": "a3dd06fcc7585cd209611da2c95f53b2fea98758cea01f5459eea1725fcf7ed8",
+      "bytes": 8375,
+      "compressed": false
+    },
+    "adaptive_format_ensemble/followup_active_utility/repair/workflow.py": {
+      "sha256": "a22a054dc7c537e560b4b87c4fd5820829629f5fb6013996467158633a45bc47",
+      "bytes": 8989,
+      "compressed": false
+    },
+    "adaptive_format_ensemble/followup_active_utility/runs/main/FROZEN.json": {
+      "sha256": "41195399dd46cb79c07823bb5b13d705bef3e2f2448c5243bbb614302cf2d19b",
+      "bytes": 74391,
+      "compressed": false
+    },
+    "adaptive_format_ensemble/followup_active_utility/runs/main/analysis/mutation_diagnostics.jsonl.gz": {
+      "sha256": "741749c22403fcd2013880f168a0b80e6f6f400242daba6157b2a9f7da6bbec9",
+      "bytes": 3016332,
+      "compressed": true
+    },
+    "adaptive_format_ensemble/followup_active_utility/runs/main/responses.sqlite": {
+      "sha256": "babc6e7b872f923324dd0fa42521588e24c7f2ece06a50991ce13d8de0ef6610",
+      "bytes": 21721088,
+      "compressed": false
+    },
+    "adaptive_format_ensemble/followup_active_utility/runs/main/search/G0_101.sqlite": {
+      "sha256": "6ad63f864db0643ae38cd6b50ff7cf5b85a2a4fd3c0bfb0d54b023f9e1576102",
+      "bytes": 21811200,
+      "compressed": false
+    },
+    "adaptive_format_ensemble/followup_active_utility/runs/main/search/G0_11.sqlite": {
+      "sha256": "8d8ff0ce75fbc98f2a5e348afc6358caeb9721af60fb311e786686a48c871dc0",
+      "bytes": 21831680,
+      "compressed": false
+    },
+    "adaptive_format_ensemble/followup_active_utility/runs/main/search/G0_29.sqlite": {
+      "sha256": "244a70920d56092c1229c5109252447db5532197cf454c1b4e30bd61d231f1f4",
+      "bytes": 20652032,
+      "compressed": false
+    },
+    "adaptive_format_ensemble/followup_active_utility/runs/main/search/G0_47.sqlite": {
+      "sha256": "e1532d71093e3f0440dee349b2ce80a501af605ac56141b77526996830f31d35",
+      "bytes": 21700608,
+      "compressed": false
+    },
+    "adaptive_format_ensemble/followup_active_utility/runs/main/search/G0_71.sqlite": {
+      "sha256": "f687ba65e7e03a5631b2f05293646f12940eeeefd059df7f34f10655f5dcabdb",
+      "bytes": 21835776,
+      "compressed": false
+    },
+    "adaptive_format_ensemble/followup_active_utility/runs/main/search/G1_101.sqlite": {
+      "sha256": "7534fc789371bc6f4d27d3a919e871218f709b3aac7a72721e22417a529ea416",
+      "bytes": 21577728,
+      "compressed": false
+    },
+    "adaptive_format_ensemble/followup_active_utility/runs/main/search/G1_11.sqlite": {
+      "sha256": "7326cee817dbd6b074d0ef0b2de984056ce154d5135b4516f94fc2f900219b40",
+      "bytes": 21929984,
+      "compressed": false
+    },
+    "adaptive_format_ensemble/followup_active_utility/runs/main/search/G1_29.sqlite": {
+      "sha256": "42ef7c954c1326128d111e22834b06f25f568c764f2fc9cddee1935ae747d890",
+      "bytes": 20652032,
+      "compressed": false
+    },
+    "adaptive_format_ensemble/followup_active_utility/runs/main/search/G1_47.sqlite": {
+      "sha256": "e788122a53862e9bfc67b1919cc5ccdcaf915d055e7df7fd7a7926ed0ee1996d",
+      "bytes": 21573632,
+      "compressed": false
+    },
+    "adaptive_format_ensemble/followup_active_utility/runs/main/search/G1_71.sqlite": {
+      "sha256": "0a7b2a9119f43652177c833ac84a36c2cc1065c8a247540cb96338a882784537",
+      "bytes": 20594688,
+      "compressed": false
+    },
+    "adaptive_format_ensemble/followup_active_utility/runs/main/search/G2_101.sqlite": {
+      "sha256": "d705a5521e292942bc336e69d3142286e1a6e3d8886c470f1ad6efe216d33c48",
+      "bytes": 19456000,
+      "compressed": false
+    },
+    "adaptive_format_ensemble/followup_active_utility/runs/main/search/G2_11.sqlite": {
+      "sha256": "5bc8b78ac1b0b38479f7a7d9a64557eb0e2382037992afc08352113bb804a94e",
+      "bytes": 19529728,
+      "compressed": false
+    },
+    "adaptive_format_ensemble/followup_active_utility/runs/main/search/G2_29.sqlite": {
+      "sha256": "d6a559afb69718dca826d17a10f0bfb49743947402b0c513b2d419424c803815",
+      "bytes": 19369984,
+      "compressed": false
+    },
+    "adaptive_format_ensemble/followup_active_utility/runs/main/search/G2_47.sqlite": {
+      "sha256": "1d4e183626210945da2ad618c8ffbe8834b6594f846c42b3b7c349b32146ad5f",
+      "bytes": 19546112,
+      "compressed": false
+    },
+    "adaptive_format_ensemble/followup_active_utility/runs/main/search/G2_71.sqlite": {
+      "sha256": "fe9fa490459b904c141984b4f46718e40c927a0d05753e5b79be8c36c690b7b0",
+      "bytes": 19308544,
+      "compressed": false
+    },
+    "adaptive_format_ensemble/followup_active_utility/runs/main/selected_policies.json": {
+      "sha256": "0f517404cd4d75045a9dd89b57e2f4502c2784091fa996e026e7419c157388be",
+      "bytes": 65142,
+      "compressed": false
+    },
+    "final_evaluation/afe/__init__.py": {
+      "sha256": "78b972ae7e1877d1b47d7a90e5b075818edcf51c686810e4804ff02724ad439c",
+      "bytes": 56,
+      "compressed": false
+    },
+    "final_evaluation/afe/cache.py": {
+      "sha256": "44590d7ade9e8077e59b8e868abd0b381400d5b78e2505c4d1eb07184e25030a",
+      "bytes": 4790,
+      "compressed": false
+    },
+    "final_evaluation/afe/policy.py": {
+      "sha256": "29b3919d9229ca23f7e254e579e01aad6f9423089d8e123be0948e04b3fc0dbf",
+      "bytes": 9497,
+      "compressed": false
+    },
+    "final_evaluation/data/methods.json": {
+      "sha256": "b7d5e60e24421cbb941852761b6ecd3a7e32190a267d55742c55b702d8986255",
+      "bytes": 24034,
+      "compressed": false
+    },
+    "final_evaluation/runs/main/FROZEN.json": {
+      "sha256": "5033c7ac11c60b104d7efa5b60ea00bfbe0ef5b8b094ee545abc4496f03d7e3c",
+      "bytes": 39765,
+      "compressed": false
+    },
+    "final_evaluation/runs/main/analysis/exact_prediction_comparisons.csv": {
+      "sha256": "49c3c06ba38ea32f92b4ed5768155b98cc0dbba4a5c574d72f65db5819c83d38",
+      "bytes": 6760,
+      "compressed": false
+    },
+    "final_evaluation/runs/main/analysis/method_summary.csv": {
+      "sha256": "41a1d134a52e8c36ce2749f2a48a39adf47b65631e4833a2080e060599821ce1",
+      "bytes": 2292,
+      "compressed": false
+    },
+    "old_idea/data/search.json": {
+      "sha256": "7d42a8f02ee5866a9a6d1d8a604fca4b48a22a1f75a6a72748d570040597f3cb",
+      "bytes": 60746,
+      "compressed": false
+    },
+    "old_idea/data/validation.json": {
+      "sha256": "51f9d0b2a1fff47f8f949e8998e996c7dddd7eddcbbab5aafe11f631a2c5dd31",
+      "bytes": 48733,
+      "compressed": false
+    },
+    "old_idea/robust_prompt/__init__.py": {
+      "sha256": "e130e35a14d9a1cd59b8546fd551ebdd03cf3d54f28fba47303f0840cd3ebf8c",
+      "bytes": 73,
+      "compressed": false
+    },
+    "old_idea/robust_prompt/analysis.py": {
+      "sha256": "f552cc20eed4604b06e5542c7d87910411f075e04f712079fe7f5c77f816f3ef",
+      "bytes": 14506,
+      "compressed": false
+    },
+    "old_idea/robust_prompt/core.py": {
+      "sha256": "4aa04aad63adff953899297048b779fece5db948797b256414a21b5b14335b55",
+      "bytes": 7675,
+      "compressed": false
+    },
+    "old_idea/robust_prompt/data.py": {
+      "sha256": "46285a1d9a4560771500a629be7382e008d760e74044c95c53cd685acb129ea6",
+      "bytes": 4470,
+      "compressed": false
+    },
+    "old_idea/robust_prompt/gpu_select.py": {
+      "sha256": "ab7dff4c088f6311d3275d1e7e8253a4fafc148493babd3a68da1121b2932d25",
+      "bytes": 5107,
+      "compressed": false
+    },
+    "old_idea/robust_prompt/model.py": {
+      "sha256": "81b751a6d8f24f103c5ae76bd4c2ba1e90ee42b1f90c36fd5399ecab3020fbf8",
+      "bytes": 12306,
+      "compressed": false
+    },
+    "old_idea/robust_prompt/preflight.py": {
+      "sha256": "1712ccd277b129f4aed7ce48e237265f17f9a5fd8331e74c6c8f7faa9e0ffd3c",
+      "bytes": 1077,
+      "compressed": false
+    },
+    "old_idea/robust_prompt/storage.py": {
+      "sha256": "808da4b91759088430898e7f654c552d825bc59289671fbb48b3099e4efa564d",
+      "bytes": 2662,
+      "compressed": false
+    },
+    "old_idea/robust_prompt/workflow.py": {
+      "sha256": "8f3b0e9c40dbd9d30ad846cba46b76c427fa93e20f84cfa63374472673d5c227",
+      "bytes": 11455,
+      "compressed": false
+    },
+    "old_idea/runs/main/analysis/candidates.json": {
+      "sha256": "c5d9656985495cd84e2a0b07bbb2721eb4ab820773fe25bbbf33b40a0540fbbf",
+      "bytes": 439777,
+      "compressed": false
+    },
+    "old_idea/runs/main/frozen_prompts.json": {
+      "sha256": "477169438f11d7b406f796ee56ab38f82f89b803d0f6980c556d934319852b60",
+      "bytes": 12535,
+      "compressed": false
+    },
+    "old_idea/runs/main/records.sqlite": {
+      "sha256": "1877c3c5c9f1ecd9f7f412a0729b08816f37b227ea939f0303a391aa7c8a5d75",
+      "bytes": 415555584,
+      "compressed": false
+    },
+    "old_idea/runs/main/review/selection_audit.csv": {
+      "sha256": "859ea3098939685646087509bad349c295845357577e039cca79ca4f18084ca1",
+      "bytes": 434,
+      "compressed": false
+    }
+  },
+  "historical_sqlite_open_mode": "ro, immutable, query_only",
+  "decompressed_files_in_diagnostic_tmp": [],
+  "all_required_raw_sqlite_available_on_this_host": true,
+  "selected_final_predictions_gzip_not_used_to_construct_search_matrices": true
+}

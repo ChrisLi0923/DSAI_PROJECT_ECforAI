@@ -1,0 +1,8 @@
+method,seeds,valid_answer_differences,invalid_inclusive_answer_differences
+G0,"[11, 71]",0,100
+G0,[29],0,12
+G0,"[47, 101]",0,0
+G1,[11],0,100
+G1,"[29, 47, 71, 101]",0,0
+G2,"[11, 29, 47, 101]",0,0
+G2,[71],0,100
